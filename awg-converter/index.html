@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AWG Converter — AWG to mm², Diameter & Resistance per km (Table) | Loona Construction Calculators</title>
+<meta name="description" content="Free AWG converter: AWG gauge to diameter in mm and inches, cross-section in mm² and resistance per kilometre for copper and aluminium — or find the nearest AWG from mm² or diameter.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/awg-converter/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AWG Converter — AWG to mm², Diameter & Resistance per km (Table) | Loona Construction Calculators">
+<meta property="og:description" content="Free AWG converter: AWG gauge to diameter in mm and inches, cross-section in mm² and resistance per kilometre for copper and aluminium — or find the nearest AWG from mm² or diameter.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/awg-converter/">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AWG Converter — AWG to mm², Diameter & Resistance per km (Table) | Loona Construction Calculators">
+<meta name="twitter:description" content="Free AWG converter: AWG gauge to diameter in mm and inches, cross-section in mm² and resistance per kilometre for copper and aluminium — or find the nearest AWG from mm² or diameter.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Loona AWG Converter", "url": "https://loonaautomation.github.io/loona-construction-calculators/awg-converter/", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "Loona Automation", "url": "https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why doesn't AWG match mm\u00b2 steps?", "acceptedAnswer": {"@type": "Answer", "text": "AWG comes from the number of drawing dies a wire was pulled through in the 19th century \u2014 higher number, thinner wire. Its sizes (\u20263.31, 5.26, 8.37 mm\u00b2\u2026) simply land between the metric preferred sizes (\u20262.5, 4, 6, 10 mm\u00b2\u2026), so every conversion is a nearest match, not an equality."}}, {"@type": "Question", "name": "If I need at least a certain mm\u00b2, which AWG do I pick?", "acceptedAnswer": {"@type": "Answer", "text": "Pick the AWG whose area is at or above your requirement. Example: needing 2.5 mm\u00b2, 14 AWG gives only 2.08 mm\u00b2 (not enough) \u2014 13 AWG at 2.62 mm\u00b2 is the first size that covers it. This converter shows the nearest by area; for a minimum requirement, step one gauge thicker if the nearest is below your figure."}}, {"@type": "Question", "name": "Does this converter give ampacity (how many amps a wire can carry)?", "acceptedAnswer": {"@type": "Answer", "text": "No \u2014 deliberately. Ampacity depends on the insulation type, installation method, grouping and ambient temperature, and is defined by your local wiring code's tables, not by the gauge alone. This page converts sizes and resistance only; use the Wire Size and Voltage Drop calculators for drop, and your code (or an electrician) for ratings."}}, {"@type": "Question", "name": "Why is the resistance different from some tables I have seen?", "acceptedAnswer": {"@type": "Answer", "text": "Sources differ in the resistivity they assume (1.68 vs 1.72 \u00d710\u207b\u2078 \u03a9\u00b7m for copper are both common), in temperature (20 \u00b0C vs 25 \u00b0C), and in whether the conductor is solid or stranded. The differences are a few percent; this page states its constants so you can reproduce every figure."}}, {"@type": "Question", "name": "How do I measure an unknown wire's gauge?", "acceptedAnswer": {"@type": "Answer", "text": "Strip the insulation and measure the conductor diameter with calipers or a micrometer (for stranded wire, measure one strand and multiply its area by the strand count, or use a printed AWG gauge plate). Then use diameter mode here for the nearest gauge."}}, {"@type": "Question", "name": "What do 1/0, 2/0, 3/0 and 4/0 mean?", "acceptedAnswer": {"@type": "Answer", "text": "Below 1 AWG the series continues as 0 (written 1/0), 00 (2/0), 000 (3/0) and 0000 (4/0) \u2014 progressively thicker conductors used for service entrances, battery cables and heavy feeders."}}]}</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "Loona Automation",
+   "item": "https://loonaautomation.github.io/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "Loona Construction Calculators",
+   "item": "https://loonaautomation.github.io/loona-construction-calculators/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "name": "AWG Converter",
+   "item": "https://loonaautomation.github.io/loona-construction-calculators/awg-converter/"
+  }
+ ]
+}
+</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+</head>
+<body>
+<header>
+<img class="logo" src="../icon-192.png" alt="Loona Automation logo">
+<div class="brand">Loona <span>Construction Calculators</span></div>
+<nav>
+<a href="../index.html">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">About</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../index.html">Loona Construction Calculators</a> &rsaquo; Electrical &rsaquo; AWG Converter</div>
+<h1 class="pagetitle">📏 AWG Converter</h1>
+<p class="lead">Convert American Wire Gauge to the numbers the rest of the world uses: diameter in mm and inches, cross-section in mm², and resistance per kilometre for copper and aluminium — or go the other way, from mm² or diameter to the nearest AWG.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_mode">Convert from</label><select id="f_mode"><option value="awg" selected>AWG size</option><option value="mm2">Cross-section (mm&sup2;)</option><option value="dia">Diameter (mm)</option></select></div><div class="fld"><label for="f_awg">AWG size</label><select id="f_awg"><option value="0000">4/0 AWG</option><option value="000">3/0 AWG</option><option value="00">2/0 AWG</option><option value="0">1/0 AWG</option><option value="1">1 AWG</option><option value="2">2 AWG</option><option value="3">3 AWG</option><option value="4">4 AWG</option><option value="5">5 AWG</option><option value="6">6 AWG</option><option value="7">7 AWG</option><option value="8">8 AWG</option><option value="9">9 AWG</option><option value="10">10 AWG</option><option value="11">11 AWG</option><option value="12" selected>12 AWG</option><option value="13">13 AWG</option><option value="14">14 AWG</option><option value="15">15 AWG</option><option value="16">16 AWG</option><option value="17">17 AWG</option><option value="18">18 AWG</option><option value="19">19 AWG</option><option value="20">20 AWG</option><option value="21">21 AWG</option><option value="22">22 AWG</option><option value="23">23 AWG</option><option value="24">24 AWG</option><option value="25">25 AWG</option><option value="26">26 AWG</option><option value="27">27 AWG</option><option value="28">28 AWG</option><option value="29">29 AWG</option><option value="30">30 AWG</option><option value="32">32 AWG</option><option value="34">34 AWG</option><option value="36">36 AWG</option><option value="38">38 AWG</option><option value="40">40 AWG</option></select></div><div class="fld"><label for="f_mm2">Cross-section (mm&sup2;) — for mm&sup2; mode</label><input type="number" id="f_mm2" step="any" value="2.5"></div><div class="fld"><label for="f_dia">Conductor diameter (mm, bare conductor, no insulation) — for diameter mode</label><input type="number" id="f_dia" step="any" value=""></div>
+<button type="button" class="calcbtn" id="calcBtn">Calculate</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>How to use the AWG Converter</h2><ol><li>Choose what you are starting from: an AWG size, a metric cross-section, or a measured diameter.</li><li>Enter or select the value — for diameter, measure the bare conductor (calipers, insulation off, or a wire-gauge tool).</li><li>Press Calculate for the full row: diameter, area and resistance per km in copper and aluminium.</li></ol>
+<div class="exbox"><strong>Example:</strong> 12 AWG: diameter <strong>2.053 mm</strong> (0.0808 in), area <strong>3.31 mm²</strong>, copper resistance <strong>5.08 Ω/km</strong> at 20 °C.</div>
+<h2>Frequently Asked Questions</h2></section><div class="faq"><h3>Why doesn't AWG match mm² steps?</h3><p>AWG comes from the number of drawing dies a wire was pulled through in the 19th century — higher number, thinner wire. Its sizes (…3.31, 5.26, 8.37 mm²…) simply land between the metric preferred sizes (…2.5, 4, 6, 10 mm²…), so every conversion is a nearest match, not an equality.</p></div><div class="faq"><h3>If I need at least a certain mm², which AWG do I pick?</h3><p>Pick the AWG whose area is at or above your requirement. Example: needing 2.5 mm², 14 AWG gives only 2.08 mm² (not enough) — 13 AWG at 2.62 mm² is the first size that covers it. This converter shows the nearest by area; for a minimum requirement, step one gauge thicker if the nearest is below your figure.</p></div><div class="faq"><h3>Does this converter give ampacity (how many amps a wire can carry)?</h3><p>No — deliberately. Ampacity depends on the insulation type, installation method, grouping and ambient temperature, and is defined by your local wiring code's tables, not by the gauge alone. This page converts sizes and resistance only; use the Wire Size and Voltage Drop calculators for drop, and your code (or an electrician) for ratings.</p></div>
+<h2 class="sec">Related Calculators</h2><div class="grid"><a class="card" href="../wire-size-calculator/"><div class="ic">🧵</div><h3>Wire Size Calculator</h3><p>Electrical</p></a><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>Voltage Drop Calculator</h3><p>Electrical</p></a><a class="card" href="../resistor-colour-code-calculator/"><div class="ic">🌈</div><h3>Resistor Colour Code Calculator</h3><p>Electrical</p></a><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>Amps to Watts Calculator</h3><p>Electrical</p></a></div>
+</div>
+<section class="txt"><h2>How it works &mdash; the formula</h2>
+<p>AWG is a geometric series: each step changes the diameter by a fixed ratio (about ×1.123), so area roughly doubles every 3 gauges and diameter doubles every 6. The diameter and area figures here are the standard nominal values for each gauge (the series standardised in ASTM B 258, rounded for display).</p>
+<p><strong>Resistance per km</strong> = ρ × 1,000 ÷ Area (mm²), computed with ρ = 0.0168 Ω·mm²/m for copper and 0.0265 Ω·mm²/m for aluminium at 20 °C — the resistivity constants used consistently across this site's electrical calculators. Real conductors vary a little with stranding, temper and temperature (copper's resistance rises about 0.39% per °C).</p>
+<h3>Worked example</h3>
+<div class="exbox">12 AWG from the table: diameter 2.053 mm, area 3.31 mm². Copper resistance = 16.8 ÷ 3.31 = <strong>5.08 Ω/km</strong> (0.00508 Ω per metre). In inches: 2.053 ÷ 25.4 = <strong>0.0808 in</strong>. Cross-check by geometry: π × (2.053 ÷ 2)² = 3.31 mm² — the table's diameter and area agree.</div>
+
+<h3>Frequently asked questions</h3></section>
+<div class="faq"><h3>Why is the resistance different from some tables I have seen?</h3><p>Sources differ in the resistivity they assume (1.68 vs 1.72 ×10⁻⁸ Ω·m for copper are both common), in temperature (20 °C vs 25 °C), and in whether the conductor is solid or stranded. The differences are a few percent; this page states its constants so you can reproduce every figure.</p></div><div class="faq"><h3>How do I measure an unknown wire's gauge?</h3><p>Strip the insulation and measure the conductor diameter with calipers or a micrometer (for stranded wire, measure one strand and multiply its area by the strand count, or use a printed AWG gauge plate). Then use diameter mode here for the nearest gauge.</p></div><div class="faq"><h3>What do 1/0, 2/0, 3/0 and 4/0 mean?</h3><p>Below 1 AWG the series continues as 0 (written 1/0), 00 (2/0), 000 (3/0) and 0000 (4/0) — progressively thicker conductors used for service entrances, battery cables and heavy feeders.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed this calculator on your website — free</h2>
+<p style="margin:0 0 12px;line-height:1.6">Add this calculator to your own website or blog — it is completely free, needs no sign-up, and always shows the latest version. Copy the code below and paste it into your page where you want the calculator to appear. Keeping the small &ldquo;Powered by Loona Automation&rdquo; credit line under the embed helps keep this tool free &mdash; but you are free to style or remove it; the tool works either way.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/awg-converter/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="AWG Converter by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Powered by &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/awg-converter/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; free AWG Converter&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copy embed code</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copy embed code';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Popular Calculators</h4><ul><li><a href="../paint-calculator/">Paint Calculator</a></li>
+<li><a href="../concrete-calculator/">Concrete Calculator</a></li>
+<li><a href="../tile-calculator/">Tile Calculator</a></li>
+<li><a href="../brick-calculator/">Brick Calculator</a></li>
+<li><a href="../roof-pitch-calculator/">Roof Pitch Calculator</a></li>
+<li><a href="../stairs-calculator/">Stairs Calculator</a></li></ul></div>
+<div><h4>More Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">All Loona Tools</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">About</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Privacy Policy</a></li>
+<li><a href="../terms.html">Terms of Use</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Free construction calculators in metric and imperial units, no signup.
+Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var AWG_TABLE = {
+  "0000": [11.684, 107.2], "000": [10.404, 85.0], "00": [9.266, 67.4], "0": [8.251, 53.5],
+  "1": [7.348, 42.4], "2": [6.544, 33.6], "3": [5.827, 26.7], "4": [5.189, 21.2], "5": [4.621, 16.8],
+  "6": [4.115, 13.3], "7": [3.665, 10.5], "8": [3.264, 8.37], "9": [2.906, 6.63], "10": [2.588, 5.26],
+  "11": [2.305, 4.17], "12": [2.053, 3.31], "13": [1.828, 2.62], "14": [1.628, 2.08], "15": [1.450, 1.65],
+  "16": [1.291, 1.31], "17": [1.150, 1.04], "18": [1.024, 0.823], "19": [0.912, 0.653], "20": [0.812, 0.518],
+  "21": [0.723, 0.410], "22": [0.644, 0.326], "23": [0.573, 0.258], "24": [0.511, 0.205], "25": [0.455, 0.162],
+  "26": [0.405, 0.129], "27": [0.361, 0.102], "28": [0.321, 0.0810], "29": [0.286, 0.0642], "30": [0.255, 0.0509],
+  "32": [0.202, 0.0320], "34": [0.160, 0.0201], "36": [0.127, 0.0127], "38": [0.101, 0.00811], "40": [0.080, 0.00507]
+};
+function awgKeys() { return Object.keys(AWG_TABLE); }
+function nearestAwgByArea(a) {
+  var best = null, bestRatio = 1e9;
+  awgKeys().forEach(function (k) { var r = Math.max(AWG_TABLE[k][1] / a, a / AWG_TABLE[k][1]); if (r < bestRatio) { bestRatio = r; best = k; } });
+  return best;
+}
+function nearestAwgByDia(d) {
+  var best = null, bestRatio = 1e9;
+  awgKeys().forEach(function (k) { var r = Math.max(AWG_TABLE[k][0] / d, d / AWG_TABLE[k][0]); if (r < bestRatio) { bestRatio = r; best = k; } });
+  return best;
+}
+var LOONA_TOOL = { run: function (v) {
+  var awg;
+  if (v.mode === "awg") { awg = v.awgSel; if (!(awg in AWG_TABLE)) return bad("Please choose an AWG size."); }
+  else if (v.mode === "mm2") { if (!pos(v.mm2)) return bad("Please enter the cross-section in mm\u00B2."); awg = nearestAwgByArea(v.mm2); }
+  else { if (!pos(v.dia)) return bad("Please enter the conductor diameter in mm."); awg = nearestAwgByDia(v.dia); }
+  var dia = AWG_TABLE[awg][0], area = AWG_TABLE[awg][1];
+  var rCu = 16.8 / area, rAl = 26.5 / area;
+  var disp = (awg === "0000") ? "4/0" : (awg === "000") ? "3/0" : (awg === "00") ? "2/0" : (awg === "0") ? "1/0" : awg;
+  var html = resTable("AWG size", disp + " AWG",
+    [["Diameter", fmt(dia, 3) + " mm (" + fmt(dia / 25.4, 4) + " in)"],["Cross-section", fmt(area, 3) + " mm\u00B2"],["Resistance, copper (20\u00B0C)", fmt(rCu, 3) + " \u03A9/km  (" + fmt(rCu / 1000, 5) + " \u03A9/m)"],["Resistance, aluminium (20\u00B0C)", fmt(rAl, 3) + " \u03A9/km"]],
+    "Table source: nominal AWG geometry (diameter and area) per the standard AWG series defined in ASTM B 258, values rounded. Resistance is NOT tabulated \u2014 it is computed from the area with \u03C1 = 1.68\u00D710\u207B\u2078 \u03A9\u00B7m (copper) and 2.65\u00D710\u207B\u2078 \u03A9\u00B7m (aluminium) at 20\u00B0C, the same constants as the Voltage Drop Calculator. Stranded conductors, coatings and temperature shift real values slightly. This converter gives sizes and resistance only \u2014 it makes no ampacity or code-compliance claim; current ratings come from your local wiring code.");
+  return { ok: true, awg: disp, dia: dia, area: area, rCuKm: rCu, rAlKm: rAl, html: html };
+} };
+
+function collect(){ return { mode: gs("f_mode"), awgSel: gs("f_awg"), mm2: gv("f_mm2"), dia: gv("f_dia") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+</body>
+</html>
