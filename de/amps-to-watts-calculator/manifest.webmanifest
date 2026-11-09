@@ -1,0 +1,29 @@
+{
+  "name": "Loona Amps to Watts Calculator",
+  "short_name": "Amps to Watts Calculator",
+  "description": "Kostenloser Ampere-in-Watt-Rechner für DC, einphasigen und dreiphasigen Wechselstrom: Strom, Spannung und Leistungsfaktor ergeben Watt, Kilowatt und kVA — mit Formeln und einem Rechenbeispiel.",
+  "id": "/loona-construction-calculators/de/amps-to-watts-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for Painting a 12 × 14 ft Room",
+  "short_name": "Materials for Painting a 12 ×",
+  "description": "Komplette Einkaufsliste zum Streichen eines 12×14 ft Zimmers: Liter/Gallonen Farbe für 2 Anstriche, Grundierung, Klebeband, Rollen und Vorbereitungsmaterialien — berechnet, nicht geraten.",
+  "id": "/loona-construction-calculators/de/materials-for-painting-a-room/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

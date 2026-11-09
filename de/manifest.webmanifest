@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Kostenlose Bau-Rechner, die in BEIDEN, metrischen und imperialen, Einheiten arbeiten: Farbe, Fliesen, Beton, Bodenbelag, Trockenbau, Ziegel, Kies, Dachneigung, Treppen, Board Foot, Tapete, Mulch, Asphalt, Dämmung, Zaun, Terrasse, Poolvolumen, Solarpanel, Teppich, Sperrholz, Sand, Ohmsches Gesetz, Spannungsfall, Kabelquerschnitt, Stromkosten, Ampere zu Watt, Watt zu Ampere, kVA zu Ampere, Leistungsfaktor, Batterielaufzeit, LED-Widerstand, Dreiphasenleistung, Motorstrom, Widerstands-Farbcode, 555-Timer, AWG-Umrechnung, Reaktanz und Dezibel-Umrechnung — mit Verschnittzugaben und durchgerechneten Beispielen.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/de/"
+}

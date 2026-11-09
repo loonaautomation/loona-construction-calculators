@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Widerstands-Farbcode-Rechner — 4, 5 & 6 Ringe + umgekehrt (Wert zu Ringen) | Loona Construction Calculators</title>
+<meta name="description" content="Kostenloser Widerstands-Farbcode-Rechner: Wählen Sie die Ringfarben an einem 4-, 5- oder 6-Ring-Widerstand, um Widerstand, Toleranz und Temperaturkoeffizient zu erhalten — oder umgekehrt, Wert zu Ringen.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/de/resistor-colour-code-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/resistor-colour-code-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/resistor-colour-code-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/resistor-colour-code-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/resistor-colour-code-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/resistor-colour-code-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/resistor-colour-code-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/resistor-colour-code-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Widerstands-Farbcode-Rechner — 4, 5 & 6 Ringe + umgekehrt (Wert zu Ringen) | Loona Construction Calculators">
+<meta property="og:description" content="Kostenloser Widerstands-Farbcode-Rechner: Wählen Sie die Ringfarben an einem 4-, 5- oder 6-Ring-Widerstand, um Widerstand, Toleranz und Temperaturkoeffizient zu erhalten — oder umgekehrt, Wert zu Ringen.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/de/resistor-colour-code-calculator/"><meta property="og:locale" content="de_DE">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Widerstands-Farbcode-Rechner — 4, 5 & 6 Ringe + umgekehrt (Wert zu Ringen) | Loona Construction Calculators">
+<meta name="twitter:description" content="Kostenloser Widerstands-Farbcode-Rechner: Wählen Sie die Ringfarben an einem 4-, 5- oder 6-Ring-Widerstand, um Widerstand, Toleranz und Temperaturkoeffizient zu erhalten — oder umgekehrt, Wert zu Ringen.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Widerstands-Farbcode-Rechner","url":"https://loonaautomation.github.io/loona-construction-calculators/de/resistor-colour-code-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Von welchem Ende lese ich?","acceptedAnswer":{"@type":"Answer","text":"Beginnen Sie an dem Ende, wo die Ringe am nächsten zum Rand gruppiert sind, und lesen Sie zum Toleranzring hin — meist Gold, Silber oder mit einer breiteren Lücke abgesetzt. Bei 4-Ring-Teilen: Wenn beide Enden ähnlich aussehen, ist der erste Ring niemals Gold oder Silber (sie sind keine Ziffernfarben), was die Richtung festlegt."}},{"@type":"Question","name":"Was ist der Unterschied zwischen 4- und 5-Ring-Widerständen?","acceptedAnswer":{"@type":"Answer","text":"Die Präzision. Ein 4-Ring-Teil codiert zwei signifikante Ziffern und ist bei ±5% oder ±10% in Ordnung. Ein 5-Ring-Teil codiert drei Ziffern, sodass Werte wie 4.99 kΩ exakt spezifiziert werden können, und die Toleranzen sind meist ±1% oder besser (Metallfilm-Typen)."}},{"@type":"Question","name":"Was bedeutet der 6. Ring?","acceptedAnswer":{"@type":"Answer","text":"Der Temperaturkoeffizient: wie stark der Widerstand pro Grad Temperaturänderung driftet, in Teilen pro Million pro Kelvin. 50 ppm/K bedeutet, ein 1,000-Ω-Widerstand ändert sich um etwa 0.05 Ω pro Grad — relevant in Präzisions- und Messschaltungen, selten in alltäglichen."}},{"@type":"Question","name":"Warum sagt der umgekehrte Modus manchmal, der Wert könne nicht exakt gezeigt werden?","acceptedAnswer":{"@type":"Answer","text":"Weil ein 4-Ring-Code nur zwei signifikante Ziffern hält. 4,720 Ω braucht drei (4-7-2), also existiert ein 4-Ring-Widerstand bei diesem exakten Wert einfach nicht — der Rechner zeigt den nächstgelegenen darstellbaren und sagt es, statt so zu tun."}},{"@type":"Question","name":"Kann ich den Farben an einem alten oder verbrannten Widerstand trauen?","acceptedAnswer":{"@type":"Answer","text":"Hitze und Alter verblassen Farben — Rot, Orange und Braun werden schwer zu unterscheiden, und der Wert eines verbrannten Widerstands kann ohnehin gedriftet sein. Im Zweifel messen Sie mit einem Multimeter (außerhalb der Schaltung oder mit einem hochgehobenen Bein), statt den Ringen zu trauen."}},{"@type":"Question","name":"Was ist mit Widerständen mit nur 3 Ringen oder SMD-Codes?","acceptedAnswer":{"@type":"Answer","text":"Ein 3-Ring-Widerstand wird wie ein 4-Ring mit einer impliziten ±20%-Toleranz gelesen. SMD-Teile (Oberflächenmontage) verwenden gedruckte Zifferncodes statt Farben — ein anderes System, das dieser Rechner nicht abdeckt."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/de/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Widerstands-Farbcode-Rechner",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/de/resistor-colour-code-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo von Loona Automation">
+<div class="brand">Loona <span>Baurechner</span></div>
+<nav>
+<a href="../">Startseite</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Über uns</a>
+<a href="../contact.html">Kontakt</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Elektrik &rsaquo; Widerstands-Farbcode-Rechner</div>
+<h1 class="pagetitle">🌈 Widerstands-Farbcode-Rechner</h1>
+<p class="lead">Wählen Sie die Farben, die auf einen Widerstand gemalt sind — 4-, 5- oder 6-Ring — und lesen Sie seinen Widerstand, seine Toleranz und (bei 6 Ringen) seinen Temperaturkoeffizienten ab. Oder wechseln Sie in den umgekehrten Modus: Geben Sie einen Wert in Ohm ein und erhalten Sie die Ringe, die Sie sehen sollten.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_mode">Modus</label><select id="f_mode"><option value="fwd" selected>Farben &rarr; Widerstand</option><option value="rev">Widerstand &rarr; Farben (umgekehrt)</option></select></div><div class="fld"><label for="f_bands">Ringanzahl</label><select id="f_bands"><option value="4" selected>4 Ringe</option><option value="5">5 Ringe</option><option value="6">6 Ringe (fügt Temperaturkoeffizient hinzu)</option></select></div><div class="fld"><label for="f_b1">Ring 1 — erste Ziffer (Vorwärtsmodus)</label><select id="f_b1"><option value="black">Schwarz</option><option value="brown">Braun</option><option value="red">Rot</option><option value="orange">Orange</option><option value="yellow" selected>Gelb</option><option value="green">Grün</option><option value="blue">Blau</option><option value="violet">Violett</option><option value="grey">Grau</option><option value="white">Weiß</option><option value="gold">Gold</option><option value="silver">Silber</option></select></div><div class="fld"><label for="f_b2">Ring 2 — zweite Ziffer</label><select id="f_b2"><option value="black">Schwarz</option><option value="brown">Braun</option><option value="red">Rot</option><option value="orange">Orange</option><option value="yellow">Gelb</option><option value="green">Grün</option><option value="blue">Blau</option><option value="violet" selected>Violett</option><option value="grey">Grau</option><option value="white">Weiß</option><option value="gold">Gold</option><option value="silver">Silber</option></select></div><div class="fld"><label for="f_b3">Ring 3 — dritte Ziffer (5/6 Ringe) oder Multiplikator (4 Ringe)</label><select id="f_b3"><option value="black">Schwarz</option><option value="brown" selected>Braun</option><option value="red">Rot</option><option value="orange">Orange</option><option value="yellow">Gelb</option><option value="green">Grün</option><option value="blue">Blau</option><option value="violet">Violett</option><option value="grey">Grau</option><option value="white">Weiß</option><option value="gold">Gold</option><option value="silver">Silber</option></select></div><div class="fld"><label for="f_b4">Ring 4 — Multiplikator (5/6 Ringe) oder Toleranz (4 Ringe)</label><select id="f_b4"><option value="black">Schwarz</option><option value="brown">Braun</option><option value="red">Rot</option><option value="orange">Orange</option><option value="yellow">Gelb</option><option value="green">Grün</option><option value="blue">Blau</option><option value="violet">Violett</option><option value="grey">Grau</option><option value="white">Weiß</option><option value="gold" selected>Gold</option><option value="silver">Silber</option></select></div><div class="fld"><label for="f_b5">Ring 5 — Toleranz (5/6 Ringe)</label><select id="f_b5"><option value="black">Schwarz</option><option value="brown" selected>Braun</option><option value="red">Rot</option><option value="orange">Orange</option><option value="yellow">Gelb</option><option value="green">Grün</option><option value="blue">Blau</option><option value="violet">Violett</option><option value="grey">Grau</option><option value="white">Weiß</option><option value="gold">Gold</option><option value="silver">Silber</option></select></div><div class="fld"><label for="f_b6">Ring 6 — Temperaturkoeffizient (nur 6 Ringe)</label><select id="f_b6"><option value="black">Schwarz</option><option value="brown">Braun</option><option value="red" selected>Rot</option><option value="orange">Orange</option><option value="yellow">Gelb</option><option value="green">Grün</option><option value="blue">Blau</option><option value="violet">Violett</option><option value="grey">Grau</option><option value="white">Weiß</option><option value="gold">Gold</option><option value="silver">Silber</option></select></div><div class="fld"><label for="f_rev">Umgekehrter Modus: Widerstandswert (Ohm)</label><input type="number" id="f_rev" step="any" value="4700"></div><div class="fld"><label for="f_revtol">Umgekehrter Modus: Farbe des Toleranzrings</label><select id="f_revtol"><option value="gold" selected>Gold (±5%)</option><option value="silver">Silber (±10%)</option><option value="brown">Braun (±1%)</option><option value="red">Rot (±2%)</option><option value="green">Grün (±0.5%)</option><option value="blue">Blau (±0.25%)</option><option value="violet">Violett (±0.1%)</option><option value="none">Kein Ring (±20%)</option></select></div>
+<button type="button" class="calcbtn" id="calcBtn">Berechnen</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>So verwenden Sie den Widerstands-Farbcode-Rechner</h2><ol><li>Wählen Sie den Vorwärts- oder Umkehrmodus und die auf dem Widerstand gedruckte Ringanzahl.</li><li>Vorwärts: Stellen Sie die Farbe jedes Rings der Reihe nach ein, beginnend mit dem Ring, der einem Ende am nächsten ist (der Toleranzring — Gold, Silber oder weit abgesetzt — wird zuletzt gelesen).</li><li>Umgekehrt: Geben Sie den Wert in Ohm und die gewünschte Toleranz ein; der Rechner benennt die Ringfarben und den exakten Wert, den sie darstellen.</li></ol>
+<div class="exbox"><strong>Beispiel:</strong> Gelb – Violett – Braun – Gold an einem 4-Ring-Widerstand: 4, 7, ×10 → <strong>470 Ω ±5%</strong>.</div>
+<h2>Häufige Fragen</h2></section><div class="faq"><h3>Von welchem Ende lese ich?</h3><p>Beginnen Sie an dem Ende, wo die Ringe am nächsten zum Rand gruppiert sind, und lesen Sie zum Toleranzring hin — meist Gold, Silber oder mit einer breiteren Lücke abgesetzt. Bei 4-Ring-Teilen: Wenn beide Enden ähnlich aussehen, ist der erste Ring niemals Gold oder Silber (sie sind keine Ziffernfarben), was die Richtung festlegt.</p></div><div class="faq"><h3>Was ist der Unterschied zwischen 4- und 5-Ring-Widerständen?</h3><p>Die Präzision. Ein 4-Ring-Teil codiert zwei signifikante Ziffern und ist bei ±5% oder ±10% in Ordnung. Ein 5-Ring-Teil codiert drei Ziffern, sodass Werte wie 4.99 kΩ exakt spezifiziert werden können, und die Toleranzen sind meist ±1% oder besser (Metallfilm-Typen).</p></div><div class="faq"><h3>Was bedeutet der 6. Ring?</h3><p>Der Temperaturkoeffizient: wie stark der Widerstand pro Grad Temperaturänderung driftet, in Teilen pro Million pro Kelvin. 50 ppm/K bedeutet, ein 1,000-Ω-Widerstand ändert sich um etwa 0.05 Ω pro Grad — relevant in Präzisions- und Messschaltungen, selten in alltäglichen.</p></div>
+<h2 class="sec">Verwandte Rechner</h2><div class="grid"><a class="card" href="../led-resistor-calculator/"><div class="ic">💡</div><h3>LED-Widerstand-Rechner</h3><p>Elektrik</p></a><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>Ohmsches-Gesetz-Rechner</h3><p>Elektrik</p></a><a class="card" href="../awg-converter/"><div class="ic">📏</div><h3>AWG-Umrechner</h3><p>Elektrik</p></a><a class="card" href="../reactance-calculator/"><div class="ic">〰️</div><h3>Reaktanz-Rechner</h3><p>Elektrik</p></a></div>
+</div>
+<section class="txt"><h2>So funktioniert es &mdash; die Formel</h2>
+<p><strong>4 Ringe:</strong> Wert = (10 × d<sub>1</sub> + d<sub>2</sub>) × Multiplikator, 4. Ring = Toleranz<br>
+<strong>5 Ringe:</strong> Wert = (100 × d<sub>1</sub> + 10 × d<sub>2</sub> + d<sub>3</sub>) × Multiplikator, 5. Ring = Toleranz<br>
+<strong>6 Ringe:</strong> wie 5 Ringe, 6. Ring = Temperaturkoeffizient (ppm/K)</p>
+<p>Ziffernfarben: Schwarz 0, Braun 1, Rot 2, Orange 3, Gelb 4, Grün 5, Blau 6, Violett 7, Grau 8, Weiß 9. Multiplikatoren laufen ×0.01 (Silber) und ×0.1 (Gold) bis ×10⁹ (Weiß). Toleranzen: Gold ±5%, Silber ±10%, kein Ring ±20%, und die Präzisionsfarben Braun ±1%, Rot ±2%, Grün ±0.5%, Blau ±0.25%, Violett ±0.1%, Grau ±0.05%. Temperaturkoeffizienten: Braun 100, Rot 50, Orange 15, Gelb 25, Grün 20, Blau 10, Violett 5, Grau 1 ppm/K (Schwarz 250).</p>
+<h3>Rechenbeispiel</h3>
+<div class="exbox">4 Ringe, Gelb–Violett–Braun–Gold: Die Ziffern 4 und 7 ergeben 47; der braune Multiplikator ist ×10; 47 × 10 = <strong>470 Ω</strong>; Gold bedeutet ±5%, also liegt der wahre Wert zwischen 446.5 Ω und 493.5 Ω. Umkehrprobe: 4,700 Ω in 4-Ring-Form ist 47 × 100, und ×100 ist der rote Multiplikator — Gelb, Violett, <strong>Rot</strong>, plus Ihr Toleranzring.</div>
+
+<h3>Häufige Fragen</h3></section>
+<div class="faq"><h3>Warum sagt der umgekehrte Modus manchmal, der Wert könne nicht exakt gezeigt werden?</h3><p>Weil ein 4-Ring-Code nur zwei signifikante Ziffern hält. 4,720 Ω braucht drei (4-7-2), also existiert ein 4-Ring-Widerstand bei diesem exakten Wert einfach nicht — der Rechner zeigt den nächstgelegenen darstellbaren und sagt es, statt so zu tun.</p></div><div class="faq"><h3>Kann ich den Farben an einem alten oder verbrannten Widerstand trauen?</h3><p>Hitze und Alter verblassen Farben — Rot, Orange und Braun werden schwer zu unterscheiden, und der Wert eines verbrannten Widerstands kann ohnehin gedriftet sein. Im Zweifel messen Sie mit einem Multimeter (außerhalb der Schaltung oder mit einem hochgehobenen Bein), statt den Ringen zu trauen.</p></div><div class="faq"><h3>Was ist mit Widerständen mit nur 3 Ringen oder SMD-Codes?</h3><p>Ein 3-Ring-Widerstand wird wie ein 4-Ring mit einer impliziten ±20%-Toleranz gelesen. SMD-Teile (Oberflächenmontage) verwenden gedruckte Zifferncodes statt Farben — ein anderes System, das dieser Rechner nicht abdeckt.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Diesen Rechner auf Ihrer Website einbetten — kostenlos</h2>
+<p style="margin:0 0 12px;line-height:1.6">Fügen Sie diesen Rechner zu Ihrer eigenen Website oder Ihrem Blog hinzu — er ist völlig kostenlos, braucht keine Anmeldung und zeigt immer die neueste Version. Kopieren Sie den Code unten und fügen Sie ihn in Ihre Seite ein, wo der Rechner erscheinen soll. Die kleine Zeile &ldquo;Powered by Loona Automation&rdquo; unter der Einbettung zu behalten hilft, dieses Tool kostenlos zu halten &mdash; aber Sie können sie gern gestalten oder entfernen; das Tool funktioniert so oder so.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/de/resistor-colour-code-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Resistor Colour Code Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Bereitgestellt von &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/de/resistor-colour-code-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; kostenlos Widerstands-Farbcode-Rechner&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Einbettungscode kopieren</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Kopiert!';setTimeout(function(){b.textContent='Embed-Code kopieren';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Beliebte Rechner</h4><ul><li><a href="../paint-calculator/">Farben-Rechner</a></li>
+<li><a href="../concrete-calculator/">Beton-Rechner</a></li>
+<li><a href="../tile-calculator/">Fliesen-Rechner</a></li>
+<li><a href="../brick-calculator/">Ziegel-Rechner</a></li>
+<li><a href="../roof-pitch-calculator/">Dachneigungs-Rechner</a></li>
+<li><a href="../stairs-calculator/">Treppen-Rechner</a></li></ul></div>
+<div><h4>Mehr Loona-Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Alle Loona-Tools</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Über uns</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Datenschutzerklärung</a></li>
+<li><a href="../terms.html">Nutzungsbedingungen</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; ein <a href="https://loonaautomation.github.io/">Loona Automation</a>  Projekt. Kostenlose Baurechner in metrischen und imperialen Einheiten, ohne Anmeldung.
+Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var DIGIT = { black: 0, brown: 1, red: 2, orange: 3, yellow: 4, green: 5, blue: 6, violet: 7, grey: 8, white: 9 };
+var MULT = { silver: 0.01, gold: 0.1, black: 1, brown: 10, red: 100, orange: 1000, yellow: 10000, green: 100000, blue: 1000000, violet: 10000000, grey: 100000000, white: 1000000000 };
+var MULT_NAME = { "-2": "silver", "-1": "gold", "0": "black", "1": "brown", "2": "red", "3": "orange", "4": "yellow", "5": "green", "6": "blue", "7": "violet", "8": "grey", "9": "white" };
+var TOL = { brown: 1, red: 2, green: 0.5, blue: 0.25, violet: 0.1, grey: 0.05, gold: 5, silver: 10, none: 20 };
+var TEMPCO = { black: 250, brown: 100, red: 50, orange: 15, yellow: 25, green: 20, blue: 10, violet: 5, grey: 1 };
+function fmtOhms(x) {
+  if (x >= 1000000) return fmt(x / 1000000, 3) + " M\u03A9";
+  if (x >= 1000) return fmt(x / 1000, 3) + " k\u03A9";
+  return fmt(x, 2) + " \u03A9";
+}
+var LOONA_TOOL = { run: function (v) {
+  if (v.mode === "rev") {
+    if (!pos(v.revValue)) return bad("Bitte geben Sie den Widerstandswert in Ohm ein.");
+    var ndig = (v.bands === "4") ? 2 : 3;
+    var exp = Math.floor(Math.log10(v.revValue)) - (ndig - 1);
+    if (exp < -2) exp = -2; if (exp > 9) exp = 9;
+    var mant = v.revValue / Math.pow(10, exp);
+    var mantR = Math.round(mant);
+    if (mantR >= Math.pow(10, ndig)) { mantR = mantR / 10; exp += 1; }
+    var represented = mantR * Math.pow(10, exp);
+    var digNames = ["black","brown","red","orange","yellow","green","blue","violet","grey","white"];
+    var bandNames = [];
+    var s = String(mantR);
+    while (s.length < ndig) s = "0" + s;
+    for (var i = 0; i < ndig; i++) bandNames.push(digNames[parseInt(s[i], 10)]);
+    bandNames.push(MULT_NAME[String(exp)]);
+    var tolPct = TOL[v.revTol];
+    var rowsR = [["Ziffer- / Multiplikatorbänder", bandNames.join(" \u2013 " )],["Toleranzband", v.revTol + " (\u00B1" + tolPct + "%)"],["Wert, den die Bänder darstellen", fmtOhms(represented)]];
+    if (Math.abs(represented - v.revValue) > represented * 0.001) rowsR.push(["Hinweis", "Ihr exakter Wert kann nicht gezeigt werden mit " + ndig + " signifikante Stellen \u2014 diese Bänder geben den nächsten darstellbaren Wert."]);
+    var htmlR = resTable("Bänder für " + fmtOhms(v.revValue), bandNames.join(", ") + ", " + v.revTol, rowsR,
+      "Lesen Sie die Bänder vom Ende, das dem Bändercluster am nächsten ist, mit dem Toleranzband (oft gold, silber oder ein weiter auseinanderliegendes Band) zuletzt.");
+    return { ok: true, represented: represented, revBands: bandNames.concat([v.revTol]), tolPct: tolPct, html: htmlR };
+  }
+  var b = v.bandCols;
+  var tolBand = v.tolBand;
+  if (!(b[0] in DIGIT) || !(b[1] in DIGIT)) return bad("Bitte wählen Sie Farben für jedes Band.");
+  var digits, multC;
+  if (v.bands === "4") { digits = DIGIT[b[0]] * 10 + DIGIT[b[1]]; multC = b[2]; }
+  else { if (!(b[2] in DIGIT)) return bad("Bitte wählen Sie Farben für jedes Band."); digits = DIGIT[b[0]] * 100 + DIGIT[b[1]] * 10 + DIGIT[b[2]]; multC = b[3]; }
+  if (!(multC in MULT)) return bad("Die Farbe des Multiplikatorbands ist ungültig.");
+  var ohms = digits * MULT[multC];
+  var tol = TOL[tolBand];
+  if (tol === undefined) return bad("Das Toleranzband muss braun, rot, grün, blau, violett, grau, gold, silber sein \u2014 oder wählen Sie 'keine' \u00B120%.");
+  var rows = [["Widerstand", fmtOhms(ohms) + " (" + fmt(ohms, 2) + " \u03A9)"],["Toleranz", "\u00B1" + tol + "%  \u2192  zwischen " + fmtOhms(ohms * (1 - tol / 100)) + " and " + fmtOhms(ohms * (1 + tol / 100))]];
+  var tempco = null;
+  if (v.bands === "6") { tempco = TEMPCO[b[5]]; if (tempco === undefined) return bad("Die Farbe des Temperaturkoeffizientbands ist ungültig."); rows.push(["Temperaturkoeffizient", tempco + " ppm/K"]);}
+  var html = resTable("Widerstand", fmtOhms(ohms) + " \u00B1" + tol + "%", rows,
+    "Tipp: Halten Sie den Widerstand mit dem Bändercluster links und dem Toleranzband (gold, silber oder das abweichende) rechts, dann lesen Sie von links nach rechts.");
+  return { ok: true, ohms: ohms, tolPct: tol, tempco: tempco, html: html };
+} };
+
+function collect(){
+  var bc = gs("f_bands");
+  var cols = [gs("f_b1"), gs("f_b2"), gs("f_b3"), gs("f_b4"), gs("f_b5"), gs("f_b6")];
+  var tolBand = (bc === "4") ? cols[3] : cols[4];
+  if (tolBand === "none") tolBand = "none";
+  return { mode: gs("f_mode"), bands: bc, bandCols: cols, tolBand: tolBand, revValue: gv("f_rev"), revTol: gs("f_revtol") };
+}
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' App installieren';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installieren Sie diese App: Tippen Sie auf die Teilen-Schaltfläche und wählen Sie dann "Zum Home-Bildschirm hinzufügen".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

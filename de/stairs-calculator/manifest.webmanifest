@@ -1,0 +1,29 @@
+{
+  "name": "Loona Stairs Calculator",
+  "short_name": "Stairs Calculator",
+  "description": "Kostenloser Treppen-Rechner: Geben Sie die Gesamtsteigung in metrisch oder imperial ein — erhalten Sie die Anzahl der Stufen, die exakte Steigungshöhe, den Gesamtverlauf und die Wangenlänge, mit der 2R + T Komfortregel automatisch geprüft.",
+  "id": "/loona-construction-calculators/de/stairs-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

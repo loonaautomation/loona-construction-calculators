@@ -1,0 +1,29 @@
+{
+  "name": "Loona Reactance Calculator",
+  "short_name": "Reactance Calculator",
+  "description": "Kostenloser Reaktanz-Rechner: Frequenz mit Kapazität (µF) ergibt kapazitive Reaktanz Xc, mit Induktivität (mH) ergibt induktive Reaktanz Xl — geben Sie beide ein für die Nettoreaktanz und die LC-Resonanzfrequenz.",
+  "id": "/loona-construction-calculators/de/reactance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

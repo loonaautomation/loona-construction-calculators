@@ -1,0 +1,29 @@
+{
+  "name": "Loona Paint Calculator",
+  "short_name": "Paint Calculator",
+  "description": "Kostenloser Farben-Rechner: Geben Sie die Zimmergröße in Metern oder Fuß ein, ziehen Sie Türen und Fenster ab, wählen Sie Anstriche und Abdeckung und erhalten Sie benötigte Farbe und Grundierung in Litern oder Gallonen — mit einer Verschnittzugabe.",
+  "id": "/loona-construction-calculators/de/paint-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

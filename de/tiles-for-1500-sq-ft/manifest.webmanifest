@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 1500 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 1500 Sq",
+  "description": "Fliesen für 1500 sq ft mit 60×60 cm Fliesen und 3 mm Fugen: 422 Fliesen (106 Kartons à 4) einschließlich 10% extra für Schnitte und Brüche.",
+  "id": "/loona-construction-calculators/de/tiles-for-1500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

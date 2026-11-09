@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Concrete for 1500 Sq Ft? Volume",
+  "short_name": "How Much Concrete for 1500 Sq",
+  "description": "Beton für eine 1500 sq ft Platte, 4 Zoll dick: 15.57 m³ (20.37 yd³) einschließlich 10% extra, plus Sackanzahlen für 80 lb, 60 lb, 25 kg und 20 kg Fertigmischung.",
+  "id": "/loona-construction-calculators/de/concrete-for-1500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

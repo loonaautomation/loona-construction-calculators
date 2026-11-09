@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 2000 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 2000 Sq Ft",
+  "description": "Farbe für 2000 sq ft Wand: 40.9 Liter (10.8 gal) für 2 Anstriche bei typischer Abdeckung von 10 m²/L, plus 17.0 L Grundierung — mit den angegebenen Annahmen.",
+  "id": "/loona-construction-calculators/de/paint-for-2000-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

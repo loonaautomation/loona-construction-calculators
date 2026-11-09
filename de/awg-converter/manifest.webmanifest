@@ -1,0 +1,29 @@
+{
+  "name": "Loona AWG Converter",
+  "short_name": "AWG Converter",
+  "description": "Kostenloser AWG-Umrechner: AWG-Größe zu Durchmesser in mm und Zoll, Querschnitt in mm² und Widerstand pro Kilometer für Kupfer und Aluminium — oder finden Sie den nächsten AWG aus mm² oder Durchmesser.",
+  "id": "/loona-construction-calculators/de/awg-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

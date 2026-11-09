@@ -1,0 +1,29 @@
+{
+  "name": "Loona Watts to Amps Calculator",
+  "short_name": "Watts to Amps Calculator",
+  "description": "Kostenloser Watt-zu-Ampere-Rechner für DC, AC einphasig und AC dreiphasig: Leistung, Spannung und Leistungsfaktor ergeben den Strom in Ampere — der erste Schritt zur Dimensionierung eines Schutzschalters oder Kabels.",
+  "id": "/loona-construction-calculators/de/watts-to-amps-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
