@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Concrete for 200 Sq Ft? Volume &",
+  "short_name": "How Much Concrete for 200 Sq",
+  "description": "Betão para uma laje de 200 sq ft, com 4 polegadas de espessura: 2.08 m³ (2.72 yd³) incluindo 10% extra, mais as contagens de sacos pré-misturados de 80 lb, 60 lb, 25 kg e 20 kg.",
+  "id": "/loona-construction-calculators/pt/concrete-for-200-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

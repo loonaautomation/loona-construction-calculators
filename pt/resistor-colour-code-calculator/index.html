@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de código de cores de resistências — 4, 5 e 6 bandas + inverso (valor para bandas) | Loona Construction Calculators</title>
+<meta name="description" content="Calculadora gratuita de código de cores de resistências: escolha as cores das bandas de uma resistência de 4, 5 ou 6 bandas para obter resistência, tolerância e coeficiente de temperatura — ou inverta, de valor para bandas.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/pt/resistor-colour-code-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/resistor-colour-code-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/resistor-colour-code-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/resistor-colour-code-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/resistor-colour-code-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/resistor-colour-code-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/resistor-colour-code-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/resistor-colour-code-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculadora de código de cores de resistências — 4, 5 e 6 bandas + inverso (valor para bandas) | Loona Construction Calculators">
+<meta property="og:description" content="Calculadora gratuita de código de cores de resistências: escolha as cores das bandas de uma resistência de 4, 5 ou 6 bandas para obter resistência, tolerância e coeficiente de temperatura — ou inverta, de valor para bandas.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/pt/resistor-colour-code-calculator/"><meta property="og:locale" content="pt_PT">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculadora de código de cores de resistências — 4, 5 e 6 bandas + inverso (valor para bandas) | Loona Construction Calculators">
+<meta name="twitter:description" content="Calculadora gratuita de código de cores de resistências: escolha as cores das bandas de uma resistência de 4, 5 ou 6 bandas para obter resistência, tolerância e coeficiente de temperatura — ou inverta, de valor para bandas.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculadora de código de cores de resistências Loona","url":"https://loonaautomation.github.io/loona-construction-calculators/pt/resistor-colour-code-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Por que extremidade leio?","acceptedAnswer":{"@type":"Answer","text":"Comece na extremidade onde as bandas estão agrupadas mais perto da borda, e leia em direção à banda de tolerância — normalmente dourada, prateada, ou separada com um intervalo mais largo. Em peças de 4 bandas, se ambas as extremidades parecerem semelhantes, a primeira banda nunca é dourada ou prateada (não são cores de dígito), o que resolve a direção."}},{"@type":"Question","name":"Qual é a diferença entre resistências de 4 e 5 bandas?","acceptedAnswer":{"@type":"Answer","text":"A precisão. Uma peça de 4 bandas codifica dois dígitos significativos e serve a ±5% ou ±10%. Uma peça de 5 bandas codifica três dígitos, por isso valores como 4.99 kΩ podem ser especificados exatamente, e as tolerâncias são normalmente ±1% ou melhores (tipos de filme metálico)."}},{"@type":"Question","name":"O que significa a 6ª banda?","acceptedAnswer":{"@type":"Answer","text":"O coeficiente de temperatura: quanto a resistência deriva por grau de mudança de temperatura, em partes por milhão por kelvin. 50 ppm/K significa que uma resistência de 1,000 Ω muda cerca de 0.05 Ω por grau — relevante em circuitos de precisão e medição, raramente nos quotidianos."}},{"@type":"Question","name":"Porque é que o modo inverso às vezes diz que o valor não pode ser mostrado exatamente?","acceptedAnswer":{"@type":"Answer","text":"Porque um código de 4 bandas contém apenas dois dígitos significativos. 4,720 Ω precisa de três (4-7-2), por isso uma resistência de 4 bandas simplesmente não existe com esse valor exato — a calculadora mostra o representável mais próximo e diz isso, em vez de fingir."}},{"@type":"Question","name":"Posso confiar nas cores de uma resistência velha ou queimada?","acceptedAnswer":{"@type":"Answer","text":"O calor e a idade desvanecem as cores — vermelho, laranja e castanho tornam-se difíceis de distinguir, e o valor de uma resistência queimada pode ter derivado de qualquer forma. Em caso de dúvida, meça com um multímetro (fora do circuito, ou com uma perna levantada) em vez de confiar nas bandas."}},{"@type":"Question","name":"E as resistências com apenas 3 bandas, ou os códigos SMD?","acceptedAnswer":{"@type":"Answer","text":"Uma resistência de 3 bandas lê-se como uma de 4 bandas com uma tolerância implícita de ±20%. As peças SMD (montagem superficial) usam códigos de dígitos impressos em vez de cores — um sistema diferente não coberto por esta calculadora."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/pt/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculadora de código de cores de resistências",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/pt/resistor-colour-code-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logótipo da Loona Automation">
+<div class="brand">Loona <span>Calculadoras de construção</span></div>
+<nav>
+<a href="../">Início</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Sobre</a>
+<a href="../contact.html">Contacto</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Eletricidade &rsaquo; Calculadora de código de cores de resistências</div>
+<h1 class="pagetitle">🌈 Calculadora de código de cores de resistências</h1>
+<p class="lead">Escolha as cores pintadas numa resistência — 4, 5 ou 6 bandas — e leia a sua resistência, tolerância e (para 6 bandas) coeficiente de temperatura. Ou mude para o modo inverso: escreva um valor em ohms e obtenha as bandas que deverá ver.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_mode">Modo</label><select id="f_mode"><option value="fwd" selected>Cores &rarr; resistência</option><option value="rev">Resistência &rarr; cores (inverso)</option></select></div><div class="fld"><label for="f_bands">Número de bandas</label><select id="f_bands"><option value="4" selected>4 bandas</option><option value="5">5 bandas</option><option value="6">6 bandas (adiciona coeficiente de temperatura)</option></select></div><div class="fld"><label for="f_b1">Banda 1 — primeiro dígito (modo direto)</label><select id="f_b1"><option value="black">Preto</option><option value="brown">Castanho</option><option value="red">Vermelho</option><option value="orange">Laranja</option><option value="yellow" selected>Amarelo</option><option value="green">Verde</option><option value="blue">Azul</option><option value="violet">Violeta</option><option value="grey">Cinzento</option><option value="white">Branco</option><option value="gold">Dourado</option><option value="silver">Prateado</option></select></div><div class="fld"><label for="f_b2">Banda 2 — segundo dígito</label><select id="f_b2"><option value="black">Preto</option><option value="brown">Castanho</option><option value="red">Vermelho</option><option value="orange">Laranja</option><option value="yellow">Amarelo</option><option value="green">Verde</option><option value="blue">Azul</option><option value="violet" selected>Violeta</option><option value="grey">Cinzento</option><option value="white">Branco</option><option value="gold">Dourado</option><option value="silver">Prateado</option></select></div><div class="fld"><label for="f_b3">Banda 3 — terceiro dígito (5/6 bandas) ou multiplicador (4 bandas)</label><select id="f_b3"><option value="black">Preto</option><option value="brown" selected>Castanho</option><option value="red">Vermelho</option><option value="orange">Laranja</option><option value="yellow">Amarelo</option><option value="green">Verde</option><option value="blue">Azul</option><option value="violet">Violeta</option><option value="grey">Cinzento</option><option value="white">Branco</option><option value="gold">Dourado</option><option value="silver">Prateado</option></select></div><div class="fld"><label for="f_b4">Banda 4 — multiplicador (5/6 bandas) ou tolerância (4 bandas)</label><select id="f_b4"><option value="black">Preto</option><option value="brown">Castanho</option><option value="red">Vermelho</option><option value="orange">Laranja</option><option value="yellow">Amarelo</option><option value="green">Verde</option><option value="blue">Azul</option><option value="violet">Violeta</option><option value="grey">Cinzento</option><option value="white">Branco</option><option value="gold" selected>Dourado</option><option value="silver">Prateado</option></select></div><div class="fld"><label for="f_b5">Banda 5 — tolerância (5/6 bandas)</label><select id="f_b5"><option value="black">Preto</option><option value="brown" selected>Castanho</option><option value="red">Vermelho</option><option value="orange">Laranja</option><option value="yellow">Amarelo</option><option value="green">Verde</option><option value="blue">Azul</option><option value="violet">Violeta</option><option value="grey">Cinzento</option><option value="white">Branco</option><option value="gold">Dourado</option><option value="silver">Prateado</option></select></div><div class="fld"><label for="f_b6">Banda 6 — coeficiente de temperatura (só 6 bandas)</label><select id="f_b6"><option value="black">Preto</option><option value="brown">Castanho</option><option value="red" selected>Vermelho</option><option value="orange">Laranja</option><option value="yellow">Amarelo</option><option value="green">Verde</option><option value="blue">Azul</option><option value="violet">Violeta</option><option value="grey">Cinzento</option><option value="white">Branco</option><option value="gold">Dourado</option><option value="silver">Prateado</option></select></div><div class="fld"><label for="f_rev">Modo inverso: valor de resistência (ohms)</label><input type="number" id="f_rev" step="any" value="4700"></div><div class="fld"><label for="f_revtol">Modo inverso: cor da banda de tolerância</label><select id="f_revtol"><option value="gold" selected>Dourado (±5%)</option><option value="silver">Prateado (±10%)</option><option value="brown">Castanho (±1%)</option><option value="red">Vermelho (±2%)</option><option value="green">Verde (±0.5%)</option><option value="blue">Azul (±0.25%)</option><option value="violet">Violeta (±0.1%)</option><option value="none">Sem banda (±20%)</option></select></div>
+<button type="button" class="calcbtn" id="calcBtn">Calcular</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Como usar a calculadora de código de cores de resistências</h2><ol><li>Escolha o modo direto ou inverso e o número de bandas impresso na resistência.</li><li>Direto: defina a cor de cada banda por ordem, começando pela banda mais próxima de uma extremidade (a banda de tolerância — dourada, prateada ou muito espaçada — lê-se por último).</li><li>Inverso: introduza o valor em ohms e a tolerância que quer; a calculadora nomeia as cores das bandas e o valor exato que representam.</li></ol>
+<div class="exbox"><strong>Exemplo:</strong> Amarelo – violeta – castanho – dourado numa resistência de 4 bandas: 4, 7, ×10 → <strong>470 Ω ±5%</strong>.</div>
+<h2>Perguntas frequentes</h2></section><div class="faq"><h3>Por que extremidade leio?</h3><p>Comece na extremidade onde as bandas estão agrupadas mais perto da borda, e leia em direção à banda de tolerância — normalmente dourada, prateada, ou separada com um intervalo mais largo. Em peças de 4 bandas, se ambas as extremidades parecerem semelhantes, a primeira banda nunca é dourada ou prateada (não são cores de dígito), o que resolve a direção.</p></div><div class="faq"><h3>Qual é a diferença entre resistências de 4 e 5 bandas?</h3><p>A precisão. Uma peça de 4 bandas codifica dois dígitos significativos e serve a ±5% ou ±10%. Uma peça de 5 bandas codifica três dígitos, por isso valores como 4.99 kΩ podem ser especificados exatamente, e as tolerâncias são normalmente ±1% ou melhores (tipos de filme metálico).</p></div><div class="faq"><h3>O que significa a 6ª banda?</h3><p>O coeficiente de temperatura: quanto a resistência deriva por grau de mudança de temperatura, em partes por milhão por kelvin. 50 ppm/K significa que uma resistência de 1,000 Ω muda cerca de 0.05 Ω por grau — relevante em circuitos de precisão e medição, raramente nos quotidianos.</p></div>
+<h2 class="sec">Calculadoras relacionadas</h2><div class="grid"><a class="card" href="../led-resistor-calculator/"><div class="ic">💡</div><h3>Calculadora de resistência LED</h3><p>Eletricidade</p></a><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>Calculadora da lei de Ohm</h3><p>Eletricidade</p></a><a class="card" href="../awg-converter/"><div class="ic">📏</div><h3>Conversor AWG</h3><p>Eletricidade</p></a><a class="card" href="../reactance-calculator/"><div class="ic">〰️</div><h3>Calculadora de reatância</h3><p>Eletricidade</p></a></div>
+</div>
+<section class="txt"><h2>Como funciona &mdash; a fórmula</h2>
+<p><strong>4 bandas:</strong> Valor = (10 × d<sub>1</sub> + d<sub>2</sub>) × multiplicador, 4ª banda = tolerância<br>
+<strong>5 bandas:</strong> Valor = (100 × d<sub>1</sub> + 10 × d<sub>2</sub> + d<sub>3</sub>) × multiplicador, 5ª banda = tolerância<br>
+<strong>6 bandas:</strong> como 5 bandas, 6ª banda = coeficiente de temperatura (ppm/K)</p>
+<p>Cores de dígito: preto 0, castanho 1, vermelho 2, laranja 3, amarelo 4, verde 5, azul 6, violeta 7, cinzento 8, branco 9. Os multiplicadores vão de ×0.01 (prateado) e ×0.1 (dourado) até ×10⁹ (branco). Tolerâncias: dourado ±5%, prateado ±10%, sem banda ±20%, e as cores de precisão castanho ±1%, vermelho ±2%, verde ±0.5%, azul ±0.25%, violeta ±0.1%, cinzento ±0.05%. Coeficientes de temperatura: castanho 100, vermelho 50, laranja 15, amarelo 25, verde 20, azul 10, violeta 5, cinzento 1 ppm/K (preto 250).</p>
+<h3>Exemplo prático</h3>
+<div class="exbox">4 bandas, amarelo–violeta–castanho–dourado: os dígitos 4 e 7 dão 47; o multiplicador castanho é ×10; 47 × 10 = <strong>470 Ω</strong>; dourado significa ±5%, por isso o valor verdadeiro está entre 446.5 Ω e 493.5 Ω. Verificação inversa: 4,700 Ω em forma de 4 bandas é 47 × 100, e ×100 é o multiplicador vermelho — amarelo, violeta, <strong>vermelho</strong>, mais a sua banda de tolerância.</div>
+
+<h3>Perguntas frequentes</h3></section>
+<div class="faq"><h3>Porque é que o modo inverso às vezes diz que o valor não pode ser mostrado exatamente?</h3><p>Porque um código de 4 bandas contém apenas dois dígitos significativos. 4,720 Ω precisa de três (4-7-2), por isso uma resistência de 4 bandas simplesmente não existe com esse valor exato — a calculadora mostra o representável mais próximo e diz isso, em vez de fingir.</p></div><div class="faq"><h3>Posso confiar nas cores de uma resistência velha ou queimada?</h3><p>O calor e a idade desvanecem as cores — vermelho, laranja e castanho tornam-se difíceis de distinguir, e o valor de uma resistência queimada pode ter derivado de qualquer forma. Em caso de dúvida, meça com um multímetro (fora do circuito, ou com uma perna levantada) em vez de confiar nas bandas.</p></div><div class="faq"><h3>E as resistências com apenas 3 bandas, ou os códigos SMD?</h3><p>Uma resistência de 3 bandas lê-se como uma de 4 bandas com uma tolerância implícita de ±20%. As peças SMD (montagem superficial) usam códigos de dígitos impressos em vez de cores — um sistema diferente não coberto por esta calculadora.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Incorpore esta calculadora no seu site — grátis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Adicione esta calculadora ao seu site ou blogue — é totalmente grátis, não precisa de registo e mostra sempre a versão mais recente. Copie o código abaixo e cole-o na sua página onde quiser que a calculadora apareça. Manter a pequena linha de crédito &ldquo;Powered by Loona Automation&rdquo; sob a incorporação ajuda a manter esta ferramenta gratuita &mdash; mas pode estilizá-la ou removê-la à vontade; a ferramenta funciona na mesma.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/pt/resistor-colour-code-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Resistor Colour Code Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Desenvolvido por &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/pt/resistor-colour-code-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; grátis Calculadora de código de cores de resistências&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copiar código de incorporação</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copiado!';setTimeout(function(){b.textContent='Copiar código de incorporação';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculadoras populares</h4><ul><li><a href="../paint-calculator/">Calculadora de tinta</a></li>
+<li><a href="../concrete-calculator/">Calculadora de betão</a></li>
+<li><a href="../tile-calculator/">Calculadora de azulejos</a></li>
+<li><a href="../brick-calculator/">Calculadora de tijolos</a></li>
+<li><a href="../roof-pitch-calculator/">Calculadora de inclinação de telhado</a></li>
+<li><a href="../stairs-calculator/">Calculadora de escadas</a></li></ul></div>
+<div><h4>Mais ferramentas Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Todas as ferramentas Loona</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Sobre</a></li>
+<li><a href="../contact.html">Contacto</a></li>
+<li><a href="../privacy-policy.html">Política de privacidade</a></li>
+<li><a href="../terms.html">Termos de uso</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; um projeto de <a href="https://loonaautomation.github.io/">Loona Automation</a> . Calculadoras de construção gratuitas em unidades métricas e imperiais, sem registo.
+Contacto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var DIGIT = { black: 0, brown: 1, red: 2, orange: 3, yellow: 4, green: 5, blue: 6, violet: 7, grey: 8, white: 9 };
+var MULT = { silver: 0.01, gold: 0.1, black: 1, brown: 10, red: 100, orange: 1000, yellow: 10000, green: 100000, blue: 1000000, violet: 10000000, grey: 100000000, white: 1000000000 };
+var MULT_NAME = { "-2": "silver", "-1": "gold", "0": "black", "1": "brown", "2": "red", "3": "orange", "4": "yellow", "5": "green", "6": "blue", "7": "violet", "8": "grey", "9": "white" };
+var TOL = { brown: 1, red: 2, green: 0.5, blue: 0.25, violet: 0.1, grey: 0.05, gold: 5, silver: 10, none: 20 };
+var TEMPCO = { black: 250, brown: 100, red: 50, orange: 15, yellow: 25, green: 20, blue: 10, violet: 5, grey: 1 };
+function fmtOhms(x) {
+  if (x >= 1000000) return fmt(x / 1000000, 3) + " M\u03A9";
+  if (x >= 1000) return fmt(x / 1000, 3) + " k\u03A9";
+  return fmt(x, 2) + " \u03A9";
+}
+var LOONA_TOOL = { run: function (v) {
+  if (v.mode === "rev") {
+    if (!pos(v.revValue)) return bad("Introduza o valor da resistência em ohms.");
+    var ndig = (v.bands === "4") ? 2 : 3;
+    var exp = Math.floor(Math.log10(v.revValue)) - (ndig - 1);
+    if (exp < -2) exp = -2; if (exp > 9) exp = 9;
+    var mant = v.revValue / Math.pow(10, exp);
+    var mantR = Math.round(mant);
+    if (mantR >= Math.pow(10, ndig)) { mantR = mantR / 10; exp += 1; }
+    var represented = mantR * Math.pow(10, exp);
+    var digNames = ["black","brown","red","orange","yellow","green","blue","violet","grey","white"];
+    var bandNames = [];
+    var s = String(mantR);
+    while (s.length < ndig) s = "0" + s;
+    for (var i = 0; i < ndig; i++) bandNames.push(digNames[parseInt(s[i], 10)]);
+    bandNames.push(MULT_NAME[String(exp)]);
+    var tolPct = TOL[v.revTol];
+    var rowsR = [["Bandas de dígito / multiplicador", bandNames.join(" \u2013 " )],["Banda de tolerância", v.revTol + " (\u00B1" + tolPct + "%)"],["Valor que as bandas representam", fmtOhms(represented)]];
+    if (Math.abs(represented - v.revValue) > represented * 0.001) rowsR.push(["Nota", "O seu valor exato não pode ser mostrado com " + ndig + " algarismos significativos \u2014 estas bandas dão o valor representável mais próximo."]);
+    var htmlR = resTable("Bandas para " + fmtOhms(v.revValue), bandNames.join(", ") + ", " + v.revTol, rowsR,
+      "Leia as bandas a partir da extremidade mais próxima do grupo de bandas, com a banda de tolerância (muitas vezes dourada, prateada ou uma banda mais espaçada) no fim.");
+    return { ok: true, represented: represented, revBands: bandNames.concat([v.revTol]), tolPct: tolPct, html: htmlR };
+  }
+  var b = v.bandCols;
+  var tolBand = v.tolBand;
+  if (!(b[0] in DIGIT) || !(b[1] in DIGIT)) return bad("Escolha cores para cada banda.");
+  var digits, multC;
+  if (v.bands === "4") { digits = DIGIT[b[0]] * 10 + DIGIT[b[1]]; multC = b[2]; }
+  else { if (!(b[2] in DIGIT)) return bad("Escolha cores para cada banda."); digits = DIGIT[b[0]] * 100 + DIGIT[b[1]] * 10 + DIGIT[b[2]]; multC = b[3]; }
+  if (!(multC in MULT)) return bad("A cor da banda multiplicadora não é válida.");
+  var ohms = digits * MULT[multC];
+  var tol = TOL[tolBand];
+  if (tol === undefined) return bad("A banda de tolerância deve ser castanha, vermelha, verde, azul, violeta, cinzenta, dourada, prateada \u2014 ou escolha 'nenhuma' \u00B120%.");
+  var rows = [["Resistência", fmtOhms(ohms) + " (" + fmt(ohms, 2) + " \u03A9)"],["Tolerância", "\u00B1" + tol + "%  \u2192  entre " + fmtOhms(ohms * (1 - tol / 100)) + " and " + fmtOhms(ohms * (1 + tol / 100))]];
+  var tempco = null;
+  if (v.bands === "6") { tempco = TEMPCO[b[5]]; if (tempco === undefined) return bad("A cor da banda de coeficiente de temperatura não é válida."); rows.push(["Coeficiente de temperatura", tempco + " ppm/K"]);}
+  var html = resTable("Resistência", fmtOhms(ohms) + " \u00B1" + tol + "%", rows,
+    "Dica: segure o resistor com o grupo de bandas à esquerda e a banda de tolerância (dourada, prateada, ou a diferente) à direita, depois leia da esquerda para a direita.");
+  return { ok: true, ohms: ohms, tolPct: tol, tempco: tempco, html: html };
+} };
+
+function collect(){
+  var bc = gs("f_bands");
+  var cols = [gs("f_b1"), gs("f_b2"), gs("f_b3"), gs("f_b4"), gs("f_b5"), gs("f_b6")];
+  var tolBand = (bc === "4") ? cols[3] : cols[4];
+  if (tolBand === "none") tolBand = "none";
+  return { mode: gs("f_mode"), bands: bc, bandCols: cols, tolBand: tolBand, revValue: gv("f_rev"), revTol: gs("f_revtol") };
+}
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalar app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Instale esta app: toque no botão Partilhar e depois escolha "Adicionar ao ecrã principal".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

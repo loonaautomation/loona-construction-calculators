@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for a 16 × 20 ft Patio",
+  "short_name": "Materials for a 16 × 20 ft",
+  "description": "Lista de compras para um pátio de 16×20 ft: contagem de pavimentos no passo, cama de areia, base de gravilha e contenções de borda — quantidades calculadas.",
+  "id": "/loona-construction-calculators/pt/materials-for-patio/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
