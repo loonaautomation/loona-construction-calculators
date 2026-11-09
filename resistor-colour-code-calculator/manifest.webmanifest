@@ -1,6 +1,6 @@
 {
   "name": "Loona Resistor Colour Code Calculator",
-  "short_name": "Resistor Colour Code Calculator",
+  "short_name": "Resistor Colour Code",
   "description": "Free resistor colour code calculator: pick the band colours on a 4-band, 5-band or 6-band resistor to get resistance, tolerance and temperature coefficient — or reverse it, value to bands.",
   "id": "/loona-construction-calculators/resistor-colour-code-calculator/",
   "start_url": ".",
