@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 2500 Sq Ft of Wall? Litres & Gallons",
+  "short_name": "How Much Paint for 2500 Sq Ft of",
+  "description": "Paint for 2500 sq ft of wall: 51.1 litres (13.5 gal) for 2 coats at typical 10 m²/L coverage, plus 21.3 L primer — with the assumptions stated.",
+  "id": "/loona-construction-calculators/paint-for-2500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in Germany (NF)",
+  "short_name": "Brick Size in Germany (NF)",
+  "description": "Standard brick size in Germany (NF): 240 × 115 × 71 mm. 49.4 bricks per m² (4.59 per sq ft) of single-skin wall with 10 mm mortar joints, coverage per 1,000 bricks and a worked wall example.",
+  "id": "/loona-construction-calculators/brick-size-germany/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

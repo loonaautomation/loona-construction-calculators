@@ -1,0 +1,29 @@
+{
+  "name": "Loona LED Resistor Calculator",
+  "short_name": "LED Resistor Calculator",
+  "description": "Free LED resistor calculator: supply voltage, LED forward voltage, forward current and LEDs in series give the resistor in ohms, the nearest standard E12 value, actual current and resistor wattage.",
+  "id": "/loona-construction-calculators/led-resistor-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
