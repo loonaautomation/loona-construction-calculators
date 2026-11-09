@@ -15,7 +15,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
 <link rel="icon" href="../favicon.ico">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="manifest" href="../site.webmanifest">
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
@@ -95,6 +95,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Paint Needed for 1500 Sq Ft of Wall", "url": "https://loonaautomation.github.io/loona-construction-calculators/paint-for-1500-sq-ft/", "description": "Paint for 1500 sq ft of wall: 30.7 litres (8.1 gal) for 2 coats at typical 10 m\u00b2/L coverage, plus 12.8 L primer \u2014 with the assumptions stated.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any", "browserRequirements": "Requires JavaScript", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "Loona Automation", "url": "https://loonaautomation.github.io/"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much paint covers 1500 sq ft?", "acceptedAnswer": {"@type": "Answer", "text": "Two coats at typical coverage: 30.7 litres (8.1 gallons) including 10% extra; one coat is half that. Primer adds 12.8 L."}}, {"@type": "Question", "name": "Why do brands quote different coverage?", "acceptedAnswer": {"@type": "Answer", "text": "Solids content and surface porosity. The 10 m\u00b2/L used here is the honest middle of the 8\u201312 m\u00b2/L that major emulsions quote \u2014 your tin's figure wins; type it into the Paint Calculator for an exact answer."}}, {"@type": "Question", "name": "Is this wall or floor area?", "acceptedAnswer": {"@type": "Answer", "text": "Wall. Confusing the two is the classic under-buy: walls are typically about 3\u00d7 the floor area of the same room once ceiling height counts."}}, {"@type": "Question", "name": "Do I need primer?", "acceptedAnswer": {"@type": "Answer", "text": "On new plaster, patched areas and strong colour changes, yes \u2014 one coat at the table's quantity. On sound, previously painted walls in a similar colour, usually not."}}]}</script>
+<link rel="manifest" href="../manifest.webmanifest">
+<meta name="theme-color" content="#062e2a">
 </head>
 <body>
 <header>
@@ -146,5 +148,6 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Free construction calculators in metric and imperial units, no signup.
 Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
 </div></footer>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Install App';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Install this app: tap the Share button, then choose "Add to Home Screen".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
 </body>
 </html>

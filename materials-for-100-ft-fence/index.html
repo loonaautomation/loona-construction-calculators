@@ -15,7 +15,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
 <link rel="icon" href="../favicon.ico">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="manifest" href="../site.webmanifest">
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
@@ -95,6 +95,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Materials for a 100 ft Fence", "url": "https://loonaautomation.github.io/loona-construction-calculators/materials-for-100-ft-fence/", "description": "Buy list for 100 ft of 6-ft fence: 13 posts, 13 bays of panels or 340 pickets, honest concrete-per-hole quantities and fastener counts.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any", "browserRequirements": "Requires JavaScript", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "Loona Automation", "url": "https://loonaautomation.github.io/"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much concrete per fence post, really?", "acceptedAnswer": {"@type": "Answer", "text": "A 10-in diameter, 30-in deep hole is \u22481.4 ft\u00b3; an 80-lb bag makes 0.6 ft\u00b3 \u2014 so 2\u20133 bags per hole. Shallow or narrow holes use less but hold less."}}, {"@type": "Question", "name": "Panels or pickets?", "acceptedAnswer": {"@type": "Answer", "text": "Panels are faster (13 to hang); pickets are cheaper and follow slopes (racked). Counts for both are in the table."}}, {"@type": "Question", "name": "How deep should posts go?", "acceptedAnswer": {"@type": "Answer", "text": "Below the frost line locally, commonly 24\u201336 in, with the bottom 2 in on gravel. Local code and soil decide \u2014 this page assumes 30 in."}}, {"@type": "Question", "name": "What about a gate?", "acceptedAnswer": {"@type": "Answer", "text": "Add 2 heavier posts (6\u00d76 preferred), hinges and a latch, and brace the gate bay \u2014 gates are the first failure point of every fence."}}]}</script>
+<link rel="manifest" href="../manifest.webmanifest">
+<meta name="theme-color" content="#062e2a">
 </head>
 <body>
 <header>
@@ -144,5 +146,6 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Free construction calculators in metric and imperial units, no signup.
 Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
 </div></footer>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Install App';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Install this app: tap the Share button, then choose "Add to Home Screen".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
 </body>
 </html>

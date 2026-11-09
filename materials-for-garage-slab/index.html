@@ -15,7 +15,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
 <link rel="icon" href="../favicon.ico">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<link rel="manifest" href="../site.webmanifest">
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
@@ -95,6 +95,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Materials for a 20 \u00d7 20 ft Garage Slab", "url": "https://loonaautomation.github.io/loona-construction-calculators/materials-for-garage-slab/", "description": "Materials for a 20 \u00d7 20 ft Garage Slab: exact concrete volume and pre-mix bag counts (4-inch slab, 10% extra) plus base and reinforcement shopping notes.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any", "browserRequirements": "Requires JavaScript", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "Loona Automation", "url": "https://loonaautomation.github.io/"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How thick should the slab be?", "acceptedAnswer": {"@type": "Answer", "text": "4 inches for cars and sheds; 5\u20136 inches for heavy vehicles, RVs or where the slab meets the street. Thickness changes every number linearly \u2014 the Concrete Calculator adjusts in one step."}}, {"@type": "Question", "name": "Do I really need the gravel base?", "acceptedAnswer": {"@type": "Answer", "text": "On any soil that isn't already compacted rock: yes. 4 inches of compacted gravel stops the slab cracking from soft spots and gives drainage. It is the cheapest insurance in the whole project."}}, {"@type": "Question", "name": "Bags or ready-mix for this size?", "acceptedAnswer": {"@type": "Answer", "text": "The table lists both. This pour is 4.15 m\u00b3 with extra included \u2014 past roughly 1 yd\u00b3, a truck wins on cost and on finishing time before the concrete sets."}}, {"@type": "Question", "name": "What about reinforcement?", "acceptedAnswer": {"@type": "Answer", "text": "A single layer of welded wire mesh (or #3/#4 rebar on an 18\u201324 in grid) held at mid-slab on chairs. Fibre mesh in the mix is a supplement, not a substitute, at these sizes."}}]}</script>
+<link rel="manifest" href="../manifest.webmanifest">
+<meta name="theme-color" content="#062e2a">
 </head>
 <body>
 <header>
@@ -145,5 +147,6 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Free construction calculators in metric and imperial units, no signup.
 Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
 </div></footer>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Install App';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Install this app: tap the Share button, then choose "Add to Home Screen".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
 </body>
 </html>
