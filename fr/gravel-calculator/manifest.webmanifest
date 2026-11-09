@@ -1,0 +1,29 @@
+{
+  "name": "Loona Gravel Calculator",
+  "short_name": "Gravel Calculator",
+  "description": "Calculateur gratuit de gravier : surface et profondeur en métrique ou impérial — obtenez le volume de gravier en mètres cubes et yards cubes et le poids en tonnes et tonnes US, avec une densité réglable et une marge de pertes.",
+  "id": "/loona-construction-calculators/fr/gravel-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

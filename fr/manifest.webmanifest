@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Calculateurs de construction gratuits qui fonctionnent dans LES DEUX unités, métriques et impériales : peinture, carrelage, béton, revêtement de sol, plaques de plâtre, briques, gravier, pente de toit, escaliers, pieds-planche, papier peint, paillis, asphalte, isolation, clôture, terrasse, volume de piscine, panneaux solaires, moquette, contreplaqué, sable, loi d'Ohm, chute de tension, section de câble, coût d'électricité, ampères en watts, watts en ampères, kVA en ampères, facteur de puissance, autonomie de batterie, résistance LED, puissance triphasée, courant de moteur, code couleur des résistances, timer 555, conversion AWG, réactance et conversion en décibels — avec des marges de pertes et des exemples calculés.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/fr/"
+}

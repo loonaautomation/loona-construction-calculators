@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Concrete for 3000 Sq Ft? Volume",
+  "short_name": "How Much Concrete for 3000 Sq",
+  "description": "Béton pour une dalle de 3000 sq ft, épaisse de 4 pouces : 31.15 m³ (40.74 yd³) 10% d'extra inclus, plus les comptes de sacs prémélangés de 80 lb, 60 lb, 25 kg et 20 kg.",
+  "id": "/loona-construction-calculators/fr/concrete-for-3000-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

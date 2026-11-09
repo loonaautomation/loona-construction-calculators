@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculateur d'escaliers — Marches, hauteur de contremarche, giron et longueur de limon | Loona Construction Calculators</title>
+<meta name="description" content="Calculateur gratuit d'escaliers : saisissez la montée totale en métrique ou impérial — obtenez le nombre de marches, la hauteur exacte de contremarche, la portée totale et la longueur de limon, avec la règle de confort 2R + T vérifiée automatiquement.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/fr/stairs-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/stairs-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/stairs-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/stairs-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/stairs-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/stairs-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/stairs-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/stairs-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculateur d'escaliers — Marches, hauteur de contremarche, giron et longueur de limon | Loona Construction Calculators">
+<meta property="og:description" content="Calculateur gratuit d'escaliers : saisissez la montée totale en métrique ou impérial — obtenez le nombre de marches, la hauteur exacte de contremarche, la portée totale et la longueur de limon, avec la règle de confort 2R + T vérifiée automatiquement.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/fr/stairs-calculator/"><meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculateur d'escaliers — Marches, hauteur de contremarche, giron et longueur de limon | Loona Construction Calculators">
+<meta name="twitter:description" content="Calculateur gratuit d'escaliers : saisissez la montée totale en métrique ou impérial — obtenez le nombre de marches, la hauteur exacte de contremarche, la portée totale et la longueur de limon, avec la règle de confort 2R + T vérifiée automatiquement.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculateur d'escaliers Loona","url":"https://loonaautomation.github.io/loona-construction-calculators/fr/stairs-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Quelle est la hauteur de contremarche et la profondeur de giron idéales ?","acceptedAnswer":{"@type":"Answer","text":"Pour les maisons, des contremarches de 170–190 mm (environ 7 in) avec des girons de 250–300 mm (10–12 in) semblent naturelles. La combinaison exacte compte moins que la règle de confort : 2 × contremarche + giron ≈ 630 mm."}},{"@type":"Question","name":"Pourquoi chaque contremarche doit-elle être exactement la même ?","acceptedAnswer":{"@type":"Answer","text":"Les gens montent les escaliers par rythme, pas en regardant. Une contremarche qui diffère ne serait-ce que de 10 mm des autres est un risque de trébuchement classique — c'est pourquoi le calculateur divise la montée totale en marches parfaitement égales au lieu d'utiliser une contremarche fixe et un reste."}},{"@type":"Question","name":"Comment mesurer la montée totale ?","acceptedAnswer":{"@type":"Answer","text":"Du niveau du sol fini en bas au niveau du sol fini en haut — y compris l'épaisseur du revêtement aux deux extrémités. Mesurez deux fois à l'ouverture de la cage d'escalier ; une erreur ici se propage à chaque marche."}},{"@type":"Question","name":"À quoi sert la longueur de limon ?","acceptedAnswer":{"@type":"Answer","text":"Le limon est la planche diagonale (ou le profilé d'acier) qui porte les girons. Sa longueur minimale est l'hypoténuse de la montée et de la portée ; commandez plus long que le chiffre calculé pour permettre les coupes d'extrémité et les détails de connexion."}},{"@type":"Question","name":"Quelle hauteur libre me faut-il ?","acceptedAnswer":{"@type":"Answer","text":"Les règles de construction exigent typiquement au moins 2 m (environ 6 ft 8 in) de hauteur libre au-dessus de la ligne d'escalier, mesurée verticalement depuis les nez de marche. Vérifiez la longueur de l'ouverture de la cage d'escalier quand vous fixez la portée."}},{"@type":"Question","name":"Ces escaliers sont-ils conformes au règlement de construction ?","acceptedAnswer":{"@type":"Answer","text":"Le calculateur utilise des objectifs de conception largement acceptés (contremarche ≈175 mm, confort 600–650 mm), mais les limites de contremarche maximale et de giron minimal diffèrent selon le pays et le type de bâtiment. Confirmez toujours votre conception par rapport à votre code local de construction avant de construire."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculateur d'escaliers",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/fr/stairs-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo de Loona Automation">
+<div class="brand">Loona <span>Calculateurs de construction</span></div>
+<nav>
+<a href="../">Accueil</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">À propos</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Construction &rsaquo; Calculateur d'escaliers</div>
+<h1 class="pagetitle">🪜 Calculateur d'escaliers</h1>
+<p class="lead">Vous concevez un escalier ou des marches de terrasse ? Saisissez la montée totale de sol à sol et la profondeur de votre giron, et le calculateur choisit un nombre de marches, calcule la hauteur exacte de contremarche pour que chaque marche soit identique, la portée totale et la longueur de limon — et vérifie le résultat par rapport à la règle de confort classique.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system">Système d'unités</label><select id="f_system"><option value="m">Métrique (mètres, litres, kg)</option><option value="i">Impérial (pieds, gallons, lb)</option></select></div><div class="fld"><label for="f_rise">Montée totale, de sol à sol <span class="u" data-u="rise"></span></label><input type="number" id="f_rise" step="any" data-m="2.7" data-i="8.86" value="2.7" ></div><div class="fld"><label for="f_tread">Profondeur de giron <span class="u" data-u="tread"></span></label><input type="number" id="f_tread" step="any" data-m="250" data-i="10" value="250" ></div>
+<button type="button" class="calcbtn" id="calcBtn">Calculer</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Comment utiliser le calculateur d'escaliers</h2><ol><li>Choisissez les unités métriques ou impériales.</li><li>Saisissez la montée totale — de sol à sol, y compris l'épaisseur du sol fini.</li><li>Saisissez la profondeur de votre giron (250 mm / 10 in est un défaut confortable).</li><li>Appuyez sur Calculer : le nombre de marches est choisi pour que chaque contremarche soit exactement égale.</li></ol>
+<div class="exbox"><strong>Exemple :</strong> Une montée de sol à sol de 2.7 m donne 15 contremarches d'exactement 180 mm, 14 girons, une portée de 3.5 m avec des girons de 250 mm et un limon d'environ 4.42 m — valeur de confort 610 mm, dans la plage idéale.</div>
+<h2>Questions fréquentes</h2></section><div class="faq"><h3>Quelle est la hauteur de contremarche et la profondeur de giron idéales ?</h3><p>Pour les maisons, des contremarches de 170–190 mm (environ 7 in) avec des girons de 250–300 mm (10–12 in) semblent naturelles. La combinaison exacte compte moins que la règle de confort : 2 × contremarche + giron ≈ 630 mm.</p></div><div class="faq"><h3>Pourquoi chaque contremarche doit-elle être exactement la même ?</h3><p>Les gens montent les escaliers par rythme, pas en regardant. Une contremarche qui diffère ne serait-ce que de 10 mm des autres est un risque de trébuchement classique — c'est pourquoi le calculateur divise la montée totale en marches parfaitement égales au lieu d'utiliser une contremarche fixe et un reste.</p></div><div class="faq"><h3>Comment mesurer la montée totale ?</h3><p>Du niveau du sol fini en bas au niveau du sol fini en haut — y compris l'épaisseur du revêtement aux deux extrémités. Mesurez deux fois à l'ouverture de la cage d'escalier ; une erreur ici se propage à chaque marche.</p></div>
+<h2 class="sec">Calculateurs associés</h2><div class="grid"><a class="card" href="../board-foot-calculator/"><div class="ic">🪵</div><h3>Calculateur de pieds-planche</h3><p>Construction</p></a><a class="card" href="../wallpaper-calculator/"><div class="ic">🧻</div><h3>Calculateur de papier peint</h3><p>Construction</p></a><a class="card" href="../mulch-calculator/"><div class="ic">🌱</div><h3>Calculateur de paillis</h3><p>Construction</p></a><a class="card" href="../paint-calculator/"><div class="ic">🎨</div><h3>Calculateur de peinture</h3><p>Construction</p></a><a class="card" href="../tile-calculator/"><div class="ic">🔲</div><h3>Calculateur de carrelage</h3><p>Construction</p></a></div>
+</div>
+<section class="txt"><h2>Comment ça marche &mdash; la formule</h2>
+<p><strong>Nombre de contremarches</strong> = Montée totale &divide; Contremarche cible (175 mm / 7 in), arrondi à un nombre entier<br>
+<strong>Contremarche réelle</strong> = Montée totale &divide; Nombre de contremarches (identique pour chaque marche — c'est la clé d'un escalier sûr)<br>
+<strong>Portée totale</strong> = Profondeur de giron × (Contremarches &minus; 1)<br>
+<strong>Longueur de limon</strong> = &radic;(Montée totale&sup2; + Portée totale&sup2;)<br>
+<strong>Règle de confort</strong>: 2 × Contremarche + Giron devrait être d'environ 600–650 mm (24–25.5 in) — la longueur d'une foulée naturelle dans les escaliers.</p>
+<h3>Exemple détaillé</h3>
+<div class="exbox"><strong>Exemple :</strong> Montée totale 2700 mm &divide; 175 = 15.4 &rarr; <strong>15 contremarches</strong> de 2700 &divide; 15 = <strong>180 mm</strong> chacune. Girons = 14 × 250 mm = 3500 mm de portée. Limon = &radic;(2700&sup2; + 3500&sup2;) = <strong>4420 mm</strong>. Confort : 2 × 180 + 250 = <strong>610 mm</strong> — dans la plage de 600–650 mm.</div>
+<h3>Questions fréquentes</h3></section>
+<div class="faq"><h3>À quoi sert la longueur de limon ?</h3><p>Le limon est la planche diagonale (ou le profilé d'acier) qui porte les girons. Sa longueur minimale est l'hypoténuse de la montée et de la portée ; commandez plus long que le chiffre calculé pour permettre les coupes d'extrémité et les détails de connexion.</p></div><div class="faq"><h3>Quelle hauteur libre me faut-il ?</h3><p>Les règles de construction exigent typiquement au moins 2 m (environ 6 ft 8 in) de hauteur libre au-dessus de la ligne d'escalier, mesurée verticalement depuis les nez de marche. Vérifiez la longueur de l'ouverture de la cage d'escalier quand vous fixez la portée.</p></div><div class="faq"><h3>Ces escaliers sont-ils conformes au règlement de construction ?</h3><p>Le calculateur utilise des objectifs de conception largement acceptés (contremarche ≈175 mm, confort 600–650 mm), mais les limites de contremarche maximale et de giron minimal diffèrent selon le pays et le type de bâtiment. Confirmez toujours votre conception par rapport à votre code local de construction avant de construire.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Intégrez ce calculateur à votre site web — gratuit</h2>
+<p style="margin:0 0 12px;line-height:1.6">Ajoutez ce calculateur à votre propre site web ou blog — il est entièrement gratuit, ne demande aucune inscription et affiche toujours la dernière version. Copiez le code ci-dessous et collez-le dans votre page à l'endroit où vous voulez voir apparaître le calculateur. Garder la petite ligne de crédit &ldquo;Powered by Loona Automation&rdquo; sous l'intégration aide à garder cet outil gratuit &mdash; mais vous pouvez la styliser ou la retirer ; l'outil fonctionne dans tous les cas.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/fr/stairs-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Stairs Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Propulsé par &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/fr/stairs-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratuit Calculateur d'escaliers&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copier le code d'intégration</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copié !';setTimeout(function(){b.textContent='Copier le code d\'intégration';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculateurs populaires</h4><ul><li><a href="../paint-calculator/">Calculateur de peinture</a></li>
+<li><a href="../concrete-calculator/">Calculateur de béton</a></li>
+<li><a href="../tile-calculator/">Calculateur de carrelage</a></li>
+<li><a href="../brick-calculator/">Calculateur de briques</a></li>
+<li><a href="../roof-pitch-calculator/">Calculateur de pente de toit</a></li>
+<li><a href="./">Calculateur d'escaliers</a></li></ul></div>
+<div><h4>Plus d'outils Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Tous les outils Loona</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">À propos</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Politique de confidentialité</a></li>
+<li><a href="../terms.html">Conditions d'utilisation</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; un projet de <a href="https://loonaautomation.github.io/">Loona Automation</a> . Calculateurs de construction gratuits en unités métriques et impériales, sans inscription.
+Contact : <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+
+/* shared helpers: DOM getters (browser) + unit conversions + formatting */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.rise, v.tread)) return bad("Veuillez saisir la hauteur totale et la profondeur de giron (tous deux supérieurs à zéro).");
+  var totalMm = (v.sys === "i") ? v.rise * FT * 1000 : v.rise * 1000;
+  var treadMm = (v.sys === "i") ? v.tread * 25.4 : v.tread; /* tread input: inches (imperial) or mm (metric) */
+  var N = Math.max(2, Math.round(totalMm / 175));
+  var riser = totalMm / N, treads = N - 1, runMm = treadMm * treads;
+  var stringer = Math.sqrt(totalMm * totalMm + runMm * runMm);
+  var comfort = 2 * riser + treadMm, inRange = comfort >= 600 && comfort <= 650;
+  var imp = v.sys === "i";
+  function L(mm) { return imp ? fmt(mm / 25.4, 2) + " in" : fmt(mm, 0) + " mm"; }
+  var html = resTable("Nombre de marches", N + " contremarches (" + treads + " girons)",
+    [["Hauteur exacte de contremarche (chaque marche)", L(riser)],
+     ["Profondeur de giron (marche)", L(treadMm)],
+     ["Parcours total de la volée", imp ? fmt(runMm / 304.8, 2) + " ft" : fmt(runMm / 1000, 2) + " m"],
+     ["Longueur de limon (minimum)", imp ? fmt(stringer / 304.8, 2) + " ft" : fmt(stringer / 1000, 2) + " m"],
+     ["Contrôle de confort : 2 × contremarche + giron", fmt(comfort, 0) + " mm (" + fmt(comfort / 25.4, 1) + " in)"]],
+    inRange ? "Confortable : le résultat se situe dans la plage de confort classique de 600\u2013650 mm (environ 24\u201325.5 in) utilisée par les concepteurs d'escaliers." : "En dehors de la plage de confort classique de 600\u2013650 mm — ajustez la profondeur de giron (giron plus profond avec de hautes contremarches, moins profond avec de courtes contremarches) jusqu'à ce que 2R + T soit près de 630 mm.");
+  return { ok: true, steps: N, riserMm: riser, treads: treads, runMm: runMm, stringerMm: stringer, comfort: comfort, inRange: inRange, html: html };
+} };
+
+function collect(){
+return { sys: gs("f_system"), rise: gv("f_rise"), tread: gv("f_tread") };
+}
+
+/* ---- page wiring (browser only) ---- */
+if (typeof document !== "undefined") {
+  var UNITS = {"rise":["m","ft"],"tread":["mm","in"]};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installer l\'appli';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installez cette appli : touchez le bouton Partager, puis choisissez "Ajouter à l\'écran d\'accueil".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

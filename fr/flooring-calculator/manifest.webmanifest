@@ -1,0 +1,29 @@
+{
+  "name": "Loona Flooring Calculator",
+  "short_name": "Flooring Calculator",
+  "description": "Calculateur gratuit de revêtement de sol : taille de la pièce et couverture par boîte en métrique ou impérial — obtenez le nombre de boîtes de stratifié, de vinyle ou de bois d'ingénierie à acheter, marge de pertes de coupe incluse.",
+  "id": "/loona-construction-calculators/fr/flooring-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

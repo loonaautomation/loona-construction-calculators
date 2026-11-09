@@ -1,0 +1,29 @@
+{
+  "name": "Loona Board Foot Calculator",
+  "short_name": "Board Foot Calculator",
+  "description": "Calculateur gratuit de pieds-planche : épaisseur, largeur, longueur et nombre de pièces du bois en impérial ou métrique — obtenez le total en pieds-planche et en mètres cubes pour votre commande de bois.",
+  "id": "/loona-construction-calculators/fr/board-foot-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
