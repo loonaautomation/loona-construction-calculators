@@ -1,0 +1,29 @@
+{
+  "name": "Loona Wire Size Calculator",
+  "short_name": "Wire Size Calculator",
+  "description": "Calculadora gratuita de tamaño de cable: corriente, longitud de ida, % de caída de voltaje permitida, voltaje, cobre o aluminio, monofásico o trifásico — tamaño mínimo de cable en mm², tamaño estándar más cercano y equivalente AWG.",
+  "id": "/loona-construction-calculators/es/wire-size-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

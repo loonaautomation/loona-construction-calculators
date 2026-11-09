@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de resistencia LED — Valor de la resistencia en serie, tamaño estándar E12 y potencia | Loona Construction Calculators</title>
+<meta name="description" content="Calculadora gratuita de resistencia LED: la tensión de alimentación, la tensión directa del LED, la corriente directa y los LED en serie dan la resistencia en ohmios, el valor estándar E12 más cercano, la corriente real y la potencia de la resistencia.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/es/led-resistor-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/led-resistor-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/led-resistor-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/led-resistor-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/led-resistor-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/led-resistor-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/led-resistor-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/led-resistor-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculadora de resistencia LED — Valor de la resistencia en serie, tamaño estándar E12 y potencia | Loona Construction Calculators">
+<meta property="og:description" content="Calculadora gratuita de resistencia LED: la tensión de alimentación, la tensión directa del LED, la corriente directa y los LED en serie dan la resistencia en ohmios, el valor estándar E12 más cercano, la corriente real y la potencia de la resistencia.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/es/led-resistor-calculator/"><meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculadora de resistencia LED — Valor de la resistencia en serie, tamaño estándar E12 y potencia | Loona Construction Calculators">
+<meta name="twitter:description" content="Calculadora gratuita de resistencia LED: la tensión de alimentación, la tensión directa del LED, la corriente directa y los LED en serie dan la resistencia en ohmios, el valor estándar E12 más cercano, la corriente real y la potencia de la resistencia.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculadora de resistencia LED de Loona","url":"https://loonaautomation.github.io/loona-construction-calculators/es/led-resistor-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Qué tensión directa tiene mi LED?","acceptedAnswer":{"@type":"Answer","text":"Idealmente de su hoja de datos. Rangos típicos: rojo 1.8–2.2 V, naranja/amarillo 2.0–2.2 V, verde 2.2–3.2 V (verde antiguo ~2.2, alta luminosidad moderna ~3), azul y blanco 3.0–3.4 V, infrarrojo ~1.2–1.5 V. En caso de duda para un LED indicador pequeño, 2.0 V (rojo) o 3.2 V (blanco/azul) son cifras seguras de planificación."}},{"@type":"Question","name":"¿Por qué no puedo conectar un LED directamente a una batería?","acceptedAnswer":{"@type":"Answer","text":"La corriente de un LED sube explosivamente con la tensión una vez superada su tensión directa — una fracción de voltio de más puede significar diez veces la corriente, sobrecalentamiento y fallo. La resistencia en serie convierte ese precipicio en una pendiente controlada."}},{"@type":"Question","name":"¿Puedo poner LED en paralelo en una sola resistencia?","acceptedAnswer":{"@type":"Answer","text":"Es una mala práctica: no hay dos LED con exactamente la misma tensión directa, así que uno acapara corriente, se calienta más, su Vf cae más, y acapara más — fuga térmica hasta que falla. Da a cada LED en paralelo (o cadena en serie) su propia resistencia."}},{"@type":"Question","name":"¿Y si el valor calculado está entre tamaños estándar?","acceptedAnswer":{"@type":"Answer","text":"Redondea siempre hacia arriba al siguiente valor E12. El LED funciona un poco por debajo de su corriente nominal — el brillo baja solo ligeramente (el ojo es logarítmico) mientras la vida útil y la fiabilidad mejoran."}},{"@type":"Question","name":"¿Qué potencia de resistencia necesito?","acceptedAnswer":{"@type":"Answer","text":"Al menos el doble de la disipación calculada como regla general, para que la resistencia funcione fresca y su valor se mantenga estable. Para el caso común de 5 V / 20 mA casi cualquier resistencia de 0.25 W basta; para fuentes de 12 V o LED de potencia, comprueba la cifra que muestra la calculadora."}},{"@type":"Question","name":"¿Funciona para tiras LED y LED de alta potencia?","acceptedAnswer":{"@type":"Answer","text":"Las tiras LED tienen resistencias integradas — solo aplica la tensión nominal. Los LED de alta potencia (1 W en adelante) normalmente se alimentan con un driver de corriente constante en vez de una resistencia, porque una resistencia desperdicia mucha potencia y la corriente deriva cuando el LED se calienta."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculadora de resistencia LED",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/es/led-resistor-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logotipo de Loona Automation">
+<div class="brand">Loona <span>Calculadoras de construcción</span></div>
+<nav>
+<a href="../">Inicio</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Acerca de</a>
+<a href="../contact.html">Contacto</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Electricidad &rsaquo; Calculadora de resistencia LED</div>
+<h1 class="pagetitle">💡 Calculadora de resistencia LED</h1>
+<p class="lead">Un LED conectado directamente a una fuente se quemará — necesita una resistencia en serie para fijar su corriente. Introduce la tensión de alimentación, la tensión directa y la corriente del LED, y cuántos LED hay en serie, y obtén el valor de la resistencia, el tamaño estándar más cercano y la potencia que debe soportar.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_vs">Tensión de alimentación (V)</label><input type="number" id="f_vs" step="any" value="5"></div><div class="fld"><label for="f_vf">Tensión directa del LED Vf (V) — ~1.8–2.2 rojo, ~3.0–3.4 blanco/azul</label><input type="number" id="f_vf" step="any" value="2"></div><div class="fld"><label for="f_ma">Corriente directa del LED (mA) — 20 es estándar para LED indicadores</label><input type="number" id="f_ma" step="any" value="20"></div><div class="fld"><label for="f_count">LED en serie en esta resistencia</label><input type="number" id="f_count" step="any" value="1"></div>
+<button type="button" class="calcbtn" id="calcBtn">Calcular</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Cómo usar la calculadora de resistencia LED</h2><ol><li>Introduce la tensión de alimentación (5 V USB, batería de 9 V, alimentación de coche de 12 V…).</li><li>Introduce la tensión directa del LED desde su hoja de datos — o usa los valores típicos de la etiqueta — y su corriente directa nominal, normalmente 20 mA.</li><li>Si varios LED están cableados en serie tras una resistencia, introduce cuántos, y luego pulsa Calcular.</li></ol>
+<div class="exbox"><strong>Ejemplo:</strong> Un LED rojo (Vf 2.0 V, 20 mA) en una fuente de 5 V: la resistencia debe caer 3.0 V, así que R = 3.0 ÷ 0.020 = <strong>150 Ω</strong> — en sí mismo un valor estándar.</div>
+<h2>Preguntas frecuentes</h2></section><div class="faq"><h3>¿Qué tensión directa tiene mi LED?</h3><p>Idealmente de su hoja de datos. Rangos típicos: rojo 1.8–2.2 V, naranja/amarillo 2.0–2.2 V, verde 2.2–3.2 V (verde antiguo ~2.2, alta luminosidad moderna ~3), azul y blanco 3.0–3.4 V, infrarrojo ~1.2–1.5 V. En caso de duda para un LED indicador pequeño, 2.0 V (rojo) o 3.2 V (blanco/azul) son cifras seguras de planificación.</p></div><div class="faq"><h3>¿Por qué no puedo conectar un LED directamente a una batería?</h3><p>La corriente de un LED sube explosivamente con la tensión una vez superada su tensión directa — una fracción de voltio de más puede significar diez veces la corriente, sobrecalentamiento y fallo. La resistencia en serie convierte ese precipicio en una pendiente controlada.</p></div><div class="faq"><h3>¿Puedo poner LED en paralelo en una sola resistencia?</h3><p>Es una mala práctica: no hay dos LED con exactamente la misma tensión directa, así que uno acapara corriente, se calienta más, su Vf cae más, y acapara más — fuga térmica hasta que falla. Da a cada LED en paralelo (o cadena en serie) su propia resistencia.</p></div>
+<h2 class="sec">Calculadoras relacionadas</h2><div class="grid"><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>Calculadora de la ley de Ohm</h3><p>Electricidad</p></a><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>Calculadora de caída de voltaje</h3><p>Electricidad</p></a><a class="card" href="../battery-runtime-calculator/"><div class="ic">🔋</div><h3>Calculadora de autonomía de batería</h3><p>Electricidad</p></a><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>Calculadora de amperios a vatios</h3><p>Electricidad</p></a></div>
+</div>
+<section class="txt"><h2>Cómo funciona &mdash; la fórmula</h2>
+<p><strong>Tensión en la resistencia</strong> = V de alimentación − (LED en serie × V directa)<br>
+<strong>Resistencia (Ω)</strong> = Tensión en la resistencia ÷ Corriente (A)<br>
+<strong>Potencia de la resistencia (W)</strong> = Corriente real² × Valor estándar de la resistencia</p>
+<p>El brillo de un LED lo fija su corriente, y su tensión directa está aproximadamente fijada por su química — así que el trabajo de la resistencia es absorber la tensión sobrante exactamente a la corriente deseada. El resultado se redondea <em>up</em> al siguiente valor estándar E12 (…100, 120, 150, 180, 220, 270, 330, 390, 470…), lo que solo puede hacer la corriente ligeramente menor y más segura, y la potencia nominal de la resistencia debe ser al menos el doble de la potencia que realmente disipa.</p>
+<h3>Ejemplo práctico</h3>
+<div class="exbox">Alimentación 5 V, un LED rojo con Vf = 2.0 V a 20 mA. Tensión en la resistencia = 5 − 2.0 = <strong>3.0 V</strong>. R = 3.0 ÷ 0.020 = <strong>150 Ω</strong>, que en sí mismo es un valor estándar E12, así que la corriente real se mantiene en 20.0 mA. Potencia en la resistencia = 0.020² × 150 = <strong>0.06 W</strong> — una resistencia común de 0.25 W da un margen cómodo.</div>
+
+<h3>Preguntas frecuentes</h3></section>
+<div class="faq"><h3>¿Y si el valor calculado está entre tamaños estándar?</h3><p>Redondea siempre hacia arriba al siguiente valor E12. El LED funciona un poco por debajo de su corriente nominal — el brillo baja solo ligeramente (el ojo es logarítmico) mientras la vida útil y la fiabilidad mejoran.</p></div><div class="faq"><h3>¿Qué potencia de resistencia necesito?</h3><p>Al menos el doble de la disipación calculada como regla general, para que la resistencia funcione fresca y su valor se mantenga estable. Para el caso común de 5 V / 20 mA casi cualquier resistencia de 0.25 W basta; para fuentes de 12 V o LED de potencia, comprueba la cifra que muestra la calculadora.</p></div><div class="faq"><h3>¿Funciona para tiras LED y LED de alta potencia?</h3><p>Las tiras LED tienen resistencias integradas — solo aplica la tensión nominal. Los LED de alta potencia (1 W en adelante) normalmente se alimentan con un driver de corriente constante en vez de una resistencia, porque una resistencia desperdicia mucha potencia y la corriente deriva cuando el LED se calienta.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Inserta esta calculadora en tu sitio web — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Añade esta calculadora a tu sitio web o blog — es completamente gratis, no requiere registro y siempre muestra la versión más reciente. Copia el código de abajo y pégalo en tu página donde quieras que aparezca la calculadora. Mantener la pequeña línea de crédito &ldquo;Powered by Loona Automation&rdquo; bajo la inserción ayuda a que esta herramienta siga siendo gratuita &mdash; pero puedes darle estilo o quitarla si quieres; la herramienta funciona igual.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/es/led-resistor-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="LED Resistor Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Desarrollado por &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/es/led-resistor-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Calculadora de resistencia LED&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copiar código de inserción</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='¡Copiado!';setTimeout(function(){b.textContent='Copiar código de inserción';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculadoras populares</h4><ul><li><a href="../paint-calculator/">Calculadora de pintura</a></li>
+<li><a href="../concrete-calculator/">Calculadora de hormigón</a></li>
+<li><a href="../tile-calculator/">Calculadora de baldosas</a></li>
+<li><a href="../brick-calculator/">Calculadora de ladrillos</a></li>
+<li><a href="../roof-pitch-calculator/">Calculadora de inclinación de techo</a></li>
+<li><a href="../stairs-calculator/">Calculadora de escaleras</a></li></ul></div>
+<div><h4>Más herramientas de Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Todas las herramientas de Loona</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Acerca de</a></li>
+<li><a href="../contact.html">Contacto</a></li>
+<li><a href="../privacy-policy.html">Política de privacidad</a></li>
+<li><a href="../terms.html">Términos de uso</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; un proyecto de <a href="https://loonaautomation.github.io/">Loona Automation</a> . Calculadoras de construcción gratuitas en unidades métricas e imperiales, sin registro.
+Contacto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var E12 = [10, 12, 15, 18, 22, 27, 33, 39, 47, 56, 68, 82];
+function e12AtLeast(x) {
+  if (!(x > 0)) return NaN;
+  var exp = Math.floor(Math.log10(x));
+  for (var e = exp - 1; e < exp + 3; e++) {
+    for (var i = 0; i < E12.length; i++) {
+      var val = E12[i] * Math.pow(10, e - 1);
+      if (val >= x - 1e-12) return Math.round(val * 1000) / 1000;
+    }
+  }
+  return NaN;
+}
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.vs, v.vf, v.ma)) return bad("Introduce el voltaje de alimentación, el voltaje directo del LED y la corriente directa del LED en mA.");
+  var n = (v.count >= 1) ? Math.floor(v.count) : 1;
+  var drop = v.vs - n * v.vf;
+  if (!(drop > 0)) return bad("Los LED en serie necesitan " + fmt(n * v.vf, 2) + " V pero la alimentación es solo " + fmt(v.vs, 2) + " V — use fewer LEDs in series or a higher supply voltage.");
+  var I = v.ma / 1000;
+  var R = drop / I;
+  var std = e12AtLeast(R);
+  var actualMa = drop / std * 1000;
+  var pRes = Math.pow(drop / std, 2) * std;
+  var html = resTable("Valor de la resistencia", fmt(R, 1) + " \u03A9 \u2192 use " + fmt(std, 0) + " \u03A9 (E12 más cercano igual o superior)",
+    [["Voltaje en la resistencia", fmt(drop, 2) + " V"],["Resistencia calculada", fmt(R, 1) + " \u03A9"],["Corriente real del LED con el valor estándar", fmt(actualMa, 1) + " mA"],["Potencia en la resistencia", fmt(pRes, 3) + " W"],["Potencia nominal recomendada de la resistencia", "al menos " + fmt(pRes * 2, 2) + " W (2\u00D7 la disipación real)"]],
+    "Redondear la resistencia HACIA ARRIBA baja ligeramente la corriente del LED — la dirección segura. Hacer funcionar un LED a su corriente nominal o un poco por debajo apenas cambia el brillo y alarga mucho su vida.");
+  return { ok: true, drop: drop, R: R, std: std, actualMa: actualMa, pRes: pRes, html: html };
+} };
+
+function collect(){ return { vs: gv("f_vs"), vf: gv("f_vf"), ma: gv("f_ma"), count: gv("f_count") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalar app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Instala esta app: toca el botón Compartir y luego elige "Añadir a pantalla de inicio".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

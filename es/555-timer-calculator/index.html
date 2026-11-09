@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de temporizador 555 — Frecuencia astable y ciclo de trabajo, ancho de pulso monoestable | Loona Construction Calculators</title>
+<meta name="description" content="Calculadora de temporizador 555 gratuita: el modo astable da la frecuencia, el ciclo de trabajo y los tiempos ALTO/BAJO a partir de R1, R2 y C; el modo monoestable da el ancho de pulso a partir de R y C — fórmulas estándar 1.44 y 1.1.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/es/555-timer-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/555-timer-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/555-timer-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/555-timer-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/555-timer-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/555-timer-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/555-timer-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/555-timer-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculadora de temporizador 555 — Frecuencia astable y ciclo de trabajo, ancho de pulso monoestable | Loona Construction Calculators">
+<meta property="og:description" content="Calculadora de temporizador 555 gratuita: el modo astable da la frecuencia, el ciclo de trabajo y los tiempos ALTO/BAJO a partir de R1, R2 y C; el modo monoestable da el ancho de pulso a partir de R y C — fórmulas estándar 1.44 y 1.1.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/es/555-timer-calculator/"><meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculadora de temporizador 555 — Frecuencia astable y ciclo de trabajo, ancho de pulso monoestable | Loona Construction Calculators">
+<meta name="twitter:description" content="Calculadora de temporizador 555 gratuita: el modo astable da la frecuencia, el ciclo de trabajo y los tiempos ALTO/BAJO a partir de R1, R2 y C; el modo monoestable da el ancho de pulso a partir de R y C — fórmulas estándar 1.44 y 1.1.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculadora de temporizador 555 de Loona","url":"https://loonaautomation.github.io/loona-construction-calculators/es/555-timer-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Por qué el circuito astable estándar no puede bajar del 50% de ciclo de trabajo?","acceptedAnswer":{"@type":"Answer","text":"El condensador de temporización se carga a través de R1 + R2 pero se descarga solo a través de R2, así que el tiempo ALTO es siempre el más largo de los dos. Las soluciones clásicas: un diodo en paralelo con R2 para que la carga la evite, tomar la salida de otro punto, o poner un inversor tras el 555 si simplemente necesitas la polaridad contraria."}},{"@type":"Question","name":"¿Qué rangos de resistencia y condensador funcionan bien?","acceptedAnswer":{"@type":"Answer","text":"Mantén R1 y R2 aproximadamente entre 1 kΩ y 1 MΩ, y el condensador entre unos 100 pF (0.0001 µF) y unos pocos cientos de µF. Los electrolíticos muy grandes tienen fugas suficientes para arruinar temporizaciones largas; los condensadores muy pequeños quedan ahogados por la capacitancia parásita de la placa."}},{"@type":"Question","name":"¿La tensión de alimentación cambia la frecuencia?","acceptedAnswer":{"@type":"Answer","text":"Casi nada — el 555 compara la tensión del condensador con ⅓ y ⅔ de la alimentación que reciba, así que las fracciones se cancelan. La temperatura y las tolerancias de los componentes (los electrolíticos suelen ser de ±20%) importan mucho más en la práctica."}},{"@type":"Question","name":"¿Qué precisión tienen estas fórmulas?","acceptedAnswer":{"@type":"Answer","text":"Son las fórmulas de la hoja de datos (con 1.44 / 0.693 / 1.1) y son tan precisas como tus componentes: una resistencia del 1% con un condensador de película del 10% da un resultado de pocos por ciento; un electrolítico de ±20% da un resultado de ±20%. Para temporización de precisión, mide y ajusta, o usa un temporizador basado en cristal."}},{"@type":"Question","name":"¿Cuál es la diferencia entre el 555 bipolar y las versiones CMOS?","acceptedAnswer":{"@type":"Answer","text":"Las versiones CMOS (TLC555, LMC555, ICM7555) funcionan con menor consumo y mayor frecuencia y tienen un comportamiento de salida más suave, pero las fórmulas de temporización son idénticas. El NE555 bipolar puede entregar/absorber unos 200 mA en la salida; los tipos CMOS dan menos — consulta la hoja de datos del tuyo."}},{"@type":"Question","name":"¿Puede un 555 accionar directamente un relé o un motor?","acceptedAnswer":{"@type":"Answer","text":"La salida de un 555 bipolar soporta hasta unos 200 mA, suficiente para la bobina de un relé pequeño (con un diodo de rueda libre en paralelo). Los motores y las cargas mayores necesitan una etapa de transistor o MOSFET — el 555 da la temporización, el transistor da la fuerza."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculadora de temporizador 555",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/es/555-timer-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logotipo de Loona Automation">
+<div class="brand">Loona <span>Calculadoras de construcción</span></div>
+<nav>
+<a href="../">Inicio</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Acerca de</a>
+<a href="../contact.html">Contacto</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Electricidad &rsaquo; Calculadora de temporizador 555</div>
+<h1 class="pagetitle">⏱️ Calculadora de temporizador 555</h1>
+<p class="lead">El 555 lleva haciendo parpadear LED y temporizando pulsos desde 1972. Elige astable (oscilador libre) o monoestable (un solo disparo), introduce las resistencias en ohmios y el condensador en µF, y obtén la frecuencia, el ciclo de trabajo o el ancho de pulso.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_mode">Modo</label><select id="f_mode"><option value="astable" selected>Astable — oscilador libre</option><option value="mono">Monoestable — pulso único</option></select></div><div class="fld"><label for="f_r1">R1 (ohmios) — resistencia de carga astable / R monoestable</label><input type="number" id="f_r1" step="any" value="1000"></div><div class="fld"><label for="f_r2">R2 (ohmios) — solo astable</label><input type="number" id="f_r2" step="any" value="10000"></div><div class="fld"><label for="f_c">Condensador C (µF — microfaradios; 0.01 µF = 10 nF)</label><input type="number" id="f_c" step="any" value="10"></div>
+<button type="button" class="calcbtn" id="calcBtn">Calcular</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Cómo usar la calculadora de temporizador 555</h2><ol><li>Elige astable para una onda cuadrada repetitiva, monoestable para un solo pulso temporizado.</li><li>Introduce las resistencias en ohmios (10 kΩ = 10,000) y el condensador en microfaradios — las unidades en las que se dibujan la mayoría de los circuitos con 555.</li><li>Pulsa Calcular: el modo astable da la frecuencia, el ciclo de trabajo y los tiempos ALTO y BAJO; el monoestable da el ancho de pulso.</li></ol>
+<div class="exbox"><strong>Ejemplo:</strong> Astable con R1 = 1 kΩ, R2 = 10 kΩ, C = 10 µF: f = 1.44 ÷ ((1,000 + 20,000) × 10 µF) = <strong>6.86 Hz</strong>, ciclo de trabajo <strong>52.4%</strong>.</div>
+<h2>Preguntas frecuentes</h2></section><div class="faq"><h3>¿Por qué el circuito astable estándar no puede bajar del 50% de ciclo de trabajo?</h3><p>El condensador de temporización se carga a través de R1 + R2 pero se descarga solo a través de R2, así que el tiempo ALTO es siempre el más largo de los dos. Las soluciones clásicas: un diodo en paralelo con R2 para que la carga la evite, tomar la salida de otro punto, o poner un inversor tras el 555 si simplemente necesitas la polaridad contraria.</p></div><div class="faq"><h3>¿Qué rangos de resistencia y condensador funcionan bien?</h3><p>Mantén R1 y R2 aproximadamente entre 1 kΩ y 1 MΩ, y el condensador entre unos 100 pF (0.0001 µF) y unos pocos cientos de µF. Los electrolíticos muy grandes tienen fugas suficientes para arruinar temporizaciones largas; los condensadores muy pequeños quedan ahogados por la capacitancia parásita de la placa.</p></div><div class="faq"><h3>¿La tensión de alimentación cambia la frecuencia?</h3><p>Casi nada — el 555 compara la tensión del condensador con ⅓ y ⅔ de la alimentación que reciba, así que las fracciones se cancelan. La temperatura y las tolerancias de los componentes (los electrolíticos suelen ser de ±20%) importan mucho más en la práctica.</p></div>
+<h2 class="sec">Calculadoras relacionadas</h2><div class="grid"><a class="card" href="../led-resistor-calculator/"><div class="ic">💡</div><h3>Calculadora de resistencia LED</h3><p>Electricidad</p></a><a class="card" href="../reactance-calculator/"><div class="ic">〰️</div><h3>Calculadora de reactancia</h3><p>Electricidad</p></a><a class="card" href="../resistor-colour-code-calculator/"><div class="ic">🌈</div><h3>Calculadora de código de colores de resistencias</h3><p>Electricidad</p></a><a class="card" href="../battery-runtime-calculator/"><div class="ic">🔋</div><h3>Calculadora de autonomía de batería</h3><p>Electricidad</p></a></div>
+</div>
+<section class="txt"><h2>Cómo funciona &mdash; la fórmula</h2>
+<p><strong>Astable:</strong> f = 1.44 ÷ ((R1 + 2 × R2) × C) &nbsp;·&nbsp; Ciclo de trabajo = (R1 + R2) ÷ (R1 + 2 × R2) × 100%<br>
+t<sub>ALTO</sub> = 0.693 × (R1 + R2) × C &nbsp;·&nbsp; t<sub>BAJO</sub> = 0.693 × R2 × C<br>
+<strong>Monoestable:</strong> T = 1.1 × R × C</p>
+<p>Las constantes vienen de los umbrales internos del 555 a ⅓ y ⅔ de la alimentación: 0.693 es ln 2, 1.44 es 1 ÷ ln 2, y 1.1 es ln 3 (el tiempo de carga de 0 a ⅔). Como ambos umbrales son fracciones de la tensión de alimentación, la temporización es (famosamente) casi independiente de la propia tensión de alimentación — un circuito con 555 temporizado a 5 V mantiene su temporización a 12 V.</p>
+<h3>Ejemplo práctico</h3>
+<div class="exbox">Astable: R1 = 1,000 Ω, R2 = 10,000 Ω, C = 10 µF = 0.00001 F. Denominador: (1,000 + 2 × 10,000) × 0.00001 = 21,000 × 0.00001 = 0.21. f = 1.44 ÷ 0.21 = <strong>6.86 Hz</strong>. Ciclo de trabajo = (1,000 + 10,000) ÷ 21,000 = <strong>52.4%</strong>. Comprobación monoestable: R = 10,000 Ω, C = 100 µF → T = 1.1 × 10,000 × 0.0001 = <strong>1.1 s</strong>.</div>
+
+<h3>Preguntas frecuentes</h3></section>
+<div class="faq"><h3>¿Qué precisión tienen estas fórmulas?</h3><p>Son las fórmulas de la hoja de datos (con 1.44 / 0.693 / 1.1) y son tan precisas como tus componentes: una resistencia del 1% con un condensador de película del 10% da un resultado de pocos por ciento; un electrolítico de ±20% da un resultado de ±20%. Para temporización de precisión, mide y ajusta, o usa un temporizador basado en cristal.</p></div><div class="faq"><h3>¿Cuál es la diferencia entre el 555 bipolar y las versiones CMOS?</h3><p>Las versiones CMOS (TLC555, LMC555, ICM7555) funcionan con menor consumo y mayor frecuencia y tienen un comportamiento de salida más suave, pero las fórmulas de temporización son idénticas. El NE555 bipolar puede entregar/absorber unos 200 mA en la salida; los tipos CMOS dan menos — consulta la hoja de datos del tuyo.</p></div><div class="faq"><h3>¿Puede un 555 accionar directamente un relé o un motor?</h3><p>La salida de un 555 bipolar soporta hasta unos 200 mA, suficiente para la bobina de un relé pequeño (con un diodo de rueda libre en paralelo). Los motores y las cargas mayores necesitan una etapa de transistor o MOSFET — el 555 da la temporización, el transistor da la fuerza.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Inserta esta calculadora en tu sitio web — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Añade esta calculadora a tu sitio web o blog — es completamente gratis, no requiere registro y siempre muestra la versión más reciente. Copia el código de abajo y pégalo en tu página donde quieras que aparezca la calculadora. Mantener la pequeña línea de crédito &ldquo;Powered by Loona Automation&rdquo; bajo la inserción ayuda a que esta herramienta siga siendo gratuita &mdash; pero puedes darle estilo o quitarla si quieres; la herramienta funciona igual.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/es/555-timer-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="555 Timer Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Desarrollado por &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/es/555-timer-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Calculadora de temporizador 555&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copiar código de inserción</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='¡Copiado!';setTimeout(function(){b.textContent='Copiar código de inserción';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculadoras populares</h4><ul><li><a href="../paint-calculator/">Calculadora de pintura</a></li>
+<li><a href="../concrete-calculator/">Calculadora de hormigón</a></li>
+<li><a href="../tile-calculator/">Calculadora de baldosas</a></li>
+<li><a href="../brick-calculator/">Calculadora de ladrillos</a></li>
+<li><a href="../roof-pitch-calculator/">Calculadora de inclinación de techo</a></li>
+<li><a href="../stairs-calculator/">Calculadora de escaleras</a></li></ul></div>
+<div><h4>Más herramientas de Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Todas las herramientas de Loona</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Acerca de</a></li>
+<li><a href="../contact.html">Contacto</a></li>
+<li><a href="../privacy-policy.html">Política de privacidad</a></li>
+<li><a href="../terms.html">Términos de uso</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; un proyecto de <a href="https://loonaautomation.github.io/">Loona Automation</a> . Calculadoras de construcción gratuitas en unidades métricas e imperiales, sin registro.
+Contacto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  var C = v.c_uf * 1e-6;
+  if (v.mode === "mono") {
+    if (!pos(v.r1, C)) return bad("Introduce R (ohmios) y C (\u00B5F), ambos mayores que cero.");
+    var T = 1.1 * v.r1 * C;
+    var htmlM = resTable("Ancho de pulso (tiempo HIGH de salida)", fmt(T, 4) + " s",
+      [["Resistencia R", fmt(v.r1, 0) + " \u03A9"],["Capacitancia C", fmt(v.c_uf, 3) + " \u00B5F"]],
+      "La salida monoestable (un disparo) se mantiene HIGH este tiempo tras cada disparo, luego vuelve a LOW hasta el siguiente disparo. Usa un condensador de baja fuga para pulsos largos \u2014 la fuga del electrolítico es la razón habitual de que los disparos reales salgan cortos.");
+    return { ok: true, T: T, html: htmlM };
+  }
+  if (!pos(v.r1, v.r2, C)) return bad("Introduce R1, R2 (ohmios) y C (\u00B5F), todos mayores que cero.");
+  var f = 1.44 / ((v.r1 + 2 * v.r2) * C);
+  var duty = (v.r1 + v.r2) / (v.r1 + 2 * v.r2) * 100;
+  var tHigh = 0.693 * (v.r1 + v.r2) * C;
+  var tLow = 0.693 * v.r2 * C;
+  var html = resTable("Frecuencia", fmt(f, 3) + " Hz",
+    [["Ciclo de trabajo (parte HIGH)", fmt(duty, 1) + "%"],["Tiempo HIGH por ciclo", fmt(tHigh, 4) + " s"],["Tiempo LOW por ciclo", fmt(tLow, 4) + " s"],["Periodo", fmt(1 / f, 4) + " s"]],
+    "En el circuito astable estándar el ciclo de trabajo siempre está por encima del 50% porque el condensador se carga a través de R1 + R2 pero se descarga solo a través de R2. Para 50% o menos, añade la conocida modificación con diodo o usa un oscilador diferente.");
+  return { ok: true, f: f, duty: duty, tHigh: tHigh, tLow: tLow, html: html };
+} };
+
+function collect(){ return { mode: gs("f_mode"), r1: gv("f_r1"), r2: gv("f_r2"), c_uf: gv("f_c") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalar app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Instala esta app: toca el botón Compartir y luego elige "Añadir a pantalla de inicio".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

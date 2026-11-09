@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de escaleras — Peldaños, altura de contrahuella, huella y longitud de zanca | Loona Construction Calculators</title>
+<meta name="description" content="Calculadora gratuita de escaleras: introduce la elevación total en métrico o imperial — obtén el número de peldaños, la altura exacta de contrahuella, el recorrido total y la longitud de zanca, con la regla de confort 2R + T comprobada automáticamente.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/es/stairs-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/stairs-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/stairs-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/stairs-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/stairs-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/stairs-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/stairs-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/stairs-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculadora de escaleras — Peldaños, altura de contrahuella, huella y longitud de zanca | Loona Construction Calculators">
+<meta property="og:description" content="Calculadora gratuita de escaleras: introduce la elevación total en métrico o imperial — obtén el número de peldaños, la altura exacta de contrahuella, el recorrido total y la longitud de zanca, con la regla de confort 2R + T comprobada automáticamente.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/es/stairs-calculator/"><meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculadora de escaleras — Peldaños, altura de contrahuella, huella y longitud de zanca | Loona Construction Calculators">
+<meta name="twitter:description" content="Calculadora gratuita de escaleras: introduce la elevación total en métrico o imperial — obtén el número de peldaños, la altura exacta de contrahuella, el recorrido total y la longitud de zanca, con la regla de confort 2R + T comprobada automáticamente.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculadora de escaleras de Loona","url":"https://loonaautomation.github.io/loona-construction-calculators/es/stairs-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Cuál es la altura de contrahuella y la profundidad de huella ideales?","acceptedAnswer":{"@type":"Answer","text":"Para casas, contrahuellas de 170–190 mm (unas 7 in) con huellas de 250–300 mm (10–12 in) se sienten naturales. La combinación exacta importa menos que la regla de confort: 2 × contrahuella + huella ≈ 630 mm."}},{"@type":"Question","name":"¿Por qué cada contrahuella debe ser exactamente igual?","acceptedAnswer":{"@type":"Answer","text":"La gente sube escaleras por ritmo, no mirando. Una contrahuella que difiere incluso 10 mm del resto es un clásico peligro de tropiezo — por eso la calculadora divide la elevación total en peldaños perfectamente iguales en vez de usar una contrahuella fija y un resto."}},{"@type":"Question","name":"¿Cómo mido la elevación total?","acceptedAnswer":{"@type":"Answer","text":"Desde el nivel del suelo acabado de abajo hasta el nivel del suelo acabado de arriba — incluido el grosor del suelo en ambos extremos. Mide dos veces en la apertura de la escalera; un error aquí se extiende por cada peldaño."}},{"@type":"Question","name":"¿Para qué se usa la longitud de zanca?","acceptedAnswer":{"@type":"Answer","text":"La zanca es la tabla diagonal (o sección de acero) que soporta las huellas. Su longitud mínima es la hipotenusa de elevación y recorrido; pide más larga que la cifra calculada para permitir los cortes de extremo y los detalles de conexión."}},{"@type":"Question","name":"¿Cuánta altura libre necesito?","acceptedAnswer":{"@type":"Answer","text":"Las normas de construcción típicamente requieren al menos 2 m (unas 6 ft 8 in) de altura libre sobre la línea de la escalera, medida verticalmente desde los bordes de las huellas. Comprueba la longitud de la apertura de la escalera cuando fijes el recorrido."}},{"@type":"Question","name":"¿Son estas escaleras según el reglamento de construcción?","acceptedAnswer":{"@type":"Answer","text":"La calculadora usa objetivos de diseño ampliamente aceptados (contrahuella ≈175 mm, confort 600–650 mm), pero los límites de contrahuella máxima y avance mínimo difieren por país y tipo de edificio. Confirma siempre tu diseño contra tu código local de construcción antes de construir."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculadora de escaleras",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/es/stairs-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logotipo de Loona Automation">
+<div class="brand">Loona <span>Calculadoras de construcción</span></div>
+<nav>
+<a href="../">Inicio</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Acerca de</a>
+<a href="../contact.html">Contacto</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Construcción &rsaquo; Calculadora de escaleras</div>
+<h1 class="pagetitle">🪜 Calculadora de escaleras</h1>
+<p class="lead">¿Diseñando una escalera o peldaños de terraza? Introduce la elevación total de suelo a suelo y la profundidad de tu huella, y la calculadora elige un número de peldaños, calcula la altura exacta de contrahuella para que cada peldaño sea idéntico, el recorrido total y la longitud de zanca — y comprueba el resultado contra la clásica regla de confort.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system">Sistema de unidades</label><select id="f_system"><option value="m">Métrico (metros, litros, kg)</option><option value="i">Imperial (pies, galones, lb)</option></select></div><div class="fld"><label for="f_rise">Elevación total, de suelo a suelo <span class="u" data-u="rise"></span></label><input type="number" id="f_rise" step="any" data-m="2.7" data-i="8.86" value="2.7" ></div><div class="fld"><label for="f_tread">Profundidad de huella (avance) <span class="u" data-u="tread"></span></label><input type="number" id="f_tread" step="any" data-m="250" data-i="10" value="250" ></div>
+<button type="button" class="calcbtn" id="calcBtn">Calcular</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Cómo usar la calculadora de escaleras</h2><ol><li>Elige unidades métricas o imperiales.</li><li>Introduce la elevación total — de suelo a suelo, incluido el grosor del suelo acabado.</li><li>Introduce la profundidad de tu huella (250 mm / 10 in es un valor cómodo por defecto).</li><li>Pulsa Calcular: el número de peldaños se elige para que cada contrahuella sea exactamente igual.</li></ol>
+<div class="exbox"><strong>Ejemplo:</strong> Una elevación de suelo a suelo de 2.7 m resulta en 15 contrahuellas de exactamente 180 mm, 14 huellas, un recorrido de 3.5 m con huellas de 250 mm y una zanca de unos 4.42 m — valor de confort 610 mm, dentro del rango ideal.</div>
+<h2>Preguntas frecuentes</h2></section><div class="faq"><h3>¿Cuál es la altura de contrahuella y la profundidad de huella ideales?</h3><p>Para casas, contrahuellas de 170–190 mm (unas 7 in) con huellas de 250–300 mm (10–12 in) se sienten naturales. La combinación exacta importa menos que la regla de confort: 2 × contrahuella + huella ≈ 630 mm.</p></div><div class="faq"><h3>¿Por qué cada contrahuella debe ser exactamente igual?</h3><p>La gente sube escaleras por ritmo, no mirando. Una contrahuella que difiere incluso 10 mm del resto es un clásico peligro de tropiezo — por eso la calculadora divide la elevación total en peldaños perfectamente iguales en vez de usar una contrahuella fija y un resto.</p></div><div class="faq"><h3>¿Cómo mido la elevación total?</h3><p>Desde el nivel del suelo acabado de abajo hasta el nivel del suelo acabado de arriba — incluido el grosor del suelo en ambos extremos. Mide dos veces en la apertura de la escalera; un error aquí se extiende por cada peldaño.</p></div>
+<h2 class="sec">Calculadoras relacionadas</h2><div class="grid"><a class="card" href="../board-foot-calculator/"><div class="ic">🪵</div><h3>Calculadora de pies tablares</h3><p>Construcción</p></a><a class="card" href="../wallpaper-calculator/"><div class="ic">🧻</div><h3>Calculadora de papel pintado</h3><p>Construcción</p></a><a class="card" href="../mulch-calculator/"><div class="ic">🌱</div><h3>Calculadora de mantillo</h3><p>Construcción</p></a><a class="card" href="../paint-calculator/"><div class="ic">🎨</div><h3>Calculadora de pintura</h3><p>Construcción</p></a><a class="card" href="../tile-calculator/"><div class="ic">🔲</div><h3>Calculadora de baldosas</h3><p>Construcción</p></a></div>
+</div>
+<section class="txt"><h2>Cómo funciona &mdash; la fórmula</h2>
+<p><strong>Número de contrahuellas</strong> = Elevación total &divide; Contrahuella objetivo (175 mm / 7 in), redondeado a un número entero<br>
+<strong>Contrahuella real</strong> = Elevación total &divide; Número de contrahuellas (idéntica para cada peldaño — esta es la clave de una escalera segura)<br>
+<strong>Recorrido total</strong> = Profundidad de huella × (Contrahuellas &minus; 1)<br>
+<strong>Longitud de zanca</strong> = &radic;(Elevación total&sup2; + Recorrido total&sup2;)<br>
+<strong>Regla de confort</strong>: 2 × Contrahuella + Huella debería ser unos 600–650 mm (24–25.5 in) — la longitud de una zancada natural en escaleras.</p>
+<h3>Ejemplo práctico</h3>
+<div class="exbox"><strong>Ejemplo:</strong> Elevación total 2700 mm &divide; 175 = 15.4 &rarr; <strong>15 contrahuellas</strong> de 2700 &divide; 15 = <strong>180 mm</strong> cada una. Huellas = 14 × 250 mm = 3500 mm de recorrido. Zanca = &radic;(2700&sup2; + 3500&sup2;) = <strong>4420 mm</strong>. Confort: 2 × 180 + 250 = <strong>610 mm</strong> — dentro del rango de 600–650 mm.</div>
+<h3>Preguntas frecuentes</h3></section>
+<div class="faq"><h3>¿Para qué se usa la longitud de zanca?</h3><p>La zanca es la tabla diagonal (o sección de acero) que soporta las huellas. Su longitud mínima es la hipotenusa de elevación y recorrido; pide más larga que la cifra calculada para permitir los cortes de extremo y los detalles de conexión.</p></div><div class="faq"><h3>¿Cuánta altura libre necesito?</h3><p>Las normas de construcción típicamente requieren al menos 2 m (unas 6 ft 8 in) de altura libre sobre la línea de la escalera, medida verticalmente desde los bordes de las huellas. Comprueba la longitud de la apertura de la escalera cuando fijes el recorrido.</p></div><div class="faq"><h3>¿Son estas escaleras según el reglamento de construcción?</h3><p>La calculadora usa objetivos de diseño ampliamente aceptados (contrahuella ≈175 mm, confort 600–650 mm), pero los límites de contrahuella máxima y avance mínimo difieren por país y tipo de edificio. Confirma siempre tu diseño contra tu código local de construcción antes de construir.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Inserta esta calculadora en tu sitio web — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Añade esta calculadora a tu sitio web o blog — es completamente gratis, no requiere registro y siempre muestra la versión más reciente. Copia el código de abajo y pégalo en tu página donde quieras que aparezca la calculadora. Mantener la pequeña línea de crédito &ldquo;Powered by Loona Automation&rdquo; bajo la inserción ayuda a que esta herramienta siga siendo gratuita &mdash; pero puedes darle estilo o quitarla si quieres; la herramienta funciona igual.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/es/stairs-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Stairs Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Desarrollado por &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/es/stairs-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Calculadora de escaleras&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copiar código de inserción</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='¡Copiado!';setTimeout(function(){b.textContent='Copiar código de inserción';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculadoras populares</h4><ul><li><a href="../paint-calculator/">Calculadora de pintura</a></li>
+<li><a href="../concrete-calculator/">Calculadora de hormigón</a></li>
+<li><a href="../tile-calculator/">Calculadora de baldosas</a></li>
+<li><a href="../brick-calculator/">Calculadora de ladrillos</a></li>
+<li><a href="../roof-pitch-calculator/">Calculadora de inclinación de techo</a></li>
+<li><a href="./">Calculadora de escaleras</a></li></ul></div>
+<div><h4>Más herramientas de Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Todas las herramientas de Loona</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Acerca de</a></li>
+<li><a href="../contact.html">Contacto</a></li>
+<li><a href="../privacy-policy.html">Política de privacidad</a></li>
+<li><a href="../terms.html">Términos de uso</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; un proyecto de <a href="https://loonaautomation.github.io/">Loona Automation</a> . Calculadoras de construcción gratuitas en unidades métricas e imperiales, sin registro.
+Contacto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+
+/* shared helpers: DOM getters (browser) + unit conversions + formatting */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.rise, v.tread)) return bad("Introduce la altura total y la profundidad de huella (ambos mayores que cero).");
+  var totalMm = (v.sys === "i") ? v.rise * FT * 1000 : v.rise * 1000;
+  var treadMm = (v.sys === "i") ? v.tread * 25.4 : v.tread; /* tread input: inches (imperial) or mm (metric) */
+  var N = Math.max(2, Math.round(totalMm / 175));
+  var riser = totalMm / N, treads = N - 1, runMm = treadMm * treads;
+  var stringer = Math.sqrt(totalMm * totalMm + runMm * runMm);
+  var comfort = 2 * riser + treadMm, inRange = comfort >= 600 && comfort <= 650;
+  var imp = v.sys === "i";
+  function L(mm) { return imp ? fmt(mm / 25.4, 2) + " in" : fmt(mm, 0) + " mm"; }
+  var html = resTable("Número de escalones", N + " contrahuellas (" + treads + " huellas)",
+    [["Altura exacta de contrahuella (cada escalón)", L(riser)],
+     ["Profundidad de huella (pisada)", L(treadMm)],
+     ["Tramo total de la escalera", imp ? fmt(runMm / 304.8, 2) + " ft" : fmt(runMm / 1000, 2) + " m"],
+     ["Longitud de zanca (mínima)", imp ? fmt(stringer / 304.8, 2) + " ft" : fmt(stringer / 1000, 2) + " m"],
+     ["Comprobación de comodidad: 2 × contrahuella + huella", fmt(comfort, 0) + " mm (" + fmt(comfort / 25.4, 1) + " in)"]],
+    inRange ? "Cómodo: el resultado está dentro del rango clásico de comodidad de 600\u2013650 mm (unas 24\u201325.5 in) usado por los diseñadores de escaleras." : "Fuera del rango clásico de comodidad de 600\u2013650 mm — ajusta la profundidad de huella (huella más profunda con contrahuellas altas, menos profunda con contrahuellas cortas) hasta que 2R + T quede cerca de 630 mm.");
+  return { ok: true, steps: N, riserMm: riser, treads: treads, runMm: runMm, stringerMm: stringer, comfort: comfort, inRange: inRange, html: html };
+} };
+
+function collect(){
+return { sys: gs("f_system"), rise: gv("f_rise"), tread: gv("f_tread") };
+}
+
+/* ---- page wiring (browser only) ---- */
+if (typeof document !== "undefined") {
+  var UNITS = {"rise":["m","ft"],"tread":["mm","in"]};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalar app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Instala esta app: toca el botón Compartir y luego elige "Añadir a pantalla de inicio".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

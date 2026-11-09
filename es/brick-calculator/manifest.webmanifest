@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Calculator",
+  "short_name": "Brick Calculator",
+  "description": "Calculadora gratuita de ladrillos: longitud y altura de la pared en métrico o imperial — obtén el número de ladrillos estándar (215 mm o modulares de EE. UU.) para una pared de una hoja, incluidos los márgenes por juntas de mortero y desperdicio.",
+  "id": "/loona-construction-calculators/es/brick-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

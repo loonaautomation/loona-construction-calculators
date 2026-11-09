@@ -1,0 +1,29 @@
+{
+  "name": "Loona Sand Calculator",
+  "short_name": "Sand Calculator",
+  "description": "Calculadora gratuita de arena: el área y la profundidad en métrico o imperial te dan el volumen de arena, el peso en toneladas y toneladas estadounidenses, y el número de bolsas de 25 kg — con densidad y margen de desperdicio, para areneros, bases de pavimentación y soleras.",
+  "id": "/loona-construction-calculators/es/sand-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

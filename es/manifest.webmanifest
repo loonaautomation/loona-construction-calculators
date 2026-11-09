@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Calculadoras de construcción gratuitas que funcionan en unidades métricas E imperiales: pintura, baldosas, hormigón, suelos, paneles de yeso, ladrillos, grava, inclinación de tejado, escaleras, pies tablares, papel pintado, mantillo, asfalto, aislamiento, vallas, terrazas, volumen de piscina, paneles solares, alfombras, contrachapado, arena, ley de Ohm, caída de tensión, sección de cable, coste de electricidad, amperios a vatios, vatios a amperios, kVA a amperios, factor de potencia, autonomía de batería, resistencia LED, potencia trifásica, corriente de motor, código de colores de resistencias, temporizador 555, conversión AWG, reactancia y conversión de decibelios — con márgenes de desperdicio y ejemplos resueltos.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/es/"
+}

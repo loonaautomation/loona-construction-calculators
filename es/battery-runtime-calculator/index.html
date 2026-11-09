@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de autonomía de batería — ¿Cuánto tiempo alimentará una batería una carga? (Ah, Wh, horas) | Loona Construction Calculators</title>
+<meta name="description" content="Calculadora gratuita de autonomía de batería: los voltios y amperios-hora de la batería, los vatios de carga, la profundidad de descarga y la eficiencia del inversor dan los vatios-hora utilizables y la autonomía en horas — para planificación solar, SAI y fuera de red.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/es/battery-runtime-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/battery-runtime-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/battery-runtime-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/battery-runtime-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/battery-runtime-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/battery-runtime-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/battery-runtime-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/battery-runtime-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculadora de autonomía de batería — ¿Cuánto tiempo alimentará una batería una carga? (Ah, Wh, horas) | Loona Construction Calculators">
+<meta property="og:description" content="Calculadora gratuita de autonomía de batería: los voltios y amperios-hora de la batería, los vatios de carga, la profundidad de descarga y la eficiencia del inversor dan los vatios-hora utilizables y la autonomía en horas — para planificación solar, SAI y fuera de red.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/es/battery-runtime-calculator/"><meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculadora de autonomía de batería — ¿Cuánto tiempo alimentará una batería una carga? (Ah, Wh, horas) | Loona Construction Calculators">
+<meta name="twitter:description" content="Calculadora gratuita de autonomía de batería: los voltios y amperios-hora de la batería, los vatios de carga, la profundidad de descarga y la eficiencia del inversor dan los vatios-hora utilizables y la autonomía en horas — para planificación solar, SAI y fuera de red.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculadora de autonomía de batería de Loona","url":"https://loonaautomation.github.io/loona-construction-calculators/es/battery-runtime-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Por qué no dividir simplemente los Ah entre los amperios de la carga?","acceptedAnswer":{"@type":"Answer","text":"Porque la carga suele estar en vatios en el lado de CA, y intervienen dos factores reales: la profundidad de descarga a la que debes limitarte y las pérdidas del inversor. Ignorar ambos sobreestima la autonomía un 40% o más en un sistema de plomo-ácido."}},{"@type":"Question","name":"¿Qué profundidad de descarga debo usar?","acceptedAnswer":{"@type":"Answer","text":"Plomo-ácido (incluidos AGM y gel): 50% para una vida útil razonable. Litio LiFePO4: se usa habitualmente 80–90%. Consulta la hoja de datos del fabricante de tu batería — la vida en ciclos se declara a una DoD dada, y ciclar más profundo acorta la vida drásticamente."}},{"@type":"Question","name":"¿Cómo combino varias baterías?","acceptedAnswer":{"@type":"Answer","text":"En serie, las tensiones se suman y los Ah se mantienen (dos de 12 V 100 Ah en serie = 24 V 100 Ah). En paralelo, los Ah se suman y la tensión se mantiene (dos en paralelo = 12 V 200 Ah). En ambos casos los vatios-hora totales son los mismos — introduce los voltios y Ah combinados del banco."}},{"@type":"Question","name":"¿Por qué mi autonomía real salió más corta?","acceptedAnswer":{"@type":"Answer","text":"Razones comunes: la capacidad Ah de la batería se mide con una descarga lenta de 20 horas — si consumes más rápido, el plomo-ácido entrega menos (efecto Peukert); las baterías frías guardan menos; las baterías viejas se degradan; y el consumo en espera del inversor se suma a la carga. Trata el resultado como el mejor caso."}},{"@type":"Question","name":"¿Puedo alimentar la carga directamente desde CC y saltarme la pérdida del inversor?","acceptedAnswer":{"@type":"Answer","text":"Si la carga acepta la tensión de la batería (luces, muchos aparatos de 12 V), pon la eficiencia al 100% — en realidad 95–98% para tener en cuenta el cableado — y la autonomía sube en consecuencia. Nunca conectes un aparato solo de CA directamente a una batería."}},{"@type":"Question","name":"¿Cómo combina esto con la calculadora de paneles solares?","acceptedAnswer":{"@type":"Answer","text":"Dimensiona el conjunto con la calculadora de paneles solares para reponer la energía que usas cada día, y usa esta herramienta para comprobar que el banco de baterías cubre las horas que lo necesitas — las dos mitades de un diseño fuera de red."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculadora de autonomía de batería",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/es/battery-runtime-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logotipo de Loona Automation">
+<div class="brand">Loona <span>Calculadoras de construcción</span></div>
+<nav>
+<a href="../">Inicio</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Acerca de</a>
+<a href="../contact.html">Contacto</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Electricidad &rsaquo; Calculadora de autonomía de batería</div>
+<h1 class="pagetitle">🔋 Calculadora de autonomía de batería</h1>
+<p class="lead">¿Planificando una batería solar, un SAI o una instalación fuera de red? Introduce la tensión de la batería y su capacidad en amperios-hora, la carga en vatios, hasta qué profundidad estás dispuesto a descargarla y la eficiencia del inversor — y obtén la energía utilizable y la autonomía esperada.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_volts">Tensión de la batería (V)</label><input type="number" id="f_volts" step="any" value="12"></div><div class="fld"><label for="f_ah">Capacidad de la batería (Ah)</label><input type="number" id="f_ah" step="any" value="100"></div><div class="fld"><label for="f_load">Carga (vatios)</label><input type="number" id="f_load" step="any" value="100"></div><div class="fld"><label for="f_dod">Profundidad de descarga utilizable (%) — 50 para plomo-ácido, 80–90 para litio (LiFePO4)</label><input type="number" id="f_dod" step="any" value="50"></div><div class="fld"><label for="f_eff">Eficiencia del inversor / sistema (%) — 100 para una carga CC directa, ~85 para un inversor típico</label><input type="number" id="f_eff" step="any" value="85"></div>
+<button type="button" class="calcbtn" id="calcBtn">Calcular</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Cómo usar la calculadora de autonomía de batería</h2><ol><li>Introduce la tensión de la batería y su capacidad en amperios-hora (Ah) — para un banco de baterías, usa la tensión total del banco y los Ah a esa tensión.</li><li>Introduce la carga en vatios (suma todo lo que funcionará a la vez).</li><li>Ajusta la profundidad de descarga que usarás de verdad y la eficiencia del inversor, y luego pulsa Calcular.</li></ol>
+<div class="exbox"><strong>Ejemplo:</strong> Una batería de 12 V y 100 Ah alimentando una carga de 100 W al 50% de profundidad de descarga a través de un inversor con 85% de eficiencia: energía utilizable = 510 Wh, autonomía = <strong>5.1 horas</strong>.</div>
+<h2>Preguntas frecuentes</h2></section><div class="faq"><h3>¿Por qué no dividir simplemente los Ah entre los amperios de la carga?</h3><p>Porque la carga suele estar en vatios en el lado de CA, y intervienen dos factores reales: la profundidad de descarga a la que debes limitarte y las pérdidas del inversor. Ignorar ambos sobreestima la autonomía un 40% o más en un sistema de plomo-ácido.</p></div><div class="faq"><h3>¿Qué profundidad de descarga debo usar?</h3><p>Plomo-ácido (incluidos AGM y gel): 50% para una vida útil razonable. Litio LiFePO4: se usa habitualmente 80–90%. Consulta la hoja de datos del fabricante de tu batería — la vida en ciclos se declara a una DoD dada, y ciclar más profundo acorta la vida drásticamente.</p></div><div class="faq"><h3>¿Cómo combino varias baterías?</h3><p>En serie, las tensiones se suman y los Ah se mantienen (dos de 12 V 100 Ah en serie = 24 V 100 Ah). En paralelo, los Ah se suman y la tensión se mantiene (dos en paralelo = 12 V 200 Ah). En ambos casos los vatios-hora totales son los mismos — introduce los voltios y Ah combinados del banco.</p></div>
+<h2 class="sec">Calculadoras relacionadas</h2><div class="grid"><a class="card" href="../solar-panel-calculator/"><div class="ic">☀️</div><h3>Calculadora de paneles solares</h3><p>Electricidad</p></a><a class="card" href="../electricity-cost-calculator/"><div class="ic">💷</div><h3>Calculadora de coste de electricidad</h3><p>Electricidad</p></a><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>Calculadora de amperios a vatios</h3><p>Electricidad</p></a><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>Calculadora de caída de voltaje</h3><p>Electricidad</p></a></div>
+</div>
+<section class="txt"><h2>Cómo funciona &mdash; la fórmula</h2>
+<p><strong>Energía almacenada (Wh)</strong> = Voltios × Amperios-hora<br>
+<strong>Energía útil (Wh)</strong> = Almacenada × Profundidad de descarga × Eficiencia<br>
+<strong>Autonomía (horas)</strong> = Wh útiles ÷ Carga (W)<br>
+<strong>Corriente media de la batería (A)</strong> = Carga ÷ (Voltios × Eficiencia)</p>
+<p>Dos ajustes honestos separan esto de las sumas ingenuas de 'Ah ÷ amperios': no deberías vaciar la mayoría de las baterías (una batería de plomo-ácido descargada regularmente más allá del 50% se desgasta rápido, mientras que LiFePO4 tolera 80–90%), y un inversor desperdicia 10–20% de la energía que convierte. Ambos están en la fórmula de arriba.</p>
+<h3>Ejemplo práctico</h3>
+<div class="exbox">12 V × 100 Ah = <strong>1,200 Wh</strong> almacenada. Útil = 1,200 × 0.50 × 0.85 = <strong>510 Wh</strong>. Autonomía = 510 ÷ 100 W = <strong>5.1 horas</strong> (5 h 6 min). La batería suministra de media 100 ÷ (12 × 0.85) = <strong>9.80 A</strong> mientras lo hace.</div>
+
+<h3>Preguntas frecuentes</h3></section>
+<div class="faq"><h3>¿Por qué mi autonomía real salió más corta?</h3><p>Razones comunes: la capacidad Ah de la batería se mide con una descarga lenta de 20 horas — si consumes más rápido, el plomo-ácido entrega menos (efecto Peukert); las baterías frías guardan menos; las baterías viejas se degradan; y el consumo en espera del inversor se suma a la carga. Trata el resultado como el mejor caso.</p></div><div class="faq"><h3>¿Puedo alimentar la carga directamente desde CC y saltarme la pérdida del inversor?</h3><p>Si la carga acepta la tensión de la batería (luces, muchos aparatos de 12 V), pon la eficiencia al 100% — en realidad 95–98% para tener en cuenta el cableado — y la autonomía sube en consecuencia. Nunca conectes un aparato solo de CA directamente a una batería.</p></div><div class="faq"><h3>¿Cómo combina esto con la calculadora de paneles solares?</h3><p>Dimensiona el conjunto con la calculadora de paneles solares para reponer la energía que usas cada día, y usa esta herramienta para comprobar que el banco de baterías cubre las horas que lo necesitas — las dos mitades de un diseño fuera de red.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Inserta esta calculadora en tu sitio web — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Añade esta calculadora a tu sitio web o blog — es completamente gratis, no requiere registro y siempre muestra la versión más reciente. Copia el código de abajo y pégalo en tu página donde quieras que aparezca la calculadora. Mantener la pequeña línea de crédito &ldquo;Powered by Loona Automation&rdquo; bajo la inserción ayuda a que esta herramienta siga siendo gratuita &mdash; pero puedes darle estilo o quitarla si quieres; la herramienta funciona igual.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/es/battery-runtime-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Battery Runtime Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Desarrollado por &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/es/battery-runtime-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Calculadora de autonomía de batería&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copiar código de inserción</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='¡Copiado!';setTimeout(function(){b.textContent='Copiar código de inserción';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculadoras populares</h4><ul><li><a href="../paint-calculator/">Calculadora de pintura</a></li>
+<li><a href="../concrete-calculator/">Calculadora de hormigón</a></li>
+<li><a href="../tile-calculator/">Calculadora de baldosas</a></li>
+<li><a href="../brick-calculator/">Calculadora de ladrillos</a></li>
+<li><a href="../roof-pitch-calculator/">Calculadora de inclinación de techo</a></li>
+<li><a href="../stairs-calculator/">Calculadora de escaleras</a></li></ul></div>
+<div><h4>Más herramientas de Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Todas las herramientas de Loona</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Acerca de</a></li>
+<li><a href="../contact.html">Contacto</a></li>
+<li><a href="../privacy-policy.html">Política de privacidad</a></li>
+<li><a href="../terms.html">Términos de uso</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; un proyecto de <a href="https://loonaautomation.github.io/">Loona Automation</a> . Calculadoras de construcción gratuitas en unidades métricas e imperiales, sin registro.
+Contacto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.volts, v.ah, v.load)) return bad("Introduce el voltaje de la batería, la capacidad en Ah y la carga en vatios.");
+  var eff = (v.eff > 0 && v.eff <= 100) ? v.eff / 100 : NaN;
+  var dod = (v.dod > 0 && v.dod <= 100) ? v.dod / 100 : NaN;
+  if (!isFinite(eff) || !isFinite(dod)) return bad("La eficiencia y la profundidad útil de descarga deben estar cada una entre 1 y 100%.");
+  var stored = v.volts * v.ah;
+  var usable = stored * dod * eff;
+  var hours = usable / v.load;
+  var mins = Math.round(hours * 60);
+  var current = v.load / (v.volts * eff);
+  var html = resTable("Autonomía estimada", fmt(hours, 2) + " horas (" + Math.floor(mins / 60) + " h " + (mins % 60) + " min)",
+    [["Energía almacenada", fmt(stored, 0) + " Wh"],["Energía útil (tras PdD y pérdidas)", fmt(usable, 0) + " Wh"],["Corriente media de la batería", fmt(current, 2) + " A"],["Carga", fmt(v.load, 0) + " W"]],
+    "La autonomía real suele ser menor: la capacidad cae con tasas de descarga altas (efecto Peukert en plomo-ácido), con frío y cuando las baterías envejecen. Trata esto como una cifra de planificación de mejor caso y guarda un margen para cargas críticas.");
+  return { ok: true, storedWh: stored, usableWh: usable, hours: hours, current: current, html: html };
+} };
+
+function collect(){ return { volts: gv("f_volts"), ah: gv("f_ah"), load: gv("f_load"), dod: gv("f_dod"), eff: gv("f_eff") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalar app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Instala esta app: toca el botón Compartir y luego elige "Añadir a pantalla de inicio".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

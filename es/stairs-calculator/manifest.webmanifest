@@ -1,0 +1,29 @@
+{
+  "name": "Loona Stairs Calculator",
+  "short_name": "Stairs Calculator",
+  "description": "Calculadora gratuita de escaleras: introduce la elevación total en métrico o imperial — obtén el número de peldaños, la altura exacta de contrahuella, el recorrido total y la longitud de zanca, con la regla de confort 2R + T comprobada automáticamente.",
+  "id": "/loona-construction-calculators/es/stairs-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

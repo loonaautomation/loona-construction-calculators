@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in Pakistan",
+  "short_name": "Brick Size in Pakistan",
+  "description": "Tamaño estándar de ladrillo en Pakistán: 228 × 107 × 69 mm. 53.2 ladrillos por m² (4.94 por sq ft) de pared de una hoja con juntas de mortero de 10 mm, cobertura por cada 1,000 ladrillos y un ejemplo de pared resuelto.",
+  "id": "/loona-construction-calculators/es/brick-size-pakistan/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

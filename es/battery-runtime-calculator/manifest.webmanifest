@@ -1,0 +1,29 @@
+{
+  "name": "Loona Battery Runtime Calculator",
+  "short_name": "Battery Runtime Calculator",
+  "description": "Calculadora gratuita de autonomía de batería: los voltios y amperios-hora de la batería, los vatios de carga, la profundidad de descarga y la eficiencia del inversor dan los vatios-hora utilizables y la autonomía en horas — para planificación solar, SAI y fuera de red.",
+  "id": "/loona-construction-calculators/es/battery-runtime-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

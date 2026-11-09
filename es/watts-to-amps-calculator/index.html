@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de vatios a amperios — CC, monofásico y trifásico (W a A) | Loona Construction Calculators</title>
+<meta name="description" content="Calculadora gratuita de vatios a amperios para CC, CA monofásica y CA trifásica: la potencia, el voltaje y el factor de potencia dan la corriente en amperios — el primer paso para dimensionar un interruptor o un cable.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/es/watts-to-amps-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/watts-to-amps-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/watts-to-amps-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/watts-to-amps-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/watts-to-amps-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/watts-to-amps-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/watts-to-amps-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/watts-to-amps-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculadora de vatios a amperios — CC, monofásico y trifásico (W a A) | Loona Construction Calculators">
+<meta property="og:description" content="Calculadora gratuita de vatios a amperios para CC, CA monofásica y CA trifásica: la potencia, el voltaje y el factor de potencia dan la corriente en amperios — el primer paso para dimensionar un interruptor o un cable.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/es/watts-to-amps-calculator/"><meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculadora de vatios a amperios — CC, monofásico y trifásico (W a A) | Loona Construction Calculators">
+<meta name="twitter:description" content="Calculadora gratuita de vatios a amperios para CC, CA monofásica y CA trifásica: la potencia, el voltaje y el factor de potencia dan la corriente en amperios — el primer paso para dimensionar un interruptor o un cable.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculadora de vatios a amperios de Loona","url":"https://loonaautomation.github.io/loona-construction-calculators/es/watts-to-amps-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Por qué el factor de potencia cambia los amperios?","acceptedAnswer":{"@type":"Answer","text":"Solo una parte de la corriente que consume una carga inductiva hace trabajo útil. Con un factor de potencia de 0.8, la alimentación debe entregar 1 ÷ 0.8 = 1.25× la corriente que los vatios solos sugieren, así que cables e interruptores ven la cifra mayor."}},{"@type":"Question","name":"¿Qué tamaño de interruptor necesito para el resultado?","acceptedAnswer":{"@type":"Answer","text":"El interruptor debe estar clasificado a la corriente de la carga o por encima, y muchos códigos exigen dimensionamiento al 125% para cargas continuas (funcionando 3+ horas). La calculadora muestra la corriente real de la carga; aplicar los márgenes de tu código local y elegir el interruptor y el cable es el siguiente paso — consulta la Calculadora de tamaño de cable."}},{"@type":"Question","name":"¿Cuántos amperios son 1,000 W?","acceptedAnswer":{"@type":"Answer","text":"Depende del voltaje y el factor de potencia: a 230 V y FP 1 son 4.35 A; a 230 V y FP 0.8, 5.43 A; a 120 V y FP 1, 8.33 A; en un circuito de CC de 12 V, 83.3 A — por eso los sistemas de bajo voltaje necesitan cables tan gruesos."}},{"@type":"Question","name":"¿Funciona esto para los kW nominales de un motor?","acceptedAnswer":{"@type":"Answer","text":"Los kW de placa de un motor suelen ser su potencia de eje (salida). La entrada eléctrica es mayor por las pérdidas del motor, así que usa la Calculadora de corriente del motor, que añade la eficiencia al cálculo, para una mejor estimación de corriente a plena carga — y prefiere siempre el FLA de la placa cuando lo tengas."}},{"@type":"Question","name":"¿Y en trifásico — qué voltaje introduzco?","acceptedAnswer":{"@type":"Answer","text":"El voltaje entre fases: 400 V en un sistema europeo típico de 400/230 V, 480 V o 208 V en Norteamérica. El √3 de la fórmula se encarga del resto."}},{"@type":"Question","name":"¿Puedo convertir amperios de vuelta a vatios?","acceptedAnswer":{"@type":"Answer","text":"Sí — esa es la calculadora compañera de Amperios a vatios, enlazada abajo; las dos son inversas exactas cuando se usan el mismo voltaje y factor de potencia."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculadora de vatios a amperios",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/es/watts-to-amps-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logotipo de Loona Automation">
+<div class="brand">Loona <span>Calculadoras de construcción</span></div>
+<nav>
+<a href="../">Inicio</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Acerca de</a>
+<a href="../contact.html">Contacto</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Electricidad &rsaquo; Calculadora de vatios a amperios</div>
+<h1 class="pagetitle">🔁 Calculadora de vatios a amperios</h1>
+<p class="lead">Conoces los vatios — la potencia de un calefactor, la placa de un motor — ahora descubre los amperios que consumirá. Elige CC, monofásico o trifásico, introduce el voltaje y el factor de potencia, y obtén la corriente: el número que necesitas antes de elegir un interruptor, fusible o cable.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system_type">Tipo de sistema</label><select id="f_system_type"><option value="dc">DC</option><option value="1" selected>CA monofásica</option><option value="3">CA trifásica (tensión entre fases)</option></select></div><div class="fld"><label for="f_watts">Potencia (vatios)</label><input type="number" id="f_watts" step="any" value="3000"></div><div class="fld"><label for="f_volts">Tensión (voltios) — entre fases en trifásica</label><input type="number" id="f_volts" step="any" value="230"></div><div class="fld"><label for="f_pf">Factor de potencia (0.1–1.0; 1.0 para CC / cargas resistivas)</label><input type="number" id="f_pf" step="any" value="0.8"></div>
+<button type="button" class="calcbtn" id="calcBtn">Calcular</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Cómo usar la calculadora de vatios a amperios</h2><ol><li>Elige CC, CA monofásica o CA trifásica.</li><li>Introduce la potencia de la carga en vatios (su placa de características, o vatios = kW × 1,000) y el voltaje de alimentación.</li><li>Ajusta el factor de potencia para cargas de CA — 1.0 para calefactores, unos 0.8 para un motor típico — luego pulsa Calcular.</li></ol>
+<div class="exbox"><strong>Ejemplo:</strong> Una carga de 3,000 W en 230 V monofásico a FP 0.8 consume 3,000 ÷ (230 × 0.8) = <strong>16.30 A</strong> — así que un interruptor de 16 A no basta; se necesita el siguiente tamaño.</div>
+<h2>Preguntas frecuentes</h2></section><div class="faq"><h3>¿Por qué el factor de potencia cambia los amperios?</h3><p>Solo una parte de la corriente que consume una carga inductiva hace trabajo útil. Con un factor de potencia de 0.8, la alimentación debe entregar 1 ÷ 0.8 = 1.25× la corriente que los vatios solos sugieren, así que cables e interruptores ven la cifra mayor.</p></div><div class="faq"><h3>¿Qué tamaño de interruptor necesito para el resultado?</h3><p>El interruptor debe estar clasificado a la corriente de la carga o por encima, y muchos códigos exigen dimensionamiento al 125% para cargas continuas (funcionando 3+ horas). La calculadora muestra la corriente real de la carga; aplicar los márgenes de tu código local y elegir el interruptor y el cable es el siguiente paso — consulta la Calculadora de tamaño de cable.</p></div><div class="faq"><h3>¿Cuántos amperios son 1,000 W?</h3><p>Depende del voltaje y el factor de potencia: a 230 V y FP 1 son 4.35 A; a 230 V y FP 0.8, 5.43 A; a 120 V y FP 1, 8.33 A; en un circuito de CC de 12 V, 83.3 A — por eso los sistemas de bajo voltaje necesitan cables tan gruesos.</p></div>
+<h2 class="sec">Calculadoras relacionadas</h2><div class="grid"><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>Calculadora de amperios a vatios</h3><p>Electricidad</p></a><a class="card" href="../motor-current-calculator/"><div class="ic">🌀</div><h3>Calculadora de corriente de motor</h3><p>Electricidad</p></a><a class="card" href="../wire-size-calculator/"><div class="ic">🧵</div><h3>Calculadora de tamaño de cable</h3><p>Electricidad</p></a><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>Calculadora de la ley de Ohm</h3><p>Electricidad</p></a></div>
+</div>
+<section class="txt"><h2>Cómo funciona &mdash; la fórmula</h2>
+<p><strong>DC:</strong> I = P ÷ V<br>
+<strong>CA monofásica:</strong> I = P ÷ (V × PF)<br>
+<strong>CA trifásica:</strong> I = P ÷ (√3 × V<sub>L-L</sub> × PF)</p>
+<p>Estas son las fórmulas de la ley de potencia reordenadas. Fíjate en lo que hace el factor de potencia: a FP 0.8 los mismos vatios necesitan 25% más corriente que a FP 1 — por eso las cargas de motor sorprenden a quienes dividen vatios entre voltios y se quedan ahí.</p>
+<h3>Ejemplo práctico</h3>
+<div class="exbox">P = 3,000 W, V = 230 V, FP = 0.8, monofásico: I = 3,000 ÷ (230 × 0.8) = 3,000 ÷ 184 = <strong>16.30 A</strong>. La misma carga como resistencia pura (FP 1) consumiría 3,000 ÷ 230 = 13.04 A — el factor de potencia por sí solo añadió más de 3 A.</div>
+
+<h3>Preguntas frecuentes</h3></section>
+<div class="faq"><h3>¿Funciona esto para los kW nominales de un motor?</h3><p>Los kW de placa de un motor suelen ser su potencia de eje (salida). La entrada eléctrica es mayor por las pérdidas del motor, así que usa la Calculadora de corriente del motor, que añade la eficiencia al cálculo, para una mejor estimación de corriente a plena carga — y prefiere siempre el FLA de la placa cuando lo tengas.</p></div><div class="faq"><h3>¿Y en trifásico — qué voltaje introduzco?</h3><p>El voltaje entre fases: 400 V en un sistema europeo típico de 400/230 V, 480 V o 208 V en Norteamérica. El √3 de la fórmula se encarga del resto.</p></div><div class="faq"><h3>¿Puedo convertir amperios de vuelta a vatios?</h3><p>Sí — esa es la calculadora compañera de Amperios a vatios, enlazada abajo; las dos son inversas exactas cuando se usan el mismo voltaje y factor de potencia.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Inserta esta calculadora en tu sitio web — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Añade esta calculadora a tu sitio web o blog — es completamente gratis, no requiere registro y siempre muestra la versión más reciente. Copia el código de abajo y pégalo en tu página donde quieras que aparezca la calculadora. Mantener la pequeña línea de crédito &ldquo;Powered by Loona Automation&rdquo; bajo la inserción ayuda a que esta herramienta siga siendo gratuita &mdash; pero puedes darle estilo o quitarla si quieres; la herramienta funciona igual.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/es/watts-to-amps-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Watts to Amps Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Desarrollado por &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/es/watts-to-amps-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Calculadora de vatios a amperios&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copiar código de inserción</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='¡Copiado!';setTimeout(function(){b.textContent='Copiar código de inserción';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculadoras populares</h4><ul><li><a href="../paint-calculator/">Calculadora de pintura</a></li>
+<li><a href="../concrete-calculator/">Calculadora de hormigón</a></li>
+<li><a href="../tile-calculator/">Calculadora de baldosas</a></li>
+<li><a href="../brick-calculator/">Calculadora de ladrillos</a></li>
+<li><a href="../roof-pitch-calculator/">Calculadora de inclinación de techo</a></li>
+<li><a href="../stairs-calculator/">Calculadora de escaleras</a></li></ul></div>
+<div><h4>Más herramientas de Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Todas las herramientas de Loona</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Acerca de</a></li>
+<li><a href="../contact.html">Contacto</a></li>
+<li><a href="../privacy-policy.html">Política de privacidad</a></li>
+<li><a href="../terms.html">Términos de uso</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; un proyecto de <a href="https://loonaautomation.github.io/">Loona Automation</a> . Calculadoras de construcción gratuitas en unidades métricas e imperiales, sin registro.
+Contacto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.watts, v.volts)) return bad("Introduce la potencia en vatios y el voltaje en voltios.");
+  var pf = (v.type === "dc") ? 1 : v.pf;
+  if (!(pf > 0 && pf <= 1)) return bad("El factor de potencia debe ser mayor que 0 y como máximo 1.");
+  var amps;
+  if (v.type === "3") amps = v.watts / (Math.sqrt(3) * v.volts * pf);
+  else amps = v.watts / (v.volts * pf);
+  var html = resTable("Corriente", fmt(amps, 2) + " A",
+    [["Potencia", fmt(v.watts, 0) + " W (" + fmt(v.watts / 1000, 3) + " kW)"],["Voltaje", fmt(v.volts, 1) + " V"],["Factor de potencia usado", fmt(pf, 2)]],
+    "Esta es solo la corriente de la carga. Elegir un interruptor o un cable necesita margen adicional \u2014 las reglas de carga continua en muchos códigos dimensionan la protección al 125% de la corriente de la carga, y también deben comprobarse la ampacidad del cable y la caída de voltaje (consulta las calculadoras de Tamaño de cable y Caída de voltaje).");
+  return { ok: true, amps: amps, html: html };
+} };
+
+function collect(){ return { type: gs("f_system_type"), watts: gv("f_watts"), volts: gv("f_volts"), pf: gv("f_pf") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalar app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Instala esta app: toca el botón Compartir y luego elige "Añadir a pantalla de inicio".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

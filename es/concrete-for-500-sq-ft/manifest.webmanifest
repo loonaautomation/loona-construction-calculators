@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Concrete for 500 Sq Ft? Volume &",
+  "short_name": "How Much Concrete for 500 Sq",
+  "description": "Hormigón para una losa de 500 sq ft, de 4 pulgadas de grosor: 5.19 m³ (6.79 yd³) incluido un 10% extra, más los cómputos de bolsas premezcladas de 80 lb, 60 lb, 25 kg y 20 kg.",
+  "id": "/loona-construction-calculators/es/concrete-for-500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
