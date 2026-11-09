@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in Pakistan",
+  "short_name": "Brick Size in Pakistan",
+  "description": "Misura standard del mattone in Pakistan: 228 × 107 × 69 mm. 53.2 mattoni per m² (4.94 per sq ft) di muro a singola fodera con giunti di malta da 10 mm, copertura per 1,000 mattoni e un esempio di muro risolto.",
+  "id": "/loona-construction-calculators/it/brick-size-pakistan/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

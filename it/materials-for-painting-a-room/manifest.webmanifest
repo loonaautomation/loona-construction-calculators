@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for Painting a 12 × 14 ft Room",
+  "short_name": "Materials for Painting a 12 ×",
+  "description": "Elenco di acquisto completo per dipingere una stanza da 12×14 ft: litri/galloni di vernice per 2 mani, primer, nastro, rulli e materiali di preparazione — calcolati, non indovinati.",
+  "id": "/loona-construction-calculators/it/materials-for-painting-a-room/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

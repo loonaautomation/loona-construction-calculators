@@ -1,0 +1,29 @@
+{
+  "name": "Loona Mulch Calculator",
+  "short_name": "Mulch Calculator",
+  "description": "Calcolatore gratuito della pacciamatura: area e profondità dell'aiuola in metrico o imperiale — ottieni il volume di pacciamatura, il numero di sacchi da 40/50 litri o da 2/3 piedi cubi, e metri e iarde cubi sfusi.",
+  "id": "/loona-construction-calculators/it/mulch-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

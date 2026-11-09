@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 300 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 300 Sq Ft?",
+  "description": "Piastrelle per 300 sq ft con piastrelle da 60×60 cm e fughe da 3 mm: 85 piastrelle (22 scatole da 4) incluso il 10% extra per tagli e rotture.",
+  "id": "/loona-construction-calculators/it/tiles-for-300-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

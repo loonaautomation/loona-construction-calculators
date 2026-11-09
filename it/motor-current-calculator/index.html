@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calcolatore corrente motore — Ampere stimati a pieno carico da kW o HP, rendimento e PF | Loona Construction Calculators</title>
+<meta name="description" content="Calcolatore gratuito della corrente del motore: la potenza del motore in kW o cavalli, la tensione, monofase o trifase, il rendimento e il fattore di potenza danno una corrente stimata a pieno carico — con oneste avvertenze su targhetta e codice.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/it/motor-current-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/motor-current-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/motor-current-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/motor-current-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/motor-current-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/motor-current-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/motor-current-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/motor-current-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calcolatore corrente motore — Ampere stimati a pieno carico da kW o HP, rendimento e PF | Loona Construction Calculators">
+<meta property="og:description" content="Calcolatore gratuito della corrente del motore: la potenza del motore in kW o cavalli, la tensione, monofase o trifase, il rendimento e il fattore di potenza danno una corrente stimata a pieno carico — con oneste avvertenze su targhetta e codice.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/it/motor-current-calculator/"><meta property="og:locale" content="it_IT">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calcolatore corrente motore — Ampere stimati a pieno carico da kW o HP, rendimento e PF | Loona Construction Calculators">
+<meta name="twitter:description" content="Calcolatore gratuito della corrente del motore: la potenza del motore in kW o cavalli, la tensione, monofase o trifase, il rendimento e il fattore di potenza danno una corrente stimata a pieno carico — con oneste avvertenze su targhetta e codice.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calcolatore corrente motore Loona","url":"https://loonaautomation.github.io/loona-construction-calculators/it/motor-current-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Perché la stima non è esatta?","acceptedAnswer":{"@type":"Answer","text":"Il rendimento e il fattore di potenza variano con il design del singolo motore e con il suo carico — un motore a metà carico assorbe meno corrente ma con un fattore di potenza peggiore. Due motori con la stessa potenza in kW di produttori diversi possono differire del 10% negli ampere a pieno carico, ed è per questo che le norme insistono sul valore di targhetta."}},{"@type":"Question","name":"E se conosco solo i cavalli?","acceptedAnswer":{"@type":"Answer","text":"Scegli l'opzione hp — il calcolatore converte a 1 hp = 0.7457 kW. (Per convertire le unità di potenza da sole, Loona Calculators ha convertitori dedicati cavalli ↔ chilowatt; qui la conversione è solo il primo passo della stima di corrente.)"}},{"@type":"Question","name":"Che rendimento e fattore di potenza devo assumere?","acceptedAnswer":{"@type":"Answer","text":"Motori trifase moderni: rendimento di circa l'80% per i motori piccoli, che sale al 93–95% per quelli grandi a efficienza premium; PF a pieno carico tipicamente 0.8–0.87 per i motori piccoli e 0.85–0.92 per i grandi. La targhetta o la scheda tecnica batte qualsiasi supposizione."}},{"@type":"Question","name":"Quanta corrente assorbe il motore all'avviamento?","acceptedAnswer":{"@type":"Answer","text":"L'avviamento diretto (DOL) assorbe tipicamente 6–8× la corrente a pieno carico per alcuni secondi — il motivo per cui le luci si abbassano e per cui gli interruttori dei circuiti motore usano curve di intervento per motori. L'avviamento stella-triangolo lo riduce a circa un terzo; gli avviatori statici e i VFD possono limitarlo a 1–1.5×."}},{"@type":"Question","name":"Posso usare questa corrente per scegliere il cavo e l'interruttore?","acceptedAnswer":{"@type":"Answer","text":"Solo come prima stima. Il cavo e la protezione per i motori seguono regole di codice specifiche (negli USA, l'Articolo 430 del NEC usa tabelle standardizzate di corrente a pieno carico invece della targhetta per il dimensionamento dei conduttori, e consente valori di interruttore più alti per superare l'avviamento). Un elettricista qualificato applica queste regole alla targhetta reale."}},{"@type":"Question","name":"Un VFD cambia la corrente?","acceptedAnswer":{"@type":"Answer","text":"Sul lato motore il VFD fornisce ciò di cui il motore ha bisogno; sul lato alimentazione l'azionamento assorbe corrente con le proprie caratteristiche e armoniche. Dimensiona l'alimentazione dal valore di corrente in ingresso del produttore dell'azionamento, non da questa stima."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/it/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calcolatore corrente motore",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/it/motor-current-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo di Loona Automation">
+<div class="brand">Loona <span>Calcolatori per l'edilizia</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Chi siamo</a>
+<a href="../contact.html">Contatti</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Elettricità &rsaquo; Calcolatore corrente motore</div>
+<h1 class="pagetitle">🌀 Calcolatore corrente motore</h1>
+<p class="lead">Stima la corrente a pieno carico di un motore dalla sua potenza nominale — in kW o cavalli — la sua tensione, fase, rendimento e fattore di potenza. Utile per la pianificazione iniziale e i controlli di coerenza; la targhetta e le tabelle del codice restano l'autorità, come spiegano le note qui sotto.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_power">Potenza nominale (albero) del motore</label><input type="number" id="f_power" step="any" value="7.5"></div><div class="fld"><label for="f_unit">Unità di potenza</label><select id="f_unit"><option value="kw" selected>Chilowatt (kW)</option><option value="hp">Cavalli (hp)</option></select></div><div class="fld"><label for="f_phase">Tipo di alimentazione</label><select id="f_phase"><option value="1">Monofase</option><option value="3" selected>Trifase (tensione concatenata)</option></select></div><div class="fld"><label for="f_volts">Tensione di alimentazione (volt)</label><input type="number" id="f_volts" step="any" value="400"></div><div class="fld"><label for="f_eff">Rendimento del motore (%) — tipico 75–95, dalla targhetta</label><input type="number" id="f_eff" step="any" value="90"></div><div class="fld"><label for="f_pf">Fattore di potenza a pieno carico — tipico 0.8–0.9</label><input type="number" id="f_pf" step="any" value="0.85"></div>
+<button type="button" class="calcbtn" id="calcBtn">Calcola</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Come usare il calcolatore corrente motore</h2><ol><li>Inserisci la potenza nominale all'albero del motore dalla sua targhetta, scegliendo kW o cavalli.</li><li>Scegli monofase o trifase e inserisci la tensione di alimentazione (linea-linea per il trifase).</li><li>Inserisci il rendimento di targhetta e il fattore di potenza a pieno carico se li hai — altrimenti i valori predefiniti (90%, 0.85) si adattano a un tipico motore moderno — poi premi Calcola.</li></ol>
+<div class="exbox"><strong>Esempio:</strong> Un motore trifase da 7.5 kW a 400 V con rendimento del 90% e PF 0.85 assorbe uno stimato <strong>14.15 A</strong> a pieno carico — vicino ai ~15 A che una vera targhetta mostrerebbe.</div>
+<h2>Domande frequenti</h2></section><div class="faq"><h3>Perché la stima non è esatta?</h3><p>Il rendimento e il fattore di potenza variano con il design del singolo motore e con il suo carico — un motore a metà carico assorbe meno corrente ma con un fattore di potenza peggiore. Due motori con la stessa potenza in kW di produttori diversi possono differire del 10% negli ampere a pieno carico, ed è per questo che le norme insistono sul valore di targhetta.</p></div><div class="faq"><h3>E se conosco solo i cavalli?</h3><p>Scegli l'opzione hp — il calcolatore converte a 1 hp = 0.7457 kW. (Per convertire le unità di potenza da sole, Loona Calculators ha convertitori dedicati cavalli ↔ chilowatt; qui la conversione è solo il primo passo della stima di corrente.)</p></div><div class="faq"><h3>Che rendimento e fattore di potenza devo assumere?</h3><p>Motori trifase moderni: rendimento di circa l'80% per i motori piccoli, che sale al 93–95% per quelli grandi a efficienza premium; PF a pieno carico tipicamente 0.8–0.87 per i motori piccoli e 0.85–0.92 per i grandi. La targhetta o la scheda tecnica batte qualsiasi supposizione.</p></div>
+<h2 class="sec">Calcolatori correlati</h2><div class="grid"><a class="card" href="../watts-to-amps-calculator/"><div class="ic">🔁</div><h3>Calcolatore da watt ad ampere</h3><p>Elettricità</p></a><a class="card" href="../three-phase-power-calculator/"><div class="ic">🔺</div><h3>Calcolatore potenza trifase</h3><p>Elettricità</p></a><a class="card" href="../power-factor-calculator/"><div class="ic">🎚️</div><h3>Calcolatore fattore di potenza</h3><p>Elettricità</p></a><a class="card" href="../wire-size-calculator/"><div class="ic">🧵</div><h3>Calcolatore dimensione cavo</h3><p>Elettricità</p></a></div>
+</div>
+<section class="txt"><h2>Come funziona &mdash; la formula</h2>
+<p><strong>Potenza elettrica in ingresso</strong> = Potenza all'albero ÷ Rendimento<br>
+<strong>Monofase:</strong> I = W in ingresso ÷ (V × PF)<br>
+<strong>Trifase:</strong> I = W in ingresso ÷ (√3 × V<sub>L-L</sub> × PF)<br>
+<strong>Cavalli:</strong> kW = hp × 0.7457</p>
+<p>Il passaggio che la maggior parte delle stime rapide perde è il primo: i kW o hp pubblicizzati di un motore sono la potenza meccanica al suo albero. Il lato elettrico deve fornire quella <em>più</em> le perdite del motore, quindi l'ingresso è la potenza all'albero divisa per il rendimento — un motore da 7.5 kW al 90% di rendimento prende in realtà 8.33 kW dall'alimentazione prima ancora che il fattore di potenza sia considerato.</p>
+<h3>Esempio pratico</h3>
+<div class="exbox">Potenza all'albero da 7.5 kW, rendimento 90% → ingresso = 7.5 ÷ 0.90 = <strong>8.33 kW</strong>. Trifase a 400 V, PF 0.85: I = 8,330 ÷ (√3 × 400 × 0.85) = 8,330 ÷ 589.0 = <strong>14.15 A</strong>. Confronta con una tipica targhetta reale di un motore da 7.5 kW, 400 V: circa 15 A — la stima è nel posto giusto, ma la targhetta vince ogni volta che le due differiscono.</div>
+<div class="resnote" style="font-size:14px;color:#5a6b68;background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin:12px 0"><strong>Importante:</strong> questa è una stima ingegneristica, non un valore di progetto. I circuiti dei motori devono essere dimensionati dagli ampere a pieno carico della targhetta e dalle regole per motori del tuo codice locale (che coprono anche la corrente di avviamento di circa 6–8× il pieno carico per l'avviamento diretto, la protezione da sovraccarico e i sezionatori). Fai progettare o verificare le installazioni dei motori da un elettricista qualificato.</div>
+<h3>Domande frequenti</h3></section>
+<div class="faq"><h3>Quanta corrente assorbe il motore all'avviamento?</h3><p>L'avviamento diretto (DOL) assorbe tipicamente 6–8× la corrente a pieno carico per alcuni secondi — il motivo per cui le luci si abbassano e per cui gli interruttori dei circuiti motore usano curve di intervento per motori. L'avviamento stella-triangolo lo riduce a circa un terzo; gli avviatori statici e i VFD possono limitarlo a 1–1.5×.</p></div><div class="faq"><h3>Posso usare questa corrente per scegliere il cavo e l'interruttore?</h3><p>Solo come prima stima. Il cavo e la protezione per i motori seguono regole di codice specifiche (negli USA, l'Articolo 430 del NEC usa tabelle standardizzate di corrente a pieno carico invece della targhetta per il dimensionamento dei conduttori, e consente valori di interruttore più alti per superare l'avviamento). Un elettricista qualificato applica queste regole alla targhetta reale.</p></div><div class="faq"><h3>Un VFD cambia la corrente?</h3><p>Sul lato motore il VFD fornisce ciò di cui il motore ha bisogno; sul lato alimentazione l'azionamento assorbe corrente con le proprie caratteristiche e armoniche. Dimensiona l'alimentazione dal valore di corrente in ingresso del produttore dell'azionamento, non da questa stima.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Incorpora questo calcolatore nel tuo sito web — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Aggiungi questo calcolatore al tuo sito web o blog — è completamente gratis, non richiede registrazione e mostra sempre la versione più recente. Copia il codice qui sotto e incollalo nella tua pagina dove vuoi che appaia il calcolatore. Mantenere la piccola riga di credito &ldquo;Powered by Loona Automation&rdquo; sotto l'incorporamento aiuta a mantenere gratuito questo strumento &mdash; ma puoi modificarla o rimuoverla liberamente; lo strumento funziona comunque.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/it/motor-current-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Motor Current Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Realizzato da &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/it/motor-current-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratuito Calcolatore corrente motore&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copia codice di incorporamento</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copiato!';setTimeout(function(){b.textContent='Copia codice di incorporazione';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calcolatori popolari</h4><ul><li><a href="../paint-calculator/">Calcolatore vernice</a></li>
+<li><a href="../concrete-calculator/">Calcolatore calcestruzzo</a></li>
+<li><a href="../tile-calculator/">Calcolatore piastrelle</a></li>
+<li><a href="../brick-calculator/">Calcolatore di mattoni</a></li>
+<li><a href="../roof-pitch-calculator/">Calcolatore pendenza tetto</a></li>
+<li><a href="../stairs-calculator/">Calcolatore scale</a></li></ul></div>
+<div><h4>Altri strumenti Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Tutti gli strumenti Loona</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Chi siamo</a></li>
+<li><a href="../contact.html">Contatti</a></li>
+<li><a href="../privacy-policy.html">Informativa sulla privacy</a></li>
+<li><a href="../terms.html">Termini di utilizzo</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; un progetto di <a href="https://loonaautomation.github.io/">Loona Automation</a> . Calcolatori per l'edilizia gratuiti in unità metriche e imperiali, senza registrazione.
+Contatti: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  var kw = (v.unit === "hp") ? v.power * 0.7457 : v.power;
+  if (!pos(kw, v.volts)) return bad("Inserisci la potenza nominale del motore e la tensione di alimentazione.");
+  var eff = v.eff / 100, pf = v.pf;
+  if (!(eff > 0 && eff <= 1)) return bad("L'efficienza deve essere tra 1 e 100%.");
+  if (!(pf > 0 && pf <= 1)) return bad("Il fattore di potenza deve essere sopra 0 e al massimo 1.");
+  var inputW = kw * 1000 / eff;
+  var amps = (v.phase === "3") ? inputW / (Math.sqrt(3) * v.volts * pf) : inputW / (v.volts * pf);
+  var html = resTable("Corrente stimata a pieno carico", fmt(amps, 2) + " A",
+    [["Potenza all'albero del motore", fmt(kw, 2) + " kW"],["Potenza elettrica in ingresso (dopo l'efficienza)", fmt(inputW / 1000, 2) + " kW"],["Efficienza usata", fmt(v.eff, 0) + "%"],["Fattore di potenza usato", fmt(pf, 2)]],
+    "SOLO STIMA. Gli ampere a pieno carico di targa del motore (FLA) governano sempre. Le tabelle dei codici (p. es. NEC Tabella 430.250, o dati IEC) possono dare valori diversi e sono ciò su cui devono basarsi i dispositivi di protezione e i cavi, insieme al metodo di avviamento: l'avviamento diretto assorbe circa 6\u20138\u00D7 la corrente a pieno carico. Fai progettare i circuiti del motore da un elettricista qualificato.");
+  return { ok: true, kw: kw, inputKw: inputW / 1000, amps: amps, html: html };
+} };
+
+function collect(){ return { power: gv("f_power"), unit: gs("f_unit"), phase: gs("f_phase"), volts: gv("f_volts"), eff: gv("f_eff"), pf: gv("f_pf") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installa app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installa questa app: tocca il pulsante Condividi, poi scegli "Aggiungi alla schermata Home".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

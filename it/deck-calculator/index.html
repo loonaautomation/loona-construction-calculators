@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calcolatore terrazze — Stima di tavole, travetti e viti | Loona Construction Calculators</title>
+<meta name="description" content="Calcolatore terrazze gratuito: le dimensioni della terrazza e la larghezza delle tavole in metrico o imperiale ti danno le tavole da comprare, la lunghezza totale delle tavole, i travetti e una stima delle viti — con distanza tra le tavole, interasse dei travetti e margine per gli scarti.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/it/deck-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/deck-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/deck-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/deck-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/deck-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/deck-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/deck-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/deck-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calcolatore terrazze — Stima di tavole, travetti e viti | Loona Construction Calculators">
+<meta property="og:description" content="Calcolatore terrazze gratuito: le dimensioni della terrazza e la larghezza delle tavole in metrico o imperiale ti danno le tavole da comprare, la lunghezza totale delle tavole, i travetti e una stima delle viti — con distanza tra le tavole, interasse dei travetti e margine per gli scarti.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/it/deck-calculator/"><meta property="og:locale" content="it_IT">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calcolatore terrazze — Stima di tavole, travetti e viti | Loona Construction Calculators">
+<meta name="twitter:description" content="Calcolatore terrazze gratuito: le dimensioni della terrazza e la larghezza delle tavole in metrico o imperiale ti danno le tavole da comprare, la lunghezza totale delle tavole, i travetti e una stima delle viti — con distanza tra le tavole, interasse dei travetti e margine per gli scarti.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calcolatore terrazze Loona","url":"https://loonaautomation.github.io/loona-construction-calculators/it/deck-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Che distanza devo lasciare tra le tavole della terrazza?","acceptedAnswer":{"@type":"Answer","text":"Circa 5–6 mm (3/16–1/4 in) per le tavole in legno: abbastanza per drenaggio e rigonfiamento, abbastanza piccolo perché tacchi e viti cadute non scompaiano. Le tavole composite seguono il sistema a clip del produttore, di solito 5–7 mm."}},{"@type":"Question","name":"In che direzione devono andare le tavole della terrazza?","acceptedAnswer":{"@type":"Answer","text":"Le tavole corrono di solito dalla casa verso l'esterno o lungo la dimensione più lunga — e sempre perpendicolari ai travetti. Far correre la pendenza lungo le tavole, allontanandosi dalla casa, aiuta l'acqua a drenare dalle estremità."}},{"@type":"Question","name":"A che distanza devono stare i travetti della terrazza?","acceptedAnswer":{"@type":"Answer","text":"400 mm (16 in) di interasse è lo standard per le terrazze residenziali con tavole in legno da 28 mm+. Le tavole più sottili (21–24 mm) e la maggior parte delle composite richiedono 300 mm (12 in); anche le disposizioni diagonali richiedono travetti più ravvicinati."}},{"@type":"Question","name":"Quante viti usa davvero una terrazza?","acceptedAnswer":{"@type":"Answer","text":"Due viti a ogni incrocio tavola-travetto si sommano in fretta — una terrazza modesta da 12 m² può superare le 500 viti. Compra una scatola grande e aggiungi il 10% per le perdite da cadute e teste spanate; la stima qui include il margine per gli scarti solo nel conteggio delle tavole."}},{"@type":"Question","name":"Posso posare le tavole senza distanze se sono asciutte?","acceptedAnswer":{"@type":"Answer","text":"No. Anche il legno essiccato in forno si espande in larghezza quando si bagna, e una terrazza senza distanze si incurverà, solleverà i fissaggi e tratterrà acqua stagnante. La distanza è una caratteristica di drenaggio, non un lavoro sciatto."}},{"@type":"Question","name":"Che percentuale di scarto devo usare per la terrazza?","acceptedAnswer":{"@type":"Answer","text":"10% per un rettangolo semplice con tavole dritte. Usa il 15–20% per motivi diagonali, bordi a cornice o terrazze con molti ritagli intorno a pali e gradini."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/it/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calcolatore terrazze",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/it/deck-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo di Loona Automation">
+<div class="brand">Loona <span>Calcolatori per l'edilizia</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Chi siamo</a>
+<a href="../contact.html">Contatti</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Costruzione &rsaquo; Calcolatore terrazze</div>
+<h1 class="pagetitle">🌞 Calcolatore terrazze</h1>
+<p class="lead">Stai pianificando una terrazza: inserisci le dimensioni della terrazza, la larghezza delle tavole e la distanza, e l'interasse dei travetti, e ottieni le tavole da comprare, i travetti sottostanti e un conteggio realistico delle viti — in metrico o imperiale.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system">Sistema di unità</label><select id="f_system"><option value="m">Metrico (metri, litri, kg)</option><option value="i">Imperiale (piedi, galloni, lb)</option></select></div><div class="fld"><label for="f_length">Lunghezza della terrazza (direzione delle tavole) <span class="u" data-u="length"></span></label><input type="number" id="f_length" step="any" data-m="4" data-i="13" value="4" ></div><div class="fld"><label for="f_width">Larghezza della terrazza (attraverso le tavole) <span class="u" data-u="width"></span></label><input type="number" id="f_width" step="any" data-m="3" data-i="10" value="3" ></div><div class="fld"><label for="f_boardw">Larghezza della tavola <span class="u" data-u="boardw"></span></label><input type="number" id="f_boardw" step="any" data-m="140" data-i="5.5" value="140" ></div><div class="fld"><label for="f_gap">Distanza tra le tavole <span class="u" data-u="gap"></span></label><input type="number" id="f_gap" step="any" data-m="5" data-i="0.19" value="5" ></div><div class="fld"><label for="f_boardlen">Lunghezza delle tavole che comprerai <span class="u" data-u="boardlen"></span></label><input type="number" id="f_boardlen" step="any" data-m="3.6" data-i="12" value="3.6" ></div><div class="fld"><label for="f_joist">Interasse dei travetti (da centro a centro) <span class="u" data-u="joist"></span></label><input type="number" id="f_joist" step="any" data-m="400" data-i="16" value="400" ></div><div class="fld"><label for="f_waste">Margine di scarto / extra (%)</label><input type="number" id="f_waste" step="any" min="0" value="10"></div>
+<button type="button" class="calcbtn" id="calcBtn">Calcola</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Come usare il calcolatore terrazze</h2><ol><li>Scegli le unità metriche o imperiali.</li><li>Inserisci la lunghezza della terrazza (il senso delle tavole) e la larghezza attraverso di esse.</li><li>Inserisci la larghezza delle tavole e la distanza tra loro (5 mm / 3/16 in drena bene).</li><li>Inserisci la lunghezza delle tavole che comprerai e il tuo interasse dei travetti (400 mm / 16 in è lo standard).</li><li>Premi Calcola per tavole, travetti e viti.</li></ol>
+<div class="exbox"><strong>Esempio:</strong> Una terrazza da 4 m × 3 m con tavole da 140 mm e una distanza di 5 mm richiede 21 tavole in larghezza, 84 m di tavole in totale, 11 travetti a 400 mm di interasse e circa 462 viti.</div>
+<h2>Domande frequenti</h2></section><div class="faq"><h3>Che distanza devo lasciare tra le tavole della terrazza?</h3><p>Circa 5–6 mm (3/16–1/4 in) per le tavole in legno: abbastanza per drenaggio e rigonfiamento, abbastanza piccolo perché tacchi e viti cadute non scompaiano. Le tavole composite seguono il sistema a clip del produttore, di solito 5–7 mm.</p></div><div class="faq"><h3>In che direzione devono andare le tavole della terrazza?</h3><p>Le tavole corrono di solito dalla casa verso l'esterno o lungo la dimensione più lunga — e sempre perpendicolari ai travetti. Far correre la pendenza lungo le tavole, allontanandosi dalla casa, aiuta l'acqua a drenare dalle estremità.</p></div><div class="faq"><h3>A che distanza devono stare i travetti della terrazza?</h3><p>400 mm (16 in) di interasse è lo standard per le terrazze residenziali con tavole in legno da 28 mm+. Le tavole più sottili (21–24 mm) e la maggior parte delle composite richiedono 300 mm (12 in); anche le disposizioni diagonali richiedono travetti più ravvicinati.</p></div>
+<h2 class="sec">Calcolatori correlati</h2><div class="grid"><a class="card" href="../plywood-calculator/"><div class="ic">🪵</div><h3>Calcolatore compensato</h3><p>Costruzione</p></a><a class="card" href="../board-foot-calculator/"><div class="ic">🪵</div><h3>Calcolatore board foot</h3><p>Costruzione</p></a><a class="card" href="../stairs-calculator/"><div class="ic">🪜</div><h3>Calcolatore scale</h3><p>Costruzione</p></a><a class="card" href="../fence-calculator/"><div class="ic">🚧</div><h3>Calcolatore recinzioni</h3><p>Costruzione</p></a><a class="card" href="../flooring-calculator/"><div class="ic">🪵</div><h3>Calcolatore pavimenti</h3><p>Costruzione</p></a></div>
+</div>
+<section class="txt"><h2>Come funziona &mdash; la formula</h2>
+<p><strong>Tavole in larghezza</strong> = ceil( Larghezza della terrazza ÷ (Larghezza della tavola + Distanza) )<br>
+<strong>Lunghezza totale delle tavole</strong> = Tavole in larghezza × Lunghezza della terrazza<br>
+<strong>Travetti</strong> = ceil(Lunghezza della terrazza ÷ Interasse dei travetti) + 1<br>
+<strong>Viti</strong> = Tavole in larghezza × Travetti × 2</p>
+<p>Le tavole sono contate come pezzi a lunghezza intera lungo la terrazza. Se la tua terrazza è più lunga delle tavole che puoi comprare, le giunzioni devono cadere su un travetto — il margine per gli scarti copre i tagli extra.</p>
+<h3>Esempio pratico</h3>
+<div class="exbox">Terrazza 4 m × 3 m; passo = 140 + 5 = 145 mm. Tavole in larghezza = 3 ÷ 0.145 = 20.7 → <strong>21 tavole</strong>; lunghezza totale = 21 × 4 = <strong>84 m</strong> (24 tavole da 3.6 m prima degli scarti). Travetti = ceil(4 ÷ 0.4) + 1 = <strong>11</strong>. Viti = 21 × 11 × 2 = <strong>462</strong>.</div>
+<h3>Domande frequenti</h3></section>
+<div class="faq"><h3>Quante viti usa davvero una terrazza?</h3><p>Due viti a ogni incrocio tavola-travetto si sommano in fretta — una terrazza modesta da 12 m² può superare le 500 viti. Compra una scatola grande e aggiungi il 10% per le perdite da cadute e teste spanate; la stima qui include il margine per gli scarti solo nel conteggio delle tavole.</p></div><div class="faq"><h3>Posso posare le tavole senza distanze se sono asciutte?</h3><p>No. Anche il legno essiccato in forno si espande in larghezza quando si bagna, e una terrazza senza distanze si incurverà, solleverà i fissaggi e tratterrà acqua stagnante. La distanza è una caratteristica di drenaggio, non un lavoro sciatto.</p></div><div class="faq"><h3>Che percentuale di scarto devo usare per la terrazza?</h3><p>10% per un rettangolo semplice con tavole dritte. Usa il 15–20% per motivi diagonali, bordi a cornice o terrazze con molti ritagli intorno a pali e gradini.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Incorpora questo calcolatore nel tuo sito web — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Aggiungi questo calcolatore al tuo sito web o blog — è completamente gratis, non richiede registrazione e mostra sempre la versione più recente. Copia il codice qui sotto e incollalo nella tua pagina dove vuoi che appaia il calcolatore. Mantenere la piccola riga di credito &ldquo;Powered by Loona Automation&rdquo; sotto l'incorporamento aiuta a mantenere gratuito questo strumento &mdash; ma puoi modificarla o rimuoverla liberamente; lo strumento funziona comunque.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/it/deck-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Deck Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Realizzato da &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/it/deck-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratuito Calcolatore terrazze&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copia codice di incorporamento</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copiato!';setTimeout(function(){b.textContent='Copia codice di incorporazione';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calcolatori popolari</h4><ul><li><a href="../paint-calculator/">Calcolatore vernice</a></li>
+<li><a href="../concrete-calculator/">Calcolatore calcestruzzo</a></li>
+<li><a href="../tile-calculator/">Calcolatore piastrelle</a></li>
+<li><a href="../brick-calculator/">Calcolatore di mattoni</a></li>
+<li><a href="../roof-pitch-calculator/">Calcolatore pendenza tetto</a></li>
+<li><a href="../stairs-calculator/">Calcolatore scale</a></li></ul></div>
+<div><h4>Altri strumenti Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Tutti gli strumenti Loona</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Chi siamo</a></li>
+<li><a href="../contact.html">Contatti</a></li>
+<li><a href="../privacy-policy.html">Informativa sulla privacy</a></li>
+<li><a href="../terms.html">Termini di utilizzo</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; un progetto di <a href="https://loonaautomation.github.io/">Loona Automation</a> . Calcolatori per l'edilizia gratuiti in unità metriche e imperiali, senza registrazione.
+Contatti: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+
+/* shared helpers: DOM getters (browser) + unit conversions + formatting */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.L, v.W, v.boardW, v.boardLen, v.joist) || !(v.gap >= 0)) return bad("Inserisci la dimensione della terrazza, la larghezza e lunghezza della tavola e la distanza tra i travetti (lo spazio può essere zero).");
+  var f = (v.sys === "i") ? FT : 1;
+  var L = v.L * f, W = v.W * f, bl = v.boardLen * f;
+  var bw = (v.sys === "i") ? v.boardW * IN : v.boardW / 1000;
+  var gp = (v.sys === "i") ? v.gap * IN : v.gap / 1000;
+  var js = (v.sys === "i") ? v.joist * IN : v.joist / 1000;
+  var across = Math.ceil(W / (bw + gp));
+  var linear = across * L;
+  var boardsBuy = Math.ceil(linear * (1 + (v.waste || 0) / 100) / bl);
+  var joists = Math.ceil(L / js) + 1;
+  var screws = across * joists * 2;
+  var lu = (v.sys === "i") ? "ft" : "m";
+  var rows = [["Tavole sulla larghezza", across],
+     ["Lunghezza totale delle tavole da terrazza", fmt((v.sys === "i") ? linear / FT : linear, 1) + " " + lu],
+     ["Tavole da comprare (incl. " + (v.waste || 0) + "% extra)", boardsBuy + " × " + v.boardLen + " " + lu],
+     ["Travetti sottostanti", joists + " × " + fmt((v.sys === "i") ? W / FT : W, 1) + " " + lu],
+     ["Viti / fissaggi nascosti (2 per incrocio)", fmt(screws, 0)]];
+  var html = resTable("Tavole da terrazza da comprare", boardsBuy + " tavole", rows,
+    "Le viti presuppongono due fissaggi dove ogni tavola incrocia ogni travetto. Aggiungi supporti, pali e tavole di fascia separatamente \u2014 e un travetto perimetrale intorno al telaio.");
+  return { ok: true, boardsAcross: across, linear: linear, boardsBuy: boardsBuy, joists: joists, screws: screws, html: html };
+} };
+
+function collect(){
+return { sys: gs("f_system"), L: gv("f_length"), W: gv("f_width"), boardW: gv("f_boardw"), gap: gv("f_gap"), boardLen: gv("f_boardlen"), joist: gv("f_joist"), waste: gv("f_waste") };
+}
+
+/* ---- page wiring (browser only) ---- */
+if (typeof document !== "undefined") {
+  var UNITS = {"length":["m","ft"],"width":["m","ft"],"boardw":["mm","in"],"gap":["mm","in"],"boardlen":["m","ft"],"joist":["mm","in"]};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installa app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installa questa app: tocca il pulsante Condividi, poi scegli "Aggiungi alla schermata Home".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

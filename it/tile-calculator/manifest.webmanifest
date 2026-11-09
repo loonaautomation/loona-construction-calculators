@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tile Calculator",
+  "short_name": "Tile Calculator",
+  "description": "Calcolatore gratuito delle piastrelle: dimensione del pavimento o della parete, dimensione della piastrella e fuga in metrico o imperiale — ottieni il numero esatto di piastrelle e scatole da comprare, incluso un margine di sfrido per tagli e rotture.",
+  "id": "/loona-construction-calculators/it/tile-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

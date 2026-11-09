@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Sizes by Country",
+  "short_name": "Brick Sizes by Country",
+  "description": "Misure standard dei mattoni in Regno Unito, USA, India, Pakistan, Australia, Germania e Sudafrica — dimensioni e mattoni per metro quadrato a confronto.",
+  "id": "/loona-construction-calculators/it/brick-sizes-by-country/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

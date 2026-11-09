@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 300 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 300 Sq Ft",
+  "description": "Vernice per 300 sq ft di parete: 6.1 litri (1.6 gal) per 2 mani con copertura tipica di 10 m²/L, più 2.6 L di primer — con le ipotesi dichiarate.",
+  "id": "/loona-construction-calculators/it/paint-for-300-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

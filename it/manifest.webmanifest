@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Calcolatori edili gratuiti che funzionano in ENTRAMBE le unità, metriche e imperiali: pittura, piastrelle, calcestruzzo, pavimenti, cartongesso, mattoni, ghiaia, pendenza del tetto, scale, board foot, carta da parati, pacciamatura, asfalto, isolamento, recinzioni, terrazze, volume piscina, pannelli solari, moquette, compensato, sabbia, legge di Ohm, caduta di tensione, sezione cavi, costo elettricità, ampere in watt, watt in ampere, kVA in ampere, fattore di potenza, autonomia batteria, resistenza LED, potenza trifase, corrente motore, codice colori resistenze, timer 555, conversione AWG, reattanza e conversione decibel — con margini per gli scarti ed esempi risolti.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/it/"
+}

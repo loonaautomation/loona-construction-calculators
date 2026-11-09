@@ -1,0 +1,29 @@
+{
+  "name": "Loona Electricity Cost Calculator",
+  "short_name": "Electricity Cost Calculator",
+  "description": "Calcolatore costo elettricità gratuito: i watt dell'apparecchio (o ampere × volt), le ore al giorno, i giorni al mese e il prezzo per kWh danno i kWh usati e il costo per giorno, mese e anno — in qualsiasi valuta.",
+  "id": "/loona-construction-calculators/it/electricity-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
