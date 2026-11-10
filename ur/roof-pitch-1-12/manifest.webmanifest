@@ -1,0 +1,29 @@
+{
+  "name": "Loona 1/12 Roof Pitch",
+  "short_name": "1/12 Roof Pitch",
+  "description": "1/12 چھت ڈھلوان 4.76 ڈگری ہے (8% گریڈ)۔ رافٹر ضرب کنندہ 1.0035، عام دوڑوں کے لیے رافٹر لمبائیاں، مواد اور استعمالات۔",
+  "id": "/loona-construction-calculators/ur/roof-pitch-1-12/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

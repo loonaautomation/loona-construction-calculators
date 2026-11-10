@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "مفت تعمیراتی کیلکولیٹرز جو میٹرک اور امپیریل دونوں اکائیوں میں کام کرتے ہیں: پینٹ، ٹائل، کنکریٹ، فرش، ڈرائی وال، اینٹ، بجری، چھت ڈھلوان، سیڑھیاں، بورڈ فٹ، وال پیپر، ملچ، اسفالٹ، انسولیشن، باڑ، ڈیک، پول حجم، سولر پینل، قالین، پلائی وڈ، ریت، اوہم قانون، وولٹیج ڈراپ، تار سائز، بجلی لاگت، ایمپیئر سے واٹ، واٹ سے ایمپیئر، kVA سے ایمپیئر، پاور فیکٹر، بیٹری رن ٹائم، LED ریزسٹر، تھری فیز پاور، موٹر کرنٹ، ریزسٹر کلر کوڈ، 555 ٹائمر، AWG تبدیلی، ری ایکٹینس اور ڈیسیبل تبدیلی — ضیاع گنجائشوں اور حل شدہ مثالوں کے ساتھ۔",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/ur/"
+}

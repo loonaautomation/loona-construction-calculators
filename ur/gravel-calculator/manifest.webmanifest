@@ -1,0 +1,29 @@
+{
+  "name": "Loona Gravel Calculator",
+  "short_name": "Gravel Calculator",
+  "description": "مفت بجری کیلکولیٹر: میٹرک یا امپیریل میں رقبہ اور گہرائی — مکعب میٹر اور مکعب گز میں بجری حجم اور tonnes اور US tons میں وزن پائیں، ایڈجسٹ قابل کثافت اور ضیاع گنجائش کے ساتھ۔",
+  "id": "/loona-construction-calculators/ur/gravel-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

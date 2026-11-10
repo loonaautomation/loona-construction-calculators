@@ -1,0 +1,29 @@
+{
+  "name": "Loona Insulation Calculator",
+  "short_name": "Insulation Calculator",
+  "description": "مفت انسولیشن کیلکولیٹر: رقبہ اور اپنی ہدف R-value (یا میٹرک RSI) درج کریں اور خریدنے والے بیٹس/رولز کے پیک یا پھونک کر بھری انسولیشن کی بوریاں پائیں، اس کے علاوہ وہ موٹائی جو آپ کے ہدف کو چاہیے — میٹرک اور امپیریل۔",
+  "id": "/loona-construction-calculators/ur/insulation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Deck Calculator",
+  "short_name": "Deck Calculator",
+  "description": "مفت ڈیک کیلکولیٹر: میٹرک یا امپیریل میں ڈیک سائز اور بورڈ چوڑائی آپ کو خریدنے کے ڈیک بورڈ، کل بورڈ لمبائی، جوئسٹس اور اسکرو تخمینہ دیتے ہیں — بورڈ خلا، جوئسٹ فاصلہ اور ضیاع گنجائش کے ساتھ۔",
+  "id": "/loona-construction-calculators/ur/deck-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

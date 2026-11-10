@@ -1,0 +1,29 @@
+{
+  "name": "Loona Solar Panel Calculator",
+  "short_name": "Solar Panel Calculator",
+  "description": "مفت سولر پینل کیلکولیٹر: ماہانہ بجلی استعمال، عروج سورج گھنٹے اور پینل واٹیج آپ کو درکار پینل، kW میں نظام سائز، متوقع ماہانہ پیداوار اور چھت رقبہ دیتے ہیں — کوئی سائن اپ نہیں۔",
+  "id": "/loona-construction-calculators/ur/solar-panel-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

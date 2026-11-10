@@ -1,0 +1,29 @@
+{
+  "name": "Loona Electricity Cost Calculator",
+  "short_name": "Electricity Cost Calculator",
+  "description": "مفت بجلی لاگت کیلکولیٹر: آلے کے واٹ (یا ایمپیئر × وولٹ)، گھنٹے فی دن، دن فی مہینہ اور قیمت فی kWh استعمال شدہ kWh اور لاگت فی دن، مہینہ اور سال دیتے ہیں — کوئی بھی کرنسی۔",
+  "id": "/loona-construction-calculators/ur/electricity-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

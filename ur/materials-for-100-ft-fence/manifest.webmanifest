@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for a 100 ft Fence",
+  "short_name": "Materials for a 100 ft Fence",
+  "description": "100 ft کی 6-ft باڑ کی خرید فہرست: 13 پوسٹس، پینل کے 13 بے یا 340 پکٹس، ایماندار کنکریٹ فی گڑھا مقداریں اور فاسٹنر گنتیاں۔",
+  "id": "/loona-construction-calculators/ur/materials-for-100-ft-fence/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

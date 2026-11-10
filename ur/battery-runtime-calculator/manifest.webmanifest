@@ -1,0 +1,29 @@
+{
+  "name": "Loona Battery Runtime Calculator",
+  "short_name": "Battery Runtime Calculator",
+  "description": "مفت بیٹری رن ٹائم کیلکولیٹر: بیٹری وولٹ اور ایمپیئر گھنٹے، لوڈ واٹ، ڈسچارج گہرائی اور انورٹر کارکردگی قابل استعمال واٹ گھنٹے اور گھنٹوں میں رن ٹائم دیتے ہیں — سولر، UPS اور آف گرڈ منصوبہ بندی کے لیے۔",
+  "id": "/loona-construction-calculators/ur/battery-runtime-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

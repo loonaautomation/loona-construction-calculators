@@ -1,0 +1,29 @@
+{
+  "name": "Loona 555 Timer Calculator",
+  "short_name": "555 Timer Calculator",
+  "description": "مفت 555 ٹائمر کیلکولیٹر: آسٹیبل موڈ R1، R2 اور C سے فریکوئنسی، ڈیوٹی سائیکل اور HIGH/LOW اوقات دیتا ہے؛ مونو اسٹیبل موڈ R اور C سے پلس چوڑائی دیتا ہے — معیاری 1.44 اور 1.1 فارمولے۔",
+  "id": "/loona-construction-calculators/ur/555-timer-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

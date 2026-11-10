@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Concrete for 100 Sq Ft? Volume &",
+  "short_name": "How Much Concrete for 100 Sq",
+  "description": "100 sq ft سلیب کے لیے کنکریٹ، 4 انچ موٹی: 1.04 m³ (1.36 yd³) 10% اضافی سمیت، اس کے علاوہ 80 lb، 60 lb، 25 kg اور 20 kg بوریوں کے لیے پری مکس بوری گنتیاں۔",
+  "id": "/loona-construction-calculators/ur/concrete-for-100-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

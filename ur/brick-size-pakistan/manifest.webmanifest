@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in Pakistan",
+  "short_name": "Brick Size in Pakistan",
+  "description": "پاکستان میں معیاری اینٹ سائز: 228 × 107 × 69 mm۔ 10 mm مسالا جوڑوں کے ساتھ سنگل سکن دیوار کی 53.2 اینٹیں فی m² (4.94 فی sq ft)، کوریج فی 1,000 اینٹیں اور حل شدہ دیوار مثال۔",
+  "id": "/loona-construction-calculators/ur/brick-size-pakistan/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

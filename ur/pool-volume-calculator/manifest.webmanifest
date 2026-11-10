@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pool Volume Calculator",
+  "short_name": "Pool Volume Calculator",
+  "description": "مستطیل، گول اور بیضوی پولز کے لیے مفت پول حجم کیلکولیٹر: میٹرک یا امپیریل میں سائز اور کم گہرے/گہرے سرے کی گہرائیاں درج کریں اور کیمیائی خوراک اور بھرنے کے لیے litres اور US gallons میں پانی کا حجم پائیں۔",
+  "id": "/loona-construction-calculators/ur/pool-volume-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

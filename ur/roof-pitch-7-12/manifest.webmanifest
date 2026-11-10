@@ -1,0 +1,29 @@
+{
+  "name": "Loona 7/12 Roof Pitch",
+  "short_name": "7/12 Roof Pitch",
+  "description": "7/12 چھت ڈھلوان 30.26 ڈگری ہے (58% گریڈ)۔ رافٹر ضرب کنندہ 1.1577، عام دوڑوں کے لیے رافٹر لمبائیاں، مواد اور استعمالات۔",
+  "id": "/loona-construction-calculators/ur/roof-pitch-7-12/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

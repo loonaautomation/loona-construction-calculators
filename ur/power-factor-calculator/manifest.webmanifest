@@ -1,0 +1,29 @@
+{
+  "name": "Loona Power Factor Calculator",
+  "short_name": "Power Factor Calculator",
+  "description": "مفت پاور فیکٹر کیلکولیٹر: اصل پاور (kW) اور ظاہری پاور (kVA) پاور فیکٹر، kvar میں ری ایکٹو پاور، فیز زاویہ دیتے ہیں — اور ہدف PF تک درست کرنے کے لیے درکار کیپیسٹر kvar۔",
+  "id": "/loona-construction-calculators/ur/power-factor-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

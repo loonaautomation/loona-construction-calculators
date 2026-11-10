@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 2000 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 2000 Sq",
+  "description": "60×60 cm ٹائلوں اور 3 mm گراؤٹ خلا کے ساتھ 2000 sq ft کے لیے ٹائلیں: 563 ٹائلیں (141 ڈبے 4 کے) کٹائی اور ٹوٹنے کے لیے 10% اضافی سمیت۔",
+  "id": "/loona-construction-calculators/ur/tiles-for-2000-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
