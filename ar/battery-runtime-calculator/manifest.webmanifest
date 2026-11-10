@@ -1,0 +1,29 @@
+{
+  "name": "Loona Battery Runtime Calculator",
+  "short_name": "Battery Runtime Calculator",
+  "description": "حاسبة زمن تشغيل بطارية مجانية: فولت البطارية وأمبير ساعة، وواط الحمل، وعمق التفريغ وكفاءة العاكس تعطي واط ساعة قابلة للاستخدام وزمن تشغيل بالساعات — لتخطيط الطاقة الشمسية وUPS والأنظمة خارج الشبكة.",
+  "id": "/loona-construction-calculators/ar/battery-runtime-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

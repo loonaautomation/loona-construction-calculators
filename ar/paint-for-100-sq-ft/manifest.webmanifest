@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 100 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 100 Sq Ft",
+  "description": "طلاء لمساحة 100 sq ft من الجدار: 2.0 لترًا (0.5 gal) لـ 2 من الطبقات بتغطية نموذجية 10 m²/L، بالإضافة إلى 0.9 L من طلاء الأساس — مع الافتراضات مذكورة.",
+  "id": "/loona-construction-calculators/ar/paint-for-100-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

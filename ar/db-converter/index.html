@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>محول dB — نسب القدرة والجهد إلى الديسيبل، وdBm إلى mW والواط | Loona Construction Calculators</title>
+<meta name="description" content="محول ديسيبل مجاني: نسب القدرة ونسب الجهد إلى dB بمرجعك الخاص، وdBm إلى الميلي واط والواط، والقدرة عودة إلى dBm وdBW — صيغ وأمثلة محلولة.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/ar/db-converter/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/db-converter/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/db-converter/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/db-converter/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/db-converter/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/db-converter/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/db-converter/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/db-converter/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/db-converter/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/db-converter/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="محول dB — نسب القدرة والجهد إلى الديسيبل، وdBm إلى mW والواط | Loona Construction Calculators">
+<meta property="og:description" content="محول ديسيبل مجاني: نسب القدرة ونسب الجهد إلى dB بمرجعك الخاص، وdBm إلى الميلي واط والواط، والقدرة عودة إلى dBm وdBW — صيغ وأمثلة محلولة.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/ar/db-converter/"><meta property="og:locale" content="ar_EG">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="محول dB — نسب القدرة والجهد إلى الديسيبل، وdBm إلى mW والواط | Loona Construction Calculators">
+<meta name="twitter:description" content="محول ديسيبل مجاني: نسب القدرة ونسب الجهد إلى dB بمرجعك الخاص، وdBm إلى الميلي واط والواط، والقدرة عودة إلى dBm وdBW — صيغ وأمثلة محلولة.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"محول dB من Loona","url":"https://loonaautomation.github.io/loona-construction-calculators/ar/db-converter/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"لماذا توجد صيغتان — 10 log و20 log؟","acceptedAnswer":{"@type":"Answer","text":"تُعرّف الديسيبلات على القدرة. نسب القدرة تستخدم 10 × log. وبما أن القدرة تتناسب مع مربع الجهد (عند نفس المعاوقة)، يتحول التربيع إلى عامل اثنين في اللوغاريتم — ومن هنا 20 × log لنسب الجهد والتيار. الخلط بينهما هو خطأ dB الأكثر شيوعًا."}},{"@type":"Question","name":"ما dBm، وكيف يختلف عن dB العادي؟","acceptedAnswer":{"@type":"Answer","text":"dB العادي نسبة — يحتاج إلى «مقارنة بماذا». dBm يثبّت المرجع عند 1 ميلي واط، فيعبّر عن قدرة مطلقة: مرسل عند +30 dBm يخرج 1 W؛ وإشارة مستلمة عند −90 dBm هي جزء من مليار من الميلي واط. dBW يفعل نفس الشيء مقابل 1 W."}},{"@type":"Question","name":"ماذا تعني قيمة dB أو dBm سالبة؟","acceptedAnswer":{"@type":"Answer","text":"نسبة سالبة بـ dB تعني أن القيمة أصغر من مرجعها (نصف القدرة = −3.01 dB). وdBm سالب يعني قدرة أقل من 1 mW — طبيعي ومتوقع لإشارات الراديو المستلمة، التي تكون روتينيًا −70 إلى −110 dBm."}},{"@type":"Question","name":"كيف تجتمع مكاسب المضخمات بـ dB؟","acceptedAnswer":{"@type":"Answer","text":"إنها تتجمع — هذه هي نقطة اللوغاريتمات. مضخم أولي بـ +20 dB متبوع بمضخم قدرة بـ +26 dB يعطي +46 dB إجمالًا؛ وكابل يفقد 3 dB يطرح 3. العمل بـ dB يحوّل سلسلة ضرب إلى جمع وطرح بسيطين."}},{"@type":"Question","name":"هل قاعدة نسبة الجهد صالحة دائمًا؟","acceptedAnswer":{"@type":"Answer","text":"فقط عندما يُقاس كلا الجهدين عبر نفس المعاوقة — صحيح داخل معظم سلاسل الصوت والترددات الراديوية. مقارنة جهد عند نقطة 50 Ω مع واحد عند 600 Ω بـ 20 log وحدها تسيء تمثيل نسبة القدرة؛ حوّل عبر القدرة عندما تختلف المعاوقات."}},{"@type":"Question","name":"كيف يرتبط dB بمستويات الصوت التي أراها مذكورة؟","acceptedAnswer":{"@type":"Answer","text":"يستخدم مستوى ضغط الصوت dB SPL بالإشارة إلى 20 µPa (عتبة السمع)، مع 20 log بأسلوب الجهد لأنه نسبة ضغط. يتعامل هذا المحول مع النسب الكهربائية وdBm؛ وSPL نفس الرياضيات بمرجع ثابت مختلف."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ar/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "محول dB",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ar/db-converter/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="شعار Loona Automation">
+<div class="brand">Loona <span>حاسبات البناء</span></div>
+<nav>
+<a href="../">الرئيسية</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">حول</a>
+<a href="../contact.html">اتصل بنا</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; الكهرباء &rsaquo; محول dB</div>
+<h1 class="pagetitle">🔊 محول dB</h1>
+<p class="lead">تضغط الديسيبلات النسب الضخمة إلى أرقام عملية. حوّل نسبة قدرة أو نسبة جهد إلى dB مقابل أي مرجع تختاره، أو ترجم بين dBm والقدرة الحقيقية بالميلي واط والواط — لغة الصوت والراديو ومكاسب المضخمات.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_mode">التحويل</label><select id="f_mode"><option value="pratio" selected>نسبة القدرة &rarr; dB</option><option value="vratio">نسبة الجهد &rarr; dB</option><option value="dbm2p">dBm &rarr; القدرة (mW / W)</option><option value="p2dbm">القدرة &rarr; dBm</option></select></div><div class="fld"><label for="f_val">القيمة — قدرة أو جهد (أوضاع النسبة)</label><input type="number" id="f_val" step="any" value="100"></div><div class="fld"><label for="f_ref">المرجع — بنفس وحدات القيمة (أوضاع النسبة)</label><input type="number" id="f_ref" step="any" value="1"></div><div class="fld"><label for="f_dbm">المستوى بـ dBm (وضع dBm &rarr; القدرة)</label><input type="number" id="f_dbm" step="any" value="20"></div><div class="fld"><label for="f_pval">القدرة (وضع القدرة &rarr; dBm)</label><input type="number" id="f_pval" step="any" value="100"></div><div class="fld"><label for="f_punit">وحدة القدرة</label><select id="f_punit"><option value="mw" selected>ميلي واط (mW)</option><option value="w">واط (W)</option></select></div>
+<button type="button" class="calcbtn" id="calcBtn">احسب</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>كيفية استخدام محول dB</h2><ol><li>اختر التحويل: نسبة قدرة أو جهد إلى dB، أو dBm إلى قدرة حقيقية، أو قدرة حقيقية إلى dBm.</li><li>للنسب، أدخل القيمة ومرجعها بنفس الوحدات (واط مع واط، فولت مع فولت) — فالمرجع هو ما يعنيه «0 dB» لقياسك.</li><li>اضغط احسب. تُستخدم فقط حقول الوضع المختار.</li></ol>
+<div class="exbox"><strong>مثال:</strong> مضخم يسلّم 100 W مقابل مرجع 1 W يساوي 10 × log₁₀(100) = <strong>+20 dB</strong>؛ و20 dBm تساوي بالضبط <strong>100 mW</strong>.</div>
+<h2>الأسئلة الشائعة</h2></section><div class="faq"><h3>لماذا توجد صيغتان — 10 log و20 log؟</h3><p>تُعرّف الديسيبلات على القدرة. نسب القدرة تستخدم 10 × log. وبما أن القدرة تتناسب مع مربع الجهد (عند نفس المعاوقة)، يتحول التربيع إلى عامل اثنين في اللوغاريتم — ومن هنا 20 × log لنسب الجهد والتيار. الخلط بينهما هو خطأ dB الأكثر شيوعًا.</p></div><div class="faq"><h3>ما dBm، وكيف يختلف عن dB العادي؟</h3><p>dB العادي نسبة — يحتاج إلى «مقارنة بماذا». dBm يثبّت المرجع عند 1 ميلي واط، فيعبّر عن قدرة مطلقة: مرسل عند +30 dBm يخرج 1 W؛ وإشارة مستلمة عند −90 dBm هي جزء من مليار من الميلي واط. dBW يفعل نفس الشيء مقابل 1 W.</p></div><div class="faq"><h3>ماذا تعني قيمة dB أو dBm سالبة؟</h3><p>نسبة سالبة بـ dB تعني أن القيمة أصغر من مرجعها (نصف القدرة = −3.01 dB). وdBm سالب يعني قدرة أقل من 1 mW — طبيعي ومتوقع لإشارات الراديو المستلمة، التي تكون روتينيًا −70 إلى −110 dBm.</p></div>
+<h2 class="sec">حاسبات ذات صلة</h2><div class="grid"><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>حاسبة الأمبير إلى الواط</h3><p>الكهرباء</p></a><a class="card" href="../reactance-calculator/"><div class="ic">〰️</div><h3>حاسبة المفاعلة</h3><p>الكهرباء</p></a><a class="card" href="../power-factor-calculator/"><div class="ic">🎚️</div><h3>حاسبة معامل القدرة</h3><p>الكهرباء</p></a><a class="card" href="../three-phase-power-calculator/"><div class="ic">🔺</div><h3>حاسبة القدرة ثلاثية الأطوار</h3><p>الكهرباء</p></a></div>
+</div>
+<section class="txt"><h2>كيف تعمل &mdash; الصيغة</h2>
+<p><strong>نسبة القدرة:</strong> dB = 10 × log₁₀(P ÷ P<sub>مرجع</sub>)<br>
+<strong>نسبة الجهد:</strong> dB = 20 × log₁₀(V ÷ V<sub>مرجع</sub>) — يظهر 20 لأن القدرة تتناسب مع مربع الجهد، ويفترض أن كلا الجهدين يرى نفس المعاوقة<br>
+<strong>dBm إلى القدرة:</strong> P (mW) = 10<sup>(dBm ÷ 10)</sup> &nbsp;·&nbsp; <strong>القدرة إلى dBm:</strong> dBm = 10 × log₁₀(P بـ mW)<br>
+<strong>dBW</strong> = dBm − 30 (بالإشارة إلى 1 W بدلًا من 1 mW)</p>
+<p>نقاط مرجعية تستحق الحفظ: +3 dB ≈ ضعف القدرة، +6 dB ≈ ضعف الجهد (أربعة أضعاف القدرة)، +10 dB = عشرة أضعاف القدرة بالضبط، و0 dBm = 1 mW — المرجع القياسي عبر أعمال الراديو والاتصالات.</p>
+<h3>مثال محلول</h3>
+<div class="exbox">نسبة القدرة: P = 100، المرجع = 1 (نفس الوحدات). dB = 10 × log₁₀(100 ÷ 1) = 10 × 2 = <strong>+20 dB</strong>. فحص الجهد: نسبة 10 تعطي 20 × log₁₀(10) = <strong>+20 dB</strong> أيضًا — لأن عشرة أضعاف الجهد عبر نفس المعاوقة تساوي مئة ضعف القدرة. فحص dBm: 10<sup>(20 ÷ 10)</sup> = 10² = <strong>100 mW</strong> لـ 20 dBm، و30 dBm = 1,000 mW = <strong>1 W</strong>.</div>
+
+<h3>الأسئلة الشائعة</h3></section>
+<div class="faq"><h3>كيف تجتمع مكاسب المضخمات بـ dB؟</h3><p>إنها تتجمع — هذه هي نقطة اللوغاريتمات. مضخم أولي بـ +20 dB متبوع بمضخم قدرة بـ +26 dB يعطي +46 dB إجمالًا؛ وكابل يفقد 3 dB يطرح 3. العمل بـ dB يحوّل سلسلة ضرب إلى جمع وطرح بسيطين.</p></div><div class="faq"><h3>هل قاعدة نسبة الجهد صالحة دائمًا؟</h3><p>فقط عندما يُقاس كلا الجهدين عبر نفس المعاوقة — صحيح داخل معظم سلاسل الصوت والترددات الراديوية. مقارنة جهد عند نقطة 50 Ω مع واحد عند 600 Ω بـ 20 log وحدها تسيء تمثيل نسبة القدرة؛ حوّل عبر القدرة عندما تختلف المعاوقات.</p></div><div class="faq"><h3>كيف يرتبط dB بمستويات الصوت التي أراها مذكورة؟</h3><p>يستخدم مستوى ضغط الصوت dB SPL بالإشارة إلى 20 µPa (عتبة السمع)، مع 20 log بأسلوب الجهد لأنه نسبة ضغط. يتعامل هذا المحول مع النسب الكهربائية وdBm؛ وSPL نفس الرياضيات بمرجع ثابت مختلف.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">ضمّن هذه الحاسبة في موقعك — مجانًا</h2>
+<p style="margin:0 0 12px;line-height:1.6">أضف هذه الحاسبة إلى موقعك أو مدونتك — إنها مجانية تمامًا، ولا تحتاج إلى تسجيل، وتعرض دائمًا أحدث إصدار. انسخ الكود أدناه والصقه في صفحتك حيث تريد أن تظهر الحاسبة. إبقاء سطر الائتمان الصغير &ldquo;Powered by Loona Automation&rdquo; أسفل التضمين يساعد في بقاء هذه الأداة مجانية &mdash; لكنك حر في تنسيقه أو إزالته؛ فالأداة تعمل في كلتا الحالتين.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/ar/db-converter/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="dB Converter by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;بدعم من &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/ar/db-converter/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; مجاني محول dB&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">نسخ كود التضمين</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='تم النسخ!';setTimeout(function(){b.textContent='نسخ كود التضمين';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>الحاسبات الشائعة</h4><ul><li><a href="../paint-calculator/">حاسبة الطلاء</a></li>
+<li><a href="../concrete-calculator/">حاسبة الخرسانة</a></li>
+<li><a href="../tile-calculator/">حاسبة البلاط</a></li>
+<li><a href="../brick-calculator/">حاسبة الطوب</a></li>
+<li><a href="../roof-pitch-calculator/">حاسبة ميل السقف</a></li>
+<li><a href="../stairs-calculator/">حاسبة الدرج</a></li></ul></div>
+<div><h4>المزيد من أدوات Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">جميع أدوات Loona</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">حول</a></li>
+<li><a href="../contact.html">اتصل بنا</a></li>
+<li><a href="../privacy-policy.html">سياسة الخصوصية</a></li>
+<li><a href="../terms.html">شروط الاستخدام</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; مشروع تابع لـ <a href="https://loonaautomation.github.io/">Loona Automation</a> . حاسبات بناء مجانية بالوحدات المترية والإمبراطورية، بدون تسجيل.
+تواصل: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  if (v.mode === "pratio") {
+    if (!pos(v.val, v.ref)) return bad("يرجى إدخال القدرة والقدرة المرجعية (بنفس الوحدات).");
+    var db1 = 10 * Math.log10(v.val / v.ref);
+    var html1 = resTable("فرق المستوى", fmt(db1, 2) + " dB",
+      [["القدرة", fmt(v.val, 4)],["القدرة المرجعية", fmt(v.ref, 4)],["النسبة", fmt(v.val / v.ref, 4) + " \u00D7"]],
+      "تستخدم نسب القدرة 10\u00D7log\u2081\u2080. مضاعفة القدرة تساوي +3.01 dB؛ وعشرة أضعاف القدرة تساوي +10 dB.");
+    return { ok: true, db: db1, html: html1 };
+  }
+  if (v.mode === "vratio") {
+    if (!pos(v.val, v.ref)) return bad("يرجى إدخال الجهد والجهد المرجعي (بنفس الوحدات).");
+    var db2 = 20 * Math.log10(v.val / v.ref);
+    var html2 = resTable("فرق المستوى", fmt(db2, 2) + " dB",
+      [["الجهد", fmt(v.val, 4)],["الجهد المرجعي", fmt(v.ref, 4)],["النسبة", fmt(v.val / v.ref, 4) + " \u00D7"]],
+      "تستخدم نسب الجهد (والتيار) 20\u00D7log\u2081\u2080 \u2014 صالحة عندما يُقاس كلا الجهدين عبر نفس المعاوقة، وهو ما يجعل نسبة القدرة مربع نسبة الجهد. مضاعفة الجهد تساوي +6.02 dB.");
+    return { ok: true, db: db2, html: html2 };
+  }
+  if (v.mode === "dbm2p") {
+    if (!isFinite(v.dbm)) return bad("يرجى إدخال المستوى بـ dBm.");
+    var mw = Math.pow(10, v.dbm / 10);
+    var html3 = resTable("القدرة", fmt(mw, 3) + " mW (" + fmt(mw / 1000, 5) + " W)",
+      [["المستوى", fmt(v.dbm, 2) + " dBm"],["القدرة بالميلي واط", fmt(mw, 3) + " mW"],["القدرة بالواط", fmt(mw / 1000, 5) + " W"],["يساوي أيضًا", fmt(v.dbm - 30, 2) + " dBW"]],
+      "يُشار بـ dBm إلى 1 ميلي واط: 0 dBm = 1 mW، وكل +10 dBm يضاعف القدرة عشر مرات.");
+    return { ok: true, mw: mw, w: mw / 1000, html: html3 };
+  }
+  // p2dbm
+  if (!pos(v.pval)) return bad("يرجى إدخال القدرة.");
+  var mw2 = (v.punit === "w") ? v.pval * 1000 : v.pval;
+  var dbm4 = 10 * Math.log10(mw2);
+  var html4 = resTable("المستوى", fmt(dbm4, 2) + " dBm",
+    [["القدرة", fmt(mw2, 3) + " mW (" + fmt(mw2 / 1000, 5) + " W)"],["المستوى بالديسيبل ميلي واط dBm (مرجع 1 mW)", fmt(dbm4, 2) + " dBm"],["المستوى بالديسيبل واط dBW (مرجع 1 W)", fmt(dbm4 - 30, 2) + " dBW"]],
+    "قيم dBm السالبة هي ببساطة قدرات أقل من ميلي واط واحد \u2014 يعمل مستقبل راديو حساس بإشارات حول \u2212100 dBm.");
+  return { ok: true, dbm: dbm4, mw: mw2, html: html4 };
+} };
+
+function collect(){ return { mode: gs("f_mode"), val: gv("f_val"), ref: gv("f_ref"), dbm: gv("f_dbm"), pval: gv("f_pval"), punit: gs("f_punit") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' تثبيت التطبيق';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('ثبّت هذا التطبيق: اضغط زر المشاركة، ثم اختر "إضافة إلى الشاشة الرئيسية".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in Australia",
+  "short_name": "Brick Size in Australia",
+  "description": "المقاس القياسي للطوب في أستراليا: 230 × 110 × 76 mm. 48.4 طوبة لكل m² (4.50 لكل sq ft) من جدار أحادي الطبقة بفواصل ملاط 10 mm، وتغطية لكل 1,000 طوبة ومثال جدار محلول.",
+  "id": "/loona-construction-calculators/ar/brick-size-australia/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
