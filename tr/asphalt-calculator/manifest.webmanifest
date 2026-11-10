@@ -1,0 +1,29 @@
+{
+  "name": "Loona Asphalt Calculator",
+  "short_name": "Asphalt Calculator",
+  "description": "Ücretsiz asfalt hesaplayıcısı: uzunluğu, genişliği ve kalınlığı metrik veya emperyal olarak girin ve sipariş edilecek asfalt ağırlığını ton ve ABD tonu cinsinden alın; düzenlenebilir yoğunluk (2,450 kg/m³ / 145 lb/ft³), fire payı ve isteğe bağlı maliyet ile.",
+  "id": "/loona-construction-calculators/tr/asphalt-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

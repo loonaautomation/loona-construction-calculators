@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in United States (Standard)",
+  "short_name": "Brick Size in United States",
+  "description": "Amerika Birleşik Devletleri'nde standart tuğla boyutu (Standart): 203 × 92 × 57 mm. 9.5 mm harç derzleriyle tek kat duvarın m² başına 70.8 tuğla (sq ft başına 6.57), 1,000 tuğla başına kaplama ve çözülmüş bir duvar örneği.",
+  "id": "/loona-construction-calculators/tr/brick-size-us-standard/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

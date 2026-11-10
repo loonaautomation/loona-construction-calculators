@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LED Direnç Hesaplayıcısı — Seri Direnç Değeri, Standart E12 Boyutu ve Watt | Loona Construction Calculators</title>
+<meta name="description" content="Ücretsiz LED direnç hesaplayıcısı: besleme voltajı, LED ileri voltajı, ileri akım ve seri LED'ler; direnci ohm cinsinden, en yakın standart E12 değerini, gerçek akımı ve direnç watt değerini verir.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/tr/led-resistor-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/led-resistor-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/led-resistor-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/led-resistor-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/led-resistor-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/led-resistor-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/led-resistor-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/led-resistor-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/led-resistor-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/led-resistor-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="LED Direnç Hesaplayıcısı — Seri Direnç Değeri, Standart E12 Boyutu ve Watt | Loona Construction Calculators">
+<meta property="og:description" content="Ücretsiz LED direnç hesaplayıcısı: besleme voltajı, LED ileri voltajı, ileri akım ve seri LED'ler; direnci ohm cinsinden, en yakın standart E12 değerini, gerçek akımı ve direnç watt değerini verir.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/tr/led-resistor-calculator/"><meta property="og:locale" content="tr_TR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="LED Direnç Hesaplayıcısı — Seri Direnç Değeri, Standart E12 Boyutu ve Watt | Loona Construction Calculators">
+<meta name="twitter:description" content="Ücretsiz LED direnç hesaplayıcısı: besleme voltajı, LED ileri voltajı, ileri akım ve seri LED'ler; direnci ohm cinsinden, en yakın standart E12 değerini, gerçek akımı ve direnç watt değerini verir.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona LED Direnç Hesaplayıcısı","url":"https://loonaautomation.github.io/loona-construction-calculators/tr/led-resistor-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"LED'imin ileri voltajı nedir?","acceptedAnswer":{"@type":"Answer","text":"İdeal olarak veri sayfasından. Tipik aralıklar: kırmızı 1.8–2.2 V, turuncu/sarı 2.0–2.2 V, yeşil 2.2–3.2 V (eski yeşil ~2.2, modern yüksek parlaklık ~3), mavi ve beyaz 3.0–3.4 V, kızılötesi ~1.2–1.5 V. Küçük bir gösterge LED'i için şüphe durumunda 2.0 V (kırmızı) veya 3.2 V (beyaz/mavi), güvenli planlama değerleridir."}},{"@type":"Question","name":"Bir LED'i neden doğrudan bir pile bağlayamam?","acceptedAnswer":{"@type":"Answer","text":"Bir LED'in akımı, ileri voltajını geçtikten sonra voltajla patlayıcı şekilde artar — bir voltun bir kısmı fazladan, on kat akım, aşırı ısınma ve arıza anlamına gelebilir. Seri direnç, o uçurumu kontrollü bir eğime dönüştürür."}},{"@type":"Question","name":"LED'leri tek bir direnç üzerinde paralel bağlayabilir miyim?","acceptedAnswer":{"@type":"Answer","text":"Kötü bir uygulamadır: hiçbir iki LED tam olarak aynı ileri voltaja sahip değildir; bu yüzden biri akımı kapar, daha sıcak çalışır, Vf'si daha da düşer ve daha fazlasını kapar — arızalanana kadar termal kaçak. Her paralel LED'e (veya seri diziye) kendi direncini verin."}},{"@type":"Question","name":"Ya hesaplanan değer standart boyutlar arasındaysa?","acceptedAnswer":{"@type":"Answer","text":"Her zaman bir sonraki E12 değerine yukarı yuvarlayın. LED, nominal akımının biraz altında çalışır — parlaklık yalnızca hafifçe düşer (göz logaritmiktir), ömür ve güvenilirlik ise artar."}},{"@type":"Question","name":"Ne kadar büyük bir direnç watt değerine ihtiyacım var?","acceptedAnswer":{"@type":"Answer","text":"Genel bir kural olarak hesaplanan kaybın en az iki katı; böylece direnç serin çalışır ve değeri sabit kalır. Yaygın 5 V / 20 mA durumu için neredeyse her 0.25 W direnç yeterlidir; 12 V beslemeler veya güç LED'leri için hesaplayıcının gösterdiği rakama bakın."}},{"@type":"Question","name":"Bu, LED şeritler ve yüksek güçlü LED'ler için çalışır mı?","acceptedAnswer":{"@type":"Answer","text":"LED şeritlerin yerleşik dirençleri vardır — yalnızca nominal voltajı verin. Yüksek güçlü LED'ler (1 W ve üzeri), normalde bir direnç yerine sabit akımlı bir sürücüyle sürülür; çünkü bir direnç çok güç harcar ve LED ısındıkça akım kayar."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/tr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "LED Direnç Hesaplayıcısı",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/tr/led-resistor-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation logosu">
+<div class="brand">Loona <span>İnşaat Hesaplayıcıları</span></div>
+<nav>
+<a href="../">Ana Sayfa</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Hakkında</a>
+<a href="../contact.html">İletişim</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Elektrik &rsaquo; LED Direnç Hesaplayıcısı</div>
+<h1 class="pagetitle">💡 LED Direnç Hesaplayıcısı</h1>
+<p class="lead">Bir beslemeye doğrudan bağlanan bir LED yanar — akımını ayarlamak için seri bir dirence ihtiyacı vardır. Besleme voltajını, LED'in ileri voltajını ve akımını ve seri olarak kaç LED olduğunu girin; direnç değerini, en yakın standart boyutu ve dayanması gereken watt değerini alın.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_vs">Besleme voltajı (V)</label><input type="number" id="f_vs" step="any" value="5"></div><div class="fld"><label for="f_vf">LED ileri voltajı Vf (V) — ~1.8–2.2 kırmızı, ~3.0–3.4 beyaz/mavi</label><input type="number" id="f_vf" step="any" value="2"></div><div class="fld"><label for="f_ma">LED ileri akımı (mA) — 20, gösterge LED'leri için standarttır</label><input type="number" id="f_ma" step="any" value="20"></div><div class="fld"><label for="f_count">Bu direnç üzerinde seri LED'ler</label><input type="number" id="f_count" step="any" value="1"></div>
+<button type="button" class="calcbtn" id="calcBtn">Hesapla</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>LED Direnç Hesaplayıcısı Nasıl Kullanılır</h2><ol><li>Besleme voltajını girin (5 V USB, 9 V pil, 12 V araç beslemesi…).</li><li>LED'in ileri voltajını veri sayfasından girin — veya etiketteki tipik değerleri kullanın — ve nominal ileri akımını, genellikle 20 mA.</li><li>Birden çok LED, tek bir direnç arkasında seri bağlanmışsa kaç tane olduğunu girin, ardından Hesapla'ya basın.</li></ol>
+<div class="exbox"><strong>Örnek:</strong> 5 V beslemede kırmızı bir LED (Vf 2.0 V, 20 mA): direnç 3.0 V düşürmelidir, yani R = 3.0 ÷ 0.020 = <strong>150 Ω</strong> — kendisi standart bir değer.</div>
+<h2>Sık Sorulan Sorular</h2></section><div class="faq"><h3>LED'imin ileri voltajı nedir?</h3><p>İdeal olarak veri sayfasından. Tipik aralıklar: kırmızı 1.8–2.2 V, turuncu/sarı 2.0–2.2 V, yeşil 2.2–3.2 V (eski yeşil ~2.2, modern yüksek parlaklık ~3), mavi ve beyaz 3.0–3.4 V, kızılötesi ~1.2–1.5 V. Küçük bir gösterge LED'i için şüphe durumunda 2.0 V (kırmızı) veya 3.2 V (beyaz/mavi), güvenli planlama değerleridir.</p></div><div class="faq"><h3>Bir LED'i neden doğrudan bir pile bağlayamam?</h3><p>Bir LED'in akımı, ileri voltajını geçtikten sonra voltajla patlayıcı şekilde artar — bir voltun bir kısmı fazladan, on kat akım, aşırı ısınma ve arıza anlamına gelebilir. Seri direnç, o uçurumu kontrollü bir eğime dönüştürür.</p></div><div class="faq"><h3>LED'leri tek bir direnç üzerinde paralel bağlayabilir miyim?</h3><p>Kötü bir uygulamadır: hiçbir iki LED tam olarak aynı ileri voltaja sahip değildir; bu yüzden biri akımı kapar, daha sıcak çalışır, Vf'si daha da düşer ve daha fazlasını kapar — arızalanana kadar termal kaçak. Her paralel LED'e (veya seri diziye) kendi direncini verin.</p></div>
+<h2 class="sec">İlgili Hesaplayıcılar</h2><div class="grid"><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>Ohm Kanunu Hesaplayıcısı</h3><p>Elektrik</p></a><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>Voltaj Düşümü Hesaplayıcısı</h3><p>Elektrik</p></a><a class="card" href="../battery-runtime-calculator/"><div class="ic">🔋</div><h3>Pil Çalışma Süresi Hesaplayıcısı</h3><p>Elektrik</p></a><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>Amper - Watt Hesaplayıcısı</h3><p>Elektrik</p></a></div>
+</div>
+<section class="txt"><h2>Nasıl çalışır &mdash; formül</h2>
+<p><strong>Direnç üzerindeki voltaj</strong> = Besleme V − (Seri LED'ler × İleri V)<br>
+<strong>Direnç (Ω)</strong> = Direnç üzerindeki voltaj ÷ Akım (A)<br>
+<strong>Direnç gücü (W)</strong> = Gerçek akım² × Standart direnç değeri</p>
+<p>Bir LED'in parlaklığı akımıyla belirlenir ve ileri voltajı kimyasıyla kabaca sabittir — yani direncin görevi, kalan voltajı tam istenen akımda emmektir. Sonuç yuvarlanır <em>up</em> bir sonraki standart E12 değerine (…100, 120, 150, 180, 220, 270, 330, 390, 470…), bu yalnızca akımı biraz daha düşük ve daha güvenli yapabilir ve direncin watt değeri, gerçekten dağıttığı gücün en az iki katı olmalıdır.</p>
+<h3>Çözülmüş örnek</h3>
+<div class="exbox">Besleme 5 V, 20 mA'de Vf = 2.0 V olan bir kırmızı LED. Direnç üzerindeki voltaj = 5 − 2.0 = <strong>3.0 V</strong>. R = 3.0 ÷ 0.020 = <strong>150 Ω</strong>, ki bu da bir E12 standart değeridir, dolayısıyla gerçek akım 20.0 mA olarak kalır. Dirençteki güç = 0.020² × 150 = <strong>0.06 W</strong> — yaygın bir 0.25 W direnç, rahat bir pay verir.</div>
+
+<h3>Sık sorulan sorular</h3></section>
+<div class="faq"><h3>Ya hesaplanan değer standart boyutlar arasındaysa?</h3><p>Her zaman bir sonraki E12 değerine yukarı yuvarlayın. LED, nominal akımının biraz altında çalışır — parlaklık yalnızca hafifçe düşer (göz logaritmiktir), ömür ve güvenilirlik ise artar.</p></div><div class="faq"><h3>Ne kadar büyük bir direnç watt değerine ihtiyacım var?</h3><p>Genel bir kural olarak hesaplanan kaybın en az iki katı; böylece direnç serin çalışır ve değeri sabit kalır. Yaygın 5 V / 20 mA durumu için neredeyse her 0.25 W direnç yeterlidir; 12 V beslemeler veya güç LED'leri için hesaplayıcının gösterdiği rakama bakın.</p></div><div class="faq"><h3>Bu, LED şeritler ve yüksek güçlü LED'ler için çalışır mı?</h3><p>LED şeritlerin yerleşik dirençleri vardır — yalnızca nominal voltajı verin. Yüksek güçlü LED'ler (1 W ve üzeri), normalde bir direnç yerine sabit akımlı bir sürücüyle sürülür; çünkü bir direnç çok güç harcar ve LED ısındıkça akım kayar.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Bu hesaplayıcıyı web sitenize gömün — ücretsiz</h2>
+<p style="margin:0 0 12px;line-height:1.6">Bu hesaplayıcıyı kendi web sitenize veya blogunuza ekleyin — tamamen ücretsizdir, kayıt gerektirmez ve her zaman en son sürümü gösterir. Aşağıdaki kodu kopyalayın ve hesaplayıcının görünmesini istediğiniz yere sayfanıza yapıştırın. Gömülü öğenin altındaki küçük &ldquo;Powered by Loona Automation&rdquo; kredi satırını korumak, bu aracın ücretsiz kalmasına yardımcı olur &mdash; ancak onu biçimlendirmekte veya kaldırmakta özgürsünüz; araç her iki şekilde de çalışır.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/tr/led-resistor-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="LED Resistor Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Geliştiren &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/tr/led-resistor-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; ücretsiz LED Direnç Hesaplayıcısı&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Gömme kodunu kopyala</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Kopyalandı!';setTimeout(function(){b.textContent='Gömme kodunu kopyala';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Popüler Hesaplayıcılar</h4><ul><li><a href="../paint-calculator/">Boya Hesaplayıcısı</a></li>
+<li><a href="../concrete-calculator/">Beton Hesaplayıcısı</a></li>
+<li><a href="../tile-calculator/">Fayans Hesaplayıcısı</a></li>
+<li><a href="../brick-calculator/">Tuğla Hesaplayıcısı</a></li>
+<li><a href="../roof-pitch-calculator/">Çatı Eğimi Hesaplayıcısı</a></li>
+<li><a href="../stairs-calculator/">Merdiven Hesaplayıcısı</a></li></ul></div>
+<div><h4>Diğer Loona Araçları</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Tüm Loona Araçları</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Hakkında</a></li>
+<li><a href="../contact.html">İletişim</a></li>
+<li><a href="../privacy-policy.html">Gizlilik Politikası</a></li>
+<li><a href="../terms.html">Kullanım Şartları</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> projesi. Metrik ve emperyal birimlerde ücretsiz inşaat hesaplayıcıları, kayıt yok.
+İletişim: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var E12 = [10, 12, 15, 18, 22, 27, 33, 39, 47, 56, 68, 82];
+function e12AtLeast(x) {
+  if (!(x > 0)) return NaN;
+  var exp = Math.floor(Math.log10(x));
+  for (var e = exp - 1; e < exp + 3; e++) {
+    for (var i = 0; i < E12.length; i++) {
+      var val = E12[i] * Math.pow(10, e - 1);
+      if (val >= x - 1e-12) return Math.round(val * 1000) / 1000;
+    }
+  }
+  return NaN;
+}
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.vs, v.vf, v.ma)) return bad("Lütfen besleme voltajını, LED ileri voltajını ve mA cinsinden LED ileri akımını girin.");
+  var n = (v.count >= 1) ? Math.floor(v.count) : 1;
+  var drop = v.vs - n * v.vf;
+  if (!(drop > 0)) return bad("Serideki LED'ler şuna ihtiyaç duyar " + fmt(n * v.vf, 2) + " V ancak besleme yalnızca " + fmt(v.vs, 2) + " V — use fewer LEDs in series or a higher supply voltage.");
+  var I = v.ma / 1000;
+  var R = drop / I;
+  var std = e12AtLeast(R);
+  var actualMa = drop / std * 1000;
+  var pRes = Math.pow(drop / std, 2) * std;
+  var html = resTable("Direnç değeri", fmt(R, 1) + " \u03A9 \u2192 use " + fmt(std, 0) + " \u03A9 (üzerinde veya eşit en yakın E12)",
+    [["Direnç üzerindeki voltaj", fmt(drop, 2) + " V"],["Hesaplanan direnç", fmt(R, 1) + " \u03A9"],["Standart değerle gerçek LED akımı", fmt(actualMa, 1) + " mA"],["Dirençteki güç", fmt(pRes, 3) + " W"],["Önerilen direnç değeri", "en az " + fmt(pRes * 2, 2) + " W (gerçek dağıtımın 2 katı)"]],
+    "Direnci YUKARI yuvarlamak, LED akımını hafifçe düşürür — güvenli yön. Bir LED'i nominal akımında veya biraz altında çalıştırmak, parlaklığı neredeyse hiç değiştirmez ve ömrünü büyük ölçüde uzatır.");
+  return { ok: true, drop: drop, R: R, std: std, actualMa: actualMa, pRes: pRes, html: html };
+} };
+
+function collect(){ return { vs: gv("f_vs"), vf: gv("f_vf"), ma: gv("f_ma"), count: gv("f_count") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Uygulamayı Kur';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Bu uygulamayı kurun: Paylaş düğmesine dokunun, ardından "Ana Ekrana Ekle"yi seçin.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

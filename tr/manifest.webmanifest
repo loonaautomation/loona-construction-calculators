@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "HEM metrik HEM emperyal birimlerde çalışan ücretsiz inşaat hesaplayıcıları: boya, fayans, beton, döşeme, alçıpan, tuğla, çakıl, çatı eğimi, merdiven, board foot, duvar kağıdı, malç, asfalt, yalıtım, çit, teras, havuz hacmi, güneş paneli, halı, kontrplak, kum, Ohm kanunu, voltaj düşümü, kablo kesiti, elektrik maliyeti, amperden watta, watttan ampere, kVA'dan ampere, güç faktörü, pil çalışma süresi, LED direnci, üç fazlı güç, motor akımı, direnç renk kodu, 555 zamanlayıcı, AWG dönüşümü, reaktans ve desibel dönüşümü — fire payları ve çözümlü örneklerle.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/tr/"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona LED Resistor Calculator",
+  "short_name": "LED Resistor Calculator",
+  "description": "Ücretsiz LED direnç hesaplayıcısı: besleme voltajı, LED ileri voltajı, ileri akım ve seri LED'ler; direnci ohm cinsinden, en yakın standart E12 değerini, gerçek akımı ve direnç watt değerini verir.",
+  "id": "/loona-construction-calculators/tr/led-resistor-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

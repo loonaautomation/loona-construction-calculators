@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for a 12 × 40 ft Driveway",
+  "short_name": "Materials for a 12 × 40 ft",
+  "description": "12 × 40 ft araba yolu için malzemeler: tam beton hacmi ve hazır karışım torba sayıları (4 inç plak, %10 fazlalık) artı taban ve donatı alışveriş notları.",
+  "id": "/loona-construction-calculators/tr/materials-for-driveway/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

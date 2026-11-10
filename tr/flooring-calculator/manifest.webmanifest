@@ -1,0 +1,29 @@
+{
+  "name": "Loona Flooring Calculator",
+  "short_name": "Flooring Calculator",
+  "description": "Ücretsiz döşeme hesaplayıcısı: oda boyutu ve kutu kaplaması metrik veya emperyal olarak — kesim fire payı dahil, satın alınacak laminat, vinil veya mühendislik ürünü ahşap kutularının sayısını alın.",
+  "id": "/loona-construction-calculators/tr/flooring-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

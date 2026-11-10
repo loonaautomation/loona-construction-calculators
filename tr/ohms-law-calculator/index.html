@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ohm Kanunu Hesaplayıcısı — Voltaj, Akım, Direnç ve Güç (V, I, R, P) | Loona Construction Calculators</title>
+<meta name="description" content="Ücretsiz Ohm kanunu hesaplayıcısı: voltaj, akım, direnç ve güçten herhangi ikisini girin ve diğer ikisini alın — Ohm kanunu çarkının dört kadranı, formüller ve çözümlü bir örnekle.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/tr/ohms-law-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/ohms-law-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/ohms-law-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/ohms-law-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/ohms-law-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/ohms-law-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/ohms-law-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/ohms-law-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/ohms-law-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/ohms-law-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ohm Kanunu Hesaplayıcısı — Voltaj, Akım, Direnç ve Güç (V, I, R, P) | Loona Construction Calculators">
+<meta property="og:description" content="Ücretsiz Ohm kanunu hesaplayıcısı: voltaj, akım, direnç ve güçten herhangi ikisini girin ve diğer ikisini alın — Ohm kanunu çarkının dört kadranı, formüller ve çözümlü bir örnekle.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/tr/ohms-law-calculator/"><meta property="og:locale" content="tr_TR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ohm Kanunu Hesaplayıcısı — Voltaj, Akım, Direnç ve Güç (V, I, R, P) | Loona Construction Calculators">
+<meta name="twitter:description" content="Ücretsiz Ohm kanunu hesaplayıcısı: voltaj, akım, direnç ve güçten herhangi ikisini girin ve diğer ikisini alın — Ohm kanunu çarkının dört kadranı, formüller ve çözümlü bir örnekle.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Ohm Kanunu Hesaplayıcısı","url":"https://loonaautomation.github.io/loona-construction-calculators/tr/ohms-law-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Ohm kanunu basit sözcüklerle nedir?","acceptedAnswer":{"@type":"Answer","text":"Bir iletkenden geçen akımın, üzerindeki voltajla doğru orantılı ve direnciyle ters orantılı olduğunu söyler: voltajı ikiye katlayın ve (aynı direnç için) akımı ikiye katlarsınız; direnci ikiye katlayın ve akım yarıya iner. V = I × R olarak yazılır."}},{"@type":"Question","name":"Hangi iki değeri girmeliyim?","acceptedAnswer":{"@type":"Answer","text":"Dördünden herhangi ikisi. Yaygın çiftler: voltaj + akım (direnç ve gücü elde etmek için, örneğin bir yükü kontrol etmek için), voltaj + güç (bir cihazın çekeceği akımı elde etmek için — bir sigorta veya kablo seçmeden önce ihtiyacınız olan çift) ve akım + direnç (bir bileşen üzerindeki düşen voltajı elde etmek için)."}},{"@type":"Question","name":"Neden iki kutuyu boş bırakmalıyım?","acceptedAnswer":{"@type":"Answer","text":"Üç veya dört değer girildiğinde, problem aşırı tanımlanmıştır ve değerler birbirleriyle çelişebilir. Tam olarak iki bilinenin, diğer ikisi için tam olarak bir tutarlı cevabı vardır — Ohm kanunu çarkının tüm amacı budur."}},{"@type":"Question","name":"Ohm kanunu AC için çalışır mı?","acceptedAnswer":{"@type":"Answer","text":"Tamamen dirençli AC yükler (ısıtıcılar, akkor lambalar) için evet, RMS voltaj ve akım kullanarak. Motorlar, transformatörler ve diğer endüktif veya kapasitif yükler için empedans, basit direncin yerini alır ve gerçek güç, güç faktörünü de içerir; bu yüzden bu yükler için sonuçları ilk yaklaşım olarak görün."}},{"@type":"Question","name":"Bir cihazın çektiği akımı nasıl bulurum?","acceptedAnswer":{"@type":"Answer","text":"Nominal gücünü ve besleme voltajını girin. Örnek: 230 V'ta 2,300 W bir ısıtıcı, I = P ÷ V = 2,300 ÷ 230 = 10 A çeker — bu yüzden 10 A üzerinde değerli bir devre ve fiş gerektirir."}},{"@type":"Question","name":"Ya direncim kilo-ohm veya akımım miliamper cinsindeyse?","acceptedAnswer":{"@type":"Answer","text":"Önce dönüştürün: 1 kΩ = 1,000 Ω ve 1 mA = 0.001 A. 500 mA'i 0.5 ve 2 kΩ'u 2000 olarak girmek hesabı doğru tutar; sonuçlar volt, amper, ohm ve watt olarak geri gelir."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/tr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ohm Kanunu Hesaplayıcısı",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/tr/ohms-law-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation logosu">
+<div class="brand">Loona <span>İnşaat Hesaplayıcıları</span></div>
+<nav>
+<a href="../">Ana Sayfa</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Hakkında</a>
+<a href="../contact.html">İletişim</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Elektrik &rsaquo; Ohm Kanunu Hesaplayıcısı</div>
+<h1 class="pagetitle">⚡ Ohm Kanunu Hesaplayıcısı</h1>
+<p class="lead">Herhangi birini girin <strong>iki</strong> değerler — voltaj, akım, direnç veya güç — diğer ikisini boş bırakın ve bu hesaplayıcı, Ohm kanununu ve güç kanununu kullanarak gerisini hesaplar. (Burada birim değişimi yok: volt, amper, ohm ve watt, metrik ve emperyal ülkelerde aynıdır.)</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_V">Voltaj V (volt) — bilinmiyorsa boş bırakın</label><input type="number" id="f_V" step="any" value="12"></div><div class="fld"><label for="f_I">Akım I (amper) — bilinmiyorsa boş bırakın</label><input type="number" id="f_I" step="any" value="3"></div><div class="fld"><label for="f_R">Direnç R (ohm) — bilinmiyorsa boş bırakın</label><input type="number" id="f_R" step="any" value=""></div><div class="fld"><label for="f_P">Güç P (watt) — bilinmiyorsa boş bırakın</label><input type="number" id="f_P" step="any" value=""></div>
+<button type="button" class="calcbtn" id="calcBtn">Hesapla</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Ohm Kanunu Hesaplayıcısı Nasıl Kullanılır</h2><ol><li>Hangi iki değeri bildiğinize karar verin — örneğin besleme voltajı ve bir cihazın çektiği akım.</li><li>Bu ikisini yazın ve diğer iki kutuyu boş bırakın.</li><li>Hesapla'ya basın: iki bilinmeyen değer hesaplanır ve dördü birlikte gösterilir; böylece onları birbirine karşı kontrol edebilirsiniz.</li></ol>
+<div class="exbox"><strong>Örnek:</strong> 3 A çeken bir devreyi besleyen 12 V besleme: direnç = 12 ÷ 3 = <strong>4 Ω</strong> ve güç = 12 × 3 = <strong>36 W</strong>.</div>
+<h2>Sık Sorulan Sorular</h2></section><div class="faq"><h3>Ohm kanunu basit sözcüklerle nedir?</h3><p>Bir iletkenden geçen akımın, üzerindeki voltajla doğru orantılı ve direnciyle ters orantılı olduğunu söyler: voltajı ikiye katlayın ve (aynı direnç için) akımı ikiye katlarsınız; direnci ikiye katlayın ve akım yarıya iner. V = I × R olarak yazılır.</p></div><div class="faq"><h3>Hangi iki değeri girmeliyim?</h3><p>Dördünden herhangi ikisi. Yaygın çiftler: voltaj + akım (direnç ve gücü elde etmek için, örneğin bir yükü kontrol etmek için), voltaj + güç (bir cihazın çekeceği akımı elde etmek için — bir sigorta veya kablo seçmeden önce ihtiyacınız olan çift) ve akım + direnç (bir bileşen üzerindeki düşen voltajı elde etmek için).</p></div><div class="faq"><h3>Neden iki kutuyu boş bırakmalıyım?</h3><p>Üç veya dört değer girildiğinde, problem aşırı tanımlanmıştır ve değerler birbirleriyle çelişebilir. Tam olarak iki bilinenin, diğer ikisi için tam olarak bir tutarlı cevabı vardır — Ohm kanunu çarkının tüm amacı budur.</p></div>
+<h2 class="sec">İlgili Hesaplayıcılar</h2><div class="grid"><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>Voltaj Düşümü Hesaplayıcısı</h3><p>Elektrik</p></a><a class="card" href="../wire-size-calculator/"><div class="ic">🧵</div><h3>Kablo Kesiti Hesaplayıcısı</h3><p>Elektrik</p></a><a class="card" href="../electricity-cost-calculator/"><div class="ic">💷</div><h3>Elektrik Maliyeti Hesaplayıcısı</h3><p>Elektrik</p></a><a class="card" href="../solar-panel-calculator/"><div class="ic">☀️</div><h3>Güneş Paneli Hesaplayıcısı</h3><p>Elektrik</p></a></div>
+</div>
+<section class="txt"><h2>Nasıl çalışır &mdash; formül</h2>
+<p><strong>Ohm kanunu:</strong> V = I × R &nbsp;·&nbsp; I = V ÷ R &nbsp;·&nbsp; R = V ÷ I<br>
+<strong>Güç kanunu:</strong> P = V × I &nbsp;·&nbsp; P = I² × R &nbsp;·&nbsp; P = V² ÷ R<br>
+<strong>Karekök biçimleri (R ve P'den):</strong> V = √(P × R) &nbsp;·&nbsp; I = √(P ÷ R)</p>
+<p>Şunu gözünüzde canlandırın <strong>Ohm kanunu çarkı</strong>: dört büyüklük — üstte V, sonra I, R ve P — on iki formülden oluşan bir çember halinde düzenlenmiştir. İstediğiniz büyüklüğü bir parmağınızla kapatın; görünen iki komşu size formülü söyler: V'yi kapatın, I × R görürsünüz; I'yı kapatın, V ÷ R (ve P ÷ V) görürsünüz; R'yi kapatın, V ÷ I (ve P ÷ I²) görürsünüz; P'yi kapatın, V × I, I² × R veya V² ÷ R görürsünüz. Hangi çiftle başlarsanız başlayın, çark kapanır: iki bilinmeyen, bildiğiniz ikisinden çıkar — bu hesaplayıcının dört kadran için de yaptığı tam olarak budur.</p>
+<h3>Çözülmüş örnek</h3>
+<div class="exbox">Bir devre şunu çeker <strong>I = 2 A</strong> bir direncinden <strong>R = 47 Ω</strong>. Voltaj: V = I × R = 2 × 47 = <strong>94 V</strong>. Güç: P = I² × R = 2² × 47 = 4 × 47 = <strong>188 W</strong>. Diğer güç formülüyle çapraz kontrol: P = V × I = 94 × 2 = 188 W — her iki yol da uyuşuyor, olması gerektiği gibi.</div>
+
+<h3>Sık sorulan sorular</h3></section>
+<div class="faq"><h3>Ohm kanunu AC için çalışır mı?</h3><p>Tamamen dirençli AC yükler (ısıtıcılar, akkor lambalar) için evet, RMS voltaj ve akım kullanarak. Motorlar, transformatörler ve diğer endüktif veya kapasitif yükler için empedans, basit direncin yerini alır ve gerçek güç, güç faktörünü de içerir; bu yüzden bu yükler için sonuçları ilk yaklaşım olarak görün.</p></div><div class="faq"><h3>Bir cihazın çektiği akımı nasıl bulurum?</h3><p>Nominal gücünü ve besleme voltajını girin. Örnek: 230 V'ta 2,300 W bir ısıtıcı, I = P ÷ V = 2,300 ÷ 230 = 10 A çeker — bu yüzden 10 A üzerinde değerli bir devre ve fiş gerektirir.</p></div><div class="faq"><h3>Ya direncim kilo-ohm veya akımım miliamper cinsindeyse?</h3><p>Önce dönüştürün: 1 kΩ = 1,000 Ω ve 1 mA = 0.001 A. 500 mA'i 0.5 ve 2 kΩ'u 2000 olarak girmek hesabı doğru tutar; sonuçlar volt, amper, ohm ve watt olarak geri gelir.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Bu hesaplayıcıyı web sitenize gömün — ücretsiz</h2>
+<p style="margin:0 0 12px;line-height:1.6">Bu hesaplayıcıyı kendi web sitenize veya blogunuza ekleyin — tamamen ücretsizdir, kayıt gerektirmez ve her zaman en son sürümü gösterir. Aşağıdaki kodu kopyalayın ve hesaplayıcının görünmesini istediğiniz yere sayfanıza yapıştırın. Gömülü öğenin altındaki küçük &ldquo;Powered by Loona Automation&rdquo; kredi satırını korumak, bu aracın ücretsiz kalmasına yardımcı olur &mdash; ancak onu biçimlendirmekte veya kaldırmakta özgürsünüz; araç her iki şekilde de çalışır.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/tr/ohms-law-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Ohm's Law Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Geliştiren &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/tr/ohms-law-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; ücretsiz Ohm Kanunu Hesaplayıcısı&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Gömme kodunu kopyala</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Kopyalandı!';setTimeout(function(){b.textContent='Gömme kodunu kopyala';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Popüler Hesaplayıcılar</h4><ul><li><a href="../paint-calculator/">Boya Hesaplayıcısı</a></li>
+<li><a href="../concrete-calculator/">Beton Hesaplayıcısı</a></li>
+<li><a href="../tile-calculator/">Fayans Hesaplayıcısı</a></li>
+<li><a href="../brick-calculator/">Tuğla Hesaplayıcısı</a></li>
+<li><a href="../roof-pitch-calculator/">Çatı Eğimi Hesaplayıcısı</a></li>
+<li><a href="../stairs-calculator/">Merdiven Hesaplayıcısı</a></li></ul></div>
+<div><h4>Diğer Loona Araçları</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Tüm Loona Araçları</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Hakkında</a></li>
+<li><a href="../contact.html">İletişim</a></li>
+<li><a href="../privacy-policy.html">Gizlilik Politikası</a></li>
+<li><a href="../terms.html">Kullanım Şartları</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> projesi. Metrik ve emperyal birimlerde ücretsiz inşaat hesaplayıcıları, kayıt yok.
+İletişim: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  function known(x){ return isFinite(x) && x > 0; }
+  var n = (known(v.V)?1:0)+(known(v.I)?1:0)+(known(v.R)?1:0)+(known(v.P)?1:0);
+  if (n !== 2) return bad("Tam olarak İKİ değer girin (örneğin voltaj ve akım) ve diğer ikisini boş bırakın — hesaplayıcı gerisini hesaplar.");
+  var V=v.V, I=v.I, R=v.R, P=v.P;
+  if (known(V) && known(I)) { R = V / I; P = V * I; }
+  else if (known(V) && known(R)) { I = V / R; P = V * V / R; }
+  else if (known(V) && known(P)) { I = P / V; R = V * V / P; }
+  else if (known(I) && known(R)) { V = I * R; P = I * I * R; }
+  else if (known(I) && known(P)) { V = P / I; R = P / (I * I); }
+  else if (known(R) && known(P)) { V = Math.sqrt(P * R); I = Math.sqrt(P / R); }
+  var html = resTable("Güç (P)", fmt(P, 2) + " W",
+    [["Voltaj (V)", fmt(V, 3) + " V"],["Akım (I)", fmt(I, 3) + " A"],["Direnç (R)", fmt(R, 3) + " \u03A9"],["Güç (P)", fmt(P, 2) + " W"]],
+    "Kontrol: V = I \u00D7 R ve P = V \u00D7 I, bu dört değer için de geçerlidir. Motorlu veya diğer endüktif yüklü AC devrelerinde gerçek güç, güç faktörüne de bağlıdır — bu hesaplayıcı, DC ve tamamen dirençli AC yüklerini kapsar.");
+  return { ok: true, V: V, I: I, R: R, P: P, html: html };
+} };
+
+function collect(){ return { V: gv("f_V"), I: gv("f_I"), R: gv("f_R"), P: gv("f_P") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Uygulamayı Kur';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Bu uygulamayı kurun: Paylaş düğmesine dokunun, ardından "Ana Ekrana Ekle"yi seçin.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

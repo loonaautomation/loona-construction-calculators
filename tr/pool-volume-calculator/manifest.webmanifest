@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pool Volume Calculator",
+  "short_name": "Pool Volume Calculator",
+  "description": "Dikdörtgen, yuvarlak ve oval havuzlar için ücretsiz havuz hacmi hesaplayıcısı: boyutu ve sığ/derin uç derinliklerini metrik veya emperyal olarak girin ve kimyasal dozlama ve doldurma için su hacmini litre ve ABD galonu cinsinden alın.",
+  "id": "/loona-construction-calculators/tr/pool-volume-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
