@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spanningsvalcalculator — Kabellengte, stroom, koper & aluminium, mm² en AWG | Loona Construction Calculators</title>
+<meta name="description" content="Gratis spanningsvalcalculator: enkele kabellengte, stroom, koper of aluminium, kabelmaat in mm² of AWG, enkelfase of driefasen — gevallen volts en % val met 3%/5%-richtlijn.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/nl/voltage-drop-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/voltage-drop-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/voltage-drop-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/voltage-drop-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/voltage-drop-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/voltage-drop-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/voltage-drop-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/voltage-drop-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/voltage-drop-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Spanningsvalcalculator — Kabellengte, stroom, koper & aluminium, mm² en AWG | Loona Construction Calculators">
+<meta property="og:description" content="Gratis spanningsvalcalculator: enkele kabellengte, stroom, koper of aluminium, kabelmaat in mm² of AWG, enkelfase of driefasen — gevallen volts en % val met 3%/5%-richtlijn.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/nl/voltage-drop-calculator/"><meta property="og:locale" content="nl_NL">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Spanningsvalcalculator — Kabellengte, stroom, koper & aluminium, mm² en AWG | Loona Construction Calculators">
+<meta name="twitter:description" content="Gratis spanningsvalcalculator: enkele kabellengte, stroom, koper of aluminium, kabelmaat in mm² of AWG, enkelfase of driefasen — gevallen volts en % val met 3%/5%-richtlijn.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Spanningsvalcalculator","url":"https://loonaautomation.github.io/loona-construction-calculators/nl/voltage-drop-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Waarom doet spanningsval ertoe?","acceptedAnswer":{"@type":"Answer","text":"Apparatuur aan het einde van een lange, dunne leiding ontvangt minder dan de voedingsspanning: lampen dimmen, motoren worden heet en kunnen vastlopen, en elektronica kan zich misdragen. De energie die in de kabel verloren gaat, wordt ook als warmte verspild. De val binnen enkele procenten houden, houdt belastingen werkend zoals ontworpen."}},{"@type":"Question","name":"Wat betekenen de grenzen van 3% en 5%?","acceptedAnswer":{"@type":"Answer","text":"Het zijn veelgebruikte richtwaarden, te vinden in de informatieve bijlage van IEC 60364-5-52 en in veel daarvan afgeleide nationale bedradingsregels: een totale val van ongeveer 3% van de nominale spanning voor verlichtingscircuits en 5% voor andere (vermogens)circuits, vanaf het begin van de installatie tot de belasting. Je lokale voorschriften zijn de autoriteit — deze cijfers zijn context, geen vervanging daarvoor."}},{"@type":"Question","name":"Waarom is de val van aluminium hoger dan die van koper?","acceptedAnswer":{"@type":"Answer","text":"De soortelijke weerstand van aluminium (2.65 × 10⁻⁸ Ω·m) is ongeveer 1.58× die van koper (1.68 × 10⁻⁸ Ω·m), dus dezelfde lengte en maat aluminiumkabel verliest ongeveer 58% meer volt. Aluminiumleidingen worden normaal één of twee stappen dikker gedimensioneerd om dat te compenseren."}},{"@type":"Question","name":"Voer ik de lengte heen-en-terug in?","acceptedAnswer":{"@type":"Answer","text":"Nee — voer alleen de enkele afstand in. De factor 2 (enkelfase) of √3 (driefasen) in de formule houdt al rekening met het volledige stroompad."}},{"@type":"Question","name":"Hoe zit het met kabelreactantie en arbeidsfactor?","acceptedAnswer":{"@type":"Answer","text":"Voor kleine kabels (tot ongeveer 16–25 mm²) domineert de weerstand en komt deze vereenvoudigde berekening dicht in de buurt. Voor grote kabels, lange leidingen en sterk inductieve belastingen tellen reactantie en arbeidsfactor mee in de val; een volledige berekening in IEC-stijl of een controle door een elektricien is dan de moeite waard."}},{"@type":"Question","name":"Mijn val is te hoog — wat zijn mijn opties?","acceptedAnswer":{"@type":"Answer","text":"Gebruik een dikkere kabel (de effectiefste oplossing — de doorsnede verdubbelen halveert de val), verkort het traject, splits de belasting over twee circuits, of voed de belasting, waar het systeem het toelaat, met een hogere spanning (een driefasenvoeding valt bij 400 V naar verhouding minder dan een enkelfasevoeding bij 230 V voor hetzelfde vermogen)."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/nl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Spanningsvalcalculator",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/nl/voltage-drop-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo van Loona Automation">
+<div class="brand">Loona <span>Bouwcalculators</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Over ons</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Elektrisch &rsaquo; Spanningsvalcalculator</div>
+<h1 class="pagetitle">📉 Spanningsvalcalculator</h1>
+<p class="lead">Lange kabeltrajecten verliezen onderweg spanning. Voer de enkele lengte, de stroom, het geleidermateriaal en de kabelmaat (mm² of AWG) in en krijg de gevallen volts en het valpercentage, getoetst aan de bekende richtlijn van 3% / 5%.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system">Eenhedenstelsel</label><select id="f_system"><option value="m">Metrisch (meters, mm&sup2;)</option><option value="i">Imperiaal (feet, AWG)</option></select></div><div class="fld"><label for="f_length">Enkele kabellengte <span class="u" data-u="length"></span> (toevoer naar belasting, niet heen-en-terug)</label><input type="number" id="f_length" step="any" data-m="20" data-i="66" value="20"></div><div class="fld"><label for="f_current">Belastingsstroom (ampère)</label><input type="number" id="f_current" step="any" value="16"></div><div class="fld"><label for="f_volts">Voedingsspanning (volts)</label><input type="number" id="f_volts" step="any" value="230"></div><div class="fld"><label for="f_material">Geleidermateriaal</label><select id="f_material"><option value="cu" selected>Koper (&rho; = 1.68 &times; 10&#8315;&#8312; &Omega;&middot;m)</option><option value="al">Aluminium (&rho; = 2.65 &times; 10&#8315;&#8312; &Omega;&middot;m)</option></select></div><div class="fld"><label for="f_phase">Voedingstype</label><select id="f_phase"><option value="1" selected>Enkelfase (2-draads leiding)</option><option value="3">Driefasen (gebalanceerd)</option></select></div><div class="fld"><label for="f_size">Kabeldoorsnede (mm&sup2;)</label><select id="f_size"><option value="1.5">1.5 mm&sup2; (&asymp; 16 AWG)</option><option value="2.5" selected>2.5 mm&sup2; (&asymp; 14 AWG)</option><option value="4">4 mm&sup2; (&asymp; 12 AWG)</option><option value="6">6 mm&sup2; (&asymp; 10 AWG)</option><option value="10">10 mm&sup2; (&asymp; 8 AWG)</option><option value="16">16 mm&sup2; (&asymp; 6 AWG)</option><option value="25">25 mm&sup2; (&asymp; 4 AWG)</option><option value="35">35 mm&sup2; (&asymp; 2 AWG)</option><option value="50">50 mm&sup2; (&asymp; 1/0 AWG)</option><option value="70">70 mm&sup2; (&asymp; 2/0 AWG)</option><option value="95">95 mm&sup2; (&asymp; 3/0 AWG)</option><option value="120">120 mm&sup2; (&asymp; 4/0 AWG)</option></select></div><div class="fld"><label for="f_awg">AWG-kiezer (optioneel &mdash; als je deze kiest, overschrijft hij de mm&sup2;-keuze)</label><select id="f_awg"><option value="">Gebruik de mm&sup2;-keuze hierboven</option><option value="0.823">18 AWG (0.823 mm&sup2;)</option><option value="1.31">16 AWG (1.31 mm&sup2;)</option><option value="2.08">14 AWG (2.08 mm&sup2;)</option><option value="3.31">12 AWG (3.31 mm&sup2;)</option><option value="5.26">10 AWG (5.26 mm&sup2;)</option><option value="8.37">8 AWG (8.37 mm&sup2;)</option><option value="13.3">6 AWG (13.3 mm&sup2;)</option><option value="21.2">4 AWG (21.2 mm&sup2;)</option><option value="33.6">2 AWG (33.6 mm&sup2;)</option><option value="53.5">1/0 AWG (53.5 mm&sup2;)</option><option value="67.4">2/0 AWG (67.4 mm&sup2;)</option><option value="85.0">3/0 AWG (85.0 mm&sup2;)</option><option value="107.2">4/0 AWG (107.2 mm&sup2;)</option></select></div>
+<button type="button" class="calcbtn" id="calcBtn">Berekenen</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Zo gebruik je de Spanningsvalcalculator</h2><ol><li>Meet de enkele afstand van de voeding naar de belasting — de formule telt al beide geleiders van een enkelfaseleiding, dus verdubbel je meting niet.</li><li>Voer de stroom in die de belasting werkelijk trekt, de voedingsspanning, het geleidermateriaal en of de voeding enkelfase of driefasen is.</li><li>Kies de kabelmaat in mm², of gebruik de AWG-kiezer als je kabel per maat wordt verkocht, en druk dan op Berekenen.</li></ol>
+<div class="exbox"><strong>Voorbeeld:</strong> Een enkelfase koperen leiding van 20 m die 16 A voert in een kabel van 2.5 mm² bij 230 V verliest <strong>4.30 V</strong> — <strong>1.87%</strong>, ruim binnen de richtwaarden.</div>
+<h2>Veelgestelde vragen</h2></section><div class="faq"><h3>Waarom doet spanningsval ertoe?</h3><p>Apparatuur aan het einde van een lange, dunne leiding ontvangt minder dan de voedingsspanning: lampen dimmen, motoren worden heet en kunnen vastlopen, en elektronica kan zich misdragen. De energie die in de kabel verloren gaat, wordt ook als warmte verspild. De val binnen enkele procenten houden, houdt belastingen werkend zoals ontworpen.</p></div><div class="faq"><h3>Wat betekenen de grenzen van 3% en 5%?</h3><p>Het zijn veelgebruikte richtwaarden, te vinden in de informatieve bijlage van IEC 60364-5-52 en in veel daarvan afgeleide nationale bedradingsregels: een totale val van ongeveer 3% van de nominale spanning voor verlichtingscircuits en 5% voor andere (vermogens)circuits, vanaf het begin van de installatie tot de belasting. Je lokale voorschriften zijn de autoriteit — deze cijfers zijn context, geen vervanging daarvoor.</p></div><div class="faq"><h3>Waarom is de val van aluminium hoger dan die van koper?</h3><p>De soortelijke weerstand van aluminium (2.65 × 10⁻⁸ Ω·m) is ongeveer 1.58× die van koper (1.68 × 10⁻⁸ Ω·m), dus dezelfde lengte en maat aluminiumkabel verliest ongeveer 58% meer volt. Aluminiumleidingen worden normaal één of twee stappen dikker gedimensioneerd om dat te compenseren.</p></div>
+<h2 class="sec">Gerelateerde calculators</h2><div class="grid"><a class="card" href="../wire-size-calculator/"><div class="ic">🧵</div><h3>Draaddiktecalculator</h3><p>Elektrisch</p></a><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>Wet van Ohm-calculator</h3><p>Elektrisch</p></a><a class="card" href="../electricity-cost-calculator/"><div class="ic">💷</div><h3>Elektriciteitskostencalculator</h3><p>Elektrisch</p></a><a class="card" href="../solar-panel-calculator/"><div class="ic">☀️</div><h3>Zonnepaneelcalculator</h3><p>Elektrisch</p></a></div>
+</div>
+<section class="txt"><h2>Hoe het werkt &mdash; de formule</h2>
+<p><strong>Enkelfase:</strong> V<sub>val</sub> = 2 × I × ρ × L ÷ A<br>
+<strong>Driefasen (gebalanceerd):</strong> V<sub>val</sub> = √3 × I × ρ × L ÷ A<br>
+<strong>% val</strong> = V<sub>val</sub> ÷ Voedingsspanning × 100</p>
+<p>waarin I de stroom (A) is, L de <em>enkele richting</em> lengte (m), A is de geleiderdoorsnede (mm²), en ρ is de soortelijke weerstand van de geleider uitgedrukt als 0.0168 Ω·mm²/m voor koper (ρ = 1.68 × 10<sup>−8</sup> Ω·m) en 0.0265 Ω·mm²/m voor aluminium (ρ = 2.65 × 10<sup>−8</sup> Ω·m). De factor 2 in de enkelfaseformule is het heen-en-terugpaar geleiders; √3 is zijn driefasenequivalent. De cijfers van 3% en 5% komen uit de informatieve richtlijn in IEC 60364-5-52 (en nationale regels die daarop zijn gebaseerd): ruwweg 3% van de voedingsspanning voor verlichtingscircuits en 5% voor andere toepassingen, vanaf het begin van de installatie tot het gebruikspunt.</p>
+<h3>Uitgewerkt voorbeeld</h3>
+<div class="exbox">Enkelfase koper, L = 20 m, I = 16 A, A = 2.5 mm², voeding van 230 V: V<sub>val</sub> = 2 × 16 × 0.0168 × 20 ÷ 2.5 = 10.752 ÷ 2.5 = <strong>4.30 V</strong>. Als percentage: 4.30 ÷ 230 × 100 = <strong>1.87%</strong> — binnen zowel de richtwaarden van 3% voor verlichting als 5% voor vermogen.</div>
+<div class="resnote" style="font-size:14px;color:#5a6b68;background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin:12px 0"><strong>Veiligheidsnotitie:</strong> deze calculator is een planningshulpmiddel dat een vereenvoudigd resistief model gebruikt. Echte installaties moeten ook voldoen aan de eisen voor stroombelastbaarheid van kabels, beveiligingsapparaten en aarding volgens je lokale bedradingsvoorschriften — laat het werk ontwerpen of controleren door een gekwalificeerde elektricien.</div>
+<h3>Veelgestelde vragen</h3></section>
+<div class="faq"><h3>Voer ik de lengte heen-en-terug in?</h3><p>Nee — voer alleen de enkele afstand in. De factor 2 (enkelfase) of √3 (driefasen) in de formule houdt al rekening met het volledige stroompad.</p></div><div class="faq"><h3>Hoe zit het met kabelreactantie en arbeidsfactor?</h3><p>Voor kleine kabels (tot ongeveer 16–25 mm²) domineert de weerstand en komt deze vereenvoudigde berekening dicht in de buurt. Voor grote kabels, lange leidingen en sterk inductieve belastingen tellen reactantie en arbeidsfactor mee in de val; een volledige berekening in IEC-stijl of een controle door een elektricien is dan de moeite waard.</p></div><div class="faq"><h3>Mijn val is te hoog — wat zijn mijn opties?</h3><p>Gebruik een dikkere kabel (de effectiefste oplossing — de doorsnede verdubbelen halveert de val), verkort het traject, splits de belasting over twee circuits, of voed de belasting, waar het systeem het toelaat, met een hogere spanning (een driefasenvoeding valt bij 400 V naar verhouding minder dan een enkelfasevoeding bij 230 V voor hetzelfde vermogen).</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Sluit deze calculator in op je website — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Voeg deze calculator toe aan je eigen website of blog — hij is volledig gratis, heeft geen registratie nodig en toont altijd de nieuwste versie. Kopieer de onderstaande code en plak hem in je pagina waar je de calculator wilt laten verschijnen. De kleine creditregel &ldquo;Powered by Loona Automation&rdquo; onder de embed behouden helpt deze tool gratis te houden &mdash; maar je mag hem gerust vormgeven of verwijderen; de tool werkt hoe dan ook.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/nl/voltage-drop-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Voltage Drop Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Mogelijk gemaakt door &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/nl/voltage-drop-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Spanningsvalcalculator&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Embedcode kopiëren</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Gekopieerd!';setTimeout(function(){b.textContent='Embedcode kopiëren';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Populaire calculators</h4><ul><li><a href="../paint-calculator/">Verfcalculator</a></li>
+<li><a href="../concrete-calculator/">Betoncalculator</a></li>
+<li><a href="../tile-calculator/">Tegelcalculator</a></li>
+<li><a href="../brick-calculator/">Baksteencalculator</a></li>
+<li><a href="../roof-pitch-calculator/">Dakhellingcalculator</a></li>
+<li><a href="../stairs-calculator/">Trapcalculator</a></li></ul></div>
+<div><h4>Meer Loona-tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Alle Loona-tools</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Over ons</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Privacybeleid</a></li>
+<li><a href="../terms.html">Gebruiksvoorwaarden</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Gratis bouwcalculators in metrische en imperiale eenheden, geen registratie.
+Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var RHO = { cu: 0.0168, al: 0.0265 };
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.length, v.current, v.volts)) return bad("Voer de enkele kabellengte, de stroom en de voedingsspanning in (alle boven nul).");
+  var A = (v.awg > 0) ? v.awg : v.size;
+  if (!pos(A)) return bad("Kies een kabelmaat in mm\u00B2 of een AWG-maat.");
+  var L = v.length * ((v.sys === "i") ? FT : 1);
+  var rho = RHO[v.material] || RHO.cu;
+  var k = (v.phase === "3") ? Math.sqrt(3) : 2;
+  var vd = k * v.current * rho * L / A;
+  var pct = vd / v.volts * 100;
+  var verdict = pct <= 3 ? "Binnen de richtwaarde van 3% die voor verlichtingscircuits wordt gebruikt." : (pct <= 5 ? "Boven 3% maar binnen de richtwaarde van 5% die vaak wordt gebruikt voor andere (vermogens)circuits." : "Boven de richtwaarde van 5% \u2014 overweeg een dikkere kabel of een kortere route.");
+  var html = resTable("Spanningsval", fmt(vd, 2) + " V (" + fmt(pct, 2) + "%)",
+    [["Gebruikte kabelmaat", fmt(A, 2) + " mm\u00B2"],["Enkele lengte", fmt(L, 1) + " m"],["Geleiderweerstand (lusbasis)", fmt(k * rho * L / A, 4) + " \u03A9"],["Spanning bij de belasting", fmt(v.volts - vd, 2) + " V"],["Val als % van voeding", fmt(pct, 2) + "%"]],
+    verdict + " Richtwaarden: de informatieve richtlijnen van IEC 60364-5-52 en veel nationale regels werken met ongeveer 3% voor verlichting en 5% voor andere toepassingen, gemeten vanaf de oorsprong van de installatie. Dit is een vereenvoudigde resistieve berekening (reactantie en arbeidsfactor genegeerd), die nauwkeurig is voor kleine kabels en een goede eerste controle voor grotere. Elektrisch werk is onderworpen aan lokale voorschriften \u2014 laat installaties controleren door een gekwalificeerde elektricien.");
+  return { ok: true, vd: vd, pct: pct, A: A, L: L, html: html };
+} };
+
+function collect(){ return { sys: gs("f_system"), length: gv("f_length"), current: gv("f_current"), volts: gv("f_volts"), material: gs("f_material"), phase: gs("f_phase"), size: parseFloat(gs("f_size")), awg: gv("f_awg") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {"length":["m","ft"]};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' App installeren';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installeer deze app: tik op de knop Delen en kies vervolgens "Zet op beginscherm".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

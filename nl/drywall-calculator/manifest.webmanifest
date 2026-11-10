@@ -1,0 +1,29 @@
+{
+  "name": "Loona Drywall Calculator",
+  "short_name": "Drywall Calculator",
+  "description": "Gratis calculator voor gipsplaat en pleisterplaat: kamerafmeting in metrisch of imperiaal — krijg de wand- en plafondoppervlakte en het aantal te kopen platen van 1200 × 2400 mm of 4 × 8 ft, inclusief verlies.",
+  "id": "/loona-construction-calculators/nl/drywall-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

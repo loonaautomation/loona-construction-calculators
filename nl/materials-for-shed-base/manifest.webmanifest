@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for a 10 × 12 ft Shed Base",
+  "short_name": "Materials for a 10 × 12 ft",
+  "description": "Materialen voor een schuurfundering van 10 × 12 ft: exact betonvolume en aantallen kant-en-klare zakken (vloer van 4 inch, 10% extra) plus boodschappennotities voor fundering en wapening.",
+  "id": "/loona-construction-calculators/nl/materials-for-shed-base/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

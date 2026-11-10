@@ -1,0 +1,29 @@
+{
+  "name": "Loona Roof Pitch Calculator",
+  "short_name": "Roof Pitch Calculator",
+  "description": "Gratis dakhellingcalculator: voer optrede en aantrede in een willekeurige eenheid in — krijg de helling als verhouding (x-in-12), de hoek in graden, het hellingspercentage en de dakspantlengte. Werkt voor metrische en imperiale metingen.",
+  "id": "/loona-construction-calculators/nl/roof-pitch-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

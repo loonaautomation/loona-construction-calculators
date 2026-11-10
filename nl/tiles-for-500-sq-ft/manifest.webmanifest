@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 500 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 500 Sq Ft?",
+  "description": "Tegels voor 500 sq ft met tegels van 60×60 cm en voegen van 3 mm: 141 tegels (36 dozen van 4) inclusief 10% extra voor sneden en breuk.",
+  "id": "/loona-construction-calculators/nl/tiles-for-500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

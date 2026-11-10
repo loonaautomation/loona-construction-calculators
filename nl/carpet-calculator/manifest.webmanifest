@@ -1,0 +1,29 @@
+{
+  "name": "Loona Carpet Calculator",
+  "short_name": "Carpet Calculator",
+  "description": "Gratis tapijtcalculator: kamerafmeting en tapijtrolbreedte in metrisch of imperiaal geven je de strekkende lengte en oppervlakte tapijt die je werkelijk moet kopen (rolreststukken inbegrepen), plus optionele kosten — met verliesstoeslag.",
+  "id": "/loona-construction-calculators/nl/carpet-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

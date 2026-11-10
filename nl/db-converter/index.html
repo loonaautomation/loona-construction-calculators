@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dB-omzetter — Vermogens- & spanningsverhoudingen naar decibels, dBm naar mW en watts | Loona Construction Calculators</title>
+<meta name="description" content="Gratis decibelomzetter: vermogensverhoudingen en spanningsverhoudingen naar dB met je eigen referentie, dBm naar milliwatts en watts, en vermogen terug naar dBm en dBW — formules en uitgewerkte voorbeelden.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/nl/db-converter/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/db-converter/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/db-converter/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/db-converter/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/db-converter/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/db-converter/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/db-converter/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/db-converter/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/db-converter/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="dB-omzetter — Vermogens- & spanningsverhoudingen naar decibels, dBm naar mW en watts | Loona Construction Calculators">
+<meta property="og:description" content="Gratis decibelomzetter: vermogensverhoudingen en spanningsverhoudingen naar dB met je eigen referentie, dBm naar milliwatts en watts, en vermogen terug naar dBm en dBW — formules en uitgewerkte voorbeelden.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/nl/db-converter/"><meta property="og:locale" content="nl_NL">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="dB-omzetter — Vermogens- & spanningsverhoudingen naar decibels, dBm naar mW en watts | Loona Construction Calculators">
+<meta name="twitter:description" content="Gratis decibelomzetter: vermogensverhoudingen en spanningsverhoudingen naar dB met je eigen referentie, dBm naar milliwatts en watts, en vermogen terug naar dBm en dBW — formules en uitgewerkte voorbeelden.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona dB-omzetter","url":"https://loonaautomation.github.io/loona-construction-calculators/nl/db-converter/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Waarom zijn er twee formules — 10 log en 20 log?","acceptedAnswer":{"@type":"Answer","text":"Decibels zijn gedefinieerd op vermogen. Vermogensverhoudingen gebruiken 10 × log. Omdat vermogen evenredig is met het kwadraat van de spanning (bij dezelfde impedantie), verandert het kwadraat in een factor twee in de log — vandaar 20 × log voor spannings- en stroomverhoudingen. Ze door elkaar halen is de meest voorkomende dB-fout."}},{"@type":"Question","name":"Wat is dBm, en hoe verschilt het van gewone dB?","acceptedAnswer":{"@type":"Answer","text":"Gewone dB is een verhouding — hij heeft een 'vergeleken met wat' nodig. dBm legt de referentie vast op 1 milliwatt, dus hij drukt een absoluut vermogen uit: een zender op +30 dBm levert 1 W; een ontvangen signaal op −90 dBm is een miljardste van een milliwatt. dBW doet hetzelfde tegenover 1 W."}},{"@type":"Question","name":"Wat betekent een negatieve dB- of dBm-waarde?","acceptedAnswer":{"@type":"Answer","text":"Een negatieve verhouding in dB betekent dat de waarde kleiner is dan zijn referentie (de helft van het vermogen = −3.01 dB). Een negatieve dBm betekent een vermogen onder 1 mW — normaal en te verwachten voor ontvangen radiosignalen, die doorgaans −70 tot −110 dBm zijn."}},{"@type":"Question","name":"Hoe combineren versterkerwinsten in dB?","acceptedAnswer":{"@type":"Answer","text":"Ze tellen op — dat is het punt van logaritmen. Een voorversterker met +20 dB gevolgd door een eindversterker met +26 dB geeft in totaal +46 dB; een kabel die 3 dB verliest, trekt er 3 af. Werken in dB verandert een keten van vermenigvuldigingen in eenvoudig optellen en aftrekken."}},{"@type":"Question","name":"Is de spanningsverhoudingsregel altijd geldig?","acceptedAnswer":{"@type":"Answer","text":"Alleen wanneer beide spanningen over dezelfde impedantie worden gemeten — wat in de meeste audio- en RF-ketens klopt. Een spanning op een punt van 50 Ω vergelijken met een op een punt van 600 Ω via alleen 20 log geeft de vermogensverhouding verkeerd weer; zet om via vermogen wanneer de impedanties verschillen."}},{"@type":"Question","name":"Hoe verhoudt dB zich tot de geluidsniveaus die ik zie vermeld?","acceptedAnswer":{"@type":"Answer","text":"Het geluidsdrukniveau gebruikt dB SPL met als referentie 20 µPa (de gehoordrempel), met 20 log in spanningsstijl omdat het een drukverhouding is. Deze omzetter verwerkt elektrische verhoudingen en dBm; SPL is dezelfde wiskunde met een andere vaste referentie."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/nl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "dB-omzetter",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/nl/db-converter/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo van Loona Automation">
+<div class="brand">Loona <span>Bouwcalculators</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Over ons</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Elektrisch &rsaquo; dB-omzetter</div>
+<h1 class="pagetitle">🔊 dB-omzetter</h1>
+<p class="lead">Decibels persen enorme verhoudingen samen tot handige getallen. Zet een vermogensverhouding of een spanningsverhouding om naar dB tegen elke referentie die je kiest, of vertaal tussen dBm en werkelijk vermogen in milliwatts en watts — de taal van audio, radio en versterkerwinsten.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_mode">Omzetting</label><select id="f_mode"><option value="pratio" selected>Vermogensverhouding &rarr; dB</option><option value="vratio">Spanningsverhouding &rarr; dB</option><option value="dbm2p">dBm &rarr; vermogen (mW / W)</option><option value="p2dbm">Vermogen &rarr; dBm</option></select></div><div class="fld"><label for="f_val">Waarde — vermogen of spanning (verhoudingsmodi)</label><input type="number" id="f_val" step="any" value="100"></div><div class="fld"><label for="f_ref">Referentie — dezelfde eenheden als de waarde (verhoudingsmodi)</label><input type="number" id="f_ref" step="any" value="1"></div><div class="fld"><label for="f_dbm">Niveau in dBm (dBm &rarr; vermogensmodus)</label><input type="number" id="f_dbm" step="any" value="20"></div><div class="fld"><label for="f_pval">Vermogen (vermogen &rarr; dBm-modus)</label><input type="number" id="f_pval" step="any" value="100"></div><div class="fld"><label for="f_punit">Vermogenseenheid</label><select id="f_punit"><option value="mw" selected>Milliwatts (mW)</option><option value="w">Watts (W)</option></select></div>
+<button type="button" class="calcbtn" id="calcBtn">Berekenen</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Zo gebruik je de dB-omzetter</h2><ol><li>Kies de omzetting: een vermogens- of spanningsverhouding naar dB, dBm naar werkelijk vermogen, of werkelijk vermogen naar dBm.</li><li>Voer voor verhoudingen de waarde en zijn referentie in dezelfde eenheden in (watts bij watts, volts bij volts) — de referentie is wat '0 dB' voor je meting betekent.</li><li>Druk op Berekenen. Alleen de velden voor de gekozen modus worden gebruikt.</li></ol>
+<div class="exbox"><strong>Voorbeeld:</strong> Een versterker die 100 W levert tegen een referentie van 1 W is 10 × log₁₀(100) = <strong>+20 dB</strong>; en 20 dBm is precies <strong>100 mW</strong>.</div>
+<h2>Veelgestelde vragen</h2></section><div class="faq"><h3>Waarom zijn er twee formules — 10 log en 20 log?</h3><p>Decibels zijn gedefinieerd op vermogen. Vermogensverhoudingen gebruiken 10 × log. Omdat vermogen evenredig is met het kwadraat van de spanning (bij dezelfde impedantie), verandert het kwadraat in een factor twee in de log — vandaar 20 × log voor spannings- en stroomverhoudingen. Ze door elkaar halen is de meest voorkomende dB-fout.</p></div><div class="faq"><h3>Wat is dBm, en hoe verschilt het van gewone dB?</h3><p>Gewone dB is een verhouding — hij heeft een 'vergeleken met wat' nodig. dBm legt de referentie vast op 1 milliwatt, dus hij drukt een absoluut vermogen uit: een zender op +30 dBm levert 1 W; een ontvangen signaal op −90 dBm is een miljardste van een milliwatt. dBW doet hetzelfde tegenover 1 W.</p></div><div class="faq"><h3>Wat betekent een negatieve dB- of dBm-waarde?</h3><p>Een negatieve verhouding in dB betekent dat de waarde kleiner is dan zijn referentie (de helft van het vermogen = −3.01 dB). Een negatieve dBm betekent een vermogen onder 1 mW — normaal en te verwachten voor ontvangen radiosignalen, die doorgaans −70 tot −110 dBm zijn.</p></div>
+<h2 class="sec">Gerelateerde calculators</h2><div class="grid"><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>Ampère-naar-watt-calculator</h3><p>Elektrisch</p></a><a class="card" href="../reactance-calculator/"><div class="ic">〰️</div><h3>Reactantiecalculator</h3><p>Elektrisch</p></a><a class="card" href="../power-factor-calculator/"><div class="ic">🎚️</div><h3>Arbeidsfactorcalculator</h3><p>Elektrisch</p></a><a class="card" href="../three-phase-power-calculator/"><div class="ic">🔺</div><h3>Driefasenvermogen-calculator</h3><p>Elektrisch</p></a></div>
+</div>
+<section class="txt"><h2>Hoe het werkt &mdash; de formule</h2>
+<p><strong>Vermogensverhouding:</strong> dB = 10 × log₁₀(P ÷ P<sub>ref</sub>)<br>
+<strong>Spanningsverhouding:</strong> dB = 20 × log₁₀(V ÷ V<sub>ref</sub>) — de 20 staat er omdat het vermogen kwadratisch met de spanning samenhangt, en er wordt aangenomen dat beide spanningen dezelfde impedantie zien<br>
+<strong>dBm naar vermogen:</strong> P (mW) = 10<sup>(dBm ÷ 10)</sup> &nbsp;·&nbsp; <strong>Vermogen naar dBm:</strong> dBm = 10 × log₁₀(P in mW)<br>
+<strong>dBW</strong> = dBm − 30 (gerelateerd aan 1 W in plaats van 1 mW)</p>
+<p>Referentiepunten die het onthouden waard zijn: +3 dB ≈ het dubbele vermogen, +6 dB ≈ het dubbele van de spanning (vier keer het vermogen), +10 dB = precies tien keer het vermogen, en 0 dBm = 1 mW — de standaardreferentie in radio- en telecomwerk.</p>
+<h3>Uitgewerkt voorbeeld</h3>
+<div class="exbox">Vermogensverhouding: P = 100, referentie = 1 (zelfde eenheden). dB = 10 × log₁₀(100 ÷ 1) = 10 × 2 = <strong>+20 dB</strong>. Spanningscontrole: een verhouding van 10 geeft 20 × log₁₀(10) = <strong>+20 dB</strong> ook — omdat tien keer de spanning over dezelfde impedantie honderd keer het vermogen is. dBm-controle: 10<sup>(20 ÷ 10)</sup> = 10² = <strong>100 mW</strong> voor 20 dBm, en 30 dBm = 1,000 mW = <strong>1 W</strong>.</div>
+
+<h3>Veelgestelde vragen</h3></section>
+<div class="faq"><h3>Hoe combineren versterkerwinsten in dB?</h3><p>Ze tellen op — dat is het punt van logaritmen. Een voorversterker met +20 dB gevolgd door een eindversterker met +26 dB geeft in totaal +46 dB; een kabel die 3 dB verliest, trekt er 3 af. Werken in dB verandert een keten van vermenigvuldigingen in eenvoudig optellen en aftrekken.</p></div><div class="faq"><h3>Is de spanningsverhoudingsregel altijd geldig?</h3><p>Alleen wanneer beide spanningen over dezelfde impedantie worden gemeten — wat in de meeste audio- en RF-ketens klopt. Een spanning op een punt van 50 Ω vergelijken met een op een punt van 600 Ω via alleen 20 log geeft de vermogensverhouding verkeerd weer; zet om via vermogen wanneer de impedanties verschillen.</p></div><div class="faq"><h3>Hoe verhoudt dB zich tot de geluidsniveaus die ik zie vermeld?</h3><p>Het geluidsdrukniveau gebruikt dB SPL met als referentie 20 µPa (de gehoordrempel), met 20 log in spanningsstijl omdat het een drukverhouding is. Deze omzetter verwerkt elektrische verhoudingen en dBm; SPL is dezelfde wiskunde met een andere vaste referentie.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Sluit deze calculator in op je website — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Voeg deze calculator toe aan je eigen website of blog — hij is volledig gratis, heeft geen registratie nodig en toont altijd de nieuwste versie. Kopieer de onderstaande code en plak hem in je pagina waar je de calculator wilt laten verschijnen. De kleine creditregel &ldquo;Powered by Loona Automation&rdquo; onder de embed behouden helpt deze tool gratis te houden &mdash; maar je mag hem gerust vormgeven of verwijderen; de tool werkt hoe dan ook.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/nl/db-converter/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="dB Converter by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Mogelijk gemaakt door &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/nl/db-converter/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis dB-omzetter&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Embedcode kopiëren</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Gekopieerd!';setTimeout(function(){b.textContent='Embedcode kopiëren';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Populaire calculators</h4><ul><li><a href="../paint-calculator/">Verfcalculator</a></li>
+<li><a href="../concrete-calculator/">Betoncalculator</a></li>
+<li><a href="../tile-calculator/">Tegelcalculator</a></li>
+<li><a href="../brick-calculator/">Baksteencalculator</a></li>
+<li><a href="../roof-pitch-calculator/">Dakhellingcalculator</a></li>
+<li><a href="../stairs-calculator/">Trapcalculator</a></li></ul></div>
+<div><h4>Meer Loona-tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Alle Loona-tools</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Over ons</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Privacybeleid</a></li>
+<li><a href="../terms.html">Gebruiksvoorwaarden</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Gratis bouwcalculators in metrische en imperiale eenheden, geen registratie.
+Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  if (v.mode === "pratio") {
+    if (!pos(v.val, v.ref)) return bad("Voer het vermogen en het referentievermogen in (zelfde eenheden).");
+    var db1 = 10 * Math.log10(v.val / v.ref);
+    var html1 = resTable("Niveauverschil", fmt(db1, 2) + " dB",
+      [["Vermogen", fmt(v.val, 4)],["Referentievermogen", fmt(v.ref, 4)],["Verhouding", fmt(v.val / v.ref, 4) + " \u00D7"]],
+      "Vermogensverhoudingen gebruiken 10\u00D7log\u2081\u2080. Een vermogen verdubbelen is +3.01 dB; tien keer het vermogen is +10 dB.");
+    return { ok: true, db: db1, html: html1 };
+  }
+  if (v.mode === "vratio") {
+    if (!pos(v.val, v.ref)) return bad("Voer de spanning en de referentiespanning in (zelfde eenheden).");
+    var db2 = 20 * Math.log10(v.val / v.ref);
+    var html2 = resTable("Niveauverschil", fmt(db2, 2) + " dB",
+      [["Spanning", fmt(v.val, 4)],["Referentiespanning", fmt(v.ref, 4)],["Verhouding", fmt(v.val / v.ref, 4) + " \u00D7"]],
+      "Spannings- (en stroom)verhoudingen gebruiken 20\u00D7log\u2081\u2080 \u2014 geldig wanneer beide spanningen over dezelfde impedantie worden gemeten, wat de vermogensverhouding het kwadraat van de spanningsverhouding maakt. Een spanning verdubbelen is +6.02 dB.");
+    return { ok: true, db: db2, html: html2 };
+  }
+  if (v.mode === "dbm2p") {
+    if (!isFinite(v.dbm)) return bad("Voer het niveau in dBm in.");
+    var mw = Math.pow(10, v.dbm / 10);
+    var html3 = resTable("Vermogen", fmt(mw, 3) + " mW (" + fmt(mw / 1000, 5) + " W)",
+      [["Niveau", fmt(v.dbm, 2) + " dBm"],["Vermogen in milliwatt", fmt(mw, 3) + " mW"],["Vermogen in watt", fmt(mw / 1000, 5) + " W"],["Ook gelijk aan", fmt(v.dbm - 30, 2) + " dBW"]],
+      "dBm is gerelateerd aan 1 milliwatt: 0 dBm = 1 mW, en elke +10 dBm vermenigvuldigt het vermogen met tien.");
+    return { ok: true, mw: mw, w: mw / 1000, html: html3 };
+  }
+  // p2dbm
+  if (!pos(v.pval)) return bad("Voer het vermogen in.");
+  var mw2 = (v.punit === "w") ? v.pval * 1000 : v.pval;
+  var dbm4 = 10 * Math.log10(mw2);
+  var html4 = resTable("Niveau", fmt(dbm4, 2) + " dBm",
+    [["Vermogen", fmt(mw2, 3) + " mW (" + fmt(mw2 / 1000, 5) + " W)"],["Niveau in dBm (ref 1 mW)", fmt(dbm4, 2) + " dBm"],["Niveau in dBW (ref 1 W)", fmt(dbm4 - 30, 2) + " dBW"]],
+    "Negatieve dBm-waarden zijn eenvoudigweg vermogens onder een milliwatt \u2014 een gevoelige radio-ontvanger werkt met signalen rond \u2212100 dBm.");
+  return { ok: true, dbm: dbm4, mw: mw2, html: html4 };
+} };
+
+function collect(){ return { mode: gs("f_mode"), val: gv("f_val"), ref: gv("f_ref"), dbm: gv("f_dbm"), pval: gv("f_pval"), punit: gs("f_punit") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' App installeren';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installeer deze app: tik op de knop Delen en kies vervolgens "Zet op beginscherm".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>
