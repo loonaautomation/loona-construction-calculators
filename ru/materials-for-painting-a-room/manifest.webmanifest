@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for Painting a 12 × 14 ft Room",
+  "short_name": "Materials for Painting a 12 ×",
+  "description": "Полный список покупок для покраски комнаты 12×14 ft: литры/галлоны краски на 2 слоя, грунтовка, лента, валики и материалы для подготовки — рассчитано, а не угадано.",
+  "id": "/loona-construction-calculators/ru/materials-for-painting-a-room/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

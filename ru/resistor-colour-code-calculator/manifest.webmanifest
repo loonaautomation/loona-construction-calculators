@@ -1,0 +1,29 @@
+{
+  "name": "Loona Resistor Colour Code Calculator",
+  "short_name": "Resistor Colour Code",
+  "description": "Бесплатный калькулятор цветового кода резисторов: выберите цвета полос на резисторе с 4, 5 или 6 полосами, чтобы получить сопротивление, допуск и температурный коэффициент, — или выполните обратный перевод: из значения в полосы.",
+  "id": "/loona-construction-calculators/ru/resistor-colour-code-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

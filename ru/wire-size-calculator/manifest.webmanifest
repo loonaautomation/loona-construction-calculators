@@ -1,0 +1,29 @@
+{
+  "name": "Loona Wire Size Calculator",
+  "short_name": "Wire Size Calculator",
+  "description": "Бесплатный калькулятор размера кабеля: ток, длина в одну сторону, допустимое падение напряжения в %, напряжение, медь или алюминий, однофазная или трёхфазная сеть — минимальный размер кабеля в mm², ближайший стандартный размер и эквивалент AWG.",
+  "id": "/loona-construction-calculators/ru/wire-size-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 300 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 300 Sq Ft",
+  "description": "Краска для 300 sq ft стены: 6.1 литров (1.6 gal) на 2 слоя при типичном покрытии 10 m²/L, плюс 2.6 L грунтовки — с указанными допущениями.",
+  "id": "/loona-construction-calculators/ru/paint-for-300-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

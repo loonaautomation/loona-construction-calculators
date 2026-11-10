@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Concrete for 300 Sq Ft? Volume &",
+  "short_name": "How Much Concrete for 300 Sq",
+  "description": "Бетон для плиты 300 sq ft толщиной 4 дюйма: 3.11 m³ (4.07 yd³), включая 10% запаса, плюс количество мешков готовой смеси по 80 lb, 60 lb, 25 kg и 20 kg.",
+  "id": "/loona-construction-calculators/ru/concrete-for-300-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

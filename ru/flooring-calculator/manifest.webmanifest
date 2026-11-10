@@ -1,0 +1,29 @@
+{
+  "name": "Loona Flooring Calculator",
+  "short_name": "Flooring Calculator",
+  "description": "Бесплатный калькулятор напольных покрытий: размер комнаты и покрытие коробки в метрической или имперской системе — получите количество коробок ламината, винила или инженерной древесины для покупки, включая запас на отходы при резке.",
+  "id": "/loona-construction-calculators/ru/flooring-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

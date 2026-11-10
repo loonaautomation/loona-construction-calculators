@@ -1,0 +1,29 @@
+{
+  "name": "Loona Mulch Calculator",
+  "short_name": "Mulch Calculator",
+  "description": "Бесплатный калькулятор мульчи: площадь и глубина грядки в метрической или имперской системе — получите объём мульчи, количество мешков по 40/50 литров или 2/3 кубического фута, а также кубические метры и ярды при покупке навалом.",
+  "id": "/loona-construction-calculators/ru/mulch-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Fence Calculator",
+  "short_name": "Fence Calculator",
+  "description": "Бесплатный калькулятор забора: длина забора и шаг столбов в метрической или имперской системе дадут вам столбы, перекладины, штакетины (по ширине штакетины и зазору) и мешки бетона — с запасом на отходы для штакетин.",
+  "id": "/loona-construction-calculators/ru/fence-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

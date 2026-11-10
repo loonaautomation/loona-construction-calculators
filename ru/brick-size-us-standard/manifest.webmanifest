@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in United States (Standard)",
+  "short_name": "Brick Size in United States",
+  "description": "Стандартный размер кирпича в США (стандартный): 203 × 92 × 57 mm. 70.8 кирпича на m² (6.57 на кв. фут) однослойной стены со швами раствора 9.5 mm, покрытие на 1,000 кирпичей и разобранный пример стены.",
+  "id": "/loona-construction-calculators/ru/brick-size-us-standard/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

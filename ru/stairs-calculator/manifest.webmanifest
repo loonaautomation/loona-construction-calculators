@@ -1,0 +1,29 @@
+{
+  "name": "Loona Stairs Calculator",
+  "short_name": "Stairs Calculator",
+  "description": "Бесплатный калькулятор лестницы: введите общую высоту подъёма в метрической или имперской системе — получите количество ступеней, точную высоту подступенка, общую длину марша и длину тетивы, с автоматической проверкой правила удобства 2R + T.",
+  "id": "/loona-construction-calculators/ru/stairs-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

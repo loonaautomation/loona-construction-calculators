@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in United Kingdom",
+  "short_name": "Brick Size in United Kingdom",
+  "description": "Стандартный размер кирпича в Великобритании: 215 × 102.5 × 65 mm. 59.3 кирпича на m² (5.51 на кв. фут) однослойной стены со швами раствора 10 mm, покрытие на 1,000 кирпичей и разобранный пример стены.",
+  "id": "/loona-construction-calculators/ru/brick-size-uk/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 2/12 Roof Pitch",
+  "short_name": "2/12 Roof Pitch",
+  "description": "Уклон крыши 2/12 равен 9.46 градусам (уклон 17%). Множитель стропила 1.0138, длины стропил для обычных пролётов, материалы и применения.",
+  "id": "/loona-construction-calculators/ru/roof-pitch-2-12/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

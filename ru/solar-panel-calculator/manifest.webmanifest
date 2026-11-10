@@ -1,0 +1,29 @@
+{
+  "name": "Loona Solar Panel Calculator",
+  "short_name": "Solar Panel Calculator",
+  "description": "Бесплатный калькулятор солнечных панелей: месячное потребление электроэнергии, пиковые солнечные часы и мощность панелей дают количество нужных панелей, размер системы в kW, ожидаемую месячную выработку и площадь крыши — без регистрации.",
+  "id": "/loona-construction-calculators/ru/solar-panel-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
