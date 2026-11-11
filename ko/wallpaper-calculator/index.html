@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>벽지 계산기 — EU와 미국 롤 크기 기준 롤 수, 패턴 반복 포함 | Loona Construction Calculators</title>
+<meta name="description" content="무료 벽지 계산기: 방 크기를 미터법이나 야드파운드법으로, 유럽식이나 미국식 더블 롤로, 패턴 반복까지 감안하면 구매할 벽지 롤의 정확한 수를 알려 줘요. 로스가 포함돼요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/ko/wallpaper-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/wallpaper-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/wallpaper-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/wallpaper-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/wallpaper-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/wallpaper-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/wallpaper-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/wallpaper-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/wallpaper-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/wallpaper-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/wallpaper-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/wallpaper-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/wallpaper-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/wallpaper-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="벽지 계산기 — EU와 미국 롤 크기 기준 롤 수, 패턴 반복 포함 | Loona Construction Calculators">
+<meta property="og:description" content="무료 벽지 계산기: 방 크기를 미터법이나 야드파운드법으로, 유럽식이나 미국식 더블 롤로, 패턴 반복까지 감안하면 구매할 벽지 롤의 정확한 수를 알려 줘요. 로스가 포함돼요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/ko/wallpaper-calculator/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="벽지 계산기 — EU와 미국 롤 크기 기준 롤 수, 패턴 반복 포함 | Loona Construction Calculators">
+<meta name="twitter:description" content="무료 벽지 계산기: 방 크기를 미터법이나 야드파운드법으로, 유럽식이나 미국식 더블 롤로, 패턴 반복까지 감안하면 구매할 벽지 롤의 정확한 수를 알려 줘요. 로스가 포함돼요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 벽지 계산기","url":"https://loonaautomation.github.io/loona-construction-calculators/ko/wallpaper-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"방 하나에 벽지 롤이 몇 개 필요한가요?","acceptedAnswer":{"@type":"Answer","text":"띠 단위로 세세요. 롤 길이를 띠 길이 (벽 높이 + 재단 여유, 패턴 반복 단위로 올림)로 나누면 롤당 띠 수가 나오고, 그다음 벽 면적을 롤 하나의 사용 가능 면적으로 나누세요. 일반적인 4 × 3.5 m 방에는 유럽식 롤이 약 10–11개 들어가요."}},{"@type":"Question","name":"패턴 반복이란 무엇이고 왜 롤이 더 드나요?","acceptedAnswer":{"@type":"Answer","text":"반복 길이는 패턴이 다시 맞아떨어지기까지의 거리예요(라벨에 인쇄돼 있어요. 예: 53 cm). 모든 스트립이 맞는 지점에서 시작해야 해서, 각 스트립은 반복 횟수의 정수로 올림돼요. 잘려 나가는 부분은 로스예요. 높은 벽에 큰 반복 패턴이면 롤이 한두 개 더 들 수 있어요."}},{"@type":"Question","name":"유럽식 롤과 미국식 롤은 무엇이 다를까요?","acceptedAnswer":{"@type":"Answer","text":"유럽 표준 롤은 너비 0.53 m × 길이 10.05 m(약 5.3 m²)예요. 미국 벽지는 싱글 롤이나 더블 롤로 팔리고, 더블 롤은 보통 27 in × 27 ft예요. 이 계산기는 유럽 롤과 미국 더블 롤을 제공해요."}},{"@type":"Question","name":"문과 창문을 빼야 하나요?","acceptedAnswer":{"@type":"Answer","text":"벽지는 그래요. 석고보드와 달리 문 위쪽 자투리가 짧아서 거는 양을 실제로 줄여 주거든요. 그래서 여기서 표준 문(1.89 m²)과 창문(1.8 m²)을 벽 면적에서 빼요."}},{"@type":"Question","name":"왜 롤을 하나 더 사야 하나요?","acceptedAnswer":{"@type":"Answer","text":"10% 여유분은 재단 실수와 새 벽을 시작하는 스트립을 감안한 거예요. 그 이상으로는, 모든 롤을 같은 배치로 한 번에 주문하세요. 염색 로트가 눈에 띄게 다르고, 나중에 보충한 롤은 색이 맞지 않을 수 있어요."}},{"@type":"Question","name":"피트 단위로 쓸 수 있나요?","acceptedAnswer":{"@type":"Answer","text":"네. 야드파운드법으로 전환하면 피트와 인치(패턴 반복은 인치)를 써요. 롤의 정의는 실제 유럽과 미국 표준 그대로라 개수를 직접 비교할 수 있어요."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "벽지 계산기",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/wallpaper-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>건설 계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">소개</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; 건설 &rsaquo; 벽지 계산기</div>
+<h1 class="pagetitle">🧻 벽지 계산기</h1>
+<p class="lead">방 하나에 벽지 롤이 몇 개 필요할까요? 방 크기를 입력하고, 유럽식 롤 (0.53 × 10.05 m)이나 미국식 더블 롤을 고른 뒤 패턴 반복을 더하세요. 계산기는 도배 장인과 똑같이 띠 단위로 계산해서 반복과 재단이 제대로 감안돼요.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system">단위 체계</label><select id="f_system"><option value="m">미터법 (미터, 리터, kg)</option><option value="i">야드파운드법 (피트, 갤런, lb)</option></select></div><div class="fld"><label for="f_length">방 길이 <span class="u" data-u="length"></span></label><input type="number" id="f_length" step="any" data-m="4" data-i="13" value="4" ></div><div class="fld"><label for="f_width">방 너비 <span class="u" data-u="width"></span></label><input type="number" id="f_width" step="any" data-m="3.5" data-i="11.5" value="3.5" ></div><div class="fld"><label for="f_height">벽 높이 <span class="u" data-u="height"></span></label><input type="number" id="f_height" step="any" data-m="2.5" data-i="8.2" value="2.5" ></div><div class="fld"><label for="f_doors">뺄 문 개수 (표준 크기) <span class="u" data-u="doors"></span></label><input type="number" id="f_doors" step="1" data-m="1" data-i="1" value="1" ></div><div class="fld"><label for="f_windows">뺄 창문 (표준 크기) <span class="u" data-u="windows"></span></label><input type="number" id="f_windows" step="1" data-m="1" data-i="1" value="1" ></div><div class="fld"><label for="f_roll">롤 종류</label><select id="f_roll"><option value="eu">유럽식 롤 — 0.53 &times; 10.05 m</option><option value="us">미국 더블 롤 — 27 in &times; 27 ft</option></select></div><div class="fld"><label for="f_repeat">패턴 반복 (무늬 없는 벽지는 0) <span class="u" data-u="repeat"></span></label><input type="number" id="f_repeat" step="any" data-m="0" data-i="0" value="0" ></div><div class="fld"><label for="f_waste">로스 / 여유분 (%)</label><input type="number" id="f_waste" step="any" min="0" value="10"></div>
+<button type="button" class="calcbtn" id="calcBtn">계산하기</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>벽지 계산기 사용법</h2><ol><li>미터법이나 야드파운드법 단위를 고르세요.</li><li>방 길이, 너비, 벽 높이를 입력하고 문과 창문은 개수만큼 빼세요.</li><li>롤 종류를 고르세요. 유럽식이거나 미국식 더블 롤이에요.</li><li>라벨에 있는 패턴 반복 길이를 입력하세요 (무늬가 없거나 랜덤 매치 벽지는 0이에요).</li><li>계산을 누르면 롤 수가 나와요.</li></ol>
+<div class="exbox"><strong>예:</strong> 4 m × 3.5 m 방에 벽 높이 2.5 m, 공제 없음, 유럽식 롤, 패턴 반복 없음이면 10% 여유를 포함해 11롤이 필요해요.</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>방 하나에 벽지 롤이 몇 개 필요한가요?</h3><p>띠 단위로 세세요. 롤 길이를 띠 길이 (벽 높이 + 재단 여유, 패턴 반복 단위로 올림)로 나누면 롤당 띠 수가 나오고, 그다음 벽 면적을 롤 하나의 사용 가능 면적으로 나누세요. 일반적인 4 × 3.5 m 방에는 유럽식 롤이 약 10–11개 들어가요.</p></div><div class="faq"><h3>패턴 반복이란 무엇이고 왜 롤이 더 드나요?</h3><p>반복 길이는 패턴이 다시 맞아떨어지기까지의 거리예요(라벨에 인쇄돼 있어요. 예: 53 cm). 모든 스트립이 맞는 지점에서 시작해야 해서, 각 스트립은 반복 횟수의 정수로 올림돼요. 잘려 나가는 부분은 로스예요. 높은 벽에 큰 반복 패턴이면 롤이 한두 개 더 들 수 있어요.</p></div><div class="faq"><h3>유럽식 롤과 미국식 롤은 무엇이 다를까요?</h3><p>유럽 표준 롤은 너비 0.53 m × 길이 10.05 m(약 5.3 m²)예요. 미국 벽지는 싱글 롤이나 더블 롤로 팔리고, 더블 롤은 보통 27 in × 27 ft예요. 이 계산기는 유럽 롤과 미국 더블 롤을 제공해요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../mulch-calculator/"><div class="ic">🌱</div><h3>멀치 계산기</h3><p>건설</p></a><a class="card" href="../paint-calculator/"><div class="ic">🎨</div><h3>페인트 계산기</h3><p>건설</p></a><a class="card" href="../tile-calculator/"><div class="ic">🔲</div><h3>타일 계산기</h3><p>건설</p></a><a class="card" href="../concrete-calculator/"><div class="ic">🧱</div><h3>콘크리트 계산기</h3><p>건설</p></a><a class="card" href="../flooring-calculator/"><div class="ic">🪵</div><h3>바닥재 계산기</h3><p>건설</p></a></div>
+</div>
+<section class="txt"><h2>작동 원리 &mdash; 공식</h2>
+<p>도배 장인은 벽지를 다음 단위로 세요 <strong>스트립</strong>, 제곱미터가 아니라</p>
+<p><strong>스트립 길이</strong> = 벽 높이 + 10 cm 재단 여유, 패턴 반복 횟수의 정수로 올림<br>
+<strong>롤당 스트립 수</strong> = 롤 길이 &divide; 띠 길이 (온전한 띠만)<br>
+<strong>롤당 사용 가능 면적</strong> = 롤 너비 × 롤당 띠 수 × 벽 높이<br>
+<strong>롤</strong> = 순 벽 면적 × (1 + 로스 %) &divide; 롤당 사용 가능 면적, 올림</p>
+<p>순 벽 면적은 전체 벽 면적에서 표준 문 (1.89 m&sup2;)과 창문 (1.8 m&sup2;)을 빼요.</p>
+<h3>풀이 예</h3>
+<div class="exbox"><strong>예:</strong> 방 4 m × 3.5 m, 높이 2.5 m, 문과 창문을 공제하지 않으면 순 면적 = 2 × 7.5 × 2.5 = 37.5 m&sup2;예요. 스트립 길이 = 2.6 m이고, 10.05 m 유럽 롤에서는 &lfloor;10.05 &divide; 2.6&rfloor; = 3개의 스트립이 나와요. 롤당 사용 가능 면적 = 0.53 × 3 × 2.5 = 3.975 m&sup2;이고, 롤 수 = 37.5 × 1.10 &divide; 3.975 = 10.4 &rarr; <strong>11롤</strong>.</div>
+<h3>자주 묻는 질문</h3></section>
+<div class="faq"><h3>문과 창문을 빼야 하나요?</h3><p>벽지는 그래요. 석고보드와 달리 문 위쪽 자투리가 짧아서 거는 양을 실제로 줄여 주거든요. 그래서 여기서 표준 문(1.89 m²)과 창문(1.8 m²)을 벽 면적에서 빼요.</p></div><div class="faq"><h3>왜 롤을 하나 더 사야 하나요?</h3><p>10% 여유분은 재단 실수와 새 벽을 시작하는 스트립을 감안한 거예요. 그 이상으로는, 모든 롤을 같은 배치로 한 번에 주문하세요. 염색 로트가 눈에 띄게 다르고, 나중에 보충한 롤은 색이 맞지 않을 수 있어요.</p></div><div class="faq"><h3>피트 단위로 쓸 수 있나요?</h3><p>네. 야드파운드법으로 전환하면 피트와 인치(패턴 반복은 인치)를 써요. 롤의 정의는 실제 유럽과 미국 표준 그대로라 개수를 직접 비교할 수 있어요.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 내 웹사이트에 임베드하세요 — 무료예요</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 내 웹사이트나 블로그에 추가하세요. 완전히 무료이고, 가입도 필요 없으며, 항상 최신 버전을 보여 줘요. 아래 코드를 복사해서 계산기가 나타나길 원하는 위치에 붙여 넣으세요. 임베드 아래의 작은 &ldquo;Powered by Loona Automation&rdquo; 출처 표기를 유지해 주시면 이 도구를 계속 무료로 제공하는 데 도움이 돼요. 다만 스타일을 바꾸거나 지우셔도 자유예요. 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/ko/wallpaper-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Wallpaper Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/ko/wallpaper-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 벽지 계산기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='복사했어요!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../paint-calculator/">페인트 계산기</a></li>
+<li><a href="../concrete-calculator/">콘크리트 계산기</a></li>
+<li><a href="../tile-calculator/">타일 계산기</a></li>
+<li><a href="../brick-calculator/">벽돌 계산기</a></li>
+<li><a href="../roof-pitch-calculator/">지붕 경사 계산기</a></li>
+<li><a href="../stairs-calculator/">계단 계산기</a></li></ul></div>
+<div><h4>Loona 도구 더 보기</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Loona 도구 전체</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">소개</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용약관</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> 의 프로젝트입니다. 미터법과 야드파운드법 단위의 무료 건설 계산기, 가입도 필요 없어요.
+문의: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+
+/* shared helpers: DOM getters (browser) + unit conversions + formatting */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+var ROLLS = { eu: { w: 0.53, l: 10.05, label: "유럽 롤 0.53 × 10.05 m" }, us: { w: 0.6858, l: 8.2296, label: "미국 더블 롤 27 in × 27 ft" } };
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.L, v.W, v.H)) return bad("방 길이, 너비, 벽 높이를 입력하세요 (모두 영보다 커야 해요).");
+  var f = (v.sys === "i") ? FT : 1;
+  var L = v.L * f, W = v.W * f, H = v.H * f;
+  var area = 2 * (L + W) * H - (v.doors || 0) * 1.89 - (v.windows || 0) * 1.8;
+  if (area <= 0) return bad("문과 창문이 벽 면적보다 더 많은 공간을 차지해요 — 치수를 확인하세요.");
+  var roll = ROLLS[v.roll];
+  var strip = H + 0.10;
+  var rep = (v.sys === "i") ? (v.repeat || 0) * IN : (v.repeat || 0) / 100;
+  var eff = rep > 0 ? Math.ceil(strip / rep) * rep : strip;
+  var strips = Math.floor(roll.l / eff);
+  if (strips < 1) return bad("패턴 반복을 감안하면 이 롤의 띠 하나로 감당하기에는 벽이 너무 높아요.");
+  var usable = roll.w * strips * H;
+  var rolls = Math.ceil(area * (1 + (v.waste || 0) / 100) / usable);
+  var html = resTable("구매할 롤", rolls.toLocaleString("en-US") + " 롤",
+    [["순 벽 면적", fmt(area, 1) + " m\u00B2 (" + fmt(area / FT2, 0) + " ft\u00B2)"],
+     ["롤 종류", roll.label],
+     ["롤당 온전한 띠 수", strips + " (입력하신 벽 높이 기준" + (rep > 0 ? ", 패턴 반복 허용 대상:" : "") + ")"],
+     ["롤 (포함: " + (v.waste || 0) + "% 여유", rolls.toLocaleString("en-US")]],
+    "모든 롤을 같은 배치 (염색 로트)로 구매하세요. 인쇄할 때마다 색조가 달라요. 나중에 보충 주문할 때를 대비해 라벨의 배치 번호를 보관하세요.");
+  return { ok: true, area: area, rolls: rolls, stripsPerRoll: strips, html: html };
+} };
+
+function collect(){
+return { sys: gs("f_system"), L: gv("f_length"), W: gv("f_width"), H: gv("f_height"), doors: gv("f_doors"), windows: gv("f_windows"), roll: gs("f_roll"), repeat: gv("f_repeat"), waste: gv("f_waste") };
+}
+
+/* ---- page wiring (browser only) ---- */
+if (typeof document !== "undefined") {
+  var UNITS = {"length":["m","ft"],"width":["m","ft"],"height":["m","ft"],"repeat":["cm","in"]};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누른 다음 "홈 화면에 추가"를 선택하세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

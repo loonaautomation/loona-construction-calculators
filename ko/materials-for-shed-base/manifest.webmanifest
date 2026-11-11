@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for a 10 × 12 ft Shed Base",
+  "short_name": "Materials for a 10 × 12 ft",
+  "description": "10 × 12 ft 창고 기초용 자재: 정확한 콘크리트 부피와 프리믹스 포대 수 (4인치 슬래브, 10% 여유), 여기에 기초와 보강재 구매 참고 사항까지예요.",
+  "id": "/loona-construction-calculators/ko/materials-for-shed-base/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

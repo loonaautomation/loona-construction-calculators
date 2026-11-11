@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LED 저항 계산기 — 직렬 저항 값, 표준 E12 규격과 와트수 | Loona Construction Calculators</title>
+<meta name="description" content="무료 LED 저항 계산기: 공급 전압, LED 순방향 전압, 순방향 전류, 직렬 LED 개수를 입력하면 옴 단위 저항 값, 가장 가까운 표준 E12 값, 실제 전류, 저항 와트수를 알려 줘요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/ko/led-resistor-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/led-resistor-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/led-resistor-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/led-resistor-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/led-resistor-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/led-resistor-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/led-resistor-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/led-resistor-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/led-resistor-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/led-resistor-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/led-resistor-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/led-resistor-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/led-resistor-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/led-resistor-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="LED 저항 계산기 — 직렬 저항 값, 표준 E12 규격과 와트수 | Loona Construction Calculators">
+<meta property="og:description" content="무료 LED 저항 계산기: 공급 전압, LED 순방향 전압, 순방향 전류, 직렬 LED 개수를 입력하면 옴 단위 저항 값, 가장 가까운 표준 E12 값, 실제 전류, 저항 와트수를 알려 줘요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/ko/led-resistor-calculator/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="LED 저항 계산기 — 직렬 저항 값, 표준 E12 규격과 와트수 | Loona Construction Calculators">
+<meta name="twitter:description" content="무료 LED 저항 계산기: 공급 전압, LED 순방향 전압, 순방향 전류, 직렬 LED 개수를 입력하면 옴 단위 저항 값, 가장 가까운 표준 E12 값, 실제 전류, 저항 와트수를 알려 줘요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona LED 저항 계산기","url":"https://loonaautomation.github.io/loona-construction-calculators/ko/led-resistor-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"내 LED의 순방향 전압은 얼마인가요?","acceptedAnswer":{"@type":"Answer","text":"가능하면 데이터시트에서 확인하세요. 일반적인 범위: 빨강 1.8–2.2 V, 주황/노랑 2.0–2.2 V, 초록 2.2–3.2 V (옛날 초록은 ~2.2, 요즘 고휘도는 ~3), 파랑과 흰색 3.0–3.4 V, 적외선 ~1.2–1.5 V예요. 작은 표시용 LED라 확신이 없으면 2.0 V (빨강)나 3.2 V (흰색/파랑)가 안전한 계획 수치예요."}},{"@type":"Question","name":"LED를 배터리에 직접 연결하면 왜 안 되나요?","acceptedAnswer":{"@type":"Answer","text":"LED 전류는 순방향 전압을 넘어서면 전압에 따라 폭발적으로 늘어나요. 아주 작은 초과 전압이 전류 열 배, 과열, 고장으로 이어질 수 있어요. 직렬 저항이 그 가파른 절벽을 조절 가능한 경사로 바꿔 줘요."}},{"@type":"Question","name":"저항 하나로 LED를 병렬로 연결할 수 있나요?","acceptedAnswer":{"@type":"Answer","text":"좋지 않은 방법이에요. 순방향 전압이 정확히 같은 LED는 두 개도 없기 때문에, 하나가 전류를 독차지하고, 더 뜨거워지고, Vf가 더 떨어지고, 더 독차지하는 악순환, 즉 열 폭주가 일어나 결국 고장 나요. 병렬 LED (또는 직렬 문자열)마다 전용 저항을 주세요."}},{"@type":"Question","name":"계산값이 표준 크기 사이에 있으면 어떻게 하나요?","acceptedAnswer":{"@type":"Answer","text":"항상 다음 E12 값으로 올림하세요. LED는 정격 전류보다 약간 낮게 동작해요. 밝기는 아주 조금만 줄고 (눈은 로그 스케일로 느껴요), 수명과 신뢰성은 좋아져요."}},{"@type":"Question","name":"저항 와트수는 얼마나 커야 하나요?","acceptedAnswer":{"@type":"Answer","text":"경험상 계산된 소비 전력의 최소 두 배로 잡으세요. 그래야 저항이 시원하게 동작하고 값이 안정적으로 유지돼요. 흔한 5 V / 20 mA 조건에서는 0.25 W 저항이면 거의 무엇이든 충분해요. 12 V 전원이나 파워 LED는 계산기가 보여 주는 수치를 확인하세요."}},{"@type":"Question","name":"LED 스트립과 고출력 LED에도 쓸 수 있나요?","acceptedAnswer":{"@type":"Answer","text":"LED 스트립은 저항이 내장되어 있어요. 정격 전압만 공급하면 돼요. 고출력 LED (1 W 이상)는 보통 저항이 아니라 정전류 드라이버로 구동해요. 저항은 전력을 많이 낭비하고, LED가 데워지면 전류가 drift하기 때문이에요."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "LED 저항 계산기",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/led-resistor-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>건설 계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">소개</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; 전기 &rsaquo; LED 저항 계산기</div>
+<h1 class="pagetitle">💡 LED 저항 계산기</h1>
+<p class="lead">LED를 전원에 바로 연결하면 타 버려요. 전류를 정해 줄 직렬 저항이 필요해요. 공급 전압, LED의 순방향 전압과 전류, 직렬로 연결된 LED 개수를 입력하면 저항 값, 가장 가까운 표준 규격, 저항이 감당해야 할 와트수를 알려 드려요.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_vs">공급 전압 (V)</label><input type="number" id="f_vs" step="any" value="5"></div><div class="fld"><label for="f_vf">LED 순방향 전압 Vf (V) — 빨강 ~1.8–2.2, 흰색/파랑 ~3.0–3.4</label><input type="number" id="f_vf" step="any" value="2"></div><div class="fld"><label for="f_ma">LED 순방향 전류 (mA) — 표시용 LED는 20이 표준이에요</label><input type="number" id="f_ma" step="any" value="20"></div><div class="fld"><label for="f_count">이 저항에 직렬로 연결된 LED 수</label><input type="number" id="f_count" step="any" value="1"></div>
+<button type="button" class="calcbtn" id="calcBtn">계산하기</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>LED 저항 계산기 사용법</h2><ol><li>공급 전압을 입력하세요 (5 V USB, 9 V 배터리, 12 V 차량 전원…).</li><li>데이터시트에 있는 LED의 순방향 전압, 또는 라벨의 일반적인 값을 입력하고, 정격 순방향 전류 (보통 20 mA)를 입력하세요.</li><li>LED 여러 개가 저항 하나 뒤에 직렬로 연결되어 있으면 그 개수를 입력한 뒤 계산 버튼을 누르세요.</li></ol>
+<div class="exbox"><strong>예:</strong> 5 V 전원에 빨간 LED (Vf 2.0 V, 20 mA)를 연결하면 저항이 3.0 V를 떨어뜨려야 해요. 따라서 R = 3.0 ÷ 0.020 = <strong>150 Ω</strong> — 그 자체가 표준 값이에요.</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>내 LED의 순방향 전압은 얼마인가요?</h3><p>가능하면 데이터시트에서 확인하세요. 일반적인 범위: 빨강 1.8–2.2 V, 주황/노랑 2.0–2.2 V, 초록 2.2–3.2 V (옛날 초록은 ~2.2, 요즘 고휘도는 ~3), 파랑과 흰색 3.0–3.4 V, 적외선 ~1.2–1.5 V예요. 작은 표시용 LED라 확신이 없으면 2.0 V (빨강)나 3.2 V (흰색/파랑)가 안전한 계획 수치예요.</p></div><div class="faq"><h3>LED를 배터리에 직접 연결하면 왜 안 되나요?</h3><p>LED 전류는 순방향 전압을 넘어서면 전압에 따라 폭발적으로 늘어나요. 아주 작은 초과 전압이 전류 열 배, 과열, 고장으로 이어질 수 있어요. 직렬 저항이 그 가파른 절벽을 조절 가능한 경사로 바꿔 줘요.</p></div><div class="faq"><h3>저항 하나로 LED를 병렬로 연결할 수 있나요?</h3><p>좋지 않은 방법이에요. 순방향 전압이 정확히 같은 LED는 두 개도 없기 때문에, 하나가 전류를 독차지하고, 더 뜨거워지고, Vf가 더 떨어지고, 더 독차지하는 악순환, 즉 열 폭주가 일어나 결국 고장 나요. 병렬 LED (또는 직렬 문자열)마다 전용 저항을 주세요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>옴의 법칙 계산기</h3><p>전기</p></a><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>전압 강하 계산기</h3><p>전기</p></a><a class="card" href="../battery-runtime-calculator/"><div class="ic">🔋</div><h3>배터리 사용 시간 계산기</h3><p>전기</p></a><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>암페어-와트 변환 계산기</h3><p>전기</p></a></div>
+</div>
+<section class="txt"><h2>작동 원리 &mdash; 공식</h2>
+<p><strong>저항 양단 전압</strong> = 공급 전압 − (직렬 LED 수 × 순방향 전압)<br>
+<strong>저항 (Ω)</strong> = 저항 양단 전압 ÷ 전류 (A)<br>
+<strong>저항 소비 전력 (W)</strong> = 실제 전류² × 표준 저항 값</p>
+<p>LED의 밝기는 전류로 정해지고, 순방향 전압은 그 화학적 성질에 따라 대략 고정되어 있어요. 그래서 저항의 역할은 원하는 전류 정확히 그 지점에서 남은 전압을 흡수하는 거예요. 결과는 반올림돼요 <em>위로</em> 다음 표준 E12 값(…100, 120, 150, 180, 220, 270, 330, 390, 470…)으로요. 이는 전류를 조금 더 낮고 안전하게 만들 뿐이에요. 그리고 저항의 와트 정격은 실제로 소비하는 전력의 최소 두 배는 되어야 해요.</p>
+<h3>풀이 예</h3>
+<div class="exbox">공급 전압 5 V, Vf = 2.0 V인 빨간 LED 한 개가 20 mA예요. 저항 양단 전압 = 5 − 2.0 = <strong>3.0 V</strong>. R = 3.0 ÷ 0.020 = <strong>150 Ω</strong>, 이 값 자체가 E12 표준 값이라 실제 전류는 20.0 mA를 유지해요. 저항에서 소비되는 전력 = 0.020² × 150 = <strong>0.06 W</strong> — 흔한 0.25 W 저항이면 여유가 넉넉해요.</div>
+
+<h3>자주 묻는 질문</h3></section>
+<div class="faq"><h3>계산값이 표준 크기 사이에 있으면 어떻게 하나요?</h3><p>항상 다음 E12 값으로 올림하세요. LED는 정격 전류보다 약간 낮게 동작해요. 밝기는 아주 조금만 줄고 (눈은 로그 스케일로 느껴요), 수명과 신뢰성은 좋아져요.</p></div><div class="faq"><h3>저항 와트수는 얼마나 커야 하나요?</h3><p>경험상 계산된 소비 전력의 최소 두 배로 잡으세요. 그래야 저항이 시원하게 동작하고 값이 안정적으로 유지돼요. 흔한 5 V / 20 mA 조건에서는 0.25 W 저항이면 거의 무엇이든 충분해요. 12 V 전원이나 파워 LED는 계산기가 보여 주는 수치를 확인하세요.</p></div><div class="faq"><h3>LED 스트립과 고출력 LED에도 쓸 수 있나요?</h3><p>LED 스트립은 저항이 내장되어 있어요. 정격 전압만 공급하면 돼요. 고출력 LED (1 W 이상)는 보통 저항이 아니라 정전류 드라이버로 구동해요. 저항은 전력을 많이 낭비하고, LED가 데워지면 전류가 drift하기 때문이에요.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 내 웹사이트에 임베드하세요 — 무료예요</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 내 웹사이트나 블로그에 추가하세요. 완전히 무료이고, 가입도 필요 없으며, 항상 최신 버전을 보여 줘요. 아래 코드를 복사해서 계산기가 나타나길 원하는 위치에 붙여 넣으세요. 임베드 아래의 작은 &ldquo;Powered by Loona Automation&rdquo; 출처 표기를 유지해 주시면 이 도구를 계속 무료로 제공하는 데 도움이 돼요. 다만 스타일을 바꾸거나 지우셔도 자유예요. 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/ko/led-resistor-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="LED Resistor Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/ko/led-resistor-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 LED 저항 계산기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='복사했어요!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../paint-calculator/">페인트 계산기</a></li>
+<li><a href="../concrete-calculator/">콘크리트 계산기</a></li>
+<li><a href="../tile-calculator/">타일 계산기</a></li>
+<li><a href="../brick-calculator/">벽돌 계산기</a></li>
+<li><a href="../roof-pitch-calculator/">지붕 경사 계산기</a></li>
+<li><a href="../stairs-calculator/">계단 계산기</a></li></ul></div>
+<div><h4>Loona 도구 더 보기</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Loona 도구 전체</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">소개</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용약관</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> 의 프로젝트입니다. 미터법과 야드파운드법 단위의 무료 건설 계산기, 가입도 필요 없어요.
+문의: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var E12 = [10, 12, 15, 18, 22, 27, 33, 39, 47, 56, 68, 82];
+function e12AtLeast(x) {
+  if (!(x > 0)) return NaN;
+  var exp = Math.floor(Math.log10(x));
+  for (var e = exp - 1; e < exp + 3; e++) {
+    for (var i = 0; i < E12.length; i++) {
+      var val = E12[i] * Math.pow(10, e - 1);
+      if (val >= x - 1e-12) return Math.round(val * 1000) / 1000;
+    }
+  }
+  return NaN;
+}
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.vs, v.vf, v.ma)) return bad("공급 전압, LED 순방향 전압, mA 단위의 LED 순방향 전류를 입력하세요.");
+  var n = (v.count >= 1) ? Math.floor(v.count) : 1;
+  var drop = v.vs - n * v.vf;
+  if (!(drop > 0)) return bad("직렬 LED에 필요한 것: " + fmt(n * v.vf, 2) + " V인데 공급 전압은 " + fmt(v.vs, 2) + " V — use fewer LEDs in series or a higher supply voltage.");
+  var I = v.ma / 1000;
+  var R = drop / I;
+  var std = e12AtLeast(R);
+  var actualMa = drop / std * 1000;
+  var pRes = Math.pow(drop / std, 2) * std;
+  var html = resTable("저항값", fmt(R, 1) + " \u03A9 \u2192 use " + fmt(std, 0) + " Ω (이상에서 가장 가까운 E12)",
+    [["저항 양단 전압", fmt(drop, 2) + " V"],["계산된 저항", fmt(R, 1) + " \u03A9"],["표준값 적용 시 실제 LED 전류", fmt(actualMa, 1) + " mA"],["저항에서의 전력", fmt(pRes, 3) + " W"],["권장 저항 정격", "최소 " + fmt(pRes * 2, 2) + " W (실제 소비 전력의 2×)"]],
+    "저항을 올림하면 LED 전류가 살짝 줄어요 — 안전한 방향이에요. LED를 정격 전류나 그보다 조금 낮게 구동하면 밝기는 거의 변하지 않지만 수명은 크게 늘어요.");
+  return { ok: true, drop: drop, R: R, std: std, actualMa: actualMa, pRes: pRes, html: html };
+} };
+
+function collect(){ return { vs: gv("f_vs"), vf: gv("f_vf"), ma: gv("f_ma"), count: gv("f_count") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누른 다음 "홈 화면에 추가"를 선택하세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

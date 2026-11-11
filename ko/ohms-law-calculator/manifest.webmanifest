@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ohm's Law Calculator",
+  "short_name": "Ohm's Law Calculator",
+  "description": "무료 옴의 법칙 계산기: 전압, 전류, 저항, 전력 중 어느 두 가지를 입력하면 나머지 두 가지를 얻을 수 있어요. 옴의 법칙 바퀴의 네 사분면 전체, 공식과 예제 풀이가 함께 있어요.",
+  "id": "/loona-construction-calculators/ko/ohms-law-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

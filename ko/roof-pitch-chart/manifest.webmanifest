@@ -1,0 +1,29 @@
+{
+  "name": "Loona Roof Pitch Chart",
+  "short_name": "Roof Pitch Chart",
+  "description": "완전한 지붕 경사표: 1/12부터 12/12까지 각도, 경사율, 서까래 계수와 함께, 경사마다 전용 안내 페이지가 있어요.",
+  "id": "/loona-construction-calculators/ko/roof-pitch-chart/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

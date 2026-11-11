@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>태양광 패널 계산기 — 필요한 패널 수, 시스템 크기, 지붕 면적 | Loona Construction Calculators</title>
+<meta name="description" content="무료 태양광 패널 계산기: 월 전기 사용량, 피크 일조 시간, 패널 와트수를 입력하면 필요한 패널 수, kW 단위 시스템 크기, 예상 월 발전량, 지붕 면적을 알려 줘요. 가입은 필요 없어요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/ko/solar-panel-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/solar-panel-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/solar-panel-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/solar-panel-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/solar-panel-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/solar-panel-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/solar-panel-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/solar-panel-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/solar-panel-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/solar-panel-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/solar-panel-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/solar-panel-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/solar-panel-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/solar-panel-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="태양광 패널 계산기 — 필요한 패널 수, 시스템 크기, 지붕 면적 | Loona Construction Calculators">
+<meta property="og:description" content="무료 태양광 패널 계산기: 월 전기 사용량, 피크 일조 시간, 패널 와트수를 입력하면 필요한 패널 수, kW 단위 시스템 크기, 예상 월 발전량, 지붕 면적을 알려 줘요. 가입은 필요 없어요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/ko/solar-panel-calculator/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="태양광 패널 계산기 — 필요한 패널 수, 시스템 크기, 지붕 면적 | Loona Construction Calculators">
+<meta name="twitter:description" content="무료 태양광 패널 계산기: 월 전기 사용량, 피크 일조 시간, 패널 와트수를 입력하면 필요한 패널 수, kW 단위 시스템 크기, 예상 월 발전량, 지붕 면적을 알려 줘요. 가입은 필요 없어요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 태양광 패널 계산기","url":"https://loonaautomation.github.io/loona-construction-calculators/ko/solar-panel-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"내 지역의 피크 일조 시간은 얼마인가요?","acceptedAnswer":{"@type":"Answer","text":"대략적인 평균값은 영국과 북유럽 2.5–3.5, 중부 유럽 3–4, 지중해 4.5–5.5, 미국 선벨트 5–6.5, 파키스탄과 북인도 5–6, 걸프 국가 5.5–6.5, 호주 대부분 지역 4.5–6이에요. 설치 업체나 내 도시의 태양 일사량 지도가 더 정확한 수치를 알려줄 거예요."}},{"@type":"Question","name":"내 지붕에는 패널이 몇 장 들어가나요?","acceptedAnswer":{"@type":"Answer","text":"요즘 주거용 패널은 보통 약 1.9 m²예요 (대략 1.75 × 1.1 m). 그늘지지 않고 쓸 수 있는 지붕 경사를 재고, 용마루, 굴뚝, 이격 공간을 뺀 뒤 1.9로 나누세요. 40 m² 경사면에는 패널이 약 20장 들어가요."}},{"@type":"Question","name":"왜 시스템 손실을 포함하나요?","acceptedAnswer":{"@type":"Answer","text":"패널은 실제로 실험실 정격만큼 내는 경우가 드물어요. 인버터는 95–98%로 변환하고, 케이블이 조금 잃고, 열, 먼지, 부분 음영이 더 가져가요. 전체 14–20%가 현실적이고, 이 계산기의 기본값은 15%예요. 손실을 무시하는 것이 가정용 시스템이 적게 생산하는 가장 흔한 이유예요."}},{"@type":"Question","name":"시스템이 사용량의 100%를 감당해야 하나요?","acceptedAnswer":{"@type":"Answer","text":"보통 그에 가깝고, 월간이 아니라 연간 생산량 기준으로 크기를 정해요. 많은 지역에서 수출한 잉여 전력은 수입 전기 요금보다 훨씬 싸게 정산돼요. 그래서 설치 가능한 가장 큰 시스템보다 낮 시간 사용량에 맞춘 시스템이 회수가 빠른 경우가 많아요."}},{"@type":"Question","name":"배터리가 필요한가요?","acceptedAnswer":{"@type":"Answer","text":"패널이 동작하는 데 필요하지는 않아요. 계통 연계 시스템은 밤에는 그냥 전력을 가져와요. 배터리는 정전 시 회복력을 더하고 저녁에 내 태양광을 더 많이 쓰게 해 주지만, 별도의 비용 결정이에요. 이 계산기는 어레이 크기만 정해요."}},{"@type":"Question","name":"태양광 패널은 얼마나 오래 가나요?","acceptedAnswer":{"@type":"Answer","text":"대부분의 주거용 패널은 25년 성능 보증을 받아요 (25년 차에 원래 출력의 보통 85–90%) 그리고 해마다 약 0.5%씩 열화돼요. 인버터는 보통 10–15년 무렵에 한 번 교체가 필요해요."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "태양광 패널 계산기",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/solar-panel-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>건설 계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">소개</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; 건설 &rsaquo; 태양광 패널 계산기</div>
+<h1 class="pagetitle">☀️ 태양광 패널 계산기</h1>
+<p class="lead">옥상 태양광을 생각 중인가요? 한 달 전기 사용량, 내 지역의 피크 일조 시간, 검토 중인 패널 출력을 입력하면 패널 수, kW 단위 시스템 크기, 필요한 지붕 면적을 알려줘요. (여기에는 단위 전환이 없어요. 전기는 어디서나 같으니까요. 지붕 면적은 m²와 ft² 둘 다 표시돼요.)</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_kwh">월 전기 사용량 (kWh)</label><input type="number" id="f_kwh" step="any" data-m="900" data-i="900" value="900" ></div><div class="fld"><label for="f_sun">하루 피크 일조 시간 (지역 평균)</label><input type="number" id="f_sun" step="any" data-m="5" data-i="5" value="5" ></div><div class="fld"><label for="f_watt">패널 와트수 (W)</label><input type="number" id="f_watt" step="any" data-m="400" data-i="400" value="400" ></div><div class="fld"><label for="f_losses">시스템 손실 — 인버터, 배선, 오염, 열 (%)</label><input type="number" id="f_losses" step="any" data-m="15" data-i="15" value="15" ></div><div class="fld"><label for="f_price">패널당 가격 (선택, 0 = 건너뜀)</label><input type="number" id="f_price" step="any" data-m="0" data-i="0" value="0" ></div>
+<button type="button" class="calcbtn" id="calcBtn">계산하기</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>태양광 패널 계산기 사용법</h2><ol><li>최근 요금 청구서에서 월 전기 사용량 (kWh)을 찾으세요. 연간 평균 한 달이 가장 좋아요.</li><li>지역의 피크 일조 시간을 입력하세요. 북유럽은 대략 3–4, 남유럽과 미국 대부분은 4–5, 중동, 남아시아, 호주는 5–6.5예요.</li><li>검토 중인 패널의 와트수를 입력하세요 (주거용 패널은 350–450 W가 일반적이에요).</li><li>바꿀 이유가 없으면 시스템 손실 15%를 그대로 두고 계산 버튼을 누르세요.</li></ol>
+<div class="exbox"><strong>예:</strong> 한 달에 900 kWh를 쓰고 피크 일조 시간이 5시간, 패널이 400 W라면 이론상 6 kW 어레이, 즉 패널 15장이 필요해요. 손실 15%를 감안하면 패널 18장(7.2 kW)이 현실적인 답이에요.</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>내 지역의 피크 일조 시간은 얼마인가요?</h3><p>대략적인 평균값은 영국과 북유럽 2.5–3.5, 중부 유럽 3–4, 지중해 4.5–5.5, 미국 선벨트 5–6.5, 파키스탄과 북인도 5–6, 걸프 국가 5.5–6.5, 호주 대부분 지역 4.5–6이에요. 설치 업체나 내 도시의 태양 일사량 지도가 더 정확한 수치를 알려줄 거예요.</p></div><div class="faq"><h3>내 지붕에는 패널이 몇 장 들어가나요?</h3><p>요즘 주거용 패널은 보통 약 1.9 m²예요 (대략 1.75 × 1.1 m). 그늘지지 않고 쓸 수 있는 지붕 경사를 재고, 용마루, 굴뚝, 이격 공간을 뺀 뒤 1.9로 나누세요. 40 m² 경사면에는 패널이 약 20장 들어가요.</p></div><div class="faq"><h3>왜 시스템 손실을 포함하나요?</h3><p>패널은 실제로 실험실 정격만큼 내는 경우가 드물어요. 인버터는 95–98%로 변환하고, 케이블이 조금 잃고, 열, 먼지, 부분 음영이 더 가져가요. 전체 14–20%가 현실적이고, 이 계산기의 기본값은 15%예요. 손실을 무시하는 것이 가정용 시스템이 적게 생산하는 가장 흔한 이유예요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../roof-pitch-calculator/"><div class="ic">🏠</div><h3>지붕 경사 계산기</h3><p>건설</p></a><a class="card" href="../insulation-calculator/"><div class="ic">🌡️</div><h3>단열 계산기</h3><p>건설</p></a><a class="card" href="../plywood-calculator/"><div class="ic">🪵</div><h3>합판 계산기</h3><p>건설</p></a><a class="card" href="../paint-calculator/"><div class="ic">🎨</div><h3>페인트 계산기</h3><p>건설</p></a><a class="card" href="../deck-calculator/"><div class="ic">🌞</div><h3>데크 계산기</h3><p>건설</p></a></div>
+</div>
+<section class="txt"><h2>작동 원리 &mdash; 공식</h2>
+<p><strong>일일 사용량</strong> = 월 kWh ÷ 30<br>
+<strong>필요한 시스템 (kW)</strong> = 일일 사용량 ÷ (피크 일조 시간 × (1 − 손실 %))<br>
+<strong>패널</strong> = ceil( 필요 kW × 1000 ÷ 패널 출력 )</p>
+<p>'피크 일조 시간' 한 시간은 완전한 세기의 햇빛 (1,000 W/m²)이 한 시간 비치는 거예요. 하루 전체 일조량을 그 시간으로 표현한 거예요. 지붕 면적은 일반적인 주거용 패널 크기 약 1.9 m² (20 ft²)를 가정해요.</p>
+<h3>풀이 예</h3>
+<div class="exbox">월 900 kWh를 쓴다면 → 하루 사용량 = 900 ÷ 30 = <strong>30 kWh</strong>. 필요량 = 30 ÷ (5 × 0.85) = <strong>7.06 kW</strong> 손실 15%를 감안한 뒤예요. 패널 = 7,060 ÷ 400 = 17.6 → <strong>패널 18장</strong>, 실제 어레이는 18 × 400 W = <strong>7.2 kW</strong> 지붕이 약 34 m² 필요해요.</div>
+<h3>자주 묻는 질문</h3></section>
+<div class="faq"><h3>시스템이 사용량의 100%를 감당해야 하나요?</h3><p>보통 그에 가깝고, 월간이 아니라 연간 생산량 기준으로 크기를 정해요. 많은 지역에서 수출한 잉여 전력은 수입 전기 요금보다 훨씬 싸게 정산돼요. 그래서 설치 가능한 가장 큰 시스템보다 낮 시간 사용량에 맞춘 시스템이 회수가 빠른 경우가 많아요.</p></div><div class="faq"><h3>배터리가 필요한가요?</h3><p>패널이 동작하는 데 필요하지는 않아요. 계통 연계 시스템은 밤에는 그냥 전력을 가져와요. 배터리는 정전 시 회복력을 더하고 저녁에 내 태양광을 더 많이 쓰게 해 주지만, 별도의 비용 결정이에요. 이 계산기는 어레이 크기만 정해요.</p></div><div class="faq"><h3>태양광 패널은 얼마나 오래 가나요?</h3><p>대부분의 주거용 패널은 25년 성능 보증을 받아요 (25년 차에 원래 출력의 보통 85–90%) 그리고 해마다 약 0.5%씩 열화돼요. 인버터는 보통 10–15년 무렵에 한 번 교체가 필요해요.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 내 웹사이트에 임베드하세요 — 무료예요</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 내 웹사이트나 블로그에 추가하세요. 완전히 무료이고, 가입도 필요 없으며, 항상 최신 버전을 보여 줘요. 아래 코드를 복사해서 계산기가 나타나길 원하는 위치에 붙여 넣으세요. 임베드 아래의 작은 &ldquo;Powered by Loona Automation&rdquo; 출처 표기를 유지해 주시면 이 도구를 계속 무료로 제공하는 데 도움이 돼요. 다만 스타일을 바꾸거나 지우셔도 자유예요. 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/ko/solar-panel-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Solar Panel Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/ko/solar-panel-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 태양광 패널 계산기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='복사했어요!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../paint-calculator/">페인트 계산기</a></li>
+<li><a href="../concrete-calculator/">콘크리트 계산기</a></li>
+<li><a href="../tile-calculator/">타일 계산기</a></li>
+<li><a href="../brick-calculator/">벽돌 계산기</a></li>
+<li><a href="../roof-pitch-calculator/">지붕 경사 계산기</a></li>
+<li><a href="../stairs-calculator/">계단 계산기</a></li></ul></div>
+<div><h4>Loona 도구 더 보기</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Loona 도구 전체</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">소개</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용약관</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> 의 프로젝트입니다. 미터법과 야드파운드법 단위의 무료 건설 계산기, 가입도 필요 없어요.
+문의: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+
+/* shared helpers: DOM getters (browser) + unit conversions + formatting */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.kwh, v.sun, v.watt) || !(v.losses >= 0 && v.losses < 100)) return bad("월 사용량, 일조 시간, 패널 와트 수를 입력하세요 (손실은 0에서 99% 사이예요).");
+  var daily = v.kwh / 30;
+  var eff = 1 - (v.losses || 0) / 100;
+  var requiredKw = daily / (v.sun * eff);
+  var panels = Math.ceil(requiredKw * 1000 / v.watt - 1e-9);
+  var systemKw = panels * v.watt / 1000;
+  var production = systemKw * v.sun * 30 * eff;
+  var roofM2 = panels * 1.9, roofFt2 = roofM2 / FT2;
+  var rows = [["일일 전기 사용량", fmt(daily, 1) + " kWh"],
+     ["필요한 시스템 크기", fmt(requiredKw, 2) + " kW"],
+     ["실제 규격: " + panels + " 패널", fmt(systemKw, 2) + " kW"],
+     ["예상 월 생산량", fmt(production, 0) + " kWh"],
+     ["필요한 지붕 면적", fmt(roofM2, 1) + " m\u00B2 (" + fmt(roofFt2, 0) + " ft\u00B2)"]];
+  if (v.price > 0) rows.push(["패널 비용 추정", fmt(panels * v.price, 0)]);
+  var html = resTable("필요한 패널", panels + " 패널 (" + fmt(systemKw, 2) + " kW)", rows,
+    "생산량은 연간 평균이에요 — 위도가 높은 곳에서는 여름에 일일 평균의 대략 두 배, 겨울에는 절반 정도를 예상하세요. 그늘이 적고 남향 (남반구에서는 북향) 지붕이 가장 좋아요.");
+  return { ok: true, panels: panels, systemKw: systemKw, requiredKw: requiredKw, production: production, roofM2: roofM2, html: html };
+} };
+
+function collect(){
+return { kwh: gv("f_kwh"), sun: gv("f_sun"), watt: gv("f_watt"), losses: gv("f_losses"), price: gv("f_price") };
+}
+
+/* ---- page wiring (browser only) ---- */
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누른 다음 "홈 화면에 추가"를 선택하세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

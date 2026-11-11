@@ -1,0 +1,29 @@
+{
+  "name": "Loona Power Factor Calculator",
+  "short_name": "Power Factor Calculator",
+  "description": "무료 역률 계산기: 유효 전력 (kW)과 피상 전력 (kVA)에서 역률, 무효 전력 (kvar), 위상각을 알려 주고, 목표 PF로 보정하는 데 필요한 커패시터 kvar도 알려 줘요.",
+  "id": "/loona-construction-calculators/ko/power-factor-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

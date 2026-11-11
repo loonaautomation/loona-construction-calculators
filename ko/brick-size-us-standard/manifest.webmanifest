@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in United States (Standard)",
+  "short_name": "Brick Size in United States",
+  "description": "미국의 표준 벽돌 크기(스탠더드): 203 × 92 × 57 mm예요. 모르타르 줄눈 9.5 mm 홑벽 기준 m²당 70.8장(sq ft당 6.57장), 벽돌 1,000장당 도포 면적과 벽 시공 예시를 담았어요.",
+  "id": "/loona-construction-calculators/ko/brick-size-us-standard/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

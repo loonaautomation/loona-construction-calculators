@@ -1,0 +1,29 @@
+{
+  "name": "Loona Electricity Cost Calculator",
+  "short_name": "Electricity Cost Calculator",
+  "description": "무료 전기 요금 계산기: 기기 와트 (또는 암페어 × 볼트), 하루 사용 시간, 한 달 사용 일수, kWh당 가격을 입력하면 사용한 kWh와 하루, 한 달, 연간 비용을 알려 줘요. 어떤 통화든 가능해요.",
+  "id": "/loona-construction-calculators/ko/electricity-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

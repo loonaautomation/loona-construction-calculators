@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="msvalidate.01" content="668EEE252F09B71CC35E95DB8F5999EF">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loona Construction Calculators — 무료, 미터법과 야드파운드법 | Loona</title>
+<meta name="description" content="미터법과 야드파운드법 두 단위계 모두에서 동작하는 무료 건설 계산기예요. 페인트, 타일, 콘크리트, 바닥재, 석고보드, 벽돌, 자갈, 지붕 경사, 계단, 보드피트, 벽지, 멀치, 아스팔트, 단열, 펜스, 데크, 수영장 용량, 태양광 패널, 카펫, 합판, 모래, 옴의 법칙, 전압 강하, 전선 굵기, 전기 요금, 암페어-와트 변환, 와트-암페어 변환, kVA-암페어 변환, 역률, 배터리 사용 시간, LED 저항, 삼상 전력, 모터 전류, 저항 색상 코드, 555 타이머, AWG 변환, 리액턴스, 데시벨 변환이에요. 로스 여유와 예제 풀이가 함께 있어요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/ko/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Loona Construction Calculators — 무료, 미터법과 야드파운드법 | Loona">
+<meta property="og:description" content="미터법과 야드파운드법 두 단위계 모두에서 동작하는 무료 건설 계산기예요. 페인트, 타일, 콘크리트, 바닥재, 석고보드, 벽돌, 자갈, 지붕 경사, 계단, 보드피트, 벽지, 멀치, 아스팔트, 단열, 펜스, 데크, 수영장 용량, 태양광 패널, 카펫, 합판, 모래, 옴의 법칙, 전압 강하, 전선 굵기, 전기 요금, 암페어-와트 변환, 와트-암페어 변환, kVA-암페어 변환, 역률, 배터리 사용 시간, LED 저항, 삼상 전력, 모터 전류, 저항 색상 코드, 555 타이머, AWG 변환, 리액턴스, 데시벨 변환이에요. 로스 여유와 예제 풀이가 함께 있어요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/ko/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Loona Construction Calculators — 무료, 미터법과 야드파운드법 | Loona">
+<meta name="twitter:description" content="미터법과 야드파운드법 두 단위계 모두에서 동작하는 무료 건설 계산기예요. 페인트, 타일, 콘크리트, 바닥재, 석고보드, 벽돌, 자갈, 지붕 경사, 계단, 보드피트, 벽지, 멀치, 아스팔트, 단열, 펜스, 데크, 수영장 용량, 태양광 패널, 카펫, 합판, 모래, 옴의 법칙, 전압 강하, 전선 굵기, 전기 요금, 암페어-와트 변환, 와트-암페어 변환, kVA-암페어 변환, 역률, 배터리 사용 시간, LED 저항, 삼상 전력, 모터 전류, 저항 색상 코드, 555 타이머, AWG 변환, 리액턴스, 데시벨 변환이에요. 로스 여유와 예제 풀이가 함께 있어요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Construction Calculators","url":"https://loonaautomation.github.io/loona-construction-calculators/ko/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Loona Construction Calculators","url":"https://loonaautomation.github.io/loona-construction-calculators/ko/","publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"이 계산기들은 왜 미터법과 야드파운드법을 둘 다 제공하나요?","acceptedAnswer":{"@type":"Answer","text":"온라인 건설 계산기는 대부분 야드파운드법 전용이라, 유럽과 미터법 사용자는 손으로 변환해야 해요. 모든 Loona 건설 계산기에는 단위계 스위치가 있어요. 미터, 리터, 킬로그램, 톤, 또는 피트, 갤런, 파운드, 세제곱야드예요. 아래 계산은 동일해서 같은 작업에 두 체계가 같은 답을 내요."}},{"@type":"Question","name":"결과가 정확할까요?","acceptedAnswer":{"@type":"Answer","text":"각 페이지에 표시된 표준 공식을 바탕으로, 재단, 흘림, 고르지 않은 지면을 감안한 로스 여유분(기본값 10%)을 더한 신중한 추정치예요. 중요하거나 구조적인 작업은 항상 지역 건축 규정과, 필요하면 전문가에게 확인하세요."}},{"@type":"Question","name":"정말 무료인가요?","acceptedAnswer":{"@type":"Answer","text":"네. 모든 계산기가 무료이고 가입이 필요 없으며 브라우저에서만 실행돼요. 입력한 측정값은 어디로도 전송되지 않아요. 페이지를 닫으면 아무것도 남지 않아요."}},{"@type":"Question","name":"어떤 계산기부터 시작해야 하나요?","acceptedAnswer":{"@type":"Answer","text":"리모델링에서는 보통 이런 순서예요. 도장 예산은 페인트, 바닥은 바닥재나 타일, 새 슬래브나 기초는 콘크리트, 벽은 벽돌이나 석고보드요. 각 페이지에는 다음에 필요할 관련 계산기로의 링크가 있어요."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+.ls{max-width:640px;margin:22px auto 4px;position:relative;text-align:left}
+.ls-box{display:flex;background:#fff;border-radius:999px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.28);border:2px solid var(--gold,#d4af37)}
+.ls-box input{flex:1;border:0;outline:0;padding:14px 18px;font-size:1.02rem;min-width:0;color:var(--ink,#12211c);background:#fff}
+.ls-box button{border:0;background:var(--gold,#d4af37);color:#231a00;font-weight:800;padding:0 22px;font-size:1rem;cursor:pointer}
+.ls-box button:hover{background:var(--gold2,#b8912a)}
+.ls-list{position:absolute;left:0;right:0;top:calc(100% + 8px);background:#fff;border-radius:14px;box-shadow:0 18px 44px rgba(0,0,0,.35);z-index:60;max-height:70vh;overflow-y:auto;text-align:left}
+.ls-item{display:block;padding:10px 16px;text-decoration:none;border-bottom:1px solid #eee9da}
+.ls-item:last-of-type{border-bottom:0}
+.ls-item:hover,.ls-item.act{background:#fbf6df}
+.ls-nm{font-weight:700;color:var(--ink,#12211c)}
+.ls-badge{display:inline-block;margin-left:8px;background:var(--teal,#062e2a);color:#ffe9a8;font-size:.68rem;font-weight:700;padding:2px 8px;border-radius:999px;vertical-align:2px;white-space:nowrap}
+.ls-ds{display:block;color:#5a6660;font-size:.85rem;margin-top:1px}
+.ls-none{padding:12px 16px;color:#5a6660;font-size:.92rem}
+@media(max-width:560px){.ls-box button{padding:0 14px}.ls-box input{padding:12px 14px;font-size:.98rem}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>건설 계산기</span></div>
+<nav>
+<a href="./">홈</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="about.html">소개</a>
+<a href="contact.html">연락처</a>
+</nav>
+</header>
+<div class="hero"><h1>무료 <span>건설 계산기</span></h1>
+<p>페인트, 타일, 콘크리트, 벽돌, 지붕, 계단 등 — 모든 계산기가 다음 단위에서 동작해요 <strong>미터법과 야드파운드법</strong> 단위를 지원하고, 로스 여유분을 포함하며, 공식과 풀이 예를 함께 보여줘요. 유럽과 전 세계의 DIYer, 전문 시공자, 리모델러를 위해 만들었어요.</p>
+
+<div class="ls"><form id="lsForm" role="search" autocomplete="off">
+<div class="ls-box"><input id="lsInput" type="search" placeholder="건설 계산기 38개 검색&hellip; &lsquo;페인트&rsquo;를 검색해 보세요" aria-label="건설 계산기 38개 검색" autocomplete="off"><button type="submit">검색</button></div>
+<div id="lsList" class="ls-list" role="listbox" hidden></div>
+</form></div>
+<div class="badges"><b>100% 무료</b><b>가입 없음</b><b>미터법 + 야드파운드법</b><b>브라우저에서 실행돼요</b></div></div>
+<div class="wrap">
+<input class="search" id="siteSearch" type="search" placeholder="계산기 검색… (페인트, 콘크리트, 계단)" aria-label="계산기 검색">
+<h2 class="sec">건설 계산기 전체 38개</h2>
+<div class="grid" id="cardGrid"><a class="card" href="paint-calculator/" data-name="paint calculator calculator construction"><div class="ic">🎨</div><h3>페인트 계산기</h3><p>어떤 방에도 리터와 갤런으로 알려 줘요. 문/창문을 빼고 프라이머를 포함해요.</p></a><a class="card" href="tile-calculator/" data-name="tile calculator calculator construction"><div class="ic">🔲</div><h3>타일 계산기</h3><p>바닥과 벽의 타일과 박스를 줄눈 간격까지 세어서 알려줘요.</p></a><a class="card" href="concrete-calculator/" data-name="concrete calculator calculator construction"><div class="ic">🧱</div><h3>콘크리트 계산기</h3><p>m³와 yd³ 단위 슬래브 부피와 프리믹스 포대 수를 알려줘요.</p></a><a class="card" href="flooring-calculator/" data-name="flooring calculator calculator construction"><div class="ic">🪵</div><h3>바닥재 계산기</h3><p>재단 로스를 포함한 라미네이트, 비닐, 원목 박스예요.</p></a><a class="card" href="drywall-calculator/" data-name="drywall calculator calculator construction"><div class="ic">🧱</div><h3>석고보드 계산기</h3><p>벽과 천장용 석고보드 / 드라이월 시트예요.</p></a><a class="card" href="brick-calculator/" data-name="brick calculator calculator construction"><div class="ic">🧱</div><h3>벽돌 계산기</h3><p>표준 미터법과 미국 벽돌 규격에 대한 벽돌 수예요.</p></a><a class="card" href="gravel-calculator/" data-name="gravel calculator calculator construction"><div class="ic">🪨</div><h3>자갈 계산기</h3><p>진입로, 보도, 기초용 톤수와 세제곱야드예요.</p></a><a class="card" href="roof-pitch-calculator/" data-name="roof pitch calculator calculator construction"><div class="ic">🏠</div><h3>지붕 경사 계산기</h3><p>경사 비율, 각도, 기울기와 서까래 길이예요.</p></a><a class="card" href="stairs-calculator/" data-name="stairs calculator calculator construction"><div class="ic">🪜</div><h3>계단 계산기</h3><p>단 수, 챌면 높이, 디딤면, 수평 거리, 스트링거 길이를 알려줘요.</p></a><a class="card" href="board-foot-calculator/" data-name="board foot calculator calculator construction"><div class="ic">🪵</div><h3>보드피트 계산기</h3><p>보드피트와 세제곱미터 단위의 목재 부피예요.</p></a><a class="card" href="wallpaper-calculator/" data-name="wallpaper calculator calculator construction"><div class="ic">🧻</div><h3>벽지 계산기</h3><p>EU와 미국 롤 기준 롤 수로, 패턴 반복까지 감안해요.</p></a><a class="card" href="mulch-calculator/" data-name="mulch calculator calculator construction"><div class="ic">🌱</div><h3>멀치 계산기</h3><p>화단과 경계용 포대 수와 벌크 부피예요.</p></a><a class="card" href="asphalt-calculator/" data-name="asphalt calculator calculator construction"><div class="ic">🛣️</div><h3>아스팔트 계산기</h3><p>면적과 두께로 톤과 미국 톤을 구해요. 밀도를 바꿀 수 있고 비용 추정도 나와요.</p></a><a class="card" href="insulation-calculator/" data-name="insulation calculator calculator construction"><div class="ic">🌡️</div><h3>단열 계산기</h3><p>목표 R값 / RSI에 맞는 배트, 롤, 충전식 포대와 두께 안내예요.</p></a><a class="card" href="fence-calculator/" data-name="fence calculator calculator construction"><div class="ic">🚧</div><h3>펜스 계산기</h3><p>펜스 길이와 간격으로 기둥, 레일, 피켓, 콘크리트 포대를 계산해요.</p></a><a class="card" href="deck-calculator/" data-name="deck calculator calculator construction"><div class="ic">🌞</div><h3>데크 계산기</h3><p>데크 크기, 판재 너비, 장선 간격에서 판재, 장선, 나사를 구해요.</p></a><a class="card" href="pool-volume-calculator/" data-name="pool volume calculator calculator construction"><div class="ic">🏊</div><h3>수영장 용량 계산기</h3><p>직사각형, 원형, 타원형 수영장의 리터와 US 갤런 — 투약 준비 완료예요.</p></a><a class="card" href="solar-panel-calculator/" data-name="solar panel calculator calculator construction"><div class="ic">☀️</div><h3>태양광 패널 계산기</h3><p>요금 청구서에서 필요한 패널 수, 시스템 kW, 예상 발전량, 지붕 면적을 구해요.</p></a><a class="card" href="carpet-calculator/" data-name="carpet calculator calculator construction"><div class="ic">🧶</div><h3>카펫 계산기</h3><p>방 크기와 롤 너비에서 길이 방향 길이와 실제 구매 면적을 구해요.</p></a><a class="card" href="plywood-calculator/" data-name="plywood calculator calculator construction"><div class="ic">🪵</div><h3>합판 계산기</h3><p>2440×1220 mm와 4×8 ft 시트에 대해 면적 기준과 배치 기준 시트 수를 알려줘요.</p></a><a class="card" href="sand-calculator/" data-name="sand calculator calculator construction"><div class="ic">🏖️</div><h3>모래 계산기</h3><p>모래 놀이터, 포장 기초, 스크리드용 톤수와 25 kg 포대예요.</p></a><a class="card" href="ohms-law-calculator/" data-name="ohms law calculator electrical voltage current resistance power"><div class="ic">⚡</div><h3>옴의 법칙 계산기</h3><p>아무 값 두 개로 전압, 전류, 저항, 전력을 구해요. 옴의 법칙 휠 전체예요.</p></a><a class="card" href="voltage-drop-calculator/" data-name="voltage drop calculator cable electrical copper aluminium awg"><div class="ic">📉</div><h3>전압 강하 계산기</h3><p>케이블 구간에서 떨어지는 볼트와 %, mm&sup2; 또는 AWG, 단상과 삼상이에요.</p></a><a class="card" href="wire-size-calculator/" data-name="wire size calculator cable size mm2 awg electrical"><div class="ic">🧵</div><h3>전선 굵기 계산기</h3><p>내 강하 한계에서 구한 mm&sup2; 단위 최소 케이블 크기 + 표준 규격과 AWG예요.</p></a><a class="card" href="electricity-cost-calculator/" data-name="electricity cost calculator appliance kwh running cost"><div class="ic">💷</div><h3>전기 요금 계산기</h3><p>와트와 kWh당 가격으로 가전의 하루, 한 달, 연간 비용을 알려줘요.</p></a><a class="card" href="amps-to-watts-calculator/" data-name="amps to watts calculator electrical conversion power factor"><div class="ic">🔌</div><h3>암페어-와트 변환 계산기</h3><p>암페어와 볼트로 와트와 kW를 구해요. DC, 단상, 삼상, 역률까지요.</p></a><a class="card" href="watts-to-amps-calculator/" data-name="watts to amps calculator electrical conversion breaker"><div class="ic">🔁</div><h3>와트-암페어 변환 계산기</h3><p>차단기와 케이블 점검을 위해 와트와 볼트에서 암페어를 구해요. DC, 단상, 삼상 모두 가능해요.</p></a><a class="card" href="kva-to-amps-calculator/" data-name="kva to amps calculator generator transformer apparent power"><div class="ic">🔷</div><h3>kVA-암페어 변환 계산기</h3><p>발전기와 변압기의 kVA를 전부하 암페어로, 거꾸로 암페어를 kVA로 변환해요. 단상과 삼상 모두 가능해요.</p></a><a class="card" href="power-factor-calculator/" data-name="power factor calculator kvar correction capacitor"><div class="ic">🎚️</div><h3>역률 계산기</h3><p>kW와 kVA로 역률, kvar, 위상각을 구하고 보정 커패시터 크기까지 알려줘요.</p></a><a class="card" href="battery-runtime-calculator/" data-name="battery runtime calculator amp hours solar ups off grid"><div class="ic">🔋</div><h3>배터리 사용 시간 계산기</h3><p>배터리가 부하를 얼마나 오래 돌리는지 알려 줘요. Ah, 사용 가능 Wh, 방전 깊이, 인버터 손실까지 계산해요.</p></a><a class="card" href="led-resistor-calculator/" data-name="led resistor calculator electronics series resistor e12"><div class="ic">💡</div><h3>LED 저항 계산기</h3><p>옴 단위 직렬 저항, 가장 가까운 표준 E12 값, 실제 전류와 소비 전력을 알려줘요.</p></a><a class="card" href="three-phase-power-calculator/" data-name="three phase power calculator kw kva kvar"><div class="ic">🔺</div><h3>삼상 전력 계산기</h3><p>평형 부하에서 선간 전압, 선전류, 역률로 kW, kVA, kvar를 구해요.</p></a><a class="card" href="motor-current-calculator/" data-name="motor current calculator full load amps fla horsepower"><div class="ic">🌀</div><h3>모터 전류 계산기</h3><p>모터 kW나 hp, 효율과 역률에서 추정한 전부하 암페어예요.</p></a><a class="card" href="resistor-colour-code-calculator/" data-name="resistor colour code calculator bands ohms tolerance electronics"><div class="ic">🌈</div><h3>저항 색상 코드 계산기</h3><p>4, 5, 6밴드 저항 색상을 옴과 공차로 읽거나, 값을 다시 띠로 바꿔 보세요.</p></a><a class="card" href="555-timer-calculator/" data-name="555 timer calculator astable monostable frequency duty cycle"><div class="ic">⏱️</div><h3>555 타이머 계산기</h3><p>R과 C에서 비안정 주파수와 듀티 사이클, 단안정 펄스 폭을 구해요.</p></a><a class="card" href="awg-converter/" data-name="awg converter wire gauge mm2 diameter resistance table"><div class="ic">📏</div><h3>AWG 변환기</h3><p>구리와 알루미늄의 AWG를 mm, mm&sup2;, km당 저항으로 변환해요. mm&sup2;나 지름에서 거꾸로도 변환할 수 있어요.</p></a><a class="card" href="reactance-calculator/" data-name="reactance calculator capacitive inductive resonance frequency"><div class="ic">〰️</div><h3>리액턴스 계산기</h3><p>옴 단위의 용량성 및 유도성 리액턴스와 LC 공진 주파수예요.</p></a><a class="card" href="db-converter/" data-name="db converter decibel dbm milliwatts watts ratio"><div class="ic">🔊</div><h3>dB 변환기</h3><p>전력과 전압 비율을 데시벨로, dBm을 밀리와트와 와트로, 그 반대로도 변환해요.</p></a></div>
+<section class="txt"><h2>단위 걱정 없는 건설 계산</h2>
+<p>대부분의 온라인 건설 계산기는 하나의 측정 언어만 말해요. 도면은 미터인데 계산기는 피트를 원하거나, 목재는 보드피트로 팔리는데 방은 미터법이면, 결국 손으로 변환하고 잘 맞기를 바라게 돼요. Loona Construction Calculators는 그 단계를 없애요. 어떤 도구에서든 단위 스위치를 뒤집으면 모든 입력, 기본값, 결과가 체계를 바꾸고, 아래 계산은 동일하게 유지돼요.</p>
+<p>모든 계산기에는 실제 작업에 필요한 것들이 함께 들어 있어요. 로스와 재단 여유 (기본 10%, 조정 가능), 양쪽 세계의 표준 자재 크기 (1200 × 2400 mm 석고보드와 4 × 8 ft 석고보드, 유럽식 및 미국식 벽지 롤, 25 kg 및 80 lb 콘크리트 포대), 전체 공식, 그리고 휴대용 계산기로 검산할 수 있는 예제 풀이예요.</p>
+<h2>자주 묻는 질문</h2></section>
+<div class="faq"><h3>이 계산기들은 왜 미터법과 야드파운드법을 둘 다 제공하나요?</h3><p>온라인 건설 계산기는 대부분 야드파운드법 전용이라, 유럽과 미터법 사용자는 손으로 변환해야 해요. 모든 Loona 건설 계산기에는 단위계 스위치가 있어요. 미터, 리터, 킬로그램, 톤, 또는 피트, 갤런, 파운드, 세제곱야드예요. 아래 계산은 동일해서 같은 작업에 두 체계가 같은 답을 내요.</p></div><div class="faq"><h3>결과가 정확할까요?</h3><p>각 페이지에 표시된 표준 공식을 바탕으로, 재단, 흘림, 고르지 않은 지면을 감안한 로스 여유분(기본값 10%)을 더한 신중한 추정치예요. 중요하거나 구조적인 작업은 항상 지역 건축 규정과, 필요하면 전문가에게 확인하세요.</p></div><div class="faq"><h3>정말 무료인가요?</h3><p>네. 모든 계산기가 무료이고 가입이 필요 없으며 브라우저에서만 실행돼요. 입력한 측정값은 어디로도 전송되지 않아요. 페이지를 닫으면 아무것도 남지 않아요.</p></div><div class="faq"><h3>어떤 계산기부터 시작해야 하나요?</h3><p>리모델링에서는 보통 이런 순서예요. 도장 예산은 페인트, 바닥은 바닥재나 타일, 새 슬래브나 기초는 콘크리트, 벽은 벽돌이나 석고보드요. 각 페이지에는 다음에 필요할 관련 계산기로의 링크가 있어요.</p></div>
+</div>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="paint-calculator/">페인트 계산기</a></li>
+<li><a href="concrete-calculator/">콘크리트 계산기</a></li>
+<li><a href="tile-calculator/">타일 계산기</a></li>
+<li><a href="brick-calculator/">벽돌 계산기</a></li>
+<li><a href="roof-pitch-calculator/">지붕 경사 계산기</a></li>
+<li><a href="stairs-calculator/">계단 계산기</a></li></ul></div>
+<div><h4>Loona 도구 더 보기</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Loona 도구 전체</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="about.html">소개</a></li>
+<li><a href="contact.html">연락처</a></li>
+<li><a href="privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="terms.html">이용약관</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> 의 프로젝트입니다. 미터법과 야드파운드법 단위의 무료 건설 계산기, 가입도 필요 없어요.
+문의: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+document.getElementById('siteSearch').addEventListener('input', function () {
+  var q = this.value.toLowerCase();
+  document.querySelectorAll('#cardGrid .card').forEach(function (c) {
+    c.style.display = c.dataset.name.indexOf(q) > -1 ? '' : 'none';
+  });
+});
+</script>
+<script>/*loona-construction-search*/
+/* Loona Construction Calculators search (per-site build of the Loona hub tool search v2) — lazy-loads /search-index.json on first focus/typing.
+   v2 fixes: a failed fetch no longer poisons the session (it retries on the next
+   keystroke/focus), a "Loading tools…" state shows while the index downloads,
+   an embedded popular-tools fallback keeps search alive offline, Roman Urdu
+   aliases, joined-word matching, dedupe and tool-over-guide ranking. */
+(function () {
+  "use strict";
+  var form = document.getElementById('lsForm'),
+      input = document.getElementById('lsInput'),
+      list = document.getElementById('lsList');
+  if (!form || !input || !list) return;
+  var INDEX_URL = '/loona-construction-calculators/ko/search-index.json';
+  var STR = {"loading": "도구를 불러오는 중…", "fb": "인기 도구를 보여 드려요 — 전체 목록이 곧 도착해요…", "zero1": "에 대한 정확한 일치가 없어요: “", "zero2": "” — 이 인기 도구를 써 보세요:"};
+  var FALLBACK = [{"n": "페인트 계산기", "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/paint-calculator/", "s": "Loona Construction Calculators", "d": "어떤 방에도 리터와 갤런으로 알려 줘요. 문/창문을 빼고 프라이머를 포함해요.", "k": "paint calculator paint calculator paint calculator calculator construction 어떤 방에도 리터와 갤런으로 알려 줘요 문 창문을 빼고 프라이머를 포함해요", "p": 0, "c": "Tool"}, {"n": "타일 계산기", "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/tile-calculator/", "s": "Loona Construction Calculators", "d": "바닥과 벽의 타일과 박스를 줄눈 간격까지 세어서 알려줘요.", "k": "tile calculator tile calculator tile calculator calculator construction 바닥과 벽의 타일과 박스를 줄눈 간격까지 세어서 알려줘요", "p": 1, "c": "Tool"}, {"n": "콘크리트 계산기", "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/concrete-calculator/", "s": "Loona Construction Calculators", "d": "m³와 yd³ 단위 슬래브 부피와 프리믹스 포대 수를 알려줘요.", "k": "concrete calculator concrete calculator concrete calculator calculator construction m와 yd 단위 슬래브 부피와 프리믹스 포대 수를 알려줘요", "p": 2, "c": "Tool"}, {"n": "바닥재 계산기", "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/flooring-calculator/", "s": "Loona Construction Calculators", "d": "재단 로스를 포함한 라미네이트, 비닐, 원목 박스예요.", "k": "flooring calculator flooring calculator flooring calculator calculator construction 재단 로스를 포함한 라미네이트 비닐 원목 박스예요", "p": 3, "c": "Tool"}, {"n": "석고보드 계산기", "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/drywall-calculator/", "s": "Loona Construction Calculators", "d": "벽과 천장용 석고보드 / 드라이월 시트예요.", "k": "drywall calculator drywall calculator drywall calculator calculator construction 벽과 천장용 석고보드 드라이월 시트예요", "p": 4, "c": "Tool"}, {"n": "벽돌 계산기", "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/brick-calculator/", "s": "Loona Construction Calculators", "d": "표준 미터법과 미국 벽돌 규격에 대한 벽돌 수예요.", "k": "brick calculator brick calculator brick calculator calculator construction 표준 미터법과 미국 벽돌 규격에 대한 벽돌 수예요", "p": 5, "c": "Tool"}];
+  var data = null, loading = null, usingFallback = false, active = -1, current = [];
+
+  /*CORE-START*/
+/* Loona search core v2 — shared by the homepage dropdown and the /search/ page.
+   Adds over v1: Roman Urdu alias layer, joined-word matching, keyword prefix match,
+   URL+name dedupe, tool-over-guide boost. `data` is supplied by the page glue. */
+var ALIASES = {
+  "rang": "paint",
+  "eent": "brick",
+  "farsh": "floor",
+  "chhat": "roof"
+};
+function norm(s) { s = (s || '').toLowerCase().replace(/ß/g, 'ss').replace(/æ/g, 'ae').replace(/ø/g, 'o').replace(/ł/g, 'l').replace(/đ/g, 'd'); try { s = s.normalize('NFD').replace(/[\u0300-\u036f]/g, ''); } catch (e) {} return s.replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim(); }
+function lev(a, b) {
+  if (a === b) return 0;
+  var la = a.length, lb = b.length, i, j;
+  if (Math.abs(la - lb) > 1) return 2;
+  var prev = [], cur = [];
+  for (j = 0; j <= lb; j++) prev[j] = j;
+  for (i = 1; i <= la; i++) {
+    cur[0] = i; var best = 99;
+    for (j = 1; j <= lb; j++) {
+      var v = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a.charAt(i - 1) === b.charAt(j - 1) ? 0 : 1));
+      cur[j] = v; if (v < best) best = v;
+    }
+    if (best > 1) return 2;
+    var t = prev; prev = cur; cur = t;
+  }
+  return prev[lb];
+}
+function wordLevel(w, nameWords, hayWords, nameJoined) {
+  var i;
+  for (i = 0; i < nameWords.length; i++) if (nameWords[i] === w) return 30;
+  for (i = 0; i < nameWords.length; i++) if (w.length >= 3 && nameWords[i].indexOf(w) === 0) return 24;
+  for (i = 0; i < hayWords.length; i++) if (hayWords[i] === w) return 20;
+  for (i = 0; i < hayWords.length; i++) if (w.length >= 3 && hayWords[i].indexOf(w) === 0) return 18;
+  if (w.length >= 4 && nameJoined.indexOf(w) >= 0) return 22;
+  if (w.length >= 4) {
+    for (i = 0; i < nameWords.length; i++) if (lev(w, nameWords[i]) <= 1) return 17;
+    for (i = 0; i < hayWords.length; i++) if (lev(w, hayWords[i]) <= 1) return 12;
+  }
+  for (i = 0; i < nameWords.length; i++) if (nameWords[i].indexOf(w) >= 0) return 14;
+  return 0;
+}
+function expandWords(qw) {
+  /* variants tried (best score wins): the words themselves; each Roman Urdu
+     word swapped for the FIRST word of its English meaning; the full meaning;
+     and — for multi-word queries — the words joined into one ("wi fi"→"wifi"). */
+  var prim = [], full = [], changed = false;
+  for (var i = 0; i < qw.length; i++) {
+    var a = ALIASES[qw[i]];
+    if (a) {
+      changed = true;
+      var parts = a.split(' ');
+      prim.push(parts[0]);
+      for (var j = 0; j < parts.length; j++) full.push(parts[j]);
+    } else { prim.push(qw[i]); full.push(qw[i]); }
+  }
+  var out = [qw];
+  if (changed) { out.push(prim); if (full.join(' ') !== prim.join(' ')) out.push(full); }
+  if (qw.length > 1) out.push([qw.join('')]);
+  return out;
+}
+function runSearch(q, limit) {
+  var query = norm(q);
+  if (!query || !data) return [];
+  var variants = expandWords(query.split(' ')), out = [];
+  for (var e = 0; e < data.length; e++) {
+    var it = data[e], name = norm(it.n),
+        hay = name + ' ' + norm(it.s) + ' ' + (it.k || ''),
+        nameWords = name.split(' '), hayWords = hay.split(' '),
+        nameJoined = name.replace(/ /g, ''), best = -1;
+    for (var v = 0; v < variants.length; v++) {
+      var qw = variants[v], sum = 0, ok = true;
+      for (var i = 0; i < qw.length; i++) {
+        var lv = wordLevel(qw[i], nameWords, hayWords, nameJoined);
+        if (lv === 0) { ok = false; break; }
+        sum += lv;
+      }
+      if (!ok) continue;
+      var score = sum * 10, qs = qw.join(' '), qJoined = qs.replace(/ /g, '');
+      if (name === qs) score += 100000;
+      else if (name.indexOf(qs) === 0) score += 5000;
+      else if (name.indexOf(qs) >= 0) score += 2000;
+      if (nameJoined === qJoined) score += 9000;
+      else if (qJoined.length >= 4 && nameJoined.indexOf(qJoined) >= 0) score += 2500;
+      if (qw.length > 1) {
+        var allN = true;
+        for (var k = 0; k < qw.length; k++) if (nameWords.indexOf(qw[k]) < 0) allN = false;
+        if (allN) score += 800;
+      }
+      /* tool whose name carries the searched word beats a guide about it */
+      if (it.c !== 'Guide') {
+        for (var m = 0; m < qw.length; m++) if (nameWords.indexOf(qw[m]) >= 0) { score += 350; break; }
+      }
+      score -= (typeof it.p === 'number' ? it.p : 400) * 0.6;
+      score -= name.length * 0.3;
+      if (score > best) best = score;
+    }
+    if (best >= 0) out.push({ it: it, score: best });
+  }
+  out.sort(function (a, b) { return b.score - a.score; });
+  /* dedupe: same URL once, same tool name once (keep the better-ranked copy) */
+  var seenU = {}, seenN = {}, res = [];
+  for (var r = 0; r < out.length; r++) {
+    var en = out[r].it, key = norm(en.n);
+    if (seenU[en.u] || seenN[key]) continue;
+    seenU[en.u] = 1; seenN[key] = 1; res.push(en);
+    if (res.length >= limit) break;
+  }
+  return res;
+}
+function popular(n) {
+  if (!data) return [];
+  return data.filter(function (e) { return (typeof e.p === 'number' ? e.p : 400) < 30; })
+             .sort(function (a, b) { return a.p - b.p; }).slice(0, n);
+}
+/*CORE-END*/
+
+
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+  function badge(e) { return e.c === 'Website' ? 'Website' : (e.c === 'Guide' ? 'Guide' : e.s.replace(/^Loona /, '')); }
+  function itemHtml(e, i) {
+    return '<a class="ls-item" role="option" data-i="' + i + '" href="' + esc(e.u) + '">' +
+           '<span class="ls-nm">' + esc(e.n) + '</span><span class="ls-badge">' + esc(badge(e)) + '</span>' +
+           '<span class="ls-ds">' + esc(e.d) + '</span></a>';
+  }
+  function bindItems() {
+    var links = list.querySelectorAll('.ls-item');
+    for (var i = 0; i < links.length; i++) {
+      links[i].addEventListener('mouseenter', function () { setActive(parseInt(this.getAttribute('data-i'), 10)); });
+    }
+  }
+  function render(items, q) {
+    active = -1; current = items;
+    var h = '';
+    if (usingFallback) h += '<div class="ls-none">' + STR.fb + '</div>';
+    h += items.map(itemHtml).join('');
+    list.innerHTML = h;
+    bindItems();
+    list.hidden = false;
+    input.setAttribute('aria-expanded', 'true');
+  }
+  function renderZero(q) {
+    var pop = popular(6);
+    active = -1; current = pop;
+    var h = '<div class="ls-none">' + STR.zero1 + esc(q) + STR.zero2 + '</div>' +
+            pop.map(itemHtml).join('') +
+            '';
+    list.innerHTML = h;
+    bindItems();
+    list.hidden = false;
+    input.setAttribute('aria-expanded', 'true');
+  }
+  function renderLoading() {
+    list.innerHTML = '<div class="ls-none">' + STR.loading + '</div>';
+    list.hidden = false;
+    input.setAttribute('aria-expanded', 'true');
+  }
+  function refresh() {
+    var q = input.value;
+    if (!data) { renderLoading(); return; }
+    if (!norm(q)) { render(popular(6), ''); return; }
+    var res = runSearch(q, 8);
+    if (res.length) render(res, q); else renderZero(q);
+  }
+  function hide() { list.hidden = true; active = -1; input.setAttribute('aria-expanded', 'false'); }
+  function setActive(i) {
+    active = i;
+    var links = list.querySelectorAll('.ls-item');
+    for (var j = 0; j < links.length; j++) links[j].classList.toggle('act', j === i);
+    if (i >= 0 && links[i]) links[i].scrollIntoView({ block: 'nearest' });
+  }
+  function ensureIndex() {
+    if (data && !usingFallback) return;
+    if (loading) return;
+    loading = fetch(INDEX_URL).then(function (r) {
+      if (!r.ok) throw new Error('index ' + r.status);
+      return r.json();
+    }).then(function (j) {
+      data = j; usingFallback = false; loading = null; refresh();
+    }).catch(function () {
+      loading = null;                 /* not poisoned: next keystroke/focus retries */
+      if (!data) { data = FALLBACK; usingFallback = true; }
+      refresh();
+    });
+  }
+  var timer = null;
+  function onType() { ensureIndex(); refresh(); }
+  input.addEventListener('focus', onType);
+  input.addEventListener('input', function () { clearTimeout(timer); timer = setTimeout(onType, 70); });
+  input.addEventListener('keydown', function (ev) {
+    if (ev.key === 'ArrowDown' || ev.key === 'ArrowUp') {
+      ev.preventDefault();
+      if (list.hidden) { onType(); return; }
+      var n = current.length; if (!n) return;
+      setActive(ev.key === 'ArrowDown' ? (active + 1) % n : (active - 1 + n) % n);
+    } else if (ev.key === 'Escape') { hide(); }
+  });
+  form.addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    var q = input.value;
+    if (active >= 0 && current[active]) { window.location.href = current[active].u; return; }
+    ensureIndex();
+    if (data) {
+      var best = runSearch(q, 1);
+      if (best.length) { window.location.href = best[0].u; return; }
+    }
+    if (norm(q)) renderZero(q);
+  });
+  document.addEventListener('click', function (ev) { if (!form.contains(ev.target)) hide(); });
+})();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누른 다음 "홈 화면에 추가"를 선택하세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

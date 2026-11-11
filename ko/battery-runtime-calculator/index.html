@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>배터리 사용 시간 계산기 — 배터리가 부하를 얼마나 오래 돌릴까요? (Ah, Wh, 시간) | Loona Construction Calculators</title>
+<meta name="description" content="무료 배터리 사용 시간 계산기: 배터리 볼트와 암페어시, 부하 와트, 방전 깊이, 인버터 효율에서 사용 가능한 와트시와 시간 단위 사용 시간을 알려 줘요. 태양광, UPS, 독립형 전원 계획에 쓰세요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/ko/battery-runtime-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/battery-runtime-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/battery-runtime-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/battery-runtime-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/battery-runtime-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/battery-runtime-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/battery-runtime-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/battery-runtime-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/battery-runtime-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/battery-runtime-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/battery-runtime-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/battery-runtime-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/battery-runtime-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/battery-runtime-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="배터리 사용 시간 계산기 — 배터리가 부하를 얼마나 오래 돌릴까요? (Ah, Wh, 시간) | Loona Construction Calculators">
+<meta property="og:description" content="무료 배터리 사용 시간 계산기: 배터리 볼트와 암페어시, 부하 와트, 방전 깊이, 인버터 효율에서 사용 가능한 와트시와 시간 단위 사용 시간을 알려 줘요. 태양광, UPS, 독립형 전원 계획에 쓰세요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/ko/battery-runtime-calculator/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="배터리 사용 시간 계산기 — 배터리가 부하를 얼마나 오래 돌릴까요? (Ah, Wh, 시간) | Loona Construction Calculators">
+<meta name="twitter:description" content="무료 배터리 사용 시간 계산기: 배터리 볼트와 암페어시, 부하 와트, 방전 깊이, 인버터 효율에서 사용 가능한 와트시와 시간 단위 사용 시간을 알려 줘요. 태양광, UPS, 독립형 전원 계획에 쓰세요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 배터리 사용 시간 계산기","url":"https://loonaautomation.github.io/loona-construction-calculators/ko/battery-runtime-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Ah를 부하 암페어로 그냥 나누면 왜 안 되나요?","acceptedAnswer":{"@type":"Answer","text":"부하는 보통 AC 쪽 와트로 주어지고, 실제 상황에서는 두 가지 요소가 끼어들어요. 스스로 제한해야 할 방전 깊이, 그리고 인버터 손실이에요. 납축전지 시스템에서는 둘 다 무시하면 사용 시간이 40% 이상 과대평가돼요."}},{"@type":"Question","name":"방전 깊이는 어느 값을 써야 하나요?","acceptedAnswer":{"@type":"Answer","text":"납축전지 (AGM과 젤 포함): 적정한 사용 수명을 위해 50%예요. LiFePO4 리튬: 80–90%를 일상적으로 써요. 배터리 제조사의 데이터시트를 확인하세요. 사이클 수명은 명시된 DoD 기준으로 제시되고, 더 깊게 사이클링하면 수명이 급격히 짧아져요."}},{"@type":"Question","name":"배터리 여러 개를 어떻게 결합하나요?","acceptedAnswer":{"@type":"Answer","text":"직렬에서는 전압이 더해지고 Ah는 그대로예요 (12 V 100 Ah 두 개를 직렬로 연결하면 24 V 100 Ah). 병렬에서는 Ah가 더해지고 전압이 그대로예요 (두 개를 병렬로 연결하면 12 V 200 Ah). 어느 쪽이든 전체 와트시는 같아요. 뱅크의 합산 볼트와 Ah를 입력하세요."}},{"@type":"Question","name":"실제 사용 시간이 왜 더 짧게 나왔나요?","acceptedAnswer":{"@type":"Answer","text":"흔한 이유: 배터리의 Ah 정격은 느린 20시간 방전으로 측정한 값이에요. 더 빨리 뽑아 쓰면 납축전지는 덜 내줘요 (포이케르트 효과). 차가운 배터리는 용량이 줄고, 오래된 배터리는 성능이 떨어지며, 인버터 대기 소모가 부하에 더해져요. 결과는 최상의 경우로 보세요."}},{"@type":"Question","name":"부하를 DC에서 바로 돌리고 인버터 손실을 건너뛸 수 있나요?","acceptedAnswer":{"@type":"Answer","text":"부하가 배터리 전압을 받을 수 있으면 (조명, 많은 12 V 기기) 효율을 100%로 설정하세요. 정확히는 배선을 감안해 95–98%예요. 그러면 사용 시간이 그만큼 늘어나요. AC 전용 기기를 배터리에 직접 연결하지는 마세요."}},{"@type":"Question","name":"이 계산기는 태양광 패널 계산기와 어떻게 함께 쓰나요?","acceptedAnswer":{"@type":"Answer","text":"태양광 패널 계산기로 매일 쓰는 에너지를 대체할 어레이 크기를 정하고, 이 도구로 배터리 뱅크가 필요한 시간을 버티는지 확인하세요. 독립형 설계의 두 절반이에요."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "배터리 사용 시간 계산기",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/battery-runtime-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>건설 계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">소개</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; 전기 &rsaquo; 배터리 사용 시간 계산기</div>
+<h1 class="pagetitle">🔋 배터리 사용 시간 계산기</h1>
+<p class="lead">태양광 배터리, UPS, 독립형 시스템을 계획 중인가요? 배터리 전압과 암페어시 용량, 와트 단위 부하, 방전 깊이, 인버터 효율을 입력하면 사용 가능한 에너지와 예상 사용 시간을 알려줘요.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_volts">배터리 전압 (V)</label><input type="number" id="f_volts" step="any" value="12"></div><div class="fld"><label for="f_ah">배터리 용량 (Ah)</label><input type="number" id="f_ah" step="any" value="100"></div><div class="fld"><label for="f_load">부하 (와트)</label><input type="number" id="f_load" step="any" value="100"></div><div class="fld"><label for="f_dod">사용 가능한 방전 깊이 (%) — 납축전지는 50, 리튬(LiFePO4)은 80–90</label><input type="number" id="f_dod" step="any" value="50"></div><div class="fld"><label for="f_eff">인버터 / 시스템 효율 (%) — DC 부하 직접 연결은 100, 일반적인 인버터는 ~85</label><input type="number" id="f_eff" step="any" value="85"></div>
+<button type="button" class="calcbtn" id="calcBtn">계산하기</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>배터리 사용 시간 계산기 사용법</h2><ol><li>배터리 전압과 암페어시 (Ah) 정격을 입력하세요. 배터리 뱅크는 뱅크 전체 전압과 그 전압에서의 Ah를 쓰세요.</li><li>부하를 와트로 입력하세요 (동시에 돌릴 모든 것을 합치세요).</li><li>실제로 쓸 방전 깊이와 인버터 효율을 설정한 뒤 계산을 누르세요.</li></ol>
+<div class="exbox"><strong>예:</strong> 12 V, 100 Ah 배터리로 100 W 부하를 방전 깊이 50%로, 효율 85% 인버터를 통해 돌리면 사용 가능 에너지 = 510 Wh, 사용 시간 = <strong>5.1시간</strong>.</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>Ah를 부하 암페어로 그냥 나누면 왜 안 되나요?</h3><p>부하는 보통 AC 쪽 와트로 주어지고, 실제 상황에서는 두 가지 요소가 끼어들어요. 스스로 제한해야 할 방전 깊이, 그리고 인버터 손실이에요. 납축전지 시스템에서는 둘 다 무시하면 사용 시간이 40% 이상 과대평가돼요.</p></div><div class="faq"><h3>방전 깊이는 어느 값을 써야 하나요?</h3><p>납축전지 (AGM과 젤 포함): 적정한 사용 수명을 위해 50%예요. LiFePO4 리튬: 80–90%를 일상적으로 써요. 배터리 제조사의 데이터시트를 확인하세요. 사이클 수명은 명시된 DoD 기준으로 제시되고, 더 깊게 사이클링하면 수명이 급격히 짧아져요.</p></div><div class="faq"><h3>배터리 여러 개를 어떻게 결합하나요?</h3><p>직렬에서는 전압이 더해지고 Ah는 그대로예요 (12 V 100 Ah 두 개를 직렬로 연결하면 24 V 100 Ah). 병렬에서는 Ah가 더해지고 전압이 그대로예요 (두 개를 병렬로 연결하면 12 V 200 Ah). 어느 쪽이든 전체 와트시는 같아요. 뱅크의 합산 볼트와 Ah를 입력하세요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../solar-panel-calculator/"><div class="ic">☀️</div><h3>태양광 패널 계산기</h3><p>전기</p></a><a class="card" href="../electricity-cost-calculator/"><div class="ic">💷</div><h3>전기 요금 계산기</h3><p>전기</p></a><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>암페어-와트 변환 계산기</h3><p>전기</p></a><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>전압 강하 계산기</h3><p>전기</p></a></div>
+</div>
+<section class="txt"><h2>작동 원리 &mdash; 공식</h2>
+<p><strong>저장된 에너지 (Wh)</strong> = 전압 × 암페어시<br>
+<strong>사용 가능한 에너지 (Wh)</strong> = 저장 용량 × 방전 깊이 × 효율<br>
+<strong>사용 시간 (시간)</strong> = 사용 가능 Wh ÷ 부하 (W)<br>
+<strong>평균 배터리 전류 (A)</strong> = 부하 ÷ (전압 × 효율)</p>
+<p>단순한 'Ah ÷ 암페어' 계산과 이것을 가르는 정직한 조정은 두 가지예요. 대부분의 배터리를 완전히 비우면 안 돼요(납축전지를 50% 넘게 정기적으로 방전하면 빨리 닳고, LiFePO4는 80–90%까지 버텨요). 그리고 인버터는 변환하는 에너지의 10–20%를 낭비해요. 둘 다 위 공식에 들어가 있어요.</p>
+<h3>풀이 예</h3>
+<div class="exbox">12 V × 100 Ah = <strong>1,200 Wh</strong> 저장돼요. 사용 가능 = 1,200 × 0.50 × 0.85 = <strong>510 Wh</strong>. 사용 시간 = 510 ÷ 100 W = <strong>5.1시간</strong> (5 h 6 min). 배터리는 평균적으로 다음만큼 공급해요: 100 ÷ (12 × 0.85) = <strong>9.80 A</strong> 그러는 동안에요.</div>
+
+<h3>자주 묻는 질문</h3></section>
+<div class="faq"><h3>실제 사용 시간이 왜 더 짧게 나왔나요?</h3><p>흔한 이유: 배터리의 Ah 정격은 느린 20시간 방전으로 측정한 값이에요. 더 빨리 뽑아 쓰면 납축전지는 덜 내줘요 (포이케르트 효과). 차가운 배터리는 용량이 줄고, 오래된 배터리는 성능이 떨어지며, 인버터 대기 소모가 부하에 더해져요. 결과는 최상의 경우로 보세요.</p></div><div class="faq"><h3>부하를 DC에서 바로 돌리고 인버터 손실을 건너뛸 수 있나요?</h3><p>부하가 배터리 전압을 받을 수 있으면 (조명, 많은 12 V 기기) 효율을 100%로 설정하세요. 정확히는 배선을 감안해 95–98%예요. 그러면 사용 시간이 그만큼 늘어나요. AC 전용 기기를 배터리에 직접 연결하지는 마세요.</p></div><div class="faq"><h3>이 계산기는 태양광 패널 계산기와 어떻게 함께 쓰나요?</h3><p>태양광 패널 계산기로 매일 쓰는 에너지를 대체할 어레이 크기를 정하고, 이 도구로 배터리 뱅크가 필요한 시간을 버티는지 확인하세요. 독립형 설계의 두 절반이에요.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 내 웹사이트에 임베드하세요 — 무료예요</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 내 웹사이트나 블로그에 추가하세요. 완전히 무료이고, 가입도 필요 없으며, 항상 최신 버전을 보여 줘요. 아래 코드를 복사해서 계산기가 나타나길 원하는 위치에 붙여 넣으세요. 임베드 아래의 작은 &ldquo;Powered by Loona Automation&rdquo; 출처 표기를 유지해 주시면 이 도구를 계속 무료로 제공하는 데 도움이 돼요. 다만 스타일을 바꾸거나 지우셔도 자유예요. 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/ko/battery-runtime-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Battery Runtime Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/ko/battery-runtime-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 배터리 사용 시간 계산기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='복사했어요!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../paint-calculator/">페인트 계산기</a></li>
+<li><a href="../concrete-calculator/">콘크리트 계산기</a></li>
+<li><a href="../tile-calculator/">타일 계산기</a></li>
+<li><a href="../brick-calculator/">벽돌 계산기</a></li>
+<li><a href="../roof-pitch-calculator/">지붕 경사 계산기</a></li>
+<li><a href="../stairs-calculator/">계단 계산기</a></li></ul></div>
+<div><h4>Loona 도구 더 보기</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Loona 도구 전체</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">소개</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용약관</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> 의 프로젝트입니다. 미터법과 야드파운드법 단위의 무료 건설 계산기, 가입도 필요 없어요.
+문의: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.volts, v.ah, v.load)) return bad("배터리 전압, Ah 단위 용량, 와트 단위 부하를 입력하세요.");
+  var eff = (v.eff > 0 && v.eff <= 100) ? v.eff / 100 : NaN;
+  var dod = (v.dod > 0 && v.dod <= 100) ? v.dod / 100 : NaN;
+  if (!isFinite(eff) || !isFinite(dod)) return bad("효율과 사용 가능한 방전 심도는 각각 1에서 100% 사이여야 해요.");
+  var stored = v.volts * v.ah;
+  var usable = stored * dod * eff;
+  var hours = usable / v.load;
+  var mins = Math.round(hours * 60);
+  var current = v.load / (v.volts * eff);
+  var html = resTable("예상 사용 시간", fmt(hours, 2) + " 시간 (" + Math.floor(mins / 60) + " h " + (mins % 60) + " min)",
+    [["저장된 에너지", fmt(stored, 0) + " Wh"],["사용 가능한 에너지 (DoD와 손실 적용 후)", fmt(usable, 0) + " Wh"],["배터리에서 나오는 평균 전류", fmt(current, 2) + " A"],["부하", fmt(v.load, 0) + " W"]],
+    "실제 사용 시간은 보통 더 짧아요. 방전율이 높을 때 (납축전지의 Peukert 효과), 추운 날씨, 배터리가 노후하면 용량이 줄어요. 이 수치를 최상의 경우를 가정한 계획 수치로 보고, 중요한 부하에는 여유를 두세요.");
+  return { ok: true, storedWh: stored, usableWh: usable, hours: hours, current: current, html: html };
+} };
+
+function collect(){ return { volts: gv("f_volts"), ah: gv("f_ah"), load: gv("f_load"), dod: gv("f_dod"), eff: gv("f_eff") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누른 다음 "홈 화면에 추가"를 선택하세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

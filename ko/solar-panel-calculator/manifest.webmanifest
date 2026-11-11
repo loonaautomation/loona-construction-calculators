@@ -1,0 +1,29 @@
+{
+  "name": "Loona Solar Panel Calculator",
+  "short_name": "Solar Panel Calculator",
+  "description": "무료 태양광 패널 계산기: 월 전기 사용량, 피크 일조 시간, 패널 와트수를 입력하면 필요한 패널 수, kW 단위 시스템 크기, 예상 월 발전량, 지붕 면적을 알려 줘요. 가입은 필요 없어요.",
+  "id": "/loona-construction-calculators/ko/solar-panel-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

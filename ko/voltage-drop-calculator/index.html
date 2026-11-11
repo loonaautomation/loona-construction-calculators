@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>전압 강하 계산기 — 케이블 길이, 전류, 구리와 알루미늄, mm²와 AWG | Loona Construction Calculators</title>
+<meta name="description" content="무료 전압 강하 계산기: 편도 케이블 길이, 전류, 구리나 알루미늄, mm²나 AWG 단위 케이블 크기, 단상이나 삼상을 입력하면 강하 전압과 % 강하를 3%/5% 기준 안내와 함께 알려 줘요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/ko/voltage-drop-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/voltage-drop-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/voltage-drop-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/voltage-drop-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/voltage-drop-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/voltage-drop-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/voltage-drop-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/voltage-drop-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/voltage-drop-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/voltage-drop-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/voltage-drop-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/voltage-drop-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/voltage-drop-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/voltage-drop-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="전압 강하 계산기 — 케이블 길이, 전류, 구리와 알루미늄, mm²와 AWG | Loona Construction Calculators">
+<meta property="og:description" content="무료 전압 강하 계산기: 편도 케이블 길이, 전류, 구리나 알루미늄, mm²나 AWG 단위 케이블 크기, 단상이나 삼상을 입력하면 강하 전압과 % 강하를 3%/5% 기준 안내와 함께 알려 줘요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/ko/voltage-drop-calculator/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="전압 강하 계산기 — 케이블 길이, 전류, 구리와 알루미늄, mm²와 AWG | Loona Construction Calculators">
+<meta name="twitter:description" content="무료 전압 강하 계산기: 편도 케이블 길이, 전류, 구리나 알루미늄, mm²나 AWG 단위 케이블 크기, 단상이나 삼상을 입력하면 강하 전압과 % 강하를 3%/5% 기준 안내와 함께 알려 줘요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 전압 강하 계산기","url":"https://loonaautomation.github.io/loona-construction-calculators/ko/voltage-drop-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"전압 강하가 왜 중요한가요?","acceptedAnswer":{"@type":"Answer","text":"길고 가는 구간의 끝쪽 장비는 공급 전압보다 낮은 전압을 받아요. 조명은 어두워지고, 모터는 뜨거워져 멈출 수 있으며, 전자 기기가 오작동할 수 있어요. 케이블에서 잃는 에너지는 열로도 낭비돼요. 강하를 몇 퍼센트 안에 유지하면 부하가 설계대로 동작해요."}},{"@type":"Question","name":"3%와 5% 한계는 무슨 뜻인가요?","acceptedAnswer":{"@type":"Answer","text":"널리 쓰이는 지침 값으로, IEC 60364-5-52의 참고 부속서와 거기서 파생된 여러 나라의 배선 규칙에서 볼 수 있어요. 설비 시작점부터 부하까지 조명 회로는 공칭 전압의 약 3%, 그 밖의(전력) 회로는 5%의 전체 강하예요. 기준은 지역 규정이에요. 이 수치는 맥락일 뿐 그것을 대신하지 못해요."}},{"@type":"Question","name":"알루미늄의 강하는 왜 구리보다 높은가요?","acceptedAnswer":{"@type":"Answer","text":"알루미늄의 비저항 (2.65 × 10⁻⁸ Ω·m)은 구리 (1.68 × 10⁻⁸ Ω·m)의 약 1.58배라서, 같은 길이와 굵기의 알루미늄 케이블은 전압이 약 58% 더 강하해요. 그래서 알루미늄 구간은 보통 한두 단계 더 굵게 정해서 보완해요."}},{"@type":"Question","name":"길이를 왕복으로 입력하나요?","acceptedAnswer":{"@type":"Answer","text":"아니에요. 편도 거리만 입력하세요. 공식의 계수 2 (단상)나 √3 (삼상)이 전체 전류 경로를 이미 감안해요."}},{"@type":"Question","name":"케이블 리액턴스와 역률은 어떻게 하나요?","acceptedAnswer":{"@type":"Answer","text":"작은 케이블 (약 16–25 mm²까지)은 저항이 지배적이라 이 단순화된 계산이 가까워요. 큰 케이블, 긴 구간, 유도성이 강한 부하는 리액턴스와 역률이 강하에 더해져요. 그때는 완전한 IEC 방식 계산이나 전기 기술자의 점검이 가치가 있어요."}},{"@type":"Question","name":"내 강하가 너무 높으면 선택지는 무엇인가요?","acceptedAnswer":{"@type":"Answer","text":"더 굵은 케이블을 쓰거나(가장 효과적인 해결책이에요. 단면적을 두 배로 하면 강하가 절반이 돼요), 경로를 짧게 하거나, 부하를 회로 두 개로 나누거나, 시스템이 허용하면 더 높은 전압으로 부하에 공급하세요(같은 전력에서 삼상 전원은 400 V, 단상은 230 V라 삼상이 비례적으로 덜 떨어져요)."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "전압 강하 계산기",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/voltage-drop-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>건설 계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">소개</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; 전기 &rsaquo; 전압 강하 계산기</div>
+<h1 class="pagetitle">📉 전압 강하 계산기</h1>
+<p class="lead">긴 케이블 구간은 도중에 전압을 잃어요. 편도 길이, 전류, 도체 재질, 케이블 크기 (mm² 또는 AWG)를 입력하면 강하 전압과 백분율 강하를 얻을 수 있어요. 익숙한 3% / 5% 기준과 대조해요.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system">단위 체계</label><select id="f_system"><option value="m">미터법 (미터, mm&sup2;)</option><option value="i">야드파운드법 (피트, AWG)</option></select></div><div class="fld"><label for="f_length">편도 케이블 길이 <span class="u" data-u="length"></span> (공급에서 부하까지, 왕복이 아니에요)</label><input type="number" id="f_length" step="any" data-m="20" data-i="66" value="20"></div><div class="fld"><label for="f_current">부하 전류 (암페어)</label><input type="number" id="f_current" step="any" value="16"></div><div class="fld"><label for="f_volts">공급 전압 (볼트)</label><input type="number" id="f_volts" step="any" value="230"></div><div class="fld"><label for="f_material">도체 재질</label><select id="f_material"><option value="cu" selected>구리 (&rho; = 1.68 &times; 10&#8315;&#8312; &Omega;&middot;m)</option><option value="al">알루미늄 (&rho; = 2.65 &times; 10&#8315;&#8312; &Omega;&middot;m)</option></select></div><div class="fld"><label for="f_phase">공급 방식</label><select id="f_phase"><option value="1" selected>단상 (2선 배선)</option><option value="3">삼상 (평형)</option></select></div><div class="fld"><label for="f_size">케이블 단면적 (mm&sup2;)</label><select id="f_size"><option value="1.5">1.5 mm&sup2; (&asymp; 16 AWG)</option><option value="2.5" selected>2.5 mm&sup2; (&asymp; 14 AWG)</option><option value="4">4 mm&sup2; (&asymp; 12 AWG)</option><option value="6">6 mm&sup2; (&asymp; 10 AWG)</option><option value="10">10 mm&sup2; (&asymp; 8 AWG)</option><option value="16">16 mm&sup2; (&asymp; 6 AWG)</option><option value="25">25 mm&sup2; (&asymp; 4 AWG)</option><option value="35">35 mm&sup2; (&asymp; 2 AWG)</option><option value="50">50 mm&sup2; (&asymp; 1/0 AWG)</option><option value="70">70 mm&sup2; (&asymp; 2/0 AWG)</option><option value="95">95 mm&sup2; (&asymp; 3/0 AWG)</option><option value="120">120 mm&sup2; (&asymp; 4/0 AWG)</option></select></div><div class="fld"><label for="f_awg">AWG 선택 (선택 사항 &mdash; 선택하면 mm&sup2; 선택보다 우선해요)</label><select id="f_awg"><option value="">위의 mm&sup2; 선택을 쓰세요</option><option value="0.823">18 AWG (0.823 mm&sup2;)</option><option value="1.31">16 AWG (1.31 mm&sup2;)</option><option value="2.08">14 AWG (2.08 mm&sup2;)</option><option value="3.31">12 AWG (3.31 mm&sup2;)</option><option value="5.26">10 AWG (5.26 mm&sup2;)</option><option value="8.37">8 AWG (8.37 mm&sup2;)</option><option value="13.3">6 AWG (13.3 mm&sup2;)</option><option value="21.2">4 AWG (21.2 mm&sup2;)</option><option value="33.6">2 AWG (33.6 mm&sup2;)</option><option value="53.5">1/0 AWG (53.5 mm&sup2;)</option><option value="67.4">2/0 AWG (67.4 mm&sup2;)</option><option value="85.0">3/0 AWG (85.0 mm&sup2;)</option><option value="107.2">4/0 AWG (107.2 mm&sup2;)</option></select></div>
+<button type="button" class="calcbtn" id="calcBtn">계산하기</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>전압 강하 계산기 사용법</h2><ol><li>전원에서 부하까지의 편도 거리를 재세요. 공식이 단상 구간의 두 도체를 이미 세고 있으니, 측정값을 두 배로 하지 마세요.</li><li>부하가 실제로 소비하는 전류, 공급 전압, 도체 재질, 공급이 단상인지 삼상인지를 입력하세요.</li><li>케이블 크기를 mm²로 고르거나, 케이블이 게이지로 판매되면 AWG 선택기를 쓴 뒤 계산 버튼을 누르세요.</li></ol>
+<div class="exbox"><strong>예:</strong> 2.5 mm² 케이블로 230 V에서 16 A를 보내는 20 m 단상 구리 구간의 전압 강하는 <strong>4.30 V</strong> — <strong>1.87%</strong>, 가이드 값 범위 안에 충분히 들어와요.</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>전압 강하가 왜 중요한가요?</h3><p>길고 가는 구간의 끝쪽 장비는 공급 전압보다 낮은 전압을 받아요. 조명은 어두워지고, 모터는 뜨거워져 멈출 수 있으며, 전자 기기가 오작동할 수 있어요. 케이블에서 잃는 에너지는 열로도 낭비돼요. 강하를 몇 퍼센트 안에 유지하면 부하가 설계대로 동작해요.</p></div><div class="faq"><h3>3%와 5% 한계는 무슨 뜻인가요?</h3><p>널리 쓰이는 지침 값으로, IEC 60364-5-52의 참고 부속서와 거기서 파생된 여러 나라의 배선 규칙에서 볼 수 있어요. 설비 시작점부터 부하까지 조명 회로는 공칭 전압의 약 3%, 그 밖의(전력) 회로는 5%의 전체 강하예요. 기준은 지역 규정이에요. 이 수치는 맥락일 뿐 그것을 대신하지 못해요.</p></div><div class="faq"><h3>알루미늄의 강하는 왜 구리보다 높은가요?</h3><p>알루미늄의 비저항 (2.65 × 10⁻⁸ Ω·m)은 구리 (1.68 × 10⁻⁸ Ω·m)의 약 1.58배라서, 같은 길이와 굵기의 알루미늄 케이블은 전압이 약 58% 더 강하해요. 그래서 알루미늄 구간은 보통 한두 단계 더 굵게 정해서 보완해요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../wire-size-calculator/"><div class="ic">🧵</div><h3>전선 굵기 계산기</h3><p>전기</p></a><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>옴의 법칙 계산기</h3><p>전기</p></a><a class="card" href="../electricity-cost-calculator/"><div class="ic">💷</div><h3>전기 요금 계산기</h3><p>전기</p></a><a class="card" href="../solar-panel-calculator/"><div class="ic">☀️</div><h3>태양광 패널 계산기</h3><p>전기</p></a></div>
+</div>
+<section class="txt"><h2>작동 원리 &mdash; 공식</h2>
+<p><strong>단상:</strong> V<sub>강하</sub> = 2 × I × ρ × L ÷ A<br>
+<strong>삼상 (평형):</strong> V<sub>강하</sub> = √3 × I × ρ × L ÷ A<br>
+<strong>% 강하</strong> = V<sub>강하</sub> ÷ 공급 전압 × 100</p>
+<p>여기서 I는 전류(A), L은 <em>편도</em> 길이(m)이고, A는 도체 단면적(mm²), ρ는 도체 비저항으로 구리 기준 0.0168 Ω·mm²/m로 표현해요(ρ = 1.68 × 10<sup>−8</sup> Ω·m), 그리고 알루미늄 기준 0.0265 Ω·mm²/m (ρ = 2.65 × 10<sup>−8</sup> Ω·m). 단상 공식의 계수 2는 왕복 한 쌍의 도체이고, √3은 그 삼상 등가값이에요. 3%와 5%라는 수치는 IEC 60364-5-52의 정보성 지침 (그리고 이를 바탕으로 한 국가 규정)에서 온 거예요. 설치의 시작점부터 사용 지점까지, 조명 회로에는 공급 전압의 대략 3%, 그 밖의 용도에는 5%를 적용해요.</p>
+<h3>풀이 예</h3>
+<div class="exbox">단상 구리, L = 20 m, I = 16 A, A = 2.5 mm², 공급 전압 230 V: V<sub>강하</sub> = 2 × 16 × 0.0168 × 20 ÷ 2.5 = 10.752 ÷ 2.5 = <strong>4.30 V</strong>. 백분율로는: 4.30 ÷ 230 × 100 = <strong>1.87%</strong> — 조명 3%와 전력 5% 지침 값 양쪽 안에 들어와요.</div>
+<div class="resnote" style="font-size:14px;color:#5a6b68;background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin:12px 0"><strong>안전 참고:</strong> 이 계산기는 단순화된 저항 모델을 쓰는 계획 보조 도구예요. 실제 설비는 지역 배선 규정에 따른 케이블 전류 용량, 보호 장치, 접지 요건도 충족해야 해요. 자격 있는 전기 기술자에게 설계를 맡기거나 점검을 받으세요.</div>
+<h3>자주 묻는 질문</h3></section>
+<div class="faq"><h3>길이를 왕복으로 입력하나요?</h3><p>아니에요. 편도 거리만 입력하세요. 공식의 계수 2 (단상)나 √3 (삼상)이 전체 전류 경로를 이미 감안해요.</p></div><div class="faq"><h3>케이블 리액턴스와 역률은 어떻게 하나요?</h3><p>작은 케이블 (약 16–25 mm²까지)은 저항이 지배적이라 이 단순화된 계산이 가까워요. 큰 케이블, 긴 구간, 유도성이 강한 부하는 리액턴스와 역률이 강하에 더해져요. 그때는 완전한 IEC 방식 계산이나 전기 기술자의 점검이 가치가 있어요.</p></div><div class="faq"><h3>내 강하가 너무 높으면 선택지는 무엇인가요?</h3><p>더 굵은 케이블을 쓰거나(가장 효과적인 해결책이에요. 단면적을 두 배로 하면 강하가 절반이 돼요), 경로를 짧게 하거나, 부하를 회로 두 개로 나누거나, 시스템이 허용하면 더 높은 전압으로 부하에 공급하세요(같은 전력에서 삼상 전원은 400 V, 단상은 230 V라 삼상이 비례적으로 덜 떨어져요).</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 내 웹사이트에 임베드하세요 — 무료예요</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 내 웹사이트나 블로그에 추가하세요. 완전히 무료이고, 가입도 필요 없으며, 항상 최신 버전을 보여 줘요. 아래 코드를 복사해서 계산기가 나타나길 원하는 위치에 붙여 넣으세요. 임베드 아래의 작은 &ldquo;Powered by Loona Automation&rdquo; 출처 표기를 유지해 주시면 이 도구를 계속 무료로 제공하는 데 도움이 돼요. 다만 스타일을 바꾸거나 지우셔도 자유예요. 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/ko/voltage-drop-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Voltage Drop Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/ko/voltage-drop-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 전압 강하 계산기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='복사했어요!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../paint-calculator/">페인트 계산기</a></li>
+<li><a href="../concrete-calculator/">콘크리트 계산기</a></li>
+<li><a href="../tile-calculator/">타일 계산기</a></li>
+<li><a href="../brick-calculator/">벽돌 계산기</a></li>
+<li><a href="../roof-pitch-calculator/">지붕 경사 계산기</a></li>
+<li><a href="../stairs-calculator/">계단 계산기</a></li></ul></div>
+<div><h4>Loona 도구 더 보기</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Loona 도구 전체</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">소개</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용약관</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> 의 프로젝트입니다. 미터법과 야드파운드법 단위의 무료 건설 계산기, 가입도 필요 없어요.
+문의: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var RHO = { cu: 0.0168, al: 0.0265 };
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.length, v.current, v.volts)) return bad("편도 케이블 길이, 전류, 공급 전압을 입력하세요 (모두 영보다 커야 해요).");
+  var A = (v.awg > 0) ? v.awg : v.size;
+  if (!pos(A)) return bad("케이블 규격을 mm² 단위나 AWG 규격으로 선택하세요.");
+  var L = v.length * ((v.sys === "i") ? FT : 1);
+  var rho = RHO[v.material] || RHO.cu;
+  var k = (v.phase === "3") ? Math.sqrt(3) : 2;
+  var vd = k * v.current * rho * L / A;
+  var pct = vd / v.volts * 100;
+  var verdict = pct <= 3 ? "조명 회로에 쓰는 기준값 3% 이내예요." : (pct <= 5 ? "3%를 넘지만, 다른 (전력) 회로에 흔히 쓰는 기준값 5% 이내예요." : "기준값 5%를 넘었어요 — 더 굵은 케이블이나 더 짧은 경로를 고려하세요.");
+  var html = resTable("전압 강하", fmt(vd, 2) + " V (" + fmt(pct, 2) + "%)",
+    [["사용한 케이블 규격", fmt(A, 2) + " mm\u00B2"],["편도 길이", fmt(L, 1) + " m"],["도체 저항 (루프 기준)", fmt(k * rho * L / A, 4) + " \u03A9"],["부하에서의 전압", fmt(v.volts - vd, 2) + " V"],["공급 대비 강하 %", fmt(pct, 2) + "%"]],
+    verdict + " 참고 수치: IEC 60364-5-52의 정보성 지침과 많은 국가 규정은 설치의 시작점부터 측정해 조명은 약 3%, 그 밖의 용도는 5%를 기준으로 해요. 이것은 간소화된 저항성 계산이에요 (리액턴스와 역률은 무시해요). 가는 케이블에서는 정확하고, 굵은 케이블에서는 좋은 첫 번째 점검이 돼요. 전기 작업은 지역 규정의 적용을 받아요 — 자격을 갖춘 전기 기술자에게 설치를 점검받으세요.");
+  return { ok: true, vd: vd, pct: pct, A: A, L: L, html: html };
+} };
+
+function collect(){ return { sys: gs("f_system"), length: gv("f_length"), current: gv("f_current"), volts: gv("f_volts"), material: gs("f_material"), phase: gs("f_phase"), size: parseFloat(gs("f_size")), awg: gv("f_awg") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {"length":["m","ft"]};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누른 다음 "홈 화면에 추가"를 선택하세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Roof Pitch Calculator",
+  "short_name": "Roof Pitch Calculator",
+  "description": "무료 지붕 경사 계산기: 높이와 수평 거리를 어떤 단위로든 입력하면 비율 (x-in-12), 도 단위 각도, 백분율 경사율, 서까래 길이를 알려 줘요. 미터법과 야드파운드법 측정에 모두 동작해요.",
+  "id": "/loona-construction-calculators/ko/roof-pitch-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

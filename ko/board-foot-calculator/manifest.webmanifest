@@ -1,0 +1,29 @@
+{
+  "name": "Loona Board Foot Calculator",
+  "short_name": "Board Foot Calculator",
+  "description": "무료 보드피트 계산기: 목재 두께, 너비, 길이, 개수를 야드파운드법이나 미터법으로 입력하면 목재 주문에 필요한 전체 보드피트와 세제곱미터를 알려 줘요.",
+  "id": "/loona-construction-calculators/ko/board-foot-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

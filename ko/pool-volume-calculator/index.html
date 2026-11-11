@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>수영장 용량 계산기 — 모든 수영장 모양의 리터와 갤런 | Loona Construction Calculators</title>
+<meta name="description" content="직사각형, 원형, 타원형 수영장을 위한 무료 수영장 용량 계산기: 크기와 얕은 쪽/깊은 쪽 깊이를 미터법이나 야드파운드법으로 입력하면 약품 투약과 물 채우기에 필요한 물 부피를 리터와 US 갤런으로 알려 줘요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/ko/pool-volume-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/pool-volume-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/pool-volume-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/pool-volume-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/pool-volume-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/pool-volume-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/pool-volume-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/pool-volume-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/pool-volume-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/pool-volume-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/pool-volume-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/pool-volume-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/pool-volume-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/pool-volume-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="수영장 용량 계산기 — 모든 수영장 모양의 리터와 갤런 | Loona Construction Calculators">
+<meta property="og:description" content="직사각형, 원형, 타원형 수영장을 위한 무료 수영장 용량 계산기: 크기와 얕은 쪽/깊은 쪽 깊이를 미터법이나 야드파운드법으로 입력하면 약품 투약과 물 채우기에 필요한 물 부피를 리터와 US 갤런으로 알려 줘요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/ko/pool-volume-calculator/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="수영장 용량 계산기 — 모든 수영장 모양의 리터와 갤런 | Loona Construction Calculators">
+<meta name="twitter:description" content="직사각형, 원형, 타원형 수영장을 위한 무료 수영장 용량 계산기: 크기와 얕은 쪽/깊은 쪽 깊이를 미터법이나 야드파운드법으로 입력하면 약품 투약과 물 채우기에 필요한 물 부피를 리터와 US 갤런으로 알려 줘요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 수영장 용량 계산기","url":"https://loonaautomation.github.io/loona-construction-calculators/ko/pool-volume-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"바닥이 기울어진 수영장은 어떻게 재나요?","acceptedAnswer":{"@type":"Answer","text":"얕은 쪽 끝과 깊은 쪽 끝에서 수심을 재서 (벽 상단이 아니라 수위까지예요) 둘 다 입력하세요. 계산기가 평균을 내요. 바닥이 가파른 '호퍼'형 수영장은 실제 부피가 평균이 시사하는 것보다 약간 적어요. 약품은 보수적으로 투약하고 검사하면서 조정하세요."}},{"@type":"Question","name":"왜 리터나 갤런 단위 부피가 필요한가요?","acceptedAnswer":{"@type":"Answer","text":"거의 모든 수영장 약품, 즉 염소, pH 조절제, 조류 제거제, 응집제는 물의 부피 기준으로 투약해요. 부피를 짐작으로 정하는 것이 수영장에서 과다 또는 과소 투약이 일어나는 주된 이유예요. 부피를 재서 알면 검사 결과와 투약량이 맞아떨어져요."}},{"@type":"Question","name":"수영장을 채우는 데 얼마나 걸릴까요?","acceptedAnswer":{"@type":"Answer","text":"부피를 호스나 수도꼭지의 유량으로 나누세요. 일반적인 정원 호스는 분당 15–20리터를 내보내요. 48,000리터 ÷ 18 L/min ≈ 2,670분, 약 44시간이에요. 대부분은 이틀에 걸쳐 나눠 채워요."}},{"@type":"Question","name":"콩팥형이나 자유형 수영장도 이 모양에 맞나요?","acceptedAnswer":{"@type":"Answer","text":"대략 맞아요. 가장 긴 길이와 가장 넓은 너비로 타원 공식을 적용한 뒤, 모서리를 자르는 곡선 부분을 감안해 결과를 약 10–15% 줄이세요. 투약 용도로는 충분히 가깝고, 첫 약품 검사로 확인하면 더 확실해요."}},{"@type":"Question","name":"원형 지상 수영장에는 물이 얼마나 들어가나요?","acceptedAnswer":{"@type":"Answer","text":"지름을 너비로 입력하고, 벽 높이에서 약 15 cm를 뺀 값 (물은 테두리 아래까지 차요)을 양쪽 깊이로 입력하세요. 4.6 m (15 ft) 수영장에 1.1 m까지 채우면 약 18,300리터 (4,830 US 갤런)가 들어가요."}},{"@type":"Question","name":"미국 갤런과 임페리얼 갤런 중 무엇을 써야 하나요?","acceptedAnswer":{"@type":"Answer","text":"미국 갤런(3.785 L)이에요. 사실상 모든 수영장 제품 라벨이 이 단위를 써요. 임페리얼 갤런은 4.546 L예요. 오래된 영국 제품이 임페리얼 갤런 기준으로 투입량을 정한다면, 먼저 리터를 변환하세요(리터 ÷ 4.546)."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "수영장 용량 계산기",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/pool-volume-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>건설 계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">소개</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; 건설 &rsaquo; 수영장 용량 계산기</div>
+<h1 class="pagetitle">🏊 수영장 용량 계산기</h1>
+<p class="lead">내 수영장에는 물이 얼마나 들어갈까요? 모양 (직사각형, 원형, 타원형)을 고르고 크기와 얕은 쪽, 깊은 쪽 깊이를 입력하면 부피를 리터와 US 갤런으로 알려 드려요. 약품 투약, 가열, 물 채우는 시간에 필요한 바로 그 숫자예요.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system">단위 체계</label><select id="f_system"><option value="m">미터법 (미터, 리터, kg)</option><option value="i">야드파운드법 (피트, 갤런, lb)</option></select></div><div class="fld"><label for="f_shape">수영장 모양</label><select id="f_shape"><option value="rect">직사각형</option><option value="round">원형 (원)</option><option value="oval">타원</option></select></div><div class="fld"><label for="f_length">길이 (원형 수영장에는 필요 없어요) <span class="u" data-u="length"></span></label><input type="number" id="f_length" step="any" data-m="8" data-i="26" value="8" ></div><div class="fld"><label for="f_width">너비 — 원형 수영장은 지름 <span class="u" data-u="width"></span></label><input type="number" id="f_width" step="any" data-m="4" data-i="13" value="4" ></div><div class="fld"><label for="f_shallow">얕은 쪽 깊이 <span class="u" data-u="depth"></span></label><input type="number" id="f_shallow" step="any" data-m="1.1" data-i="3.6" value="1.1" ></div><div class="fld"><label for="f_deep">깊은 쪽 깊이 <span class="u" data-u="depth"></span></label><input type="number" id="f_deep" step="any" data-m="1.8" data-i="5.9" value="1.8" ></div><div class="fld"><label for="f_waste">로스 / 여유분 (%)</label><input type="number" id="f_waste" step="any" min="0" value="0"></div>
+<button type="button" class="calcbtn" id="calcBtn">계산하기</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>수영장 용량 계산기 사용법</h2><ol><li>미터법이나 야드파운드법 단위를 고르세요.</li><li>수영장 모양을 고르세요. 직사각형, 원형, 타원형이에요.</li><li>길이와 너비를 입력하세요 (원형 수영장은 너비가 지름이에요).</li><li>얕은 쪽과 깊은 쪽의 수심을 입력하세요. 계산기가 평균을 내는데, 곧게 기울어진 바닥에 잘 맞아요.</li><li>계산을 누르면 리터와 미국 갤런이 나와요.</li></ol>
+<div class="exbox"><strong>예:</strong> 8 m × 4 m 수영장에 깊이가 일정하게 1.5 m이면 물이 48 m³ 들어가요. 48,000리터, 약 12,680 US 갤런이에요.</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>바닥이 기울어진 수영장은 어떻게 재나요?</h3><p>얕은 쪽 끝과 깊은 쪽 끝에서 수심을 재서 (벽 상단이 아니라 수위까지예요) 둘 다 입력하세요. 계산기가 평균을 내요. 바닥이 가파른 '호퍼'형 수영장은 실제 부피가 평균이 시사하는 것보다 약간 적어요. 약품은 보수적으로 투약하고 검사하면서 조정하세요.</p></div><div class="faq"><h3>왜 리터나 갤런 단위 부피가 필요한가요?</h3><p>거의 모든 수영장 약품, 즉 염소, pH 조절제, 조류 제거제, 응집제는 물의 부피 기준으로 투약해요. 부피를 짐작으로 정하는 것이 수영장에서 과다 또는 과소 투약이 일어나는 주된 이유예요. 부피를 재서 알면 검사 결과와 투약량이 맞아떨어져요.</p></div><div class="faq"><h3>수영장을 채우는 데 얼마나 걸릴까요?</h3><p>부피를 호스나 수도꼭지의 유량으로 나누세요. 일반적인 정원 호스는 분당 15–20리터를 내보내요. 48,000리터 ÷ 18 L/min ≈ 2,670분, 약 44시간이에요. 대부분은 이틀에 걸쳐 나눠 채워요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../tile-calculator/"><div class="ic">🔲</div><h3>타일 계산기</h3><p>건설</p></a><a class="card" href="../concrete-calculator/"><div class="ic">🧱</div><h3>콘크리트 계산기</h3><p>건설</p></a><a class="card" href="../deck-calculator/"><div class="ic">🌞</div><h3>데크 계산기</h3><p>건설</p></a><a class="card" href="../sand-calculator/"><div class="ic">🏖️</div><h3>모래 계산기</h3><p>건설</p></a><a class="card" href="../paint-calculator/"><div class="ic">🎨</div><h3>페인트 계산기</h3><p>건설</p></a></div>
+</div>
+<section class="txt"><h2>작동 원리 &mdash; 공식</h2>
+<p><strong>평균 깊이</strong> = (얕은 깊이 + 깊은 깊이) ÷ 2<br>
+<strong>직사각형</strong>: 부피 = 길이 × 너비 × 평균 깊이<br>
+<strong>반올림</strong>: 부피 = π × (지름 ÷ 2)² × 평균 깊이<br>
+<strong>타원</strong>: 부피 = π × (길이 ÷ 2) × (너비 ÷ 2) × 평균 깊이</p>
+<p>세제곱미터 하나는 정확히 1,000리터이고 약 264.2 US 갤런이에요. 평균 깊이 방식은 바닥이 얕은 쪽에서 깊은 쪽으로 고르게 기울어졌다고 가정하는데, 대부분의 가정용 수영장이 그래요.</p>
+<h3>풀이 예</h3>
+<div class="exbox">직사각형 수영장 8 m × 4 m, 양쪽 끝 깊이가 모두 1.5 m로 일정하면 평균 깊이 = 1.5 m예요. 부피 = 8 × 4 × 1.5 = <strong>48 m³</strong> = <strong>48,000리터</strong> = 48,000 ÷ 3.785 ≈ <strong>12,680 US 갤런</strong>.</div>
+<h3>자주 묻는 질문</h3></section>
+<div class="faq"><h3>콩팥형이나 자유형 수영장도 이 모양에 맞나요?</h3><p>대략 맞아요. 가장 긴 길이와 가장 넓은 너비로 타원 공식을 적용한 뒤, 모서리를 자르는 곡선 부분을 감안해 결과를 약 10–15% 줄이세요. 투약 용도로는 충분히 가깝고, 첫 약품 검사로 확인하면 더 확실해요.</p></div><div class="faq"><h3>원형 지상 수영장에는 물이 얼마나 들어가나요?</h3><p>지름을 너비로 입력하고, 벽 높이에서 약 15 cm를 뺀 값 (물은 테두리 아래까지 차요)을 양쪽 깊이로 입력하세요. 4.6 m (15 ft) 수영장에 1.1 m까지 채우면 약 18,300리터 (4,830 US 갤런)가 들어가요.</p></div><div class="faq"><h3>미국 갤런과 임페리얼 갤런 중 무엇을 써야 하나요?</h3><p>미국 갤런(3.785 L)이에요. 사실상 모든 수영장 제품 라벨이 이 단위를 써요. 임페리얼 갤런은 4.546 L예요. 오래된 영국 제품이 임페리얼 갤런 기준으로 투입량을 정한다면, 먼저 리터를 변환하세요(리터 ÷ 4.546).</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 내 웹사이트에 임베드하세요 — 무료예요</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 내 웹사이트나 블로그에 추가하세요. 완전히 무료이고, 가입도 필요 없으며, 항상 최신 버전을 보여 줘요. 아래 코드를 복사해서 계산기가 나타나길 원하는 위치에 붙여 넣으세요. 임베드 아래의 작은 &ldquo;Powered by Loona Automation&rdquo; 출처 표기를 유지해 주시면 이 도구를 계속 무료로 제공하는 데 도움이 돼요. 다만 스타일을 바꾸거나 지우셔도 자유예요. 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/ko/pool-volume-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Pool Volume Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/ko/pool-volume-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 수영장 용량 계산기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='복사했어요!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../paint-calculator/">페인트 계산기</a></li>
+<li><a href="../concrete-calculator/">콘크리트 계산기</a></li>
+<li><a href="../tile-calculator/">타일 계산기</a></li>
+<li><a href="../brick-calculator/">벽돌 계산기</a></li>
+<li><a href="../roof-pitch-calculator/">지붕 경사 계산기</a></li>
+<li><a href="../stairs-calculator/">계단 계산기</a></li></ul></div>
+<div><h4>Loona 도구 더 보기</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Loona 도구 전체</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">소개</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용약관</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> 의 프로젝트입니다. 미터법과 야드파운드법 단위의 무료 건설 계산기, 가입도 필요 없어요.
+문의: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+
+/* shared helpers: DOM getters (browser) + unit conversions + formatting */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.W, v.shallow, v.deep) || (v.shape !== "round" && !pos(v.L))) return bad("너비 (원형 수영장은 지름)와 두 깊이를 입력하세요. 직사각형과 타원형 수영장은 길이도 입력하세요.");
+  var f = (v.sys === "i") ? FT : 1;
+  var L = v.L * f, W = v.W * f;
+  var avg = ((v.shallow + v.deep) / 2) * f;
+  var vol;
+  if (v.shape === "round") vol = Math.PI * Math.pow(W / 2, 2) * avg;
+  else if (v.shape === "oval") vol = Math.PI * (L / 2) * (W / 2) * avg;
+  else vol = L * W * avg;
+  var volW = vol * (1 + (v.waste || 0) / 100);
+  var litres = volW * 1000, gallons = litres / GAL;
+  var rows = [["사용한 평균 깊이", fmt(avg, 2) + " m (" + fmt(avg / FT, 2) + " ft)"],
+     ["부피", fmt(volW, 1) + " m\u00B3"],
+     ["리터", fmt(litres, 0) + " L"],
+     ["US 갤런", fmt(gallons, 0) + " gal"]];
+  var html = resTable("수영장 부피", fmt(litres, 0) + " 리터 (" + fmt(gallons, 0) + " US gal)", rows,
+    "화학 약품의 용량은 대부분의 제품 라벨에서 10,000리터 (약 2,640 US 갤런) 기준으로 계산해요 — 부피를 그에 맞게 나누세요. 테두리가 아니라 수위선까지 측정하세요.");
+  return { ok: true, avgDepth: avg, volume: volW, litres: litres, gallons: gallons, html: html };
+} };
+
+function collect(){
+return { sys: gs("f_system"), shape: gs("f_shape"), L: gv("f_length"), W: gv("f_width"), shallow: gv("f_shallow"), deep: gv("f_deep"), waste: gv("f_waste") };
+}
+
+/* ---- page wiring (browser only) ---- */
+if (typeof document !== "undefined") {
+  var UNITS = {"length":["m","ft"],"width":["m","ft"],"depth":["m","ft"]};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누른 다음 "홈 화면에 추가"를 선택하세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

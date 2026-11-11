@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>단열 계산기 — 배트, 롤, 충전식 도포 | Loona Construction Calculators</title>
+<meta name="description" content="무료 단열 계산기: 면적과 목표 R값 (또는 미터법 RSI)을 입력하면 구매할 배트/롤 팩이나 충전식 단열재 포대 수, 목표에 필요한 두께를 알려 줘요. 미터법과 야드파운드법 모두 가능해요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/ko/insulation-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/insulation-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/insulation-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/insulation-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/insulation-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/insulation-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/insulation-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/insulation-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/insulation-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/insulation-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/insulation-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/insulation-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/insulation-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/insulation-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="단열 계산기 — 배트, 롤, 충전식 도포 | Loona Construction Calculators">
+<meta property="og:description" content="무료 단열 계산기: 면적과 목표 R값 (또는 미터법 RSI)을 입력하면 구매할 배트/롤 팩이나 충전식 단열재 포대 수, 목표에 필요한 두께를 알려 줘요. 미터법과 야드파운드법 모두 가능해요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/ko/insulation-calculator/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="단열 계산기 — 배트, 롤, 충전식 도포 | Loona Construction Calculators">
+<meta name="twitter:description" content="무료 단열 계산기: 면적과 목표 R값 (또는 미터법 RSI)을 입력하면 구매할 배트/롤 팩이나 충전식 단열재 포대 수, 목표에 필요한 두께를 알려 줘요. 미터법과 야드파운드법 모두 가능해요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 단열 계산기","url":"https://loonaautomation.github.io/loona-construction-calculators/ko/insulation-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"R값은 어느 정도가 필요한가요?","acceptedAnswer":{"@type":"Answer","text":"부위와 지역의 기후/건축 규정에 따라 달라요. 대략적인 기준: 추운 기후에서는 단열되지 않은 다락 천장을 흔히 R-30에서 R-60 (RSI 5.3–10.6)까지, 벽은 R-13에서 R-21까지 올려요. 지역 에너지 규정을 확인하세요. 새 공사의 법적 최소값을 정하는 기준이에요."}},{"@type":"Question","name":"R값과 RSI의 차이는 무엇인가요?","acceptedAnswer":{"@type":"Answer","text":"같은 것을 재요. 열 흐름에 대한 저항이에요. R값은 야드파운드법 단위이고, RSI는 유럽과 캐나다에서 쓰는 미터법 단위예요. RSI = R × 0.176이라서 R-20은 RSI 3.5이고, EU 제품에 인쇄된 유럽식 'R'은 사실 모습을 바꾼 RSI예요."}},{"@type":"Question","name":"R이 높아지면 왜 포대 하나로 덮는 면적이 줄어드나요?","acceptedAnswer":{"@type":"Answer","text":"충전식 도포 표는 가라앉은 뒤 밀도 기준이에요. 같은 제곱미터에서 더 높은 R에 도달하려면 자재를 더 두껍게 넣어야 해서, 포대 하나가 더 적은 제곱미터에 더 얇게 퍼져요. 대표 수치가 아니라 목표 R에 맞는 도포 행을 항상 읽으세요."}},{"@type":"Question","name":"단열재를 두 겹으로 넣어야 하나요?","acceptedAnswer":{"@type":"Answer","text":"장선 사이의 배트라면 그래요. 장선을 가로질러 90°로 두 번째 층을 얹으면 첫 번째 층의 목재 열교와 틈을 덮어 줘요. 같은 방식으로 두꺼운 한 층을 넣는 것보다 성능이 눈에 띄게 좋아요."}},{"@type":"Question","name":"단열재를 압축하면 R값이 줄어드나요?","acceptedAnswer":{"@type":"Answer","text":"네. 만들어진 깊이보다 얕은 공간에 억지로 눌러 넣은 배트는 압축률에 비례해서 성능을 잃어요. 두꺼운 제품을 억지로 눌러 넣지 말고, 내 공간 깊이에 맞게 만들어진 제품을 고르세요."}},{"@type":"Question","name":"여유를 얼마나 둬야 하나요?","acceptedAnswer":{"@type":"Answer","text":"10%는 배트와 롤 제품에서 장선, 파이프, 가장자리 주변의 재단분을 감당해요. 충전식 단열재는 시공 후 약간 가라앉기 때문에, 시공자는 보통 가라앉은 뒤 목표 깊이보다 5–10% 더 불어 넣는데, 이 여유분이 그 부분까지 감당해요."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "단열 계산기",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/insulation-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>건설 계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">소개</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; 건설 &rsaquo; 단열재 계산기</div>
+<h1 class="pagetitle">🌡️ 단열 계산기</h1>
+<p class="lead">다락, 천장, 벽을 단열할 때: 면적과 목표 R값을 입력하고 배트/롤이나 충전식을 고르면 구매할 팩이나 포대 수를 알려 드려요. 고른 자재로 목표에 도달하는 대략적인 두께도 함께요.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system">단위 체계</label><select id="f_system"><option value="m">미터법 (미터, 리터, kg)</option><option value="i">야드파운드법 (피트, 갤런, lb)</option></select></div><div class="fld"><label for="f_length">구역 길이 <span class="u" data-u="length"></span></label><input type="number" id="f_length" step="any" data-m="10" data-i="33" value="10" ></div><div class="fld"><label for="f_width">구역 너비 <span class="u" data-u="width"></span></label><input type="number" id="f_width" step="any" data-m="5" data-i="16" value="5" ></div><div class="fld"><label for="f_target">목표 단열 값 <span class="u" data-u="target"></span></label><input type="number" id="f_target" step="any" data-m="3.5" data-i="20" value="3.5" ></div><div class="fld"><label for="f_material">단열재</label><select id="f_material"><option value="glass">유리섬유 배트 / 롤</option><option value="mineral">미네랄 (암면) 울</option><option value="cellulose">셀룰로오스 (충전식)</option><option value="eps">EPS 폼 보드</option></select></div><div class="fld"><label for="f_mode">제품 형태</label><select id="f_mode"><option value="batt">배트 / 롤 — 팩 단위 판매</option><option value="blown">충전식 — 포대 단위 판매</option></select></div><div class="fld"><label for="f_coverage">목표 값에서의 팩 / 포대당 도포 면적 <span class="u" data-u="coverage"></span></label><input type="number" id="f_coverage" step="any" data-m="5" data-i="54" value="5" ></div><div class="fld"><label for="f_waste">로스 / 여유분 (%)</label><input type="number" id="f_waste" step="any" min="0" value="10"></div>
+<button type="button" class="calcbtn" id="calcBtn">계산하기</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>단열 계산기 사용법</h2><ol><li>미터법이나 야드파운드법 단위를 고르세요.</li><li>구역의 길이와 너비를 입력하세요 (다락은 그 아래 천장이에요).</li><li>목표를 입력하세요. 야드파운드법은 R값, 미터법은 RSI예요 (R-20 ≈ RSI 3.5; R-30 ≈ RSI 5.3).</li><li>자재와 배트/롤 형태인지 충전식 포대 형태인지를 고르세요.</li><li>제품 표에서 목표 R에 맞는 팩/포대당 도포 면적을 옮겨 적은 뒤 계산 버튼을 누르세요.</li></ol>
+<div class="exbox"><strong>예:</strong> 10 m × 5 m 천장 (50 m²)에 한 팩이 5 m²를 덮으면 10팩이 필요해요. 재단과 장선 틈을 위한 기본 10% 여유를 더하면 11팩이에요.</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>R값은 어느 정도가 필요한가요?</h3><p>부위와 지역의 기후/건축 규정에 따라 달라요. 대략적인 기준: 추운 기후에서는 단열되지 않은 다락 천장을 흔히 R-30에서 R-60 (RSI 5.3–10.6)까지, 벽은 R-13에서 R-21까지 올려요. 지역 에너지 규정을 확인하세요. 새 공사의 법적 최소값을 정하는 기준이에요.</p></div><div class="faq"><h3>R값과 RSI의 차이는 무엇인가요?</h3><p>같은 것을 재요. 열 흐름에 대한 저항이에요. R값은 야드파운드법 단위이고, RSI는 유럽과 캐나다에서 쓰는 미터법 단위예요. RSI = R × 0.176이라서 R-20은 RSI 3.5이고, EU 제품에 인쇄된 유럽식 'R'은 사실 모습을 바꾼 RSI예요.</p></div><div class="faq"><h3>R이 높아지면 왜 포대 하나로 덮는 면적이 줄어드나요?</h3><p>충전식 도포 표는 가라앉은 뒤 밀도 기준이에요. 같은 제곱미터에서 더 높은 R에 도달하려면 자재를 더 두껍게 넣어야 해서, 포대 하나가 더 적은 제곱미터에 더 얇게 퍼져요. 대표 수치가 아니라 목표 R에 맞는 도포 행을 항상 읽으세요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../drywall-calculator/"><div class="ic">🧱</div><h3>석고보드 계산기</h3><p>건설</p></a><a class="card" href="../carpet-calculator/"><div class="ic">🧶</div><h3>카펫 계산기</h3><p>건설</p></a><a class="card" href="../solar-panel-calculator/"><div class="ic">☀️</div><h3>태양광 패널 계산기</h3><p>건설</p></a><a class="card" href="../roof-pitch-calculator/"><div class="ic">🏠</div><h3>지붕 경사 계산기</h3><p>건설</p></a><a class="card" href="../plywood-calculator/"><div class="ic">🪵</div><h3>합판 계산기</h3><p>건설</p></a></div>
+</div>
+<section class="txt"><h2>작동 원리 &mdash; 공식</h2>
+<p><strong>팩 / 포대</strong> = ceil( 면적 × (1 + 로스 %) ÷ 팩/포대당 도포 면적 )<br>
+<strong>두께</strong> ≈ 목표값 ÷ 단위 두께당 재료 값</p>
+<p>R값은 층을 겹치면 더해지고, 미터법 RSI는 R = RSI × 5.678(RSI = R × 0.176)로 변환돼요. 대표적인 재료 성능은 유리섬유 인치당 약 R-3.5(25 mm당 RSI 0.61), 미네랄울 R-3.8/inch, 취입 셀룰로오스 R-3.3/inch, EPS 보드 R-4.0/inch예요.</p>
+<h3>풀이 예</h3>
+<div class="exbox">천장 10 m × 5 m = <strong>50 m²</strong>. 5 m²를 덮는 팩: 50 ÷ 5 = 10팩; 10% 여유를 더하면 → <strong>11팩</strong>. 유리섬유, RSI 3.5 기준: 두께 = 3.5 ÷ 0.61 × 25 mm ≈ <strong>143 mm</strong> — 즉 150 mm 배트나, 75 mm 두 겹을 교차해서요.</div>
+<h3>자주 묻는 질문</h3></section>
+<div class="faq"><h3>단열재를 두 겹으로 넣어야 하나요?</h3><p>장선 사이의 배트라면 그래요. 장선을 가로질러 90°로 두 번째 층을 얹으면 첫 번째 층의 목재 열교와 틈을 덮어 줘요. 같은 방식으로 두꺼운 한 층을 넣는 것보다 성능이 눈에 띄게 좋아요.</p></div><div class="faq"><h3>단열재를 압축하면 R값이 줄어드나요?</h3><p>네. 만들어진 깊이보다 얕은 공간에 억지로 눌러 넣은 배트는 압축률에 비례해서 성능을 잃어요. 두꺼운 제품을 억지로 눌러 넣지 말고, 내 공간 깊이에 맞게 만들어진 제품을 고르세요.</p></div><div class="faq"><h3>여유를 얼마나 둬야 하나요?</h3><p>10%는 배트와 롤 제품에서 장선, 파이프, 가장자리 주변의 재단분을 감당해요. 충전식 단열재는 시공 후 약간 가라앉기 때문에, 시공자는 보통 가라앉은 뒤 목표 깊이보다 5–10% 더 불어 넣는데, 이 여유분이 그 부분까지 감당해요.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 내 웹사이트에 임베드하세요 — 무료예요</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 내 웹사이트나 블로그에 추가하세요. 완전히 무료이고, 가입도 필요 없으며, 항상 최신 버전을 보여 줘요. 아래 코드를 복사해서 계산기가 나타나길 원하는 위치에 붙여 넣으세요. 임베드 아래의 작은 &ldquo;Powered by Loona Automation&rdquo; 출처 표기를 유지해 주시면 이 도구를 계속 무료로 제공하는 데 도움이 돼요. 다만 스타일을 바꾸거나 지우셔도 자유예요. 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/ko/insulation-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Insulation Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/ko/insulation-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 단열 계산기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='복사했어요!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../paint-calculator/">페인트 계산기</a></li>
+<li><a href="../concrete-calculator/">콘크리트 계산기</a></li>
+<li><a href="../tile-calculator/">타일 계산기</a></li>
+<li><a href="../brick-calculator/">벽돌 계산기</a></li>
+<li><a href="../roof-pitch-calculator/">지붕 경사 계산기</a></li>
+<li><a href="../stairs-calculator/">계단 계산기</a></li></ul></div>
+<div><h4>Loona 도구 더 보기</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Loona 도구 전체</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">소개</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용약관</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> 의 프로젝트입니다. 미터법과 야드파운드법 단위의 무료 건설 계산기, 가입도 필요 없어요.
+문의: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+
+/* shared helpers: DOM getters (browser) + unit conversions + formatting */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.L, v.W, v.target, v.coverage)) return bad("길이, 너비, 목표값, 도포 면적을 입력하세요 (모두 영보다 커야 해요).");
+  var MAT = { glass: { m: 0.61, i: 3.5, label: "유리섬유" }, mineral: { m: 0.66, i: 3.8, label: "미네랄울" }, cellulose: { m: 0.58, i: 3.3, label: "셀룰로오스" }, eps: { m: 0.70, i: 4.0, label: "EPS 보드" } };
+  var mat = MAT[v.material] || MAT.glass;
+  var f = (v.sys === "i") ? FT : 1;
+  var area = v.L * f * (v.W * f);
+  var covM2 = (v.sys === "i") ? v.coverage * FT2 : v.coverage;
+  var units = Math.ceil(area * (1 + (v.waste || 0) / 100) / covM2 - 1e-9);
+  var thickMm = (v.sys === "i") ? (v.target / mat.i) * 25.4 : (v.target / mat.m) * 25;
+  var unitWord = (v.mode === "blown") ? "포대" : "팩";
+  var rows = [["단열할 면적", fmt(area, 1) + " m\u00B2 (" + fmt(area / FT2, 0) + " ft\u00B2)"],
+     ["목표값", (v.sys === "i") ? "R-" + v.target : "RSI " + v.target],
+     ["대략적인 두께: " + mat.label.toLowerCase(), fmt(thickMm, 0) + " mm (" + fmt(thickMm / 25.4, 1) + " in)"],
+     ["도포 면적: " + unitWord.slice(0, -1), fmt(v.coverage, 1) + ((v.sys === "i") ? " ft\u00B2" : " m\u00B2")],
+     ["구매할 것 (포함: " + (v.waste || 0) + "% 여유)", units + " " + unitWord]];
+  var html = resTable("구매할 단열재", units + " " + unitWord, rows,
+    "팩이나 포대당 도포 면적은 제품 포장에 인쇄되어 있으며 R값에 따라 달라요 — 같은 포대라도 R이 높으면 덮는 면적이 줄어요. 항상 제조사의 표에서 내 목표값에 맞는 도포 수치를 쓰세요.");
+  return { ok: true, area: area, units: units, thicknessMm: thickMm, html: html };
+} };
+
+function collect(){
+return { sys: gs("f_system"), L: gv("f_length"), W: gv("f_width"), target: gv("f_target"), material: gs("f_material"), mode: gs("f_mode"), coverage: gv("f_coverage"), waste: gv("f_waste") };
+}
+
+/* ---- page wiring (browser only) ---- */
+if (typeof document !== "undefined") {
+  var UNITS = {"length":["m","ft"],"width":["m","ft"],"target":["RSI (미터법 R값)","R값"],"coverage":["팩/포대당 m²","팩/포대당 ft²"]};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누른 다음 "홈 화면에 추가"를 선택하세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Calculator",
+  "short_name": "Brick Calculator",
+  "description": "무료 벽돌 계산기: 벽 길이와 높이를 미터법이나 야드파운드법으로 입력하면 한 겹 벽에 필요한 표준 벽돌 (215 mm 또는 미국 모듈러) 수를 알려 줘요. 모르타르 줄눈과 로스 여유가 포함돼요.",
+  "id": "/loona-construction-calculators/ko/brick-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

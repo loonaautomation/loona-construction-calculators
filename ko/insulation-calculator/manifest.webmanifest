@@ -1,0 +1,29 @@
+{
+  "name": "Loona Insulation Calculator",
+  "short_name": "Insulation Calculator",
+  "description": "무료 단열 계산기: 면적과 목표 R값 (또는 미터법 RSI)을 입력하면 구매할 배트/롤 팩이나 충전식 단열재 포대 수, 목표에 필요한 두께를 알려 줘요. 미터법과 야드파운드법 모두 가능해요.",
+  "id": "/loona-construction-calculators/ko/insulation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

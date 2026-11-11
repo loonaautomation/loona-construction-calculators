@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "미터법과 야드파운드법 두 단위계 모두에서 동작하는 무료 건설 계산기예요. 페인트, 타일, 콘크리트, 바닥재, 석고보드, 벽돌, 자갈, 지붕 경사, 계단, 보드피트, 벽지, 멀치, 아스팔트, 단열, 펜스, 데크, 수영장 용량, 태양광 패널, 카펫, 합판, 모래, 옴의 법칙, 전압 강하, 전선 굵기, 전기 요금, 암페어-와트 변환, 와트-암페어 변환, kVA-암페어 변환, 역률, 배터리 사용 시간, LED 저항, 삼상 전력, 모터 전류, 저항 색상 코드, 555 타이머, AWG 변환, 리액턴스, 데시벨 변환이에요. 로스 여유와 예제 풀이가 함께 있어요.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/ko/"
+}

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>페인트 계산기 — 어떤 방에도 리터와 갤런으로, 미터법이나 야드파운드법으로 | Loona Construction Calculators</title>
+<meta name="description" content="무료 페인트 계산기: 방 크기를 미터나 피트로 입력하고, 문과 창문을 빼고, 도장 횟수와 도포량을 고르면 필요한 페인트와 프라이머를 리터나 갤런으로 알려 줘요. 로스 여유가 포함돼요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/ko/paint-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/paint-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/paint-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/paint-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/paint-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/paint-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/paint-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/paint-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/paint-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/paint-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/paint-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/paint-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/paint-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/paint-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="페인트 계산기 — 어떤 방에도 리터와 갤런으로, 미터법이나 야드파운드법으로 | Loona Construction Calculators">
+<meta property="og:description" content="무료 페인트 계산기: 방 크기를 미터나 피트로 입력하고, 문과 창문을 빼고, 도장 횟수와 도포량을 고르면 필요한 페인트와 프라이머를 리터나 갤런으로 알려 줘요. 로스 여유가 포함돼요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/ko/paint-calculator/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="페인트 계산기 — 어떤 방에도 리터와 갤런으로, 미터법이나 야드파운드법으로 | Loona Construction Calculators">
+<meta name="twitter:description" content="무료 페인트 계산기: 방 크기를 미터나 피트로 입력하고, 문과 창문을 빼고, 도장 횟수와 도포량을 고르면 필요한 페인트와 프라이머를 리터나 갤런으로 알려 줘요. 로스 여유가 포함돼요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 페인트 계산기","url":"https://loonaautomation.github.io/loona-construction-calculators/ko/paint-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"제곱미터당 페인트가 얼마나 필요한가요?","acceptedAnswer":{"@type":"Answer","text":"일반적인 실내 수성 페인트는 매끄러운 벽에서 한 번 도장할 때 리터당 약 10–12 m²를 덮어요. 그래서 36.8 m²를 10 m²/L로 두 번 칠하면 로스 여유를 더하기 전 약 7.4리터가 필요해요. 이 계산기는 그 여유분까지 더해 드려요."}},{"@type":"Question","name":"계산기는 왜 문과 창문을 빼나요?","acceptedAnswer":{"@type":"Answer","text":"그 위를 칠하지 않으니, 그대로 두면 필요한 페인트가 과대평가돼요. 표준 크기(문 1.89 m², 창문 1.8 m²)는 자동으로 빠지고, 아주 큰 창문이나 파티오 도어는 창문 수를 늘리세요."}},{"@type":"Question","name":"프라이머가 정말 필요한가요?","acceptedAnswer":{"@type":"Answer","text":"새 석고, 맨 석고보드, 얼룩진 벽, 강한 색상 변경이라면 그래요. 프라이머가 표면을 밀봉해서 상도 페인트가 고르게 덮이고, 비싼 페인트의 세 번째 도장을 흔히 아낄 수 있어요. 상태가 좋은 기존 도장 벽은 보통 생략할 수 있어요."}},{"@type":"Question","name":"피트와 갤런 단위로 쓸 수 있나요?","acceptedAnswer":{"@type":"Answer","text":"네. 단위 체계를 야드파운드법으로 전환하세요. 치수는 피트, 도포량은 갤런당 ft², 결과는 갤런(리터도 함께 표시)이에요. 답은 같은 방의 미터법 계산과 일치해요."}},{"@type":"Question","name":"몇 회 도장을 계획해야 하나요?","acceptedAnswer":{"@type":"Answer","text":"두 번 칠하는 것이 내구성 있고 고른 마감을 위한 표준이에요. 멀쩡한 표면에 비슷한 색이면 한 번으로 될 수 있어요. 과감한 색상 변경이나 새 미장 위에는 보통 프라이머 위에 두 번, 때로는 세 번 칠해요."}},{"@type":"Question","name":"왜 로스 여유분을 더하나요?","acceptedAnswer":{"@type":"Answer","text":"롤러와 붓에 페인트가 묻어 남고, 일부는 흘리고, 나중의 부분 보수용으로 조금 남겨 두고 싶을 거예요. 10%가 무난한 기본값이고, 거칠거나 질감이 있는 벽은 15%를 쓰세요."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "페인트 계산기",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/paint-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>건설 계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">소개</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; 건설 &rsaquo; 페인트 계산기</div>
+<h1 class="pagetitle">🎨 페인트 계산기</h1>
+<p class="lead">방에 필요한 페인트와 프라이머 양을 정확히 계산해 보세요. 방을 미터나 피트로 재고, 뺄 문과 창문 수, 칠할 횟수, 통에 인쇄된 도포량을 계산기에 알려주면 나머지는 알아서 해요. 흘림과 부분 보수용의 무난한 여유분까지 포함해서요.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system">단위 체계</label><select id="f_system"><option value="m">미터법 (미터, 리터, kg)</option><option value="i">야드파운드법 (피트, 갤런, lb)</option></select></div><div class="fld"><label for="f_length">방 길이 <span class="u" data-u="length"></span></label><input type="number" id="f_length" step="any" data-m="4" data-i="13" value="4" ></div><div class="fld"><label for="f_width">방 너비 <span class="u" data-u="width"></span></label><input type="number" id="f_width" step="any" data-m="3.5" data-i="11.5" value="3.5" ></div><div class="fld"><label for="f_height">벽 높이 <span class="u" data-u="height"></span></label><input type="number" id="f_height" step="any" data-m="2.7" data-i="9" value="2.7" ></div><div class="fld"><label for="f_doors">뺄 문 개수 (표준 크기) <span class="u" data-u="doors"></span></label><input type="number" id="f_doors" step="1" data-m="1" data-i="1" value="1" ></div><div class="fld"><label for="f_windows">뺄 창문 (표준 크기) <span class="u" data-u="windows"></span></label><input type="number" id="f_windows" step="1" data-m="1" data-i="1" value="1" ></div><div class="fld"><label for="f_coats">페인트 도장 횟수 <span class="u" data-u="coats"></span></label><input type="number" id="f_coats" step="1" data-m="2" data-i="2" value="2" ></div><div class="fld"><label for="f_coverage">한 번 도장당 페인트 도포량 <span class="u" data-u="coverage"></span></label><input type="number" id="f_coverage" step="any" data-m="10" data-i="350" value="10" ></div><div class="fld"><label for="f_pcoverage">프라이머 도포량 (1회 도포) <span class="u" data-u="pcoverage"></span></label><input type="number" id="f_pcoverage" step="any" data-m="12" data-i="420" value="12" ></div><div class="fld"><label><input type="checkbox" id="f_ceiling" style="width:auto"> 천장도 함께 칠하기</label></div><div class="fld"><label for="f_waste">로스 / 여유분 (%)</label><input type="number" id="f_waste" step="any" min="0" value="10"></div>
+<button type="button" class="calcbtn" id="calcBtn">계산하기</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>페인트 계산기 사용법</h2><ol><li>단위 체계를 고르세요. 미터법 (미터)이나 야드파운드법 (피트)이에요.</li><li>방 길이, 너비, 벽 높이를 입력하세요.</li><li>뺄 표준 문과 창문의 개수를 입력하세요.</li><li>도포 횟수, 페인트 통에 적힌 도포량, 프라이머 도포량을 설정하세요.</li><li>계산을 누르세요. 결과에는 로스 여유분이 포함돼요.</li></ol>
+<div class="exbox"><strong>예:</strong> 4 m × 3.5 m 방에 벽 높이 2.7 m, 문 1개, 창문 1개이면 칠할 면적이 36.8 m²예요. 2회 도장, 리터당 10 m² 기준으로 페인트 약 8.1리터에 프라이머 3.4리터를 더해요 (10% 여유 포함).</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>제곱미터당 페인트가 얼마나 필요한가요?</h3><p>일반적인 실내 수성 페인트는 매끄러운 벽에서 한 번 도장할 때 리터당 약 10–12 m²를 덮어요. 그래서 36.8 m²를 10 m²/L로 두 번 칠하면 로스 여유를 더하기 전 약 7.4리터가 필요해요. 이 계산기는 그 여유분까지 더해 드려요.</p></div><div class="faq"><h3>계산기는 왜 문과 창문을 빼나요?</h3><p>그 위를 칠하지 않으니, 그대로 두면 필요한 페인트가 과대평가돼요. 표준 크기(문 1.89 m², 창문 1.8 m²)는 자동으로 빠지고, 아주 큰 창문이나 파티오 도어는 창문 수를 늘리세요.</p></div><div class="faq"><h3>프라이머가 정말 필요한가요?</h3><p>새 석고, 맨 석고보드, 얼룩진 벽, 강한 색상 변경이라면 그래요. 프라이머가 표면을 밀봉해서 상도 페인트가 고르게 덮이고, 비싼 페인트의 세 번째 도장을 흔히 아낄 수 있어요. 상태가 좋은 기존 도장 벽은 보통 생략할 수 있어요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../tile-calculator/"><div class="ic">🔲</div><h3>타일 계산기</h3><p>건설</p></a><a class="card" href="../concrete-calculator/"><div class="ic">🧱</div><h3>콘크리트 계산기</h3><p>건설</p></a><a class="card" href="../flooring-calculator/"><div class="ic">🪵</div><h3>바닥재 계산기</h3><p>건설</p></a><a class="card" href="../drywall-calculator/"><div class="ic">🧱</div><h3>석고보드 계산기</h3><p>건설</p></a><a class="card" href="../brick-calculator/"><div class="ic">🧱</div><h3>벽돌 계산기</h3><p>건설</p></a></div>
+</div>
+<section class="txt"><h2>작동 원리 &mdash; 공식</h2>
+<p>계산기는 먼저 칠할 수 있는 면적을 구한 뒤, 내 페인트의 도포량으로 나눠요.</p>
+<p><strong>벽 면적</strong> = 2 × (길이 + 너비) × 높이 &minus; (문 × 1.89 m&sup2;) &minus; (창문 × 1.8 m&sup2;)<br>
+<strong>필요한 페인트</strong> = 벽 면적 × 도장 횟수 &divide; 도포 면적 × (1 + 로스 %)<br>
+<strong>필요한 프라이머</strong> = 벽 면적 &divide; 프라이머 도포 면적 × (1 + 로스 %)</p>
+<p>표준 실내 문은 0.9 m × 2.1 m (1.89 m&sup2;, 약 21 ft&sup2;)로, 일반적인 창문은 1.5 m × 1.2 m (1.8 m&sup2;, 프레임을 포함하면 벽면 약 12 ft&sup2;)로 봐요. 갤런당 ft&sup2; 단위의 야드파운드법 도포량은 계산 전에 리터당 m&sup2;로 변환하기 때문에, 같은 방이면 두 단위계가 같은 답을 내요.</p>
+<h3>풀이 예</h3>
+<div class="exbox"><strong>예:</strong> 방 4 m × 3.5 m, 벽 높이 2.7 m, 문 1개, 창문 1개, 천장은 칠하지 않아요. 벽 면적 = 2 × (4 + 3.5) × 2.7 = 40.5 m&sup2;, 여기서 1.89 + 1.8 = 3.69 m&sup2;를 빼면 &rarr; <strong>36.81 m&sup2;</strong>. 페인트 = 36.81 × 2회 도장 &divide; 10 m&sup2;/L × 1.10 = <strong>8.10리터</strong>. 프라이머 = 36.81 &divide; 12 m&sup2;/L × 1.10 = <strong>3.37리터</strong>.</div>
+<h3>자주 묻는 질문</h3></section>
+<div class="faq"><h3>피트와 갤런 단위로 쓸 수 있나요?</h3><p>네. 단위 체계를 야드파운드법으로 전환하세요. 치수는 피트, 도포량은 갤런당 ft², 결과는 갤런(리터도 함께 표시)이에요. 답은 같은 방의 미터법 계산과 일치해요.</p></div><div class="faq"><h3>몇 회 도장을 계획해야 하나요?</h3><p>두 번 칠하는 것이 내구성 있고 고른 마감을 위한 표준이에요. 멀쩡한 표면에 비슷한 색이면 한 번으로 될 수 있어요. 과감한 색상 변경이나 새 미장 위에는 보통 프라이머 위에 두 번, 때로는 세 번 칠해요.</p></div><div class="faq"><h3>왜 로스 여유분을 더하나요?</h3><p>롤러와 붓에 페인트가 묻어 남고, 일부는 흘리고, 나중의 부분 보수용으로 조금 남겨 두고 싶을 거예요. 10%가 무난한 기본값이고, 거칠거나 질감이 있는 벽은 15%를 쓰세요.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 내 웹사이트에 임베드하세요 — 무료예요</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 내 웹사이트나 블로그에 추가하세요. 완전히 무료이고, 가입도 필요 없으며, 항상 최신 버전을 보여 줘요. 아래 코드를 복사해서 계산기가 나타나길 원하는 위치에 붙여 넣으세요. 임베드 아래의 작은 &ldquo;Powered by Loona Automation&rdquo; 출처 표기를 유지해 주시면 이 도구를 계속 무료로 제공하는 데 도움이 돼요. 다만 스타일을 바꾸거나 지우셔도 자유예요. 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/ko/paint-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Paint Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/ko/paint-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 페인트 계산기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='복사했어요!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="./">페인트 계산기</a></li>
+<li><a href="../concrete-calculator/">콘크리트 계산기</a></li>
+<li><a href="../tile-calculator/">타일 계산기</a></li>
+<li><a href="../brick-calculator/">벽돌 계산기</a></li>
+<li><a href="../roof-pitch-calculator/">지붕 경사 계산기</a></li>
+<li><a href="../stairs-calculator/">계단 계산기</a></li></ul></div>
+<div><h4>Loona 도구 더 보기</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Loona 도구 전체</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">소개</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용약관</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> 의 프로젝트입니다. 미터법과 야드파운드법 단위의 무료 건설 계산기, 가입도 필요 없어요.
+문의: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+
+/* shared helpers: DOM getters (browser) + unit conversions + formatting */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.L, v.W, v.H, v.cov, v.pcov) || !(v.coats >= 1)) return bad("방 치수, 도장 횟수, 도포량 값을 입력하세요 (모두 영보다 커야 해요).");
+  var f = (v.sys === "i") ? FT : 1;
+  var L = v.L * f, W = v.W * f, H = v.H * f;
+  var cov = (v.sys === "i") ? v.cov * FT2 / GAL : v.cov;
+  var pcov = (v.sys === "i") ? v.pcov * FT2 / GAL : v.pcov;
+  var area = 2 * (L + W) * H - (v.doors || 0) * 1.89 - (v.windows || 0) * 1.8 + (v.ceil ? L * W : 0);
+  if (area <= 0) return bad("문과 창문이 벽 면적보다 더 많은 공간을 차지해요 — 방 치수를 확인하세요.");
+  var w = 1 + (v.waste || 0) / 100;
+  var paintL = area * v.coats / cov * w, primerL = area / pcov * w, imp = v.sys === "i";
+  var html = resTable("필요한 페인트", fmt(imp ? paintL / GAL : paintL, 2) + (imp ? " 갤런" : " 리터"),
+    [["칠할 벽 면적", fmt(imp ? area / FT2 : area, 1) + (imp ? " ft\u00B2" : " m\u00B2")],
+     ["계획한 도장 횟수", String(v.coats)],
+     ["페인트 (포함: " + (v.waste || 0) + "% 여유", fmt(imp ? paintL / GAL : paintL, 2) + (imp ? " gal" : " L") + " (" + fmt(imp ? paintL : paintL / GAL, 2) + (imp ? " L" : " gal") + ")"],
+     ["프라이머, 1회 도장, 여유 포함", fmt(imp ? primerL / GAL : primerL, 2) + (imp ? " gal" : " L")]],
+    "도포량은 브랜드와 표면에 따라 달라요. 항상 캔을 확인하세요. 거칠거나 다공성이거나 이전에 칠한 적이 없는 벽은 페인트를 더 많이 흡수하는데, 여유분이 바로 그걸 감안한 거예요.");
+  return { ok: true, area: area, paintLitres: paintL, primerLitres: primerL, html: html };
+} };
+
+function collect(){
+return { sys: gs("f_system"), L: gv("f_length"), W: gv("f_width"), H: gv("f_height"), doors: gv("f_doors"), windows: gv("f_windows"), coats: gv("f_coats"), cov: gv("f_coverage"), pcov: gv("f_pcoverage"), ceil: gb("f_ceiling"), waste: gv("f_waste") };
+}
+
+/* ---- page wiring (browser only) ---- */
+if (typeof document !== "undefined") {
+  var UNITS = {"length":["m","ft"],"width":["m","ft"],"height":["m","ft"],"coverage":["리터당 m²","갤런당 ft²"],"pcoverage":["리터당 m²","갤런당 ft²"]};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누른 다음 "홈 화면에 추가"를 선택하세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for Painting a 12 × 14 ft Room",
+  "short_name": "Materials for Painting a 12 ×",
+  "description": "12×14 ft 방 페인트칠 전체 구매 목록: 2회 도장용 페인트 리터/갤런, 프라이머, 테이프, 롤러, 준비 자재예요. 짐작이 아니라 계산한 값이에요.",
+  "id": "/loona-construction-calculators/ko/materials-for-painting-a-room/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

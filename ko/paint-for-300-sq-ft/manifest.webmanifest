@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 300 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 300 Sq Ft",
+  "description": "벽 300 sq ft 기준: 6.1리터 (1.6 gal)로 2회 도장 (일반적인 10 m²/L 도포량 기준), 여기에 프라이머 2.6 L를 더해요. 가정한 조건도 함께 적었어요.",
+  "id": "/loona-construction-calculators/ko/paint-for-300-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

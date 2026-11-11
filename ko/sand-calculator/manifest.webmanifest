@@ -1,0 +1,29 @@
+{
+  "name": "Loona Sand Calculator",
+  "short_name": "Sand Calculator",
+  "description": "무료 모래 계산기: 면적과 깊이를 미터법이나 야드파운드법으로 입력하면 모래 부피, 톤과 US 톤 단위 무게, 25 kg 포대 수를 알려 줘요. 밀도와 로스 여유가 포함돼요. 모래놀이틀, 포장 기초, 스크리드에 쓰세요.",
+  "id": "/loona-construction-calculators/ko/sand-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

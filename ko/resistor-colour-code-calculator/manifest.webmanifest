@@ -1,0 +1,29 @@
+{
+  "name": "Loona Resistor Colour Code Calculator",
+  "short_name": "Resistor Colour Code",
+  "description": "무료 저항 색상 코드 계산기: 4-밴드, 5-밴드, 6-밴드 저항의 밴드 색상을 고르면 저항, 오차, 온도 계수를 알려 줘요. 거꾸로 값에서 밴드로도 변환할 수 있어요.",
+  "id": "/loona-construction-calculators/ko/resistor-colour-code-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

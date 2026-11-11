@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for a 100 ft Fence",
+  "short_name": "Materials for a 100 ft Fence",
+  "description": "6 ft 펜스 100 ft 구매 목록: 기둥 13개, 패널 13개 구간 또는 피켓 340개, 구멍당 정직한 콘크리트 수량과 체결재 수예요.",
+  "id": "/loona-construction-calculators/ko/materials-for-100-ft-fence/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

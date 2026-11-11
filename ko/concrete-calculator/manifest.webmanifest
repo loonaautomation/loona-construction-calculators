@@ -1,0 +1,29 @@
+{
+  "name": "Loona Concrete Calculator",
+  "short_name": "Concrete Calculator",
+  "description": "무료 콘크리트 계산기: 슬래브 길이, 너비, 두께를 미터법이나 야드파운드법으로 입력하면 콘크리트 부피를 세제곱미터와 세제곱야드로 알려 주고, 20/25 kg 또는 60/80 lb 프리믹스 포대가 몇 개 필요한지도 알려 줘요.",
+  "id": "/loona-construction-calculators/ko/concrete-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

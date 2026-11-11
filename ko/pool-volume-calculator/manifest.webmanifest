@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pool Volume Calculator",
+  "short_name": "Pool Volume Calculator",
+  "description": "직사각형, 원형, 타원형 수영장을 위한 무료 수영장 용량 계산기: 크기와 얕은 쪽/깊은 쪽 깊이를 미터법이나 야드파운드법으로 입력하면 약품 투약과 물 채우기에 필요한 물 부피를 리터와 US 갤런으로 알려 줘요.",
+  "id": "/loona-construction-calculators/ko/pool-volume-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

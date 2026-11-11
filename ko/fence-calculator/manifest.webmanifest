@@ -1,0 +1,29 @@
+{
+  "name": "Loona Fence Calculator",
+  "short_name": "Fence Calculator",
+  "description": "무료 펜스 계산기: 펜스 길이와 기둥 간격을 미터법이나 야드파운드법으로 입력하면 기둥, 가로대, 피켓 (피켓 너비와 간격에서 계산), 콘크리트 포대를 알려 줘요. 피켓 로스 여유가 포함돼요.",
+  "id": "/loona-construction-calculators/ko/fence-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

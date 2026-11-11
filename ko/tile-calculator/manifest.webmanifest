@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tile Calculator",
+  "short_name": "Tile Calculator",
+  "description": "무료 타일 계산기: 바닥이나 벽 크기, 타일 크기, 줄눈 간격을 미터법이나 야드파운드법으로 입력하면 구매할 타일과 박스의 정확한 수를 알려 줘요. 재단과 파손을 위한 로스 여유가 포함돼요.",
+  "id": "/loona-construction-calculators/ko/tile-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

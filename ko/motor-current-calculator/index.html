@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>모터 전류 계산기 — kW나 HP, 효율과 PF에서 추정한 전부하 암페어 | Loona Construction Calculators</title>
+<meta name="description" content="무료 모터 전류 계산기: 모터 출력을 kW나 마력으로, 전압, 단상이나 삼상, 효율, 역률을 입력하면 추정한 전부하 전류를 알려 줘요. 명판과 규정에 대한 솔직한 주의 사항이 함께 있어요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/ko/motor-current-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/motor-current-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/motor-current-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/motor-current-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/motor-current-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/motor-current-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/motor-current-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/motor-current-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/motor-current-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/motor-current-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/motor-current-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/motor-current-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/motor-current-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/motor-current-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="모터 전류 계산기 — kW나 HP, 효율과 PF에서 추정한 전부하 암페어 | Loona Construction Calculators">
+<meta property="og:description" content="무료 모터 전류 계산기: 모터 출력을 kW나 마력으로, 전압, 단상이나 삼상, 효율, 역률을 입력하면 추정한 전부하 전류를 알려 줘요. 명판과 규정에 대한 솔직한 주의 사항이 함께 있어요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/ko/motor-current-calculator/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="모터 전류 계산기 — kW나 HP, 효율과 PF에서 추정한 전부하 암페어 | Loona Construction Calculators">
+<meta name="twitter:description" content="무료 모터 전류 계산기: 모터 출력을 kW나 마력으로, 전압, 단상이나 삼상, 효율, 역률을 입력하면 추정한 전부하 전류를 알려 줘요. 명판과 규정에 대한 솔직한 주의 사항이 함께 있어요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 모터 전류 계산기","url":"https://loonaautomation.github.io/loona-construction-calculators/ko/motor-current-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"추정은 왜 정확하지 않나요?","acceptedAnswer":{"@type":"Answer","text":"효율과 역률은 모터 개개의 설계와 부하에 따라 달라져요. 절반 부하의 모터는 전류를 덜 소비하지만 역률은 더 나빠요. kW 정격이 같은 모터라도 제조사에 따라 전부하 전류가 10%까지 차이 날 수 있어요. 그래서 표준이 명판 수치를 고집하는 거예요."}},{"@type":"Question","name":"마력만 알면 어떻게 하나요?","acceptedAnswer":{"@type":"Answer","text":"hp 옵션을 고르세요. 계산기는 1 hp = 0.7457 kW로 변환해요. (출력 단위 자체의 변환은 Loona Calculators에 전용 마력 ↔ 킬로와트 변환기가 있어요. 여기서는 그 변환이 전류 추정의 첫 단계일 뿐이에요.)"}},{"@type":"Question","name":"효율과 역률은 어느 값을 가정해야 하나요?","acceptedAnswer":{"@type":"Answer","text":"요즘 삼상 모터: 효율은 소형 모터 대략 80%에서 대형 프리미엄 효율 모터 93–95%까지 올라가요. 전부하 PF는 보통 소형 모터 0.8–0.87, 대형 0.85–0.92예요. 명판이나 데이터시트가 어떤 가정보다 나아요."}},{"@type":"Question","name":"모터는 기동할 때 전류를 얼마나 소비하나요?","acceptedAnswer":{"@type":"Answer","text":"직입 (DOL) 기동은 보통 몇 초 동안 전부하 전류의 6–8배를 끌어와요. 조명이 깜빡이는 이유이고, 모터 회로의 차단기가 모터용 트립 곡선을 쓰는 이유예요. 스타-델타 기동은 약 삼분의 일로 줄여 주고, 소프트 스타터와 VFD는 1–1.5배까지 제한할 수 있어요."}},{"@type":"Question","name":"이 전류로 케이블과 차단기를 골라도 될까요?","acceptedAnswer":{"@type":"Answer","text":"첫 추정치로만 쓰세요. 모터용 케이블과 보호 장치는 구체적인 규정 규칙을 따라요 (미국에서는 NEC 430조가 도체 크기 결정에 명판 대신 표준화된 전부하 전류 표를 쓰고, 기동을 버티도록 더 높은 차단기 정격을 허용해요). 자격을 갖춘 전기 기술자가 실제 명판에 그 규칙을 적용해요."}},{"@type":"Question","name":"VFD가 전류를 바꾸나요?","acceptedAnswer":{"@type":"Answer","text":"모터 쪽에서는 VFD가 모터에 필요한 것을 공급해요. 전원 쪽에서는 드라이브가 고유의 특성과 고조파를 가진 전류를 끌어와요. 전원 크기는 이 추정치가 아니라 드라이브 제조사의 입력 전류 정격으로 정하세요."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "모터 전류 계산기",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/motor-current-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>건설 계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">소개</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; 전기 &rsaquo; 모터 전류 계산기</div>
+<h1 class="pagetitle">🌀 모터 전류 계산기</h1>
+<p class="lead">모터의 정격 출력 (kW나 마력), 전압, 상, 효율, 역률에서 전부하 전류를 추정해요. 초기 계획과 타당성 점검에 유용해요. 아래 설명처럼 명판과 규정 표가 여전히 기준이에요.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_power">모터 정격 (축) 출력</label><input type="number" id="f_power" step="any" value="7.5"></div><div class="fld"><label for="f_unit">전력 단위</label><select id="f_unit"><option value="kw" selected>킬로와트 (kW)</option><option value="hp">마력 (hp)</option></select></div><div class="fld"><label for="f_phase">공급 방식</label><select id="f_phase"><option value="1">단상</option><option value="3" selected>삼상 (선간 전압)</option></select></div><div class="fld"><label for="f_volts">공급 전압 (볼트)</label><input type="number" id="f_volts" step="any" value="400"></div><div class="fld"><label for="f_eff">모터 효율 (%) — 보통 75–95, 명판 기준</label><input type="number" id="f_eff" step="any" value="90"></div><div class="fld"><label for="f_pf">전부하 시 역률 — 보통 0.8–0.9</label><input type="number" id="f_pf" step="any" value="0.85"></div>
+<button type="button" class="calcbtn" id="calcBtn">계산하기</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>모터 전류 계산기 사용법</h2><ol><li>명판에 있는 모터의 정격 축 출력을 입력하세요. kW나 마력 중에서 고르세요.</li><li>단상이나 삼상을 고르고 공급 전압을 입력하세요 (삼상은 선간 전압이에요).</li><li>명판 효율과 전부하 역률이 있으면 입력하세요. 없으면 기본값 (90%, 0.85)이 요즘 모터에 대체로 맞아요. 그런 뒤 계산 버튼을 누르세요.</li></ol>
+<div class="exbox"><strong>예:</strong> 400 V에서 효율 90%, PF 0.85인 7.5 kW 삼상 모터가 소비하는 추정 전류는 <strong>14.15 A</strong> 전부하에서요. 실제 명판에 표시될 ~15 A에 가까워요.</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>추정은 왜 정확하지 않나요?</h3><p>효율과 역률은 모터 개개의 설계와 부하에 따라 달라져요. 절반 부하의 모터는 전류를 덜 소비하지만 역률은 더 나빠요. kW 정격이 같은 모터라도 제조사에 따라 전부하 전류가 10%까지 차이 날 수 있어요. 그래서 표준이 명판 수치를 고집하는 거예요.</p></div><div class="faq"><h3>마력만 알면 어떻게 하나요?</h3><p>hp 옵션을 고르세요. 계산기는 1 hp = 0.7457 kW로 변환해요. (출력 단위 자체의 변환은 Loona Calculators에 전용 마력 ↔ 킬로와트 변환기가 있어요. 여기서는 그 변환이 전류 추정의 첫 단계일 뿐이에요.)</p></div><div class="faq"><h3>효율과 역률은 어느 값을 가정해야 하나요?</h3><p>요즘 삼상 모터: 효율은 소형 모터 대략 80%에서 대형 프리미엄 효율 모터 93–95%까지 올라가요. 전부하 PF는 보통 소형 모터 0.8–0.87, 대형 0.85–0.92예요. 명판이나 데이터시트가 어떤 가정보다 나아요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../watts-to-amps-calculator/"><div class="ic">🔁</div><h3>와트-암페어 변환 계산기</h3><p>전기</p></a><a class="card" href="../three-phase-power-calculator/"><div class="ic">🔺</div><h3>삼상 전력 계산기</h3><p>전기</p></a><a class="card" href="../power-factor-calculator/"><div class="ic">🎚️</div><h3>역률 계산기</h3><p>전기</p></a><a class="card" href="../wire-size-calculator/"><div class="ic">🧵</div><h3>전선 굵기 계산기</h3><p>전기</p></a></div>
+</div>
+<section class="txt"><h2>작동 원리 &mdash; 공식</h2>
+<p><strong>전기 입력 출력</strong> = 축 출력 ÷ 효율<br>
+<strong>단상:</strong> I = 입력 W ÷ (V × PF)<br>
+<strong>삼상:</strong> I = 입력 W ÷ (√3 × V<sub>L-L</sub> × PF)<br>
+<strong>마력:</strong> kW = hp × 0.7457</p>
+<p>빠른 추정이 가장 많이 놓치는 단계가 첫 번째예요. 모터에 표시된 kW나 hp는 축에서의 기계적 출력이에요. 전기 쪽은 그것을 공급해야 해요 <em>더하기</em> 모터의 손실까지 포함해서, 입력은 축 출력을 효율로 나눈 값이에요. 효율 90%인 7.5 kW 모터는 역률을 따지기도 전에 전원에서 실제로 8.33 kW를 가져가요.</p>
+<h3>풀이 예</h3>
+<div class="exbox">축 출력 7.5 kW, 효율 90% → 입력 = 7.5 ÷ 0.90 = <strong>8.33 kW</strong>. 삼상, 400 V, PF 0.85 기준: I = 8,330 ÷ (√3 × 400 × 0.85) = 8,330 ÷ 589.0 = <strong>14.15 A</strong>. 실제 모터 명판의 일반적인 예와 비교해 보세요. 7.5 kW, 400 V 모터는 약 15 A예요. 추정치는 대략 맞는 위치에 있지만, 두 값이 다르면 언제나 명판이 우선해요.</div>
+<div class="resnote" style="font-size:14px;color:#5a6b68;background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin:12px 0"><strong>중요:</strong> 이것은 공학적 추정치이지 설계값이 아니에요. 모터 회로는 명판의 전부하 전류와 지역 규정의 모터 규칙(직입 기동 시 전부하의 대략 6–8×인 기동 전류, 과부하 보호, 단로기까지 포함해요)에 따라 크기를 정해야 해요. 모터 설비는 자격 있는 전기 기술자에게 설계나 점검을 받으세요.</div>
+<h3>자주 묻는 질문</h3></section>
+<div class="faq"><h3>모터는 기동할 때 전류를 얼마나 소비하나요?</h3><p>직입 (DOL) 기동은 보통 몇 초 동안 전부하 전류의 6–8배를 끌어와요. 조명이 깜빡이는 이유이고, 모터 회로의 차단기가 모터용 트립 곡선을 쓰는 이유예요. 스타-델타 기동은 약 삼분의 일로 줄여 주고, 소프트 스타터와 VFD는 1–1.5배까지 제한할 수 있어요.</p></div><div class="faq"><h3>이 전류로 케이블과 차단기를 골라도 될까요?</h3><p>첫 추정치로만 쓰세요. 모터용 케이블과 보호 장치는 구체적인 규정 규칙을 따라요 (미국에서는 NEC 430조가 도체 크기 결정에 명판 대신 표준화된 전부하 전류 표를 쓰고, 기동을 버티도록 더 높은 차단기 정격을 허용해요). 자격을 갖춘 전기 기술자가 실제 명판에 그 규칙을 적용해요.</p></div><div class="faq"><h3>VFD가 전류를 바꾸나요?</h3><p>모터 쪽에서는 VFD가 모터에 필요한 것을 공급해요. 전원 쪽에서는 드라이브가 고유의 특성과 고조파를 가진 전류를 끌어와요. 전원 크기는 이 추정치가 아니라 드라이브 제조사의 입력 전류 정격으로 정하세요.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 내 웹사이트에 임베드하세요 — 무료예요</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 내 웹사이트나 블로그에 추가하세요. 완전히 무료이고, 가입도 필요 없으며, 항상 최신 버전을 보여 줘요. 아래 코드를 복사해서 계산기가 나타나길 원하는 위치에 붙여 넣으세요. 임베드 아래의 작은 &ldquo;Powered by Loona Automation&rdquo; 출처 표기를 유지해 주시면 이 도구를 계속 무료로 제공하는 데 도움이 돼요. 다만 스타일을 바꾸거나 지우셔도 자유예요. 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/ko/motor-current-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Motor Current Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/ko/motor-current-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 모터 전류 계산기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='복사했어요!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../paint-calculator/">페인트 계산기</a></li>
+<li><a href="../concrete-calculator/">콘크리트 계산기</a></li>
+<li><a href="../tile-calculator/">타일 계산기</a></li>
+<li><a href="../brick-calculator/">벽돌 계산기</a></li>
+<li><a href="../roof-pitch-calculator/">지붕 경사 계산기</a></li>
+<li><a href="../stairs-calculator/">계단 계산기</a></li></ul></div>
+<div><h4>Loona 도구 더 보기</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Loona 도구 전체</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">소개</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용약관</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> 의 프로젝트입니다. 미터법과 야드파운드법 단위의 무료 건설 계산기, 가입도 필요 없어요.
+문의: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  var kw = (v.unit === "hp") ? v.power * 0.7457 : v.power;
+  if (!pos(kw, v.volts)) return bad("모터의 정격 전력과 공급 전압을 입력하세요.");
+  var eff = v.eff / 100, pf = v.pf;
+  if (!(eff > 0 && eff <= 1)) return bad("효율은 1에서 100% 사이여야 해요.");
+  if (!(pf > 0 && pf <= 1)) return bad("역률은 0보다 크고 최대 1이어야 해요.");
+  var inputW = kw * 1000 / eff;
+  var amps = (v.phase === "3") ? inputW / (Math.sqrt(3) * v.volts * pf) : inputW / (v.volts * pf);
+  var html = resTable("추정 전부하 전류", fmt(amps, 2) + " A",
+    [["모터 축 전력", fmt(kw, 2) + " kW"],["전기 입력 전력 (효율 적용 후)", fmt(inputW / 1000, 2) + " kW"],["사용한 효율", fmt(v.eff, 0) + "%"],["사용한 역률", fmt(pf, 2)]],
+    "추정치일 뿐이에요. 모터 명판의 전부하 전류 (FLA)가 언제나 기준이에요. 규정 표 (예: NEC 표 430.250이나 IEC 자료)는 다른 값을 줄 수 있으며, 보호 장치와 케이블은 기동 방식과 함께 그 표를 기준으로 해야 해요. 직입 기동은 전부하 전류의 대략 6–8×를 끌어 써요. 모터 회로는 자격을 갖춘 전기 기술자에게 설계받으세요.");
+  return { ok: true, kw: kw, inputKw: inputW / 1000, amps: amps, html: html };
+} };
+
+function collect(){ return { power: gv("f_power"), unit: gs("f_unit"), phase: gs("f_phase"), volts: gv("f_volts"), eff: gv("f_eff"), pf: gv("f_pf") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누른 다음 "홈 화면에 추가"를 선택하세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

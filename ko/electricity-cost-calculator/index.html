@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>전기 요금 계산기 — 기기의 하루, 한 달, 연간 비용 | Loona Construction Calculators</title>
+<meta name="description" content="무료 전기 요금 계산기: 기기 와트 (또는 암페어 × 볼트), 하루 사용 시간, 한 달 사용 일수, kWh당 가격을 입력하면 사용한 kWh와 하루, 한 달, 연간 비용을 알려 줘요. 어떤 통화든 가능해요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/ko/electricity-cost-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/electricity-cost-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/electricity-cost-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/electricity-cost-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/electricity-cost-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/electricity-cost-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/electricity-cost-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/electricity-cost-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/electricity-cost-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/electricity-cost-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/electricity-cost-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/electricity-cost-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/electricity-cost-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/electricity-cost-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="전기 요금 계산기 — 기기의 하루, 한 달, 연간 비용 | Loona Construction Calculators">
+<meta property="og:description" content="무료 전기 요금 계산기: 기기 와트 (또는 암페어 × 볼트), 하루 사용 시간, 한 달 사용 일수, kWh당 가격을 입력하면 사용한 kWh와 하루, 한 달, 연간 비용을 알려 줘요. 어떤 통화든 가능해요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/ko/electricity-cost-calculator/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="전기 요금 계산기 — 기기의 하루, 한 달, 연간 비용 | Loona Construction Calculators">
+<meta name="twitter:description" content="무료 전기 요금 계산기: 기기 와트 (또는 암페어 × 볼트), 하루 사용 시간, 한 달 사용 일수, kWh당 가격을 입력하면 사용한 kWh와 하루, 한 달, 연간 비용을 알려 줘요. 어떤 통화든 가능해요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 전기 요금 계산기","url":"https://loonaautomation.github.io/loona-construction-calculators/ko/electricity-cost-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"kWh당 가격은 어디서 찾나요?","acceptedAnswer":{"@type":"Answer","text":"전기 요금 청구서에서 찾으세요. 명시된 단위 요금이거나, 전체 에너지 요금을 소비한 kWh로 나눈 값이에요. 순수 운전 비용만 원하면 단위당 에너지 요금만 포함하세요. 기본 요금과 세금은 이 기기가 돌든 안 돌든 적용돼요."}},{"@type":"Question","name":"라벨에 와트가 아니라 암페어만 있는데 어떻게 하나요?","acceptedAnswer":{"@type":"Answer","text":"암페어와 공급 전압 (유럽 대부분과 파키스탄은 230 V, 북미는 120 V)을 입력하고 곱셈은 계산기에 맡기세요. W = A × V예요. 암페어와 볼트를 모두 입력하면 그 값이 와트 입력 칸보다 우선해요."}},{"@type":"Question","name":"냉장고나 에어컨은 실제 고지서가 추정보다 왜 낮나요?","acceptedAnswer":{"@type":"Answer","text":"그런 가전은 사이클로 돌아요. 압축기나 온도조절기가 부하를 켰다 껐다 해서 평균 소비는 정격의 30–70%인 경우가 많아요. 반면 히터, 주전자, 펌프, 조명은 켜져 있을 때 정격 와트에 가깝게 끌어다 써서 추정이 잘 맞아요."}},{"@type":"Question","name":"집 전체나 작업장 전체의 비용은 어떻게 매기나요?","acceptedAnswer":{"@type":"Answer","text":"큰 부하부터 하나씩 비용을 매기세요. 난방, 냉방, 온수, 펌프, 조명이 보통 요금의 80–90%예요. 결과들을 더하세요. 항상 켜져 있는 작은 부하 (공유기, 대기 중인 TV)는 개별로는 싸지만 연간 8,760시간 돌아가니 그쪽도 확인하세요."}},{"@type":"Question","name":"어떤 나라와 통화에서도 쓸 수 있나요?","acceptedAnswer":{"@type":"Answer","text":"네. 계산은 어디서나 같고, 결과는 kWh당 가격의 통화로 나와요. 달러, 파운드, 유로, 루피요. (파키스탄의 구간별 전체 가정용 고지서는 공식 섹션에 연결된 Loona Calculators 전기 요금 도구를 쓰세요.)"}},{"@type":"Question","name":"kWh를 쉬운 말로 하면 무엇인가요?","acceptedAnswer":{"@type":"Answer","text":"1,000 W 가전을 1시간 돌리면 1 kWh를 써요. 100 W 전구는 같은 1 kWh를 쓰는 데 10시간이 걸려요. 그래서 비용은 와트 수만이 아니라 와트 × 시간이 결정해요."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "전기 요금 계산기",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/electricity-cost-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>건설 계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">소개</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; 전기 &rsaquo; 전기 요금 계산기</div>
+<h1 class="pagetitle">💷 전기 요금 계산기</h1>
+<p class="lead">그 히터, 펌프, 에어컨을 실제로 돌리는 데 얼마가 들까요? 와트 수(또는 암페어와 볼트), 하루 운전 시간, kWh당 가격을 입력하면 사용한 에너지와 하루, 한 달, 연간 비용을 어떤 통화로든 알려줘요.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_watts">기기 출력 (와트) — 정격 라벨 기준</label><input type="number" id="f_watts" step="any" value="1500"></div><div class="fld"><label for="f_amps">또는 전류 (암페어) — 암페어와 볼트를 모두 입력하면 와트보다 우선해요</label><input type="number" id="f_amps" step="any" value=""></div><div class="fld"><label for="f_volts">전압 (볼트) — 위의 암페어와 함께</label><input type="number" id="f_volts" step="any" value=""></div><div class="fld"><label for="f_hours">하루 사용 시간</label><input type="number" id="f_hours" step="any" value="4"></div><div class="fld"><label for="f_days">한 달 사용 일수</label><input type="number" id="f_days" step="any" value="30"></div><div class="fld"><label for="f_price">kWh당 가격 (내 통화 기준 — 전기 요금 고지서에서 확인)</label><input type="number" id="f_price" step="any" value="0.30"></div>
+<button type="button" class="calcbtn" id="calcBtn">계산하기</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>전기 요금 계산기 사용법</h2><ol><li>기기의 출력을 찾으세요. 정격 라벨의 와트수, 또는 암페어예요. 암페어와 볼트를 대신 입력하면 계산기가 곱해 줘요.</li><li>현실적인 하루 사용 시간과 한 달 사용 일수를 입력하세요 (평일에만 쓰는 히터라면 30일이 아니라 22일일 수 있어요).</li><li>kWh당 가격은 최근 고지서에서 가져오세요. 요금이 직접 표시돼 있지 않으면 고지서 총액을 사용한 kWh로 나누세요. 그런 다음 계산을 누르세요.</li></ol>
+<div class="exbox"><strong>예:</strong> 1,500 W 히터를 하루 4시간, 한 달 30일, kWh당 0.30으로 돌리면 사용량은 <strong>180 kWh</strong> 한 달에, 비용은 <strong>54.00</strong> 한 달이에요.</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>kWh당 가격은 어디서 찾나요?</h3><p>전기 요금 청구서에서 찾으세요. 명시된 단위 요금이거나, 전체 에너지 요금을 소비한 kWh로 나눈 값이에요. 순수 운전 비용만 원하면 단위당 에너지 요금만 포함하세요. 기본 요금과 세금은 이 기기가 돌든 안 돌든 적용돼요.</p></div><div class="faq"><h3>라벨에 와트가 아니라 암페어만 있는데 어떻게 하나요?</h3><p>암페어와 공급 전압 (유럽 대부분과 파키스탄은 230 V, 북미는 120 V)을 입력하고 곱셈은 계산기에 맡기세요. W = A × V예요. 암페어와 볼트를 모두 입력하면 그 값이 와트 입력 칸보다 우선해요.</p></div><div class="faq"><h3>냉장고나 에어컨은 실제 고지서가 추정보다 왜 낮나요?</h3><p>그런 가전은 사이클로 돌아요. 압축기나 온도조절기가 부하를 켰다 껐다 해서 평균 소비는 정격의 30–70%인 경우가 많아요. 반면 히터, 주전자, 펌프, 조명은 켜져 있을 때 정격 와트에 가깝게 끌어다 써서 추정이 잘 맞아요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>옴의 법칙 계산기</h3><p>전기</p></a><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>전압 강하 계산기</h3><p>전기</p></a><a class="card" href="../wire-size-calculator/"><div class="ic">🧵</div><h3>전선 굵기 계산기</h3><p>전기</p></a><a class="card" href="../solar-panel-calculator/"><div class="ic">☀️</div><h3>태양광 패널 계산기</h3><p>전기</p></a></div>
+</div>
+<section class="txt"><h2>작동 원리 &mdash; 공식</h2>
+<p><strong>암페어에서 구한 전력:</strong> W = A × V<br>
+<strong>하루 에너지 (kWh)</strong> = 와트 ÷ 1,000 × 하루 사용 시간<br>
+<strong>월 에너지</strong> = 하루 kWh × 한 달 일수 &nbsp;·&nbsp; <strong>연 에너지</strong> = 월 kWh × 12<br>
+<strong>비용</strong> = kWh × kWh당 가격</p>
+<p>킬로와트시 하나는 킬로와트 하나가 한 시간 도는 거예요. 요금 청구서가 세는 단위예요. 이건 어떤 나라와 통화에도 쓸 수 있는 일반 기기 운전 비용 도구예요. 파키스탄의 전체 가정용 청구서, 즉 거기에 적용되는 구간 요금, 세금, 추가 요금까지는 전용 도구를 쓰세요 <a href="https://loonaautomation.github.io/loona-calculators/electricity-bill-calculator/">Loona Calculators의 파키스탄 전기 요금 계산기</a> 대신에요. 다른 작업에는 다른 도구가 필요해요.</p>
+<h3>풀이 예</h3>
+<div class="exbox">히터: 1,500 W, 하루 4시간, 한 달 30일, kWh당 가격 0.30. 하루 에너지 = 1,500 ÷ 1,000 × 4 = <strong>6 kWh</strong>. 월 기준 = 6 × 30 = <strong>180 kWh</strong>. 월 비용 = 180 × 0.30 = <strong>54.00</strong>; 하루 = 6 × 0.30 = 1.80; 연간 = 180 × 12 = 2,160 kWh로 비용은 648.00이에요.</div>
+
+<h3>자주 묻는 질문</h3></section>
+<div class="faq"><h3>집 전체나 작업장 전체의 비용은 어떻게 매기나요?</h3><p>큰 부하부터 하나씩 비용을 매기세요. 난방, 냉방, 온수, 펌프, 조명이 보통 요금의 80–90%예요. 결과들을 더하세요. 항상 켜져 있는 작은 부하 (공유기, 대기 중인 TV)는 개별로는 싸지만 연간 8,760시간 돌아가니 그쪽도 확인하세요.</p></div><div class="faq"><h3>어떤 나라와 통화에서도 쓸 수 있나요?</h3><p>네. 계산은 어디서나 같고, 결과는 kWh당 가격의 통화로 나와요. 달러, 파운드, 유로, 루피요. (파키스탄의 구간별 전체 가정용 고지서는 공식 섹션에 연결된 Loona Calculators 전기 요금 도구를 쓰세요.)</p></div><div class="faq"><h3>kWh를 쉬운 말로 하면 무엇인가요?</h3><p>1,000 W 가전을 1시간 돌리면 1 kWh를 써요. 100 W 전구는 같은 1 kWh를 쓰는 데 10시간이 걸려요. 그래서 비용은 와트 수만이 아니라 와트 × 시간이 결정해요.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 내 웹사이트에 임베드하세요 — 무료예요</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 내 웹사이트나 블로그에 추가하세요. 완전히 무료이고, 가입도 필요 없으며, 항상 최신 버전을 보여 줘요. 아래 코드를 복사해서 계산기가 나타나길 원하는 위치에 붙여 넣으세요. 임베드 아래의 작은 &ldquo;Powered by Loona Automation&rdquo; 출처 표기를 유지해 주시면 이 도구를 계속 무료로 제공하는 데 도움이 돼요. 다만 스타일을 바꾸거나 지우셔도 자유예요. 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/ko/electricity-cost-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Electricity Cost Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/ko/electricity-cost-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 전기 요금 계산기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='복사했어요!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../paint-calculator/">페인트 계산기</a></li>
+<li><a href="../concrete-calculator/">콘크리트 계산기</a></li>
+<li><a href="../tile-calculator/">타일 계산기</a></li>
+<li><a href="../brick-calculator/">벽돌 계산기</a></li>
+<li><a href="../roof-pitch-calculator/">지붕 경사 계산기</a></li>
+<li><a href="../stairs-calculator/">계단 계산기</a></li></ul></div>
+<div><h4>Loona 도구 더 보기</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Loona 도구 전체</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">소개</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용약관</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> 의 프로젝트입니다. 미터법과 야드파운드법 단위의 무료 건설 계산기, 가입도 필요 없어요.
+문의: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  var watts = v.watts;
+  var mode = "와트";
+  if (v.amps > 0 && v.volts > 0) { watts = v.amps * v.volts; mode = "ampsvolts"; }
+  if (!pos(watts, v.hours, v.days, v.price)) return bad("기기의 와트 수 (또는 암페어와 볼트 모두), 하루 사용 시간, 월 사용 일수, kWh당 가격을 입력하세요.");
+  if (v.hours > 24) return bad("하루 시간은 24를 넘을 수 없어요.");
+  var kwhDay = watts / 1000 * v.hours;
+  var kwhMonth = kwhDay * v.days;
+  var kwhYear = kwhMonth * 12;
+  var html = resTable("월 비용", fmt(kwhMonth * v.price, 2),
+    [["사용한 기기 전력", fmt(watts, 0) + " W" + (mode === "ampsvolts" ? " (암페어 × 볼트로부터)" : "")],
+     ["하루 에너지", fmt(kwhDay, 3) + " kWh — 비용 " + fmt(kwhDay * v.price, 2)],
+     ["월 에너지 (" + fmt(v.days, 0) + " 일)", fmt(kwhMonth, 2) + " kWh — 비용 " + fmt(kwhMonth * v.price, 2)],
+     ["연간 에너지", fmt(kwhYear, 1) + " kWh — 비용 " + fmt(kwhYear * v.price, 2)],
+     ["사용 시간당 비용", fmt(watts / 1000 * v.price, 3)]],
+    "비용은 kWh당 가격의 통화로 표시되며, 기기가 켜져 있을 때는 항상 정격 전력을 온전히 끌어 쓴다고 가정해요. 순환 작동하는 기기 (냉장고, 에어컨, 온도 조절 히터)는 실제로는 보통 그 30–70%를 사용해요. 연간 수치는 월 수치 × 12예요.");
+  return { ok: true, watts: watts, kwhDay: kwhDay, kwhMonth: kwhMonth, kwhYear: kwhYear, costDay: kwhDay * v.price, costMonth: kwhMonth * v.price, costYear: kwhYear * v.price, html: html };
+} };
+
+function collect(){ return { watts: gv("f_watts"), amps: gv("f_amps"), volts: gv("f_volts"), hours: gv("f_hours"), days: gv("f_days"), price: gv("f_price") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누른 다음 "홈 화면에 추가"를 선택하세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

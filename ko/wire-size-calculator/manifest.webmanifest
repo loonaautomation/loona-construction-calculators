@@ -1,0 +1,29 @@
+{
+  "name": "Loona Wire Size Calculator",
+  "short_name": "Wire Size Calculator",
+  "description": "무료 전선 굵기 계산기: 전류, 편도 길이, 허용 전압 강하 %, 전압, 구리나 알루미늄, 단상이나 삼상을 입력하면 mm² 단위 최소 케이블 크기, 가장 가까운 표준 크기, AWG 환산 값을 알려 줘요.",
+  "id": "/loona-construction-calculators/ko/wire-size-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

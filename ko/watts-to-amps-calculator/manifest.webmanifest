@@ -1,0 +1,29 @@
+{
+  "name": "Loona Watts to Amps Calculator",
+  "short_name": "Watts to Amps Calculator",
+  "description": "DC, AC 단상, AC 삼상을 위한 무료 와트-암페어 변환 계산기: 출력, 전압, 역률에서 암페어 단위 전류를 알려 줘요. 차단기나 케이블 크기를 정하는 첫 단계예요.",
+  "id": "/loona-construction-calculators/ko/watts-to-amps-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

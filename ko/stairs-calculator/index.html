@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>계단 계산기 — 단 수, 챌면 높이, 디딤면, 스트링거 길이 | Loona Construction Calculators</title>
+<meta name="description" content="무료 계단 계산기: 전체 높이를 미터법이나 야드파운드법으로 입력하면 단수, 정확한 디딤단 높이, 전체 수평 거리, 경사재 길이를 알려 줘요. 2R + T 쾌적 기준을 자동으로 확인해요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/ko/stairs-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/stairs-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/stairs-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/stairs-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/stairs-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/stairs-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/stairs-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/stairs-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/stairs-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/stairs-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/stairs-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/stairs-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/stairs-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/stairs-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="계단 계산기 — 단 수, 챌면 높이, 디딤면, 스트링거 길이 | Loona Construction Calculators">
+<meta property="og:description" content="무료 계단 계산기: 전체 높이를 미터법이나 야드파운드법으로 입력하면 단수, 정확한 디딤단 높이, 전체 수평 거리, 경사재 길이를 알려 줘요. 2R + T 쾌적 기준을 자동으로 확인해요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/ko/stairs-calculator/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="계단 계산기 — 단 수, 챌면 높이, 디딤면, 스트링거 길이 | Loona Construction Calculators">
+<meta name="twitter:description" content="무료 계단 계산기: 전체 높이를 미터법이나 야드파운드법으로 입력하면 단수, 정확한 디딤단 높이, 전체 수평 거리, 경사재 길이를 알려 줘요. 2R + T 쾌적 기준을 자동으로 확인해요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 계단 계산기","url":"https://loonaautomation.github.io/loona-construction-calculators/ko/stairs-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"이상적인 챌면 높이와 디딤면 깊이는 얼마인가요?","acceptedAnswer":{"@type":"Answer","text":"주택에서는 디딤단 170–190 mm (약 7 in)에 디딤판 (수평 깊이) 250–300 mm (10–12 in)가 자연스럽게 느껴져요. 정확한 조합보다 쾌적 기준이 더 중요해요. 2 × 디딤단 + 디딤판 ≈ 630 mm예요."}},{"@type":"Question","name":"왜 모든 챌면이 정확히 같아야 하나요?","acceptedAnswer":{"@type":"Answer","text":"사람은 계단을 보는 게 아니라 리듬으로 올라요. 나머지와 10 mm만 달라도 전형적인 걸림 사고 원인이 돼요. 그래서 계산기는 고정된 디딤단과 나머지를 쓰지 않고 전체 높이를 완벽히 동등한 단으로 나눠요."}},{"@type":"Question","name":"전체 높이는 어떻게 재나요?","acceptedAnswer":{"@type":"Answer","text":"아래층 마감 바닥면에서 위층 마감 바닥면까지예요. 양쪽 끝의 바닥재 두께를 포함하세요. 계단실 개구부에서 두 번 재세요. 여기서의 오차는 모든 단에 퍼져요."}},{"@type":"Question","name":"스트링거 길이는 어디에 쓰나요?","acceptedAnswer":{"@type":"Answer","text":"스트링거는 디딤면을 받치는 대각선 보드(또는 강재)예요. 최소 길이는 높이와 수평 거리의 빗변이에요. 끝단 절단과 연결 상세를 감안해 계산값보다 길게 주문하세요."}},{"@type":"Question","name":"머리 공간이 얼마나 필요한가요?","acceptedAnswer":{"@type":"Answer","text":"건축 규칙에서는 보통 계단 경사선 위로 최소 2 m (약 6 ft 8 in)의 유효 머리 공간을 요구해요. 디딤판 코 부분에서 수직으로 잰 값이에요. 수평 거리를 확정할 때 계단실 개구부 길이를 확인하세요."}},{"@type":"Question","name":"이 계단은 건축 규정에 맞을까요?","acceptedAnswer":{"@type":"Answer","text":"계산기는 널리 받아들여지는 설계 목표(챌면 ≈175 mm, 쾌적 범위 600–650 mm)를 써요. 하지만 최대 챌면과 최소 디딤면 한계는 나라와 건물 유형마다 달라요. 시공 전에 반드시 내 설계를 지역 건축 규정과 대조하세요."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "계단 계산기",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/stairs-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>건설 계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">소개</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; 건설 &rsaquo; 계단 계산기</div>
+<h1 class="pagetitle">🪜 계단 계산기</h1>
+<p class="lead">계단이나 데크 계단을 설계하시나요? 전체 층고와 디딤판 깊이를 입력하면 계산기가 단수를 정하고, 모든 단이 동일해지도록 정확한 디딤단 높이를 계산하며, 전체 수평 거리와 경사재 길이를 구해요. 결과는 고전적인 쾌적 기준과도 대조해요.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system">단위 체계</label><select id="f_system"><option value="m">미터법 (미터, 리터, kg)</option><option value="i">야드파운드법 (피트, 갤런, lb)</option></select></div><div class="fld"><label for="f_rise">전체 높이, 바닥에서 바닥까지 <span class="u" data-u="rise"></span></label><input type="number" id="f_rise" step="any" data-m="2.7" data-i="8.86" value="2.7" ></div><div class="fld"><label for="f_tread">디딤면 깊이 (유효 폭) <span class="u" data-u="tread"></span></label><input type="number" id="f_tread" step="any" data-m="250" data-i="10" value="250" ></div>
+<button type="button" class="calcbtn" id="calcBtn">계산하기</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>계단 계산기 사용법</h2><ol><li>미터법이나 야드파운드법 단위를 고르세요.</li><li>전체 높이를 입력하세요. 마감 바닥 두께를 포함한 층고예요.</li><li>디딤판 깊이를 입력하세요 (250 mm / 10 in가 편안한 기본값이에요).</li><li>계산을 누르세요. 단 수는 모든 챌면이 정확히 같아지도록 정해져요.</li></ol>
+<div class="exbox"><strong>예:</strong> 층고 2.7 m 높이는 정확히 180 mm인 디딤단 15개, 디딤판 14개, 250 mm 디딤판 기준 수평 거리 3.5 m, 경사재 약 4.42 m로 계산돼요. 쾌적 수치는 610 mm로 이상적인 범위 안에 있어요.</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>이상적인 챌면 높이와 디딤면 깊이는 얼마인가요?</h3><p>주택에서는 디딤단 170–190 mm (약 7 in)에 디딤판 (수평 깊이) 250–300 mm (10–12 in)가 자연스럽게 느껴져요. 정확한 조합보다 쾌적 기준이 더 중요해요. 2 × 디딤단 + 디딤판 ≈ 630 mm예요.</p></div><div class="faq"><h3>왜 모든 챌면이 정확히 같아야 하나요?</h3><p>사람은 계단을 보는 게 아니라 리듬으로 올라요. 나머지와 10 mm만 달라도 전형적인 걸림 사고 원인이 돼요. 그래서 계산기는 고정된 디딤단과 나머지를 쓰지 않고 전체 높이를 완벽히 동등한 단으로 나눠요.</p></div><div class="faq"><h3>전체 높이는 어떻게 재나요?</h3><p>아래층 마감 바닥면에서 위층 마감 바닥면까지예요. 양쪽 끝의 바닥재 두께를 포함하세요. 계단실 개구부에서 두 번 재세요. 여기서의 오차는 모든 단에 퍼져요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../board-foot-calculator/"><div class="ic">🪵</div><h3>보드피트 계산기</h3><p>건설</p></a><a class="card" href="../wallpaper-calculator/"><div class="ic">🧻</div><h3>벽지 계산기</h3><p>건설</p></a><a class="card" href="../mulch-calculator/"><div class="ic">🌱</div><h3>멀치 계산기</h3><p>건설</p></a><a class="card" href="../paint-calculator/"><div class="ic">🎨</div><h3>페인트 계산기</h3><p>건설</p></a><a class="card" href="../tile-calculator/"><div class="ic">🔲</div><h3>타일 계산기</h3><p>건설</p></a></div>
+</div>
+<section class="txt"><h2>작동 원리 &mdash; 공식</h2>
+<p><strong>디딤단 수</strong> = 전체 높이 &divide; 목표 디딤단 높이 (175 mm / 7 in), 정수로 반올림<br>
+<strong>실제 디딤단 높이</strong> = 전체 높이 &divide; 디딤단 수 (모든 단에서 동일해요. 안전한 계단의 핵심이에요)<br>
+<strong>전체 수평 거리</strong> = 디딤판 깊이 × (디딤단 수 &minus; 1)<br>
+<strong>스트링거 길이</strong> = &radic;(전체 높이&sup2; + 전체 수평 거리&sup2;)<br>
+<strong>쾌적 기준</strong>: 2 × 디딤단 높이 + 디딤판 깊이는 약 600–650 mm (24–25.5 in)가 되어야 해요. 계단에서 자연스러운 보폭의 길이예요.</p>
+<h3>풀이 예</h3>
+<div class="exbox"><strong>예:</strong> 전체 높이 2700 mm &divide; 175 = 15.4 &rarr; <strong>디딤단 15개</strong> 2700 &divide; 15 의 = <strong>180 mm</strong> 씩이에요. 디딤면 = 14 × 250 mm = 수평 거리 3500 mm예요. 스트링거 = &radic;(2700&sup2; + 3500&sup2;) = <strong>4420 mm</strong>. Comfort: 2 × 180 + 250 = <strong>610 mm</strong> — 600–650 mm 범위 안에 들어와요.</div>
+<h3>자주 묻는 질문</h3></section>
+<div class="faq"><h3>스트링거 길이는 어디에 쓰나요?</h3><p>스트링거는 디딤면을 받치는 대각선 보드(또는 강재)예요. 최소 길이는 높이와 수평 거리의 빗변이에요. 끝단 절단과 연결 상세를 감안해 계산값보다 길게 주문하세요.</p></div><div class="faq"><h3>머리 공간이 얼마나 필요한가요?</h3><p>건축 규칙에서는 보통 계단 경사선 위로 최소 2 m (약 6 ft 8 in)의 유효 머리 공간을 요구해요. 디딤판 코 부분에서 수직으로 잰 값이에요. 수평 거리를 확정할 때 계단실 개구부 길이를 확인하세요.</p></div><div class="faq"><h3>이 계단은 건축 규정에 맞을까요?</h3><p>계산기는 널리 받아들여지는 설계 목표(챌면 ≈175 mm, 쾌적 범위 600–650 mm)를 써요. 하지만 최대 챌면과 최소 디딤면 한계는 나라와 건물 유형마다 달라요. 시공 전에 반드시 내 설계를 지역 건축 규정과 대조하세요.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 내 웹사이트에 임베드하세요 — 무료예요</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 내 웹사이트나 블로그에 추가하세요. 완전히 무료이고, 가입도 필요 없으며, 항상 최신 버전을 보여 줘요. 아래 코드를 복사해서 계산기가 나타나길 원하는 위치에 붙여 넣으세요. 임베드 아래의 작은 &ldquo;Powered by Loona Automation&rdquo; 출처 표기를 유지해 주시면 이 도구를 계속 무료로 제공하는 데 도움이 돼요. 다만 스타일을 바꾸거나 지우셔도 자유예요. 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/ko/stairs-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Stairs Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/ko/stairs-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 계단 계산기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='복사했어요!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../paint-calculator/">페인트 계산기</a></li>
+<li><a href="../concrete-calculator/">콘크리트 계산기</a></li>
+<li><a href="../tile-calculator/">타일 계산기</a></li>
+<li><a href="../brick-calculator/">벽돌 계산기</a></li>
+<li><a href="../roof-pitch-calculator/">지붕 경사 계산기</a></li>
+<li><a href="./">계단 계산기</a></li></ul></div>
+<div><h4>Loona 도구 더 보기</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Loona 도구 전체</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">소개</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용약관</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> 의 프로젝트입니다. 미터법과 야드파운드법 단위의 무료 건설 계산기, 가입도 필요 없어요.
+문의: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+
+/* shared helpers: DOM getters (browser) + unit conversions + formatting */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.rise, v.tread)) return bad("전체 높이와 디딤판 깊이를 입력하세요 (둘 다 영보다 커야 해요).");
+  var totalMm = (v.sys === "i") ? v.rise * FT * 1000 : v.rise * 1000;
+  var treadMm = (v.sys === "i") ? v.tread * 25.4 : v.tread; /* tread input: inches (imperial) or mm (metric) */
+  var N = Math.max(2, Math.round(totalMm / 175));
+  var riser = totalMm / N, treads = N - 1, runMm = treadMm * treads;
+  var stringer = Math.sqrt(totalMm * totalMm + runMm * runMm);
+  var comfort = 2 * riser + treadMm, inRange = comfort >= 600 && comfort <= 650;
+  var imp = v.sys === "i";
+  function L(mm) { return imp ? fmt(mm / 25.4, 2) + " in" : fmt(mm, 0) + " mm"; }
+  var html = resTable("계단 수", N + " 디딤단 (" + treads + " 디딤판)",
+    [["정확한 디딤단 높이 (모든 단 동일)", L(riser)],
+     ["디딤판 깊이 (보행면)", L(treadMm)],
+     ["계단 전체 수평 거리", imp ? fmt(runMm / 304.8, 2) + " ft" : fmt(runMm / 1000, 2) + " m"],
+     ["스트링거 길이 (최소)", imp ? fmt(stringer / 304.8, 2) + " ft" : fmt(stringer / 1000, 2) + " m"],
+     ["편안함 확인: 2 × 디딤단 + 디딤판", fmt(comfort, 0) + " mm (" + fmt(comfort / 25.4, 1) + " in)"]],
+    inRange ? "편안해요: 결과가 계단 설계자들이 사용하는 고전적인 편안함 범위 600–650 mm (약 24–25.5 in) 안에 들어요." : "고전적인 편안함 범위 600–650 mm를 벗어났어요 — 2R + T가 630 mm 근처에 오도록 디딤판 깊이를 조정하세요 (디딤단이 높으면 디딤판을 깊게, 낮으면 얕게요).");
+  return { ok: true, steps: N, riserMm: riser, treads: treads, runMm: runMm, stringerMm: stringer, comfort: comfort, inRange: inRange, html: html };
+} };
+
+function collect(){
+return { sys: gs("f_system"), rise: gv("f_rise"), tread: gv("f_tread") };
+}
+
+/* ---- page wiring (browser only) ---- */
+if (typeof document !== "undefined") {
+  var UNITS = {"rise":["m","ft"],"tread":["mm","in"]};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누른 다음 "홈 화면에 추가"를 선택하세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

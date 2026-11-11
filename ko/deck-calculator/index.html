@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>데크 계산기 — 판재, 장선, 나사 추정기 | Loona Construction Calculators</title>
+<meta name="description" content="무료 데크 계산기: 데크 크기와 판재 너비를 미터법이나 야드파운드법으로 입력하면 구매할 데크 판재, 전체 판재 길이, 장선, 나사 추정치를 알려 줘요. 판재 간격, 장선 간격, 로스 여유가 포함돼요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/ko/deck-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/deck-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/deck-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/deck-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/deck-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/deck-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/deck-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/deck-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/deck-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/deck-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/deck-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/deck-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/deck-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/deck-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="데크 계산기 — 판재, 장선, 나사 추정기 | Loona Construction Calculators">
+<meta property="og:description" content="무료 데크 계산기: 데크 크기와 판재 너비를 미터법이나 야드파운드법으로 입력하면 구매할 데크 판재, 전체 판재 길이, 장선, 나사 추정치를 알려 줘요. 판재 간격, 장선 간격, 로스 여유가 포함돼요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/ko/deck-calculator/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="데크 계산기 — 판재, 장선, 나사 추정기 | Loona Construction Calculators">
+<meta name="twitter:description" content="무료 데크 계산기: 데크 크기와 판재 너비를 미터법이나 야드파운드법으로 입력하면 구매할 데크 판재, 전체 판재 길이, 장선, 나사 추정치를 알려 줘요. 판재 간격, 장선 간격, 로스 여유가 포함돼요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 데크 계산기","url":"https://loonaautomation.github.io/loona-construction-calculators/ko/deck-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"데크 보드 사이는 얼마나 띄워야 하나요?","acceptedAnswer":{"@type":"Answer","text":"목재 판재는 약 5–6 mm (3/16–1/4 in)예요. 배수와 팽창에는 충분하고, 힐이나 떨어뜨린 나사가 사라지지 않을 만큼은 작아요. 복합 판재는 제조사의 클립 시스템을 따르는데 보통 5–7 mm예요."}},{"@type":"Question","name":"데크 보드는 어느 방향으로 깔아야 하나요?","acceptedAnswer":{"@type":"Answer","text":"판재는 보통 집에서 바깥쪽으로, 또는 가장 긴 방향을 따라 놓아요. 그리고 항상 장선과 직각이에요. 물매 (경사)를 집에서 멀어지는 판재 방향을 따라 만들면 물이 끝쪽으로 잘 빠져요."}},{"@type":"Question","name":"데크 장선 간격은 얼마나 떨어져야 하나요?","acceptedAnswer":{"@type":"Answer","text":"28 mm 이상 목재 판재를 쓰는 주거용 데크에서는 400 mm (16 in) 간격이 표준이에요. 더 얇은 판재 (21–24 mm)와 대부분의 복합 판재는 300 mm (12 in) 간격이 필요하고, 대각선 판재 배치도 장선 간격을 더 좁혀야 해요."}},{"@type":"Question","name":"데크에는 나사가 실제로 몇 개 들어가나요?","acceptedAnswer":{"@type":"Answer","text":"보드와 장선이 만나는 곳마다 나사 두 개씩이면 금방 불어나요. 소박한 12 m² 데크도 나사 500개를 넘길 수 있어요. 벌크 박스로 사고, 떨어뜨리거나 홈이 뭉개지는 경우를 위해 10%를 더하세요. 여기의 추정은 로스 여유분이 보드 수에만 포함돼 있어요."}},{"@type":"Question","name":"판재가 말라 있으면 간격 없이 깔 수 있나요?","acceptedAnswer":{"@type":"Answer","text":"아니에요. 인공 건조 목재조차 젖으면 너비 방향으로 팽창해요. 간격 없는 데크는 휘고, 체결재를 들어 올리고, 고인 물을 머금어요. 간격은 배수 기능이지 대충 한 작업이 아니에요."}},{"@type":"Question","name":"데킹에는 로스율을 몇 %로 써야 하나요?","acceptedAnswer":{"@type":"Answer","text":"판재를 곧게 까는 단순한 직사각형이라면 10%예요. 대각선 패턴, 액자형 테두리, 기둥과 계단 주변에 잘라낼 부분이 많은 데크는 15–20%를 쓰세요."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "데크 계산기",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ko/deck-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>건설 계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">소개</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; 건설 &rsaquo; 데크 계산기</div>
+<h1 class="pagetitle">🌞 데크 계산기</h1>
+<p class="lead">데크를 계획 중인가요? 데크 크기, 보드 너비와 간격, 장선 간격을 입력하면 사야 할 보드, 그 아래 장선, 현실적인 나사 개수까지 미터법과 야드파운드법으로 알려줘요.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system">단위 체계</label><select id="f_system"><option value="m">미터법 (미터, 리터, kg)</option><option value="i">야드파운드법 (피트, 갤런, lb)</option></select></div><div class="fld"><label for="f_length">데크 길이 (판재가 놓이는 방향) <span class="u" data-u="length"></span></label><input type="number" id="f_length" step="any" data-m="4" data-i="13" value="4" ></div><div class="fld"><label for="f_width">데크 너비 (판재를 가로지르는 방향) <span class="u" data-u="width"></span></label><input type="number" id="f_width" step="any" data-m="3" data-i="10" value="3" ></div><div class="fld"><label for="f_boardw">판재 너비 <span class="u" data-u="boardw"></span></label><input type="number" id="f_boardw" step="any" data-m="140" data-i="5.5" value="140" ></div><div class="fld"><label for="f_gap">판재 사이 간격 <span class="u" data-u="gap"></span></label><input type="number" id="f_gap" step="any" data-m="5" data-i="0.19" value="5" ></div><div class="fld"><label for="f_boardlen">구매할 판재 길이 <span class="u" data-u="boardlen"></span></label><input type="number" id="f_boardlen" step="any" data-m="3.6" data-i="12" value="3.6" ></div><div class="fld"><label for="f_joist">장선 간격 (중심 간 거리) <span class="u" data-u="joist"></span></label><input type="number" id="f_joist" step="any" data-m="400" data-i="16" value="400" ></div><div class="fld"><label for="f_waste">로스 / 여유분 (%)</label><input type="number" id="f_waste" step="any" min="0" value="10"></div>
+<button type="button" class="calcbtn" id="calcBtn">계산하기</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>데크 계산기 사용법</h2><ol><li>미터법이나 야드파운드법 단위를 고르세요.</li><li>데크 길이 (판재가 놓이는 방향)와 그것을 가로지르는 너비를 입력하세요.</li><li>판재 너비와 판재 사이 간격을 입력하세요 (5 mm / 3/16 in이면 배수가 잘 돼요).</li><li>구매할 판재 길이와 장선 간격을 입력하세요 (400 mm / 16 in가 표준이에요).</li><li>계산을 누르면 보드, 장선, 나사 수가 나와요.</li></ol>
+<div class="exbox"><strong>예:</strong> 4 m × 3 m 데크에 140 mm 판재와 5 mm 간격이면 가로로 판재 21장, 판재 전체 84 m, 400 mm 간격의 장선 11개, 나사 약 462개가 필요해요.</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>데크 보드 사이는 얼마나 띄워야 하나요?</h3><p>목재 판재는 약 5–6 mm (3/16–1/4 in)예요. 배수와 팽창에는 충분하고, 힐이나 떨어뜨린 나사가 사라지지 않을 만큼은 작아요. 복합 판재는 제조사의 클립 시스템을 따르는데 보통 5–7 mm예요.</p></div><div class="faq"><h3>데크 보드는 어느 방향으로 깔아야 하나요?</h3><p>판재는 보통 집에서 바깥쪽으로, 또는 가장 긴 방향을 따라 놓아요. 그리고 항상 장선과 직각이에요. 물매 (경사)를 집에서 멀어지는 판재 방향을 따라 만들면 물이 끝쪽으로 잘 빠져요.</p></div><div class="faq"><h3>데크 장선 간격은 얼마나 떨어져야 하나요?</h3><p>28 mm 이상 목재 판재를 쓰는 주거용 데크에서는 400 mm (16 in) 간격이 표준이에요. 더 얇은 판재 (21–24 mm)와 대부분의 복합 판재는 300 mm (12 in) 간격이 필요하고, 대각선 판재 배치도 장선 간격을 더 좁혀야 해요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../plywood-calculator/"><div class="ic">🪵</div><h3>합판 계산기</h3><p>건설</p></a><a class="card" href="../board-foot-calculator/"><div class="ic">🪵</div><h3>보드피트 계산기</h3><p>건설</p></a><a class="card" href="../stairs-calculator/"><div class="ic">🪜</div><h3>계단 계산기</h3><p>건설</p></a><a class="card" href="../fence-calculator/"><div class="ic">🚧</div><h3>펜스 계산기</h3><p>건설</p></a><a class="card" href="../flooring-calculator/"><div class="ic">🪵</div><h3>바닥재 계산기</h3><p>건설</p></a></div>
+</div>
+<section class="txt"><h2>작동 원리 &mdash; 공식</h2>
+<p><strong>가로 판재 수</strong> = ceil( 데크 너비 ÷ (판재 너비 + 간격) )<br>
+<strong>판재 전체 길이</strong> = 가로 판재 수 × 데크 길이<br>
+<strong>장선</strong> = ceil(데크 길이 ÷ 장선 간격) + 1<br>
+<strong>나사</strong> = 가로 판재 수 × 장선 수 × 2</p>
+<p>판재는 데크 길이를 따라 놓이는 전체 길이 조각으로 세요. 데크가 구매할 수 있는 판재보다 길면 이음매가 장선 위에 와야 해요. 추가 재단분은 로스 여유가 감당해요.</p>
+<h3>풀이 예</h3>
+<div class="exbox">데크 4 m × 3 m; 간격 = 140 + 5 = 145 mm. 가로 판재 수 = 3 ÷ 0.145 = 20.7 → <strong>21장</strong>; 전체 길이 = 21 × 4 = <strong>84 m</strong> (24장, 3.6 m 판재, 로스 전). 장선 = ceil(4 ÷ 0.4) + 1 = <strong>11</strong>. 나사 = 21 × 11 × 2 = <strong>462</strong>.</div>
+<h3>자주 묻는 질문</h3></section>
+<div class="faq"><h3>데크에는 나사가 실제로 몇 개 들어가나요?</h3><p>보드와 장선이 만나는 곳마다 나사 두 개씩이면 금방 불어나요. 소박한 12 m² 데크도 나사 500개를 넘길 수 있어요. 벌크 박스로 사고, 떨어뜨리거나 홈이 뭉개지는 경우를 위해 10%를 더하세요. 여기의 추정은 로스 여유분이 보드 수에만 포함돼 있어요.</p></div><div class="faq"><h3>판재가 말라 있으면 간격 없이 깔 수 있나요?</h3><p>아니에요. 인공 건조 목재조차 젖으면 너비 방향으로 팽창해요. 간격 없는 데크는 휘고, 체결재를 들어 올리고, 고인 물을 머금어요. 간격은 배수 기능이지 대충 한 작업이 아니에요.</p></div><div class="faq"><h3>데킹에는 로스율을 몇 %로 써야 하나요?</h3><p>판재를 곧게 까는 단순한 직사각형이라면 10%예요. 대각선 패턴, 액자형 테두리, 기둥과 계단 주변에 잘라낼 부분이 많은 데크는 15–20%를 쓰세요.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 내 웹사이트에 임베드하세요 — 무료예요</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 내 웹사이트나 블로그에 추가하세요. 완전히 무료이고, 가입도 필요 없으며, 항상 최신 버전을 보여 줘요. 아래 코드를 복사해서 계산기가 나타나길 원하는 위치에 붙여 넣으세요. 임베드 아래의 작은 &ldquo;Powered by Loona Automation&rdquo; 출처 표기를 유지해 주시면 이 도구를 계속 무료로 제공하는 데 도움이 돼요. 다만 스타일을 바꾸거나 지우셔도 자유예요. 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/ko/deck-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Deck Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/ko/deck-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 데크 계산기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='복사했어요!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../paint-calculator/">페인트 계산기</a></li>
+<li><a href="../concrete-calculator/">콘크리트 계산기</a></li>
+<li><a href="../tile-calculator/">타일 계산기</a></li>
+<li><a href="../brick-calculator/">벽돌 계산기</a></li>
+<li><a href="../roof-pitch-calculator/">지붕 경사 계산기</a></li>
+<li><a href="../stairs-calculator/">계단 계산기</a></li></ul></div>
+<div><h4>Loona 도구 더 보기</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Loona 도구 전체</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">소개</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용약관</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> 의 프로젝트입니다. 미터법과 야드파운드법 단위의 무료 건설 계산기, 가입도 필요 없어요.
+문의: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+
+/* shared helpers: DOM getters (browser) + unit conversions + formatting */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.L, v.W, v.boardW, v.boardLen, v.joist) || !(v.gap >= 0)) return bad("데크 크기, 판재 너비, 판재 길이, 장선 간격을 입력하세요 (간격은 제로여도 돼요).");
+  var f = (v.sys === "i") ? FT : 1;
+  var L = v.L * f, W = v.W * f, bl = v.boardLen * f;
+  var bw = (v.sys === "i") ? v.boardW * IN : v.boardW / 1000;
+  var gp = (v.sys === "i") ? v.gap * IN : v.gap / 1000;
+  var js = (v.sys === "i") ? v.joist * IN : v.joist / 1000;
+  var across = Math.ceil(W / (bw + gp));
+  var linear = across * L;
+  var boardsBuy = Math.ceil(linear * (1 + (v.waste || 0) / 100) / bl);
+  var joists = Math.ceil(L / js) + 1;
+  var screws = across * joists * 2;
+  var lu = (v.sys === "i") ? "ft" : "m";
+  var rows = [["너비를 가로지르는 판재", across],
+     ["전체 데크 판재 길이", fmt((v.sys === "i") ? linear / FT : linear, 1) + " " + lu],
+     ["구매할 판재 (포함: " + (v.waste || 0) + "% 여유)", boardsBuy + " × " + v.boardLen + " " + lu],
+     ["아래 장선", joists + " × " + fmt((v.sys === "i") ? W / FT : W, 1) + " " + lu],
+     ["나사 / 숨은 고정구 (교차 지점당 2개)", fmt(screws, 0)]];
+  var html = resTable("구매할 데크 판재", boardsBuy + " 판재", rows,
+    "나사는 각 판재가 각 장선과 교차하는 지점마다 고정구 두 개를 가정해요. 받침대, 기둥, 물받이 판재는 따로 더하세요 — 그리고 프레임 둘레의 테두리 장선 하나도요.");
+  return { ok: true, boardsAcross: across, linear: linear, boardsBuy: boardsBuy, joists: joists, screws: screws, html: html };
+} };
+
+function collect(){
+return { sys: gs("f_system"), L: gv("f_length"), W: gv("f_width"), boardW: gv("f_boardw"), gap: gv("f_gap"), boardLen: gv("f_boardlen"), joist: gv("f_joist"), waste: gv("f_waste") };
+}
+
+/* ---- page wiring (browser only) ---- */
+if (typeof document !== "undefined") {
+  var UNITS = {"length":["m","ft"],"width":["m","ft"],"boardw":["mm","in"],"gap":["mm","in"],"boardlen":["m","ft"],"joist":["mm","in"]};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누른 다음 "홈 화면에 추가"를 선택하세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

@@ -1,0 +1,344 @@
+[
+ {
+  "n": "페인트 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/paint-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "어떤 방에도 리터와 갤런으로 알려 줘요. 문/창문을 빼고 프라이머를 포함해요.",
+  "k": "paint calculator paint calculator paint calculator calculator construction 어떤 방에도 리터와 갤런으로 알려 줘요 문 창문을 빼고 프라이머를 포함해요",
+  "p": 0,
+  "c": "Tool"
+ },
+ {
+  "n": "타일 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/tile-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "바닥과 벽의 타일과 박스를 줄눈 간격까지 세어서 알려줘요.",
+  "k": "tile calculator tile calculator tile calculator calculator construction 바닥과 벽의 타일과 박스를 줄눈 간격까지 세어서 알려줘요",
+  "p": 1,
+  "c": "Tool"
+ },
+ {
+  "n": "콘크리트 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/concrete-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "m³와 yd³ 단위 슬래브 부피와 프리믹스 포대 수를 알려줘요.",
+  "k": "concrete calculator concrete calculator concrete calculator calculator construction m와 yd 단위 슬래브 부피와 프리믹스 포대 수를 알려줘요",
+  "p": 2,
+  "c": "Tool"
+ },
+ {
+  "n": "바닥재 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/flooring-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "재단 로스를 포함한 라미네이트, 비닐, 원목 박스예요.",
+  "k": "flooring calculator flooring calculator flooring calculator calculator construction 재단 로스를 포함한 라미네이트 비닐 원목 박스예요",
+  "p": 3,
+  "c": "Tool"
+ },
+ {
+  "n": "석고보드 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/drywall-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "벽과 천장용 석고보드 / 드라이월 시트예요.",
+  "k": "drywall calculator drywall calculator drywall calculator calculator construction 벽과 천장용 석고보드 드라이월 시트예요",
+  "p": 4,
+  "c": "Tool"
+ },
+ {
+  "n": "벽돌 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/brick-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "표준 미터법과 미국 벽돌 규격에 대한 벽돌 수예요.",
+  "k": "brick calculator brick calculator brick calculator calculator construction 표준 미터법과 미국 벽돌 규격에 대한 벽돌 수예요",
+  "p": 5,
+  "c": "Tool"
+ },
+ {
+  "n": "자갈 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/gravel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "진입로, 보도, 기초용 톤수와 세제곱야드예요.",
+  "k": "gravel calculator gravel calculator gravel calculator calculator construction 진입로 보도 기초용 톤수와 세제곱야드예요",
+  "p": 106,
+  "c": "Tool"
+ },
+ {
+  "n": "지붕 경사 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/roof-pitch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "경사 비율, 각도, 기울기와 서까래 길이예요.",
+  "k": "roof pitch calculator roof pitch calculator roof pitch calculator calculator construction 경사 비율 각도 기울기와 서까래 길이예요",
+  "p": 107,
+  "c": "Tool"
+ },
+ {
+  "n": "계단 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/stairs-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "단 수, 챌면 높이, 디딤면, 수평 거리, 스트링거 길이를 알려줘요.",
+  "k": "stairs calculator stairs calculator stairs calculator calculator construction 단 수 챌면 높이 디딤면 수평 거리 스트링거 길이를 알려줘요",
+  "p": 108,
+  "c": "Tool"
+ },
+ {
+  "n": "보드피트 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/board-foot-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "보드피트와 세제곱미터 단위의 목재 부피예요.",
+  "k": "board foot calculator board foot calculator board foot calculator calculator construction 보드피트와 세제곱미터 단위의 목재 부피예요",
+  "p": 109,
+  "c": "Tool"
+ },
+ {
+  "n": "벽지 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/wallpaper-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "EU와 미국 롤 기준 롤 수로, 패턴 반복까지 감안해요.",
+  "k": "wallpaper calculator wallpaper calculator wallpaper calculator calculator construction eu와 미국 롤 기준 롤 수로 패턴 반복까지 감안해요",
+  "p": 110,
+  "c": "Tool"
+ },
+ {
+  "n": "멀치 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/mulch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "화단과 경계용 포대 수와 벌크 부피예요.",
+  "k": "mulch calculator mulch calculator mulch calculator calculator construction 화단과 경계용 포대 수와 벌크 부피예요",
+  "p": 111,
+  "c": "Tool"
+ },
+ {
+  "n": "아스팔트 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/asphalt-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "면적과 두께로 톤과 미국 톤을 구해요. 밀도를 바꿀 수 있고 비용 추정도 나와요.",
+  "k": "asphalt calculator asphalt calculator asphalt calculator calculator construction 면적과 두께로 톤과 미국 톤을 구해요 밀도를 바꿀 수 있고 비용 추정도 나와요",
+  "p": 112,
+  "c": "Tool"
+ },
+ {
+  "n": "단열 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/insulation-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "목표 R값 / RSI에 맞는 배트, 롤, 충전식 포대와 두께 안내예요.",
+  "k": "insulation calculator insulation calculator insulation calculator calculator construction 목표 r값 rsi에 맞는 배트 롤 충전식 포대와 두께 안내예요",
+  "p": 113,
+  "c": "Tool"
+ },
+ {
+  "n": "펜스 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/fence-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "펜스 길이와 간격으로 기둥, 레일, 피켓, 콘크리트 포대를 계산해요.",
+  "k": "fence calculator fence calculator fence calculator calculator construction 펜스 길이와 간격으로 기둥 레일 피켓 콘크리트 포대를 계산해요",
+  "p": 114,
+  "c": "Tool"
+ },
+ {
+  "n": "데크 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/deck-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "데크 크기, 판재 너비, 장선 간격에서 판재, 장선, 나사를 구해요.",
+  "k": "deck calculator deck calculator deck calculator calculator construction 데크 크기 판재 너비 장선 간격에서 판재 장선 나사를 구해요",
+  "p": 115,
+  "c": "Tool"
+ },
+ {
+  "n": "수영장 용량 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/pool-volume-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "직사각형, 원형, 타원형 수영장의 리터와 US 갤런 — 투약 준비 완료예요.",
+  "k": "pool volume calculator pool volume calculator pool volume calculator calculator construction 직사각형 원형 타원형 수영장의 리터와 us 갤런 투약 준비 완료예요",
+  "p": 116,
+  "c": "Tool"
+ },
+ {
+  "n": "태양광 패널 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/solar-panel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "요금 청구서에서 필요한 패널 수, 시스템 kW, 예상 발전량, 지붕 면적을 구해요.",
+  "k": "solar panel calculator solar panel calculator solar panel calculator calculator construction 요금 청구서에서 필요한 패널 수 시스템 kw 예상 발전량 지붕 면적을 구해요",
+  "p": 117,
+  "c": "Tool"
+ },
+ {
+  "n": "카펫 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/carpet-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "방 크기와 롤 너비에서 길이 방향 길이와 실제 구매 면적을 구해요.",
+  "k": "carpet calculator carpet calculator carpet calculator calculator construction 방 크기와 롤 너비에서 길이 방향 길이와 실제 구매 면적을 구해요",
+  "p": 118,
+  "c": "Tool"
+ },
+ {
+  "n": "합판 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/plywood-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "2440×1220 mm와 4×8 ft 시트에 대해 면적 기준과 배치 기준 시트 수를 알려줘요.",
+  "k": "plywood calculator plywood calculator plywood calculator calculator construction 2440 1220 mm와 4 8 ft 시트에 대해 면적 기준과 배치 기준 시트 수를 알려줘요",
+  "p": 119,
+  "c": "Tool"
+ },
+ {
+  "n": "모래 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/sand-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "모래 놀이터, 포장 기초, 스크리드용 톤수와 25 kg 포대예요.",
+  "k": "sand calculator sand calculator sand calculator calculator construction 모래 놀이터 포장 기초 스크리드용 톤수와 25 kg 포대예요",
+  "p": 120,
+  "c": "Tool"
+ },
+ {
+  "n": "옴의 법칙 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/ohms-law-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "두 가지 값만으로 전압, 전류, 저항, 전력을 구해요 — 옴의 법칙 전체 휠이에요.",
+  "k": "ohm s law calculator ohms law calculator ohms law calculator electrical voltage current resistance power 두 가지 값만으로 전압 전류 저항 전력을 구해요 옴의 법칙 전체 휠이에요",
+  "p": 121,
+  "c": "Tool"
+ },
+ {
+  "n": "전압 강하 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/voltage-drop-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "케이블 구간에서 강하하는 볼트와 %, mm²나 AWG, 단상과 삼상이에요.",
+  "k": "voltage drop calculator voltage drop calculator voltage drop calculator cable electrical copper aluminium awg 케이블 구간에서 강하하는 볼트와 mm나 awg 단상과 삼상이에요",
+  "p": 122,
+  "c": "Tool"
+ },
+ {
+  "n": "전선 굵기 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/wire-size-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "강하 한계에서 구한 mm² 단위 최소 케이블 규격 + 표준 규격과 AWG예요.",
+  "k": "wire size calculator wire size calculator wire size calculator cable size mm2 awg electrical 강하 한계에서 구한 mm 단위 최소 케이블 규격 표준 규격과 awg예요",
+  "p": 123,
+  "c": "Tool"
+ },
+ {
+  "n": "전기 요금 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/electricity-cost-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "와트와 kWh당 가격으로 기기가 하루, 한 달, 연간 얼마 드는지 알려줘요.",
+  "k": "electricity cost calculator electricity cost calculator electricity cost calculator appliance kwh running cost 와트와 kwh당 가격으로 기기가 하루 한 달 연간 얼마 드는지 알려줘요",
+  "p": 124,
+  "c": "Tool"
+ },
+ {
+  "n": "암페어-와트 변환 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/amps-to-watts-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "암페어와 볼트로 와트와 kW를 구해요 — DC, 단상, 삼상, 역률 포함이에요.",
+  "k": "amps to watts calculator amps to watts calculator amps to watts calculator electrical conversion power factor 암페어와 볼트로 와트와 kw를 구해요 dc 단상 삼상 역률 포함이에요",
+  "p": 125,
+  "c": "Tool"
+ },
+ {
+  "n": "와트-암페어 변환 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/watts-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "차단기와 케이블 점검을 위해 와트와 볼트로 암페어를 구해요 — DC, 단상, 삼상이에요.",
+  "k": "watts to amps calculator watts to amps calculator watts to amps calculator electrical conversion breaker 차단기와 케이블 점검을 위해 와트와 볼트로 암페어를 구해요 dc 단상 삼상이에요",
+  "p": 126,
+  "c": "Tool"
+ },
+ {
+  "n": "kVA-암페어 변환 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/kva-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "발전기와 변압기의 kVA를 전부하 암페어로, 암페어를 다시 kVA로 바꿔요. 단상과 삼상이에요.",
+  "k": "kva to amps calculator kva to amps calculator kva to amps calculator generator transformer apparent power 발전기와 변압기의 kva를 전부하 암페어로 암페어를 다시 kva로 바꿔요 단상과 삼상이에요",
+  "p": 127,
+  "c": "Tool"
+ },
+ {
+  "n": "역률 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/power-factor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "kW와 kVA로 역률, kvar, 위상각을 구하고 보정 커패시터 크기까지 알려줘요.",
+  "k": "power factor calculator power factor calculator power factor calculator kvar correction capacitor kw와 kva로 역률 kvar 위상각을 구하고 보정 커패시터 크기까지 알려줘요",
+  "p": 128,
+  "c": "Tool"
+ },
+ {
+  "n": "배터리 사용 시간 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/battery-runtime-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "배터리가 부하를 얼마나 오래 돌리는지 알려줘요 — Ah, 사용 가능한 Wh, 방전 심도, 인버터 손실까지 계산해요.",
+  "k": "battery runtime calculator battery runtime calculator battery runtime calculator amp hours solar ups off grid 배터리가 부하를 얼마나 오래 돌리는지 알려줘요 ah 사용 가능한 wh 방전 심도 인버터 손실까지 계산해요",
+  "p": 129,
+  "c": "Tool"
+ },
+ {
+  "n": "LED 저항 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/led-resistor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "옴 단위 직렬 저항, 가장 가까운 표준 E12 값, 실제 전류와 와트 수예요.",
+  "k": "led resistor calculator led resistor calculator led resistor calculator electronics series resistor e12 옴 단위 직렬 저항 가장 가까운 표준 e12 값 실제 전류와 와트 수예요",
+  "p": 130,
+  "c": "Tool"
+ },
+ {
+  "n": "삼상 전력 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/three-phase-power-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "균형 부하에서 선간 전압, 선전류, 역률로 kW, kVA, kvar를 구해요.",
+  "k": "three phase power calculator three phase power calculator three phase power calculator kw kva kvar 균형 부하에서 선간 전압 선전류 역률로 kw kva kvar를 구해요",
+  "p": 131,
+  "c": "Tool"
+ },
+ {
+  "n": "모터 전류 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/motor-current-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "모터 kW나 hp, 효율과 역률에서 추정한 전부하 암페어예요.",
+  "k": "motor current calculator motor current calculator motor current calculator full load amps fla horsepower 모터 kw나 hp 효율과 역률에서 추정한 전부하 암페어예요",
+  "p": 132,
+  "c": "Tool"
+ },
+ {
+  "n": "저항 색상 코드 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/resistor-colour-code-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "4, 5, 6띠 저항 색상을 옴과 오차로 읽어요 — 값을 띠로 되돌릴 수도 있어요.",
+  "k": "resistor colour code calculator resistor colour code calculator resistor colour code calculator bands ohms tolerance electronics 4 5 6띠 저항 색상을 옴과 오차로 읽어요 값을 띠로 되돌릴 수도 있어요",
+  "p": 133,
+  "c": "Tool"
+ },
+ {
+  "n": "555 타이머 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/555-timer-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "R과 C로 비안정 주파수와 듀티 사이클, 단안정 펄스 폭을 구해요.",
+  "k": "555 timer calculator 555 timer calculator 555 timer calculator astable monostable frequency duty cycle r과 c로 비안정 주파수와 듀티 사이클 단안정 펄스 폭을 구해요",
+  "p": 134,
+  "c": "Tool"
+ },
+ {
+  "n": "AWG 변환기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/awg-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "구리와 알루미늄의 AWG를 mm, mm², km당 저항으로 바꿔요 — mm²나 지름에서 거꾸로도 돼요.",
+  "k": "awg converter awg converter awg converter wire gauge mm2 diameter resistance table 구리와 알루미늄의 awg를 mm mm km당 저항으로 바꿔요 mm나 지름에서 거꾸로도 돼요",
+  "p": 135,
+  "c": "Tool"
+ },
+ {
+  "n": "리액턴스 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/reactance-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "옴 단위의 용량성 및 유도성 리액턴스와 LC 공진 주파수예요.",
+  "k": "reactance calculator reactance calculator reactance calculator capacitive inductive resonance frequency 옴 단위의 용량성 및 유도성 리액턴스와 lc 공진 주파수예요",
+  "p": 136,
+  "c": "Tool"
+ },
+ {
+  "n": "dB 변환기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/db-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "전력과 전압 비율을 데시벨로, dBm을 밀리와트와 와트로, 거꾸로도 바꿔요.",
+  "k": "db converter db converter db converter decibel dbm milliwatts watts ratio 전력과 전압 비율을 데시벨로 dbm을 밀리와트와 와트로 거꾸로도 바꿔요",
+  "p": 137,
+  "c": "Tool"
+ }
+]
