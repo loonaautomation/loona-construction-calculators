@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in South Africa",
+  "short_name": "Brick Size in South Africa",
+  "description": "Kích thước gạch tiêu chuẩn ở Nam Phi: 222 × 106 × 73 mm. 51.9 viên gạch trên mỗi m² (4.82 trên mỗi foot vuông) tường đơn với mạch vữa 10 mm, độ phủ mỗi 1,000 viên gạch và một ví dụ tường đã tính.",
+  "id": "/loona-construction-calculators/vi/brick-size-south-africa/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

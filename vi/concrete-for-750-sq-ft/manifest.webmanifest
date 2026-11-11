@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Concrete for 750 Sq Ft? Volume &",
+  "short_name": "How Much Concrete for 750 Sq",
+  "description": "Bê tông cho tấm sàn 750 sq ft, dày 4 inch: 7.79 m³ (10.19 yd³) đã gồm 10% dự phòng, cộng số bao trộn sẵn cho các bao 80 lb, 60 lb, 25 kg và 20 kg.",
+  "id": "/loona-construction-calculators/vi/concrete-for-750-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

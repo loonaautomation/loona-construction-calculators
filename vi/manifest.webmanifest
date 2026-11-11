@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Các máy tính xây dựng miễn phí hoạt động ở CẢ hệ mét và hệ imperial: sơn, gạch lát, bê tông, lát sàn, thạch cao, gạch xây, sỏi, độ dốc mái, cầu thang, board foot, giấy dán tường, mulch, nhựa đường, cách nhiệt, hàng rào, sàn gỗ, thể tích bể bơi, tấm pin mặt trời, thảm, ván ép, cát, định luật Ohm, sụt áp, tiết diện dây, chi phí điện, ampe sang watt, watt sang ampe, kVA sang ampe, hệ số công suất, thời lượng pin, điện trở LED, công suất ba pha, dòng điện động cơ, mã màu điện trở, mạch hẹn giờ 555, đổi AWG, điện kháng và đổi decibel — với dự phòng hao hụt và ví dụ đã làm sẵn.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/vi/"
+}

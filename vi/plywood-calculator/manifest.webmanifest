@@ -1,0 +1,29 @@
+{
+  "name": "Loona Plywood Calculator",
+  "short_name": "Plywood Calculator",
+  "description": "Máy tính tấm ván ép miễn phí: kích thước diện tích và kích thước tấm (2440×1220 mm hoặc 4×8 ft) theo hệ mét hoặc imperial cho bạn số tấm theo diện tích và theo cách xếp, số lượng khuyến nghị, dự phòng hao hụt và chi phí tùy chọn.",
+  "id": "/loona-construction-calculators/vi/plywood-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

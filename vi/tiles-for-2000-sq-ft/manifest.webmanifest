@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 2000 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 2000 Sq",
+  "description": "Gạch lát cho 2000 sq ft với gạch 60×60 cm và mạch vữa 3 mm: 563 viên gạch (141 hộp, mỗi hộp 4 viên) đã gồm 10% dự phòng cho cắt và vỡ.",
+  "id": "/loona-construction-calculators/vi/tiles-for-2000-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

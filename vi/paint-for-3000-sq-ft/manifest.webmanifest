@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 3000 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 3000 Sq Ft",
+  "description": "Sơn cho 3000 sq ft tường: 61.3 lít (16.2 gal) cho 2 lớp với độ phủ điển hình 10 m²/L, cộng 25.5 L sơn lót — với các giả định đã nêu.",
+  "id": "/loona-construction-calculators/vi/paint-for-3000-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

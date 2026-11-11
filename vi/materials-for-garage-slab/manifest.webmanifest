@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for a 20 × 20 ft Garage Slab",
+  "short_name": "Materials for a 20 × 20 ft",
+  "description": "Vật liệu cho tấm sàn gara 20 × 20 ft: thể tích bê tông chính xác và số bao trộn sẵn (tấm sàn 4 inch, 10% dự phòng) cộng ghi chú mua nền và cốt thép.",
+  "id": "/loona-construction-calculators/vi/materials-for-garage-slab/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

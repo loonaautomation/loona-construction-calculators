@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in Germany (NF)",
+  "short_name": "Brick Size in Germany (NF)",
+  "description": "Kích thước gạch tiêu chuẩn ở Đức (NF): 240 × 115 × 71 mm. 49.4 viên gạch trên mỗi m² (4.59 trên mỗi foot vuông) tường đơn với mạch vữa 10 mm, độ phủ mỗi 1,000 viên gạch và một ví dụ tường đã tính.",
+  "id": "/loona-construction-calculators/vi/brick-size-germany/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

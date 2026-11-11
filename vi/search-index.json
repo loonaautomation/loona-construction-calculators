@@ -1,0 +1,344 @@
+[
+ {
+  "n": "Máy tính sơn",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/paint-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Lít & gallon cho mọi phòng, đã trừ cửa/cửa sổ, gồm sơn lót.",
+  "k": "may tinh son may tinh son may tinh son may tinh xay dung lit gallon cho moi phong a tru cua cua so gom son lot",
+  "p": 0,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính gạch lát",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/tile-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Gạch và hộp cho sàn & tường, đã tính khe ron.",
+  "k": "may tinh gach lat may tinh gach lat may tinh gach lat may tinh xay dung gach va hop cho san tuong a tinh khe ron",
+  "p": 1,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính bê tông",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/concrete-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Thể tích tấm sàn theo m³ & yd³ cộng số bao trộn sẵn.",
+  "k": "may tinh be tong may tinh be tong may tinh be tong may tinh xay dung the tich tam san theo m3 yd3 cong so bao tron san",
+  "p": 2,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính lát sàn",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/flooring-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Hộp laminate, vinyl & gỗ với hao hụt cắt.",
+  "k": "may tinh lat san may tinh lat san may tinh lat san may tinh xay dung hop laminate vinyl go voi hao hut cat",
+  "p": 3,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính vách thạch cao",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/drywall-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tấm thạch cao / drywall cho tường & trần.",
+  "k": "may tinh vach thach cao may tinh vach thach cao may tinh vach thach cao may tinh xay dung tam thach cao drywall cho tuong tran",
+  "p": 4,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính gạch xây",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/brick-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Số gạch cho các kích thước gạch tiêu chuẩn hệ mét &amp; Mỹ.",
+  "k": "may tinh gach xay may tinh gach xay may tinh gach xay may tinh xay dung so gach cho cac kich thuoc gach tieu chuan he met amp my",
+  "p": 5,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính sỏi",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/gravel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tấn & yard khối cho đường lái xe, lối đi và nền.",
+  "k": "may tinh soi may tinh soi may tinh soi may tinh xay dung tan yard khoi cho uong lai xe loi i va nen",
+  "p": 106,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính độ dốc mái",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/roof-pitch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tỉ lệ độ dốc, góc, độ dốc phần trăm và chiều dài kèo.",
+  "k": "may tinh o doc mai may tinh o doc mai may tinh o doc mai may tinh xay dung ti le o doc goc o doc phan tram va chieu dai keo",
+  "p": 107,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính cầu thang",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/stairs-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Số bậc, chiều cao bậc đứng, bậc, chiều chạy và chiều dài xà dọc.",
+  "k": "may tinh cau thang may tinh cau thang may tinh cau thang may tinh xay dung so bac chieu cao bac ung bac chieu chay va chieu dai xa doc",
+  "p": 108,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính Board Foot",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/board-foot-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Thể tích gỗ xẻ theo board foot & mét khối.",
+  "k": "may tinh board foot may tinh board foot may tinh board foot may tinh xay dung the tich go xe theo board foot met khoi",
+  "p": 109,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính giấy dán tường",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/wallpaper-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Số cuộn cho cuộn EU & Mỹ, đã tính độ lặp hoa văn.",
+  "k": "may tinh giay dan tuong may tinh giay dan tuong may tinh giay dan tuong may tinh xay dung so cuon cho cuon eu my a tinh o lap hoa van",
+  "p": 110,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính Mulch",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/mulch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Số bao &amp; thể tích rời cho luống và viền.",
+  "k": "may tinh mulch may tinh mulch may tinh mulch may tinh xay dung so bao amp the tich roi cho luong va vien",
+  "p": 111,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính nhựa đường",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/asphalt-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tấn & tấn Mỹ từ diện tích và độ dày, khối lượng riêng có thể sửa, ước tính chi phí.",
+  "k": "may tinh nhua uong may tinh nhua uong may tinh nhua uong may tinh xay dung tan tan my tu dien tich va o day khoi luong rieng co the sua uoc tinh chi phi",
+  "p": 112,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính cách nhiệt",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/insulation-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tấm, cuộn hoặc bao thổi vào cho giá trị R / RSI mục tiêu của bạn, hướng dẫn độ dày.",
+  "k": "may tinh cach nhiet may tinh cach nhiet may tinh cach nhiet may tinh xay dung tam cuon hoac bao thoi vao cho gia tri r rsi muc tieu cua ban huong dan o day",
+  "p": 113,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính hàng rào",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/fence-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Cột, thanh ngang, thanh cọc và bao bê tông từ chiều dài và khoảng cách hàng rào.",
+  "k": "may tinh hang rao may tinh hang rao may tinh hang rao may tinh xay dung cot thanh ngang thanh coc va bao be tong tu chieu dai va khoang cach hang rao",
+  "p": 114,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính sàn gỗ ngoài trời",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/deck-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Ván sàn, dầm và vít từ kích thước sàn, chiều rộng ván và khoảng cách dầm.",
+  "k": "may tinh san go ngoai troi may tinh san go ngoai troi may tinh san go ngoai troi may tinh xay dung van san dam va vit tu kich thuoc san chieu rong van va khoang cach dam",
+  "p": 115,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính thể tích bể bơi",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/pool-volume-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Lít & gallon Mỹ cho bể chữ nhật, tròn và bầu dục — sẵn sàng định lượng.",
+  "k": "may tinh the tich be boi may tinh the tich be boi may tinh the tich be boi may tinh xay dung lit gallon my cho be chu nhat tron va bau duc san sang inh luong",
+  "p": 116,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính tấm pin mặt trời",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/solar-panel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Số tấm cần thiết, kW hệ thống, sản lượng dự kiến và diện tích mái từ hóa đơn của bạn.",
+  "k": "may tinh tam pin mat troi may tinh tam pin mat troi may tinh tam pin mat troi may tinh xay dung so tam can thiet kw he thong san luong du kien va dien tich mai tu hoa on cua ban",
+  "p": 117,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính thảm",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/carpet-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Chiều dài tuyến tính và diện tích mua thực tế từ kích thước phòng và khổ cuộn.",
+  "k": "may tinh tham may tinh tham may tinh tham may tinh xay dung chieu dai tuyen tinh va dien tich mua thuc te tu kich thuoc phong va kho cuon",
+  "p": 118,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính ván ép",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/plywood-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tấm theo diện tích và theo bố cục cho tấm 2440×1220 mm và 4×8 ft.",
+  "k": "may tinh van ep may tinh van ep may tinh van ep may tinh xay dung tam theo dien tich va theo bo cuc cho tam 2440 1220 mm va 4 8 ft",
+  "p": 119,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính cát",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/sand-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tấn và bao 25 kg cho hộp cát, nền lát và cán nền.",
+  "k": "may tinh cat may tinh cat may tinh cat may tinh xay dung tan va bao 25 kg cho hop cat nen lat va can nen",
+  "p": 120,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính định luật Ohm",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/ohms-law-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Voltage, current, resistance & power from any two values — the full Ohm's law wheel.",
+  "k": "may tinh inh luat ohm may tinh inh luat ohm may tinh inh luat ohm may tinh xay dung voltage current resistance power from any two values the full ohm s law wheel",
+  "p": 121,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính sụt áp",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/voltage-drop-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Volts & % dropped over a cable run, mm² or AWG, single & three-phase.",
+  "k": "may tinh sut ap may tinh sut ap may tinh sut ap may tinh xay dung volts dropped over a cable run mm2 or awg single three phase",
+  "p": 122,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính tiết diện dây",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/wire-size-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Minimum cable size in mm² + standard size & AWG from your drop limit.",
+  "k": "may tinh tiet dien day may tinh tiet dien day may tinh tiet dien day may tinh xay dung minimum cable size in mm2 standard size awg from your drop limit",
+  "p": 123,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính chi phí điện",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/electricity-cost-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "What an appliance costs per day, month & year from watts & price per kWh.",
+  "k": "may tinh chi phi ien may tinh chi phi ien may tinh chi phi ien may tinh xay dung what an appliance costs per day month year from watts price per kwh",
+  "p": 124,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính đổi Ampe sang Watt",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/amps-to-watts-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Watts & kW from amps and volts — DC, single-phase & three-phase with power factor.",
+  "k": "may tinh oi ampe sang watt may tinh oi ampe sang watt may tinh oi ampe sang watt may tinh xay dung watts kw from amps and volts dc single phase three phase with power factor",
+  "p": 125,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính đổi Watt sang Ampe",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/watts-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Amps from watts and volts for breaker & cable checks — DC, single & three-phase.",
+  "k": "may tinh oi watt sang ampe may tinh oi watt sang ampe may tinh oi watt sang ampe may tinh xay dung amps from watts and volts for breaker cable checks dc single three phase",
+  "p": 126,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính đổi kVA sang Ampe",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/kva-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Generator & transformer kVA to full-load amps, and amps back to kVA, single & three-phase.",
+  "k": "may tinh oi kva sang ampe may tinh oi kva sang ampe may tinh oi kva sang ampe may tinh xay dung generator transformer kva to full load amps and amps back to kva single three phase",
+  "p": 127,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính hệ số công suất",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/power-factor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Power factor, kvar & phase angle from kW and kVA, plus correction capacitor size.",
+  "k": "may tinh he so cong suat may tinh he so cong suat may tinh he so cong suat may tinh xay dung power factor kvar phase angle from kw and kva plus correction capacitor size",
+  "p": 128,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính thời lượng pin",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/battery-runtime-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "How long a battery runs a load — Ah, usable Wh, depth of discharge & inverter losses counted.",
+  "k": "may tinh thoi luong pin may tinh thoi luong pin may tinh thoi luong pin may tinh xay dung how long a battery runs a load ah usable wh depth of discharge inverter losses counted",
+  "p": 129,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính điện trở LED",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/led-resistor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Series resistor in ohms, nearest standard E12 value, actual current & wattage.",
+  "k": "may tinh ien tro led may tinh ien tro led may tinh ien tro led may tinh xay dung series resistor in ohms nearest standard e12 value actual current wattage",
+  "p": 130,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính công suất ba pha",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/three-phase-power-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "kW, kVA & kvar from line voltage, line current & power factor for balanced loads.",
+  "k": "may tinh cong suat ba pha may tinh cong suat ba pha may tinh cong suat ba pha may tinh xay dung kw kva kvar from line voltage line current power factor for balanced loads",
+  "p": 131,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính dòng điện động cơ",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/motor-current-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Estimated full-load amps from motor kW or hp, efficiency & power factor.",
+  "k": "may tinh dong ien ong co may tinh dong ien ong co may tinh dong ien ong co may tinh xay dung estimated full load amps from motor kw or hp efficiency power factor",
+  "p": 132,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính mã màu điện trở",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/resistor-colour-code-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Read 4, 5 & 6-band resistor colours to ohms & tolerance — or turn a value back into bands.",
+  "k": "may tinh ma mau ien tro may tinh ma mau ien tro may tinh ma mau ien tro may tinh xay dung read 4 5 6 band resistor colours to ohms tolerance or turn a value back into bands",
+  "p": 133,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính mạch hẹn giờ 555",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/555-timer-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Astable frequency & duty cycle and monostable pulse width from R and C.",
+  "k": "may tinh mach hen gio 555 may tinh mach hen gio 555 may tinh mach hen gio 555 may tinh xay dung astable frequency duty cycle and monostable pulse width from r and c",
+  "p": 134,
+  "c": "Tool"
+ },
+ {
+  "n": "Công cụ đổi AWG",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/awg-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "AWG to mm, mm² and resistance per km for copper & aluminium — and back from mm² or diameter.",
+  "k": "cong cu oi awg cong cu oi awg cong cu oi awg may tinh xay dung awg to mm mm2 and resistance per km for copper aluminium and back from mm2 or diameter",
+  "p": 135,
+  "c": "Tool"
+ },
+ {
+  "n": "Máy tính điện kháng",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/reactance-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Capacitive & inductive reactance in ohms, plus LC resonant frequency.",
+  "k": "may tinh ien khang may tinh ien khang may tinh ien khang may tinh xay dung capacitive inductive reactance in ohms plus lc resonant frequency",
+  "p": 136,
+  "c": "Tool"
+ },
+ {
+  "n": "Công cụ đổi dB",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/vi/db-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "Power & voltage ratios to decibels, dBm to milliwatts & watts and back.",
+  "k": "cong cu oi db cong cu oi db cong cu oi db may tinh xay dung power voltage ratios to decibels dbm to milliwatts watts and back",
+  "p": 137,
+  "c": "Tool"
+ }
+]
