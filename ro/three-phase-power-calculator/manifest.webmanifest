@@ -1,0 +1,29 @@
+{
+  "name": "Loona Three-Phase Power Calculator",
+  "short_name": "Three-Phase Power Calculator",
+  "description": "Calculator gratuit de putere trifazată: tensiunea între linii, curentul de linie și factorul de putere oferă puterea reală în kW, puterea aparentă în kVA și puterea reactivă în kvar pentru sarcini echilibrate.",
+  "id": "/loona-construction-calculators/ro/three-phase-power-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

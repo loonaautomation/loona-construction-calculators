@@ -1,0 +1,29 @@
+{
+  "name": "Loona Electricity Cost Calculator",
+  "short_name": "Electricity Cost Calculator",
+  "description": "Calculator gratuit de cost al energiei electrice: wații aparatului (sau amperi × volți), ore pe zi, zile pe lună și prețul pe kWh oferă kWh consumați și costul pe zi, lună și an — orice monedă.",
+  "id": "/loona-construction-calculators/ro/electricity-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

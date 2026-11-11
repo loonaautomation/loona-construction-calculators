@@ -1,0 +1,344 @@
+[
+ {
+  "n": "Calculator de vopsea",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/paint-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Litri &amp; galoane pentru orice cameră, uși/ferestre scăzute, amorsă inclusă.",
+  "k": "Calculator de vopsea paint calculator paint calculator paint calculator calculator construction litres gallons for any room doors windows subtracted primer included &amp Calculator Litri amorsă cameră, de ferestre galoane inclusă. orice pentru scăzute, uși vopsea",
+  "p": 0,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de plăci ceramice",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/tile-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Plăci și cutii pentru pardoseli &amp; pereți, rostul de chit numărat.",
+  "k": "Calculator de plăci ceramice tile calculator tile calculator tile calculator calculator construction tiles and boxes for floors walls grout gap counted &amp Calculator Plăci ceramice chit cutii de numărat. pardoseli pentru pereți, plăci rostul și",
+  "p": 1,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de beton",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/concrete-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Volumul plăcii în m³ &amp; yd³ plus numărul de saci de amestec gata preparat.",
+  "k": "Calculator de beton concrete calculator concrete calculator concrete calculator calculator construction slab volume in m3 yd3 plus pre mix bag count &amp Calculator Volumul amestec beton de gata m³ numărul plus plăcii preparat. saci yd³ în",
+  "p": 2,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de pardoseală",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/flooring-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Cutii de laminat, vinil &amp; lemn cu pierderi la tăiere.",
+  "k": "Calculator de pardoseală flooring calculator flooring calculator flooring calculator calculator construction laminate vinyl wood boxes with cutting waste &amp Calculator Cutii cu de la laminat, lemn pardoseală pierderi tăiere. vinil",
+  "p": 3,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de gips-carton",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/drywall-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Plăci de gips-carton pentru pereți &amp; tavane.",
+  "k": "Calculator de gips-carton drywall calculator drywall calculator drywall calculator calculator construction plasterboard drywall sheets for walls ceilings &amp Calculator Plăci carton de gips pentru pereți tavane.",
+  "p": 4,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de cărămizi",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/brick-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Numărul de cărămizi pentru dimensiuni standard metrice &amp; SUA.",
+  "k": "Calculator de cărămizi brick calculator brick calculator brick calculator calculator construction brick counts for standard metric us brick sizes &amp Calculator Numărul SUA. cărămizi de dimensiuni metrice pentru standard",
+  "p": 5,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de pietriș",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/gravel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tone &amp; yarzi cubi pentru alei, cărări și baze.",
+  "k": "Calculator de pietriș gravel calculator gravel calculator gravel calculator calculator construction tonnes cubic yards for drives paths and bases &amp Calculator Tone alei, baze. cubi cărări de pentru pietriș yarzi și",
+  "p": 106,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de pantă a acoperișului",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/roof-pitch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Raportul pantei, unghiul, panta procentuală și lungimea căpriorului.",
+  "k": "Calculator de pantă a acoperișului roof pitch calculator roof pitch calculator roof pitch calculator calculator construction pitch ratio angle grade and rafter length Calculator Raportul a acoperișului căpriorului. de lungimea panta pantei, pantă procentuală unghiul, și",
+  "p": 107,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de scări",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/stairs-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Trepte, înălțimea contratreptei, treapta, proiecția și lungimea stringerului.",
+  "k": "Calculator de scări stairs calculator stairs calculator stairs calculator calculator construction steps riser height tread run and stringer length Calculator Trepte, contratreptei, de lungimea proiecția scări stringerului. treapta, înălțimea și",
+  "p": 108,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator board foot",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/board-foot-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Volumul de cherestea în board feet &amp; metri cubi.",
+  "k": "Calculator board foot board foot calculator board foot calculator board foot calculator calculator construction lumber volume in board feet cubic metres &amp Calculator Volumul board cherestea cubi. de feet foot metri în",
+  "p": 109,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de tapet",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/wallpaper-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Role pentru role UE &amp; SUA, repetarea modelului luată în calcul.",
+  "k": "Calculator de tapet wallpaper calculator wallpaper calculator wallpaper calculator calculator construction rolls for eu us rolls pattern repeat allowed for &amp Calculator Role SUA, UE calcul. de luată modelului pentru repetarea role tapet în",
+  "p": 110,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de mulci",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/mulch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Saci și volum vrac pentru straturi de flori și borduri.",
+  "k": "Calculator de mulci mulch calculator mulch calculator mulch calculator calculator construction bags bulk volume for beds and borders Calculator Saci borduri. de flori mulci pentru straturi volum vrac și",
+  "p": 111,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de asfalt",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/asphalt-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tone &amp; tone SUA din suprafață și grosime, densitate editabilă, estimare de cost.",
+  "k": "Calculator de asfalt asphalt calculator asphalt calculator asphalt calculator calculator construction tonnes us tons from area and thickness density editable cost estimate &amp Calculator SUA Tone asfalt cost. de densitate din editabilă, estimare grosime, suprafață tone și",
+  "p": 112,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de izolație",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/insulation-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Plăci, role sau saci de material suflat pentru valoarea R / RSI țintă, ghid de grosime.",
+  "k": "Calculator de izolație insulation calculator insulation calculator insulation calculator calculator construction batts rolls or blown in bags for your target r value rsi thickness guide Calculator Plăci, R RSI de ghid grosime. izolație material pentru role saci sau suflat valoarea țintă,",
+  "p": 113,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de gard",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/fence-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Stâlpi, rigle, șipci și saci de beton din lungimea gardului și distanță.",
+  "k": "Calculator de gard fence calculator fence calculator fence calculator calculator construction posts rails pickets and concrete bags from fence length and spacing Calculator Stâlpi, beton de din distanță. gard gardului lungimea rigle, saci și șipci",
+  "p": 114,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de terasă",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/deck-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Scânduri de terasă, grinzi și șuruburi din dimensiunea terasei, lățimea scândurii și distanța dintre grinzi.",
+  "k": "Calculator de terasă deck calculator deck calculator deck calculator calculator construction deck boards joists and screws from deck size board width and joist spacing Calculator Scânduri de dimensiunea din dintre distanța grinzi grinzi. lățimea scândurii terasei, terasă terasă, și șuruburi",
+  "p": 115,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de volum al piscinei",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/pool-volume-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Litri &amp; galoane SUA pentru piscine dreptunghiulare, rotunde și ovale — gata de dozare.",
+  "k": "Calculator de volum al piscinei pool volume calculator pool volume calculator pool volume calculator calculator construction litres us gallons for rectangle round and oval pools dosing ready &amp Calculator Litri SUA al de dozare. dreptunghiulare, galoane gata ovale pentru piscine piscinei rotunde volum și",
+  "p": 116,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de panouri solare",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/solar-panel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Panourile necesare, kW ai sistemului, producția așteptată și suprafața acoperișului din factura dumneavoastră.",
+  "k": "Calculator de panouri solare solar panel calculator solar panel calculator solar panel calculator calculator construction panels needed system kw expected production and roof area from your bill Calculator Panourile acoperișului ai așteptată de din dumneavoastră. factura kW necesare, panouri producția sistemului, solare suprafața și",
+  "p": 117,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de mochetă",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/carpet-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Lungimea liniară și suprafața reală de cumpărare din dimensiunea camerei și lățimea rolei.",
+  "k": "Calculator de mochetă carpet calculator carpet calculator carpet calculator calculator construction linear length and true purchase area from room size and roll width Calculator Lungimea camerei cumpărare de dimensiunea din liniară lățimea mochetă reală rolei. suprafața și",
+  "p": 118,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de placaj",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/plywood-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Plăci după suprafață și după dispunere pentru plăci de 2440×1220 mm și 4×8 ft.",
+  "k": "Calculator de placaj plywood calculator plywood calculator plywood calculator calculator construction sheets by area and by layout for 2440 1220 mm and 4 8 ft sheets 2440×1220 4×8 Calculator Plăci de dispunere după ft. mm pentru placaj plăci suprafață și",
+  "p": 119,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de nisip",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/sand-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tone și saci de 25 kg pentru gropi de nisip, baze de pavaj și șape.",
+  "k": "Calculator de nisip sand calculator sand calculator sand calculator calculator construction tonnes and 25 kg bags for sandboxes paving bases and screeds 25 Calculator Tone baze de gropi kg nisip nisip, pavaj pentru saci șape. și",
+  "p": 120,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator legea lui Ohm",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/ohms-law-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Voltage, current, resistance & power from any two values — the full Ohm's law wheel.",
+  "k": "Calculator legea lui Ohm ohm s law calculator ohm s law calculator ohm s law calculator calculator construction voltage current resistance power from any two values the full ohm s law wheel & Calculator Ohm Ohm's Voltage, any current, from full law legea lui power resistance the two values wheel.",
+  "p": 121,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de cădere de tensiune",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/voltage-drop-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Volts & % dropped over a cable run, mm² or AWG, single & three-phase.",
+  "k": "Calculator de cădere de tensiune voltage drop calculator voltage drop calculator voltage drop calculator calculator construction volts dropped over a cable run mm2 or awg single three phase % & AWG, Calculator Volts a cable cădere de dropped mm² or over phase. run, single tensiune three",
+  "p": 122,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de secțiune a cablului",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/wire-size-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Minimum cable size in mm² + standard size & AWG from your drop limit.",
+  "k": "Calculator de secțiune a cablului wire size calculator wire size calculator wire size calculator calculator construction minimum cable size in mm2 standard size awg from your drop limit & + AWG Calculator Minimum a cable cablului de drop from in limit. mm² secțiune size standard your",
+  "p": 123,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de cost al energiei electrice",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/electricity-cost-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "What an appliance costs per day, month & year from watts & price per kWh.",
+  "k": "Calculator de cost al energiei electrice electricity cost calculator electricity cost calculator electricity cost calculator calculator construction what an appliance costs per day month year from watts price per kwh & Calculator What al an appliance cost costs day, de electrice energiei from kWh. month per price watts year",
+  "p": 124,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator amperi în wați",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/amps-to-watts-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Watts & kW from amps and volts — DC, single-phase & three-phase with power factor.",
+  "k": "Calculator amperi în wați amps to watts calculator amps to watts calculator amps to watts calculator calculator construction watts kw from amps and volts dc single phase three phase with power factor & Calculator DC, Watts amperi amps and factor. from kW phase power single three volts wați with în",
+  "p": 125,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator wați în amperi",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/watts-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Amps from watts and volts for breaker & cable checks — DC, single & three-phase.",
+  "k": "Calculator wați în amperi watts to amps calculator watts to amps calculator watts to amps calculator calculator construction amps from watts and volts for breaker cable checks dc single three phase & Amps Calculator DC, amperi and breaker cable checks for from phase. single three volts watts wați în",
+  "p": 126,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator kVA în amperi",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/kva-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Generator & transformer kVA to full-load amps, and amps back to kVA, single & three-phase.",
+  "k": "Calculator kVA în amperi kva to amps calculator kva to amps calculator kva to amps calculator calculator construction generator transformer kva to full load amps and amps back to kva single three phase & Calculator Generator amperi amps amps, and back full kVA kVA, load phase. single three to transformer în",
+  "p": 127,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de factor de putere",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/power-factor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Power factor, kvar & phase angle from kW and kVA, plus correction capacitor size.",
+  "k": "Calculator de factor de putere power factor calculator power factor calculator power factor calculator calculator construction power factor kvar phase angle from kw and kva plus correction capacitor size & Calculator Power and angle capacitor correction de factor factor, from kVA, kW kvar phase plus putere size.",
+  "p": 128,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de autonomie a bateriei",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/battery-runtime-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "How long a battery runs a load — Ah, usable Wh, depth of discharge & inverter losses counted.",
+  "k": "Calculator de autonomie a bateriei battery runtime calculator battery runtime calculator battery runtime calculator calculator construction how long a battery runs a load ah usable wh depth of discharge inverter losses counted & Ah, Calculator How Wh, a autonomie bateriei battery counted. de depth discharge inverter load long losses of runs usable",
+  "p": 129,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de rezistor LED",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/led-resistor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Series resistor in ohms, nearest standard E12 value, actual current & wattage.",
+  "k": "Calculator de rezistor LED led resistor calculator led resistor calculator led resistor calculator calculator construction series resistor in ohms nearest standard e12 value actual current wattage & Calculator E12 LED Series actual current de in nearest ohms, resistor rezistor standard value, wattage.",
+  "p": 130,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de putere trifazată",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/three-phase-power-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "kW, kVA & kvar from line voltage, line current & power factor for balanced loads.",
+  "k": "Calculator de putere trifazată three phase power calculator three phase power calculator three phase power calculator calculator construction kw kva kvar from line voltage line current power factor for balanced loads & Calculator balanced current de factor for from kVA kW, kvar line loads. power putere trifazată voltage,",
+  "p": 131,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de curent al motorului",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/motor-current-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Estimated full-load amps from motor kW or hp, efficiency & power factor.",
+  "k": "Calculator de curent al motorului motor current calculator motor current calculator motor current calculator calculator construction estimated full load amps from motor kw or hp efficiency power factor & Calculator Estimated al amps curent de efficiency factor. from full hp, kW load motor motorului or power",
+  "p": 132,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de cod de culori al rezistoarelor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/resistor-colour-code-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Read 4, 5 & 6-band resistor colours to ohms & tolerance — or turn a value back into bands.",
+  "k": "Calculator de cod de culori al rezistoarelor resistor colour code calculator resistor colour code calculator resistor colour code calculator calculator construction read 4 5 6 band resistor colours to ohms tolerance or turn a value back into bands & 4, 5 6 Calculator Read a al back band bands. cod colours culori de into ohms or resistor rezistoarelor to tolerance turn value",
+  "p": 133,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator temporizator 555",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/555-timer-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Astable frequency & duty cycle and monostable pulse width from R and C.",
+  "k": "Calculator temporizator 555 555 timer calculator 555 timer calculator 555 timer calculator calculator construction astable frequency duty cycle and monostable pulse width from r and c & 555 Astable C. Calculator R and cycle duty frequency from monostable pulse temporizator width",
+  "p": 134,
+  "c": "Tool"
+ },
+ {
+  "n": "Convertor AWG",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/awg-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "AWG to mm, mm² and resistance per km for copper & aluminium — and back from mm² or diameter.",
+  "k": "Convertor AWG awg converter awg converter awg converter calculator construction awg to mm mm2 and resistance per km for copper aluminium and back from mm2 or diameter & AWG Convertor aluminium and back copper diameter. for from km mm, mm² or per resistance to",
+  "p": 135,
+  "c": "Tool"
+ },
+ {
+  "n": "Calculator de reactanță",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/reactance-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Capacitive & inductive reactance in ohms, plus LC resonant frequency.",
+  "k": "Calculator de reactanță reactance calculator reactance calculator reactance calculator calculator construction capacitive inductive reactance in ohms plus lc resonant frequency & Calculator Capacitive LC de frequency. in inductive ohms, plus reactance reactanță resonant",
+  "p": 136,
+  "c": "Tool"
+ },
+ {
+  "n": "Convertor dB",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ro/db-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "Power & voltage ratios to decibels, dBm to milliwatts & watts and back.",
+  "k": "Convertor dB db converter db converter db converter calculator construction power voltage ratios to decibels dbm to milliwatts watts and back & Convertor Power and back. dB dBm decibels, milliwatts ratios to voltage watts",
+  "p": 137,
+  "c": "Tool"
+ }
+]

@@ -1,0 +1,29 @@
+{
+  "name": "Loona dB Converter",
+  "short_name": "dB Converter",
+  "description": "Convertor gratuit de decibeli: rapoarte de putere și rapoarte de tensiune în dB cu propria referință, dBm în miliwați și wați și puterea înapoi în dBm și dBW — formule și exemple lucrate.",
+  "id": "/loona-construction-calculators/ro/db-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

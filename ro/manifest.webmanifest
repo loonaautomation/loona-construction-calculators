@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Calculatoare de construcții gratuite care funcționează în AMBELE unități, metrice și imperiale: vopsea, plăci, beton, pardoseală, gips-carton, cărămidă, pietriș, pantă de acoperiș, scări, board foot, tapet, mulci, asfalt, izolație, gard, terasă, volum de piscină, panou solar, mochetă, placaj, nisip, legea lui Ohm, cădere de tensiune, secțiune de cablu, cost al energiei electrice, amperi în wați, wați în amperi, kVA în amperi, factor de putere, autonomie a bateriei, rezistor LED, putere trifazată, curent al motorului, cod de culori al rezistoarelor, temporizator 555, conversie AWG, reactanță și conversie în decibeli — cu rezerve pentru pierderi și exemple lucrate.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/ro/"
+}

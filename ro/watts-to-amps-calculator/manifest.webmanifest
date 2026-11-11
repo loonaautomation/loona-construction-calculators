@@ -1,0 +1,29 @@
+{
+  "name": "Loona Watts to Amps Calculator",
+  "short_name": "Watts to Amps Calculator",
+  "description": "Calculator gratuit wați în amperi pentru DC, AC monofazat și AC trifazat: puterea, tensiunea și factorul de putere oferă curentul în amperi — primul pas pentru dimensionarea unei siguranțe sau a unui cablu.",
+  "id": "/loona-construction-calculators/ro/watts-to-amps-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

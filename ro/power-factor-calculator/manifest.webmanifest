@@ -1,0 +1,29 @@
+{
+  "name": "Loona Power Factor Calculator",
+  "short_name": "Power Factor Calculator",
+  "description": "Calculator gratuit de factor de putere: puterea reală (kW) și puterea aparentă (kVA) oferă factorul de putere, puterea reactivă în kvar, unghiul de fază — și condensatorul în kvar necesar pentru corectarea la un PF țintă.",
+  "id": "/loona-construction-calculators/ro/power-factor-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

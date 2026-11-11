@@ -1,0 +1,29 @@
+{
+  "name": "Loona Fence Calculator",
+  "short_name": "Fence Calculator",
+  "description": "Calculator gratuit de gard: lungimea gardului și distanța dintre stâlpi în metric sau imperial vă oferă stâlpi, rigle, șipci (din lățimea șipcii și rost) și saci de beton — cu o rezervă pentru pierderi la șipci.",
+  "id": "/loona-construction-calculators/ro/fence-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

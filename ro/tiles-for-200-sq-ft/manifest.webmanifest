@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 200 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 200 Sq Ft?",
+  "description": "Plăci pentru 200 sq ft cu plăci de 60×60 cm și rosturi de chit de 3 mm: 57 de plăci (15 cutii de câte 4), inclusiv 10% extra pentru tăieturi și spargeri.",
+  "id": "/loona-construction-calculators/ro/tiles-for-200-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

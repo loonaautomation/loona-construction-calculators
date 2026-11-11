@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ohm's Law Calculator",
+  "short_name": "Ohm's Law Calculator",
+  "description": "Calculator gratuit al legii lui Ohm: introduceți oricare două dintre tensiune, curent, rezistență și putere și obțineți celelalte două — toate cele patru cadrane ale roții legii lui Ohm, cu formule și un exemplu lucrat.",
+  "id": "/loona-construction-calculators/ro/ohms-law-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

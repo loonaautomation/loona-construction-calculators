@@ -1,0 +1,29 @@
+{
+  "name": "Loona Concrete Calculator",
+  "short_name": "Concrete Calculator",
+  "description": "Calculator gratuit de beton: lungimea, lățimea și grosimea plăcii în metric sau imperial — obțineți volumul de beton în metri cubi și yarzi cubi, plus de câți saci de amestec gata preparat de 20/25 kg sau 60/80 lb aveți nevoie.",
+  "id": "/loona-construction-calculators/ro/concrete-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

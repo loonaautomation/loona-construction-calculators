@@ -1,0 +1,29 @@
+{
+  "name": "Loona Plywood Calculator",
+  "short_name": "Plywood Calculator",
+  "description": "Calculator gratuit de plăci de placaj: dimensiunea suprafeței și dimensiunea plăcii (2440×1220 mm sau 4×8 ft) în metric sau imperial vă oferă plăcile după suprafață și după așezare, numărul recomandat, rezerva pentru pierderi și cost opțional.",
+  "id": "/loona-construction-calculators/ro/plywood-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
