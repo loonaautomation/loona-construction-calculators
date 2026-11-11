@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalkulator Jatuh Tegangan — Panjang Kabel, Arus, Tembaga & Aluminium, mm² dan AWG | Loona Construction Calculators</title>
+<meta name="description" content="Kalkulator jatuh tegangan gratis: panjang kabel satu arah, arus, tembaga atau aluminium, ukuran kabel dalam mm² atau AWG, satu fase atau tiga fase — volt yang jatuh dan % jatuh dengan panduan 3%/5%.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/id/voltage-drop-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/voltage-drop-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/voltage-drop-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/voltage-drop-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/voltage-drop-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/voltage-drop-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/voltage-drop-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/voltage-drop-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/voltage-drop-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/voltage-drop-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/voltage-drop-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/voltage-drop-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-construction-calculators/id/voltage-drop-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/voltage-drop-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kalkulator Jatuh Tegangan — Panjang Kabel, Arus, Tembaga & Aluminium, mm² dan AWG | Loona Construction Calculators">
+<meta property="og:description" content="Kalkulator jatuh tegangan gratis: panjang kabel satu arah, arus, tembaga atau aluminium, ukuran kabel dalam mm² atau AWG, satu fase atau tiga fase — volt yang jatuh dan % jatuh dengan panduan 3%/5%.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/id/voltage-drop-calculator/"><meta property="og:locale" content="id_ID">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kalkulator Jatuh Tegangan — Panjang Kabel, Arus, Tembaga & Aluminium, mm² dan AWG | Loona Construction Calculators">
+<meta name="twitter:description" content="Kalkulator jatuh tegangan gratis: panjang kabel satu arah, arus, tembaga atau aluminium, ukuran kabel dalam mm² atau AWG, satu fase atau tiga fase — volt yang jatuh dan % jatuh dengan panduan 3%/5%.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Kalkulator Jatuh Tegangan Loona","url":"https://loonaautomation.github.io/loona-construction-calculators/id/voltage-drop-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Mengapa jatuh tegangan penting?","acceptedAnswer":{"@type":"Answer","text":"Peralatan di ujung jalur panjang dan tipis menerima kurang dari tegangan suplai: lampu meredup, motor berjalan panas dan dapat berhenti, dan elektronik dapat berperilaku tidak semestinya. Energi yang hilang di kabel juga terbuang sebagai panas. Menjaga jatuh tegangan dalam beberapa persen membuat beban bekerja sebagaimana dirancang."}},{"@type":"Question","name":"Apa arti batas 3% dan 5%?","acceptedAnswer":{"@type":"Answer","text":"Ini adalah nilai panduan yang digunakan secara luas, ditemukan dalam lampiran informatif IEC 60364-5-52 dan dalam banyak aturan perkabelan nasional yang diturunkan darinya: total jatuh sekitar 3% dari tegangan nominal untuk rangkaian penerangan dan 5% untuk rangkaian lain (daya), dari asal instalasi hingga beban. Peraturan setempat Anda adalah otoritasnya — angka-angka ini adalah konteks, bukan penggantinya."}},{"@type":"Question","name":"Mengapa jatuh tegangan aluminium lebih tinggi daripada tembaga?","acceptedAnswer":{"@type":"Answer","text":"Resistivitas aluminium (2.65 × 10⁻⁸ Ω·m) adalah sekitar 1.58× tembaga (1.68 × 10⁻⁸ Ω·m), sehingga panjang dan ukuran kabel aluminium yang sama menjatuhkan volt sekitar 58% lebih banyak. Jalur aluminium biasanya diukur satu atau dua langkah lebih tebal untuk mengompensasi."}},{"@type":"Question","name":"Apakah saya memasukkan panjang pulang-pergi?","acceptedAnswer":{"@type":"Answer","text":"Tidak — masukkan jarak satu arah saja. Faktor 2 (satu fase) atau √3 (tiga fase) dalam rumus sudah memperhitungkan jalur arus penuh."}},{"@type":"Question","name":"Bagaimana dengan reaktansi kabel dan faktor daya?","acceptedAnswer":{"@type":"Answer","text":"Untuk kabel kecil (hingga sekitar 16–25 mm²) resistansi mendominasi dan perhitungan yang disederhanakan ini mendekati. Untuk kabel besar, jalur panjang, dan beban yang sangat induktif, reaktansi dan faktor daya menambah jatuh tegangan; perhitungan penuh gaya IEC atau pemeriksaan teknisi listrik layak dilakukan."}},{"@type":"Question","name":"Jatuh tegangan saya terlalu tinggi — apa pilihan saya?","acceptedAnswer":{"@type":"Answer","text":"Gunakan kabel yang lebih tebal (perbaikan paling efektif — menggandakan penampang membagi dua jatuh tegangan), perpendek rute, bagi beban ke dua rangkaian, atau, di tempat sistem mengizinkannya, suplai beban pada tegangan yang lebih tinggi (suplai tiga fase jatuh secara proporsional lebih sedikit pada 400 V daripada suplai satu fase pada 230 V untuk daya yang sama)."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/id/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kalkulator Jatuh Tegangan",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/id/voltage-drop-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo Loona Automation">
+<div class="brand">Loona <span>Kalkulator Konstruksi</span></div>
+<nav>
+<a href="../">Beranda</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Tentang</a>
+<a href="../contact.html">Kontak</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Kelistrikan &rsaquo; Kalkulator Jatuh Tegangan</div>
+<h1 class="pagetitle">📉 Kalkulator Jatuh Tegangan</h1>
+<p class="lead">Jalur kabel panjang kehilangan tegangan di sepanjang jalan. Masukkan panjang satu arah, arus, material konduktor, dan ukuran kabel (mm² atau AWG) dan dapatkan volt yang jatuh dan persentase jatuhnya, diperiksa terhadap panduan 3% / 5% yang lazim.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system">Sistem satuan</label><select id="f_system"><option value="m">Metrik (meter, mm&sup2;)</option><option value="i">Imperial (kaki, AWG)</option></select></div><div class="fld"><label for="f_length">Panjang kabel satu arah <span class="u" data-u="length"></span> (suplai ke beban, bukan pulang-pergi)</label><input type="number" id="f_length" step="any" data-m="20" data-i="66" value="20"></div><div class="fld"><label for="f_current">Arus beban (ampere)</label><input type="number" id="f_current" step="any" value="16"></div><div class="fld"><label for="f_volts">Tegangan suplai (volt)</label><input type="number" id="f_volts" step="any" value="230"></div><div class="fld"><label for="f_material">Material konduktor</label><select id="f_material"><option value="cu" selected>Tembaga (&rho; = 1.68 &times; 10&#8315;&#8312; &Omega;&middot;m)</option><option value="al">Aluminium (&rho; = 2.65 &times; 10&#8315;&#8312; &Omega;&middot;m)</option></select></div><div class="fld"><label for="f_phase">Jenis suplai</label><select id="f_phase"><option value="1" selected>Satu fase (jalur 2 kawat)</option><option value="3">Tiga fase (seimbang)</option></select></div><div class="fld"><label for="f_size">Penampang kabel (mm&sup2;)</label><select id="f_size"><option value="1.5">1.5 mm&sup2; (&asymp; 16 AWG)</option><option value="2.5" selected>2.5 mm&sup2; (&asymp; 14 AWG)</option><option value="4">4 mm&sup2; (&asymp; 12 AWG)</option><option value="6">6 mm&sup2; (&asymp; 10 AWG)</option><option value="10">10 mm&sup2; (&asymp; 8 AWG)</option><option value="16">16 mm&sup2; (&asymp; 6 AWG)</option><option value="25">25 mm&sup2; (&asymp; 4 AWG)</option><option value="35">35 mm&sup2; (&asymp; 2 AWG)</option><option value="50">50 mm&sup2; (&asymp; 1/0 AWG)</option><option value="70">70 mm&sup2; (&asymp; 2/0 AWG)</option><option value="95">95 mm&sup2; (&asymp; 3/0 AWG)</option><option value="120">120 mm&sup2; (&asymp; 4/0 AWG)</option></select></div><div class="fld"><label for="f_awg">Pemilih AWG (opsional &mdash; jika dipilih, ini menggantikan pilihan mm&sup2;)</label><select id="f_awg"><option value="">Gunakan pilihan mm&sup2; di atas</option><option value="0.823">18 AWG (0.823 mm&sup2;)</option><option value="1.31">16 AWG (1.31 mm&sup2;)</option><option value="2.08">14 AWG (2.08 mm&sup2;)</option><option value="3.31">12 AWG (3.31 mm&sup2;)</option><option value="5.26">10 AWG (5.26 mm&sup2;)</option><option value="8.37">8 AWG (8.37 mm&sup2;)</option><option value="13.3">6 AWG (13.3 mm&sup2;)</option><option value="21.2">4 AWG (21.2 mm&sup2;)</option><option value="33.6">2 AWG (33.6 mm&sup2;)</option><option value="53.5">1/0 AWG (53.5 mm&sup2;)</option><option value="67.4">2/0 AWG (67.4 mm&sup2;)</option><option value="85.0">3/0 AWG (85.0 mm&sup2;)</option><option value="107.2">4/0 AWG (107.2 mm&sup2;)</option></select></div>
+<button type="button" class="calcbtn" id="calcBtn">Hitung</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Cara menggunakan Kalkulator Jatuh Tegangan</h2><ol><li>Ukur jarak satu arah dari suplai ke beban — rumus sudah menghitung kedua konduktor jalur satu fase, jadi jangan menggandakan pengukuran Anda.</li><li>Masukkan arus yang benar-benar ditarik beban, tegangan suplai, material konduktor, dan apakah suplai satu fase atau tiga fase.</li><li>Pilih ukuran kabel dalam mm², atau gunakan pemilih AWG jika kabel Anda dijual berdasarkan ukuran, lalu tekan Hitung.</li></ol>
+<div class="exbox"><strong>Contoh:</strong> Jalur tembaga satu fase 20 m yang membawa 16 A pada kabel 2.5 mm² pada 230 V menjatuhkan <strong>4.30 V</strong> — <strong>1.87%</strong>, dengan nyaman di dalam nilai panduan.</div>
+<h2>Pertanyaan yang Sering Diajukan</h2></section><div class="faq"><h3>Mengapa jatuh tegangan penting?</h3><p>Peralatan di ujung jalur panjang dan tipis menerima kurang dari tegangan suplai: lampu meredup, motor berjalan panas dan dapat berhenti, dan elektronik dapat berperilaku tidak semestinya. Energi yang hilang di kabel juga terbuang sebagai panas. Menjaga jatuh tegangan dalam beberapa persen membuat beban bekerja sebagaimana dirancang.</p></div><div class="faq"><h3>Apa arti batas 3% dan 5%?</h3><p>Ini adalah nilai panduan yang digunakan secara luas, ditemukan dalam lampiran informatif IEC 60364-5-52 dan dalam banyak aturan perkabelan nasional yang diturunkan darinya: total jatuh sekitar 3% dari tegangan nominal untuk rangkaian penerangan dan 5% untuk rangkaian lain (daya), dari asal instalasi hingga beban. Peraturan setempat Anda adalah otoritasnya — angka-angka ini adalah konteks, bukan penggantinya.</p></div><div class="faq"><h3>Mengapa jatuh tegangan aluminium lebih tinggi daripada tembaga?</h3><p>Resistivitas aluminium (2.65 × 10⁻⁸ Ω·m) adalah sekitar 1.58× tembaga (1.68 × 10⁻⁸ Ω·m), sehingga panjang dan ukuran kabel aluminium yang sama menjatuhkan volt sekitar 58% lebih banyak. Jalur aluminium biasanya diukur satu atau dua langkah lebih tebal untuk mengompensasi.</p></div>
+<h2 class="sec">Kalkulator Terkait</h2><div class="grid"><a class="card" href="../wire-size-calculator/"><div class="ic">🧵</div><h3>Kalkulator Ukuran Kabel</h3><p>Kelistrikan</p></a><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>Kalkulator Hukum Ohm</h3><p>Kelistrikan</p></a><a class="card" href="../electricity-cost-calculator/"><div class="ic">💷</div><h3>Kalkulator Biaya Listrik</h3><p>Kelistrikan</p></a><a class="card" href="../solar-panel-calculator/"><div class="ic">☀️</div><h3>Kalkulator Panel Surya</h3><p>Kelistrikan</p></a></div>
+</div>
+<section class="txt"><h2>Cara kerjanya &mdash; rumusnya</h2>
+<p><strong>Satu fase:</strong> V<sub>jatuh</sub> = 2 × I × ρ × L ÷ A<br>
+<strong>Tiga fase (seimbang):</strong> V<sub>jatuh</sub> = √3 × I × ρ × L ÷ A<br>
+<strong>% jatuh</strong> = V<sub>jatuh</sub> ÷ Tegangan suplai × 100</p>
+<p>di mana I adalah arus (A), L adalah <em>one-way</em> panjang (m), A adalah penampang konduktor (mm²), dan ρ adalah resistivitas konduktor yang dinyatakan sebagai 0.0168 Ω·mm²/m untuk tembaga (ρ = 1.68 × 10<sup>−8</sup> Ω·m) dan 0.0265 Ω·mm²/m untuk aluminium (ρ = 2.65 × 10<sup>−8</sup> Ω·m). Faktor 2 dalam rumus satu fase adalah pasangan konduktor pergi-dan-kembali; √3 adalah ekuivalen tiga fasanya. Angka 3% dan 5% berasal dari panduan informatif dalam IEC 60364-5-52 (dan aturan nasional yang didasarkan padanya): kira-kira 3% dari tegangan suplai untuk rangkaian penerangan dan 5% untuk penggunaan lain, dari asal instalasi hingga titik penggunaan.</p>
+<h3>Contoh perhitungan</h3>
+<div class="exbox">Tembaga satu fase, L = 20 m, I = 16 A, A = 2.5 mm², suplai 230 V: V<sub>jatuh</sub> = 2 × 16 × 0.0168 × 20 ÷ 2.5 = 10.752 ÷ 2.5 = <strong>4.30 V</strong>. Sebagai persentase: 4.30 ÷ 230 × 100 = <strong>1.87%</strong> — di dalam nilai panduan penerangan 3% dan daya 5%.</div>
+<div class="resnote" style="font-size:14px;color:#5a6b68;background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin:12px 0"><strong>Catatan keselamatan:</strong> kalkulator ini adalah alat bantu perencanaan yang menggunakan model resistif yang disederhanakan. Instalasi nyata juga harus memenuhi kapasitas pembawa arus kabel, persyaratan perangkat proteksi dan pembumian menurut peraturan perkabelan setempat Anda — mintalah pekerjaan dirancang atau diperiksa oleh teknisi listrik yang berkualifikasi.</div>
+<h3>Pertanyaan yang sering diajukan</h3></section>
+<div class="faq"><h3>Apakah saya memasukkan panjang pulang-pergi?</h3><p>Tidak — masukkan jarak satu arah saja. Faktor 2 (satu fase) atau √3 (tiga fase) dalam rumus sudah memperhitungkan jalur arus penuh.</p></div><div class="faq"><h3>Bagaimana dengan reaktansi kabel dan faktor daya?</h3><p>Untuk kabel kecil (hingga sekitar 16–25 mm²) resistansi mendominasi dan perhitungan yang disederhanakan ini mendekati. Untuk kabel besar, jalur panjang, dan beban yang sangat induktif, reaktansi dan faktor daya menambah jatuh tegangan; perhitungan penuh gaya IEC atau pemeriksaan teknisi listrik layak dilakukan.</p></div><div class="faq"><h3>Jatuh tegangan saya terlalu tinggi — apa pilihan saya?</h3><p>Gunakan kabel yang lebih tebal (perbaikan paling efektif — menggandakan penampang membagi dua jatuh tegangan), perpendek rute, bagi beban ke dua rangkaian, atau, di tempat sistem mengizinkannya, suplai beban pada tegangan yang lebih tinggi (suplai tiga fase jatuh secara proporsional lebih sedikit pada 400 V daripada suplai satu fase pada 230 V untuk daya yang sama).</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Sematkan kalkulator ini di situs web Anda — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Tambahkan kalkulator ini ke situs web atau blog Anda sendiri — sepenuhnya gratis, tanpa pendaftaran, dan selalu menampilkan versi terbaru. Salin kode di bawah ini dan tempelkan ke halaman Anda di tempat Anda ingin kalkulator muncul. Mempertahankan baris kredit kecil &ldquo;Didukung oleh Loona Automation&rdquo; di bawah sematan membantu menjaga alat ini tetap gratis &mdash; tetapi Anda bebas menata atau menghapusnya; alat ini tetap berfungsi dengan cara apa pun.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/id/voltage-drop-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Voltage Drop Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Didukung oleh &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/id/voltage-drop-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Kalkulator Jatuh Tegangan&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Salin kode sematan</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Disalin!';setTimeout(function(){b.textContent='Salin kode sematan';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Kalkulator Populer</h4><ul><li><a href="../paint-calculator/">Kalkulator Cat</a></li>
+<li><a href="../concrete-calculator/">Kalkulator Beton</a></li>
+<li><a href="../tile-calculator/">Kalkulator Keramik</a></li>
+<li><a href="../brick-calculator/">Kalkulator Bata</a></li>
+<li><a href="../roof-pitch-calculator/">Kalkulator Kemiringan Atap</a></li>
+<li><a href="../stairs-calculator/">Kalkulator Tangga</a></li></ul></div>
+<div><h4>Alat Loona Lainnya</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Semua Alat Loona</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Tentang</a></li>
+<li><a href="../contact.html">Kontak</a></li>
+<li><a href="../privacy-policy.html">Kebijakan Privasi</a></li>
+<li><a href="../terms.html">Ketentuan Penggunaan</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; sebuah <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Kalkulator konstruksi gratis dalam satuan metrik dan imperial, tanpa pendaftaran.
+Kontak: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var RHO = { cu: 0.0168, al: 0.0265 };
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.length, v.current, v.volts)) return bad("Silakan masukkan panjang kabel satu arah, arus, dan tegangan suplai (semuanya di atas nol).");
+  var A = (v.awg > 0) ? v.awg : v.size;
+  if (!pos(A)) return bad("Silakan pilih ukuran kabel dalam mm\u00B2 atau ukuran AWG.");
+  var L = v.length * ((v.sys === "i") ? FT : 1);
+  var rho = RHO[v.material] || RHO.cu;
+  var k = (v.phase === "3") ? Math.sqrt(3) : 2;
+  var vd = k * v.current * rho * L / A;
+  var pct = vd / v.volts * 100;
+  var verdict = pct <= 3 ? "Di dalam nilai panduan 3% yang digunakan untuk rangkaian penerangan." : (pct <= 5 ? "Di atas 3% tetapi di dalam nilai panduan 5% yang lazim digunakan untuk rangkaian (daya) lain." : "Di atas nilai panduan 5% \u2014 pertimbangkan kabel yang lebih tebal atau rute yang lebih pendek.");
+  var html = resTable("Jatuh tegangan", fmt(vd, 2) + " V (" + fmt(pct, 2) + "%)",
+    [["Ukuran kabel yang digunakan", fmt(A, 2) + " mm\u00B2"],["Panjang satu arah", fmt(L, 1) + " m"],["Resistansi konduktor (basis loop)", fmt(k * rho * L / A, 4) + " \u03A9"],["Tegangan pada beban", fmt(v.volts - vd, 2) + " V"],["Jatuh sebagai % dari suplai", fmt(pct, 2) + "%"]],
+    verdict + " Angka panduan: panduan informatif IEC 60364-5-52 dan banyak aturan nasional bekerja pada sekitar 3% untuk penerangan dan 5% untuk penggunaan lain, diukur dari asal instalasi. Ini adalah perhitungan resistif yang disederhanakan (reaktansi dan faktor daya diabaikan), yang akurat untuk kabel kecil dan pemeriksaan pertama yang baik untuk kabel yang lebih besar. Pekerjaan listrik tunduk pada peraturan setempat \u2014 mintalah instalasi diperiksa oleh teknisi listrik yang berkualifikasi.");
+  return { ok: true, vd: vd, pct: pct, A: A, L: L, html: html };
+} };
+
+function collect(){ return { sys: gs("f_system"), length: gv("f_length"), current: gv("f_current"), volts: gv("f_volts"), material: gs("f_material"), phase: gs("f_phase"), size: parseFloat(gs("f_size")), awg: gv("f_awg") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {"length":["m","ft"]};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Pasang Aplikasi';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Pasang aplikasi ini: ketuk tombol Bagikan, lalu pilih "Tambahkan ke Layar Utama".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

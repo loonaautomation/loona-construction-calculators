@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Kalkulator konstruksi gratis yang bekerja dalam satuan metrik DAN imperial: cat, keramik, beton, lantai, drywall, bata, kerikil, kemiringan atap, tangga, board foot, wallpaper, mulsa, aspal, insulasi, pagar, dek, volume kolam, panel surya, karpet, kayu lapis, pasir, hukum Ohm, jatuh tegangan, ukuran kabel, biaya listrik, ampere ke watt, watt ke ampere, kVA ke ampere, faktor daya, durasi baterai, resistor LED, daya tiga fase, arus motor, kode warna resistor, timer 555, konversi AWG, reaktansi, dan konversi desibel — dengan cadangan limbah dan contoh pengerjaan.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/id/"
+}

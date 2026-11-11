@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in United Kingdom",
+  "short_name": "Brick Size in United Kingdom",
+  "description": "Ukuran bata standar di Inggris Raya: 215 × 102.5 × 65 mm. 59.3 bata per m² (5.51 per sq ft) dinding satu lapis dengan sambungan mortar 10 mm, cakupan per 1,000 bata, dan contoh perhitungan dinding.",
+  "id": "/loona-construction-calculators/id/brick-size-uk/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

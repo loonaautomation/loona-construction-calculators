@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Calculator",
+  "short_name": "Brick Calculator",
+  "description": "Kalkulator bata gratis: panjang dan tinggi dinding dalam metrik atau imperial — dapatkan jumlah bata standar (215 mm atau modular AS) untuk dinding satu lapis, termasuk cadangan sambungan mortar dan limbah.",
+  "id": "/loona-construction-calculators/id/brick-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Concrete Calculator",
+  "short_name": "Concrete Calculator",
+  "description": "Kalkulator beton gratis: panjang, lebar, dan ketebalan pelat dalam metrik atau imperial — dapatkan volume beton dalam meter kubik dan yard kubik, ditambah berapa banyak kantong campuran siap pakai 20/25 kg atau 60/80 lb yang Anda perlukan.",
+  "id": "/loona-construction-calculators/id/concrete-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

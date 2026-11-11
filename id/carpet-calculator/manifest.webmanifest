@@ -1,0 +1,29 @@
+{
+  "name": "Loona Carpet Calculator",
+  "short_name": "Carpet Calculator",
+  "description": "Kalkulator karpet gratis: ukuran ruangan dan lebar rol karpet dalam metrik atau imperial memberikan panjang linier dan luas karpet yang benar-benar harus dibeli (termasuk sisa potongan rol), ditambah biaya opsional — dengan cadangan limbah.",
+  "id": "/loona-construction-calculators/id/carpet-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 4/12 Roof Pitch",
+  "short_name": "4/12 Roof Pitch",
+  "description": "Kemiringan atap 4/12 adalah 18.43 derajat (33% kemiringan). Pengali kasau 1.0541, panjang kasau untuk bentangan umum, material, dan penggunaan.",
+  "id": "/loona-construction-calculators/id/roof-pitch-4-12/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

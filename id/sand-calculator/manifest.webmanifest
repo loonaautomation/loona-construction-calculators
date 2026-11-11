@@ -1,0 +1,29 @@
+{
+  "name": "Loona Sand Calculator",
+  "short_name": "Sand Calculator",
+  "description": "Kalkulator pasir gratis: luas dan kedalaman dalam metrik atau imperial memberikan volume pasir, berat dalam ton dan ton AS, dan jumlah kantong 25 kg — dengan massa jenis dan cadangan limbah, untuk bak pasir, dasar paving, dan lapisan perata.",
+  "id": "/loona-construction-calculators/id/sand-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
