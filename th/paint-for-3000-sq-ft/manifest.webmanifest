@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 3000 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 3000 Sq Ft",
+  "description": "สีสำหรับผนัง 3000 sq ft: 61.3 ลิตร (16.2 gal) สำหรับ 2 เที่ยวที่พื้นที่ครอบคลุมทั่วไป 10 m²/L บวกสีรองพื้น 25.5 L — พร้อมสมมติฐานที่ระบุไว้",
+  "id": "/loona-construction-calculators/th/paint-for-3000-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona dB Converter",
+  "short_name": "dB Converter",
+  "description": "ตัวแปลงเดซิเบลฟรี: อัตราส่วนกำลังและอัตราส่วนแรงดันเป็น dB ด้วยค่าอ้างอิงของคุณเอง dBm เป็นมิลลิวัตต์และวัตต์ และกำลังกลับเป็น dBm และ dBW — สูตรและตัวอย่างที่ทำไว้",
+  "id": "/loona-construction-calculators/th/db-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

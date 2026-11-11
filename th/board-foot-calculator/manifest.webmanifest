@@ -1,0 +1,29 @@
+{
+  "name": "Loona Board Foot Calculator",
+  "short_name": "Board Foot Calculator",
+  "description": "เครื่องคำนวณบอร์ดฟุตฟรี: ความหนา ความกว้าง ความยาว และจำนวนชิ้นของไม้แปรรูปในหน่วยอิมพีเรียลหรือเมตริก — รับบอร์ดฟุตรวมและลูกบาศก์เมตรสำหรับคำสั่งซื้อไม้ของคุณ",
+  "id": "/loona-construction-calculators/th/board-foot-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

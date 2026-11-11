@@ -1,0 +1,344 @@
+[
+ {
+  "n": "เครื่องคำนวณสี",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/paint-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "ลิตร & แกลลอน สำหรับทุกห้อง หักประตู/หน้าต่างแล้ว รวมสีรองพื้น",
+  "k": "เครื่องคำนวณสี เครื่องคำนวณสี เครื่องคำนวณสี calculator construction ลิตร แกลลอน สำหรับทุกห้อง หักประตู หน้าต่างแล้ว รวมสีรองพื้น",
+  "p": 0,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณกระเบื้อง",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/tile-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "กระเบื้องและกล่องสำหรับพื้น & ผนัง นับรอยต่อยาแนวแล้ว",
+  "k": "เครื่องคำนวณกระเบื้อง เครื่องคำนวณกระเบื้อง เครื่องคำนวณกระเบื้อง calculator construction กระเบื้องและกล่องสำหรับพื้น ผนัง นับรอยต่อยาแนวแล้ว",
+  "p": 1,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณคอนกรีต",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/concrete-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "ปริมาตรพื้นคอนกรีตเป็น m³ & yd³ บวกจำนวนถุงคอนกรีตผสมเสร็จ",
+  "k": "เครื่องคำนวณคอนกรีต เครื่องคำนวณคอนกรีต เครื่องคำนวณคอนกรีต calculator construction ปริมาตรพื้นคอนกรีตเป็น m yd บวกจำนวนถุงคอนกรีตผสมเสร็จ",
+  "p": 2,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณวัสดุปูพื้น",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/flooring-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "กล่องลามิเนต ไวนิล & ไม้พร้อมเศษจากการตัด",
+  "k": "เครื่องคำนวณวัสดุปูพื้น เครื่องคำนวณวัสดุปูพื้น เครื่องคำนวณวัสดุปูพื้น calculator construction กล่องลามิเนต ไวนิล ไม้พร้อมเศษจากการตัด",
+  "p": 3,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณแผ่นยิปซัม",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/drywall-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "แผ่นยิปซัมบอร์ด / แผ่นยิปซัมสำหรับผนัง & เพดาน",
+  "k": "เครื่องคำนวณแผ่นยิปซัม เครื่องคำนวณแผ่นยิปซัม เครื่องคำนวณแผ่นยิปซัม calculator construction แผ่นยิปซัมบอร์ด แผ่นยิปซัมสำหรับผนัง เพดาน",
+  "p": 4,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณอิฐ",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/brick-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "จำนวนอิฐสำหรับขนาดอิฐมาตรฐานเมตริก & ของสหรัฐฯ",
+  "k": "เครื่องคำนวณอิฐ เครื่องคำนวณอิฐ เครื่องคำนวณอิฐ calculator construction จำนวนอิฐสำหรับขนาดอิฐมาตรฐานเมตริก ของสหรัฐฯ",
+  "p": 5,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณกรวด",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/gravel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "ตัน & ลูกบาศก์หลาสำหรับทางรถ ทางเดิน และฐาน",
+  "k": "เครื่องคำนวณกรวด เครื่องคำนวณกรวด เครื่องคำนวณกรวด calculator construction ตัน ลูกบาศก์หลาสำหรับทางรถ ทางเดิน และฐาน",
+  "p": 106,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณความลาดชันหลังคา",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/roof-pitch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "อัตราส่วนความลาดชัน มุม ความชัน และความยาวจันทัน",
+  "k": "เครื่องคำนวณความลาดชันหลังคา เครื่องคำนวณความลาดชันหลังคา เครื่องคำนวณความลาดชันหลังคา calculator construction อัตราส่วนความลาดชัน มุม ความชัน และความยาวจันทัน",
+  "p": 107,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณบันได",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/stairs-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "จำนวนขั้น ความสูงลูกตั้ง ลูกนอน ระยะแนวราบ และความยาวคานบันได",
+  "k": "เครื่องคำนวณบันได เครื่องคำนวณบันได เครื่องคำนวณบันได calculator construction จำนวนขั้น ความสูงลูกตั้ง ลูกนอน ระยะแนวราบ และความยาวคานบันได",
+  "p": 108,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณบอร์ดฟุต",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/board-foot-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "ปริมาตรไม้แปรรูปเป็นบอร์ดฟุต & ลูกบาศก์เมตร",
+  "k": "เครื่องคำนวณบอร์ดฟุต เครื่องคำนวณบอร์ดฟุต เครื่องคำนวณบอร์ดฟุต calculator construction ปริมาตรไม้แปรรูปเป็นบอร์ดฟุต ลูกบาศก์เมตร",
+  "p": 109,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณวอลเปเปอร์",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/wallpaper-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "จำนวนม้วนสำหรับม้วน EU & US เผื่อการต่อลายแล้ว",
+  "k": "เครื่องคำนวณวอลเปเปอร์ เครื่องคำนวณวอลเปเปอร์ เครื่องคำนวณวอลเปเปอร์ calculator construction จำนวนม้วนสำหรับม้วน eu us เผื่อการต่อลายแล้ว",
+  "p": 110,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณวัสดุคลุมดิน",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/mulch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "จำนวนถุงและปริมาตรแบบกองสำหรับแปลงปลูกและขอบแปลง",
+  "k": "เครื่องคำนวณวัสดุคลุมดิน เครื่องคำนวณวัสดุคลุมดิน เครื่องคำนวณวัสดุคลุมดิน calculator construction จำนวนถุงและปริมาตรแบบกองสำหรับแปลงปลูกและขอบแปลง",
+  "p": 111,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณแอสฟัลต์",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/asphalt-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "ตัน & US tons จากพื้นที่และความหนา ความหนาแน่นแก้ไขได้ ประมาณการค่าใช้จ่าย",
+  "k": "เครื่องคำนวณแอสฟัลต์ เครื่องคำนวณแอสฟัลต์ เครื่องคำนวณแอสฟัลต์ calculator construction ตัน us tons จากพื้นที่และความหนา ความหนาแน่นแก้ไขได้ ประมาณการค่าใช้จ่าย",
+  "p": 112,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณฉนวน",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/insulation-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "แผ่น ม้วน หรือถุงแบบพ่น สำหรับค่า R / RSI เป้าหมายของคุณ พร้อมคำแนะนำความหนา",
+  "k": "เครื่องคำนวณฉนวน เครื่องคำนวณฉนวน เครื่องคำนวณฉนวน calculator construction แผ่น ม้วน หรือถุงแบบพ่น สำหรับค่า r rsi เป้าหมายของคุณ พร้อมคำแนะนำความหนา",
+  "p": 113,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณรั้ว",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/fence-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "เสา ราง ซี่รั้ว และถุงคอนกรีต จากความยาวรั้วและระยะห่าง",
+  "k": "เครื่องคำนวณรั้ว เครื่องคำนวณรั้ว เครื่องคำนวณรั้ว calculator construction เสา ราง ซี่รั้ว และถุงคอนกรีต จากความยาวรั้วและระยะห่าง",
+  "p": 114,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณพื้นไม้ภายนอก",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/deck-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "ไม้พื้น ตง และสกรู จากขนาดพื้น ความกว้างแผ่น และระยะห่างตง",
+  "k": "เครื่องคำนวณพื้นไม้ภายนอก เครื่องคำนวณพื้นไม้ภายนอก เครื่องคำนวณพื้นไม้ภายนอก calculator construction ไม้พื้น ตง และสกรู จากขนาดพื้น ความกว้างแผ่น และระยะห่างตง",
+  "p": 115,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณปริมาตรสระว่ายน้ำ",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/pool-volume-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "ลิตร & US gallons สำหรับสระสี่เหลี่ยม กลม และวงรี — พร้อมสำหรับการใส่สารเคมี",
+  "k": "เครื่องคำนวณปริมาตรสระว่ายน้ำ เครื่องคำนวณปริมาตรสระว่ายน้ำ เครื่องคำนวณปริมาตรสระว่ายน้ำ calculator construction ลิตร us gallons สำหรับสระสี่เหลี่ยม กลม และวงรี พร้อมสำหรับการใส่สารเคมี",
+  "p": 116,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณแผงโซลาร์เซลล์",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/solar-panel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "จำนวนแผงที่ต้องการ kW ของระบบ ปริมาณการผลิตที่คาดหวัง และพื้นที่หลังคาจากบิลของคุณ",
+  "k": "เครื่องคำนวณแผงโซลาร์เซลล์ เครื่องคำนวณแผงโซลาร์เซลล์ เครื่องคำนวณแผงโซลาร์เซลล์ calculator construction จำนวนแผงที่ต้องการ kw ของระบบ ปริมาณการผลิตที่คาดหวัง และพื้นที่หลังคาจากบิลของคุณ",
+  "p": 117,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณพรม",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/carpet-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "ความยาวเชิงเส้นและพื้นที่ซื้อจริงจากขนาดห้องและความกว้างม้วน",
+  "k": "เครื่องคำนวณพรม เครื่องคำนวณพรม เครื่องคำนวณพรม calculator construction ความยาวเชิงเส้นและพื้นที่ซื้อจริงจากขนาดห้องและความกว้างม้วน",
+  "p": 118,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณไม้อัด",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/plywood-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "จำนวนแผ่นตามพื้นที่และตามการจัดวางสำหรับแผ่น 2440×1220 mm และ 4×8 ft",
+  "k": "เครื่องคำนวณไม้อัด เครื่องคำนวณไม้อัด เครื่องคำนวณไม้อัด calculator construction จำนวนแผ่นตามพื้นที่และตามการจัดวางสำหรับแผ่น 2440 1220 mm และ 4 8 ft",
+  "p": 119,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณทราย",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/sand-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "ตันและถุง 25 kg สำหรับกระบะทราย ฐานปูพื้น และพื้นปรับระดับ",
+  "k": "เครื่องคำนวณทราย เครื่องคำนวณทราย เครื่องคำนวณทราย calculator construction ตันและถุง 25 kg สำหรับกระบะทราย ฐานปูพื้น และพื้นปรับระดับ",
+  "p": 120,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณกฎของโอห์ม",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/ohms-law-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Voltage, current, resistance & power from any two values — the full Ohm's law wheel.",
+  "k": "เครื่องคำนวณกฎของโอห์ม เครื่องคำนวณกฎของโอห์ม เครื่องคำนวณกฎของโอห์ม calculator construction voltage current resistance power from any two values the full ohm s law wheel",
+  "p": 121,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณแรงดันตก",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/voltage-drop-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Volts & % dropped over a cable run, mm² or AWG, single & three-phase.",
+  "k": "เครื่องคำนวณแรงดันตก เครื่องคำนวณแรงดันตก เครื่องคำนวณแรงดันตก calculator construction volts dropped over a cable run mm or awg single three phase",
+  "p": 122,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณขนาดสายไฟ",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/wire-size-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Minimum cable size in mm² + standard size & AWG from your drop limit.",
+  "k": "เครื่องคำนวณขนาดสายไฟ เครื่องคำนวณขนาดสายไฟ เครื่องคำนวณขนาดสายไฟ calculator construction minimum cable size in mm standard size awg from your drop limit",
+  "p": 123,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณค่าไฟฟ้า",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/electricity-cost-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "What an appliance costs per day, month & year from watts & price per kWh.",
+  "k": "เครื่องคำนวณค่าไฟฟ้า เครื่องคำนวณค่าไฟฟ้า เครื่องคำนวณค่าไฟฟ้า calculator construction what an appliance costs per day month year from watts price per kwh",
+  "p": 124,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณแอมป์เป็นวัตต์",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/amps-to-watts-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Watts & kW from amps and volts — DC, single-phase & three-phase with power factor.",
+  "k": "เครื่องคำนวณแอมป์เป็นวัตต์ เครื่องคำนวณแอมป์เป็นวัตต์ เครื่องคำนวณแอมป์เป็นวัตต์ calculator construction watts kw from amps and volts dc single phase three phase with power factor",
+  "p": 125,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณวัตต์เป็นแอมป์",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/watts-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Amps from watts and volts for breaker & cable checks — DC, single & three-phase.",
+  "k": "เครื่องคำนวณวัตต์เป็นแอมป์ เครื่องคำนวณวัตต์เป็นแอมป์ เครื่องคำนวณวัตต์เป็นแอมป์ calculator construction amps from watts and volts for breaker cable checks dc single three phase",
+  "p": 126,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณ kVA เป็นแอมป์",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/kva-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Generator & transformer kVA to full-load amps, and amps back to kVA, single & three-phase.",
+  "k": "เครื่องคำนวณ kva เป็นแอมป์ เครื่องคำนวณ kva เป็นแอมป์ เครื่องคำนวณ kva เป็นแอมป์ calculator construction generator transformer kva to full load amps and amps back to kva single three phase",
+  "p": 127,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณตัวประกอบกำลัง",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/power-factor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Power factor, kvar & phase angle from kW and kVA, plus correction capacitor size.",
+  "k": "เครื่องคำนวณตัวประกอบกำลัง เครื่องคำนวณตัวประกอบกำลัง เครื่องคำนวณตัวประกอบกำลัง calculator construction power factor kvar phase angle from kw and kva plus correction capacitor size",
+  "p": 128,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณระยะเวลาใช้งานแบตเตอรี่",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/battery-runtime-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "How long a battery runs a load — Ah, usable Wh, depth of discharge & inverter losses counted.",
+  "k": "เครื่องคำนวณระยะเวลาใช้งานแบตเตอรี่ เครื่องคำนวณระยะเวลาใช้งานแบตเตอรี่ เครื่องคำนวณระยะเวลาใช้งานแบตเตอรี่ calculator construction how long a battery runs a load ah usable wh depth of discharge inverter losses counted",
+  "p": 129,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณตัวต้านทาน LED",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/led-resistor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Series resistor in ohms, nearest standard E12 value, actual current & wattage.",
+  "k": "เครื่องคำนวณตัวต้านทาน led เครื่องคำนวณตัวต้านทาน led เครื่องคำนวณตัวต้านทาน led calculator construction series resistor in ohms nearest standard e12 value actual current wattage",
+  "p": 130,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณไฟฟ้าสามเฟส",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/three-phase-power-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "kW, kVA & kvar from line voltage, line current & power factor for balanced loads.",
+  "k": "เครื่องคำนวณไฟฟ้าสามเฟส เครื่องคำนวณไฟฟ้าสามเฟส เครื่องคำนวณไฟฟ้าสามเฟส calculator construction kw kva kvar from line voltage line current power factor for balanced loads",
+  "p": 131,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณกระแสมอเตอร์",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/motor-current-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Estimated full-load amps from motor kW or hp, efficiency & power factor.",
+  "k": "เครื่องคำนวณกระแสมอเตอร์ เครื่องคำนวณกระแสมอเตอร์ เครื่องคำนวณกระแสมอเตอร์ calculator construction estimated full load amps from motor kw or hp efficiency power factor",
+  "p": 132,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณรหัสสีตัวต้านทาน",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/resistor-colour-code-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Read 4, 5 & 6-band resistor colours to ohms & tolerance — or turn a value back into bands.",
+  "k": "เครื่องคำนวณรหัสสีตัวต้านทาน เครื่องคำนวณรหัสสีตัวต้านทาน เครื่องคำนวณรหัสสีตัวต้านทาน calculator construction read 4 5 6 band resistor colours to ohms tolerance or turn a value back into bands",
+  "p": 133,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณตัวจับเวลา 555",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/555-timer-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Astable frequency & duty cycle and monostable pulse width from R and C.",
+  "k": "เครื่องคำนวณตัวจับเวลา 555 เครื่องคำนวณตัวจับเวลา 555 เครื่องคำนวณตัวจับเวลา 555 calculator construction astable frequency duty cycle and monostable pulse width from r and c",
+  "p": 134,
+  "c": "Tool"
+ },
+ {
+  "n": "ตัวแปลง AWG",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/awg-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "AWG to mm, mm² and resistance per km for copper & aluminium — and back from mm² or diameter.",
+  "k": "ตัวแปลง awg ตัวแปลง awg ตัวแปลง awg calculator construction awg to mm mm and resistance per km for copper aluminium and back from mm or diameter",
+  "p": 135,
+  "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณรีแอกแตนซ์",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/reactance-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Capacitive & inductive reactance in ohms, plus LC resonant frequency.",
+  "k": "เครื่องคำนวณรีแอกแตนซ์ เครื่องคำนวณรีแอกแตนซ์ เครื่องคำนวณรีแอกแตนซ์ calculator construction capacitive inductive reactance in ohms plus lc resonant frequency",
+  "p": 136,
+  "c": "Tool"
+ },
+ {
+  "n": "ตัวแปลง dB",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/db-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "Power & voltage ratios to decibels, dBm to milliwatts & watts and back.",
+  "k": "ตัวแปลง db ตัวแปลง db ตัวแปลง db calculator construction power voltage ratios to decibels dbm to milliwatts watts and back",
+  "p": 137,
+  "c": "Tool"
+ }
+]

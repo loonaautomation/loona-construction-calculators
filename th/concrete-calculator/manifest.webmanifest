@@ -1,0 +1,29 @@
+{
+  "name": "Loona Concrete Calculator",
+  "short_name": "Concrete Calculator",
+  "description": "เครื่องคำนวณคอนกรีตฟรี: ความยาว ความกว้าง และความหนาของพื้นเป็นเมตริกหรืออิมพีเรียล — รับปริมาตรคอนกรีตเป็นลูกบาศก์เมตรและลูกบาศก์หลา พร้อมจำนวนถุงคอนกรีตผสมเสร็จ 20/25 kg หรือ 60/80 lb ที่คุณต้องการ",
+  "id": "/loona-construction-calculators/th/concrete-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

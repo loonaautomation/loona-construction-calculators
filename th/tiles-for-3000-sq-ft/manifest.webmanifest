@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 3000 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 3000 Sq",
+  "description": "กระเบื้องสำหรับ 3000 sq ft ด้วยกระเบื้อง 60×60 cm และรอยต่อยาแนว 3 mm: 844 แผ่น (211 กล่องละ 4 แผ่น) รวมเผื่อ 10% สำหรับการตัดและการแตก",
+  "id": "/loona-construction-calculators/th/tiles-for-3000-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

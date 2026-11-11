@@ -1,0 +1,29 @@
+{
+  "name": "Loona Asphalt Calculator",
+  "short_name": "Asphalt Calculator",
+  "description": "เครื่องคำนวณแอสฟัลต์ฟรี: กรอกความยาว ความกว้าง และความหนาเป็นเมตริกหรืออิมพีเรียล แล้วรับน้ำหนักแอสฟัลต์ที่ต้องสั่งเป็นตันและ US tons พร้อมความหนาแน่นที่แก้ไขได้ (2,450 kg/m³ / 145 lb/ft³) ค่าเผื่อเศษ และตัวเลือกค่าใช้จ่าย",
+  "id": "/loona-construction-calculators/th/asphalt-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

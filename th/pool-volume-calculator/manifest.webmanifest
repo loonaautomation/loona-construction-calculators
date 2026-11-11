@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pool Volume Calculator",
+  "short_name": "Pool Volume Calculator",
+  "description": "เครื่องคำนวณปริมาตรสระว่ายน้ำฟรีสำหรับสระสี่เหลี่ยม กลม และวงรี: กรอกขนาดและความลึกด้านตื้น/ด้านลึกเป็นเมตริกหรืออิมพีเรียล แล้วรับปริมาตรน้ำเป็นลิตรและ US gallons สำหรับการใส่สารเคมีและการเติมน้ำ",
+  "id": "/loona-construction-calculators/th/pool-volume-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

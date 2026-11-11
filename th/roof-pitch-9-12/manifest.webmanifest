@@ -1,0 +1,29 @@
+{
+  "name": "Loona 9/12 Roof Pitch",
+  "short_name": "9/12 Roof Pitch",
+  "description": "ความลาดชันหลังคา 9/12 คือ 36.87 องศา (ความชัน 75%) ตัวคูณจันทัน 1.2500 ความยาวจันทันสำหรับระยะแนวราบทั่วไป วัสดุ และการใช้งาน",
+  "id": "/loona-construction-calculators/th/roof-pitch-9-12/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

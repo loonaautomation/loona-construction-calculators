@@ -1,0 +1,29 @@
+{
+  "name": "Loona Power Factor Calculator",
+  "short_name": "Power Factor Calculator",
+  "description": "เครื่องคำนวณตัวประกอบกำลังฟรี: กำลังจริง (kW) และกำลังปรากฏ (kVA) ให้ตัวประกอบกำลัง กำลังรีแอกทีฟเป็น kvar มุมเฟส — และ kvar ของตัวเก็บประจุที่จำเป็นเพื่อแก้ไขให้ถึง PF เป้าหมาย",
+  "id": "/loona-construction-calculators/th/power-factor-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

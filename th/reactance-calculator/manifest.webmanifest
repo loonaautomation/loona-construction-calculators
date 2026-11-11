@@ -1,0 +1,29 @@
+{
+  "name": "Loona Reactance Calculator",
+  "short_name": "Reactance Calculator",
+  "description": "เครื่องคำนวณรีแอกแตนซ์ฟรี: ความถี่พร้อมความจุไฟฟ้า (µF) ให้รีแอกแตนซ์แบบเก็บประจุ Xc พร้อมความเหนี่ยวนำ (mH) ให้รีแอกแตนซ์แบบเหนี่ยวนำ Xl — กรอกทั้งสองเพื่อรีแอกแตนซ์สุทธิและความถี่เรโซแนนซ์ LC",
+  "id": "/loona-construction-calculators/th/reactance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

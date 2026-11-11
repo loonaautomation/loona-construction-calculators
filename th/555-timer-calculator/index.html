@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>เครื่องคำนวณตัวจับเวลา 555 — ความถี่และรอบการทำงานแบบ Astable ความกว้างพัลส์แบบ Monostable | Loona Construction Calculators</title>
+<meta name="description" content="เครื่องคำนวณตัวจับเวลา 555 ฟรี: โหมด astable ให้ความถี่ รอบการทำงาน และเวลา HIGH/LOW จาก R1, R2 และ C โหมด monostable ให้ความกว้างพัลส์จาก R และ C — สูตรมาตรฐาน 1.44 และ 1.1">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/th/555-timer-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/555-timer-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/555-timer-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/555-timer-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/555-timer-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/555-timer-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/555-timer-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/555-timer-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/555-timer-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/555-timer-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/555-timer-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/555-timer-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/555-timer-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-construction-calculators/id/555-timer-calculator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-construction-calculators/bn/555-timer-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-construction-calculators/ja/555-timer-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/555-timer-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-construction-calculators/pl/555-timer-calculator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-construction-calculators/vi/555-timer-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-construction-calculators/zh/555-timer-calculator/"><link rel="alternate" hreflang="th" href="https://loonaautomation.github.io/loona-construction-calculators/th/555-timer-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/555-timer-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="เครื่องคำนวณตัวจับเวลา 555 — ความถี่และรอบการทำงานแบบ Astable ความกว้างพัลส์แบบ Monostable | Loona Construction Calculators">
+<meta property="og:description" content="เครื่องคำนวณตัวจับเวลา 555 ฟรี: โหมด astable ให้ความถี่ รอบการทำงาน และเวลา HIGH/LOW จาก R1, R2 และ C โหมด monostable ให้ความกว้างพัลส์จาก R และ C — สูตรมาตรฐาน 1.44 และ 1.1">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/th/555-timer-calculator/"><meta property="og:locale" content="th_TH">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="เครื่องคำนวณตัวจับเวลา 555 — ความถี่และรอบการทำงานแบบ Astable ความกว้างพัลส์แบบ Monostable | Loona Construction Calculators">
+<meta name="twitter:description" content="เครื่องคำนวณตัวจับเวลา 555 ฟรี: โหมด astable ให้ความถี่ รอบการทำงาน และเวลา HIGH/LOW จาก R1, R2 และ C โหมด monostable ให้ความกว้างพัลส์จาก R และ C — สูตรมาตรฐาน 1.44 และ 1.1">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona เครื่องคำนวณตัวจับเวลา 555","url":"https://loonaautomation.github.io/loona-construction-calculators/th/555-timer-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"ทำไมวงจร astable มาตรฐานจึงต่ำกว่า 50% duty ไม่ได้?","acceptedAnswer":{"@type":"Answer","text":"ตัวเก็บประจุจับเวลาชาร์จผ่าน R1 + R2 แต่คายประจุผ่าน R2 เท่านั้น ดังนั้นเวลา HIGH จึงยาวกว่าอีกค่าหนึ่งเสมอ วิธีแก้แบบคลาสสิก: ไดโอดคร่อม R2 เพื่อให้ประจุข้ามมัน การนำเอาต์พุตจากจุดอื่น หรือต่อ 555 ด้วยอินเวอร์เตอร์หากคุณแค่ต้องการขั้วตรงข้าม"}},{"@type":"Question","name":"ช่วงค่าตัวต้านทานและตัวเก็บประจุใดทำงานได้ดี?","acceptedAnswer":{"@type":"Answer","text":"ให้ R1 และ R2 อยู่ประมาณระหว่าง 1 kΩ และ 1 MΩ และตัวเก็บประจุอยู่ระหว่างประมาณ 100 pF (0.0001 µF) และสองสามร้อย µF ตัวเก็บประจุอิเล็กโทรไลต์ขนาดใหญ่มากรั่วมากพอที่จะทำลายการตั้งเวลานาน ๆ ตัวเก็บประจุขนาดเล็กมากถูกกลบด้วยความจุแอบแฝงบนแผงวงจร"}},{"@type":"Question","name":"แรงดันแหล่งจ่ายเปลี่ยนความถี่หรือไม่?","acceptedAnswer":{"@type":"Answer","text":"แทบไม่มีผลเลย — 555 เปรียบเทียบแรงดันของตัวเก็บประจุกับ ⅓ และ ⅔ ของแรงดันแหล่งจ่ายที่ได้รับ ดังนั้นเศษส่วนจึงหักล้างกัน อุณหภูมิและค่าความคลาดเคลื่อนของชิ้นส่วน (ตัวเก็บประจุแบบอิเล็กโทรไลต์มักอยู่ที่ ±20%) มีผลมากกว่าในทางปฏิบัติมาก"}},{"@type":"Question","name":"สูตรเหล่านี้แม่นยำแค่ไหน?","acceptedAnswer":{"@type":"Answer","text":"พวกมันคือสูตรจากเอกสารข้อมูล (ใช้ 1.44 / 0.693 / 1.1) และแม่นยำเท่ากับชิ้นส่วนของคุณ: ตัวต้านทาน 1% กับตัวเก็บประจุฟิล์ม 10% ให้ผลลัพธ์ผิดเพี้ยนเล็กน้อยระดับไม่กี่เปอร์เซ็นต์ ตัวเก็บประจุอิเล็กโทรไลต์ ±20% ให้ผลลัพธ์ ±20% สำหรับการจับเวลาที่แม่นยำ ให้วัดและปรับแต่ง หรือใช้ตัวจับเวลาที่ใช้คริสตัล"}},{"@type":"Question","name":"ความแตกต่างระหว่าง 555 แบบไบโพลาร์และรุ่น CMOS คืออะไร?","acceptedAnswer":{"@type":"Answer","text":"รุ่น CMOS (TLC555, LMC555, ICM7555) ทำงานด้วยกำลังต่ำกว่าและความถี่สูงกว่า และมีพฤติกรรมเอาต์พุตที่นุ่มนวลกว่า แต่สูตรจับเวลาเหมือนกันทุกอย่าง NE555 แบบไบโพลาร์สามารถจ่าย/รับกระแสที่เอาต์พุตได้ประมาณ 200 mA ส่วนแบบ CMOS ได้น้อยกว่า — โปรดตรวจสอบเอกสารข้อมูลของรุ่นของคุณ"}},{"@type":"Question","name":"555 ขับรีเลย์หรือมอเตอร์โดยตรงได้หรือไม่?","acceptedAnswer":{"@type":"Answer","text":"เอาต์พุตของ 555 แบบไบโพลาร์รับกระแสได้ถึงประมาณ 200 mA เพียงพอสำหรับขดลวดรีเลย์ขนาดเล็ก (พร้อมไดโอดฟลายแบ็กคร่อมไว้) มอเตอร์และโหลดที่ใหญ่กว่าต้องใช้ภาคทรานซิสเตอร์หรือ MOSFET — 555 ทำหน้าที่จับเวลา ส่วนทรานซิสเตอร์ทำหน้าที่จ่ายกำลัง"}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/th/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "เครื่องคำนวณตัวจับเวลา 555",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/th/555-timer-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="โลโก้ Loona Automation">
+<div class="brand">Loona <span>เครื่องคำนวณงานก่อสร้าง</span></div>
+<nav>
+<a href="../">หน้าแรก</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">เกี่ยวกับ</a>
+<a href="../contact.html">ติดต่อ</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; ไฟฟ้า &rsaquo; เครื่องคำนวณตัวจับเวลา 555</div>
+<h1 class="pagetitle">⏱️ เครื่องคำนวณตัวจับเวลา 555</h1>
+<p class="lead">555 ทำให้ LED กะพริบและจับเวลาพัลส์มาตั้งแต่ปี 1972 เลือก astable (ออสซิลเลเตอร์ทำงานอิสระ) หรือ monostable (ครั้งเดียว) กรอกตัวต้านทานเป็นโอห์มและตัวเก็บประจุเป็น µF แล้วรับความถี่ รอบการทำงาน หรือความกว้างพัลส์</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_mode">โหมด</label><select id="f_mode"><option value="astable" selected>Astable — ออสซิลเลเตอร์ทำงานอิสระ</option><option value="mono">Monostable — พัลส์ครั้งเดียว</option></select></div><div class="fld"><label for="f_r1">R1 (โอห์ม) — ตัวต้านทานชาร์จแบบ astable / R แบบ monostable</label><input type="number" id="f_r1" step="any" value="1000"></div><div class="fld"><label for="f_r2">R2 (โอห์ม) — เฉพาะ astable</label><input type="number" id="f_r2" step="any" value="10000"></div><div class="fld"><label for="f_c">ตัวเก็บประจุ C (µF — ไมโครฟารัด; 0.01 µF = 10 nF)</label><input type="number" id="f_c" step="any" value="10"></div>
+<button type="button" class="calcbtn" id="calcBtn">คำนวณ</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>วิธีใช้เครื่องคำนวณตัวจับเวลา 555</h2><ol><li>เลือก astable สำหรับคลื่นสี่เหลี่ยมซ้ำ ๆ เลือก monostable สำหรับพัลส์จับเวลาครั้งเดียว</li><li>กรอกตัวต้านทานเป็นโอห์ม (10 kΩ = 10,000) และตัวเก็บประจุเป็นไมโครฟารัด — หน่วยที่วงจร 555 ส่วนใหญ่ใช้วาด</li><li>กดคำนวณ: astable ให้ความถี่ รอบการทำงาน และเวลา HIGH และ LOW ส่วน monostable ให้ความกว้างพัลส์</li></ol>
+<div class="exbox"><strong>ตัวอย่าง:</strong> แบบ Astable ด้วย R1 = 1 kΩ, R2 = 10 kΩ, C = 10 µF: f = 1.44 ÷ ((1,000 + 20,000) × 10 µF) = <strong>6.86 Hz</strong>, รอบการทำงาน (duty cycle) <strong>52.4%</strong>.</div>
+<h2>คำถามที่พบบ่อย</h2></section><div class="faq"><h3>ทำไมวงจร astable มาตรฐานจึงต่ำกว่า 50% duty ไม่ได้?</h3><p>ตัวเก็บประจุจับเวลาชาร์จผ่าน R1 + R2 แต่คายประจุผ่าน R2 เท่านั้น ดังนั้นเวลา HIGH จึงยาวกว่าอีกค่าหนึ่งเสมอ วิธีแก้แบบคลาสสิก: ไดโอดคร่อม R2 เพื่อให้ประจุข้ามมัน การนำเอาต์พุตจากจุดอื่น หรือต่อ 555 ด้วยอินเวอร์เตอร์หากคุณแค่ต้องการขั้วตรงข้าม</p></div><div class="faq"><h3>ช่วงค่าตัวต้านทานและตัวเก็บประจุใดทำงานได้ดี?</h3><p>ให้ R1 และ R2 อยู่ประมาณระหว่าง 1 kΩ และ 1 MΩ และตัวเก็บประจุอยู่ระหว่างประมาณ 100 pF (0.0001 µF) และสองสามร้อย µF ตัวเก็บประจุอิเล็กโทรไลต์ขนาดใหญ่มากรั่วมากพอที่จะทำลายการตั้งเวลานาน ๆ ตัวเก็บประจุขนาดเล็กมากถูกกลบด้วยความจุแอบแฝงบนแผงวงจร</p></div><div class="faq"><h3>แรงดันแหล่งจ่ายเปลี่ยนความถี่หรือไม่?</h3><p>แทบไม่มีผลเลย — 555 เปรียบเทียบแรงดันของตัวเก็บประจุกับ ⅓ และ ⅔ ของแรงดันแหล่งจ่ายที่ได้รับ ดังนั้นเศษส่วนจึงหักล้างกัน อุณหภูมิและค่าความคลาดเคลื่อนของชิ้นส่วน (ตัวเก็บประจุแบบอิเล็กโทรไลต์มักอยู่ที่ ±20%) มีผลมากกว่าในทางปฏิบัติมาก</p></div>
+<h2 class="sec">เครื่องคำนวณที่เกี่ยวข้อง</h2><div class="grid"><a class="card" href="../led-resistor-calculator/"><div class="ic">💡</div><h3>เครื่องคำนวณตัวต้านทาน LED</h3><p>ไฟฟ้า</p></a><a class="card" href="../reactance-calculator/"><div class="ic">〰️</div><h3>เครื่องคำนวณรีแอกแตนซ์</h3><p>ไฟฟ้า</p></a><a class="card" href="../resistor-colour-code-calculator/"><div class="ic">🌈</div><h3>เครื่องคำนวณรหัสสีตัวต้านทาน</h3><p>ไฟฟ้า</p></a><a class="card" href="../battery-runtime-calculator/"><div class="ic">🔋</div><h3>เครื่องคำนวณระยะเวลาใช้งานแบตเตอรี่</h3><p>ไฟฟ้า</p></a></div>
+</div>
+<section class="txt"><h2>วิธีการทำงาน &mdash; สูตร</h2>
+<p><strong>Astable:</strong> f = 1.44 ÷ ((R1 + 2 × R2) × C) &nbsp;·&nbsp; Duty = (R1 + R2) ÷ (R1 + 2 × R2) × 100%<br>
+t<sub>HIGH</sub> = 0.693 × (R1 + R2) × C &nbsp;·&nbsp; t<sub>LOW</sub> = 0.693 × R2 × C<br>
+<strong>Monostable:</strong> T = 1.1 × R × C</p>
+<p>ค่าคงที่มาจากขีดแบ่งภายในของ 555 ที่ ⅓ และ ⅔ ของแหล่งจ่าย: 0.693 คือ ln 2, 1.44 คือ 1 ÷ ln 2 และ 1.1 คือ ln 3 (เวลาชาร์จจาก 0 ถึง ⅔) เนื่องจากขีดแบ่งทั้งสองเป็นเศษส่วนของแรงดันแหล่งจ่าย การจับเวลาจึง (มีชื่อเสียงว่า) เกือบไม่ขึ้นกับแรงดันแหล่งจ่ายเอง — วงจร 555 ที่จับเวลาบน 5 V ยังคงจับเวลาเดิมบน 12 V</p>
+<h3>ตัวอย่างที่ทำไว้</h3>
+<div class="exbox">Astable: R1 = 1,000 Ω, R2 = 10,000 Ω, C = 10 µF = 0.00001 F ตัวส่วน: (1,000 + 2 × 10,000) × 0.00001 = 21,000 × 0.00001 = 0.21 f = 1.44 ÷ 0.21 = <strong>6.86 Hz</strong>. รอบการทำงาน = (1,000 + 10,000) ÷ 21,000 = <strong>52.4%</strong>. ตรวจสอบวงจรโมโนสเตเบิล: R = 10,000 Ω, C = 100 µF → T = 1.1 × 10,000 × 0.0001 = <strong>1.1 s</strong>.</div>
+
+<h3>คำถามที่พบบ่อย</h3></section>
+<div class="faq"><h3>สูตรเหล่านี้แม่นยำแค่ไหน?</h3><p>พวกมันคือสูตรจากเอกสารข้อมูล (ใช้ 1.44 / 0.693 / 1.1) และแม่นยำเท่ากับชิ้นส่วนของคุณ: ตัวต้านทาน 1% กับตัวเก็บประจุฟิล์ม 10% ให้ผลลัพธ์ผิดเพี้ยนเล็กน้อยระดับไม่กี่เปอร์เซ็นต์ ตัวเก็บประจุอิเล็กโทรไลต์ ±20% ให้ผลลัพธ์ ±20% สำหรับการจับเวลาที่แม่นยำ ให้วัดและปรับแต่ง หรือใช้ตัวจับเวลาที่ใช้คริสตัล</p></div><div class="faq"><h3>ความแตกต่างระหว่าง 555 แบบไบโพลาร์และรุ่น CMOS คืออะไร?</h3><p>รุ่น CMOS (TLC555, LMC555, ICM7555) ทำงานด้วยกำลังต่ำกว่าและความถี่สูงกว่า และมีพฤติกรรมเอาต์พุตที่นุ่มนวลกว่า แต่สูตรจับเวลาเหมือนกันทุกอย่าง NE555 แบบไบโพลาร์สามารถจ่าย/รับกระแสที่เอาต์พุตได้ประมาณ 200 mA ส่วนแบบ CMOS ได้น้อยกว่า — โปรดตรวจสอบเอกสารข้อมูลของรุ่นของคุณ</p></div><div class="faq"><h3>555 ขับรีเลย์หรือมอเตอร์โดยตรงได้หรือไม่?</h3><p>เอาต์พุตของ 555 แบบไบโพลาร์รับกระแสได้ถึงประมาณ 200 mA เพียงพอสำหรับขดลวดรีเลย์ขนาดเล็ก (พร้อมไดโอดฟลายแบ็กคร่อมไว้) มอเตอร์และโหลดที่ใหญ่กว่าต้องใช้ภาคทรานซิสเตอร์หรือ MOSFET — 555 ทำหน้าที่จับเวลา ส่วนทรานซิสเตอร์ทำหน้าที่จ่ายกำลัง</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">ฝังเครื่องคำนวณนี้บนเว็บไซต์ของคุณ — ฟรี</h2>
+<p style="margin:0 0 12px;line-height:1.6">เพิ่มเครื่องคำนวณนี้ลงในเว็บไซต์หรือบล็อกของคุณ — ฟรีทั้งหมด ไม่ต้องสมัครสมาชิก และแสดงเวอร์ชันล่าสุดเสมอ คัดลอกโค้ดด้านล่างแล้ววางลงในหน้าของคุณตรงตำแหน่งที่ต้องการให้เครื่องคำนวณปรากฏ การคงบรรทัดเครดิตเล็ก ๆ &ldquo;Powered by Loona Automation&rdquo; ไว้ใต้ตัวฝังจะช่วยให้เครื่องมือนี้ยังคงฟรีต่อไป &mdash; แต่คุณจะปรับแต่งหรือลบออกก็ได้ เครื่องมือทำงานได้ทั้งสองแบบ</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/th/555-timer-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="555 Timer Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;ขับเคลื่อนโดย &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/th/555-timer-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; ฟรี เครื่องคำนวณตัวจับเวลา 555&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">คัดลอกโค้ดฝัง</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='คัดลอกแล้ว!';setTimeout(function(){b.textContent='คัดลอกโค้ดฝัง';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>เครื่องคำนวณยอดนิยม</h4><ul><li><a href="../paint-calculator/">เครื่องคำนวณสี</a></li>
+<li><a href="../concrete-calculator/">เครื่องคำนวณคอนกรีต</a></li>
+<li><a href="../tile-calculator/">เครื่องคำนวณกระเบื้อง</a></li>
+<li><a href="../brick-calculator/">เครื่องคำนวณอิฐ</a></li>
+<li><a href="../roof-pitch-calculator/">เครื่องคำนวณความลาดชันหลังคา</a></li>
+<li><a href="../stairs-calculator/">เครื่องคำนวณบันได</a></li></ul></div>
+<div><h4>เครื่องมือ Loona เพิ่มเติม</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">เครื่องมือ Loona ทั้งหมด</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">เกี่ยวกับ</a></li>
+<li><a href="../contact.html">ติดต่อ</a></li>
+<li><a href="../privacy-policy.html">นโยบายความเป็นส่วนตัว</a></li>
+<li><a href="../terms.html">ข้อกำหนดการใช้งาน</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> โครงการ เครื่องคำนวณงานก่อสร้างฟรีในหน่วยเมตริกและอิมพีเรียล ไม่ต้องสมัครสมาชิก
+ติดต่อ: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  var C = v.c_uf * 1e-6;
+  if (v.mode === "mono") {
+    if (!pos(v.r1, C)) return bad("โปรดกรอก R (โอห์ม) และ C (\u00B5F) ทั้งคู่สูงกว่าศูนย์");
+    var T = 1.1 * v.r1 * C;
+    var htmlM = resTable("ความกว้างพัลส์ (เวลาขาออก HIGH)", fmt(T, 4) + " s",
+      [["ความต้านทาน R", fmt(v.r1, 0) + " \u03A9"],["ความจุไฟฟ้า C", fmt(v.c_uf, 3) + " \u00B5F"]],
+      "เอาต์พุตโมโนสเตเบิล (ช็อตเดียว) คง HIGH นานเท่านี้หลังการกระตุ้นแต่ละครั้ง จากนั้นกลับเป็น LOW จนกว่าจะถูกกระตุ้นอีก ใช้ตัวเก็บประจุรั่วต่ำสำหรับพัลส์ยาว \u2014 การรั่วของอิเล็กโทรไลต์เป็นเหตุผลปกติที่วงจรช็อตเดียวจริงทำงานสั้น");
+    return { ok: true, T: T, html: htmlM };
+  }
+  if (!pos(v.r1, v.r2, C)) return bad("โปรดกรอก R1, R2 (โอห์ม) และ C (\u00B5F) ทั้งหมดสูงกว่าศูนย์");
+  var f = 1.44 / ((v.r1 + 2 * v.r2) * C);
+  var duty = (v.r1 + v.r2) / (v.r1 + 2 * v.r2) * 100;
+  var tHigh = 0.693 * (v.r1 + v.r2) * C;
+  var tLow = 0.693 * v.r2 * C;
+  var html = resTable("ความถี่", fmt(f, 3) + " Hz",
+    [["รอบการทำงาน (สัดส่วน HIGH)", fmt(duty, 1) + "%"],["เวลา HIGH ต่อรอบ", fmt(tHigh, 4) + " s"],["เวลา LOW ต่อรอบ", fmt(tLow, 4) + " s"],["คาบ", fmt(1 / f, 4) + " s"]],
+    "ในวงจรอะสเตเบิลมาตรฐาน รอบการทำงานสูงกว่า 50% เสมอเพราะตัวเก็บประจุชาร์จผ่าน R1 + R2 แต่คายประจุผ่าน R2 ตัวเดียว สำหรับ 50% หรือต่ำกว่า ให้เพิ่มการดัดแปลงไดโอดที่รู้จักกันดีหรือใช้ตัวกำเนิดสัญญาณอื่น");
+  return { ok: true, f: f, duty: duty, tHigh: tHigh, tLow: tLow, html: html };
+} };
+
+function collect(){ return { mode: gs("f_mode"), r1: gv("f_r1"), r2: gv("f_r2"), c_uf: gv("f_c") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' ติดตั้งแอป';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('ติดตั้งแอปนี้: แตะปุ่มแชร์ จากนั้นเลือก "เพิ่มไปยังหน้าจอหลัก"');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

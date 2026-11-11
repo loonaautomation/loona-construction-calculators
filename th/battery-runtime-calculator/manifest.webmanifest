@@ -1,0 +1,29 @@
+{
+  "name": "Loona Battery Runtime Calculator",
+  "short_name": "Battery Runtime Calculator",
+  "description": "เครื่องคำนวณระยะเวลาใช้งานแบตเตอรี่ฟรี: โวลต์และแอมป์-ชั่วโมงของแบตเตอรี่ วัตต์ของโหลด ความลึกการคายประจุ และประสิทธิภาพอินเวอร์เตอร์ ให้ค่าวัตต์-ชั่วโมงที่ใช้ได้และระยะเวลาใช้งานเป็นชั่วโมง — สำหรับการวางแผนโซลาร์ UPS และนอกโครงข่าย",
+  "id": "/loona-construction-calculators/th/battery-runtime-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

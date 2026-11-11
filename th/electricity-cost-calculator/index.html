@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>เครื่องคำนวณค่าไฟฟ้า — เครื่องใช้ไฟฟ้ามีค่าใช้จ่ายเท่าใดต่อวัน เดือน & ปี | Loona Construction Calculators</title>
+<meta name="description" content="เครื่องคำนวณค่าไฟฟ้าฟรี: วัตต์ของเครื่องใช้ไฟฟ้า (หรือแอมป์ × โวลต์) ชั่วโมงต่อวัน วันต่อเดือน และราคาต่อ kWh ให้ปริมาณ kWh ที่ใช้และค่าใช้จ่ายต่อวัน เดือน และปี — ทุกสกุลเงิน">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/th/electricity-cost-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/electricity-cost-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/electricity-cost-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/electricity-cost-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/electricity-cost-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/electricity-cost-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/electricity-cost-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/electricity-cost-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/electricity-cost-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/electricity-cost-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/electricity-cost-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/electricity-cost-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/electricity-cost-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-construction-calculators/id/electricity-cost-calculator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-construction-calculators/bn/electricity-cost-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-construction-calculators/ja/electricity-cost-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/electricity-cost-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-construction-calculators/pl/electricity-cost-calculator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-construction-calculators/vi/electricity-cost-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-construction-calculators/zh/electricity-cost-calculator/"><link rel="alternate" hreflang="th" href="https://loonaautomation.github.io/loona-construction-calculators/th/electricity-cost-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/electricity-cost-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="เครื่องคำนวณค่าไฟฟ้า — เครื่องใช้ไฟฟ้ามีค่าใช้จ่ายเท่าใดต่อวัน เดือน & ปี | Loona Construction Calculators">
+<meta property="og:description" content="เครื่องคำนวณค่าไฟฟ้าฟรี: วัตต์ของเครื่องใช้ไฟฟ้า (หรือแอมป์ × โวลต์) ชั่วโมงต่อวัน วันต่อเดือน และราคาต่อ kWh ให้ปริมาณ kWh ที่ใช้และค่าใช้จ่ายต่อวัน เดือน และปี — ทุกสกุลเงิน">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/th/electricity-cost-calculator/"><meta property="og:locale" content="th_TH">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="เครื่องคำนวณค่าไฟฟ้า — เครื่องใช้ไฟฟ้ามีค่าใช้จ่ายเท่าใดต่อวัน เดือน & ปี | Loona Construction Calculators">
+<meta name="twitter:description" content="เครื่องคำนวณค่าไฟฟ้าฟรี: วัตต์ของเครื่องใช้ไฟฟ้า (หรือแอมป์ × โวลต์) ชั่วโมงต่อวัน วันต่อเดือน และราคาต่อ kWh ให้ปริมาณ kWh ที่ใช้และค่าใช้จ่ายต่อวัน เดือน และปี — ทุกสกุลเงิน">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona เครื่องคำนวณค่าไฟฟ้า","url":"https://loonaautomation.github.io/loona-construction-calculators/th/electricity-cost-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"ฉันหาราคาต่อ kWh ของฉันได้ที่ไหน?","acceptedAnswer":{"@type":"Answer","text":"บนบิลค่าไฟฟ้าของคุณ: อัตราต่อหน่วยที่ระบุ หรือหารค่าใช้จ่ายพลังงานทั้งหมดด้วย kWh ที่ใช้ ให้รวมเฉพาะค่าใช้จ่ายพลังงานต่อหน่วยหากต้องการต้นทุนการใช้งานล้วน ๆ ค่าบริการคงที่และภาษีมีผลไม่ว่าเครื่องใช้ไฟฟ้านี้จะทำงานหรือไม่"}},{"@type":"Question","name":"ป้ายแสดงแอมป์ ไม่ใช่วัตต์ — ฉันควรทำอย่างไร?","acceptedAnswer":{"@type":"Answer","text":"กรอกแอมป์และแรงดันแหล่งจ่ายของคุณ (230 V ในพื้นที่ส่วนใหญ่ของยุโรปและปากีสถาน 120 V ในอเมริกาเหนือ) แล้วปล่อยให้เครื่องคำนวณคูณให้: W = A × V หากคุณกรอกทั้งแอมป์และโวลต์ ค่าเหล่านั้นจะแทนที่ช่องวัตต์"}},{"@type":"Question","name":"ทำไมบิลจริงของฉันจึงต่ำกว่าค่าประมาณสำหรับตู้เย็นหรือเครื่องปรับอากาศ?","acceptedAnswer":{"@type":"Answer","text":"เครื่องใช้ไฟฟ้าเหล่านั้นทำงานเป็นรอบ: คอมเพรสเซอร์หรือเทอร์โมสตัทเปิดและปิดโหลด ดังนั้นการกินกระแสเฉลี่ยจึงมักอยู่ที่ 30–70% ของค่าพิกัด เครื่องทำความร้อน กาต้มน้ำ ปั๊ม และไฟส่องสว่าง ตรงกันข้าม กินกระแสใกล้เคียงวัตต์ที่กำหนดทุกครั้งที่เปิด ดังนั้นค่าประมาณจึงใกล้เคียงสำหรับพวกมัน"}},{"@type":"Question","name":"ฉันคำนวณค่าใช้จ่ายทั้งบ้านหรือเวิร์กช็อปอย่างไร?","acceptedAnswer":{"@type":"Answer","text":"คำนวณค่าใช้จ่ายของโหลดใหญ่ทีละรายการ — การทำความร้อน การทำความเย็น การทำน้ำอุ่น ปั๊ม และแสงสว่าง มักเป็น 80–90% ของบิล — แล้วรวมผลลัพธ์ โหลดเล็ก ๆ ที่เปิดตลอดเวลา (เราเตอร์ ทีวีสแตนด์บาย) มีราคาถูกแยกกัน แต่ทำงาน 8,760 ชั่วโมงต่อปี ดังนั้นให้ตรวจสอบพวกมันด้วย"}},{"@type":"Question","name":"ใช้กับทุกประเทศและทุกสกุลเงินได้หรือไม่?","acceptedAnswer":{"@type":"Answer","text":"ใช่ การคำนวณเหมือนกันทุกที่ และผลลัพธ์เป็นสกุลเงินใดก็ตามที่ราคาต่อ kWh ของคุณใช้ — ดอลลาร์ ปอนด์ ยูโร รูปี (สำหรับบิลค่าไฟบ้านแบบขั้นบันไดฉบับเต็มของปากีสถาน ให้ใช้เครื่องมือบิลค่าไฟฟ้าของ Loona Calculators ที่ลิงก์ไว้ในส่วนสูตร)"}},{"@type":"Question","name":"kWh ในคำง่าย ๆ คืออะไร?","acceptedAnswer":{"@type":"Answer","text":"การเปิดเครื่องใช้ไฟฟ้า 1,000 W เป็นเวลา 1 ชั่วโมงใช้ไฟ 1 kWh หลอดไฟ 100 W ใช้เวลา 10 ชั่วโมงเพื่อใช้ 1 kWh เท่ากัน — นี่คือเหตุผลที่วัตต์ × ชั่วโมง ไม่ใช่วัตต์เพียงอย่างเดียว เป็นตัวตัดสินค่าใช้จ่าย"}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/th/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "เครื่องคำนวณค่าไฟฟ้า",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/th/electricity-cost-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="โลโก้ Loona Automation">
+<div class="brand">Loona <span>เครื่องคำนวณงานก่อสร้าง</span></div>
+<nav>
+<a href="../">หน้าแรก</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">เกี่ยวกับ</a>
+<a href="../contact.html">ติดต่อ</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; ไฟฟ้า &rsaquo; เครื่องคำนวณค่าไฟฟ้า</div>
+<h1 class="pagetitle">💷 เครื่องคำนวณค่าไฟฟ้า</h1>
+<p class="lead">เครื่องทำความร้อน ปั๊ม หรือเครื่องปรับอากาศนั้นมีค่าใช้จ่ายในการใช้งานจริงเท่าไหร่? กรอกกำลังวัตต์ของมัน (หรือแอมป์และโวลต์) ระยะเวลาที่มันทำงานในแต่ละวัน และราคาต่อ kWh ของคุณ แล้วรับพลังงานที่ใช้และค่าใช้จ่ายต่อวัน เดือน และปี — ในสกุลเงินใดก็ได้</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_watts">กำลังของเครื่องใช้ไฟฟ้า (วัตต์) — จากป้ายกำกับ</label><input type="number" id="f_watts" step="any" value="1500"></div><div class="fld"><label for="f_amps">หรือกระแส (แอมป์) — หากกรอกทั้งแอมป์และโวลต์ ค่าเหล่านั้นจะแทนที่วัตต์</label><input type="number" id="f_amps" step="any" value=""></div><div class="fld"><label for="f_volts">แรงดัน (โวลต์) — พร้อมแอมป์ด้านบน</label><input type="number" id="f_volts" step="any" value=""></div><div class="fld"><label for="f_hours">ชั่วโมงที่ใช้ต่อวัน</label><input type="number" id="f_hours" step="any" value="4"></div><div class="fld"><label for="f_days">จำนวนวันที่ใช้ต่อเดือน</label><input type="number" id="f_days" step="any" value="30"></div><div class="fld"><label for="f_price">ราคาต่อ kWh (ในสกุลเงินของคุณ — จากบิลค่าไฟฟ้าของคุณ)</label><input type="number" id="f_price" step="any" value="0.30"></div>
+<button type="button" class="calcbtn" id="calcBtn">คำนวณ</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>วิธีใช้เครื่องคำนวณค่าไฟฟ้า</h2><ol><li>ค้นหากำลังของเครื่องใช้ไฟฟ้า: วัตต์บนป้ายกำกับของมัน หรือแอมป์ของมัน — กรอกแอมป์และโวลต์แทน แล้วเครื่องคำนวณจะคูณให้</li><li>กรอกชั่วโมงต่อวันและวันต่อเดือนที่สมจริง (เครื่องทำความร้อนที่ใช้เฉพาะวันธรรมดาอาจเป็น 22 วัน ไม่ใช่ 30)</li><li>นำราคาต่อ kWh จากบิลล่าสุดของคุณ — หารยอดรวมบิลด้วย kWh ที่ใช้หากอัตราค่าไฟของคุณไม่แสดงโดยตรง — จากนั้นกดคำนวณ</li></ol>
+<div class="exbox"><strong>ตัวอย่าง:</strong> เครื่องทำความร้อน 1,500 W ที่เปิดวันละ 4 ชั่วโมง เดือนละ 30 วัน ที่ราคา 0.30 ต่อ kWh จะใช้ไฟ <strong>180 kWh</strong> ต่อเดือนและมีค่าใช้จ่าย <strong>54.00</strong> ต่อเดือน</div>
+<h2>คำถามที่พบบ่อย</h2></section><div class="faq"><h3>ฉันหาราคาต่อ kWh ของฉันได้ที่ไหน?</h3><p>บนบิลค่าไฟฟ้าของคุณ: อัตราต่อหน่วยที่ระบุ หรือหารค่าใช้จ่ายพลังงานทั้งหมดด้วย kWh ที่ใช้ ให้รวมเฉพาะค่าใช้จ่ายพลังงานต่อหน่วยหากต้องการต้นทุนการใช้งานล้วน ๆ ค่าบริการคงที่และภาษีมีผลไม่ว่าเครื่องใช้ไฟฟ้านี้จะทำงานหรือไม่</p></div><div class="faq"><h3>ป้ายแสดงแอมป์ ไม่ใช่วัตต์ — ฉันควรทำอย่างไร?</h3><p>กรอกแอมป์และแรงดันแหล่งจ่ายของคุณ (230 V ในพื้นที่ส่วนใหญ่ของยุโรปและปากีสถาน 120 V ในอเมริกาเหนือ) แล้วปล่อยให้เครื่องคำนวณคูณให้: W = A × V หากคุณกรอกทั้งแอมป์และโวลต์ ค่าเหล่านั้นจะแทนที่ช่องวัตต์</p></div><div class="faq"><h3>ทำไมบิลจริงของฉันจึงต่ำกว่าค่าประมาณสำหรับตู้เย็นหรือเครื่องปรับอากาศ?</h3><p>เครื่องใช้ไฟฟ้าเหล่านั้นทำงานเป็นรอบ: คอมเพรสเซอร์หรือเทอร์โมสตัทเปิดและปิดโหลด ดังนั้นการกินกระแสเฉลี่ยจึงมักอยู่ที่ 30–70% ของค่าพิกัด เครื่องทำความร้อน กาต้มน้ำ ปั๊ม และไฟส่องสว่าง ตรงกันข้าม กินกระแสใกล้เคียงวัตต์ที่กำหนดทุกครั้งที่เปิด ดังนั้นค่าประมาณจึงใกล้เคียงสำหรับพวกมัน</p></div>
+<h2 class="sec">เครื่องคำนวณที่เกี่ยวข้อง</h2><div class="grid"><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>เครื่องคำนวณกฎของโอห์ม</h3><p>ไฟฟ้า</p></a><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>เครื่องคำนวณแรงดันตก</h3><p>ไฟฟ้า</p></a><a class="card" href="../wire-size-calculator/"><div class="ic">🧵</div><h3>เครื่องคำนวณขนาดสายไฟ</h3><p>ไฟฟ้า</p></a><a class="card" href="../solar-panel-calculator/"><div class="ic">☀️</div><h3>เครื่องคำนวณแผงโซลาร์เซลล์</h3><p>ไฟฟ้า</p></a></div>
+</div>
+<section class="txt"><h2>วิธีการทำงาน &mdash; สูตร</h2>
+<p><strong>กำลังจากแอมป์:</strong> W = A × V<br>
+<strong>พลังงานต่อวัน (kWh)</strong> = วัตต์ ÷ 1,000 × ชั่วโมงต่อวัน<br>
+<strong>พลังงานต่อเดือน</strong> = kWh ต่อวัน × จำนวนวันต่อเดือน &nbsp;·&nbsp; <strong>พลังงานต่อปี</strong> = kWh ต่อเดือน × 12<br>
+<strong>ค่าใช้จ่าย</strong> = kWh × ราคาต่อ kWh</p>
+<p>หนึ่งกิโลวัตต์-ชั่วโมงคือหนึ่งกิโลวัตต์ที่ทำงานเป็นเวลาหนึ่งชั่วโมง — เป็นหน่วยที่บิลของคุณนับ นี่คือเครื่องมือต้นทุนการใช้งานเครื่องใช้ไฟฟ้าทั่วไปสำหรับทุกประเทศและทุกสกุลเงิน สำหรับบิลค่าไฟบ้านฉบับเต็มในปากีสถาน รวมถึงอัตราขั้นบันได ภาษี และค่าธรรมเนียมเพิ่มเติมที่ใช้ที่นั่น ให้ใช้เครื่องมือเฉพาะ <a href="https://loonaautomation.github.io/loona-calculators/electricity-bill-calculator/">เครื่องคำนวณค่าไฟฟ้าปากีสถานบน Loona Calculators</a> แทน — เครื่องมือที่แตกต่างสำหรับงานที่แตกต่าง</p>
+<h3>ตัวอย่างที่ทำไว้</h3>
+<div class="exbox">เครื่องทำความร้อน: 1,500 W, 4 h/วัน, 30 วัน/เดือน ราคา 0.30 ต่อ kWh พลังงานต่อวัน = 1,500 ÷ 1,000 × 4 = <strong>6 kWh</strong>. ต่อเดือน = 6 × 30 = <strong>180 kWh</strong>. ค่าใช้จ่ายต่อเดือน = 180 × 0.30 = <strong>54.00</strong>; ต่อวัน = 6 × 0.30 = 1.80; ต่อปี = 180 × 12 = 2,160 kWh คิดเป็นค่าใช้จ่าย 648.00</div>
+
+<h3>คำถามที่พบบ่อย</h3></section>
+<div class="faq"><h3>ฉันคำนวณค่าใช้จ่ายทั้งบ้านหรือเวิร์กช็อปอย่างไร?</h3><p>คำนวณค่าใช้จ่ายของโหลดใหญ่ทีละรายการ — การทำความร้อน การทำความเย็น การทำน้ำอุ่น ปั๊ม และแสงสว่าง มักเป็น 80–90% ของบิล — แล้วรวมผลลัพธ์ โหลดเล็ก ๆ ที่เปิดตลอดเวลา (เราเตอร์ ทีวีสแตนด์บาย) มีราคาถูกแยกกัน แต่ทำงาน 8,760 ชั่วโมงต่อปี ดังนั้นให้ตรวจสอบพวกมันด้วย</p></div><div class="faq"><h3>ใช้กับทุกประเทศและทุกสกุลเงินได้หรือไม่?</h3><p>ใช่ การคำนวณเหมือนกันทุกที่ และผลลัพธ์เป็นสกุลเงินใดก็ตามที่ราคาต่อ kWh ของคุณใช้ — ดอลลาร์ ปอนด์ ยูโร รูปี (สำหรับบิลค่าไฟบ้านแบบขั้นบันไดฉบับเต็มของปากีสถาน ให้ใช้เครื่องมือบิลค่าไฟฟ้าของ Loona Calculators ที่ลิงก์ไว้ในส่วนสูตร)</p></div><div class="faq"><h3>kWh ในคำง่าย ๆ คืออะไร?</h3><p>การเปิดเครื่องใช้ไฟฟ้า 1,000 W เป็นเวลา 1 ชั่วโมงใช้ไฟ 1 kWh หลอดไฟ 100 W ใช้เวลา 10 ชั่วโมงเพื่อใช้ 1 kWh เท่ากัน — นี่คือเหตุผลที่วัตต์ × ชั่วโมง ไม่ใช่วัตต์เพียงอย่างเดียว เป็นตัวตัดสินค่าใช้จ่าย</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">ฝังเครื่องคำนวณนี้บนเว็บไซต์ของคุณ — ฟรี</h2>
+<p style="margin:0 0 12px;line-height:1.6">เพิ่มเครื่องคำนวณนี้ลงในเว็บไซต์หรือบล็อกของคุณ — ฟรีทั้งหมด ไม่ต้องสมัครสมาชิก และแสดงเวอร์ชันล่าสุดเสมอ คัดลอกโค้ดด้านล่างแล้ววางลงในหน้าของคุณตรงตำแหน่งที่ต้องการให้เครื่องคำนวณปรากฏ การคงบรรทัดเครดิตเล็ก ๆ &ldquo;Powered by Loona Automation&rdquo; ไว้ใต้ตัวฝังจะช่วยให้เครื่องมือนี้ยังคงฟรีต่อไป &mdash; แต่คุณจะปรับแต่งหรือลบออกก็ได้ เครื่องมือทำงานได้ทั้งสองแบบ</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/th/electricity-cost-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Electricity Cost Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;ขับเคลื่อนโดย &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/th/electricity-cost-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; ฟรี เครื่องคำนวณค่าไฟฟ้า&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">คัดลอกโค้ดฝัง</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='คัดลอกแล้ว!';setTimeout(function(){b.textContent='คัดลอกโค้ดฝัง';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>เครื่องคำนวณยอดนิยม</h4><ul><li><a href="../paint-calculator/">เครื่องคำนวณสี</a></li>
+<li><a href="../concrete-calculator/">เครื่องคำนวณคอนกรีต</a></li>
+<li><a href="../tile-calculator/">เครื่องคำนวณกระเบื้อง</a></li>
+<li><a href="../brick-calculator/">เครื่องคำนวณอิฐ</a></li>
+<li><a href="../roof-pitch-calculator/">เครื่องคำนวณความลาดชันหลังคา</a></li>
+<li><a href="../stairs-calculator/">เครื่องคำนวณบันได</a></li></ul></div>
+<div><h4>เครื่องมือ Loona เพิ่มเติม</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">เครื่องมือ Loona ทั้งหมด</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">เกี่ยวกับ</a></li>
+<li><a href="../contact.html">ติดต่อ</a></li>
+<li><a href="../privacy-policy.html">นโยบายความเป็นส่วนตัว</a></li>
+<li><a href="../terms.html">ข้อกำหนดการใช้งาน</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> โครงการ เครื่องคำนวณงานก่อสร้างฟรีในหน่วยเมตริกและอิมพีเรียล ไม่ต้องสมัครสมาชิก
+ติดต่อ: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  var watts = v.watts;
+  var mode = "วัตต์";
+  if (v.amps > 0 && v.volts > 0) { watts = v.amps * v.volts; mode = "ampsvolts"; }
+  if (!pos(watts, v.hours, v.days, v.price)) return bad("โปรดกรอกกำลังวัตต์ของเครื่องใช้ (หรือทั้งแอมป์และโวลต์) ชั่วโมงต่อวัน วันต่อเดือน และราคาต่อ kWh");
+  if (v.hours > 24) return bad("ชั่วโมงต่อวันต้องไม่เกิน 24");
+  var kwhDay = watts / 1000 * v.hours;
+  var kwhMonth = kwhDay * v.days;
+  var kwhYear = kwhMonth * 12;
+  var html = resTable("ค่าใช้จ่ายต่อเดือน", fmt(kwhMonth * v.price, 2),
+    [["กำลังเครื่องใช้ที่ใช้", fmt(watts, 0) + " W" + (mode === "ampsvolts" ? " (จากแอมป์ \u00D7 โวลต์)" : "")],
+     ["พลังงานต่อวัน", fmt(kwhDay, 3) + " kWh \u2014 ค่าใช้จ่าย " + fmt(kwhDay * v.price, 2)],
+     ["พลังงานต่อเดือน (" + fmt(v.days, 0) + " วัน)", fmt(kwhMonth, 2) + " kWh \u2014 ค่าใช้จ่าย " + fmt(kwhMonth * v.price, 2)],
+     ["พลังงานต่อปี", fmt(kwhYear, 1) + " kWh \u2014 ค่าใช้จ่าย " + fmt(kwhYear * v.price, 2)],
+     ["ค่าใช้จ่ายต่อชั่วโมงใช้งาน", fmt(watts / 1000 * v.price, 3)]],
+    "ค่าใช้จ่ายเป็นสกุลเงินใดก็ตามที่ราคาต่อ kWh ของคุณใช้ และสมมติว่าเครื่องใช้กินกำลังเต็มพิกัดเมื่อเปิดใช้งาน เครื่องใช้ที่ทำงานเป็นรอบ (ตู้เย็น เครื่องปรับอากาศ เครื่องทำความร้อนแบบเทอร์โมสตัท) โดยทั่วไปใช้ 30\u201370% ของนั้นในทางปฏิบัติ ตัวเลขต่อปีคือตัวเลขต่อเดือน \u00D7 12");
+  return { ok: true, watts: watts, kwhDay: kwhDay, kwhMonth: kwhMonth, kwhYear: kwhYear, costDay: kwhDay * v.price, costMonth: kwhMonth * v.price, costYear: kwhYear * v.price, html: html };
+} };
+
+function collect(){ return { watts: gv("f_watts"), amps: gv("f_amps"), volts: gv("f_volts"), hours: gv("f_hours"), days: gv("f_days"), price: gv("f_price") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' ติดตั้งแอป';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('ติดตั้งแอปนี้: แตะปุ่มแชร์ จากนั้นเลือก "เพิ่มไปยังหน้าจอหลัก"');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

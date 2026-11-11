@@ -1,0 +1,29 @@
+{
+  "name": "Loona Wallpaper Calculator",
+  "short_name": "Wallpaper Calculator",
+  "description": "เครื่องคำนวณวอลเปเปอร์ฟรี: ขนาดห้องเป็นเมตริกหรืออิมพีเรียล ม้วนยุโรปหรือม้วนคู่ของสหรัฐฯ เผื่อการต่อลาย — รับจำนวนม้วนวอลเปเปอร์ที่ต้องซื้ออย่าง exact รวมเผื่อเศษ",
+  "id": "/loona-construction-calculators/th/wallpaper-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

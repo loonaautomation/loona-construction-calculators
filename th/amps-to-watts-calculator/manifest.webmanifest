@@ -1,0 +1,29 @@
+{
+  "name": "Loona Amps to Watts Calculator",
+  "short_name": "Amps to Watts Calculator",
+  "description": "เครื่องคำนวณแอมป์เป็นวัตต์ฟรีสำหรับ DC, AC เฟสเดียว และ AC สามเฟส: กระแส แรงดัน และตัวประกอบกำลังให้ค่าวัตต์ กิโลวัตต์ และ kVA — พร้อมสูตรและตัวอย่างที่ทำไว้",
+  "id": "/loona-construction-calculators/th/amps-to-watts-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
