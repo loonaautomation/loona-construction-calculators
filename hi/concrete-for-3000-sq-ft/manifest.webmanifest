@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Concrete for 3000 Sq Ft? Volume",
+  "short_name": "How Much Concrete for 3000 Sq",
+  "description": "3000 sq ft की स्लैब के लिए कंक्रीट, 4 इंच मोटी: 31.15 m³ (40.74 yd³), 10% अतिरिक्त सहित, साथ में 80 lb, 60 lb, 25 kg और 20 kg बैगों के लिए प्री-मिक्स बैग गिनती।",
+  "id": "/loona-construction-calculators/hi/concrete-for-3000-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Asphalt Calculator",
+  "short_name": "Asphalt Calculator",
+  "description": "मुफ़्त डामर कैलकुलेटर: मीट्रिक या इंपीरियल में लंबाई, चौड़ाई और मोटाई दर्ज करें और टन और US टन में ऑर्डर करने का डामर वज़न पाएँ, संपादन योग्य घनत्व (2,450 kg/m³ / 145 lb/ft³), बर्बादी भत्ते और वैकल्पिक लागत के साथ।",
+  "id": "/loona-construction-calculators/hi/asphalt-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Stairs Calculator",
+  "short_name": "Stairs Calculator",
+  "description": "मुफ़्त सीढ़ी कैलकुलेटर: मीट्रिक या इंपीरियल में कुल उठान दर्ज करें — कदमों की संख्या, ठीक राइज़र ऊँचाई, कुल रन और स्ट्रिंगर लंबाई पाएँ, 2R + T आराम नियम स्वचालित रूप से जाँचा गया।",
+  "id": "/loona-construction-calculators/hi/stairs-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

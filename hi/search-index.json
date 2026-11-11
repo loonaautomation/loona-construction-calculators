@@ -1,0 +1,344 @@
+[
+ {
+  "n": "पेंट कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/paint-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "किसी भी कमरे के लिए लीटर और गैलन, दरवाज़े/खिड़कियाँ घटाकर, प्राइमर सहित।",
+  "k": "paint calculator paint calculator paint calculator calculator construction किसी भी कमरे के लिए लीटर और गैलन दरवाज़े खिड़कियाँ घटाकर प्राइमर सहित।",
+  "p": 0,
+  "c": "Tool"
+ },
+ {
+  "n": "टाइल कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/tile-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "फर्श और दीवारों के लिए टाइलें और बॉक्स, ग्राउट अंतर गिना हुआ।",
+  "k": "tile calculator tile calculator tile calculator calculator construction फर्श और दीवारों के लिए टाइलें और बॉक्स ग्राउट अंतर गिना हुआ।",
+  "p": 1,
+  "c": "Tool"
+ },
+ {
+  "n": "कंक्रीट कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/concrete-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "m³ और yd³ में स्लैब मात्रा साथ में प्री-मिक्स बैग गिनती।",
+  "k": "concrete calculator concrete calculator concrete calculator calculator construction m और yd में स्लैब मात्रा साथ में प्री मिक्स बैग गिनती।",
+  "p": 2,
+  "c": "Tool"
+ },
+ {
+  "n": "फर्श कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/flooring-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "कटाई बर्बादी के साथ लैमिनेट, विनाइल और लकड़ी के बॉक्स।",
+  "k": "flooring calculator flooring calculator flooring calculator calculator construction कटाई बर्बादी के साथ लैमिनेट विनाइल और लकड़ी के बॉक्स।",
+  "p": 3,
+  "c": "Tool"
+ },
+ {
+  "n": "ड्राईवॉल कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/drywall-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "दीवारों और छतों के लिए प्लास्टरबोर्ड / ड्राईवॉल शीट।",
+  "k": "drywall calculator drywall calculator drywall calculator calculator construction दीवारों और छतों के लिए प्लास्टरबोर्ड ड्राईवॉल शीट।",
+  "p": 4,
+  "c": "Tool"
+ },
+ {
+  "n": "ईंट कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/brick-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "मानक मीट्रिक और US ईंट आकारों के लिए ईंट गिनती।",
+  "k": "brick calculator brick calculator brick calculator calculator construction मानक मीट्रिक और us ईंट आकारों के लिए ईंट गिनती।",
+  "p": 5,
+  "c": "Tool"
+ },
+ {
+  "n": "बजरी कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/gravel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "ड्राइव, रास्तों और आधारों के लिए टन और घन गज।",
+  "k": "gravel calculator gravel calculator gravel calculator calculator construction ड्राइव रास्तों और आधारों के लिए टन और घन गज।",
+  "p": 106,
+  "c": "Tool"
+ },
+ {
+  "n": "छत ढलान कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/roof-pitch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "ढलान अनुपात, कोण, ग्रेड और राफ्टर लंबाई।",
+  "k": "roof pitch calculator roof pitch calculator roof pitch calculator calculator construction ढलान अनुपात कोण ग्रेड और राफ्टर लंबाई।",
+  "p": 107,
+  "c": "Tool"
+ },
+ {
+  "n": "सीढ़ी कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/stairs-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "कदम, राइज़र ऊँचाई, ट्रेड, रन और स्ट्रिंगर लंबाई।",
+  "k": "stairs calculator stairs calculator stairs calculator calculator construction कदम राइज़र ऊँचाई ट्रेड रन और स्ट्रिंगर लंबाई।",
+  "p": 108,
+  "c": "Tool"
+ },
+ {
+  "n": "बोर्ड फुट कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/board-foot-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "बोर्ड फुट और घन मीटर में लकड़ी मात्रा।",
+  "k": "board foot calculator board foot calculator board foot calculator calculator construction बोर्ड फुट और घन मीटर में लकड़ी मात्रा।",
+  "p": 109,
+  "c": "Tool"
+ },
+ {
+  "n": "वॉलपेपर कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/wallpaper-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "EU और US रोल के लिए रोल, पैटर्न दोहराव की गुंजाइश के साथ।",
+  "k": "wallpaper calculator wallpaper calculator wallpaper calculator calculator construction eu और us रोल के लिए रोल पैटर्न दोहराव की गुंजाइश के साथ।",
+  "p": 110,
+  "c": "Tool"
+ },
+ {
+  "n": "मल्च कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/mulch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "क्यारियों और किनारों के लिए बैग और थोक मात्रा।",
+  "k": "mulch calculator mulch calculator mulch calculator calculator construction क्यारियों और किनारों के लिए बैग और थोक मात्रा।",
+  "p": 111,
+  "c": "Tool"
+ },
+ {
+  "n": "डामर कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/asphalt-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "क्षेत्र और मोटाई से टन और US टन, घनत्व बदला जा सकता है, लागत अनुमान।",
+  "k": "asphalt calculator asphalt calculator asphalt calculator calculator construction क्षेत्र और मोटाई से टन और us टन घनत्व बदला जा सकता है लागत अनुमान।",
+  "p": 112,
+  "c": "Tool"
+ },
+ {
+  "n": "इन्सुलेशन कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/insulation-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "आपके लक्ष्य R-मान / RSI के लिए बैट, रोल या फूँके गए बैग, मोटाई मार्गदर्शिका।",
+  "k": "insulation calculator insulation calculator insulation calculator calculator construction आपके लक्ष्य r मान rsi के लिए बैट रोल या फूँके गए बैग मोटाई मार्गदर्शिका।",
+  "p": 113,
+  "c": "Tool"
+ },
+ {
+  "n": "बाड़ कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/fence-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "बाड़ लंबाई और अंतर से पोस्ट, रेल, पिकेट और कंक्रीट बैग।",
+  "k": "fence calculator fence calculator fence calculator calculator construction बाड़ लंबाई और अंतर से पोस्ट रेल पिकेट और कंक्रीट बैग।",
+  "p": 114,
+  "c": "Tool"
+ },
+ {
+  "n": "डेक कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/deck-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "डेक आकार, बोर्ड चौड़ाई और जॉइस्ट अंतर से डेक बोर्ड, जॉइस्ट और स्क्रू।",
+  "k": "deck calculator deck calculator deck calculator calculator construction डेक आकार बोर्ड चौड़ाई और जॉइस्ट अंतर से डेक बोर्ड जॉइस्ट और स्क्रू।",
+  "p": 115,
+  "c": "Tool"
+ },
+ {
+  "n": "पूल मात्रा कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/pool-volume-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "आयत, गोल और अंडाकार पूलों के लिए लीटर और US गैलन — खुराक के लिए तैयार।",
+  "k": "pool volume calculator pool volume calculator pool volume calculator calculator construction आयत गोल और अंडाकार पूलों के लिए लीटर और us गैलन खुराक के लिए तैयार।",
+  "p": 116,
+  "c": "Tool"
+ },
+ {
+  "n": "सौर पैनल कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/solar-panel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "आपके बिल से आवश्यक पैनल, प्रणाली kW, अपेक्षित उत्पादन और छत क्षेत्र।",
+  "k": "solar panel calculator solar panel calculator solar panel calculator calculator construction आपके बिल से आवश्यक पैनल प्रणाली kw अपेक्षित उत्पादन और छत क्षेत्र।",
+  "p": 117,
+  "c": "Tool"
+ },
+ {
+  "n": "कालीन कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/carpet-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "कमरे के आकार और रोल चौड़ाई से रैखिक लंबाई और वास्तविक खरीद क्षेत्र।",
+  "k": "carpet calculator carpet calculator carpet calculator calculator construction कमरे के आकार और रोल चौड़ाई से रैखिक लंबाई और वास्तविक खरीद क्षेत्र।",
+  "p": 118,
+  "c": "Tool"
+ },
+ {
+  "n": "प्लाईवुड कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/plywood-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "2440×1220 mm और 4×8 ft शीट के लिए क्षेत्र और लेआउट के अनुसार शीट।",
+  "k": "plywood calculator plywood calculator plywood calculator calculator construction 2440 1220 mm और 4 8 ft शीट के लिए क्षेत्र और लेआउट के अनुसार शीट।",
+  "p": 119,
+  "c": "Tool"
+ },
+ {
+  "n": "रेत कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/sand-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "सैंडबॉक्स, पेविंग आधारों और स्क्रीड के लिए टन और 25 kg बैग।",
+  "k": "sand calculator sand calculator sand calculator calculator construction सैंडबॉक्स पेविंग आधारों और स्क्रीड के लिए टन और 25 kg बैग।",
+  "p": 120,
+  "c": "Tool"
+ },
+ {
+  "n": "ओम का नियम कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/ohms-law-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "किन्हीं दो मानों से वोल्टेज, करंट, प्रतिरोध और पावर — पूरा ओम के नियम का पहिया।",
+  "k": "ohm s law calculator ohms law calculator ohms law calculator electrical voltage current resistance power किन्हीं दो मानों से वोल्टेज करंट प्रतिरोध और पावर पूरा ओम के नियम का पहिया।",
+  "p": 121,
+  "c": "Tool"
+ },
+ {
+  "n": "वोल्टेज ड्रॉप कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/voltage-drop-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "केबल रन पर गिरे वोल्ट और %, mm² या AWG, सिंगल और थ्री-फेज़।",
+  "k": "voltage drop calculator voltage drop calculator voltage drop calculator cable electrical copper aluminium awg केबल रन पर गिरे वोल्ट और mm या awg सिंगल और थ्री फेज़।",
+  "p": 122,
+  "c": "Tool"
+ },
+ {
+  "n": "वायर साइज़ कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/wire-size-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "आपकी गिरावट सीमा से mm² में न्यूनतम केबल आकार + मानक आकार और AWG।",
+  "k": "wire size calculator wire size calculator wire size calculator cable size mm2 awg electrical आपकी गिरावट सीमा से mm में न्यूनतम केबल आकार मानक आकार और awg।",
+  "p": 123,
+  "c": "Tool"
+ },
+ {
+  "n": "बिजली लागत कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/electricity-cost-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "वाट और प्रति kWh कीमत से कोई उपकरण प्रति दिन, माह और वर्ष कितना खर्च करता है।",
+  "k": "electricity cost calculator electricity cost calculator electricity cost calculator appliance kwh running cost वाट और प्रति kwh कीमत से कोई उपकरण प्रति दिन माह और वर्ष कितना खर्च करता है।",
+  "p": 124,
+  "c": "Tool"
+ },
+ {
+  "n": "एम्प्स से वाट्स कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/amps-to-watts-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "एम्प्स और वोल्ट से वाट और kW — पावर फैक्टर के साथ DC, सिंगल-फेज़ और थ्री-फेज़।",
+  "k": "amps to watts calculator amps to watts calculator amps to watts calculator electrical conversion power factor एम्प्स और वोल्ट से वाट और kw पावर फैक्टर के साथ dc सिंगल फेज़ और थ्री फेज़।",
+  "p": 125,
+  "c": "Tool"
+ },
+ {
+  "n": "वाट्स से एम्प्स कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/watts-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "ब्रेकर और केबल जाँच के लिए वाट और वोल्ट से एम्प्स — DC, सिंगल और थ्री-फेज़।",
+  "k": "watts to amps calculator watts to amps calculator watts to amps calculator electrical conversion breaker ब्रेकर और केबल जाँच के लिए वाट और वोल्ट से एम्प्स dc सिंगल और थ्री फेज़।",
+  "p": 126,
+  "c": "Tool"
+ },
+ {
+  "n": "kVA से एम्प्स कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/kva-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "जनरेटर और ट्रांसफार्मर kVA से फुल-लोड एम्प्स, और एम्प्स वापस kVA में, सिंगल और थ्री-फेज़।",
+  "k": "kva to amps calculator kva to amps calculator kva to amps calculator generator transformer apparent power जनरेटर और ट्रांसफार्मर kva से फुल लोड एम्प्स और एम्प्स वापस kva में सिंगल और थ्री फेज़।",
+  "p": 127,
+  "c": "Tool"
+ },
+ {
+  "n": "पावर फैक्टर कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/power-factor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "kW और kVA से पावर फैक्टर, kvar और फेज़ कोण, साथ में सुधार संधारित्र आकार।",
+  "k": "power factor calculator power factor calculator power factor calculator kvar correction capacitor kw और kva से पावर फैक्टर kvar और फेज़ कोण साथ में सुधार संधारित्र आकार।",
+  "p": 128,
+  "c": "Tool"
+ },
+ {
+  "n": "बैटरी रनटाइम कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/battery-runtime-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "बैटरी लोड कितनी देर चलाती है — Ah, उपयोगी Wh, डिस्चार्ज गहराई और इन्वर्टर हानियाँ गिनी हुई।",
+  "k": "battery runtime calculator battery runtime calculator battery runtime calculator amp hours solar ups off grid बैटरी लोड कितनी देर चलाती है ah उपयोगी wh डिस्चार्ज गहराई और इन्वर्टर हानियाँ गिनी हुई।",
+  "p": 129,
+  "c": "Tool"
+ },
+ {
+  "n": "LED रेज़िस्टर कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/led-resistor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "ओम में श्रृंखला रेज़िस्टर, निकटतम मानक E12 मान, वास्तविक करंट और वाट क्षमता।",
+  "k": "led resistor calculator led resistor calculator led resistor calculator electronics series resistor e12 ओम में श्रृंखला रेज़िस्टर निकटतम मानक e12 मान वास्तविक करंट और वाट क्षमता।",
+  "p": 130,
+  "c": "Tool"
+ },
+ {
+  "n": "थ्री-फेज़ पावर कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/three-phase-power-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "संतुलित लोड के लिए लाइन वोल्टेज, लाइन करंट और पावर फैक्टर से kW, kVA और kvar।",
+  "k": "three phase power calculator three phase power calculator three phase power calculator kw kva kvar संतुलित लोड के लिए लाइन वोल्टेज लाइन करंट और पावर फैक्टर से kw kva और kvar।",
+  "p": 131,
+  "c": "Tool"
+ },
+ {
+  "n": "मोटर करंट कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/motor-current-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "मोटर kW या hp, दक्षता और पावर फैक्टर से अनुमानित फुल-लोड एम्प्स।",
+  "k": "motor current calculator motor current calculator motor current calculator full load amps fla horsepower मोटर kw या hp दक्षता और पावर फैक्टर से अनुमानित फुल लोड एम्प्स।",
+  "p": 132,
+  "c": "Tool"
+ },
+ {
+  "n": "रेज़िस्टर कलर कोड कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/resistor-colour-code-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "4, 5 और 6-बैंड रेज़िस्टर रंगों को ओम और सहनशीलता में पढ़ें — या मान को वापस बैंड में बदलें।",
+  "k": "resistor colour code calculator resistor colour code calculator resistor colour code calculator bands ohms tolerance electronics 4 5 और 6 बैंड रेज़िस्टर रंगों को ओम और सहनशीलता में पढ़ें या मान को वापस बैंड में बदलें।",
+  "p": 133,
+  "c": "Tool"
+ },
+ {
+  "n": "555 टाइमर कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/555-timer-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "R और C से एस्टेबल आवृत्ति और ड्यूटी चक्र और मोनोस्टेबल पल्स चौड़ाई।",
+  "k": "555 timer calculator 555 timer calculator 555 timer calculator astable monostable frequency duty cycle r और c से एस्टेबल आवृत्ति और ड्यूटी चक्र और मोनोस्टेबल पल्स चौड़ाई।",
+  "p": 134,
+  "c": "Tool"
+ },
+ {
+  "n": "AWG कनवर्टर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/awg-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "ताँबे और एल्युमिनियम के लिए AWG से mm, mm² और प्रति km प्रतिरोध — और mm² या व्यास से वापस।",
+  "k": "awg converter awg converter awg converter wire gauge mm2 diameter resistance table ताँबे और एल्युमिनियम के लिए awg से mm mm और प्रति km प्रतिरोध और mm या व्यास से वापस।",
+  "p": 135,
+  "c": "Tool"
+ },
+ {
+  "n": "रिएक्टेंस कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/reactance-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "ओम में धारितीय और प्रेरणिक प्रतिघात, साथ में LC अनुनाद आवृत्ति।",
+  "k": "reactance calculator reactance calculator reactance calculator capacitive inductive resonance frequency ओम में धारितीय और प्रेरणिक प्रतिघात साथ में lc अनुनाद आवृत्ति।",
+  "p": 136,
+  "c": "Tool"
+ },
+ {
+  "n": "dB कनवर्टर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/db-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "पावर और वोल्टेज अनुपात से डेसीबल, dBm से मिलीवाट और वाट और वापस।",
+  "k": "db converter db converter db converter decibel dbm milliwatts watts ratio पावर और वोल्टेज अनुपात से डेसीबल dbm से मिलीवाट और वाट और वापस।",
+  "p": 137,
+  "c": "Tool"
+ }
+]

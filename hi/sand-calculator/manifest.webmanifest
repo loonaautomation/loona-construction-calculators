@@ -1,0 +1,29 @@
+{
+  "name": "Loona Sand Calculator",
+  "short_name": "Sand Calculator",
+  "description": "मुफ़्त रेत कैलकुलेटर: मीट्रिक या इंपीरियल में क्षेत्र और गहराई से आपको रेत मात्रा, टन और US टन में वज़न, और 25 kg बैगों की संख्या मिलती है — घनत्व और बर्बादी भत्ते के साथ, रेत-बक्सों, पेविंग आधारों और स्क्रीड के लिए।",
+  "id": "/loona-construction-calculators/hi/sand-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

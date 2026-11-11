@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 200 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 200 Sq Ft",
+  "description": "200 sq ft दीवार के लिए पेंट: सामान्य 10 m²/L कवरेज पर 2 कोट के लिए 4.1 लीटर (1.1 gal), साथ में 1.7 L प्राइमर — बताई गई मान्यताओं के साथ।",
+  "id": "/loona-construction-calculators/hi/paint-for-200-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

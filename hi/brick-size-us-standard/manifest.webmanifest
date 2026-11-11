@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in United States (Standard)",
+  "short_name": "Brick Size in United States",
+  "description": "संयुक्त राज्य अमेरिका (मानक) में मानक ईंट आकार: 203 × 92 × 57 mm। 9.5 mm मसाला जोड़ों के साथ एकल-परत दीवार के प्रति m² 70.8 ईंटें (6.57 प्रति sq ft), प्रति 1,000 ईंट कवरेज और कार्यित दीवार उदाहरण।",
+  "id": "/loona-construction-calculators/hi/brick-size-us-standard/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

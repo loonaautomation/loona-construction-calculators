@@ -1,0 +1,29 @@
+{
+  "name": "Loona Deck Calculator",
+  "short_name": "Deck Calculator",
+  "description": "मुफ़्त डेक कैलकुलेटर: मीट्रिक या इंपीरियल में डेक आकार और बोर्ड चौड़ाई से आपको खरीदने के डेक बोर्ड, कुल बोर्ड लंबाई, जॉइस्ट और स्क्रू अनुमान मिलता है — बोर्ड अंतर, जॉइस्ट अंतर और बर्बादी भत्ते के साथ।",
+  "id": "/loona-construction-calculators/hi/deck-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

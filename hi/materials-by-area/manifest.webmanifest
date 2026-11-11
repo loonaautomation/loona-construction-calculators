@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials by Area",
+  "short_name": "Materials by Area",
+  "description": "आपके क्षेत्र के लिए कितनी सामग्री? 100 से 3,000 sq ft के लिए कंक्रीट मात्राएँ, टाइल गिनती और पेंट मात्राएँ — साइट के अपने कैलकुलेटरों से गणना की गई।",
+  "id": "/loona-construction-calculators/hi/materials-by-area/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

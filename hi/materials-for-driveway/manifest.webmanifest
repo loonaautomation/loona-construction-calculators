@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for a 12 × 40 ft Driveway",
+  "short_name": "Materials for a 12 × 40 ft",
+  "description": "12 × 40 ft ड्राइववे के लिए सामग्री: ठीक कंक्रीट मात्रा और प्री-मिक्स बैग गिनती (4-इंच स्लैब, 10% अतिरिक्त) साथ में आधार और सुदृढीकरण खरीद नोट।",
+  "id": "/loona-construction-calculators/hi/materials-for-driveway/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Electricity Cost Calculator",
+  "short_name": "Electricity Cost Calculator",
+  "description": "मुफ़्त बिजली लागत कैलकुलेटर: उपकरण वाट (या एम्प्स × वोल्ट), प्रति दिन घंटे, प्रति माह दिन और प्रति kWh कीमत से उपयोग किए kWh और प्रति दिन, माह और वर्ष लागत मिलती है — कोई भी मुद्रा।",
+  "id": "/loona-construction-calculators/hi/electricity-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

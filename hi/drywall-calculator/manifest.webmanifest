@@ -1,0 +1,29 @@
+{
+  "name": "Loona Drywall Calculator",
+  "short_name": "Drywall Calculator",
+  "description": "मुफ़्त ड्राईवॉल और प्लास्टरबोर्ड कैलकुलेटर: मीट्रिक या इंपीरियल में कमरा आकार — दीवार और छत क्षेत्र और खरीदने के लिए 1200 × 2400 mm या 4 × 8 ft शीटों की संख्या पाएँ, बर्बादी सहित।",
+  "id": "/loona-construction-calculators/hi/drywall-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

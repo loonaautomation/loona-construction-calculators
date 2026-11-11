@@ -1,0 +1,29 @@
+{
+  "name": "Loona Carpet Calculator",
+  "short_name": "Carpet Calculator",
+  "description": "मुफ़्त कालीन कैलकुलेटर: मीट्रिक या इंपीरियल में कमरा आकार और कालीन रोल चौड़ाई से आपको वास्तव में खरीदने की रैखिक लंबाई और कालीन क्षेत्र मिलता है (रोल कटे टुकड़े शामिल), साथ में वैकल्पिक लागत — बर्बादी भत्ते के साथ।",
+  "id": "/loona-construction-calculators/hi/carpet-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Wallpaper Calculator",
+  "short_name": "Wallpaper Calculator",
+  "description": "मुफ़्त वॉलपेपर कैलकुलेटर: मीट्रिक या इंपीरियल में कमरा आकार, यूरोपीय या US डबल रोल, पैटर्न दोहराव की अनुमति — खरीदने के लिए वॉलपेपर रोल की ठीक संख्या पाएँ, बर्बादी सहित।",
+  "id": "/loona-construction-calculators/hi/wallpaper-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

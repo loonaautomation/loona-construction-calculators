@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in United Kingdom",
+  "short_name": "Brick Size in United Kingdom",
+  "description": "यूनाइटेड किंगडम में मानक ईंट आकार: 215 × 102.5 × 65 mm। 10 mm मसाला जोड़ों के साथ एकल-परत दीवार के प्रति m² 59.3 ईंटें (5.51 प्रति sq ft), प्रति 1,000 ईंट कवरेज और कार्यित दीवार उदाहरण।",
+  "id": "/loona-construction-calculators/hi/brick-size-uk/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Insulation Calculator",
+  "short_name": "Insulation Calculator",
+  "description": "मुफ़्त इन्सुलेशन कैलकुलेटर: क्षेत्र और अपना लक्ष्य R-मान (या मीट्रिक RSI) दर्ज करें और खरीदने के लिए बैट/रोल के पैक या ब्लोन-इन इन्सुलेशन के बैग पाएँ, साथ में वह मोटाई जो आपके लक्ष्य को चाहिए — मीट्रिक और इंपीरियल।",
+  "id": "/loona-construction-calculators/hi/insulation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

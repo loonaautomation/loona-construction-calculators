@@ -1,0 +1,29 @@
+{
+  "name": "Loona Reactance Calculator",
+  "short_name": "Reactance Calculator",
+  "description": "मुफ़्त प्रतिघात कैलकुलेटर: धारिता (µF) के साथ आवृत्ति से धारितीय प्रतिघात Xc, प्रेरण (mH) के साथ प्रेरणिक प्रतिघात Xl मिलता है — शुद्ध प्रतिघात और LC अनुनाद आवृत्ति के लिए दोनों दर्ज करें।",
+  "id": "/loona-construction-calculators/hi/reactance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

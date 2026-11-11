@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ओम का नियम कैलकुलेटर — वोल्टेज, करंट, प्रतिरोध और पावर (V, I, R, P) | Loona Construction Calculators</title>
+<meta name="description" content="मुफ़्त ओम का नियम कैलकुलेटर: वोल्टेज, करंट, प्रतिरोध और पावर में से कोई दो दर्ज करें और बाकी दो पाएँ — ओम के नियम पहिये के चारों चतुर्थांश, सूत्रों और कार्यित उदाहरण के साथ।">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/hi/ohms-law-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/ohms-law-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/ohms-law-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/ohms-law-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/ohms-law-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/ohms-law-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/ohms-law-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/ohms-law-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/ohms-law-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/ohms-law-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/ohms-law-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/ohms-law-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/ohms-law-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/ohms-law-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="ओम का नियम कैलकुलेटर — वोल्टेज, करंट, प्रतिरोध और पावर (V, I, R, P) | Loona Construction Calculators">
+<meta property="og:description" content="मुफ़्त ओम का नियम कैलकुलेटर: वोल्टेज, करंट, प्रतिरोध और पावर में से कोई दो दर्ज करें और बाकी दो पाएँ — ओम के नियम पहिये के चारों चतुर्थांश, सूत्रों और कार्यित उदाहरण के साथ।">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/hi/ohms-law-calculator/"><meta property="og:locale" content="hi_IN">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ओम का नियम कैलकुलेटर — वोल्टेज, करंट, प्रतिरोध और पावर (V, I, R, P) | Loona Construction Calculators">
+<meta name="twitter:description" content="मुफ़्त ओम का नियम कैलकुलेटर: वोल्टेज, करंट, प्रतिरोध और पावर में से कोई दो दर्ज करें और बाकी दो पाएँ — ओम के नियम पहिये के चारों चतुर्थांश, सूत्रों और कार्यित उदाहरण के साथ।">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona ओम का नियम कैलकुलेटर","url":"https://loonaautomation.github.io/loona-construction-calculators/hi/ohms-law-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"सरल शब्दों में ओम का नियम क्या है?","acceptedAnswer":{"@type":"Answer","text":"यह कहता है कि चालक से करंट उसके आर-पार वोल्टेज के अनुपात में और उसके प्रतिरोध के व्युत्क्रम अनुपात में होता है: वोल्टेज दोगुना करें तो (उसी रेज़िस्टर के लिए) करंट दोगुना; प्रतिरोध दोगुना करें तो करंट आधा। इसे V = I × R लिखा जाता है।"}},{"@type":"Question","name":"मुझे कौन से दो मान दर्ज करने चाहिए?","acceptedAnswer":{"@type":"Answer","text":"चारों में से कोई दो। सामान्य जोड़े: वोल्टेज + करंट (प्रतिरोध और पावर पाने के लिए, जैसे लोड जाँचने के लिए), वोल्टेज + पावर (वह करंट पाने के लिए जो उपकरण खींचेगा — फ्यूज़ या केबल चुनने से पहले आपको चाहिए जोड़ी), और करंट + प्रतिरोध (घटक पर गिरा वोल्टेज पाने के लिए)।"}},{"@type":"Question","name":"मुझे दो बॉक्स खाली क्यों छोड़ने चाहिए?","acceptedAnswer":{"@type":"Answer","text":"तीन या चार मान दर्ज करने से समस्या अति-निर्दिष्ट हो जाती है और मान एक-दूसरे का विरोध कर सकते हैं। ठीक दो ज्ञातों का अन्य दो के लिए ठीक एक सुसंगत उत्तर होता है — ओम के नियम पहिये का पूरा बिंदु यही है।"}},{"@type":"Question","name":"क्या ओम का नियम AC के लिए काम करता है?","acceptedAnswer":{"@type":"Answer","text":"शुद्ध प्रतिरोधी AC लोड (हीटर, तापदीप्त लैंप) के लिए हाँ, RMS वोल्टेज और करंट उपयोग करके। मोटर, ट्रांसफार्मर और अन्य प्रेरणिक या धारितीय लोड के लिए, प्रतिबाधा सरल प्रतिरोध का स्थान लेती है और वास्तविक पावर में पावर फैक्टर भी शामिल होता है, इसलिए उन लोडों के परिणामों को पहला अनुमान मानें।"}},{"@type":"Question","name":"मैं वह करंट कैसे खोजूँ जो उपकरण खींचता है?","acceptedAnswer":{"@type":"Answer","text":"इसकी रेट की गई पावर और सप्लाई वोल्टेज दर्ज करें। उदाहरण: 230 V पर 2,300 W केतली I = P ÷ V = 2,300 ÷ 230 = 10 A खींचती है — इसीलिए इसे 10 A से ऊपर रेट किए सर्किट और प्लग की ज़रूरत है।"}},{"@type":"Question","name":"यदि मेरा प्रतिरोध किलो-ओम में या मेरा करंट मिलीएम्प में है तो क्या?","acceptedAnswer":{"@type":"Answer","text":"पहले बदलें: 1 kΩ = 1,000 Ω और 1 mA = 0.001 A। 500 mA को 0.5 और 2 kΩ को 2000 दर्ज करने से गणित सही रहता है; परिणाम वोल्ट, एम्प्स, ओम और वाट में वापस आते हैं।"}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/hi/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "ओम का नियम कैलकुलेटर",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/hi/ohms-law-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation लोगो">
+<div class="brand">Loona <span>निर्माण कैलकुलेटर</span></div>
+<nav>
+<a href="../">होम</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">परिचय</a>
+<a href="../contact.html">संपर्क</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; विद्युत &rsaquo; ओम का नियम कैलकुलेटर</div>
+<h1 class="pagetitle">⚡ ओम का नियम कैलकुलेटर</h1>
+<p class="lead">कोई भी दर्ज करें <strong>दो</strong> मान — वोल्टेज, करंट, प्रतिरोध या पावर — अन्य दो खाली छोड़ें, और यह कैलकुलेटर ओम के नियम और पावर नियम का उपयोग करके बाकी निकालता है। (यहाँ कोई इकाई स्विच नहीं: वोल्ट, एम्प्स, ओम और वाट मीट्रिक और इंपीरियल देशों में वही हैं।)</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_V">वोल्टेज V (वोल्ट) — अज्ञात हो तो खाली छोड़ें</label><input type="number" id="f_V" step="any" value="12"></div><div class="fld"><label for="f_I">करंट I (एम्प्स) — अज्ञात हो तो खाली छोड़ें</label><input type="number" id="f_I" step="any" value="3"></div><div class="fld"><label for="f_R">प्रतिरोध R (ओम) — अज्ञात हो तो खाली छोड़ें</label><input type="number" id="f_R" step="any" value=""></div><div class="fld"><label for="f_P">पावर P (वाट) — अज्ञात हो तो खाली छोड़ें</label><input type="number" id="f_P" step="any" value=""></div>
+<button type="button" class="calcbtn" id="calcBtn">गणना करें</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>ओम का नियम कैलकुलेटर का उपयोग कैसे करें</h2><ol><li>तय करें कि आप कौन से दो मान जानते हैं — उदाहरण के लिए सप्लाई वोल्टेज और वह करंट जो उपकरण खींचता है।</li><li>वे दो लिखें और अन्य दो बॉक्स खाली छोड़ें।</li><li>गणना करें दबाएँ: दो अज्ञात मान निकाले जाते हैं, और सभी चार साथ दिखाए जाते हैं ताकि आप उन्हें एक-दूसरे के विरुद्ध जाँच सकें।</li></ol>
+<div class="exbox"><strong>उदाहरण:</strong> 3 A खींचने वाले सर्किट को देती 12 V सप्लाई: प्रतिरोध = 12 ÷ 3 = <strong>4 Ω</strong> और पावर = 12 × 3 = <strong>36 W</strong>.</div>
+<h2>अक्सर पूछे जाने वाले प्रश्न</h2></section><div class="faq"><h3>सरल शब्दों में ओम का नियम क्या है?</h3><p>यह कहता है कि चालक से करंट उसके आर-पार वोल्टेज के अनुपात में और उसके प्रतिरोध के व्युत्क्रम अनुपात में होता है: वोल्टेज दोगुना करें तो (उसी रेज़िस्टर के लिए) करंट दोगुना; प्रतिरोध दोगुना करें तो करंट आधा। इसे V = I × R लिखा जाता है।</p></div><div class="faq"><h3>मुझे कौन से दो मान दर्ज करने चाहिए?</h3><p>चारों में से कोई दो। सामान्य जोड़े: वोल्टेज + करंट (प्रतिरोध और पावर पाने के लिए, जैसे लोड जाँचने के लिए), वोल्टेज + पावर (वह करंट पाने के लिए जो उपकरण खींचेगा — फ्यूज़ या केबल चुनने से पहले आपको चाहिए जोड़ी), और करंट + प्रतिरोध (घटक पर गिरा वोल्टेज पाने के लिए)।</p></div><div class="faq"><h3>मुझे दो बॉक्स खाली क्यों छोड़ने चाहिए?</h3><p>तीन या चार मान दर्ज करने से समस्या अति-निर्दिष्ट हो जाती है और मान एक-दूसरे का विरोध कर सकते हैं। ठीक दो ज्ञातों का अन्य दो के लिए ठीक एक सुसंगत उत्तर होता है — ओम के नियम पहिये का पूरा बिंदु यही है।</p></div>
+<h2 class="sec">संबंधित कैलकुलेटर</h2><div class="grid"><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>वोल्टेज ड्रॉप कैलकुलेटर</h3><p>विद्युत</p></a><a class="card" href="../wire-size-calculator/"><div class="ic">🧵</div><h3>वायर साइज़ कैलकुलेटर</h3><p>विद्युत</p></a><a class="card" href="../electricity-cost-calculator/"><div class="ic">💷</div><h3>बिजली लागत कैलकुलेटर</h3><p>विद्युत</p></a><a class="card" href="../solar-panel-calculator/"><div class="ic">☀️</div><h3>सौर पैनल कैलकुलेटर</h3><p>विद्युत</p></a></div>
+</div>
+<section class="txt"><h2>यह कैसे काम करता है &mdash; सूत्र</h2>
+<p><strong>ओम का नियम:</strong> V = I × R &nbsp;·&nbsp; I = V ÷ R &nbsp;·&nbsp; R = V ÷ I<br>
+<strong>पावर नियम:</strong> P = V × I &nbsp;·&nbsp; P = I² × R &nbsp;·&nbsp; P = V² ÷ R<br>
+<strong>वर्गमूल रूप (R और P से):</strong> V = √(P × R) &nbsp;·&nbsp; I = √(P ÷ R)</p>
+<p>कल्पना करें <strong>ओम के नियम का पहिया</strong>: चार राशियाँ — शीर्ष पर V, फिर I, R और P — बारह सूत्रों के वृत्त में व्यवस्थित। जिस राशि को आप चाहते हैं उसे उंगली से ढकें और दो दिखने वाले पड़ोसी आपको सूत्र बताते हैं: V ढकें तो I × R दिखता है; I ढकें तो V ÷ R (और P ÷ V) दिखता है; R ढकें तो V ÷ I (और P ÷ I²) दिखता है; P ढकें तो V × I, I² × R या V² ÷ R दिखता है। आप जिस भी जोड़ी से शुरू करें, पहिया बंद हो जाता है: दो अज्ञात उन दो से निकल आते हैं जिन्हें आप जानते हैं, ठीक वही जो यह कैलकुलेटर चारों चतुर्थांशों के लिए करता है।</p>
+<h3>कार्यित उदाहरण</h3>
+<div class="exbox">एक सर्किट खींचता है <strong>I = 2 A</strong> के प्रतिरोध से <strong>R = 47 Ω</strong>. वोल्टेज: V = I × R = 2 × 47 = <strong>94 V</strong>. पावर: P = I² × R = 2² × 47 = 4 × 47 = <strong>188 W</strong>. दूसरे पावर सूत्र से जाँच: P = V × I = 94 × 2 = 188 W — दोनों रास्ते मेल खाते हैं, जैसा होना चाहिए।</div>
+
+<h3>अक्सर पूछे जाने वाले प्रश्न</h3></section>
+<div class="faq"><h3>क्या ओम का नियम AC के लिए काम करता है?</h3><p>शुद्ध प्रतिरोधी AC लोड (हीटर, तापदीप्त लैंप) के लिए हाँ, RMS वोल्टेज और करंट उपयोग करके। मोटर, ट्रांसफार्मर और अन्य प्रेरणिक या धारितीय लोड के लिए, प्रतिबाधा सरल प्रतिरोध का स्थान लेती है और वास्तविक पावर में पावर फैक्टर भी शामिल होता है, इसलिए उन लोडों के परिणामों को पहला अनुमान मानें।</p></div><div class="faq"><h3>मैं वह करंट कैसे खोजूँ जो उपकरण खींचता है?</h3><p>इसकी रेट की गई पावर और सप्लाई वोल्टेज दर्ज करें। उदाहरण: 230 V पर 2,300 W केतली I = P ÷ V = 2,300 ÷ 230 = 10 A खींचती है — इसीलिए इसे 10 A से ऊपर रेट किए सर्किट और प्लग की ज़रूरत है।</p></div><div class="faq"><h3>यदि मेरा प्रतिरोध किलो-ओम में या मेरा करंट मिलीएम्प में है तो क्या?</h3><p>पहले बदलें: 1 kΩ = 1,000 Ω और 1 mA = 0.001 A। 500 mA को 0.5 और 2 kΩ को 2000 दर्ज करने से गणित सही रहता है; परिणाम वोल्ट, एम्प्स, ओम और वाट में वापस आते हैं।</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">इस कैलकुलेटर को अपनी वेबसाइट पर एम्बेड करें — मुफ़्त</h2>
+<p style="margin:0 0 12px;line-height:1.6">इस कैलकुलेटर को अपनी वेबसाइट या ब्लॉग पर जोड़ें — यह पूरी तरह मुफ़्त है, साइन-अप की ज़रूरत नहीं, और हमेशा नवीनतम संस्करण दिखाता है। नीचे का कोड कॉपी करें और अपने पेज में वहाँ चिपकाएँ जहाँ आप कैलकुलेटर दिखाना चाहते हैं। एम्बेड के नीचे छोटी &ldquo;Powered by Loona Automation&rdquo; क्रेडिट लाइन रखने से यह टूल मुफ़्त रखने में मदद मिलती है &mdash; लेकिन आप इसे स्टाइल करने या हटाने के लिए स्वतंत्र हैं; टूल किसी भी तरह काम करता है।</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/hi/ohms-law-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Ohm's Law Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;द्वारा संचालित &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/hi/ohms-law-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; मुफ़्त ओम का नियम कैलकुलेटर&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">एम्बेड कोड कॉपी करें</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='कॉपी हो गया!';setTimeout(function(){b.textContent='एम्बेड कोड कॉपी करें';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>लोकप्रिय कैलकुलेटर</h4><ul><li><a href="../paint-calculator/">पेंट कैलकुलेटर</a></li>
+<li><a href="../concrete-calculator/">कंक्रीट कैलकुलेटर</a></li>
+<li><a href="../tile-calculator/">टाइल कैलकुलेटर</a></li>
+<li><a href="../brick-calculator/">ईंट कैलकुलेटर</a></li>
+<li><a href="../roof-pitch-calculator/">छत ढलान कैलकुलेटर</a></li>
+<li><a href="../stairs-calculator/">सीढ़ी कैलकुलेटर</a></li></ul></div>
+<div><h4>अधिक Loona टूल</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">सभी Loona टूल</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">परिचय</a></li>
+<li><a href="../contact.html">संपर्क</a></li>
+<li><a href="../privacy-policy.html">गोपनीयता नीति</a></li>
+<li><a href="../terms.html">उपयोग की शर्तें</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> परियोजना। मीट्रिक और इंपीरियल इकाइयों में मुफ़्त निर्माण कैलकुलेटर, कोई साइनअप नहीं।
+संपर्क: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  function known(x){ return isFinite(x) && x > 0; }
+  var n = (known(v.V)?1:0)+(known(v.I)?1:0)+(known(v.R)?1:0)+(known(v.P)?1:0);
+  if (n !== 2) return bad("ठीक दो मान दर्ज करें (उदाहरण के लिए वोल्टेज और करंट) और अन्य दो खाली छोड़ें — कैलकुलेटर बाकी निकालता है।");
+  var V=v.V, I=v.I, R=v.R, P=v.P;
+  if (known(V) && known(I)) { R = V / I; P = V * I; }
+  else if (known(V) && known(R)) { I = V / R; P = V * V / R; }
+  else if (known(V) && known(P)) { I = P / V; R = V * V / P; }
+  else if (known(I) && known(R)) { V = I * R; P = I * I * R; }
+  else if (known(I) && known(P)) { V = P / I; R = P / (I * I); }
+  else if (known(R) && known(P)) { V = Math.sqrt(P * R); I = Math.sqrt(P / R); }
+  var html = resTable("पावर (P)", fmt(P, 2) + " W",
+    [["वोल्टेज (V)", fmt(V, 3) + " V"],["करंट (I)", fmt(I, 3) + " A"],["प्रतिरोध (R)", fmt(R, 3) + " \u03A9"],["पावर (P)", fmt(P, 2) + " W"]],
+    "जाँचें: V = I × R और P = V × I दोनों इन चार मानों के लिए सही हैं। मोटर या अन्य प्रेरणिक लोड वाले AC सर्किट के लिए, वास्तविक पावर पावर फैक्टर पर भी निर्भर करती है — यह कैलकुलेटर DC और शुद्ध प्रतिरोधी AC लोड कवर करता है।");
+  return { ok: true, V: V, I: I, R: R, P: P, html: html };
+} };
+
+function collect(){ return { V: gv("f_V"), I: gv("f_I"), R: gv("f_R"), P: gv("f_P") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' ऐप इंस्टॉल करें';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('इस ऐप को इंस्टॉल करें: शेयर बटन दबाएँ, फिर "Add to Home Screen" चुनें।');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

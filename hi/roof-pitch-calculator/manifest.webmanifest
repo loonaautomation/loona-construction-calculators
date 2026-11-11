@@ -1,0 +1,29 @@
+{
+  "name": "Loona Roof Pitch Calculator",
+  "short_name": "Roof Pitch Calculator",
+  "description": "मुफ़्त छत ढलान कैलकुलेटर: किसी भी इकाई में उठान और रन दर्ज करें — अनुपात (x-in-12), डिग्री में कोण, प्रतिशत ग्रेड और राफ्टर लंबाई के रूप में ढलान पाएँ। मीट्रिक और इंपीरियल मापों के लिए काम करता है।",
+  "id": "/loona-construction-calculators/hi/roof-pitch-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

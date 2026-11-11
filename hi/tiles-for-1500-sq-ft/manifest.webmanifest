@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 1500 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 1500 Sq",
+  "description": "1500 sq ft के लिए 60×60 cm टाइलों और 3 mm ग्राउट अंतर के साथ टाइलें: 422 टाइलें (4 के 106 बॉक्स), कटाई और टूट-फूट के लिए 10% अतिरिक्त सहित।",
+  "id": "/loona-construction-calculators/hi/tiles-for-1500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

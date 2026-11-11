@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Calculator",
+  "short_name": "Brick Calculator",
+  "description": "मुफ़्त ईंट कैलकुलेटर: मीट्रिक या इंपीरियल में दीवार लंबाई और ऊँचाई — एकल-परत दीवार के लिए मानक ईंटों (215 mm या US मॉड्यूलर) की संख्या पाएँ, मसाला-जोड़ और बर्बादी भत्तों सहित।",
+  "id": "/loona-construction-calculators/hi/brick-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

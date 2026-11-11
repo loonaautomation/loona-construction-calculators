@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for a 12 × 16 ft Deck",
+  "short_name": "Materials for a 12 × 16 ft",
+  "description": "12×16 ft डेक के लिए खरीद सूची: डेकिंग बोर्ड, बोर्ड फीट, जॉइस्ट, खंभे और स्क्रू गिनती — लेआउट से गणना की गई, कोड चेतावनियाँ बताई गईं।",
+  "id": "/loona-construction-calculators/hi/materials-for-12x16-deck/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
