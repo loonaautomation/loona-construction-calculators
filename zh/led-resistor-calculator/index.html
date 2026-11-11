@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LED 电阻计算器 — 串联电阻值、标准 E12 规格与功率 | Loona 建筑计算器</title>
+<meta name="description" content="免费 LED 电阻计算器：供电电压、LED 正向电压、正向电流和串联 LED 数量给出以欧姆计的电阻、最接近的标准 E12 值、实际电流和电阻功率。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/zh/led-resistor-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/led-resistor-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/led-resistor-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/led-resistor-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/led-resistor-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/led-resistor-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/led-resistor-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/led-resistor-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/led-resistor-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/led-resistor-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/led-resistor-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/led-resistor-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/led-resistor-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-construction-calculators/pl/led-resistor-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-construction-calculators/zh/led-resistor-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/led-resistor-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="LED 电阻计算器 — 串联电阻值、标准 E12 规格与功率 | Loona 建筑计算器">
+<meta property="og:description" content="免费 LED 电阻计算器：供电电压、LED 正向电压、正向电流和串联 LED 数量给出以欧姆计的电阻、最接近的标准 E12 值、实际电流和电阻功率。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/zh/led-resistor-calculator/"><meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="LED 电阻计算器 — 串联电阻值、标准 E12 规格与功率 | Loona 建筑计算器">
+<meta name="twitter:description" content="免费 LED 电阻计算器：供电电压、LED 正向电压、正向电流和串联 LED 数量给出以欧姆计的电阻、最接近的标准 E12 值、实际电流和电阻功率。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona LED 电阻计算器","url":"https://loonaautomation.github.io/loona-construction-calculators/zh/led-resistor-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"我的 LED 正向电压是多少？","acceptedAnswer":{"@type":"Answer","text":"最好查数据表。典型范围：红 1.8–2.2 V，橙/黄 2.0–2.2 V，绿 2.2–3.2 V（旧绿约 2.2，现代高亮约 3），蓝和白 3.0–3.4 V，红外约 1.2–1.5 V。对小型指示 LED 拿不准时，2.0 V（红）或 3.2 V（白/蓝）是安全的规划数值。"}},{"@type":"Question","name":"为什么不能把 LED 直接接到电池上？","acceptedAnswer":{"@type":"Answer","text":"LED 的电流在超过其正向电压后随电压爆炸性上升 — 多零点几伏就可能意味着十倍电流、过热和损坏。串联电阻把这道悬崖变成可控的斜坡。"}},{"@type":"Question","name":"可以把多个 LED 并联在一个电阻上吗？","acceptedAnswer":{"@type":"Answer","text":"这是不好的做法：没有两个 LED 的正向电压完全相同，因此一个会抢占电流、运行更热、其 Vf 进一步下降、抢占更多 — 热失控直到损坏。给每个并联 LED（或串联串）配自己的电阻。"}},{"@type":"Question","name":"如果计算值介于两个标准规格之间怎么办？","acceptedAnswer":{"@type":"Answer","text":"始终向上取整到下一个 E12 值。LED 在略低于其额定电流下运行 — 亮度只略有下降（人眼是对数感知的），而寿命和可靠性提高。"}},{"@type":"Question","name":"我需要多大功率的电阻？","acceptedAnswer":{"@type":"Answer","text":"经验法则：至少为计算功耗的两倍，使电阻运行凉爽、数值保持稳定。对常见的 5 V / 20 mA 情况，几乎任何 0.25 W 电阻都足够；对 12 V 电源或功率 LED，查看计算器显示的数字。"}},{"@type":"Question","name":"这适用于 LED 灯带和大功率 LED 吗？","acceptedAnswer":{"@type":"Answer","text":"LED 灯带内置电阻 — 只需提供额定电压。大功率 LED（1 W 及以上）通常由恒流驱动器驱动而不是电阻，因为电阻浪费大量功率，且电流会随 LED 升温漂移。"}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 建筑计算器",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "LED 电阻计算器",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/zh/led-resistor-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 标志">
+<div class="brand">Loona <span>建筑计算器</span></div>
+<nav>
+<a href="../">首页</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">关于</a>
+<a href="../contact.html">联系我们</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 建筑计算器</a> &rsaquo; 电气 &rsaquo; LED 电阻计算器</div>
+<h1 class="pagetitle">💡 LED 电阻计算器</h1>
+<p class="lead">直接接到电源的 LED 会烧坏 — 它需要串联电阻来设定电流。输入供电电压、LED 的正向电压和电流，以及串联 LED 的数量，即可得到电阻值、最接近的标准规格及其必须承受的功率。</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_vs">供电电压（V）</label><input type="number" id="f_vs" step="any" value="5"></div><div class="fld"><label for="f_vf">LED 正向电压 Vf（V）— 红色约 1.8–2.2，白色/蓝色约 3.0–3.4</label><input type="number" id="f_vf" step="any" value="2"></div><div class="fld"><label for="f_ma">LED 正向电流（mA）— 指示 LED 的标准值是 20</label><input type="number" id="f_ma" step="any" value="20"></div><div class="fld"><label for="f_count">此电阻上的串联 LED</label><input type="number" id="f_count" step="any" value="1"></div>
+<button type="button" class="calcbtn" id="calcBtn">计算</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>如何使用 LED 电阻计算器</h2><ol><li>输入供电电压（5 V USB、9 V 电池、12 V 车载电源…）。</li><li>输入 LED 数据表中的正向电压 — 或使用标签中的典型值 — 及其额定正向电流，通常为 20 mA。</li><li>如果多个 LED 串联在一个电阻后，输入数量，然后点击计算。</li></ol>
+<div class="exbox"><strong>示例：</strong> 一个红色 LED（Vf 2.0 V，20 mA）接 5 V 电源：电阻必须降压 3.0 V，因此 R = 3.0 ÷ 0.020 = <strong>150 Ω</strong> — 本身就是一个标准值。</div>
+<h2>常见问题</h2></section><div class="faq"><h3>我的 LED 正向电压是多少？</h3><p>最好查数据表。典型范围：红 1.8–2.2 V，橙/黄 2.0–2.2 V，绿 2.2–3.2 V（旧绿约 2.2，现代高亮约 3），蓝和白 3.0–3.4 V，红外约 1.2–1.5 V。对小型指示 LED 拿不准时，2.0 V（红）或 3.2 V（白/蓝）是安全的规划数值。</p></div><div class="faq"><h3>为什么不能把 LED 直接接到电池上？</h3><p>LED 的电流在超过其正向电压后随电压爆炸性上升 — 多零点几伏就可能意味着十倍电流、过热和损坏。串联电阻把这道悬崖变成可控的斜坡。</p></div><div class="faq"><h3>可以把多个 LED 并联在一个电阻上吗？</h3><p>这是不好的做法：没有两个 LED 的正向电压完全相同，因此一个会抢占电流、运行更热、其 Vf 进一步下降、抢占更多 — 热失控直到损坏。给每个并联 LED（或串联串）配自己的电阻。</p></div>
+<h2 class="sec">相关计算器</h2><div class="grid"><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>欧姆定律计算器</h3><p>电气</p></a><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>电压降计算器</h3><p>电气</p></a><a class="card" href="../battery-runtime-calculator/"><div class="ic">🔋</div><h3>电池续航计算器</h3><p>电气</p></a><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>安培换算瓦特计算器</h3><p>电气</p></a></div>
+</div>
+<section class="txt"><h2>工作原理 &mdash; 公式</h2>
+<p><strong>电阻两端的电压</strong> = 电源 V −（串联 LED 数 × 正向 V）<br>
+<strong>电阻（Ω）</strong> = 电阻两端电压 ÷ 电流（A）<br>
+<strong>电阻功率（W）</strong> = 实际电流² × 标准电阻值</p>
+<p>LED 的亮度由其电流决定，其正向电压由化学性质大致固定 — 因此电阻的作用是在正好所需的电流下吸收剩余电压。结果取整为 <em>上升</em> 取到下一个标准 E12 值（…100、120、150、180、220、270、330、390、470…），这只会使电流略低、更安全，并且电阻的功率额定值应至少是它实际耗散功率的两倍。</p>
+<h3>计算示例</h3>
+<div class="exbox">电源 5 V，一个红色 LED，在 2.0 mA 时 Vf = 20 V。电阻两端电压 = 5 − 2.0 = <strong>3.0 V</strong>. R = 3.0 ÷ 0.020 = <strong>150 Ω</strong>，它本身就是一个 E12 标准值，因此实际电流保持 20.0 mA。电阻功耗 = 0.020² × 150 = <strong>0.06 W</strong> — 常见的 0.25 W 电阻有充足的余量。</div>
+
+<h3>常见问题</h3></section>
+<div class="faq"><h3>如果计算值介于两个标准规格之间怎么办？</h3><p>始终向上取整到下一个 E12 值。LED 在略低于其额定电流下运行 — 亮度只略有下降（人眼是对数感知的），而寿命和可靠性提高。</p></div><div class="faq"><h3>我需要多大功率的电阻？</h3><p>经验法则：至少为计算功耗的两倍，使电阻运行凉爽、数值保持稳定。对常见的 5 V / 20 mA 情况，几乎任何 0.25 W 电阻都足够；对 12 V 电源或功率 LED，查看计算器显示的数字。</p></div><div class="faq"><h3>这适用于 LED 灯带和大功率 LED 吗？</h3><p>LED 灯带内置电阻 — 只需提供额定电压。大功率 LED（1 W 及以上）通常由恒流驱动器驱动而不是电阻，因为电阻浪费大量功率，且电流会随 LED 升温漂移。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">把这个计算器免费嵌入您的网站</h2>
+<p style="margin:0 0 12px;line-height:1.6">把这个计算器添加到您自己的网站或博客 — 完全免费、无需注册，并始终显示最新版本。复制下方代码，粘贴到页面中您希望计算器出现的位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助于保持本工具免费 &mdash; 但您可以自由设置样式或移除它；两种情况下工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/zh/led-resistor-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="LED Resistor Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技术支持 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/zh/led-resistor-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免费 LED 电阻计算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">复制嵌入代码</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='已复制！';setTimeout(function(){b.textContent='复制嵌入代码';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>热门计算器</h4><ul><li><a href="../paint-calculator/">油漆计算器</a></li>
+<li><a href="../concrete-calculator/">混凝土计算器</a></li>
+<li><a href="../tile-calculator/">瓷砖计算器</a></li>
+<li><a href="../brick-calculator/">砖块计算器</a></li>
+<li><a href="../roof-pitch-calculator/">屋顶坡度计算器</a></li>
+<li><a href="../stairs-calculator/">楼梯计算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona 计算器</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona 二维码</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 图片压缩</a></li>
+<li><a href="https://loonaautomation.github.io/">全部 Loona 工具</a></li></ul></div>
+<div><h4>Loona 建筑计算器</h4><ul>
+<li><a href="../about.html">关于</a></li>
+<li><a href="../contact.html">联系我们</a></li>
+<li><a href="../privacy-policy.html">隐私政策</a></li>
+<li><a href="../terms.html">使用条款</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona 建筑计算器 &mdash; 一个 <a href="https://loonaautomation.github.io/">Loona Automation</a> 项目。免费建筑计算器，公制和英制单位，无需注册。
+联系方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var E12 = [10, 12, 15, 18, 22, 27, 33, 39, 47, 56, 68, 82];
+function e12AtLeast(x) {
+  if (!(x > 0)) return NaN;
+  var exp = Math.floor(Math.log10(x));
+  for (var e = exp - 1; e < exp + 3; e++) {
+    for (var i = 0; i < E12.length; i++) {
+      var val = E12[i] * Math.pow(10, e - 1);
+      if (val >= x - 1e-12) return Math.round(val * 1000) / 1000;
+    }
+  }
+  return NaN;
+}
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.vs, v.vf, v.ma)) return bad("请输入供电电压、LED 正向电压和以 mA 计的 LED 正向电流。");
+  var n = (v.count >= 1) ? Math.floor(v.count) : 1;
+  var drop = v.vs - n * v.vf;
+  if (!(drop > 0)) return bad("串联的 LED 需要 " + fmt(n * v.vf, 2) + " V，但电源只有 " + fmt(v.vs, 2) + " V — use fewer LEDs in series or a higher supply voltage.");
+  var I = v.ma / 1000;
+  var R = drop / I;
+  var std = e12AtLeast(R);
+  var actualMa = drop / std * 1000;
+  var pRes = Math.pow(drop / std, 2) * std;
+  var html = resTable("电阻值", fmt(R, 1) + " \u03A9 \u2192 use " + fmt(std, 0) + " \u03A9（最接近的 E12，达到或以上）",
+    [["电阻两端电压", fmt(drop, 2) + " V"],["计算的电阻", fmt(R, 1) + " \u03A9"],["使用标准值时的实际 LED 电流", fmt(actualMa, 1) + " mA"],["电阻中的功率", fmt(pRes, 3) + " W"],["推荐电阻额定值", "至少 " + fmt(pRes * 2, 2) + " W（2\u00D7 实际耗散）"]],
+    "把电阻向上取整会让 LED 电流略微降低 — 这是安全的方向。让 LED 以额定电流或略低于额定电流运行，亮度几乎不变，寿命却大大延长。");
+  return { ok: true, drop: drop, R: R, std: std, actualMa: actualMa, pRes: pRes, html: html };
+} };
+
+function collect(){ return { vs: gv("f_vs"), vf: gv("f_vf"), ma: gv("f_ma"), count: gv("f_count") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安装应用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安装此应用：点击分享按钮，然后选择“添加到主屏幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

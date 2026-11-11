@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for Painting a 12 × 14 ft Room",
+  "short_name": "Materials for Painting a 12 ×",
+  "description": "粉刷 12×14 ft 房间的完整购买清单：2 层油漆的升/加仑、底漆、胶带、滚筒和准备材料 — 全部计算得出，不是猜测。",
+  "id": "/loona-construction-calculators/zh/materials-for-painting-a-room/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

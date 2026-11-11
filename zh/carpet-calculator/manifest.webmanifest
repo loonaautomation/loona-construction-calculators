@@ -1,0 +1,29 @@
+{
+  "name": "Loona Carpet Calculator",
+  "short_name": "Carpet Calculator",
+  "description": "免费地毯计算器：房间尺寸和地毯卷宽（公制或英制）给您实际要买的地毯线性长度和面积（含卷材边角料），外加可选成本 — 含损耗余量。",
+  "id": "/loona-construction-calculators/zh/carpet-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

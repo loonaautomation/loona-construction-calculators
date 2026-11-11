@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>功率因数计算器 — PF、kvar、相位角与校正电容器规格 | Loona 建筑计算器</title>
+<meta name="description" content="免费功率因数计算器：有功功率（kW）和视在功率（kVA）给出功率因数、以 kvar 计的无功功率、相位角 — 以及校正到目标 PF 所需的电容器 kvar。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/zh/power-factor-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/power-factor-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/power-factor-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/power-factor-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/power-factor-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/power-factor-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/power-factor-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/power-factor-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/power-factor-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/power-factor-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/power-factor-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/power-factor-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/power-factor-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-construction-calculators/pl/power-factor-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-construction-calculators/zh/power-factor-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/power-factor-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="功率因数计算器 — PF、kvar、相位角与校正电容器规格 | Loona 建筑计算器">
+<meta property="og:description" content="免费功率因数计算器：有功功率（kW）和视在功率（kVA）给出功率因数、以 kvar 计的无功功率、相位角 — 以及校正到目标 PF 所需的电容器 kvar。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/zh/power-factor-calculator/"><meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="功率因数计算器 — PF、kvar、相位角与校正电容器规格 | Loona 建筑计算器">
+<meta name="twitter:description" content="免费功率因数计算器：有功功率（kW）和视在功率（kVA）给出功率因数、以 kvar 计的无功功率、相位角 — 以及校正到目标 PF 所需的电容器 kvar。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 功率因数计算器","url":"https://loonaautomation.github.io/loona-construction-calculators/zh/power-factor-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"什么是好的功率因数？","acceptedAnswer":{"@type":"Answer","text":"1.0 是完美值，也是阻性负载的典型值。0.95 或更高是工业装置的通常目标；许多电力公司对商业电价在低于 0.9 或 0.95 时开始罚款。轻载运行的小电机可降到 0.6–0.7。"}},{"@type":"Question","name":"为什么低功率因数会多花钱？","acceptedAnswer":{"@type":"Answer","text":"电源、电缆和变压器承载的电流与 kVA 成正比，而不是 kW。在 PF 0.8 时，100 kW 负载需要 125 kVA 负载的基础设施 — 更多损耗、更大的设备，而且商业账单上常常有明确的低 PF 收费。"}},{"@type":"Question","name":"如果只知道伏特和安培，如何求 kVA？","acceptedAnswer":{"@type":"Answer","text":"单相：kVA = V × A ÷ 1,000。三相：kVA = √3 × V（线电压）× A ÷ 1,000。kVA 换算安培计算器可反向做同样的计算。"}},{"@type":"Question","name":"电容器真的能解决吗？","acceptedAnswer":{"@type":"Answer","text":"是的 — 感性负载（电机、变压器、荧光镇流器）消耗滞后无功功率，电容器提供超前无功功率。尺寸正确、自动投切的电容器组是标准工业设备。它们必须正确选型：过度校正会引起自身的问题，谐波可能需要失谐电抗器。"}},{"@type":"Question","name":"功率因数对家庭用电重要吗？","acceptedAnswer":{"@type":"Answer","text":"家庭账单几乎处处按 kWh（实际电能）收费，因此 PF 低直接让您多花的钱不多 — 尽管额外电流仍会加热您的线路。它对使用 kVA 或需量电价的企业影响最大。"}},{"@type":"Question","name":"功率因数和效率是一回事吗？","acceptedAnswer":{"@type":"Answer","text":"不对。效率是有用输出 ÷ 电输入（电机的轴 kW ÷ 电 kW）。功率因数是输入端的有功 ÷ 视在功率。电机可以有 90% 的效率，同时仍有 0.8 的功率因数。"}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 建筑计算器",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "功率因数计算器",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/zh/power-factor-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 标志">
+<div class="brand">Loona <span>建筑计算器</span></div>
+<nav>
+<a href="../">首页</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">关于</a>
+<a href="../contact.html">联系我们</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 建筑计算器</a> &rsaquo; 电气 &rsaquo; 功率因数计算器</div>
+<h1 class="pagetitle">🎚️ 功率因数计算器</h1>
+<p class="lead">输入负载以 kW 计的有功功率和以 kVA 计的视在功率，得到功率因数、以 kvar 计的无功功率和相位角 — 如果设置目标，还可得到达到该目标所需的校正电容器规格（以 kvar 计）。</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_kw">有功功率（kW）— 有用的、计费的功率</label><input type="number" id="f_kw" step="any" value="100"></div><div class="fld"><label for="f_kva">视在功率（kVA）— 由伏特 × 安培，或电表读数</label><input type="number" id="f_kva" step="any" value="125"></div><div class="fld"><label for="f_target">校正目标功率因数（可选，例如 0.95）</label><input type="number" id="f_target" step="any" value="0.95"></div>
+<button type="button" class="calcbtn" id="calcBtn">计算</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>如何使用功率因数计算器</h2><ol><li>输入以 kW 计的有功功率 — 来自功率计或电器铭牌。</li><li>输入以 kVA 计的视在功率：伏特 × 安培 ÷ 1,000（单相），√3 × 线电压 × 安培 ÷ 1,000（三相），或从显示 kVA 的电表读取。</li><li>可选设置目标功率因数（0.95 是常见目标），得到以 kvar 计的校正电容器规格，然后点击计算。</li></ol>
+<div class="exbox"><strong>示例：</strong> 一个在 100 kVA 下取用 125 kW 的负载，其 PF = 100 ÷ 125 = <strong>0.80</strong>，配 <strong>75 kvar</strong> 的无功功率来回流动而不做功。</div>
+<h2>常见问题</h2></section><div class="faq"><h3>什么是好的功率因数？</h3><p>1.0 是完美值，也是阻性负载的典型值。0.95 或更高是工业装置的通常目标；许多电力公司对商业电价在低于 0.9 或 0.95 时开始罚款。轻载运行的小电机可降到 0.6–0.7。</p></div><div class="faq"><h3>为什么低功率因数会多花钱？</h3><p>电源、电缆和变压器承载的电流与 kVA 成正比，而不是 kW。在 PF 0.8 时，100 kW 负载需要 125 kVA 负载的基础设施 — 更多损耗、更大的设备，而且商业账单上常常有明确的低 PF 收费。</p></div><div class="faq"><h3>如果只知道伏特和安培，如何求 kVA？</h3><p>单相：kVA = V × A ÷ 1,000。三相：kVA = √3 × V（线电压）× A ÷ 1,000。kVA 换算安培计算器可反向做同样的计算。</p></div>
+<h2 class="sec">相关计算器</h2><div class="grid"><a class="card" href="../kva-to-amps-calculator/"><div class="ic">🔷</div><h3>kVA 换算安培计算器</h3><p>电气</p></a><a class="card" href="../motor-current-calculator/"><div class="ic">🌀</div><h3>电机电流计算器</h3><p>电气</p></a><a class="card" href="../three-phase-power-calculator/"><div class="ic">🔺</div><h3>三相功率计算器</h3><p>电气</p></a><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>安培换算瓦特计算器</h3><p>电气</p></a></div>
+</div>
+<section class="txt"><h2>工作原理 &mdash; 公式</h2>
+<p><strong>功率因数：</strong> PF = kW ÷ kVA = cos φ<br>
+<strong>无功功率：</strong> Q = √(kVA² − kW²)<br>
+<strong>校正电容器：</strong> Q<sub>c</sub> = kW ×（tan φ<sub>1</sub> − tan φ<sub>2</sub>), where φ<sub>1</sub> 是当前角度和 φ<sub>2</sub> 目标角度。</p>
+<p>三种功率构成一个直角三角形：kW 沿底边（有用功），kvar 垂直（电机和变压器循环回电源的励磁能量），kVA 作为斜边（电源实际承载的）。功率因数是 kW 和 kVA 之间夹角的余弦 — 1.0 是一个没有浪费的扁平三角形，低于 1 的每一步都意味着同样的工作需要更多电流。</p>
+<h3>计算示例</h3>
+<div class="exbox">kW = 100, kVA = 125. PF = 100 ÷ 125 = <strong>0.80</strong>. 无功功率：Q = √(125² − 100²) = √(15,625 − 10,000) = √5,625 = <strong>75 kvar</strong>. 相位角 = cos⁻¹(0.80) = <strong>36.87°</strong>. 校正到 0.95：Q<sub>c</sub> = 100 × (tan 36.87° − tan 18.19°) = 100 × (0.750 − 0.329) = <strong>42.13 kvar</strong> 电容器的。</div>
+
+<h3>常见问题</h3></section>
+<div class="faq"><h3>电容器真的能解决吗？</h3><p>是的 — 感性负载（电机、变压器、荧光镇流器）消耗滞后无功功率，电容器提供超前无功功率。尺寸正确、自动投切的电容器组是标准工业设备。它们必须正确选型：过度校正会引起自身的问题，谐波可能需要失谐电抗器。</p></div><div class="faq"><h3>功率因数对家庭用电重要吗？</h3><p>家庭账单几乎处处按 kWh（实际电能）收费，因此 PF 低直接让您多花的钱不多 — 尽管额外电流仍会加热您的线路。它对使用 kVA 或需量电价的企业影响最大。</p></div><div class="faq"><h3>功率因数和效率是一回事吗？</h3><p>不对。效率是有用输出 ÷ 电输入（电机的轴 kW ÷ 电 kW）。功率因数是输入端的有功 ÷ 视在功率。电机可以有 90% 的效率，同时仍有 0.8 的功率因数。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">把这个计算器免费嵌入您的网站</h2>
+<p style="margin:0 0 12px;line-height:1.6">把这个计算器添加到您自己的网站或博客 — 完全免费、无需注册，并始终显示最新版本。复制下方代码，粘贴到页面中您希望计算器出现的位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助于保持本工具免费 &mdash; 但您可以自由设置样式或移除它；两种情况下工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/zh/power-factor-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Power Factor Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技术支持 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/zh/power-factor-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免费 功率因数计算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">复制嵌入代码</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='已复制！';setTimeout(function(){b.textContent='复制嵌入代码';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>热门计算器</h4><ul><li><a href="../paint-calculator/">油漆计算器</a></li>
+<li><a href="../concrete-calculator/">混凝土计算器</a></li>
+<li><a href="../tile-calculator/">瓷砖计算器</a></li>
+<li><a href="../brick-calculator/">砖块计算器</a></li>
+<li><a href="../roof-pitch-calculator/">屋顶坡度计算器</a></li>
+<li><a href="../stairs-calculator/">楼梯计算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona 计算器</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona 二维码</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 图片压缩</a></li>
+<li><a href="https://loonaautomation.github.io/">全部 Loona 工具</a></li></ul></div>
+<div><h4>Loona 建筑计算器</h4><ul>
+<li><a href="../about.html">关于</a></li>
+<li><a href="../contact.html">联系我们</a></li>
+<li><a href="../privacy-policy.html">隐私政策</a></li>
+<li><a href="../terms.html">使用条款</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona 建筑计算器 &mdash; 一个 <a href="https://loonaautomation.github.io/">Loona Automation</a> 项目。免费建筑计算器，公制和英制单位，无需注册。
+联系方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.kw, v.kva)) return bad("请输入有功功率（kW）和视在功率（kVA）。");
+  if (v.kw > v.kva) return bad("有功功率（kW）不能大于视在功率（kVA）— 请核查这两个值。");
+  var pf = v.kw / v.kva;
+  var kvar = Math.sqrt(v.kva * v.kva - v.kw * v.kw);
+  var angle = Math.acos(pf) * 180 / Math.PI;
+  var rows = [["功率因数", fmt(pf, 3)],["相位角 \u03C6", fmt(angle, 2) + "\u00B0"],["无功功率", fmt(kvar, 2) + " kvar"],["有功功率", fmt(v.kw, 2) + " kW"],["视在功率", fmt(v.kva, 2) + " kVA"]];
+  var corr = NaN;
+  if (v.target > pf && v.target <= 1) {
+    corr = v.kw * (Math.tan(Math.acos(pf)) - Math.tan(Math.acos(v.target)));
+    rows.push(["达到 PF 所需的电容器 " + fmt(v.target, 2), fmt(corr, 2) + " kvar"]);
+  }
+  var html = resTable("功率因数", fmt(pf, 3), rows,
+    "功率因数低于约 0.9 通常意味着浪费钱：电源承载的电流超过有用功所需，许多商业电价对此罚款。校正电容器通常由专业人员安装 — 它们按 kvar 选型、分步投切，并且必须适合该装置。");
+  return { ok: true, pf: pf, kvar: kvar, angle: angle, correctionKvar: corr, html: html };
+} };
+
+function collect(){ return { kw: gv("f_kw"), kva: gv("f_kva"), target: gv("f_target") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安装应用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安装此应用：点击分享按钮，然后选择“添加到主屏幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

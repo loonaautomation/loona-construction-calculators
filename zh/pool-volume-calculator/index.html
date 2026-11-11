@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>泳池体积计算器 — 任意泳池形状的升与加仑 | Loona 建筑计算器</title>
+<meta name="description" content="免费泳池体积计算器，适用于矩形、圆形和椭圆形泳池：输入尺寸和浅/深端深度（公制或英制），得到以升和美制加仑计的水量，用于化学投药和注水。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/zh/pool-volume-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/pool-volume-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/pool-volume-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/pool-volume-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/pool-volume-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/pool-volume-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/pool-volume-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/pool-volume-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/pool-volume-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/pool-volume-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/pool-volume-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/pool-volume-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/pool-volume-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-construction-calculators/pl/pool-volume-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-construction-calculators/zh/pool-volume-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/pool-volume-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="泳池体积计算器 — 任意泳池形状的升与加仑 | Loona 建筑计算器">
+<meta property="og:description" content="免费泳池体积计算器，适用于矩形、圆形和椭圆形泳池：输入尺寸和浅/深端深度（公制或英制），得到以升和美制加仑计的水量，用于化学投药和注水。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/zh/pool-volume-calculator/"><meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="泳池体积计算器 — 任意泳池形状的升与加仑 | Loona 建筑计算器">
+<meta name="twitter:description" content="免费泳池体积计算器，适用于矩形、圆形和椭圆形泳池：输入尺寸和浅/深端深度（公制或英制），得到以升和美制加仑计的水量，用于化学投药和注水。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 泳池体积计算器","url":"https://loonaautomation.github.io/loona-construction-calculators/zh/pool-volume-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"泳池池底倾斜时如何测量？","acceptedAnswer":{"@type":"Answer","text":"测量浅端和深端的水深（到水位线，不是池壁顶部），并输入两者 — 计算器取平均值。对底部陡峭的漏斗形泳池，真实体积略小于平均值所示；化学药品保守投放，并通过检测调整。"}},{"@type":"Question","name":"为什么需要以升或加仑计的体积？","acceptedAnswer":{"@type":"Answer","text":"几乎每种泳池化学品 — 氯、pH 调节剂、除藻剂、絮凝剂 — 都按水量投加。猜体积是泳池投药过量或不足的主要原因；测得的体积能让检测结果和投药量对得上。"}},{"@type":"Question","name":"泳池注满水需要多长时间？","acceptedAnswer":{"@type":"Answer","text":"用体积除以水管或水龙头的流量。典型花园水管每分钟提供 15–20 升：48,000 升 ÷ 18 L/min ≈ 2,670 分钟 — 约 44 小时。大多数人分两天分阶段注水。"}},{"@type":"Question","name":"肾形或自由形泳池适合这些形状吗？","acceptedAnswer":{"@type":"Answer","text":"大致可以。用椭圆公式取最长长度和最宽宽度，然后把结果减少约 10–15% 以计入切掉拐角的曲线。对投药来说足够接近，尤其是在第一次化学检测确认后。"}},{"@type":"Question","name":"圆形地上泳池能装多少水？","acceptedAnswer":{"@type":"Answer","text":"把直径作为宽度，把墙高减去约 15 cm（水面低于边缘）作为两个深度。4.6 m（15 ft）的泳池注水到 1.1 m 时容积约 18,300 升（4,830 美制加仑）。"}},{"@type":"Question","name":"应该用美制加仑还是英制加仑？","acceptedAnswer":{"@type":"Answer","text":"美制加仑（3.785 L）— 几乎所有泳池产品标签都使用它。英制加仑是 4.546 L；如果某款老英国产品按英制加仑投药，先换算您的升数（升 ÷ 4.546）。"}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 建筑计算器",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "泳池体积计算器",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/zh/pool-volume-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 标志">
+<div class="brand">Loona <span>建筑计算器</span></div>
+<nav>
+<a href="../">首页</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">关于</a>
+<a href="../contact.html">联系我们</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 建筑计算器</a> &rsaquo; 建筑 &rsaquo; 泳池体积计算器</div>
+<h1 class="pagetitle">🏊 泳池体积计算器</h1>
+<p class="lead">您的泳池有多少水？选择形状 — 矩形、圆形或椭圆形 — 输入尺寸和浅端、深端深度，得到以升和美制加仑计的体积：这是您化学投药、加热和注水时间所需的数字。</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system">单位制</label><select id="f_system"><option value="m">公制（米、升、kg）</option><option value="i">英制（英尺、加仑、lb）</option></select></div><div class="fld"><label for="f_shape">泳池形状</label><select id="f_shape"><option value="rect">矩形</option><option value="round">圆形（圆）</option><option value="oval">椭圆形</option></select></div><div class="fld"><label for="f_length">长度（圆形泳池无需填写） <span class="u" data-u="length"></span></label><input type="number" id="f_length" step="any" data-m="8" data-i="26" value="8" ></div><div class="fld"><label for="f_width">宽度 — 对圆形泳池是直径 <span class="u" data-u="width"></span></label><input type="number" id="f_width" step="any" data-m="4" data-i="13" value="4" ></div><div class="fld"><label for="f_shallow">浅水端深度 <span class="u" data-u="depth"></span></label><input type="number" id="f_shallow" step="any" data-m="1.1" data-i="3.6" value="1.1" ></div><div class="fld"><label for="f_deep">深水端深度 <span class="u" data-u="depth"></span></label><input type="number" id="f_deep" step="any" data-m="1.8" data-i="5.9" value="1.8" ></div><div class="fld"><label for="f_waste">损耗 / 余量（%）</label><input type="number" id="f_waste" step="any" min="0" value="0"></div>
+<button type="button" class="calcbtn" id="calcBtn">计算</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>如何使用泳池体积计算器</h2><ol><li>选择公制或英制单位。</li><li>选择泳池形状：矩形、圆形或椭圆形。</li><li>输入长度和宽度（圆形泳池的宽度即直径）。</li><li>输入浅水端和深水端的水深 — 计算器取平均值，适合直线倾斜的池底。</li><li>点击计算，得到升和美制加仑。</li></ol>
+<div class="exbox"><strong>示例：</strong> 8 m × 4 m、水深平坦 1.5 m 的泳池容积为 48 m³ — 48,000 升，约 12,680 美制加仑。</div>
+<h2>常见问题</h2></section><div class="faq"><h3>泳池池底倾斜时如何测量？</h3><p>测量浅端和深端的水深（到水位线，不是池壁顶部），并输入两者 — 计算器取平均值。对底部陡峭的漏斗形泳池，真实体积略小于平均值所示；化学药品保守投放，并通过检测调整。</p></div><div class="faq"><h3>为什么需要以升或加仑计的体积？</h3><p>几乎每种泳池化学品 — 氯、pH 调节剂、除藻剂、絮凝剂 — 都按水量投加。猜体积是泳池投药过量或不足的主要原因；测得的体积能让检测结果和投药量对得上。</p></div><div class="faq"><h3>泳池注满水需要多长时间？</h3><p>用体积除以水管或水龙头的流量。典型花园水管每分钟提供 15–20 升：48,000 升 ÷ 18 L/min ≈ 2,670 分钟 — 约 44 小时。大多数人分两天分阶段注水。</p></div>
+<h2 class="sec">相关计算器</h2><div class="grid"><a class="card" href="../tile-calculator/"><div class="ic">🔲</div><h3>瓷砖计算器</h3><p>建筑施工</p></a><a class="card" href="../concrete-calculator/"><div class="ic">🧱</div><h3>混凝土计算器</h3><p>建筑施工</p></a><a class="card" href="../deck-calculator/"><div class="ic">🌞</div><h3>露台计算器</h3><p>建筑施工</p></a><a class="card" href="../sand-calculator/"><div class="ic">🏖️</div><h3>沙子计算器</h3><p>建筑施工</p></a><a class="card" href="../paint-calculator/"><div class="ic">🎨</div><h3>油漆计算器</h3><p>建筑施工</p></a></div>
+</div>
+<section class="txt"><h2>工作原理 &mdash; 公式</h2>
+<p><strong>平均深度</strong> = （浅水深度 + 深水深度）÷ 2<br>
+<strong>矩形</strong>：体积 = 长度 × 宽度 × 平均深度<br>
+<strong>圆形</strong>：体积 = π ×（直径 ÷ 2）² × 平均深度<br>
+<strong>椭圆形</strong>：体积 = π ×（长度 ÷ 2）×（宽度 ÷ 2）× 平均深度</p>
+<p>一立方米恰好是 1,000 升，约 264.2 美制加仑。平均深度法假设池底从浅端到深端均匀倾斜，这符合大多数家用泳池的情况。</p>
+<h3>计算示例</h3>
+<div class="exbox">矩形泳池 8 m × 4 m，两端水深均为 1.5 m：平均深度 = 1.5 m。体积 = 8 × 4 × 1.5 = <strong>48 m³</strong> = <strong>48,000 升</strong> = 48,000 ÷ 3.785 ≈ <strong>12,680 美制加仑</strong>.</div>
+<h3>常见问题</h3></section>
+<div class="faq"><h3>肾形或自由形泳池适合这些形状吗？</h3><p>大致可以。用椭圆公式取最长长度和最宽宽度，然后把结果减少约 10–15% 以计入切掉拐角的曲线。对投药来说足够接近，尤其是在第一次化学检测确认后。</p></div><div class="faq"><h3>圆形地上泳池能装多少水？</h3><p>把直径作为宽度，把墙高减去约 15 cm（水面低于边缘）作为两个深度。4.6 m（15 ft）的泳池注水到 1.1 m 时容积约 18,300 升（4,830 美制加仑）。</p></div><div class="faq"><h3>应该用美制加仑还是英制加仑？</h3><p>美制加仑（3.785 L）— 几乎所有泳池产品标签都使用它。英制加仑是 4.546 L；如果某款老英国产品按英制加仑投药，先换算您的升数（升 ÷ 4.546）。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">把这个计算器免费嵌入您的网站</h2>
+<p style="margin:0 0 12px;line-height:1.6">把这个计算器添加到您自己的网站或博客 — 完全免费、无需注册，并始终显示最新版本。复制下方代码，粘贴到页面中您希望计算器出现的位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助于保持本工具免费 &mdash; 但您可以自由设置样式或移除它；两种情况下工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/zh/pool-volume-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Pool Volume Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技术支持 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/zh/pool-volume-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免费 泳池体积计算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">复制嵌入代码</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='已复制！';setTimeout(function(){b.textContent='复制嵌入代码';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>热门计算器</h4><ul><li><a href="../paint-calculator/">油漆计算器</a></li>
+<li><a href="../concrete-calculator/">混凝土计算器</a></li>
+<li><a href="../tile-calculator/">瓷砖计算器</a></li>
+<li><a href="../brick-calculator/">砖块计算器</a></li>
+<li><a href="../roof-pitch-calculator/">屋顶坡度计算器</a></li>
+<li><a href="../stairs-calculator/">楼梯计算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona 计算器</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona 二维码</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 图片压缩</a></li>
+<li><a href="https://loonaautomation.github.io/">全部 Loona 工具</a></li></ul></div>
+<div><h4>Loona 建筑计算器</h4><ul>
+<li><a href="../about.html">关于</a></li>
+<li><a href="../contact.html">联系我们</a></li>
+<li><a href="../privacy-policy.html">隐私政策</a></li>
+<li><a href="../terms.html">使用条款</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona 建筑计算器 &mdash; 一个 <a href="https://loonaautomation.github.io/">Loona Automation</a> 项目。免费建筑计算器，公制和英制单位，无需注册。
+联系方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+
+/* shared helpers: DOM getters (browser) + unit conversions + formatting */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.W, v.shallow, v.deep) || (v.shape !== "round" && !pos(v.L))) return bad("请输入宽度（圆形泳池为直径）和两个深度 — 矩形和椭圆形泳池还要输入长度。");
+  var f = (v.sys === "i") ? FT : 1;
+  var L = v.L * f, W = v.W * f;
+  var avg = ((v.shallow + v.deep) / 2) * f;
+  var vol;
+  if (v.shape === "round") vol = Math.PI * Math.pow(W / 2, 2) * avg;
+  else if (v.shape === "oval") vol = Math.PI * (L / 2) * (W / 2) * avg;
+  else vol = L * W * avg;
+  var volW = vol * (1 + (v.waste || 0) / 100);
+  var litres = volW * 1000, gallons = litres / GAL;
+  var rows = [["使用的平均深度", fmt(avg, 2) + " m (" + fmt(avg / FT, 2) + " ft)"],
+     ["体积", fmt(volW, 1) + " m\u00B3"],
+     ["升", fmt(litres, 0) + " L"],
+     ["美制加仑", fmt(gallons, 0) + " gal"]];
+  var html = resTable("泳池体积", fmt(litres, 0) + " 升（" + fmt(gallons, 0) + " US gal)", rows,
+    "大多数产品标签上的化学剂量是按每 10,000 升（约 2,640 美制加仑）计算的 \u2014 据此换算您的体积。量到水位线，不是边缘。");
+  return { ok: true, avgDepth: avg, volume: volW, litres: litres, gallons: gallons, html: html };
+} };
+
+function collect(){
+return { sys: gs("f_system"), shape: gs("f_shape"), L: gv("f_length"), W: gv("f_width"), shallow: gv("f_shallow"), deep: gv("f_deep"), waste: gv("f_waste") };
+}
+
+/* ---- page wiring (browser only) ---- */
+if (typeof document !== "undefined") {
+  var UNITS = {"length":["m","ft"],"width":["m","ft"],"depth":["m","ft"]};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安装应用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安装此应用：点击分享按钮，然后选择“添加到主屏幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

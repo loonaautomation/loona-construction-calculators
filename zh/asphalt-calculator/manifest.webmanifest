@@ -1,0 +1,29 @@
+{
+  "name": "Loona Asphalt Calculator",
+  "short_name": "Asphalt Calculator",
+  "description": "免费沥青计算器：输入长度、宽度和厚度（公制或英制），得到要订购的沥青重量（吨和美吨），密度可编辑（2,450 kg/m³ / 145 lb/ft³），含损耗余量和可选成本。",
+  "id": "/loona-construction-calculators/zh/asphalt-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

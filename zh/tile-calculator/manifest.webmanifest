@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tile Calculator",
+  "short_name": "Tile Calculator",
+  "description": "免费瓷砖计算器：地面或墙面尺寸、瓷砖尺寸和填缝间隙（公制或英制）— 得到要买的瓷砖和盒数的确切数字，含裁切和破损损耗余量。",
+  "id": "/loona-construction-calculators/zh/tile-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

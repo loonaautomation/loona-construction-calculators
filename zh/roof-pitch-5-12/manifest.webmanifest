@@ -1,0 +1,29 @@
+{
+  "name": "Loona 5/12 Roof Pitch",
+  "short_name": "5/12 Roof Pitch",
+  "description": "5/12 屋顶坡度为 22.62 度（坡度 42%）。椽子系数 1.0833，常见水平跨度的椽子长度、材料与用途。",
+  "id": "/loona-construction-calculators/zh/roof-pitch-5-12/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

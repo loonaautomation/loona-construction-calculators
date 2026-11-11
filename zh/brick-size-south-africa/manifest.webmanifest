@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in South Africa",
+  "short_name": "Brick Size in South Africa",
+  "description": "南非的标准砖尺寸：222 × 106 × 73 mm。带 10 mm 砂浆缝的单层墙每平方米 51.9 块（每平方英尺 4.82 块），含每 1,000 块砖的覆盖面积和一个墙体计算示例。",
+  "id": "/loona-construction-calculators/zh/brick-size-south-africa/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

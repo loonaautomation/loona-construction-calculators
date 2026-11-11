@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>电阻色环计算器 — 4、5、6 色环 + 反向（数值转色环）| Loona 建筑计算器</title>
+<meta name="description" content="免费电阻色环计算器：选择 4 色环、5 色环或 6 色环电阻的色环颜色，得到电阻、容差和温度系数 — 或反向操作，数值转色环。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/zh/resistor-colour-code-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/resistor-colour-code-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/resistor-colour-code-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/resistor-colour-code-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/resistor-colour-code-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/resistor-colour-code-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/resistor-colour-code-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/resistor-colour-code-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/resistor-colour-code-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/resistor-colour-code-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/resistor-colour-code-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/resistor-colour-code-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/resistor-colour-code-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-construction-calculators/pl/resistor-colour-code-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-construction-calculators/zh/resistor-colour-code-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/resistor-colour-code-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="电阻色环计算器 — 4、5、6 色环 + 反向（数值转色环）| Loona 建筑计算器">
+<meta property="og:description" content="免费电阻色环计算器：选择 4 色环、5 色环或 6 色环电阻的色环颜色，得到电阻、容差和温度系数 — 或反向操作，数值转色环。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/zh/resistor-colour-code-calculator/"><meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="电阻色环计算器 — 4、5、6 色环 + 反向（数值转色环）| Loona 建筑计算器">
+<meta name="twitter:description" content="免费电阻色环计算器：选择 4 色环、5 色环或 6 色环电阻的色环颜色，得到电阻、容差和温度系数 — 或反向操作，数值转色环。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 电阻色环计算器","url":"https://loonaautomation.github.io/loona-construction-calculators/zh/resistor-colour-code-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"从哪一端读数？","acceptedAnswer":{"@type":"Answer","text":"从色环最靠近边缘聚集的一端开始，向容差环方向读 — 容差环通常是金色、银色，或以较宽间隙隔开。在 4 色环元件上，如果两端看起来相似，第一环永远不是金色或银色（它们不是数字颜色），这就确定了方向。"}},{"@type":"Question","name":"4 色环和 5 色环电阻有什么区别？","acceptedAnswer":{"@type":"Answer","text":"精度。4 色环元件编码两位有效数字，在 ±5% 或 ±10% 时足够。5 色环元件编码三位数字，因此像 4.99 kΩ 这样的数值可以精确标定，容差通常 ±1% 或更好（金属膜型）。"}},{"@type":"Question","name":"第 6 色环是什么意思？","acceptedAnswer":{"@type":"Answer","text":"温度系数：电阻随每度温度变化漂移多少，以每开尔文百万分之几计。50 ppm/K 意味着一个 1,000 Ω 的电阻每度变化约 0.05 Ω — 在精密和测量电路中重要，在日常电路中罕见。"}},{"@type":"Question","name":"为什么反向模式有时说数值无法精确显示？","acceptedAnswer":{"@type":"Answer","text":"因为 4 色环编码只能容纳两位有效数字。4,720 Ω 需要三位（4-7-2），因此在该确切值上根本不存在 4 色环电阻 — 计算器显示最接近的可表示值并如实说明，而不是假装可以。"}},{"@type":"Question","name":"旧电阻或烧过的电阻，色环还能信吗？","acceptedAnswer":{"@type":"Answer","text":"热量和老化会使颜色褪色 — 红、橙、棕变得难以区分，而且烧过的电阻数值可能已经漂移。拿不准时，用万用表测量（脱离电路，或抬起一端），不要只信色环。"}},{"@type":"Question","name":"只有 3 色环的电阻或 SMD 编码怎么办？","acceptedAnswer":{"@type":"Answer","text":"3 色环电阻的读法与 4 色环相同，只是隐含 ±20% 容差。SMD（表面贴装）元件使用印刷数字编码而不是颜色 — 那是另一套系统，本计算器不涵盖。"}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 建筑计算器",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "电阻色环计算器",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/zh/resistor-colour-code-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 标志">
+<div class="brand">Loona <span>建筑计算器</span></div>
+<nav>
+<a href="../">首页</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">关于</a>
+<a href="../contact.html">联系我们</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 建筑计算器</a> &rsaquo; 电气 &rsaquo; 电阻色环计算器</div>
+<h1 class="pagetitle">🌈 电阻色环计算器</h1>
+<p class="lead">选择电阻上印的颜色 — 4 色环、5 色环或 6 色环 — 读出其电阻、容差和（6 色环的）温度系数。或切换到反向模式：输入以欧姆计的数值，得到您应该看到的色环。</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_mode">模式</label><select id="f_mode"><option value="fwd" selected>色环 &rarr; 电阻</option><option value="rev">电阻 &rarr; 色环（反向）</option></select></div><div class="fld"><label for="f_bands">色环数量</label><select id="f_bands"><option value="4" selected>4 色环</option><option value="5">5 色环</option><option value="6">6 色环（增加温度系数）</option></select></div><div class="fld"><label for="f_b1">色环 1 — 第一位数字（正向模式）</label><select id="f_b1"><option value="black">黑色</option><option value="brown">棕色</option><option value="red">红色</option><option value="orange">橙色</option><option value="yellow" selected>黄色</option><option value="green">绿色</option><option value="blue">蓝色</option><option value="violet">紫色</option><option value="grey">灰色</option><option value="white">白色</option><option value="gold">金色</option><option value="silver">银色</option></select></div><div class="fld"><label for="f_b2">色环 2 — 第二位数字</label><select id="f_b2"><option value="black">黑色</option><option value="brown">棕色</option><option value="red">红色</option><option value="orange">橙色</option><option value="yellow">黄色</option><option value="green">绿色</option><option value="blue">蓝色</option><option value="violet" selected>紫色</option><option value="grey">灰色</option><option value="white">白色</option><option value="gold">金色</option><option value="silver">银色</option></select></div><div class="fld"><label for="f_b3">色环 3 — 第三位数字（5/6 色环）或倍率（4 色环）</label><select id="f_b3"><option value="black">黑色</option><option value="brown" selected>棕色</option><option value="red">红色</option><option value="orange">橙色</option><option value="yellow">黄色</option><option value="green">绿色</option><option value="blue">蓝色</option><option value="violet">紫色</option><option value="grey">灰色</option><option value="white">白色</option><option value="gold">金色</option><option value="silver">银色</option></select></div><div class="fld"><label for="f_b4">色环 4 — 倍率（5/6 色环）或容差（4 色环）</label><select id="f_b4"><option value="black">黑色</option><option value="brown">棕色</option><option value="red">红色</option><option value="orange">橙色</option><option value="yellow">黄色</option><option value="green">绿色</option><option value="blue">蓝色</option><option value="violet">紫色</option><option value="grey">灰色</option><option value="white">白色</option><option value="gold" selected>金色</option><option value="silver">银色</option></select></div><div class="fld"><label for="f_b5">色环 5 — 容差（5/6 色环）</label><select id="f_b5"><option value="black">黑色</option><option value="brown" selected>棕色</option><option value="red">红色</option><option value="orange">橙色</option><option value="yellow">黄色</option><option value="green">绿色</option><option value="blue">蓝色</option><option value="violet">紫色</option><option value="grey">灰色</option><option value="white">白色</option><option value="gold">金色</option><option value="silver">银色</option></select></div><div class="fld"><label for="f_b6">色环 6 — 温度系数（仅 6 色环）</label><select id="f_b6"><option value="black">黑色</option><option value="brown">棕色</option><option value="red" selected>红色</option><option value="orange">橙色</option><option value="yellow">黄色</option><option value="green">绿色</option><option value="blue">蓝色</option><option value="violet">紫色</option><option value="grey">灰色</option><option value="white">白色</option><option value="gold">金色</option><option value="silver">银色</option></select></div><div class="fld"><label for="f_rev">反向模式：电阻值（欧姆）</label><input type="number" id="f_rev" step="any" value="4700"></div><div class="fld"><label for="f_revtol">反向模式：容差色环颜色</label><select id="f_revtol"><option value="gold" selected>金色（±5%）</option><option value="silver">银色（±10%）</option><option value="brown">棕色（±1%）</option><option value="red">红色（±2%）</option><option value="green">绿色（±0.5%）</option><option value="blue">蓝色（±0.25%）</option><option value="violet">紫色（±0.1%）</option><option value="none">无色环（±20%）</option></select></div>
+<button type="button" class="calcbtn" id="calcBtn">计算</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>如何使用电阻色环计算器</h2><ol><li>选择正向或反向模式，以及电阻上印的色环数量。</li><li>正向模式：从最靠近一端的那条色环开始，依次设置每条色环的颜色（容差色环 — 金色、银色或间距较大的 — 最后读）。</li><li>反向模式：输入以欧姆计的数值和期望的容差；计算器会给出色环颜色及其代表的确切数值。</li></ol>
+<div class="exbox"><strong>示例：</strong> 4 色环电阻上的黄 – 紫 – 棕 – 金：4，7，×10 → <strong>470 Ω ±5%</strong>.</div>
+<h2>常见问题</h2></section><div class="faq"><h3>从哪一端读数？</h3><p>从色环最靠近边缘聚集的一端开始，向容差环方向读 — 容差环通常是金色、银色，或以较宽间隙隔开。在 4 色环元件上，如果两端看起来相似，第一环永远不是金色或银色（它们不是数字颜色），这就确定了方向。</p></div><div class="faq"><h3>4 色环和 5 色环电阻有什么区别？</h3><p>精度。4 色环元件编码两位有效数字，在 ±5% 或 ±10% 时足够。5 色环元件编码三位数字，因此像 4.99 kΩ 这样的数值可以精确标定，容差通常 ±1% 或更好（金属膜型）。</p></div><div class="faq"><h3>第 6 色环是什么意思？</h3><p>温度系数：电阻随每度温度变化漂移多少，以每开尔文百万分之几计。50 ppm/K 意味着一个 1,000 Ω 的电阻每度变化约 0.05 Ω — 在精密和测量电路中重要，在日常电路中罕见。</p></div>
+<h2 class="sec">相关计算器</h2><div class="grid"><a class="card" href="../led-resistor-calculator/"><div class="ic">💡</div><h3>LED 电阻计算器</h3><p>电气</p></a><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>欧姆定律计算器</h3><p>电气</p></a><a class="card" href="../awg-converter/"><div class="ic">📏</div><h3>AWG 换算器</h3><p>电气</p></a><a class="card" href="../reactance-calculator/"><div class="ic">〰️</div><h3>电抗计算器</h3><p>电气</p></a></div>
+</div>
+<section class="txt"><h2>工作原理 &mdash; 公式</h2>
+<p><strong>4 色环：</strong> Value = (10 × d<sub>1</sub> + d<sub>2</sub>）× 倍率，第 4 色环 = 容差<br>
+<strong>5 色环：</strong> Value = (100 × d<sub>1</sub> + 10 × d<sub>2</sub> + d<sub>3</sub>）× 倍率，第 5 色环 = 容差<br>
+<strong>6 色环：</strong> 同 5 色环，第 6 色环 = 温度系数（ppm/K）</p>
+<p>数字颜色：黑 0、棕 1、红 2、橙 3、黄 4、绿 5、蓝 6、紫 7、灰 8、白 9。倍率从 ×0.01（银）和 ×0.1（金）到 ×10⁹（白）。容差：金 ±5%、银 ±10%、无色环 ±20%，精密颜色棕 ±1%、红 ±2%、绿 ±0.5%、蓝 ±0.25%、紫 ±0.1%、灰 ±0.05%。温度系数：棕 100、红 50、橙 15、黄 25、绿 20、蓝 10、紫 5、灰 1 ppm/K（黑 250）。</p>
+<h3>计算示例</h3>
+<div class="exbox">4 色环，黄–紫–棕–金：数字 4 和 7 组成 47；棕色倍率为 ×10；47 × 10 = <strong>470 Ω</strong>；金色表示 ±5%，因此真实值在 446.5 Ω 和 493.5 Ω 之间。反向核对：4,700 Ω 的 4 色环形式是 47 × 100，而 ×100 是红色倍率 — 黄、紫、 <strong>红色</strong>，再加上容差色环。</div>
+
+<h3>常见问题</h3></section>
+<div class="faq"><h3>为什么反向模式有时说数值无法精确显示？</h3><p>因为 4 色环编码只能容纳两位有效数字。4,720 Ω 需要三位（4-7-2），因此在该确切值上根本不存在 4 色环电阻 — 计算器显示最接近的可表示值并如实说明，而不是假装可以。</p></div><div class="faq"><h3>旧电阻或烧过的电阻，色环还能信吗？</h3><p>热量和老化会使颜色褪色 — 红、橙、棕变得难以区分，而且烧过的电阻数值可能已经漂移。拿不准时，用万用表测量（脱离电路，或抬起一端），不要只信色环。</p></div><div class="faq"><h3>只有 3 色环的电阻或 SMD 编码怎么办？</h3><p>3 色环电阻的读法与 4 色环相同，只是隐含 ±20% 容差。SMD（表面贴装）元件使用印刷数字编码而不是颜色 — 那是另一套系统，本计算器不涵盖。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">把这个计算器免费嵌入您的网站</h2>
+<p style="margin:0 0 12px;line-height:1.6">把这个计算器添加到您自己的网站或博客 — 完全免费、无需注册，并始终显示最新版本。复制下方代码，粘贴到页面中您希望计算器出现的位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助于保持本工具免费 &mdash; 但您可以自由设置样式或移除它；两种情况下工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/zh/resistor-colour-code-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Resistor Colour Code Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技术支持 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/zh/resistor-colour-code-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免费 电阻色环计算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">复制嵌入代码</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='已复制！';setTimeout(function(){b.textContent='复制嵌入代码';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>热门计算器</h4><ul><li><a href="../paint-calculator/">油漆计算器</a></li>
+<li><a href="../concrete-calculator/">混凝土计算器</a></li>
+<li><a href="../tile-calculator/">瓷砖计算器</a></li>
+<li><a href="../brick-calculator/">砖块计算器</a></li>
+<li><a href="../roof-pitch-calculator/">屋顶坡度计算器</a></li>
+<li><a href="../stairs-calculator/">楼梯计算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona 计算器</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona 二维码</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 图片压缩</a></li>
+<li><a href="https://loonaautomation.github.io/">全部 Loona 工具</a></li></ul></div>
+<div><h4>Loona 建筑计算器</h4><ul>
+<li><a href="../about.html">关于</a></li>
+<li><a href="../contact.html">联系我们</a></li>
+<li><a href="../privacy-policy.html">隐私政策</a></li>
+<li><a href="../terms.html">使用条款</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona 建筑计算器 &mdash; 一个 <a href="https://loonaautomation.github.io/">Loona Automation</a> 项目。免费建筑计算器，公制和英制单位，无需注册。
+联系方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var DIGIT = { black: 0, brown: 1, red: 2, orange: 3, yellow: 4, green: 5, blue: 6, violet: 7, grey: 8, white: 9 };
+var MULT = { silver: 0.01, gold: 0.1, black: 1, brown: 10, red: 100, orange: 1000, yellow: 10000, green: 100000, blue: 1000000, violet: 10000000, grey: 100000000, white: 1000000000 };
+var MULT_NAME = { "-2": "silver", "-1": "gold", "0": "black", "1": "brown", "2": "red", "3": "orange", "4": "yellow", "5": "green", "6": "blue", "7": "violet", "8": "grey", "9": "white" };
+var TOL = { brown: 1, red: 2, green: 0.5, blue: 0.25, violet: 0.1, grey: 0.05, gold: 5, silver: 10, none: 20 };
+var TEMPCO = { black: 250, brown: 100, red: 50, orange: 15, yellow: 25, green: 20, blue: 10, violet: 5, grey: 1 };
+function fmtOhms(x) {
+  if (x >= 1000000) return fmt(x / 1000000, 3) + " M\u03A9";
+  if (x >= 1000) return fmt(x / 1000, 3) + " k\u03A9";
+  return fmt(x, 2) + " \u03A9";
+}
+var LOONA_TOOL = { run: function (v) {
+  if (v.mode === "rev") {
+    if (!pos(v.revValue)) return bad("请输入以欧姆计的电阻值。");
+    var ndig = (v.bands === "4") ? 2 : 3;
+    var exp = Math.floor(Math.log10(v.revValue)) - (ndig - 1);
+    if (exp < -2) exp = -2; if (exp > 9) exp = 9;
+    var mant = v.revValue / Math.pow(10, exp);
+    var mantR = Math.round(mant);
+    if (mantR >= Math.pow(10, ndig)) { mantR = mantR / 10; exp += 1; }
+    var represented = mantR * Math.pow(10, exp);
+    var digNames = ["black","brown","red","orange","yellow","green","blue","violet","grey","white"];
+    var bandNames = [];
+    var s = String(mantR);
+    while (s.length < ndig) s = "0" + s;
+    for (var i = 0; i < ndig; i++) bandNames.push(digNames[parseInt(s[i], 10)]);
+    bandNames.push(MULT_NAME[String(exp)]);
+    var tolPct = TOL[v.revTol];
+    var rowsR = [["数字 / 乘数环", bandNames.join(" \u2013 " )],["容差环", v.revTol + " (\u00B1" + tolPct + "%)"],["色环代表的数值", fmtOhms(represented)]];
+    if (Math.abs(represented - v.revValue) > represented * 0.001) rowsR.push(["注意", "您的精确值无法用以下位数显示：" + ndig + " 位有效数字 \u2014 这些色环给出最接近的可表示值。"]);
+    var htmlR = resTable("色环，用于 " + fmtOhms(v.revValue), bandNames.join(", ") + ", " + v.revTol, rowsR,
+      "从最靠近色环聚集处的一端读取色环，容差环（通常为金色、银色或间距较宽的环）最后读。");
+    return { ok: true, represented: represented, revBands: bandNames.concat([v.revTol]), tolPct: tolPct, html: htmlR };
+  }
+  var b = v.bandCols;
+  var tolBand = v.tolBand;
+  if (!(b[0] in DIGIT) || !(b[1] in DIGIT)) return bad("请为每个色环选择颜色。");
+  var digits, multC;
+  if (v.bands === "4") { digits = DIGIT[b[0]] * 10 + DIGIT[b[1]]; multC = b[2]; }
+  else { if (!(b[2] in DIGIT)) return bad("请为每个色环选择颜色。"); digits = DIGIT[b[0]] * 100 + DIGIT[b[1]] * 10 + DIGIT[b[2]]; multC = b[3]; }
+  if (!(multC in MULT)) return bad("乘数环颜色无效。");
+  var ohms = digits * MULT[multC];
+  var tol = TOL[tolBand];
+  if (tol === undefined) return bad("容差环必须是棕、红、绿、蓝、紫、灰、金、银 \u2014 或选择“无” \u00B120%。");
+  var rows = [["电阻", fmtOhms(ohms) + " (" + fmt(ohms, 2) + " \u03A9)"],["容差", "\u00B1" + tol + "%  \u2192  介于 " + fmtOhms(ohms * (1 - tol / 100)) + " and " + fmtOhms(ohms * (1 + tol / 100))]];
+  var tempco = null;
+  if (v.bands === "6") { tempco = TEMPCO[b[5]]; if (tempco === undefined) return bad("温度系数环颜色无效。"); rows.push(["温度系数", tempco + " ppm/K"]);}
+  var html = resTable("电阻", fmtOhms(ohms) + " \u00B1" + tol + "%", rows,
+    "提示：把电阻拿成色环聚集在左侧、容差环（金、银或那个与众不同的）在右侧，然后从左到右读。");
+  return { ok: true, ohms: ohms, tolPct: tol, tempco: tempco, html: html };
+} };
+
+function collect(){
+  var bc = gs("f_bands");
+  var cols = [gs("f_b1"), gs("f_b2"), gs("f_b3"), gs("f_b4"), gs("f_b5"), gs("f_b6")];
+  var tolBand = (bc === "4") ? cols[3] : cols[4];
+  if (tolBand === "none") tolBand = "none";
+  return { mode: gs("f_mode"), bands: bc, bandCols: cols, tolBand: tolBand, revValue: gv("f_rev"), revTol: gs("f_revtol") };
+}
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安装应用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安装此应用：点击分享按钮，然后选择“添加到主屏幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

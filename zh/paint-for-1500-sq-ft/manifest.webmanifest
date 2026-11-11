@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 1500 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 1500 Sq Ft",
+  "description": "1500 sq ft 墙面的油漆：按典型 30.7 m²/L 覆盖率涂 8.1 层需要 2 升（10 gal），另加 12.8 L 底漆 — 假定条件已注明。",
+  "id": "/loona-construction-calculators/zh/paint-for-1500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

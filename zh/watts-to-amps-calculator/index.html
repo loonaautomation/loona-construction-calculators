@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>瓦特换算安培计算器 — 直流、单相与三相（W 换 A）| Loona 建筑计算器</title>
+<meta name="description" content="免费瓦特换算安培计算器，适用于直流、交流单相和交流三相：功率、电压和功率因数给出以安培计的电流 — 确定断路器或电缆规格的第一步。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/zh/watts-to-amps-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/watts-to-amps-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/watts-to-amps-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/watts-to-amps-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/watts-to-amps-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/watts-to-amps-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/watts-to-amps-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/watts-to-amps-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/watts-to-amps-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/watts-to-amps-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/watts-to-amps-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/watts-to-amps-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/watts-to-amps-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-construction-calculators/pl/watts-to-amps-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-construction-calculators/zh/watts-to-amps-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/watts-to-amps-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="瓦特换算安培计算器 — 直流、单相与三相（W 换 A）| Loona 建筑计算器">
+<meta property="og:description" content="免费瓦特换算安培计算器，适用于直流、交流单相和交流三相：功率、电压和功率因数给出以安培计的电流 — 确定断路器或电缆规格的第一步。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/zh/watts-to-amps-calculator/"><meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="瓦特换算安培计算器 — 直流、单相与三相（W 换 A）| Loona 建筑计算器">
+<meta name="twitter:description" content="免费瓦特换算安培计算器，适用于直流、交流单相和交流三相：功率、电压和功率因数给出以安培计的电流 — 确定断路器或电缆规格的第一步。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 瓦特换算安培计算器","url":"https://loonaautomation.github.io/loona-construction-calculators/zh/watts-to-amps-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"为什么功率因数会改变安培数？","acceptedAnswer":{"@type":"Answer","text":"感性负载吸取的电流只有一部分做有用功。功率因数为 0.8 时，电源必须提供 1 ÷ 0.8 = 1.25 倍于仅按瓦特推测的电流，因此电缆和断路器面对的是更高的数字。"}},{"@type":"Question","name":"根据结果我需要多大的断路器？","acceptedAnswer":{"@type":"Answer","text":"断路器的额定值必须达到或超过负载电流，许多规范要求持续负载（运行 125 小时以上）按 3% 选型。计算器显示真实的负载电流；下一步是应用当地规范的余量并选择断路器和电缆 — 参阅电线规格计算器。"}},{"@type":"Question","name":"1,000 W 是多少安培？","acceptedAnswer":{"@type":"Answer","text":"取决于电压和功率因数：在 230 V、PF 1 时是 4.35 A；在 230 V、PF 0.8 时是 5.43 A；在 120 V、PF 1 时是 8.33 A；在 12 V 直流电路上是 83.3 A — 这就是为什么低压系统需要那么粗的电缆。"}},{"@type":"Question","name":"这适用于电机的额定 kW 吗？","acceptedAnswer":{"@type":"Answer","text":"电机铭牌 kW 通常是其轴（输出）功率。由于电机损耗，电气输入更高，因此请使用电机电流计算器（它把效率纳入计算）以获得更好的满载电流估算 — 有铭牌 FLA 时始终优先采用它。"}},{"@type":"Question","name":"三相怎么办 — 输入哪个电压？","acceptedAnswer":{"@type":"Answer","text":"线电压：典型欧洲 400/400 V 系统为 230 V，北美为 480 V 或 208 V。公式中的 √3 处理其余部分。"}},{"@type":"Question","name":"可以把安培换算回瓦特吗？","acceptedAnswer":{"@type":"Answer","text":"是的 — 那是配套的安培换算瓦特计算器，链接在下方；使用相同电压和功率因数时，两者互为精确反函数。"}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 建筑计算器",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "瓦特换算安培计算器",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/zh/watts-to-amps-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 标志">
+<div class="brand">Loona <span>建筑计算器</span></div>
+<nav>
+<a href="../">首页</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">关于</a>
+<a href="../contact.html">联系我们</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 建筑计算器</a> &rsaquo; 电气 &rsaquo; 瓦特换算安培计算器</div>
+<h1 class="pagetitle">🔁 瓦特换算安培计算器</h1>
+<p class="lead">您知道瓦特 — 取暖器的额定值、电机的铭牌 — 现在找出它会吸取的安培数。选择直流、单相或三相，输入电压和功率因数，得到电流：这是您在选择断路器、保险丝或电缆之前需要的数字。</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system_type">系统类型</label><select id="f_system_type"><option value="dc">DC</option><option value="1" selected>交流单相</option><option value="3">交流三相（线电压）</option></select></div><div class="fld"><label for="f_watts">功率（瓦特）</label><input type="number" id="f_watts" step="any" value="3000"></div><div class="fld"><label for="f_volts">电压（伏特）— 三相时为线电压</label><input type="number" id="f_volts" step="any" value="230"></div><div class="fld"><label for="f_pf">功率因数（0.1–1.0；直流 / 阻性负载为 1.0）</label><input type="number" id="f_pf" step="any" value="0.8"></div>
+<button type="button" class="calcbtn" id="calcBtn">计算</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>如何使用瓦特换算安培计算器</h2><ol><li>选择直流、交流单相或交流三相。</li><li>输入以瓦特计的负载功率（铭牌数值，或瓦特 = kW × 1,000）和供电电压。</li><li>设置交流负载的功率因数 — 取暖器 1.0，典型电机约 0.8 — 然后点击计算。</li></ol>
+<div class="exbox"><strong>示例：</strong> 3,000 W 负载在 230 V 单相、PF 0.8 时电流为 3,000 ÷ (230 × 0.8) = <strong>16.30 A</strong> — 因此 16 A 断路器不够，需要大一号的。</div>
+<h2>常见问题</h2></section><div class="faq"><h3>为什么功率因数会改变安培数？</h3><p>感性负载吸取的电流只有一部分做有用功。功率因数为 0.8 时，电源必须提供 1 ÷ 0.8 = 1.25 倍于仅按瓦特推测的电流，因此电缆和断路器面对的是更高的数字。</p></div><div class="faq"><h3>根据结果我需要多大的断路器？</h3><p>断路器的额定值必须达到或超过负载电流，许多规范要求持续负载（运行 125 小时以上）按 3% 选型。计算器显示真实的负载电流；下一步是应用当地规范的余量并选择断路器和电缆 — 参阅电线规格计算器。</p></div><div class="faq"><h3>1,000 W 是多少安培？</h3><p>取决于电压和功率因数：在 230 V、PF 1 时是 4.35 A；在 230 V、PF 0.8 时是 5.43 A；在 120 V、PF 1 时是 8.33 A；在 12 V 直流电路上是 83.3 A — 这就是为什么低压系统需要那么粗的电缆。</p></div>
+<h2 class="sec">相关计算器</h2><div class="grid"><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>安培换算瓦特计算器</h3><p>电气</p></a><a class="card" href="../motor-current-calculator/"><div class="ic">🌀</div><h3>电机电流计算器</h3><p>电气</p></a><a class="card" href="../wire-size-calculator/"><div class="ic">🧵</div><h3>电线规格计算器</h3><p>电气</p></a><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>欧姆定律计算器</h3><p>电气</p></a></div>
+</div>
+<section class="txt"><h2>工作原理 &mdash; 公式</h2>
+<p><strong>直流：</strong> I = P ÷ V<br>
+<strong>交流单相：</strong> I = P ÷ (V × PF)<br>
+<strong>交流三相：</strong> I = P ÷ (√3 × V<sub>L-L</sub> × PF)</p>
+<p>这些是功率公式的变形。注意功率因数的作用：在 PF 0.8 时，同样的瓦特比 PF 25 时需要多 1% 的电流 — 这就是为什么电机负载会让那些把瓦特除以伏特就停下的人吃惊。</p>
+<h3>计算示例</h3>
+<div class="exbox">P = 3,000 W，V = 230 V，PF = 0.8，单相：I = 3,000 ÷ (230 × 0.8) = 3,000 ÷ 184 = <strong>16.30 A</strong>。同样的负载若是纯电阻（PF 1）电流为 3,000 ÷ 230 = 13.04 A — 仅功率因数一项就多出 3 A 以上。</div>
+
+<h3>常见问题</h3></section>
+<div class="faq"><h3>这适用于电机的额定 kW 吗？</h3><p>电机铭牌 kW 通常是其轴（输出）功率。由于电机损耗，电气输入更高，因此请使用电机电流计算器（它把效率纳入计算）以获得更好的满载电流估算 — 有铭牌 FLA 时始终优先采用它。</p></div><div class="faq"><h3>三相怎么办 — 输入哪个电压？</h3><p>线电压：典型欧洲 400/400 V 系统为 230 V，北美为 480 V 或 208 V。公式中的 √3 处理其余部分。</p></div><div class="faq"><h3>可以把安培换算回瓦特吗？</h3><p>是的 — 那是配套的安培换算瓦特计算器，链接在下方；使用相同电压和功率因数时，两者互为精确反函数。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">把这个计算器免费嵌入您的网站</h2>
+<p style="margin:0 0 12px;line-height:1.6">把这个计算器添加到您自己的网站或博客 — 完全免费、无需注册，并始终显示最新版本。复制下方代码，粘贴到页面中您希望计算器出现的位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助于保持本工具免费 &mdash; 但您可以自由设置样式或移除它；两种情况下工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/zh/watts-to-amps-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Watts to Amps Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技术支持 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/zh/watts-to-amps-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免费 瓦特换算安培计算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">复制嵌入代码</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='已复制！';setTimeout(function(){b.textContent='复制嵌入代码';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>热门计算器</h4><ul><li><a href="../paint-calculator/">油漆计算器</a></li>
+<li><a href="../concrete-calculator/">混凝土计算器</a></li>
+<li><a href="../tile-calculator/">瓷砖计算器</a></li>
+<li><a href="../brick-calculator/">砖块计算器</a></li>
+<li><a href="../roof-pitch-calculator/">屋顶坡度计算器</a></li>
+<li><a href="../stairs-calculator/">楼梯计算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona 计算器</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona 二维码</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 图片压缩</a></li>
+<li><a href="https://loonaautomation.github.io/">全部 Loona 工具</a></li></ul></div>
+<div><h4>Loona 建筑计算器</h4><ul>
+<li><a href="../about.html">关于</a></li>
+<li><a href="../contact.html">联系我们</a></li>
+<li><a href="../privacy-policy.html">隐私政策</a></li>
+<li><a href="../terms.html">使用条款</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona 建筑计算器 &mdash; 一个 <a href="https://loonaautomation.github.io/">Loona Automation</a> 项目。免费建筑计算器，公制和英制单位，无需注册。
+联系方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.watts, v.volts)) return bad("请输入以瓦特计的功率和以伏特计的电压。");
+  var pf = (v.type === "dc") ? 1 : v.pf;
+  if (!(pf > 0 && pf <= 1)) return bad("功率因数必须大于 0 且至多为 1。");
+  var amps;
+  if (v.type === "3") amps = v.watts / (Math.sqrt(3) * v.volts * pf);
+  else amps = v.watts / (v.volts * pf);
+  var html = resTable("电流", fmt(amps, 2) + " A",
+    [["功率", fmt(v.watts, 0) + " W (" + fmt(v.watts / 1000, 3) + " kW)"],["电压", fmt(v.volts, 1) + " V"],["使用的功率因数", fmt(pf, 2)]],
+    "这只是负载电流。选择断路器或电缆还需要额外余量 \u2014 许多规范的持续负载规则把保护装置定为负载电流的 125%，电缆载流量和电压降也必须核查（参阅电线规格和电压降计算器）。");
+  return { ok: true, amps: amps, html: html };
+} };
+
+function collect(){ return { type: gs("f_system_type"), watts: gv("f_watts"), volts: gv("f_volts"), pf: gv("f_pf") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安装应用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安装此应用：点击分享按钮，然后选择“添加到主屏幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

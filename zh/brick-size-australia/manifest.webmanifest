@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in Australia",
+  "short_name": "Brick Size in Australia",
+  "description": "澳大利亚的标准砖尺寸：230 × 110 × 76 mm。带 10 mm 砂浆缝的单层墙每平方米 48.4 块（每平方英尺 4.50 块），含每 1,000 块砖的覆盖面积和一个墙体计算示例。",
+  "id": "/loona-construction-calculators/zh/brick-size-australia/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

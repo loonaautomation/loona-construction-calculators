@@ -1,0 +1,29 @@
+{
+  "name": "Loona Wallpaper Calculator",
+  "short_name": "Wallpaper Calculator",
+  "description": "免费壁纸计算器：房间尺寸（公制或英制）、欧式或美式双卷、计入图案重复长度 — 得到要买的壁纸卷数的确切数字，含损耗。",
+  "id": "/loona-construction-calculators/zh/wallpaper-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

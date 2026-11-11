@@ -1,0 +1,29 @@
+{
+  "name": "Loona Insulation Calculator",
+  "short_name": "Insulation Calculator",
+  "description": "免费保温计算器：输入面积和目标 R 值（或公制 RSI），得到要买的棉块/卷材包数或吹入式保温袋数，以及目标所需的厚度 — 公制和英制。",
+  "id": "/loona-construction-calculators/zh/insulation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

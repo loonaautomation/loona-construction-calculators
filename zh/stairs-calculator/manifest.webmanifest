@@ -1,0 +1,29 @@
+{
+  "name": "Loona Stairs Calculator",
+  "short_name": "Stairs Calculator",
+  "description": "免费楼梯计算器：输入总上升高度（公制或英制）— 得到台阶级数、精确踏步高度、总跨度和楼梯梁长度，2R + T 舒适规则自动核查。",
+  "id": "/loona-construction-calculators/zh/stairs-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
