@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for a 20 × 20 ft Garage Slab",
+  "short_name": "Materials for a 20 × 20 ft",
+  "description": "20 × 20 ft 車庫地坪的材料：精確混凝土體積和預拌袋數（4 英寸厚樓板，10% 餘量），以及基層和鋼筋的購買說明。",
+  "id": "/loona-construction-calculators/zh-hant/materials-for-garage-slab/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

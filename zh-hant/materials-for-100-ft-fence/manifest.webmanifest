@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for a 100 ft Fence",
+  "short_name": "Materials for a 100 ft Fence",
+  "description": "100 ft 長 6-ft 高圍欄的購買清單：13 根立柱、13 個間隔的板材或 340 根柵欄條、實在的每孔混凝土量和緊韌體數量。",
+  "id": "/loona-construction-calculators/zh-hant/materials-for-100-ft-fence/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

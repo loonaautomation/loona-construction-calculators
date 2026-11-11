@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "免費建築計算器，同時支援公制和英制單位：油漆、瓷磚、混凝土、地板、石膏板、磚塊、礫石、屋頂坡度、樓梯、板英尺、桌布、覆蓋物、瀝青、保溫、圍欄、露臺、泳池體積、太陽能板、地毯、膠合板、沙子、歐姆定律、電壓降、電線規格、電費、安培換瓦特、瓦特換安培、kVA 換安培、功率因數、電池續航、LED 電阻、三相功率、電機電流、電阻色環、555 定時器、AWG 換算、電抗和分貝換算 — 含損耗餘量和計算示例。",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/zh-hant/"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Roof Pitch Calculator",
+  "short_name": "Roof Pitch Calculator",
+  "description": "免費屋頂坡度計算器：以任何單位輸入上升高度和水平跨度 — 得到以比值（x/12）表示的坡度、以度計的角度、百分比坡度和椽子長度。適用於公制和英制測量。",
+  "id": "/loona-construction-calculators/zh-hant/roof-pitch-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

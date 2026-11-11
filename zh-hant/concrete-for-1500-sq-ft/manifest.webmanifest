@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Concrete for 1500 Sq Ft? Volume",
+  "short_name": "How Much Concrete for 1500 Sq",
+  "description": "1500 平方英尺、4 英寸厚的樓板混凝土：15.57 m³（20.37 yd³），含 10% 餘量，外加 80 lb、60 lb、25 kg 和 20 kg 預拌袋數。",
+  "id": "/loona-construction-calculators/zh-hant/concrete-for-1500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

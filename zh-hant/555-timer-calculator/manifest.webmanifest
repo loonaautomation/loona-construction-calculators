@@ -1,0 +1,29 @@
+{
+  "name": "Loona 555 Timer Calculator",
+  "short_name": "555 Timer Calculator",
+  "description": "免費 555 定時器計算器：無穩態模式根據 R1、R2 和 C 給出頻率、佔空比和高/低電平時間；單穩態模式根據 R 和 C 給出脈衝寬度 — 標準 1.44 和 1.1 公式。",
+  "id": "/loona-construction-calculators/zh-hant/555-timer-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

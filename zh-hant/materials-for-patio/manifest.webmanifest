@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for a 16 × 20 ft Patio",
+  "short_name": "Materials for a 16 × 20 ft",
+  "description": "16×20 ft 庭院的購買清單：按鋪貼間距的鋪路磚數、沙床、礫石基層和邊緣約束 — 均為計算數量。",
+  "id": "/loona-construction-calculators/zh-hant/materials-for-patio/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

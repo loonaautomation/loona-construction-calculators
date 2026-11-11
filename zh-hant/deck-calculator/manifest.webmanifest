@@ -1,0 +1,29 @@
+{
+  "name": "Loona Deck Calculator",
+  "short_name": "Deck Calculator",
+  "description": "免費露臺計算器：露臺尺寸和木板寬度（公制或英制）給您要買的露臺板、木板總長度、託梁和螺絲估算 — 含板間間隙、託梁間距和損耗餘量。",
+  "id": "/loona-construction-calculators/zh-hant/deck-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

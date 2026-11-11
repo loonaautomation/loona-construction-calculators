@@ -1,0 +1,344 @@
+[
+ {
+  "n": "油漆計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/paint-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "任意房間的升與加侖，已扣除門窗，含底漆。",
+  "k": "油漆計算器 油漆計算器 油漆計算器 calculator construction 任意房間的升與加侖 已扣除門窗 含底漆",
+  "p": 0,
+  "c": "Tool"
+ },
+ {
+  "n": "瓷磚計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/tile-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "地面和牆面的瓷磚與盒數，已計入填縫間隙。",
+  "k": "瓷磚計算器 瓷磚計算器 瓷磚計算器 calculator construction 地面和牆面的瓷磚與盒數 已計入填縫間隙",
+  "p": 1,
+  "c": "Tool"
+ },
+ {
+  "n": "混凝土計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/concrete-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "樓板體積（m³ 和 yd³）以及預拌袋數。",
+  "k": "混凝土計算器 混凝土計算器 混凝土計算器 calculator construction 樓板體積 m 和 yd 以及預拌袋數",
+  "p": 2,
+  "c": "Tool"
+ },
+ {
+  "n": "地板計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/flooring-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "複合地板、乙烯基和木地板盒數，含裁切損耗。",
+  "k": "地板計算器 地板計算器 地板計算器 calculator construction 複合地板 乙烯基和木地板盒數 含裁切損耗",
+  "p": 3,
+  "c": "Tool"
+ },
+ {
+  "n": "石膏板計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/drywall-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "牆面和天花板用的石膏板。",
+  "k": "石膏板計算器 石膏板計算器 石膏板計算器 calculator construction 牆面和天花板用的石膏板",
+  "p": 4,
+  "c": "Tool"
+ },
+ {
+  "n": "磚塊計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/brick-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "標準公制和美製磚塊尺寸的磚數。",
+  "k": "磚塊計算器 磚塊計算器 磚塊計算器 calculator construction 標準公制和美製磚塊尺寸的磚數",
+  "p": 5,
+  "c": "Tool"
+ },
+ {
+  "n": "礫石計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/gravel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "車道、小路和地基的噸數與立方碼。",
+  "k": "礫石計算器 礫石計算器 礫石計算器 calculator construction 車道 小路和地基的噸數與立方碼",
+  "p": 106,
+  "c": "Tool"
+ },
+ {
+  "n": "屋頂坡度計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/roof-pitch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "坡度比、角度、坡度和椽子長度。",
+  "k": "屋頂坡度計算器 屋頂坡度計算器 屋頂坡度計算器 calculator construction 坡度比 角度 坡度和椽子長度",
+  "p": 107,
+  "c": "Tool"
+ },
+ {
+  "n": "樓梯計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/stairs-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "臺階、踏步高度、踏板、跨度和樓梯梁長度。",
+  "k": "樓梯計算器 樓梯計算器 樓梯計算器 calculator construction 臺階 踏步高度 踏板 跨度和樓梯梁長度",
+  "p": 108,
+  "c": "Tool"
+ },
+ {
+  "n": "板英尺計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/board-foot-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "木材體積，以板英尺和立方米計。",
+  "k": "板英尺計算器 板英尺計算器 板英尺計算器 calculator construction 木材體積 以板英尺和立方米計",
+  "p": 109,
+  "c": "Tool"
+ },
+ {
+  "n": "桌布計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/wallpaper-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "適用於歐式卷和美式卷，已計入圖案重複長度。",
+  "k": "桌布計算器 桌布計算器 桌布計算器 calculator construction 適用於歐式卷和美式卷 已計入圖案重複長度",
+  "p": 110,
+  "c": "Tool"
+ },
+ {
+  "n": "覆蓋物計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/mulch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "苗床和花壇邊緣的袋數與散裝體積。",
+  "k": "覆蓋物計算器 覆蓋物計算器 覆蓋物計算器 calculator construction 苗床和花壇邊緣的袋數與散裝體積",
+  "p": 111,
+  "c": "Tool"
+ },
+ {
+  "n": "瀝青計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/asphalt-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "根據面積和厚度得到噸數與美噸，密度可編輯，附成本估算。",
+  "k": "瀝青計算器 瀝青計算器 瀝青計算器 calculator construction 根據面積和厚度得到噸數與美噸 密度可編輯 附成本估算",
+  "p": 112,
+  "c": "Tool"
+ },
+ {
+  "n": "保溫計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/insulation-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "棉塊、卷材或吹入式袋裝，滿足目標 R 值 / RSI，附厚度指南。",
+  "k": "保溫計算器 保溫計算器 保溫計算器 calculator construction 棉塊 卷材或吹入式袋裝 滿足目標 r 值 rsi 附厚度指南",
+  "p": 113,
+  "c": "Tool"
+ },
+ {
+  "n": "圍欄計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/fence-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "根據圍欄長度和間距得到立柱、橫杆、柵欄條和混凝土袋數。",
+  "k": "圍欄計算器 圍欄計算器 圍欄計算器 calculator construction 根據圍欄長度和間距得到立柱 橫杆 柵欄條和混凝土袋數",
+  "p": 114,
+  "c": "Tool"
+ },
+ {
+  "n": "露臺計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/deck-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "根據露臺尺寸、木板寬度和託梁間距得到木板、託梁和螺絲。",
+  "k": "露臺計算器 露臺計算器 露臺計算器 calculator construction 根據露臺尺寸 木板寬度和託梁間距得到木板 託梁和螺絲",
+  "p": 115,
+  "c": "Tool"
+ },
+ {
+  "n": "泳池體積計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/pool-volume-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "矩形、圓形和橢圓形泳池的升與美製加侖 — 可直接用於投藥。",
+  "k": "泳池體積計算器 泳池體積計算器 泳池體積計算器 calculator construction 矩形 圓形和橢圓形泳池的升與美製加侖 可直接用於投藥",
+  "p": 116,
+  "c": "Tool"
+ },
+ {
+  "n": "太陽能板計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/solar-panel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "根據電費單得到所需電池板數量、系統 kW、預計發電量和屋頂面積。",
+  "k": "太陽能板計算器 太陽能板計算器 太陽能板計算器 calculator construction 根據電費單得到所需電池板數量 系統 kw 預計發電量和屋頂面積",
+  "p": 117,
+  "c": "Tool"
+ },
+ {
+  "n": "地毯計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/carpet-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "根據房間尺寸和卷寬得到線性長度和真實購買面積。",
+  "k": "地毯計算器 地毯計算器 地毯計算器 calculator construction 根據房間尺寸和卷寬得到線性長度和真實購買面積",
+  "p": 118,
+  "c": "Tool"
+ },
+ {
+  "n": "膠合板計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/plywood-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "2440×1220 mm 和 4×8 ft 板材按面積和按佈局的張數。",
+  "k": "膠合板計算器 膠合板計算器 膠合板計算器 calculator construction 2440 1220 mm 和 4 8 ft 板材按面積和按佈局的張數",
+  "p": 119,
+  "c": "Tool"
+ },
+ {
+  "n": "沙子計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/sand-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "沙坑、鋪裝基層和找平層的噸數與 25 kg 袋數。",
+  "k": "沙子計算器 沙子計算器 沙子計算器 calculator construction 沙坑 鋪裝基層和找平層的噸數與 25 kg 袋數",
+  "p": 120,
+  "c": "Tool"
+ },
+ {
+  "n": "歐姆定律計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/ohms-law-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Voltage, current, resistance & power from any two values — the full Ohm's law wheel.",
+  "k": "歐姆定律計算器 歐姆定律計算器 歐姆定律計算器 calculator construction voltage current resistance power from any two values the full ohm s law wheel",
+  "p": 121,
+  "c": "Tool"
+ },
+ {
+  "n": "電壓降計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/voltage-drop-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Volts & % dropped over a cable run, mm² or AWG, single & three-phase.",
+  "k": "電壓降計算器 電壓降計算器 電壓降計算器 calculator construction volts dropped over a cable run mm or awg single three phase",
+  "p": 122,
+  "c": "Tool"
+ },
+ {
+  "n": "電線規格計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/wire-size-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Minimum cable size in mm² + standard size & AWG from your drop limit.",
+  "k": "電線規格計算器 電線規格計算器 電線規格計算器 calculator construction minimum cable size in mm standard size awg from your drop limit",
+  "p": 123,
+  "c": "Tool"
+ },
+ {
+  "n": "電費計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/electricity-cost-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "What an appliance costs per day, month & year from watts & price per kWh.",
+  "k": "電費計算器 電費計算器 電費計算器 calculator construction what an appliance costs per day month year from watts price per kwh",
+  "p": 124,
+  "c": "Tool"
+ },
+ {
+  "n": "安培換算瓦特計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/amps-to-watts-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Watts & kW from amps and volts — DC, single-phase & three-phase with power factor.",
+  "k": "安培換算瓦特計算器 安培換算瓦特計算器 安培換算瓦特計算器 calculator construction watts kw from amps and volts dc single phase three phase with power factor",
+  "p": 125,
+  "c": "Tool"
+ },
+ {
+  "n": "瓦特換算安培計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/watts-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Amps from watts and volts for breaker & cable checks — DC, single & three-phase.",
+  "k": "瓦特換算安培計算器 瓦特換算安培計算器 瓦特換算安培計算器 calculator construction amps from watts and volts for breaker cable checks dc single three phase",
+  "p": 126,
+  "c": "Tool"
+ },
+ {
+  "n": "kVA 換算安培計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/kva-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Generator & transformer kVA to full-load amps, and amps back to kVA, single & three-phase.",
+  "k": "kva 換算安培計算器 kva 換算安培計算器 kva 換算安培計算器 calculator construction generator transformer kva to full load amps and amps back to kva single three phase",
+  "p": 127,
+  "c": "Tool"
+ },
+ {
+  "n": "功率因數計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/power-factor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Power factor, kvar & phase angle from kW and kVA, plus correction capacitor size.",
+  "k": "功率因數計算器 功率因數計算器 功率因數計算器 calculator construction power factor kvar phase angle from kw and kva plus correction capacitor size",
+  "p": 128,
+  "c": "Tool"
+ },
+ {
+  "n": "電池續航計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/battery-runtime-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "How long a battery runs a load — Ah, usable Wh, depth of discharge & inverter losses counted.",
+  "k": "電池續航計算器 電池續航計算器 電池續航計算器 calculator construction how long a battery runs a load ah usable wh depth of discharge inverter losses counted",
+  "p": 129,
+  "c": "Tool"
+ },
+ {
+  "n": "LED 電阻計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/led-resistor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Series resistor in ohms, nearest standard E12 value, actual current & wattage.",
+  "k": "led 電阻計算器 led 電阻計算器 led 電阻計算器 calculator construction series resistor in ohms nearest standard e12 value actual current wattage",
+  "p": 130,
+  "c": "Tool"
+ },
+ {
+  "n": "三相功率計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/three-phase-power-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "kW, kVA & kvar from line voltage, line current & power factor for balanced loads.",
+  "k": "三相功率計算器 三相功率計算器 三相功率計算器 calculator construction kw kva kvar from line voltage line current power factor for balanced loads",
+  "p": 131,
+  "c": "Tool"
+ },
+ {
+  "n": "電機電流計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/motor-current-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Estimated full-load amps from motor kW or hp, efficiency & power factor.",
+  "k": "電機電流計算器 電機電流計算器 電機電流計算器 calculator construction estimated full load amps from motor kw or hp efficiency power factor",
+  "p": 132,
+  "c": "Tool"
+ },
+ {
+  "n": "電阻色環計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/resistor-colour-code-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Read 4, 5 & 6-band resistor colours to ohms & tolerance — or turn a value back into bands.",
+  "k": "電阻色環計算器 電阻色環計算器 電阻色環計算器 calculator construction read 4 5 6 band resistor colours to ohms tolerance or turn a value back into bands",
+  "p": 133,
+  "c": "Tool"
+ },
+ {
+  "n": "555 定時器計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/555-timer-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Astable frequency & duty cycle and monostable pulse width from R and C.",
+  "k": "555 定時器計算器 555 定時器計算器 555 定時器計算器 calculator construction astable frequency duty cycle and monostable pulse width from r and c",
+  "p": 134,
+  "c": "Tool"
+ },
+ {
+  "n": "AWG 換算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/awg-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "AWG to mm, mm² and resistance per km for copper & aluminium — and back from mm² or diameter.",
+  "k": "awg 換算器 awg 換算器 awg 換算器 calculator construction awg to mm mm and resistance per km for copper aluminium and back from mm or diameter",
+  "p": 135,
+  "c": "Tool"
+ },
+ {
+  "n": "電抗計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/reactance-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Capacitive & inductive reactance in ohms, plus LC resonant frequency.",
+  "k": "電抗計算器 電抗計算器 電抗計算器 calculator construction capacitive inductive reactance in ohms plus lc resonant frequency",
+  "p": 136,
+  "c": "Tool"
+ },
+ {
+  "n": "dB 換算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/db-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "Power & voltage ratios to decibels, dBm to milliwatts & watts and back.",
+  "k": "db 換算器 db 換算器 db 換算器 calculator construction power voltage ratios to decibels dbm to milliwatts watts and back",
+  "p": 137,
+  "c": "Tool"
+ }
+]
