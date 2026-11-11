@@ -1,0 +1,29 @@
+{
+  "name": "Loona Wallpaper Calculator",
+  "short_name": "Wallpaper Calculator",
+  "description": "Kalkulator kertas dinding percuma: saiz bilik dalam metrik atau imperial, gulungan berganda Eropah atau US, ulangan corak diambil kira — dapatkan bilangan tepat gulungan kertas dinding untuk dibeli, pembaziran termasuk.",
+  "id": "/loona-construction-calculators/ms/wallpaper-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

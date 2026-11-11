@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Kalkulator pembinaan percuma yang berfungsi dalam KEDUA-DUA unit metrik dan imperial: cat, jubin, konkrit, lantai, dinding kering, bata, batu kerikil, cerun bumbung, tangga, board foot, kertas dinding, sungkupan, asfalt, penebat, pagar, dek, isi padu kolam, panel solar, permaidani, papan lapis, pasir, hukum Ohm, susutan voltan, saiz wayar, kos elektrik, amp kepada watt, watt kepada amp, kVA kepada amp, faktor kuasa, masa jalan bateri, perintang LED, kuasa tiga fasa, arus motor, kod warna perintang, pemasa 555, penukaran AWG, reaktans dan penukaran desibel — dengan elaun pembaziran dan contoh kiraan.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/ms/"
+}

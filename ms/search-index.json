@@ -1,0 +1,344 @@
+[
+ {
+  "n": "Kalkulator Cat",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/paint-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Liter & gelen untuk mana-mana bilik, pintu/tingkap ditolak, primer termasuk.",
+  "k": "kalkulator cat kalkulator cat kalkulator cat calculator construction liter gelen untuk mana mana bilik pintu tingkap ditolak primer termasuk",
+  "p": 0,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Jubin",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/tile-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Jubin dan kotak untuk lantai & dinding, celah grout dikira.",
+  "k": "kalkulator jubin kalkulator jubin kalkulator jubin calculator construction jubin dan kotak untuk lantai dinding celah grout dikira",
+  "p": 1,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Konkrit",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/concrete-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Isi padu papak dalam m³ & ela padu serta bilangan beg pracampuran.",
+  "k": "kalkulator konkrit kalkulator konkrit kalkulator konkrit calculator construction isi padu papak dalam m ela padu serta bilangan beg pracampuran",
+  "p": 2,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Lantai",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/flooring-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Kotak lamina, vinil & kayu dengan pembaziran pemotongan.",
+  "k": "kalkulator lantai kalkulator lantai kalkulator lantai calculator construction kotak lamina vinil kayu dengan pembaziran pemotongan",
+  "p": 3,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Dinding Kering",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/drywall-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Kepingan papan plaster / dinding kering untuk dinding & siling.",
+  "k": "kalkulator dinding kering kalkulator dinding kering kalkulator dinding kering calculator construction kepingan papan plaster dinding kering untuk dinding siling",
+  "p": 4,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Bata",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/brick-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Kiraan bata untuk saiz bata standard metrik & AS.",
+  "k": "kalkulator bata kalkulator bata kalkulator bata calculator construction kiraan bata untuk saiz bata standard metrik as",
+  "p": 5,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Batu Kerikil",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/gravel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tan & ela padu untuk jalan masuk, laluan dan tapak.",
+  "k": "kalkulator batu kerikil kalkulator batu kerikil kalkulator batu kerikil calculator construction tan ela padu untuk jalan masuk laluan dan tapak",
+  "p": 106,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Cerun Bumbung",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/roof-pitch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Nisbah cerun, sudut, gred dan panjang kasau.",
+  "k": "kalkulator cerun bumbung kalkulator cerun bumbung kalkulator cerun bumbung calculator construction nisbah cerun sudut gred dan panjang kasau",
+  "p": 107,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Tangga",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/stairs-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Anak tangga, ketinggian pijak, jejak, larian dan panjang stringer.",
+  "k": "kalkulator tangga kalkulator tangga kalkulator tangga calculator construction anak tangga ketinggian pijak jejak larian dan panjang stringer",
+  "p": 108,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Board Foot",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/board-foot-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Isi padu kayu dalam board feet & meter padu.",
+  "k": "kalkulator board foot kalkulator board foot kalkulator board foot calculator construction isi padu kayu dalam board feet meter padu",
+  "p": 109,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Kertas Dinding",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/wallpaper-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Gulungan untuk gulungan EU & AS, ulangan corak diambil kira.",
+  "k": "kalkulator kertas dinding kalkulator kertas dinding kalkulator kertas dinding calculator construction gulungan untuk gulungan eu as ulangan corak diambil kira",
+  "p": 110,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Sungkupan",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/mulch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Beg & isi padu pukal untuk batas dan sempadan.",
+  "k": "kalkulator sungkupan kalkulator sungkupan kalkulator sungkupan calculator construction beg isi padu pukal untuk batas dan sempadan",
+  "p": 111,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Asfalt",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/asphalt-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tan & tan AS daripada keluasan dan ketebalan, ketumpatan boleh disunting, anggaran kos.",
+  "k": "kalkulator asfalt kalkulator asfalt kalkulator asfalt calculator construction tan tan as daripada keluasan dan ketebalan ketumpatan boleh disunting anggaran kos",
+  "p": 112,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Penebat",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/insulation-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Kepingan, gulungan atau beg tiup untuk nilai R / RSI sasaran anda, panduan ketebalan.",
+  "k": "kalkulator penebat kalkulator penebat kalkulator penebat calculator construction kepingan gulungan atau beg tiup untuk nilai r rsi sasaran anda panduan ketebalan",
+  "p": 113,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Pagar",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/fence-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tiang, rel, piket dan beg konkrit daripada panjang dan jarak pagar.",
+  "k": "kalkulator pagar kalkulator pagar kalkulator pagar calculator construction tiang rel piket dan beg konkrit daripada panjang dan jarak pagar",
+  "p": 114,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Dek",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/deck-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Papan dek, geleger dan skru daripada saiz dek, lebar papan dan jarak geleger.",
+  "k": "kalkulator dek kalkulator dek kalkulator dek calculator construction papan dek geleger dan skru daripada saiz dek lebar papan dan jarak geleger",
+  "p": 115,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Isi Padu Kolam",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/pool-volume-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Liter & gelen AS untuk kolam segi empat tepat, bulat dan bujur — sedia untuk dos.",
+  "k": "kalkulator isi padu kolam kalkulator isi padu kolam kalkulator isi padu kolam calculator construction liter gelen as untuk kolam segi empat tepat bulat dan bujur sedia untuk dos",
+  "p": 116,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Panel Suria",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/solar-panel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Panel yang diperlukan, kW sistem, pengeluaran dijangka dan keluasan bumbung daripada bil anda.",
+  "k": "kalkulator panel suria kalkulator panel suria kalkulator panel suria calculator construction panel yang diperlukan kw sistem pengeluaran dijangka dan keluasan bumbung daripada bil anda",
+  "p": 117,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Permaidani",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/carpet-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Panjang linear dan keluasan pembelian sebenar daripada saiz bilik dan lebar gulungan.",
+  "k": "kalkulator permaidani kalkulator permaidani kalkulator permaidani calculator construction panjang linear dan keluasan pembelian sebenar daripada saiz bilik dan lebar gulungan",
+  "p": 118,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Papan Lapis",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/plywood-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Kepingan mengikut keluasan dan susunan untuk kepingan 2440×1220 mm dan 4×8 kaki.",
+  "k": "kalkulator papan lapis kalkulator papan lapis kalkulator papan lapis calculator construction kepingan mengikut keluasan dan susunan untuk kepingan 2440 1220 mm dan 4 8 kaki",
+  "p": 119,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Pasir",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/sand-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tan dan beg 25 kg untuk kotak pasir, tapak turapan dan lereng.",
+  "k": "kalkulator pasir kalkulator pasir kalkulator pasir calculator construction tan dan beg 25 kg untuk kotak pasir tapak turapan dan lereng",
+  "p": 120,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Hukum Ohm",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/ohms-law-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Voltage, current, resistance & power from any two values — the full Ohm's law wheel.",
+  "k": "kalkulator hukum ohm kalkulator hukum ohm kalkulator hukum ohm calculator construction voltage current resistance power from any two values the full ohm s law wheel",
+  "p": 121,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Kejatuhan Voltan",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/voltage-drop-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Volts & % dropped over a cable run, mm² or AWG, single & three-phase.",
+  "k": "kalkulator kejatuhan voltan kalkulator kejatuhan voltan kalkulator kejatuhan voltan calculator construction volts dropped over a cable run mm or awg single three phase",
+  "p": 122,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Saiz Wayar",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/wire-size-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Minimum cable size in mm² + standard size & AWG from your drop limit.",
+  "k": "kalkulator saiz wayar kalkulator saiz wayar kalkulator saiz wayar calculator construction minimum cable size in mm standard size awg from your drop limit",
+  "p": 123,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Kos Elektrik",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/electricity-cost-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "What an appliance costs per day, month & year from watts & price per kWh.",
+  "k": "kalkulator kos elektrik kalkulator kos elektrik kalkulator kos elektrik calculator construction what an appliance costs per day month year from watts price per kwh",
+  "p": 124,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Ampere ke Watt",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/amps-to-watts-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Watts & kW from amps and volts — DC, single-phase & three-phase with power factor.",
+  "k": "kalkulator ampere ke watt kalkulator ampere ke watt kalkulator ampere ke watt calculator construction watts kw from amps and volts dc single phase three phase with power factor",
+  "p": 125,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Watt kepada Amp",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/watts-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Amps from watts and volts for breaker & cable checks — DC, single & three-phase.",
+  "k": "kalkulator watt kepada amp kalkulator watt kepada amp kalkulator watt kepada amp calculator construction amps from watts and volts for breaker cable checks dc single three phase",
+  "p": 126,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator kVA kepada Amp",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/kva-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Generator & transformer kVA to full-load amps, and amps back to kVA, single & three-phase.",
+  "k": "kalkulator kva kepada amp kalkulator kva kepada amp kalkulator kva kepada amp calculator construction generator transformer kva to full load amps and amps back to kva single three phase",
+  "p": 127,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Faktor Kuasa",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/power-factor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Power factor, kvar & phase angle from kW and kVA, plus correction capacitor size.",
+  "k": "kalkulator faktor kuasa kalkulator faktor kuasa kalkulator faktor kuasa calculator construction power factor kvar phase angle from kw and kva plus correction capacitor size",
+  "p": 128,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Tempoh Bateri",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/battery-runtime-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "How long a battery runs a load — Ah, usable Wh, depth of discharge & inverter losses counted.",
+  "k": "kalkulator tempoh bateri kalkulator tempoh bateri kalkulator tempoh bateri calculator construction how long a battery runs a load ah usable wh depth of discharge inverter losses counted",
+  "p": 129,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Perintang LED",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/led-resistor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Series resistor in ohms, nearest standard E12 value, actual current & wattage.",
+  "k": "kalkulator perintang led kalkulator perintang led kalkulator perintang led calculator construction series resistor in ohms nearest standard e12 value actual current wattage",
+  "p": 130,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Kuasa Tiga Fasa",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/three-phase-power-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "kW, kVA & kvar from line voltage, line current & power factor for balanced loads.",
+  "k": "kalkulator kuasa tiga fasa kalkulator kuasa tiga fasa kalkulator kuasa tiga fasa calculator construction kw kva kvar from line voltage line current power factor for balanced loads",
+  "p": 131,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Arus Motor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/motor-current-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Estimated full-load amps from motor kW or hp, efficiency & power factor.",
+  "k": "kalkulator arus motor kalkulator arus motor kalkulator arus motor calculator construction estimated full load amps from motor kw or hp efficiency power factor",
+  "p": 132,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Kod Warna Perintang",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/resistor-colour-code-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Read 4, 5 & 6-band resistor colours to ohms & tolerance — or turn a value back into bands.",
+  "k": "kalkulator kod warna perintang kalkulator kod warna perintang kalkulator kod warna perintang calculator construction read 4 5 6 band resistor colours to ohms tolerance or turn a value back into bands",
+  "p": 133,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Pemasa 555",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/555-timer-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Astable frequency & duty cycle and monostable pulse width from R and C.",
+  "k": "kalkulator pemasa 555 kalkulator pemasa 555 kalkulator pemasa 555 calculator construction astable frequency duty cycle and monostable pulse width from r and c",
+  "p": 134,
+  "c": "Tool"
+ },
+ {
+  "n": "Penukar AWG",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/awg-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "AWG to mm, mm² and resistance per km for copper & aluminium — and back from mm² or diameter.",
+  "k": "penukar awg penukar awg penukar awg calculator construction awg to mm mm and resistance per km for copper aluminium and back from mm or diameter",
+  "p": 135,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Regangan",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/reactance-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Capacitive & inductive reactance in ohms, plus LC resonant frequency.",
+  "k": "kalkulator regangan kalkulator regangan kalkulator regangan calculator construction capacitive inductive reactance in ohms plus lc resonant frequency",
+  "p": 136,
+  "c": "Tool"
+ },
+ {
+  "n": "Penukar dB",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ms/db-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "Power & voltage ratios to decibels, dBm to milliwatts & watts and back.",
+  "k": "penukar db penukar db penukar db calculator construction power voltage ratios to decibels dbm to milliwatts watts and back",
+  "p": 137,
+  "c": "Tool"
+ }
+]

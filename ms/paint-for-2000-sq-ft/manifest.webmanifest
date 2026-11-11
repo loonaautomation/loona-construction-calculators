@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 2000 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 2000 Sq Ft",
+  "description": "Cat untuk 2000 kaki persegi dinding: 40.9 liter (10.8 gelen) untuk 2 lapisan pada liputan biasa 10 m²/L, serta 17.0 L primer — dengan andaian yang dinyatakan.",
+  "id": "/loona-construction-calculators/ms/paint-for-2000-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Flooring Calculator",
+  "short_name": "Flooring Calculator",
+  "description": "Kalkulator lantai percuma: saiz bilik dan liputan kotak dalam metrik atau imperial — dapatkan bilangan kotak lamina, vinil atau kayu kejuruteraan untuk dibeli, termasuk elaun pembaziran pemotongan.",
+  "id": "/loona-construction-calculators/ms/flooring-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

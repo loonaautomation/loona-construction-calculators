@@ -1,0 +1,29 @@
+{
+  "name": "Loona Fence Calculator",
+  "short_name": "Fence Calculator",
+  "description": "Kalkulator pagar percuma: panjang pagar dan jarak tiang dalam metrik atau imperial memberikan tiang, rel, papan pagar (daripada lebar dan celah papan) dan beg konkrit — dengan elaun pembaziran untuk papan pagar.",
+  "id": "/loona-construction-calculators/ms/fence-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

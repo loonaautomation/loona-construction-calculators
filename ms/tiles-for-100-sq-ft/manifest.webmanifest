@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 100 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 100 Sq Ft?",
+  "description": "Jubin untuk 100 kaki persegi dengan jubin 60×60 cm dan celah grout 3 mm: 29 jubin (8 kotak berisi 4) termasuk tambahan 10% untuk potongan dan kerosakan.",
+  "id": "/loona-construction-calculators/ms/tiles-for-100-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
