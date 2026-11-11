@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Darmowe kalkulatory budowlane działające w OBU systemach jednostek, metrycznym i imperialnym: farba, płytki, beton, podłoga, płyta gipsowa, cegła, żwir, nachylenie dachu, schody, stopa deskowa, tapeta, ściółka, asfalt, izolacja, ogrodzenie, taras, objętość basenu, panel słoneczny, wykładzina, sklejka, piasek, prawo Ohma, spadek napięcia, przekrój przewodu, koszt energii elektrycznej, ampery na waty, waty na ampery, kVA na ampery, współczynnik mocy, czas pracy baterii, rezystor LED, moc trójfazowa, prąd silnika, kod kolorów rezystorów, timer 555, konwersja AWG, reaktancja i konwersja decybeli — z zapasami na odpady i przykładami obliczeniowymi.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/pl/"
+}

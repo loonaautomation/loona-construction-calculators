@@ -1,0 +1,344 @@
+[
+ {
+  "n": "Kalkulator farby",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/paint-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Litry i galony na dowolny pokój, drzwi/okna odjęte, grunt wliczony.",
+  "k": "kalkulator farby kalkulator farby kalkulator farby calculator construction litry i galony na dowolny pokoj drzwi okna odjete grunt wliczony",
+  "p": 0,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator płytek",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/tile-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Płytki i opakowania na podłogi i ściany, fuga policzona.",
+  "k": "kalkulator p ytek kalkulator p ytek kalkulator p ytek calculator construction p ytki i opakowania na pod ogi i sciany fuga policzona",
+  "p": 1,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator betonu",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/concrete-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Objętość płyty w m³ i yd³ plus liczba worków gotowej mieszanki.",
+  "k": "kalkulator betonu kalkulator betonu kalkulator betonu calculator construction objetosc p yty w m3 i yd3 plus liczba workow gotowej mieszanki",
+  "p": 2,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator podłóg",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/flooring-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Opakowania laminatu, winylu i drewna z odpadami cięcia.",
+  "k": "kalkulator pod og kalkulator pod og kalkulator pod og calculator construction opakowania laminatu winylu i drewna z odpadami ciecia",
+  "p": 3,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator płyt gipsowo-kartonowych",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/drywall-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Płyty gipsowo-kartonowe na ściany i sufity.",
+  "k": "kalkulator p yt gipsowo kartonowych kalkulator p yt gipsowo kartonowych kalkulator p yt gipsowo kartonowych calculator construction p yty gipsowo kartonowe na sciany i sufity",
+  "p": 4,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator cegieł",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/brick-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Liczby cegieł dla standardowych rozmiarów metrycznych i amerykańskich.",
+  "k": "kalkulator cegie kalkulator cegie kalkulator cegie calculator construction liczby cegie dla standardowych rozmiarow metrycznych i amerykanskich",
+  "p": 5,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator żwiru",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/gravel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tony i jardy sześcienne na podjazdy, ścieżki i podbudowy.",
+  "k": "kalkulator zwiru kalkulator zwiru kalkulator zwiru calculator construction tony i jardy szescienne na podjazdy sciezki i podbudowy",
+  "p": 106,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator nachylenia dachu",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/roof-pitch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Stosunek nachylenia, kąt, spadek i długość krokwi.",
+  "k": "kalkulator nachylenia dachu kalkulator nachylenia dachu kalkulator nachylenia dachu calculator construction stosunek nachylenia kat spadek i d ugosc krokwi",
+  "p": 107,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator schodów",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/stairs-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Stopnie, wysokość podstopnicy, stopień, bieg i długość podłużnicy.",
+  "k": "kalkulator schodow kalkulator schodow kalkulator schodow calculator construction stopnie wysokosc podstopnicy stopien bieg i d ugosc pod uznicy",
+  "p": 108,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator stóp deskowych",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/board-foot-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Objętość tarcicy w stopach deskowych i metrach sześciennych.",
+  "k": "kalkulator stop deskowych kalkulator stop deskowych kalkulator stop deskowych calculator construction objetosc tarcicy w stopach deskowych i metrach szesciennych",
+  "p": 109,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator tapet",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/wallpaper-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Rolki dla rolek EU i US, z uwzględnionym powtórzeniem wzoru.",
+  "k": "kalkulator tapet kalkulator tapet kalkulator tapet calculator construction rolki dla rolek eu i us z uwzglednionym powtorzeniem wzoru",
+  "p": 110,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator ściółki",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/mulch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Worki i objętość luzem na rabaty i obrzeża.",
+  "k": "kalkulator scio ki kalkulator scio ki kalkulator scio ki calculator construction worki i objetosc luzem na rabaty i obrzeza",
+  "p": 111,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator asfaltu",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/asphalt-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tony i tony amerykańskie z powierzchni i grubości, gęstość edytowalna, szacunek kosztu.",
+  "k": "kalkulator asfaltu kalkulator asfaltu kalkulator asfaltu calculator construction tony i tony amerykanskie z powierzchni i grubosci gestosc edytowalna szacunek kosztu",
+  "p": 112,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator izolacji",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/insulation-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Maty, rolki lub worki wdmuchiwane dla docelowej wartości R / RSI, przewodnik grubości.",
+  "k": "kalkulator izolacji kalkulator izolacji kalkulator izolacji calculator construction maty rolki lub worki wdmuchiwane dla docelowej wartosci r rsi przewodnik grubosci",
+  "p": 113,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator ogrodzenia",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/fence-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Słupki, poprzeczki, sztachety i worki betonu z długości i rozstawu ogrodzenia.",
+  "k": "kalkulator ogrodzenia kalkulator ogrodzenia kalkulator ogrodzenia calculator construction s upki poprzeczki sztachety i worki betonu z d ugosci i rozstawu ogrodzenia",
+  "p": 114,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator tarasu",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/deck-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Deski tarasowe, legary i wkręty z rozmiaru tarasu, szerokości deski i rozstawu legarów.",
+  "k": "kalkulator tarasu kalkulator tarasu kalkulator tarasu calculator construction deski tarasowe legary i wkrety z rozmiaru tarasu szerokosci deski i rozstawu legarow",
+  "p": 115,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator objętości basenu",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/pool-volume-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Litry i galony amerykańskie dla basenów prostokątnych, okrągłych i owalnych — gotowe do dawkowania.",
+  "k": "kalkulator objetosci basenu kalkulator objetosci basenu kalkulator objetosci basenu calculator construction litry i galony amerykanskie dla basenow prostokatnych okrag ych i owalnych gotowe do dawkowania",
+  "p": 116,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator paneli słonecznych",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/solar-panel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Potrzebne panele, kW systemu, oczekiwana produkcja i powierzchnia dachu z twojego rachunku.",
+  "k": "kalkulator paneli s onecznych kalkulator paneli s onecznych kalkulator paneli s onecznych calculator construction potrzebne panele kw systemu oczekiwana produkcja i powierzchnia dachu z twojego rachunku",
+  "p": 117,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator wykładziny",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/carpet-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Długość liniowa i prawdziwa powierzchnia zakupu z rozmiaru pokoju i szerokości rolki.",
+  "k": "kalkulator wyk adziny kalkulator wyk adziny kalkulator wyk adziny calculator construction d ugosc liniowa i prawdziwa powierzchnia zakupu z rozmiaru pokoju i szerokosci rolki",
+  "p": 118,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator sklejki",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/plywood-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Płyty według powierzchni i układu dla płyt 2440×1220 mm i 4×8 ft.",
+  "k": "kalkulator sklejki kalkulator sklejki kalkulator sklejki calculator construction p yty wed ug powierzchni i uk adu dla p yt 2440 1220 mm i 4 8 ft",
+  "p": 119,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator piasku",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/sand-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tony i worki 25 kg na piaskownice, podbudowy brukowe i jastrychy.",
+  "k": "kalkulator piasku kalkulator piasku kalkulator piasku calculator construction tony i worki 25 kg na piaskownice podbudowy brukowe i jastrychy",
+  "p": 120,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator prawa Ohma",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/ohms-law-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Voltage, current, resistance & power from any two values — the full Ohm's law wheel.",
+  "k": "kalkulator prawa ohma kalkulator prawa ohma kalkulator prawa ohma calculator construction voltage current resistance power from any two values the full ohm s law wheel",
+  "p": 121,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator spadku napięcia",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/voltage-drop-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Volts & % dropped over a cable run, mm² or AWG, single & three-phase.",
+  "k": "kalkulator spadku napiecia kalkulator spadku napiecia kalkulator spadku napiecia calculator construction volts dropped over a cable run mm2 or awg single three phase",
+  "p": 122,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator przekroju przewodów",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/wire-size-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Minimum cable size in mm² + standard size & AWG from your drop limit.",
+  "k": "kalkulator przekroju przewodow kalkulator przekroju przewodow kalkulator przekroju przewodow calculator construction minimum cable size in mm2 standard size awg from your drop limit",
+  "p": 123,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator kosztów energii elektrycznej",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/electricity-cost-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "What an appliance costs per day, month & year from watts & price per kWh.",
+  "k": "kalkulator kosztow energii elektrycznej kalkulator kosztow energii elektrycznej kalkulator kosztow energii elektrycznej calculator construction what an appliance costs per day month year from watts price per kwh",
+  "p": 124,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator amperów na waty",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/amps-to-watts-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Watts & kW from amps and volts — DC, single-phase & three-phase with power factor.",
+  "k": "kalkulator amperow na waty kalkulator amperow na waty kalkulator amperow na waty calculator construction watts kw from amps and volts dc single phase three phase with power factor",
+  "p": 125,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator watów na ampery",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/watts-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Amps from watts and volts for breaker & cable checks — DC, single & three-phase.",
+  "k": "kalkulator watow na ampery kalkulator watow na ampery kalkulator watow na ampery calculator construction amps from watts and volts for breaker cable checks dc single three phase",
+  "p": 126,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator kVA na ampery",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/kva-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Generator & transformer kVA to full-load amps, and amps back to kVA, single & three-phase.",
+  "k": "kalkulator kva na ampery kalkulator kva na ampery kalkulator kva na ampery calculator construction generator transformer kva to full load amps and amps back to kva single three phase",
+  "p": 127,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator współczynnika mocy",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/power-factor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Power factor, kvar & phase angle from kW and kVA, plus correction capacitor size.",
+  "k": "kalkulator wspo czynnika mocy kalkulator wspo czynnika mocy kalkulator wspo czynnika mocy calculator construction power factor kvar phase angle from kw and kva plus correction capacitor size",
+  "p": 128,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator czasu pracy baterii",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/battery-runtime-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "How long a battery runs a load — Ah, usable Wh, depth of discharge & inverter losses counted.",
+  "k": "kalkulator czasu pracy baterii kalkulator czasu pracy baterii kalkulator czasu pracy baterii calculator construction how long a battery runs a load ah usable wh depth of discharge inverter losses counted",
+  "p": 129,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator rezystora LED",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/led-resistor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Series resistor in ohms, nearest standard E12 value, actual current & wattage.",
+  "k": "kalkulator rezystora led kalkulator rezystora led kalkulator rezystora led calculator construction series resistor in ohms nearest standard e12 value actual current wattage",
+  "p": 130,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator mocy trójfazowej",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/three-phase-power-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "kW, kVA & kvar from line voltage, line current & power factor for balanced loads.",
+  "k": "kalkulator mocy trojfazowej kalkulator mocy trojfazowej kalkulator mocy trojfazowej calculator construction kw kva kvar from line voltage line current power factor for balanced loads",
+  "p": 131,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator prądu silnika",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/motor-current-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Estimated full-load amps from motor kW or hp, efficiency & power factor.",
+  "k": "kalkulator pradu silnika kalkulator pradu silnika kalkulator pradu silnika calculator construction estimated full load amps from motor kw or hp efficiency power factor",
+  "p": 132,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator kodu kolorów rezystorów",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/resistor-colour-code-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Read 4, 5 & 6-band resistor colours to ohms & tolerance — or turn a value back into bands.",
+  "k": "kalkulator kodu kolorow rezystorow kalkulator kodu kolorow rezystorow kalkulator kodu kolorow rezystorow calculator construction read 4 5 6 band resistor colours to ohms tolerance or turn a value back into bands",
+  "p": 133,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator timera 555",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/555-timer-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Astable frequency & duty cycle and monostable pulse width from R and C.",
+  "k": "kalkulator timera 555 kalkulator timera 555 kalkulator timera 555 calculator construction astable frequency duty cycle and monostable pulse width from r and c",
+  "p": 134,
+  "c": "Tool"
+ },
+ {
+  "n": "Konwerter AWG",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/awg-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "AWG to mm, mm² and resistance per km for copper & aluminium — and back from mm² or diameter.",
+  "k": "konwerter awg konwerter awg konwerter awg calculator construction awg to mm mm2 and resistance per km for copper aluminium and back from mm2 or diameter",
+  "p": 135,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator reaktancji",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/reactance-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Capacitive & inductive reactance in ohms, plus LC resonant frequency.",
+  "k": "kalkulator reaktancji kalkulator reaktancji kalkulator reaktancji calculator construction capacitive inductive reactance in ohms plus lc resonant frequency",
+  "p": 136,
+  "c": "Tool"
+ },
+ {
+  "n": "Konwerter dB",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/db-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "Power & voltage ratios to decibels, dBm to milliwatts & watts and back.",
+  "k": "konwerter db konwerter db konwerter db calculator construction power voltage ratios to decibels dbm to milliwatts watts and back",
+  "p": 137,
+  "c": "Tool"
+ }
+]

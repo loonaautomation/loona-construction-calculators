@@ -1,0 +1,29 @@
+{
+  "name": "Loona dB Converter",
+  "short_name": "dB Converter",
+  "description": "Darmowy konwerter decybeli: stosunki mocy i napięcia na dB z własnym odniesieniem, dBm na miliwaty i waty oraz moc z powrotem na dBm i dBW — wzory i przykłady obliczeniowe.",
+  "id": "/loona-construction-calculators/pl/db-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

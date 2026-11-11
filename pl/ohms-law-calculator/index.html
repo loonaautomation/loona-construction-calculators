@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalkulator prawa Ohma — napięcie, prąd, rezystancja i moc (V, I, R, P) | Loona Construction Calculators</title>
+<meta name="description" content="Darmowy kalkulator prawa Ohma: wpisz dowolne dwie spośród napięcia, prądu, rezystancji i mocy, a otrzymasz pozostałe dwie — wszystkie cztery ćwiartki koła prawa Ohma, ze wzorami i przykładem obliczeniowym.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/pl/ohms-law-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/ohms-law-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/ohms-law-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/ohms-law-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/ohms-law-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/ohms-law-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/ohms-law-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/ohms-law-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/ohms-law-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/ohms-law-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/ohms-law-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/ohms-law-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/ohms-law-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-construction-calculators/pl/ohms-law-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/ohms-law-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kalkulator prawa Ohma — napięcie, prąd, rezystancja i moc (V, I, R, P) | Loona Construction Calculators">
+<meta property="og:description" content="Darmowy kalkulator prawa Ohma: wpisz dowolne dwie spośród napięcia, prądu, rezystancji i mocy, a otrzymasz pozostałe dwie — wszystkie cztery ćwiartki koła prawa Ohma, ze wzorami i przykładem obliczeniowym.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/pl/ohms-law-calculator/"><meta property="og:locale" content="pl_PL">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kalkulator prawa Ohma — napięcie, prąd, rezystancja i moc (V, I, R, P) | Loona Construction Calculators">
+<meta name="twitter:description" content="Darmowy kalkulator prawa Ohma: wpisz dowolne dwie spośród napięcia, prądu, rezystancji i mocy, a otrzymasz pozostałe dwie — wszystkie cztery ćwiartki koła prawa Ohma, ze wzorami i przykładem obliczeniowym.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Kalkulator prawa Ohma Loona","url":"https://loonaautomation.github.io/loona-construction-calculators/pl/ohms-law-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Czym jest prawo Ohma prostymi słowami?","acceptedAnswer":{"@type":"Answer","text":"Mówi, że prąd przez przewodnik jest proporcjonalny do napięcia na nim i odwrotnie proporcjonalny do jego rezystancji: podwój napięcie i (dla tego samego rezystora) podwajasz prąd; podwój rezystancję, a prąd maleje o połowę. Zapisuje się to jako V = I × R."}},{"@type":"Question","name":"Które dwie wartości powinienem wpisać?","acceptedAnswer":{"@type":"Answer","text":"Dowolne dwie z czterech. Popularne pary: napięcie + prąd (aby uzyskać rezystancję i moc, np. do sprawdzenia obciążenia), napięcie + moc (aby uzyskać prąd, który pobierze urządzenie — para potrzebna przed wyborem bezpiecznika lub przewodu) oraz prąd + rezystancja (aby uzyskać napięcie odłożone na elemencie)."}},{"@type":"Question","name":"Dlaczego muszę zostawić dwa pola puste?","acceptedAnswer":{"@type":"Answer","text":"Przy trzech lub czterech wpisanych wartościach problem jest nadokreślony i wartości mogą sobie przeczyć. Dokładnie dwie znane mają dokładnie jedną spójną odpowiedź dla pozostałych dwóch — o to chodzi w całym kole prawa Ohma."}},{"@type":"Question","name":"Czy prawo Ohma działa dla AC?","acceptedAnswer":{"@type":"Answer","text":"Dla czysto rezystancyjnych obciążeń AC (grzejniki, żarówki żarowe) tak, przy użyciu napięcia i prądu RMS. Dla silników, transformatorów i innych obciążeń indukcyjnych lub pojemnościowych impedancja zastępuje prostą rezystancję, a moc czynna obejmuje też współczynnik mocy, więc traktuj wyniki dla tych obciążeń jako pierwsze przybliżenie."}},{"@type":"Question","name":"Jak znaleźć prąd pobierany przez urządzenie?","acceptedAnswer":{"@type":"Answer","text":"Wpisz jego moc znamionową i napięcie zasilania. Przykład: czajnik 2,300 W przy 230 V pobiera I = P ÷ V = 2,300 ÷ 230 = 10 A — dlatego potrzebuje obwodu i wtyczki na ponad 10 A."}},{"@type":"Question","name":"A jeśli moja rezystancja jest w kiloomach lub prąd w miliamperach?","acceptedAnswer":{"@type":"Answer","text":"Najpierw przelicz: 1 kΩ = 1,000 Ω i 1 mA = 0.001 A. Wpisanie 500 mA jako 0.5 i 2 kΩ jako 2000 utrzymuje matematykę poprawną; wyniki wracają w woltach, amperach, omach i watach."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/pl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kalkulator prawa Ohma",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/pl/ohms-law-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo Loona Automation">
+<div class="brand">Loona <span>Kalkulatory budowlane</span></div>
+<nav>
+<a href="../">Strona główna</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">O nas</a>
+<a href="../contact.html">Kontakt</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Elektryka &rsaquo; Kalkulator prawa Ohma</div>
+<h1 class="pagetitle">⚡ Kalkulator prawa Ohma</h1>
+<p class="lead">Wpisz dowolne <strong>dwa</strong> wartości — napięcie, prąd, rezystancję lub moc — zostaw pozostałe dwie puste, a ten kalkulator obliczy resztę, używając prawa Ohma i prawa mocy. (Brak przełącznika jednostek: wolty, ampery, omy i waty są takie same w krajach metrycznych i imperialnych.)</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_V">Napięcie V (wolty) — zostaw puste, jeśli nieznane</label><input type="number" id="f_V" step="any" value="12"></div><div class="fld"><label for="f_I">Prąd I (ampery) — zostaw puste, jeśli nieznany</label><input type="number" id="f_I" step="any" value="3"></div><div class="fld"><label for="f_R">Rezystancja R (omy) — zostaw puste, jeśli nieznana</label><input type="number" id="f_R" step="any" value=""></div><div class="fld"><label for="f_P">Moc P (waty) — zostaw puste, jeśli nieznana</label><input type="number" id="f_P" step="any" value=""></div>
+<button type="button" class="calcbtn" id="calcBtn">Oblicz</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Jak używać Kalkulatora prawa Ohma</h2><ol><li>Zdecyduj, które dwie wartości znasz — na przykład napięcie zasilania i prąd pobierany przez urządzenie.</li><li>Wpisz te dwie i zostaw pozostałe dwa pola puste.</li><li>Naciśnij Oblicz: dwie nieznane wartości są obliczane, a wszystkie cztery pokazywane razem, abyś mógł je wzajemnie sprawdzić.</li></ol>
+<div class="exbox"><strong>Przykład:</strong> Zasilanie 12 V zasilające obwód pobierający 3 A: rezystancja = 12 ÷ 3 = <strong>4 Ω</strong> a moc = 12 × 3 = <strong>36 W</strong>.</div>
+<h2>Najczęściej zadawane pytania</h2></section><div class="faq"><h3>Czym jest prawo Ohma prostymi słowami?</h3><p>Mówi, że prąd przez przewodnik jest proporcjonalny do napięcia na nim i odwrotnie proporcjonalny do jego rezystancji: podwój napięcie i (dla tego samego rezystora) podwajasz prąd; podwój rezystancję, a prąd maleje o połowę. Zapisuje się to jako V = I × R.</p></div><div class="faq"><h3>Które dwie wartości powinienem wpisać?</h3><p>Dowolne dwie z czterech. Popularne pary: napięcie + prąd (aby uzyskać rezystancję i moc, np. do sprawdzenia obciążenia), napięcie + moc (aby uzyskać prąd, który pobierze urządzenie — para potrzebna przed wyborem bezpiecznika lub przewodu) oraz prąd + rezystancja (aby uzyskać napięcie odłożone na elemencie).</p></div><div class="faq"><h3>Dlaczego muszę zostawić dwa pola puste?</h3><p>Przy trzech lub czterech wpisanych wartościach problem jest nadokreślony i wartości mogą sobie przeczyć. Dokładnie dwie znane mają dokładnie jedną spójną odpowiedź dla pozostałych dwóch — o to chodzi w całym kole prawa Ohma.</p></div>
+<h2 class="sec">Powiązane kalkulatory</h2><div class="grid"><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>Kalkulator spadku napięcia</h3><p>Elektryka</p></a><a class="card" href="../wire-size-calculator/"><div class="ic">🧵</div><h3>Kalkulator przekroju przewodów</h3><p>Elektryka</p></a><a class="card" href="../electricity-cost-calculator/"><div class="ic">💷</div><h3>Kalkulator kosztów energii elektrycznej</h3><p>Elektryka</p></a><a class="card" href="../solar-panel-calculator/"><div class="ic">☀️</div><h3>Kalkulator paneli słonecznych</h3><p>Elektryka</p></a></div>
+</div>
+<section class="txt"><h2>Jak to działa &mdash; wzór</h2>
+<p><strong>Prawo Ohma:</strong> V = I × R &nbsp;·&nbsp; I = V ÷ R &nbsp;·&nbsp; R = V ÷ I<br>
+<strong>Prawo mocy:</strong> P = V × I &nbsp;·&nbsp; P = I² × R &nbsp;·&nbsp; P = V² ÷ R<br>
+<strong>Formy pierwiastkowe (z R i P):</strong> V = √(P × R) &nbsp;·&nbsp; I = √(P ÷ R)</p>
+<p>Wyobraź sobie <strong>Koło prawa Ohma</strong>: cztery wielkości — V na górze, potem I, R i P — ułożone w okrąg dwunastu wzorów. Zasłoń palcem wielkość, której szukasz, a dwoje widocznych sąsiadów poda ci wzór: zasłoń V, a zobaczysz I × R; zasłoń I, a zobaczysz V ÷ R (oraz P ÷ V); zasłoń R, a zobaczysz V ÷ I (oraz P ÷ I²); zasłoń P, a zobaczysz V × I, I² × R lub V² ÷ R. Od którejkolwiek pary zaczniesz, koło się zamyka: dwie niewiadome wynikają z dwóch znanych — dokładnie to ten kalkulator robi dla wszystkich czterech ćwiartek.</p>
+<h3>Przykład obliczeniowy</h3>
+<div class="exbox">Obwód pobiera <strong>I = 2 A</strong> przez rezystancję <strong>R = 47 Ω</strong>. Napięcie: V = I × R = 2 × 47 = <strong>94 V</strong>. Moc: P = I² × R = 2² × 47 = 4 × 47 = <strong>188 W</strong>. Kontrola drugim wzorem na moc: P = V × I = 94 × 2 = 188 W — obie drogi się zgadzają, tak jak muszą.</div>
+
+<h3>Najczęściej zadawane pytania</h3></section>
+<div class="faq"><h3>Czy prawo Ohma działa dla AC?</h3><p>Dla czysto rezystancyjnych obciążeń AC (grzejniki, żarówki żarowe) tak, przy użyciu napięcia i prądu RMS. Dla silników, transformatorów i innych obciążeń indukcyjnych lub pojemnościowych impedancja zastępuje prostą rezystancję, a moc czynna obejmuje też współczynnik mocy, więc traktuj wyniki dla tych obciążeń jako pierwsze przybliżenie.</p></div><div class="faq"><h3>Jak znaleźć prąd pobierany przez urządzenie?</h3><p>Wpisz jego moc znamionową i napięcie zasilania. Przykład: czajnik 2,300 W przy 230 V pobiera I = P ÷ V = 2,300 ÷ 230 = 10 A — dlatego potrzebuje obwodu i wtyczki na ponad 10 A.</p></div><div class="faq"><h3>A jeśli moja rezystancja jest w kiloomach lub prąd w miliamperach?</h3><p>Najpierw przelicz: 1 kΩ = 1,000 Ω i 1 mA = 0.001 A. Wpisanie 500 mA jako 0.5 i 2 kΩ jako 2000 utrzymuje matematykę poprawną; wyniki wracają w woltach, amperach, omach i watach.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Osadź ten kalkulator na swojej stronie — za darmo</h2>
+<p style="margin:0 0 12px;line-height:1.6">Dodaj ten kalkulator do własnej strony lub bloga — jest całkowicie darmowy, nie wymaga rejestracji i zawsze pokazuje najnowszą wersję. Skopiuj poniższy kod i wklej go na swoją stronę tam, gdzie kalkulator ma się pojawić. Zachowanie małej linijki kredytu &ldquo;Powered by Loona Automation&rdquo; pod osadzeniem pomaga utrzymać to narzędzie darmowym &mdash; ale możesz ją dowolnie stylizować lub usunąć; narzędzie działa tak czy inaczej.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/pl/ohms-law-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Ohm's Law Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Dostarczone przez &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/pl/ohms-law-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; darmowy Kalkulator prawa Ohma&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Kopiuj kod osadzania</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Skopiowano!';setTimeout(function(){b.textContent='Kopiuj kod osadzania';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Popularne kalkulatory</h4><ul><li><a href="../paint-calculator/">Kalkulator farby</a></li>
+<li><a href="../concrete-calculator/">Kalkulator betonu</a></li>
+<li><a href="../tile-calculator/">Kalkulator płytek</a></li>
+<li><a href="../brick-calculator/">Kalkulator cegieł</a></li>
+<li><a href="../roof-pitch-calculator/">Kalkulator nachylenia dachu</a></li>
+<li><a href="../stairs-calculator/">Kalkulator schodów</a></li></ul></div>
+<div><h4>Więcej narzędzi Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Wszystkie narzędzia Loona</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">O nas</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Polityka prywatności</a></li>
+<li><a href="../terms.html">Warunki użytkowania</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Darmowe kalkulatory budowlane w jednostkach metrycznych i imperialnych, bez rejestracji.
+Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  function known(x){ return isFinite(x) && x > 0; }
+  var n = (known(v.V)?1:0)+(known(v.I)?1:0)+(known(v.R)?1:0)+(known(v.P)?1:0);
+  if (n !== 2) return bad("Wpisz dokładnie DWIE wartości (na przykład napięcie i prąd) i zostaw pozostałe dwie puste — kalkulator obliczy resztę.");
+  var V=v.V, I=v.I, R=v.R, P=v.P;
+  if (known(V) && known(I)) { R = V / I; P = V * I; }
+  else if (known(V) && known(R)) { I = V / R; P = V * V / R; }
+  else if (known(V) && known(P)) { I = P / V; R = V * V / P; }
+  else if (known(I) && known(R)) { V = I * R; P = I * I * R; }
+  else if (known(I) && known(P)) { V = P / I; R = P / (I * I); }
+  else if (known(R) && known(P)) { V = Math.sqrt(P * R); I = Math.sqrt(P / R); }
+  var html = resTable("Moc (P)", fmt(P, 2) + " W",
+    [["Napięcie (V)", fmt(V, 3) + " V"],["Prąd (I)", fmt(I, 3) + " A"],["Rezystancja (R)", fmt(R, 3) + " \u03A9"],["Moc (P)", fmt(P, 2) + " W"]],
+    "Sprawdzenie: V = I \u00D7 R i P = V \u00D7 I obowiązują dla tych czterech wartości. Dla obwodów AC z silnikami lub innymi obciążeniami indukcyjnymi moc czynna zależy także od współczynnika mocy — ten kalkulator obejmuje prąd stały i czysto rezystancyjne obciążenia AC.");
+  return { ok: true, V: V, I: I, R: R, P: P, html: html };
+} };
+
+function collect(){ return { V: gv("f_V"), I: gv("f_I"), R: gv("f_R"), P: gv("f_P") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Zainstaluj aplikację';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Zainstaluj tę aplikację: dotknij przycisku Udostępnij, a następnie wybierz "Dodaj do ekranu głównego".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

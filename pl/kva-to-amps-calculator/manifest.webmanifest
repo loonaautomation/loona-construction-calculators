@@ -1,0 +1,29 @@
+{
+  "name": "Loona kVA to Amps Calculator",
+  "short_name": "kVA to Amps Calculator",
+  "description": "Darmowy kalkulator kVA na ampery dla zasilania jednofazowego i trójfazowego — i odwrotnie, ampery na kVA. Wymiaruj prądy generatora, transformatora i zasilania z kVA i napięcia.",
+  "id": "/loona-construction-calculators/pl/kva-to-amps-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

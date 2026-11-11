@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 750 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 750 Sq Ft?",
+  "description": "Płytki na 750 sq ft przy płytkach 60×60 cm i fugach 3 mm: 211 płytek (53 opakowania po 4) wraz z 10% zapasem na cięcia i stłuczki.",
+  "id": "/loona-construction-calculators/pl/tiles-for-750-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
