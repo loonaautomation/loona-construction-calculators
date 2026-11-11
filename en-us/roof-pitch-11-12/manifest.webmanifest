@@ -1,0 +1,29 @@
+{
+  "name": "Loona 11/12 Roof Pitch — 42.5°",
+  "short_name": "11/12 Roof Pitch — 42.5°",
+  "description": "A 11/12 roof pitch is 42.51 degrees (92% grade). Rafter multiplier 1.3566, rafter lengths for common runs, materials and uses.",
+  "id": "/loona-construction-calculators/en-us/roof-pitch-11-12/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
