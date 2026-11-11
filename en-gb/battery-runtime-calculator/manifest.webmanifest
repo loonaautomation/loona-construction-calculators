@@ -1,0 +1,29 @@
+{
+  "name": "Loona Battery Runtime Calculator",
+  "short_name": "Battery Runtime Calculator",
+  "description": "Free battery runtime calculator: battery volts and amp-hours, load watts, depth of discharge and inverter efficiency give usable watt-hours and runtime in hours — for solar, UPS and off-grid planning.",
+  "id": "/loona-construction-calculators/en-gb/battery-runtime-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

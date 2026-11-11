@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dB Converter — Power & Voltage Ratios to Decibels, dBm to mW and Watts | Loona Construction Calculators</title>
+<meta name="description" content="Free decibel converter: power ratios and voltage ratios to dB with your own reference, dBm to milliwatts and watts, and power back to dBm and dBW — formulas and worked examples.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/en-gb/db-converter/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/db-converter/"><link rel="alternate" hreflang="en-gb" href="https://loonaautomation.github.io/loona-construction-calculators/en-gb/db-converter/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/db-converter/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/db-converter/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/db-converter/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/db-converter/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/db-converter/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/db-converter/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/db-converter/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/db-converter/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/db-converter/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/db-converter/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-construction-calculators/id/db-converter/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/db-converter/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-construction-calculators/bn/db-converter/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-construction-calculators/ja/db-converter/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/db-converter/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-construction-calculators/zh/db-converter/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-construction-calculators/pl/db-converter/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-construction-calculators/vi/db-converter/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/db-converter/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="dB Converter — Power & Voltage Ratios to Decibels, dBm to mW and Watts | Loona Construction Calculators">
+<meta property="og:description" content="Free decibel converter: power ratios and voltage ratios to dB with your own reference, dBm to milliwatts and watts, and power back to dBm and dBW — formulas and worked examples.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/en-gb/db-converter/"><meta property="og:locale" content="en_GB">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="dB Converter — Power & Voltage Ratios to Decibels, dBm to mW and Watts | Loona Construction Calculators">
+<meta name="twitter:description" content="Free decibel converter: power ratios and voltage ratios to dB with your own reference, dBm to milliwatts and watts, and power back to dBm and dBW — formulas and worked examples.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona dB Converter","url":"https://loonaautomation.github.io/loona-construction-calculators/en-gb/db-converter/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why are there two formulas — 10 log and 20 log?","acceptedAnswer":{"@type":"Answer","text":"Decibels are defined on power. Power ratios use 10 × log. Since power is proportional to voltage squared (at the same impedance), the square turns into a factor of two in the log — hence 20 × log for voltage and current ratios. Mixing them up is the most common dB mistake."}},{"@type":"Question","name":"What is dBm, and how is it different from plain dB?","acceptedAnswer":{"@type":"Answer","text":"Plain dB is a ratio — it needs a 'compared to what'. dBm fixes the reference at 1 milliwatt, so it expresses an absolute power: a transmitter at +30 dBm puts out 1 W; a received signal at −90 dBm is a billionth of a milliwatt. dBW does the same against 1 W."}},{"@type":"Question","name":"What does a negative dB or dBm value mean?","acceptedAnswer":{"@type":"Answer","text":"A negative ratio in dB means the value is smaller than its reference (half the power = −3.01 dB). A negative dBm means a power below 1 mW — normal and expected for received radio signals, which are routinely −70 to −110 dBm."}},{"@type":"Question","name":"How do amplifier gains in dB combine?","acceptedAnswer":{"@type":"Answer","text":"They add — that is the point of logarithms. A preamp with +20 dB followed by a power amp with +26 dB gives +46 dB overall; a cable losing 3 dB subtracts 3. Working in dB turns a chain of multiplications into simple addition and subtraction."}},{"@type":"Question","name":"Is the voltage-ratio rule always valid?","acceptedAnswer":{"@type":"Answer","text":"Only when both voltages are measured across the same impedance — true inside most audio and RF chains. Comparing a voltage at a 50 Ω point with one at a 600 Ω point by 20 log alone misstates the power ratio; convert through power when impedances differ."}},{"@type":"Question","name":"How does dB relate to sound levels I see quoted?","acceptedAnswer":{"@type":"Answer","text":"Sound pressure level uses dB SPL referenced to 20 µPa (the threshold of hearing), with voltage-style 20 log because it is a pressure ratio. This converter handles electrical ratios and dBm; SPL is the same mathematics with a different fixed reference."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/en-gb/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "dB Converter",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/en-gb/db-converter/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation logo">
+<div class="brand">Loona <span>Construction Calculators</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">About</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Electrical &rsaquo; dB Converter</div>
+<h1 class="pagetitle">🔊 dB Converter</h1>
+<p class="lead">Decibels compress huge ratios into handy numbers. Convert a power ratio or a voltage ratio to dB against any reference you choose, or translate between dBm and real power in milliwatts and watts — the language of audio, radio and amplifier gains.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_mode">Conversion</label><select id="f_mode"><option value="pratio" selected>Power ratio &rarr; dB</option><option value="vratio">Voltage ratio &rarr; dB</option><option value="dbm2p">dBm &rarr; power (mW / W)</option><option value="p2dbm">Power &rarr; dBm</option></select></div><div class="fld"><label for="f_val">Value — power or voltage (ratio modes)</label><input type="number" id="f_val" step="any" value="100"></div><div class="fld"><label for="f_ref">Reference — same units as the value (ratio modes)</label><input type="number" id="f_ref" step="any" value="1"></div><div class="fld"><label for="f_dbm">Level in dBm (dBm &rarr; power mode)</label><input type="number" id="f_dbm" step="any" value="20"></div><div class="fld"><label for="f_pval">Power (power &rarr; dBm mode)</label><input type="number" id="f_pval" step="any" value="100"></div><div class="fld"><label for="f_punit">Power unit</label><select id="f_punit"><option value="mw" selected>Milliwatts (mW)</option><option value="w">Watts (W)</option></select></div>
+<button type="button" class="calcbtn" id="calcBtn">Calculate</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>How to use the dB Converter</h2><ol><li>Choose the conversion: a power or voltage ratio to dB, dBm to real power, or real power to dBm.</li><li>For ratios, enter the value and its reference in the same units (watts with watts, volts with volts) — the reference is what '0 dB' means for your measurement.</li><li>Press Calculate. Only the fields for the chosen mode are used.</li></ol>
+<div class="exbox"><strong>Example:</strong> An amplifier delivering 100 W against a 1 W reference is 10 × log₁₀(100) = <strong>+20 dB</strong>; and 20 dBm is exactly <strong>100 mW</strong>.</div>
+<h2>Frequently Asked Questions</h2></section><div class="faq"><h3>Why are there two formulas — 10 log and 20 log?</h3><p>Decibels are defined on power. Power ratios use 10 × log. Since power is proportional to voltage squared (at the same impedance), the square turns into a factor of two in the log — hence 20 × log for voltage and current ratios. Mixing them up is the most common dB mistake.</p></div><div class="faq"><h3>What is dBm, and how is it different from plain dB?</h3><p>Plain dB is a ratio — it needs a 'compared to what'. dBm fixes the reference at 1 milliwatt, so it expresses an absolute power: a transmitter at +30 dBm puts out 1 W; a received signal at −90 dBm is a billionth of a milliwatt. dBW does the same against 1 W.</p></div><div class="faq"><h3>What does a negative dB or dBm value mean?</h3><p>A negative ratio in dB means the value is smaller than its reference (half the power = −3.01 dB). A negative dBm means a power below 1 mW — normal and expected for received radio signals, which are routinely −70 to −110 dBm.</p></div>
+<h2 class="sec">Related Calculators</h2><div class="grid"><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>Amps to Watts Calculator</h3><p>Electrical</p></a><a class="card" href="../reactance-calculator/"><div class="ic">〰️</div><h3>Reactance Calculator</h3><p>Electrical</p></a><a class="card" href="../power-factor-calculator/"><div class="ic">🎚️</div><h3>Power Factor Calculator</h3><p>Electrical</p></a><a class="card" href="../three-phase-power-calculator/"><div class="ic">🔺</div><h3>Three-Phase Power Calculator</h3><p>Electrical</p></a></div>
+</div>
+<section class="txt"><h2>How it works &mdash; the formula</h2>
+<p><strong>Power ratio:</strong> dB = 10 × log₁₀(P ÷ P<sub>ref</sub>)<br>
+<strong>Voltage ratio:</strong> dB = 20 × log₁₀(V ÷ V<sub>ref</sub>) — the 20 appears because power goes as voltage squared, and it assumes both voltages see the same impedance<br>
+<strong>dBm to power:</strong> P (mW) = 10<sup>(dBm ÷ 10)</sup> &nbsp;·&nbsp; <strong>Power to dBm:</strong> dBm = 10 × log₁₀(P in mW)<br>
+<strong>dBW</strong> = dBm − 30 (referenced to 1 W instead of 1 mW)</p>
+<p>Reference points worth memorising: +3 dB ≈ double the power, +6 dB ≈ double the voltage (four times the power), +10 dB = exactly ten times the power, and 0 dBm = 1 mW — the standard reference across radio and telecom work.</p>
+<h3>Worked example</h3>
+<div class="exbox">Power ratio: P = 100, reference = 1 (same units). dB = 10 × log₁₀(100 ÷ 1) = 10 × 2 = <strong>+20 dB</strong>. Voltage check: a ratio of 10 gives 20 × log₁₀(10) = <strong>+20 dB</strong> too — because ten times the voltage across the same impedance is a hundred times the power. dBm check: 10<sup>(20 ÷ 10)</sup> = 10² = <strong>100 mW</strong> for 20 dBm, and 30 dBm = 1,000 mW = <strong>1 W</strong>.</div>
+
+<h3>Frequently asked questions</h3></section>
+<div class="faq"><h3>How do amplifier gains in dB combine?</h3><p>They add — that is the point of logarithms. A preamp with +20 dB followed by a power amp with +26 dB gives +46 dB overall; a cable losing 3 dB subtracts 3. Working in dB turns a chain of multiplications into simple addition and subtraction.</p></div><div class="faq"><h3>Is the voltage-ratio rule always valid?</h3><p>Only when both voltages are measured across the same impedance — true inside most audio and RF chains. Comparing a voltage at a 50 Ω point with one at a 600 Ω point by 20 log alone misstates the power ratio; convert through power when impedances differ.</p></div><div class="faq"><h3>How does dB relate to sound levels I see quoted?</h3><p>Sound pressure level uses dB SPL referenced to 20 µPa (the threshold of hearing), with voltage-style 20 log because it is a pressure ratio. This converter handles electrical ratios and dBm; SPL is the same mathematics with a different fixed reference.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed this calculator on your website — free</h2>
+<p style="margin:0 0 12px;line-height:1.6">Add this calculator to your own website or blog — it is completely free, needs no sign-up, and always shows the latest version. Copy the code below and paste it into your page where you want the calculator to appear. Keeping the small &ldquo;Powered by Loona Automation&rdquo; credit line under the embed helps keep this tool free &mdash; but you are free to style or remove it; the tool works either way.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/en-gb/db-converter/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="dB Converter by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Powered by &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/en-gb/db-converter/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; free dB Converter&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copy embed code</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copy embed code';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Popular Calculators</h4><ul><li><a href="../paint-calculator/">Paint Calculator</a></li>
+<li><a href="../concrete-calculator/">Concrete Calculator</a></li>
+<li><a href="../tile-calculator/">Tile Calculator</a></li>
+<li><a href="../brick-calculator/">Brick Calculator</a></li>
+<li><a href="../roof-pitch-calculator/">Roof Pitch Calculator</a></li>
+<li><a href="../stairs-calculator/">Stairs Calculator</a></li></ul></div>
+<div><h4>More Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">All Loona Tools</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">About</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Privacy Policy</a></li>
+<li><a href="../terms.html">Terms of Use</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Free construction calculators in metric and imperial units, no signup.
+Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  if (v.mode === "pratio") {
+    if (!pos(v.val, v.ref)) return bad("Please enter the power and the reference power (same units).");
+    var db1 = 10 * Math.log10(v.val / v.ref);
+    var html1 = resTable("Level difference", fmt(db1, 2) + " dB",
+      [["Power", fmt(v.val, 4)],["Reference power", fmt(v.ref, 4)],["Ratio", fmt(v.val / v.ref, 4) + " \u00D7"]],
+      "Power ratios use 10\u00D7log\u2081\u2080. Doubling a power is +3.01 dB; ten times the power is +10 dB.");
+    return { ok: true, db: db1, html: html1 };
+  }
+  if (v.mode === "vratio") {
+    if (!pos(v.val, v.ref)) return bad("Please enter the voltage and the reference voltage (same units).");
+    var db2 = 20 * Math.log10(v.val / v.ref);
+    var html2 = resTable("Level difference", fmt(db2, 2) + " dB",
+      [["Voltage", fmt(v.val, 4)],["Reference voltage", fmt(v.ref, 4)],["Ratio", fmt(v.val / v.ref, 4) + " \u00D7"]],
+      "Voltage (and current) ratios use 20\u00D7log\u2081\u2080 \u2014 valid when both voltages are measured across the same impedance, which is what makes the power ratio the square of the voltage ratio. Doubling a voltage is +6.02 dB.");
+    return { ok: true, db: db2, html: html2 };
+  }
+  if (v.mode === "dbm2p") {
+    if (!isFinite(v.dbm)) return bad("Please enter the level in dBm.");
+    var mw = Math.pow(10, v.dbm / 10);
+    var html3 = resTable("Power", fmt(mw, 3) + " mW (" + fmt(mw / 1000, 5) + " W)",
+      [["Level", fmt(v.dbm, 2) + " dBm"],["Power in milliwatts", fmt(mw, 3) + " mW"],["Power in watts", fmt(mw / 1000, 5) + " W"],["Also equal to", fmt(v.dbm - 30, 2) + " dBW"]],
+      "dBm is referenced to 1 milliwatt: 0 dBm = 1 mW, and every +10 dBm multiplies the power by ten.");
+    return { ok: true, mw: mw, w: mw / 1000, html: html3 };
+  }
+  // p2dbm
+  if (!pos(v.pval)) return bad("Please enter the power.");
+  var mw2 = (v.punit === "w") ? v.pval * 1000 : v.pval;
+  var dbm4 = 10 * Math.log10(mw2);
+  var html4 = resTable("Level", fmt(dbm4, 2) + " dBm",
+    [["Power", fmt(mw2, 3) + " mW (" + fmt(mw2 / 1000, 5) + " W)"],["Level in dBm (ref 1 mW)", fmt(dbm4, 2) + " dBm"],["Level in dBW (ref 1 W)", fmt(dbm4 - 30, 2) + " dBW"]],
+    "Negative dBm values are simply powers below a milliwatt \u2014 a sensitive radio receiver works with signals around \u2212100 dBm.");
+  return { ok: true, dbm: dbm4, mw: mw2, html: html4 };
+} };
+
+function collect(){ return { mode: gs("f_mode"), val: gv("f_val"), ref: gv("f_ref"), dbm: gv("f_dbm"), pval: gv("f_pval"), punit: gs("f_punit") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Install App';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Install this app: tap the Share button, then choose "Add to Home Screen".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Concrete for 2000 Sq Ft? Volume",
+  "short_name": "How Much Concrete for 2000 Sq",
+  "description": "Concrete for a 2000 sq ft slab, 4 inches thick: 20.77 m³ (27.16 yd³) including 10% extra, plus pre-mix bag counts for 80 lb, 60 lb, 25 kg and 20 kg bags.",
+  "id": "/loona-construction-calculators/en-gb/concrete-for-2000-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

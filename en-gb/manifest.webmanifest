@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Free construction calculators that work in BOTH metric and imperial units: paint, tile, concrete, flooring, drywall, brick, gravel, roof pitch, stairs, board foot, wallpaper, mulch, asphalt, insulation, fence, deck, pool volume, solar panel, carpet, plywood, sand, Ohm's law, voltage drop, wire size, electricity cost, amps to watts, watts to amps, kVA to amps, power factor, battery runtime, LED resistor, three-phase power, motor current, resistor colour code, 555 timer, AWG conversion, reactance and decibel conversion — with waste allowances and worked examples.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/en-gb/"
+}

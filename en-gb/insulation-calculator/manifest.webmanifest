@@ -1,0 +1,29 @@
+{
+  "name": "Loona Insulation Calculator",
+  "short_name": "Insulation Calculator",
+  "description": "Free insulation calculator: enter the area and your target R-value (or metric RSI) and get the packs of batts/rolls or bags of blown-in insulation to buy, plus the thickness your target needs — metric and imperial.",
+  "id": "/loona-construction-calculators/en-gb/insulation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

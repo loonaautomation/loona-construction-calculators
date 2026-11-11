@@ -1,0 +1,29 @@
+{
+  "name": "Loona Solar Panel Calculator",
+  "short_name": "Solar Panel Calculator",
+  "description": "Free solar panel calculator: monthly electricity use, peak sun hours and panel wattage give you the panels needed, system size in kW, expected monthly production and roof area — no sign-up.",
+  "id": "/loona-construction-calculators/en-gb/solar-panel-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
