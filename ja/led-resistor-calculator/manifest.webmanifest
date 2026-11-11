@@ -1,0 +1,29 @@
+{
+  "name": "Loona LED Resistor Calculator",
+  "short_name": "LED Resistor Calculator",
+  "description": "無料のLED抵抗計算機：電源電圧、LEDの順方向電圧、順方向電流、直列LEDの数から、オーム単位の抵抗、最も近い標準E12値、実際の電流、抵抗のワット数が得られます。",
+  "id": "/loona-construction-calculators/ja/led-resistor-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

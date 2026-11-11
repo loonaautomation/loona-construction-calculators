@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>オームの法則計算機 — 電圧、電流、抵抗、電力（V、I、R、P） | Loona Construction Calculators</title>
+<meta name="description" content="無料のオームの法則計算機：電圧、電流、抵抗、電力のうち任意の二つを入力すると残りの二つが得られます — オームの法則の円の四つの象限すべて、公式と計算例付きです。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/ja/ohms-law-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/ohms-law-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/ohms-law-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/ohms-law-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/ohms-law-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/ohms-law-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/ohms-law-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/ohms-law-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/ohms-law-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/ohms-law-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/ohms-law-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/ohms-law-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-construction-calculators/ja/ohms-law-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/ohms-law-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="オームの法則計算機 — 電圧、電流、抵抗、電力（V、I、R、P） | Loona Construction Calculators">
+<meta property="og:description" content="無料のオームの法則計算機：電圧、電流、抵抗、電力のうち任意の二つを入力すると残りの二つが得られます — オームの法則の円の四つの象限すべて、公式と計算例付きです。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/ja/ohms-law-calculator/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="オームの法則計算機 — 電圧、電流、抵抗、電力（V、I、R、P） | Loona Construction Calculators">
+<meta name="twitter:description" content="無料のオームの法則計算機：電圧、電流、抵抗、電力のうち任意の二つを入力すると残りの二つが得られます — オームの法則の円の四つの象限すべて、公式と計算例付きです。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona オームの法則計算機","url":"https://loonaautomation.github.io/loona-construction-calculators/ja/ohms-law-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"オームの法則を簡単な言葉で言うと何ですか？","acceptedAnswer":{"@type":"Answer","text":"導体を流れる電流は、その両端の電圧に比例し、その抵抗に反比例すると述べています。電圧を二倍にすると（同じ抵抗では）電流も二倍になり、抵抗を二倍にすると電流は半分になります。V = I × R と書きます。"}},{"@type":"Question","name":"どの二つの値を入力すべきですか？","acceptedAnswer":{"@type":"Answer","text":"四つのうち任意の二つ。一般的な組み合わせ：電圧＋電流（抵抗と電力を得るため、負荷のチェックなど）、電圧＋電力（機器が消費する電流を得るため — ヒューズやケーブルを選ぶ前に必要な組み合わせ）、電流＋抵抗（部品にかかる電圧降下を得るため）。"}},{"@type":"Question","name":"なぜ二つのボックスを空にしておかなければならないのですか？","acceptedAnswer":{"@type":"Answer","text":"三つまたは四つの値を入力すると、問題は過剰に指定され、値は互いに矛盾する場合があります。ちょうど二つの既知の値には、他の二つに対する一貫した答えがちょうど一つあります — それがオームの法則の円の要点です。"}},{"@type":"Question","name":"オームの法則はACでも使えますか？","acceptedAnswer":{"@type":"Answer","text":"純粋な抵抗AC負荷（ヒーター、白熱灯）については、実効値の電圧と電流を使って、その通りです。モーター、変圧器、その他の誘導性・容量性負荷については、単純な抵抗の代わりにインピーダンスが入り、有効電力には力率も関わるため、それらの負荷の結果は第一次近似として扱ってください。"}},{"@type":"Question","name":"機器が消費する電流をどう見つけますか？","acceptedAnswer":{"@type":"Answer","text":"定格電力と電源電圧を入力してください。例：230 V で 2,300 W のケトルは I = P ÷ V = 2,300 ÷ 230 = 10 A を消費します — だから 10 A を超える定格の回路とプラグが必要です。"}},{"@type":"Question","name":"抵抗がキロオーム、電流がミリアンペアの場合はどうすればいいですか？","acceptedAnswer":{"@type":"Answer","text":"まず換算してください：1 kΩ = 1,000 Ω、1 mA = 0.001 A です。500 mA を 0.5 と入力し、2 kΩ を 2000 と入力すれば計算が正しくなります。結果はボルト、アンペア、オーム、ワットで返ります。"}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "オームの法則計算機",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ja/ohms-law-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>建設計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">お問い合わせ</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; 電気 &rsaquo; オームの法則計算機</div>
+<h1 class="pagetitle">⚡ オームの法則計算機</h1>
+<p class="lead">任意の値を入力 <strong>two</strong> 値 — 電圧、電流、抵抗、電力 — のうち、他の二つは空のままにしてください。この計算機が、オームの法則と電力の法則を使って残りを計算します。（ここに単位スイッチはありません：ボルト、アンペア、オーム、ワットはメートル法の国でもヤードポンド法の国でも同じです。）</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_V">電圧 V（ボルト） — 不明な場合は空白のまま</label><input type="number" id="f_V" step="any" value="12"></div><div class="fld"><label for="f_I">電流 I（アンペア） — 不明な場合は空白のまま</label><input type="number" id="f_I" step="any" value="3"></div><div class="fld"><label for="f_R">抵抗 R（オーム） — 不明な場合は空白のまま</label><input type="number" id="f_R" step="any" value=""></div><div class="fld"><label for="f_P">電力 P（ワット） — 不明な場合は空白のまま</label><input type="number" id="f_P" step="any" value=""></div>
+<button type="button" class="calcbtn" id="calcBtn">計算</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>オームの法則計算機の使い方</h2><ol><li>知っている二つの値を決めてください — 例えば電源電圧と、機器が消費する電流です。</li><li>その二つを入力し、他の二つのボックスは空のままにしてください。</li><li>「計算」を押してください：二つの未知の値が計算され、四つすべてが一緒に表示されるので、お互いに照合できます。</li></ol>
+<div class="exbox"><strong>例：</strong> 3 A を消費する回路に 12 V の電源を供給する場合：抵抗 = 12 ÷ 3 = <strong>4 Ω</strong> そして電力 = 12 × 3 = <strong>36 W</strong>.</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>オームの法則を簡単な言葉で言うと何ですか？</h3><p>導体を流れる電流は、その両端の電圧に比例し、その抵抗に反比例すると述べています。電圧を二倍にすると（同じ抵抗では）電流も二倍になり、抵抗を二倍にすると電流は半分になります。V = I × R と書きます。</p></div><div class="faq"><h3>どの二つの値を入力すべきですか？</h3><p>四つのうち任意の二つ。一般的な組み合わせ：電圧＋電流（抵抗と電力を得るため、負荷のチェックなど）、電圧＋電力（機器が消費する電流を得るため — ヒューズやケーブルを選ぶ前に必要な組み合わせ）、電流＋抵抗（部品にかかる電圧降下を得るため）。</p></div><div class="faq"><h3>なぜ二つのボックスを空にしておかなければならないのですか？</h3><p>三つまたは四つの値を入力すると、問題は過剰に指定され、値は互いに矛盾する場合があります。ちょうど二つの既知の値には、他の二つに対する一貫した答えがちょうど一つあります — それがオームの法則の円の要点です。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>電圧降下計算機</h3><p>電気</p></a><a class="card" href="../wire-size-calculator/"><div class="ic">🧵</div><h3>電線サイズ計算機</h3><p>電気</p></a><a class="card" href="../electricity-cost-calculator/"><div class="ic">💷</div><h3>電気代計算機</h3><p>電気</p></a><a class="card" href="../solar-panel-calculator/"><div class="ic">☀️</div><h3>太陽光パネル計算機</h3><p>電気</p></a></div>
+</div>
+<section class="txt"><h2>仕組み &mdash; 計算式</h2>
+<p><strong>オームの法則：</strong> V = I × R &nbsp;·&nbsp; I = V ÷ R &nbsp;·&nbsp; R = V ÷ I<br>
+<strong>電力の法則：</strong> P = V × I &nbsp;·&nbsp; P = I² × R &nbsp;·&nbsp; P = V² ÷ R<br>
+<strong>平方根の形（R と P から）：</strong> V = √(P × R) &nbsp;·&nbsp; I = √(P ÷ R)</p>
+<p>次を思い浮かべてください： <strong>オームの法則の円</strong>：四つの量 — 上に V、その後に I、R、P — が十二の公式の円に並んでいます。求めたい量を指で隠すと、見えている二つの隣が公式を教えてくれます。V を隠すと I × R が見え、I を隠すと V ÷ R（と P ÷ V）が見え、R を隠すと V ÷ I（と P ÷ I²）が見え、P を隠すと V × I、I² × R、V² ÷ R が見えます。どのペアから始めても円は閉じます。二つの未知数は、知っている二つから導き出されます。これはまさにこの計算機が四つの象限すべてで行うことです。</p>
+<h3>計算例</h3>
+<div class="exbox">回路が消費する電流は <strong>I = 2 A</strong> 次の抵抗を通して： <strong>R = 47 Ω</strong>。電圧：V = I × R = 2 × 47 = <strong>94 V</strong>。電力：P = I² × R = 2² × 47 = 4 × 47 = <strong>188 W</strong>。別の電力公式でクロスチェック：P = V × I = 94 × 2 = 188 W — 両方の方法が一致します。当然そうなるはずです。</div>
+
+<h3>よくある質問</h3></section>
+<div class="faq"><h3>オームの法則はACでも使えますか？</h3><p>純粋な抵抗AC負荷（ヒーター、白熱灯）については、実効値の電圧と電流を使って、その通りです。モーター、変圧器、その他の誘導性・容量性負荷については、単純な抵抗の代わりにインピーダンスが入り、有効電力には力率も関わるため、それらの負荷の結果は第一次近似として扱ってください。</p></div><div class="faq"><h3>機器が消費する電流をどう見つけますか？</h3><p>定格電力と電源電圧を入力してください。例：230 V で 2,300 W のケトルは I = P ÷ V = 2,300 ÷ 230 = 10 A を消費します — だから 10 A を超える定格の回路とプラグが必要です。</p></div><div class="faq"><h3>抵抗がキロオーム、電流がミリアンペアの場合はどうすればいいですか？</h3><p>まず換算してください：1 kΩ = 1,000 Ω、1 mA = 0.001 A です。500 mA を 0.5 と入力し、2 kΩ を 2000 と入力すれば計算が正しくなります。結果はボルト、アンペア、オーム、ワットで返ります。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機をあなたのウェブサイトやブログに追加してください — 完全に無料で、登録も不要で、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けてください。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を残していただくと、このツールを無料で保つ助けになります &mdash; ただし、スタイルを変えたり削除したりしても自由です。ツールはどちらの場合も動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/ja/ohms-law-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Ohm's Law Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/ja/ohms-law-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の オームの法則計算機&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピー</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='コピーしました！';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../paint-calculator/">塗料計算機</a></li>
+<li><a href="../concrete-calculator/">コンクリート計算機</a></li>
+<li><a href="../tile-calculator/">タイル計算機</a></li>
+<li><a href="../brick-calculator/">レンガ計算機</a></li>
+<li><a href="../roof-pitch-calculator/">屋根勾配計算機</a></li>
+<li><a href="../stairs-calculator/">階段計算機</a></li></ul></div>
+<div><h4>その他のLoonaツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">すべてのLoonaツール</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">お問い合わせ</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。メートル法とヤードポンド法の無料建設計算機、登録不要。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  function known(x){ return isFinite(x) && x > 0; }
+  var n = (known(v.V)?1:0)+(known(v.I)?1:0)+(known(v.R)?1:0)+(known(v.P)?1:0);
+  if (n !== 2) return bad("ちょうど2つの値を入力し（例えば電圧と電流）、他の2つは空のままにしてください — 計算機が残りを計算します。");
+  var V=v.V, I=v.I, R=v.R, P=v.P;
+  if (known(V) && known(I)) { R = V / I; P = V * I; }
+  else if (known(V) && known(R)) { I = V / R; P = V * V / R; }
+  else if (known(V) && known(P)) { I = P / V; R = V * V / P; }
+  else if (known(I) && known(R)) { V = I * R; P = I * I * R; }
+  else if (known(I) && known(P)) { V = P / I; R = P / (I * I); }
+  else if (known(R) && known(P)) { V = Math.sqrt(P * R); I = Math.sqrt(P / R); }
+  var html = resTable("電力 (P)", fmt(P, 2) + " W",
+    [["電圧 (V)", fmt(V, 3) + " V"],["電流 (I)", fmt(I, 3) + " A"],["抵抗 (R)", fmt(R, 3) + " \u03A9"],["電力 (P)", fmt(P, 2) + " W"]],
+    "確認：これら4つの値については、V = I \u00D7 R と P = V \u00D7 I の両方が成り立ちます。モーターやその他の誘導性負荷のあるAC回路では、有効電力は力率にも依存します — この計算機は DC と純粋な抵抗性AC負荷を対象とします。");
+  return { ok: true, V: V, I: I, R: R, P: P, html: html };
+} };
+
+function collect(){ return { V: gv("f_V"), I: gv("f_I"), R: gv("f_R"), P: gv("f_P") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストール：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

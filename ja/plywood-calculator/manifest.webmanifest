@@ -1,0 +1,29 @@
+{
+  "name": "Loona Plywood Calculator",
+  "short_name": "Plywood Calculator",
+  "description": "無料の合板シート計算機：面積のサイズとシートのサイズ（2440×1220 mm または 4×8 ft）をメートル法またはヤードポンド法で入力すると、面積によるシート数とレイアウトによるシート数、推奨数量、ロスの余分、任意の費用が得られます。",
+  "id": "/loona-construction-calculators/ja/plywood-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

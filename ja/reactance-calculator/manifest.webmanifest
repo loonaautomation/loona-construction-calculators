@@ -1,0 +1,29 @@
+{
+  "name": "Loona Reactance Calculator",
+  "short_name": "Reactance Calculator",
+  "description": "無料のリアクタンス計算機：周波数と静電容量（µF）で容量性リアクタンス Xc が、インダクタンス（mH）で誘導性リアクタンス Xl が得られます — 両方を入力すると、正味のリアクタンスと LC 共振周波数が得られます。",
+  "id": "/loona-construction-calculators/ja/reactance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

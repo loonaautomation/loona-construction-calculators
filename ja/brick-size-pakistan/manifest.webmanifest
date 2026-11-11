@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in Pakistan",
+  "short_name": "Brick Size in Pakistan",
+  "description": "パキスタンの標準レンガサイズ：228 × 107 × 69 mm。10 mm のモルタル目地で一重張りの壁 m²あたり 53.2 個（4.94 / sq ft）、1,000個あたりのカバー面積、壁の計算例。",
+  "id": "/loona-construction-calculators/ja/brick-size-pakistan/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in United States (Modular)",
+  "short_name": "Brick Size in United States",
+  "description": "アメリカの標準レンガサイズ（モジュラー）：194 × 92 × 57 mm。9.5 mm のモルタル目地で一重張りの壁 m²あたり 73.9 個（6.87 / sq ft）、1,000個あたりのカバー面積、壁の計算例。",
+  "id": "/loona-construction-calculators/ja/brick-size-us-modular/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Sizes by Country",
+  "short_name": "Brick Sizes by Country",
+  "description": "イギリス、アメリカ、インド、パキスタン、オーストラリア、ドイツ、南アフリカの標準レンガサイズ — 寸法と平方メートルあたりのレンガ数を比較。",
+  "id": "/loona-construction-calculators/ja/brick-sizes-by-country/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

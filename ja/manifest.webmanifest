@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "メートル法とヤードポンド法の両方で使える無料の建設計算機：塗料、タイル、コンクリート、フローリング、石膏ボード、レンガ、砂利、屋根勾配、階段、ボードフィート、壁紙、マルチ、アスファルト、断熱材、フェンス、デッキ、プール容量、太陽光パネル、カーペット、合板、砂、オームの法則、電圧降下、電線サイズ、電気代、アンペアからワットへ、ワットからアンペアへ、kVAからアンペアへ、力率、バッテリー駆動時間、LED抵抗、三相電力、モーター電流、抵抗カラーコード、555タイマー、AWG変換、リアクタンス、デシベル変換 — ロスの余分と計算例付きです。",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/ja/"
+}

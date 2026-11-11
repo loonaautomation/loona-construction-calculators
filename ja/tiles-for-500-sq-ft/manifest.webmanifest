@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 500 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 500 Sq Ft?",
+  "description": "60×60 cm タイルと 3 mm の目地で 500 sq ft のタイル：カットと破損のための 10% の余分を含め、141枚（4枚入り36箱）。",
+  "id": "/loona-construction-calculators/ja/tiles-for-500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

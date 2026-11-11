@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>バッテリー駆動時間計算機 — バッテリーは負荷をどれくらい動かせますか？（Ah、Wh、時間） | Loona Construction Calculators</title>
+<meta name="description" content="無料のバッテリー駆動時間計算機：バッテリーの電圧とアンペア時、負荷のワット数、放電深度、インバーター効率から、使用可能なワット時と時間単位の駆動時間が得られます — 太陽光、UPS、オフグリッドの計画に。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/ja/battery-runtime-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/battery-runtime-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/battery-runtime-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/battery-runtime-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/battery-runtime-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/battery-runtime-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/battery-runtime-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/battery-runtime-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/battery-runtime-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/battery-runtime-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/battery-runtime-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/battery-runtime-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-construction-calculators/ja/battery-runtime-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/battery-runtime-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="バッテリー駆動時間計算機 — バッテリーは負荷をどれくらい動かせますか？（Ah、Wh、時間） | Loona Construction Calculators">
+<meta property="og:description" content="無料のバッテリー駆動時間計算機：バッテリーの電圧とアンペア時、負荷のワット数、放電深度、インバーター効率から、使用可能なワット時と時間単位の駆動時間が得られます — 太陽光、UPS、オフグリッドの計画に。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/ja/battery-runtime-calculator/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="バッテリー駆動時間計算機 — バッテリーは負荷をどれくらい動かせますか？（Ah、Wh、時間） | Loona Construction Calculators">
+<meta name="twitter:description" content="無料のバッテリー駆動時間計算機：バッテリーの電圧とアンペア時、負荷のワット数、放電深度、インバーター効率から、使用可能なワット時と時間単位の駆動時間が得られます — 太陽光、UPS、オフグリッドの計画に。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona バッテリー駆動時間計算機","url":"https://loonaautomation.github.io/loona-construction-calculators/ja/battery-runtime-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"なぜ単に Ah を負荷のアンペアで割らないのですか？","acceptedAnswer":{"@type":"Answer","text":"負荷は通常、AC側でワット表記であり、二つの現実的な要因が介在するからです。自分で制限すべき放電深度と、インバーターの損失です。鉛蓄電池システムでは、両方を無視すると駆動時間を 40% 以上過大に見積もります。"}},{"@type":"Question","name":"どの放電深度を使うべきですか？","acceptedAnswer":{"@type":"Answer","text":"鉛蓄電池（AGMとゲルを含む）：妥当な耐用年数には 50%。LiFePO4 リチウム：80–90% が日常的に使われます。バッテリーメーカーのデータシートを確認してください — サイクル寿命は明記された DoD で示され、より深いサイクルは寿命を急激に縮めます。"}},{"@type":"Question","name":"複数のバッテリーをどう組み合わせますか？","acceptedAnswer":{"@type":"Answer","text":"直列では電圧が加わり Ah は同じままです（12 V 100 Ah を二つ直列 = 24 V 100 Ah）。並列では Ah が加わり電圧は同じままです（二つ並列 = 12 V 200 Ah）。どちらの場合も合計のワット時は同じです — バンクの合算した電圧と Ah を入力してください。"}},{"@type":"Question","name":"なぜ実際の駆動時間が短くなったのですか？","acceptedAnswer":{"@type":"Answer","text":"一般的な理由：バッテリーの Ah 定格は、ゆっくりした20時間放電で測られています — 速く引き出すと鉛蓄電池の供給量は減ります（ポイケルト効果）。冷えたバッテリーは保持量が減り、古いバッテリーは衰え、インバーターの待機消費が負荷に加わります。結果は最良のケースとして扱ってください。"}},{"@type":"Question","name":"負荷をDCから直接動かして、インバーターの損失を省けますか？","acceptedAnswer":{"@type":"Answer","text":"負荷がバッテリー電圧を受け入れる場合（照明、多くの 12 V 機器）、効率を 100% に設定してください — 実際には配線を見込んで 95–98% — すると駆動時間はそれに応じて増えます。AC専用の機器をバッテリーに直接つなぐことは決してしないでください。"}},{"@type":"Question","name":"これは太陽光パネル計算機とどう組み合わさりますか？","acceptedAnswer":{"@type":"Answer","text":"太陽光パネル計算機でアレイのサイズを設定し、毎日使うエネルギーを置き換えてください。そしてこのツールを使って、バッテリーバンクが必要な時間をカバーするか確認してください — オフグリッド設計の二つの半分です。"}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "バッテリー駆動時間計算機",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ja/battery-runtime-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>建設計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">お問い合わせ</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; 電気 &rsaquo; バッテリー駆動時間計算機</div>
+<h1 class="pagetitle">🔋 バッテリー駆動時間計算機</h1>
+<p class="lead">太陽光用バッテリー、UPS、オフグリッドの設備を計画していますか？バッテリーの電圧とアンペア時容量、ワットでの負荷、どれくらい深く放電するつもりか、インバーター効率を入力してください — 使用可能なエネルギーと期待できる駆動時間が得られます。</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_volts">バッテリー電圧 (V)</label><input type="number" id="f_volts" step="any" value="12"></div><div class="fld"><label for="f_ah">バッテリー容量 (Ah)</label><input type="number" id="f_ah" step="any" value="100"></div><div class="fld"><label for="f_load">負荷（ワット）</label><input type="number" id="f_load" step="any" value="100"></div><div class="fld"><label for="f_dod">使用可能な放電深度 (%) — 鉛蓄電池では 50、リチウム（LiFePO4）では 80–90</label><input type="number" id="f_dod" step="any" value="50"></div><div class="fld"><label for="f_eff">インバーター／システム効率 (%) — 直接DC負荷では 100、一般的なインバーターでは約 85</label><input type="number" id="f_eff" step="any" value="85"></div>
+<button type="button" class="calcbtn" id="calcBtn">計算</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>バッテリー駆動時間計算機の使い方</h2><ol><li>バッテリー電圧とアンペア時（Ah）定格を入力してください — バッテリーのバンクについては、そのバンクの合計電圧と、その電圧での Ah を使ってください。</li><li>負荷をワットで入力してください（同時に動くものをすべて合計してください）。</li><li>実際に使う放電深度とインバーター効率を設定し、「計算」を押してください。</li></ol>
+<div class="exbox"><strong>例：</strong> 12 V、100 Ah のバッテリーで、放電深度 50%、効率 85% のインバーターを介して 100 W の負荷を運転する場合：使用可能エネルギー = 510 Wh、駆動時間 = <strong>5.1 hours</strong>.</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>なぜ単に Ah を負荷のアンペアで割らないのですか？</h3><p>負荷は通常、AC側でワット表記であり、二つの現実的な要因が介在するからです。自分で制限すべき放電深度と、インバーターの損失です。鉛蓄電池システムでは、両方を無視すると駆動時間を 40% 以上過大に見積もります。</p></div><div class="faq"><h3>どの放電深度を使うべきですか？</h3><p>鉛蓄電池（AGMとゲルを含む）：妥当な耐用年数には 50%。LiFePO4 リチウム：80–90% が日常的に使われます。バッテリーメーカーのデータシートを確認してください — サイクル寿命は明記された DoD で示され、より深いサイクルは寿命を急激に縮めます。</p></div><div class="faq"><h3>複数のバッテリーをどう組み合わせますか？</h3><p>直列では電圧が加わり Ah は同じままです（12 V 100 Ah を二つ直列 = 24 V 100 Ah）。並列では Ah が加わり電圧は同じままです（二つ並列 = 12 V 200 Ah）。どちらの場合も合計のワット時は同じです — バンクの合算した電圧と Ah を入力してください。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../solar-panel-calculator/"><div class="ic">☀️</div><h3>太陽光パネル計算機</h3><p>電気</p></a><a class="card" href="../electricity-cost-calculator/"><div class="ic">💷</div><h3>電気代計算機</h3><p>電気</p></a><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>アンペア→ワット変換計算機</h3><p>電気</p></a><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>電圧降下計算機</h3><p>電気</p></a></div>
+</div>
+<section class="txt"><h2>仕組み &mdash; 計算式</h2>
+<p><strong>蓄積エネルギー (Wh)</strong> = 電圧 × アンペア時<br>
+<strong>使用可能なエネルギー (Wh)</strong> = 蓄電量 × 放電深度 × 効率<br>
+<strong>駆動時間（時間）</strong> = 使用可能 Wh ÷ 負荷 (W)<br>
+<strong>平均バッテリー電流 (A)</strong> = 負荷 ÷ (電圧 × 効率)</p>
+<p>二つの正直な調整が、これを素朴な「Ah ÷ アンペア」の計算と分けます：ほとんどのバッテリーは空にすべきではありません（鉛蓄電池は 50% を超えて定期的に放電するとすぐに劣化しますが、LiFePO4 は 80–90% に耐えます）。そしてインバーターは、変換するエネルギーの 10–20% を無駄にします。両方とも上記の公式に入っています。</p>
+<h3>計算例</h3>
+<div class="exbox">12 V × 100 Ah = <strong>1,200 Wh</strong> 蓄積されます。使用可能 = 1,200 × 0.50 × 0.85 = <strong>510 Wh</strong>。駆動時間 = 510 ÷ 100 W = <strong>5.1 hours</strong> (5時間6分)。バッテリーは平均で 100 ÷ (12 × 0.85) = <strong>9.80 A</strong> それをしながら。</div>
+
+<h3>よくある質問</h3></section>
+<div class="faq"><h3>なぜ実際の駆動時間が短くなったのですか？</h3><p>一般的な理由：バッテリーの Ah 定格は、ゆっくりした20時間放電で測られています — 速く引き出すと鉛蓄電池の供給量は減ります（ポイケルト効果）。冷えたバッテリーは保持量が減り、古いバッテリーは衰え、インバーターの待機消費が負荷に加わります。結果は最良のケースとして扱ってください。</p></div><div class="faq"><h3>負荷をDCから直接動かして、インバーターの損失を省けますか？</h3><p>負荷がバッテリー電圧を受け入れる場合（照明、多くの 12 V 機器）、効率を 100% に設定してください — 実際には配線を見込んで 95–98% — すると駆動時間はそれに応じて増えます。AC専用の機器をバッテリーに直接つなぐことは決してしないでください。</p></div><div class="faq"><h3>これは太陽光パネル計算機とどう組み合わさりますか？</h3><p>太陽光パネル計算機でアレイのサイズを設定し、毎日使うエネルギーを置き換えてください。そしてこのツールを使って、バッテリーバンクが必要な時間をカバーするか確認してください — オフグリッド設計の二つの半分です。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機をあなたのウェブサイトやブログに追加してください — 完全に無料で、登録も不要で、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けてください。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を残していただくと、このツールを無料で保つ助けになります &mdash; ただし、スタイルを変えたり削除したりしても自由です。ツールはどちらの場合も動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/ja/battery-runtime-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Battery Runtime Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/ja/battery-runtime-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の バッテリー駆動時間計算機&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピー</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='コピーしました！';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../paint-calculator/">塗料計算機</a></li>
+<li><a href="../concrete-calculator/">コンクリート計算機</a></li>
+<li><a href="../tile-calculator/">タイル計算機</a></li>
+<li><a href="../brick-calculator/">レンガ計算機</a></li>
+<li><a href="../roof-pitch-calculator/">屋根勾配計算機</a></li>
+<li><a href="../stairs-calculator/">階段計算機</a></li></ul></div>
+<div><h4>その他のLoonaツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">すべてのLoonaツール</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">お問い合わせ</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。メートル法とヤードポンド法の無料建設計算機、登録不要。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.volts, v.ah, v.load)) return bad("バッテリーの電圧、Ah での容量、ワットでの負荷を入力してください。");
+  var eff = (v.eff > 0 && v.eff <= 100) ? v.eff / 100 : NaN;
+  var dod = (v.dod > 0 && v.dod <= 100) ? v.dod / 100 : NaN;
+  if (!isFinite(eff) || !isFinite(dod)) return bad("効率と使用可能な放電深度は、それぞれ 1 から 100% の間でなければなりません。");
+  var stored = v.volts * v.ah;
+  var usable = stored * dod * eff;
+  var hours = usable / v.load;
+  var mins = Math.round(hours * 60);
+  var current = v.load / (v.volts * eff);
+  var html = resTable("推定駆動時間", fmt(hours, 2) + " 時間 (" + Math.floor(mins / 60) + " h " + (mins % 60) + " min)",
+    [["蓄積エネルギー", fmt(stored, 0) + " Wh"],["使用可能なエネルギー（DoD と損失の後）", fmt(usable, 0) + " Wh"],["バッテリーからの平均電流", fmt(current, 2) + " A"],["負荷", fmt(v.load, 0) + " W"]],
+    "実際の駆動時間は通常より短くなります：容量は、高い放電率（鉛蓄電池でのプイケルト効果）、寒い天候、バッテリーの経年で低下します。これは最良のケースの計画値として扱い、重要な負荷には余裕を残してください。");
+  return { ok: true, storedWh: stored, usableWh: usable, hours: hours, current: current, html: html };
+} };
+
+function collect(){ return { volts: gv("f_volts"), ah: gv("f_ah"), load: gv("f_load"), dod: gv("f_dod"), eff: gv("f_eff") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストール：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

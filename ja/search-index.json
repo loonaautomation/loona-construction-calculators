@@ -1,0 +1,344 @@
+[
+ {
+  "n": "塗料計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/paint-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "あらゆる部屋のリットルとガロン、ドア／窓を差し引き、プライマーを含みます。",
+  "k": "塗料計算機 paint calculator paint calculator paint calculator calculator construction litres gallons for any room doors windows subtracted primer included あらゆる部屋のリットルとガロン ドア プライマーを含みます 塗料計算機 窓を差し引き",
+  "p": 0,
+  "c": "Tool"
+ },
+ {
+  "n": "タイル計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/tile-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "床と壁のタイルと箱、目地の隙間を数えます。",
+  "k": "タイル計算機 tile calculator tile calculator tile calculator calculator construction tiles and boxes for floors walls grout gap counted タイル計算機 床と壁のタイルと箱 目地の隙間を数えます",
+  "p": 1,
+  "c": "Tool"
+ },
+ {
+  "n": "コンクリート計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/concrete-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "m³ と yd³ でのスラブ体積＋プレミックス袋数。",
+  "k": "コンクリート計算機 concrete calculator concrete calculator concrete calculator calculator construction slab volume in m3 yd3 plus pre mix bag count m³ yd³ でのスラブ体積＋プレミックス袋数 と コンクリート計算機",
+  "p": 2,
+  "c": "Tool"
+ },
+ {
+  "n": "フローリング計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/flooring-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "カットのロス付きラミネート、ビニール、木製の箱。",
+  "k": "フローリング計算機 flooring calculator flooring calculator flooring calculator calculator construction laminate vinyl wood boxes with cutting waste カットのロス付きラミネート ビニール フローリング計算機 木製の箱",
+  "p": 3,
+  "c": "Tool"
+ },
+ {
+  "n": "石膏ボード計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/drywall-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "壁と天井の石膏ボードシート。",
+  "k": "石膏ボード計算機 drywall calculator drywall calculator drywall calculator calculator construction plasterboard drywall sheets for walls ceilings 壁と天井の石膏ボードシート 石膏ボード計算機",
+  "p": 4,
+  "c": "Tool"
+ },
+ {
+  "n": "レンガ計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/brick-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "標準のメートル法とアメリカのレンガサイズのレンガ数。",
+  "k": "レンガ計算機 brick calculator brick calculator brick calculator calculator construction brick counts for standard metric us brick sizes レンガ計算機 標準のメートル法とアメリカのレンガサイズのレンガ数",
+  "p": 5,
+  "c": "Tool"
+ },
+ {
+  "n": "砂利計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/gravel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "私道、小道、路盤のトン数と立方ヤード。",
+  "k": "砂利計算機 gravel calculator gravel calculator gravel calculator calculator construction tonnes cubic yards for drives paths and bases 小道 砂利計算機 私道 路盤のトン数と立方ヤード",
+  "p": 106,
+  "c": "Tool"
+ },
+ {
+  "n": "屋根勾配計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/roof-pitch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "勾配比、角度、傾斜、垂木の長さ。",
+  "k": "屋根勾配計算機 roof pitch calculator roof pitch calculator roof pitch calculator calculator construction pitch ratio angle grade and rafter length 傾斜 勾配比 垂木の長さ 屋根勾配計算機 角度",
+  "p": 107,
+  "c": "Tool"
+ },
+ {
+  "n": "階段計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/stairs-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "段数、蹴上の高さ、踏面、水平距離、斜材の長さ。",
+  "k": "階段計算機 stairs calculator stairs calculator stairs calculator calculator construction steps riser height tread run and stringer length 斜材の長さ 段数 水平距離 踏面 蹴上の高さ 階段計算機",
+  "p": 108,
+  "c": "Tool"
+ },
+ {
+  "n": "ボードフィート計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/board-foot-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "ボードフィートと立方メートルでの木材の体積。",
+  "k": "ボードフィート計算機 board foot calculator board foot calculator board foot calculator calculator construction lumber volume in board feet cubic metres ボードフィートと立方メートルでの木材の体積 ボードフィート計算機",
+  "p": 109,
+  "c": "Tool"
+ },
+ {
+  "n": "壁紙計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/wallpaper-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "EU と US のロールのロール数、柄リピートを考慮します。",
+  "k": "壁紙計算機 wallpaper calculator wallpaper calculator wallpaper calculator calculator construction rolls for eu us rolls pattern repeat allowed for EU US と のロールのロール数 壁紙計算機 柄リピートを考慮します",
+  "p": 110,
+  "c": "Tool"
+ },
+ {
+  "n": "マルチ計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/mulch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "花壇と縁取りのための袋とバラの体積。",
+  "k": "マルチ計算機 mulch calculator mulch calculator mulch calculator calculator construction bags bulk volume for beds and borders マルチ計算機 花壇と縁取りのための袋とバラの体積",
+  "p": 111,
+  "c": "Tool"
+ },
+ {
+  "n": "アスファルト計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/asphalt-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "面積と厚さからトン数と米トン数、密度は編集可能、費用の見積もり。",
+  "k": "アスファルト計算機 asphalt calculator asphalt calculator asphalt calculator calculator construction tonnes us tons from area and thickness density editable cost estimate アスファルト計算機 密度は編集可能 費用の見積もり 面積と厚さからトン数と米トン数",
+  "p": 112,
+  "c": "Tool"
+ },
+ {
+  "n": "断熱材計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/insulation-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "目標のR値／RSIに対するバット、ロール、吹き込み袋。厚さのガイド付き。",
+  "k": "断熱材計算機 insulation calculator insulation calculator insulation calculator calculator construction batts rolls or blown in bags for your target r value rsi thickness guide RSIに対するバット ロール 厚さのガイド付き 吹き込み袋 断熱材計算機 目標のR値",
+  "p": 113,
+  "c": "Tool"
+ },
+ {
+  "n": "フェンス計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/fence-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "フェンスの長さと間隔から、支柱、横木、ピケット、コンクリート袋を求めます。",
+  "k": "フェンス計算機 fence calculator fence calculator fence calculator calculator construction posts rails pickets and concrete bags from fence length and spacing コンクリート袋を求めます ピケット フェンスの長さと間隔から フェンス計算機 支柱 横木",
+  "p": 114,
+  "c": "Tool"
+ },
+ {
+  "n": "デッキ計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/deck-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "デッキのサイズ、ボードの幅、根太間隔から、デッキボード、根太、ネジを求めます。",
+  "k": "デッキ計算機 deck calculator deck calculator deck calculator calculator construction deck boards joists and screws from deck size board width and joist spacing デッキのサイズ デッキボード デッキ計算機 ネジを求めます ボードの幅 根太 根太間隔から",
+  "p": 115,
+  "c": "Tool"
+ },
+ {
+  "n": "プール容量計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/pool-volume-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "長方形、丸形、楕円形のプールのリットルと米ガロン — 投与の準備ができます。",
+  "k": "プール容量計算機 pool volume calculator pool volume calculator pool volume calculator calculator construction litres us gallons for rectangle round and oval pools dosing ready プール容量計算機 丸形 投与の準備ができます 楕円形のプールのリットルと米ガロン 長方形",
+  "p": 116,
+  "c": "Tool"
+ },
+ {
+  "n": "太陽光パネル計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/solar-panel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "あなたの請求から、必要なパネル数、システムの kW、予想発電量、屋根面積を求めます。",
+  "k": "太陽光パネル計算機 solar panel calculator solar panel calculator solar panel calculator calculator construction panels needed system kw expected production and roof area from your bill kW あなたの請求から システムの 予想発電量 太陽光パネル計算機 屋根面積を求めます 必要なパネル数",
+  "p": 117,
+  "c": "Tool"
+ },
+ {
+  "n": "カーペット計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/carpet-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "部屋のサイズとロール幅から、直線長さと真の購入面積を求めます。",
+  "k": "カーペット計算機 carpet calculator carpet calculator carpet calculator calculator construction linear length and true purchase area from room size and roll width カーペット計算機 直線長さと真の購入面積を求めます 部屋のサイズとロール幅から",
+  "p": 118,
+  "c": "Tool"
+ },
+ {
+  "n": "合板計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/plywood-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "2440×1220 mm と 4×8 ft シートについて、面積とレイアウトによるシート。",
+  "k": "合板計算機 plywood calculator plywood calculator plywood calculator calculator construction sheets by area and by layout for 2440 1220 mm and 4 8 ft sheets 2440×1220 4×8 ft mm と シートについて 合板計算機 面積とレイアウトによるシート",
+  "p": 119,
+  "c": "Tool"
+ },
+ {
+  "n": "砂計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/sand-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "砂場、舗装の路盤、スクリードのトン数と 25 kg 袋。",
+  "k": "砂計算機 sand calculator sand calculator sand calculator calculator construction tonnes and 25 kg bags for sandboxes paving bases and screeds 25 kg スクリードのトン数と 砂場 砂計算機 舗装の路盤 袋",
+  "p": 120,
+  "c": "Tool"
+ },
+ {
+  "n": "オームの法則計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/ohms-law-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Voltage, current, resistance & power from any two values — the full Ohm's law wheel.",
+  "k": "オームの法則計算機 ohm s law calculator ohm s law calculator ohm s law calculator calculator construction voltage current resistance power from any two values the full ohm s law wheel & Ohm's Voltage, any current, from full law power resistance the two values wheel. オームの法則計算機",
+  "p": 121,
+  "c": "Tool"
+ },
+ {
+  "n": "電圧降下計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/voltage-drop-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Volts & % dropped over a cable run, mm² or AWG, single & three-phase.",
+  "k": "電圧降下計算機 voltage drop calculator voltage drop calculator voltage drop calculator calculator construction volts dropped over a cable run mm2 or awg single three phase % & AWG, Volts a cable dropped mm² or over phase. run, single three 電圧降下計算機",
+  "p": 122,
+  "c": "Tool"
+ },
+ {
+  "n": "電線サイズ計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/wire-size-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Minimum cable size in mm² + standard size & AWG from your drop limit.",
+  "k": "電線サイズ計算機 wire size calculator wire size calculator wire size calculator calculator construction minimum cable size in mm2 standard size awg from your drop limit & + AWG Minimum cable drop from in limit. mm² size standard your 電線サイズ計算機",
+  "p": 123,
+  "c": "Tool"
+ },
+ {
+  "n": "電気代計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/electricity-cost-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "What an appliance costs per day, month & year from watts & price per kWh.",
+  "k": "電気代計算機 electricity cost calculator electricity cost calculator electricity cost calculator calculator construction what an appliance costs per day month year from watts price per kwh & What an appliance costs day, from kWh. month per price watts year 電気代計算機",
+  "p": 124,
+  "c": "Tool"
+ },
+ {
+  "n": "アンペア→ワット変換計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/amps-to-watts-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Watts & kW from amps and volts — DC, single-phase & three-phase with power factor.",
+  "k": "アンペア→ワット変換計算機 amps to watts calculator amps to watts calculator amps to watts calculator calculator construction watts kw from amps and volts dc single phase three phase with power factor & DC, Watts amps and factor. from kW phase power single three volts with アンペア→ワット変換計算機",
+  "p": 125,
+  "c": "Tool"
+ },
+ {
+  "n": "ワット→アンペア変換計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/watts-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Amps from watts and volts for breaker & cable checks — DC, single & three-phase.",
+  "k": "ワット→アンペア変換計算機 watts to amps calculator watts to amps calculator watts to amps calculator calculator construction amps from watts and volts for breaker cable checks dc single three phase & Amps DC, and breaker cable checks for from phase. single three volts watts ワット→アンペア変換計算機",
+  "p": 126,
+  "c": "Tool"
+ },
+ {
+  "n": "kVA→アンペア変換計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/kva-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Generator & transformer kVA to full-load amps, and amps back to kVA, single & three-phase.",
+  "k": "kVA→アンペア変換計算機 kva to amps calculator kva to amps calculator kva to amps calculator calculator construction generator transformer kva to full load amps and amps back to kva single three phase & Generator amps amps, and back full kVA kVA, kVA→アンペア変換計算機 load phase. single three to transformer",
+  "p": 127,
+  "c": "Tool"
+ },
+ {
+  "n": "力率計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/power-factor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Power factor, kvar & phase angle from kW and kVA, plus correction capacitor size.",
+  "k": "力率計算機 power factor calculator power factor calculator power factor calculator calculator construction power factor kvar phase angle from kw and kva plus correction capacitor size & Power and angle capacitor correction factor, from kVA, kW kvar phase plus size. 力率計算機",
+  "p": 128,
+  "c": "Tool"
+ },
+ {
+  "n": "バッテリー駆動時間計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/battery-runtime-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "How long a battery runs a load — Ah, usable Wh, depth of discharge & inverter losses counted.",
+  "k": "バッテリー駆動時間計算機 battery runtime calculator battery runtime calculator battery runtime calculator calculator construction how long a battery runs a load ah usable wh depth of discharge inverter losses counted & Ah, How Wh, a battery counted. depth discharge inverter load long losses of runs usable バッテリー駆動時間計算機",
+  "p": 129,
+  "c": "Tool"
+ },
+ {
+  "n": "LED抵抗計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/led-resistor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Series resistor in ohms, nearest standard E12 value, actual current & wattage.",
+  "k": "LED抵抗計算機 led resistor calculator led resistor calculator led resistor calculator calculator construction series resistor in ohms nearest standard e12 value actual current wattage & E12 LED抵抗計算機 Series actual current in nearest ohms, resistor standard value, wattage.",
+  "p": 130,
+  "c": "Tool"
+ },
+ {
+  "n": "三相電力計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/three-phase-power-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "kW, kVA & kvar from line voltage, line current & power factor for balanced loads.",
+  "k": "三相電力計算機 three phase power calculator three phase power calculator three phase power calculator calculator construction kw kva kvar from line voltage line current power factor for balanced loads & balanced current factor for from kVA kW, kvar line loads. power voltage, 三相電力計算機",
+  "p": 131,
+  "c": "Tool"
+ },
+ {
+  "n": "モーター電流計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/motor-current-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Estimated full-load amps from motor kW or hp, efficiency & power factor.",
+  "k": "モーター電流計算機 motor current calculator motor current calculator motor current calculator calculator construction estimated full load amps from motor kw or hp efficiency power factor & Estimated amps efficiency factor. from full hp, kW load motor or power モーター電流計算機",
+  "p": 132,
+  "c": "Tool"
+ },
+ {
+  "n": "抵抗カラーコード計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/resistor-colour-code-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Read 4, 5 & 6-band resistor colours to ohms & tolerance — or turn a value back into bands.",
+  "k": "抵抗カラーコード計算機 resistor colour code calculator resistor colour code calculator resistor colour code calculator calculator construction read 4 5 6 band resistor colours to ohms tolerance or turn a value back into bands & 4, 5 6 Read a back band bands. colours into ohms or resistor to tolerance turn value 抵抗カラーコード計算機",
+  "p": 133,
+  "c": "Tool"
+ },
+ {
+  "n": "555タイマー計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/555-timer-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Astable frequency & duty cycle and monostable pulse width from R and C.",
+  "k": "555タイマー計算機 555 timer calculator 555 timer calculator 555 timer calculator calculator construction astable frequency duty cycle and monostable pulse width from r and c & 555タイマー計算機 Astable C. R and cycle duty frequency from monostable pulse width",
+  "p": 134,
+  "c": "Tool"
+ },
+ {
+  "n": "AWG変換ツール",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/awg-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "AWG to mm, mm² and resistance per km for copper & aluminium — and back from mm² or diameter.",
+  "k": "AWG変換ツール awg converter awg converter awg converter calculator construction awg to mm mm2 and resistance per km for copper aluminium and back from mm2 or diameter & AWG AWG変換ツール aluminium and back copper diameter. for from km mm, mm² or per resistance to",
+  "p": 135,
+  "c": "Tool"
+ },
+ {
+  "n": "リアクタンス計算機",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/reactance-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Capacitive & inductive reactance in ohms, plus LC resonant frequency.",
+  "k": "リアクタンス計算機 reactance calculator reactance calculator reactance calculator calculator construction capacitive inductive reactance in ohms plus lc resonant frequency & Capacitive LC frequency. in inductive ohms, plus reactance resonant リアクタンス計算機",
+  "p": 136,
+  "c": "Tool"
+ },
+ {
+  "n": "dB Converter",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ja/db-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "Power & voltage ratios to decibels, dBm to milliwatts & watts and back.",
+  "k": "dB Converter db converter db converter db converter calculator construction power voltage ratios to decibels dbm to milliwatts watts and back & Converter Power and back. dB dBm decibels, milliwatts ratios to voltage watts",
+  "p": 137,
+  "c": "Tool"
+ }
+]

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in India",
+  "short_name": "Brick Size in India",
+  "description": "インドの標準レンガサイズ：190 × 90 × 90 mm。10 mm のモルタル目地で一重張りの壁 m²あたり 50.0 個（4.65 / sq ft）、1,000個あたりのカバー面積、壁の計算例。",
+  "id": "/loona-construction-calculators/ja/brick-size-india/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

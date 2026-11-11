@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Concrete for 3000 Sq Ft? Volume",
+  "short_name": "How Much Concrete for 3000 Sq",
+  "description": "厚さ4インチの 3000 sq ft スラブのコンクリート：10%の余分込みで 31.15 m³（40.74 yd³）、さらに 80 lb、60 lb、25 kg、20 kg 袋のプレミックス袋数。",
+  "id": "/loona-construction-calculators/ja/concrete-for-3000-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

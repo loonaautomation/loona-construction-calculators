@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ワット→アンペア変換計算機 — DC、単相、三相（W から A へ） | Loona Construction Calculators</title>
+<meta name="description" content="DC、AC単相、AC三相に対応する無料のワット→アンペア変換計算機：電力、電圧、力率から電流（アンペア）が得られます — ブレーカーやケーブルのサイズ設定の第一歩です。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/ja/watts-to-amps-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/watts-to-amps-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/watts-to-amps-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/watts-to-amps-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/watts-to-amps-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/watts-to-amps-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/watts-to-amps-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/watts-to-amps-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/watts-to-amps-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/watts-to-amps-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/watts-to-amps-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/watts-to-amps-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-construction-calculators/ja/watts-to-amps-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/watts-to-amps-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="ワット→アンペア変換計算機 — DC、単相、三相（W から A へ） | Loona Construction Calculators">
+<meta property="og:description" content="DC、AC単相、AC三相に対応する無料のワット→アンペア変換計算機：電力、電圧、力率から電流（アンペア）が得られます — ブレーカーやケーブルのサイズ設定の第一歩です。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/ja/watts-to-amps-calculator/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ワット→アンペア変換計算機 — DC、単相、三相（W から A へ） | Loona Construction Calculators">
+<meta name="twitter:description" content="DC、AC単相、AC三相に対応する無料のワット→アンペア変換計算機：電力、電圧、力率から電流（アンペア）が得られます — ブレーカーやケーブルのサイズ設定の第一歩です。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona ワット→アンペア変換計算機","url":"https://loonaautomation.github.io/loona-construction-calculators/ja/watts-to-amps-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"なぜ力率がアンペアを変えるのですか？","acceptedAnswer":{"@type":"Answer","text":"誘導性負荷が引き出す電流のうち、有用な仕事をするのは一部だけです。力率 0.8 では、電源はワット数だけが示す電流の 1 ÷ 0.8 = 1.25 倍を供給しなければならず、ケーブルとブレーカーは高い方の数値を見ます。"}},{"@type":"Question","name":"結果にはどのブレーカーサイズが必要ですか？","acceptedAnswer":{"@type":"Answer","text":"ブレーカーは負荷電流以上で定格されなければならず、多くの規程は連続負荷（3時間以上の動作）に 125% のサイズ設定を要求します。計算機は真の負荷電流を表示します。地元の規程のマージンを適用し、ブレーカーとケーブルを選ぶことが次のステップです — 電線サイズ計算機をご覧ください。"}},{"@type":"Question","name":"1,000 W は何アンペアですか？","acceptedAnswer":{"@type":"Answer","text":"電圧と力率によります：230 V で PF 1 では 4.35 A、230 V で PF 0.8 では 5.43 A、120 V で PF 1 では 8.33 A、12 V のDC回路では 83.3 A です — 低電圧システムにあれほど太いケーブルが必要なのはこのためです。"}},{"@type":"Question","name":"これはモーターの定格 kW にも使えますか？","acceptedAnswer":{"@type":"Answer","text":"モーターの銘板 kW は通常、その軸（出力）動力です。電気入力はモーターの損失のため大きくなります。より良い全負荷電流の推定には、効率を計算に加えるモーター電流計算機を使ってください — そして銘板の FLA がある場合は常にそちらを優先してください。"}},{"@type":"Question","name":"三相についてはどうですか — どの電圧を入力しますか？","acceptedAnswer":{"@type":"Answer","text":"線間電圧：一般的なヨーロッパの 400/230 V システムでは 400 V、北米では 480 V または 208 V です。公式の √3 が残りを扱います。"}},{"@type":"Question","name":"アンペアをワットに戻せますか？","acceptedAnswer":{"@type":"Answer","text":"その通りです — それが下にリンクされた、付随するアンペア→ワット変換計算機です。同じ電圧と力率を使う場合、二つは正確な逆変換です。"}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "ワット→アンペア変換計算機",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/ja/watts-to-amps-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>建設計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">お問い合わせ</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; 電気 &rsaquo; ワット→アンペア変換計算機</div>
+<h1 class="pagetitle">🔁 ワット→アンペア変換計算機</h1>
+<p class="lead">ワット数は分かっています — ヒーターの定格、モーターの銘板 — 今度はそれが引き出すアンペアを求めてください。DC、単相、三相を選び、電圧と力率を入力すると、電流が得られます：ブレーカー、ヒューズ、ケーブルを選ぶ前に必要な数値です。</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system_type">システムの種類</label><select id="f_system_type"><option value="dc">DC</option><option value="1" selected>AC単相</option><option value="3">AC三相（線間電圧）</option></select></div><div class="fld"><label for="f_watts">電力（ワット）</label><input type="number" id="f_watts" step="any" value="3000"></div><div class="fld"><label for="f_volts">電圧（ボルト） — 三相では線間</label><input type="number" id="f_volts" step="any" value="230"></div><div class="fld"><label for="f_pf">力率 (0.1–1.0、DC／抵抗負荷では 1.0)</label><input type="number" id="f_pf" step="any" value="0.8"></div>
+<button type="button" class="calcbtn" id="calcBtn">計算</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>ワット→アンペア変換計算機の使い方</h2><ol><li>DC、AC単相、AC三相のいずれかを選んでください。</li><li>負荷の電力をワットで（その定格プレート、または ワット = kW × 1,000）と、電源電圧を入力してください。</li><li>AC負荷の力率を設定してください — ヒーターでは 1.0、一般的なモーターでは約 0.8 — そして「計算」を押してください。</li></ol>
+<div class="exbox"><strong>例：</strong> 単相 230 V で PF 0.8 の 3,000 W 負荷は 3,000 ÷ (230 × 0.8) = <strong>16.30 A</strong> — そのため 16 A ブレーカーでは不十分です。次の大きいサイズが必要です。</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>なぜ力率がアンペアを変えるのですか？</h3><p>誘導性負荷が引き出す電流のうち、有用な仕事をするのは一部だけです。力率 0.8 では、電源はワット数だけが示す電流の 1 ÷ 0.8 = 1.25 倍を供給しなければならず、ケーブルとブレーカーは高い方の数値を見ます。</p></div><div class="faq"><h3>結果にはどのブレーカーサイズが必要ですか？</h3><p>ブレーカーは負荷電流以上で定格されなければならず、多くの規程は連続負荷（3時間以上の動作）に 125% のサイズ設定を要求します。計算機は真の負荷電流を表示します。地元の規程のマージンを適用し、ブレーカーとケーブルを選ぶことが次のステップです — 電線サイズ計算機をご覧ください。</p></div><div class="faq"><h3>1,000 W は何アンペアですか？</h3><p>電圧と力率によります：230 V で PF 1 では 4.35 A、230 V で PF 0.8 では 5.43 A、120 V で PF 1 では 8.33 A、12 V のDC回路では 83.3 A です — 低電圧システムにあれほど太いケーブルが必要なのはこのためです。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>アンペア→ワット変換計算機</h3><p>電気</p></a><a class="card" href="../motor-current-calculator/"><div class="ic">🌀</div><h3>モーター電流計算機</h3><p>電気</p></a><a class="card" href="../wire-size-calculator/"><div class="ic">🧵</div><h3>電線サイズ計算機</h3><p>電気</p></a><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>オームの法則計算機</h3><p>電気</p></a></div>
+</div>
+<section class="txt"><h2>仕組み &mdash; 計算式</h2>
+<p><strong>DC:</strong> I = P ÷ V<br>
+<strong>AC単相：</strong> I = P ÷ (V × PF)<br>
+<strong>AC三相：</strong> I = P ÷ (√3 × V<sub>L-L</sub> × PF)</p>
+<p>これらは電力の法則の公式を変形したものです。力率が何をするかに注目してください。PF 0.8 では、同じワット数でも PF 1 のときより 25% 多くの電流が必要です — だから、ワットをボルトで割ってそこで止まる人は、モーター負荷に驚くのです。</p>
+<h3>計算例</h3>
+<div class="exbox">P = 3,000 W、V = 230 V、PF = 0.8、単相：I = 3,000 ÷ (230 × 0.8) = 3,000 ÷ 184 = <strong>16.30 A</strong>。同じ負荷を純抵抗（PF 1）とすると 3,000 ÷ 230 = 13.04 A を消費します — 力率だけで 3 A 以上増えています。</div>
+
+<h3>よくある質問</h3></section>
+<div class="faq"><h3>これはモーターの定格 kW にも使えますか？</h3><p>モーターの銘板 kW は通常、その軸（出力）動力です。電気入力はモーターの損失のため大きくなります。より良い全負荷電流の推定には、効率を計算に加えるモーター電流計算機を使ってください — そして銘板の FLA がある場合は常にそちらを優先してください。</p></div><div class="faq"><h3>三相についてはどうですか — どの電圧を入力しますか？</h3><p>線間電圧：一般的なヨーロッパの 400/230 V システムでは 400 V、北米では 480 V または 208 V です。公式の √3 が残りを扱います。</p></div><div class="faq"><h3>アンペアをワットに戻せますか？</h3><p>その通りです — それが下にリンクされた、付随するアンペア→ワット変換計算機です。同じ電圧と力率を使う場合、二つは正確な逆変換です。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機をあなたのウェブサイトやブログに追加してください — 完全に無料で、登録も不要で、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けてください。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を残していただくと、このツールを無料で保つ助けになります &mdash; ただし、スタイルを変えたり削除したりしても自由です。ツールはどちらの場合も動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/ja/watts-to-amps-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Watts to Amps Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/ja/watts-to-amps-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の ワット→アンペア変換計算機&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピー</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='コピーしました！';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../paint-calculator/">塗料計算機</a></li>
+<li><a href="../concrete-calculator/">コンクリート計算機</a></li>
+<li><a href="../tile-calculator/">タイル計算機</a></li>
+<li><a href="../brick-calculator/">レンガ計算機</a></li>
+<li><a href="../roof-pitch-calculator/">屋根勾配計算機</a></li>
+<li><a href="../stairs-calculator/">階段計算機</a></li></ul></div>
+<div><h4>その他のLoonaツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">すべてのLoonaツール</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">お問い合わせ</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。メートル法とヤードポンド法の無料建設計算機、登録不要。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.watts, v.volts)) return bad("ワットでの電力と、ボルトでの電圧を入力してください。");
+  var pf = (v.type === "dc") ? 1 : v.pf;
+  if (!(pf > 0 && pf <= 1)) return bad("力率は 0 より大きく、最大で 1 でなければなりません。");
+  var amps;
+  if (v.type === "3") amps = v.watts / (Math.sqrt(3) * v.volts * pf);
+  else amps = v.watts / (v.volts * pf);
+  var html = resTable("電流", fmt(amps, 2) + " A",
+    [["電力", fmt(v.watts, 0) + " W (" + fmt(v.watts / 1000, 3) + " kW)"],["電圧", fmt(v.volts, 1) + " V"],["使用した力率", fmt(pf, 2)]],
+    "これは負荷電流だけです。ブレーカーやケーブルを選ぶには、その上に余裕が必要です \u2014 多くの規程の連続負荷ルールは、保護を負荷電流の 125% でサイズ設定し、ケーブルの許容電流と電圧降下も確認しなければなりません（電線サイズ計算機と電圧降下計算機をご覧ください）。");
+  return { ok: true, amps: amps, html: html };
+} };
+
+function collect(){ return { type: gs("f_system_type"), watts: gv("f_watts"), volts: gv("f_volts"), pf: gv("f_pf") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストール：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 100 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 100 Sq Ft",
+  "description": "壁 100 sq ft の塗料：一般的な 10 m²/L のカバー面積で2回塗り 2.0 リットル（0.5 gal）、さらにプライマー 0.9 L — 前提は記載の通りです。",
+  "id": "/loona-construction-calculators/ja/paint-for-100-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

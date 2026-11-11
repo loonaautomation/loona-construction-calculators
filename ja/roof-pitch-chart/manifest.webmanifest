@@ -1,0 +1,29 @@
+{
+  "name": "Loona Roof Pitch Chart",
+  "short_name": "Roof Pitch Chart",
+  "description": "完全な屋根勾配表：1/12 から 12/12 まで、角度、勾配、垂木倍率付きで、各勾配には専用のガイドページがあります。",
+  "id": "/loona-construction-calculators/ja/roof-pitch-chart/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

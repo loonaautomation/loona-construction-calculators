@@ -1,0 +1,29 @@
+{
+  "name": "Loona kVA to Amps Calculator",
+  "short_name": "kVA to Amps Calculator",
+  "description": "単相と三相電源に対応する無料の kVA→アンペア変換計算機 — そして逆のアンペアから kVA への変換も。kVA と電圧から、発電機、変圧器、電源の電流をサイズ設定します。",
+  "id": "/loona-construction-calculators/ja/kva-to-amps-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
