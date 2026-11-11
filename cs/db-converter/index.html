@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Převodník dB — poměry výkonu a napětí na decibely, dBm na mW a watty | Loona Construction Calculators</title>
+<meta name="description" content="Bezplatný převodník decibelů: poměry výkonu a napětí na dB s vlastní referencí, dBm na miliwatty a watty a výkon zpět na dBm a dBW — vzorce a vypracované příklady.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/cs/db-converter/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/db-converter/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/db-converter/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/db-converter/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/db-converter/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/db-converter/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/db-converter/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/db-converter/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/db-converter/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/db-converter/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/db-converter/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/db-converter/"><link rel="alternate" hreflang="cs" href="https://loonaautomation.github.io/loona-construction-calculators/cs/db-converter/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/db-converter/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Převodník dB — poměry výkonu a napětí na decibely, dBm na mW a watty | Loona Construction Calculators">
+<meta property="og:description" content="Bezplatný převodník decibelů: poměry výkonu a napětí na dB s vlastní referencí, dBm na miliwatty a watty a výkon zpět na dBm a dBW — vzorce a vypracované příklady.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/cs/db-converter/"><meta property="og:locale" content="cs_CZ">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Převodník dB — poměry výkonu a napětí na decibely, dBm na mW a watty | Loona Construction Calculators">
+<meta name="twitter:description" content="Bezplatný převodník decibelů: poměry výkonu a napětí na dB s vlastní referencí, dBm na miliwatty a watty a výkon zpět na dBm a dBW — vzorce a vypracované příklady.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Převodník dB","url":"https://loonaautomation.github.io/loona-construction-calculators/cs/db-converter/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Proč jsou dva vzorce — 10 log a 20 log?","acceptedAnswer":{"@type":"Answer","text":"Decibely jsou definovány na výkonu. Poměry výkonu používají 10 × log. Protože výkon je úměrný druhé mocnině napětí (při stejné impedanci), mění se druhá mocnina v logaritmu na faktor dva — proto 20 × log pro poměry napětí a proudu. Jejich záměna je nejčastější chybou u dB."}},{"@type":"Question","name":"Co je dBm a jak se liší od prostého dB?","acceptedAnswer":{"@type":"Answer","text":"Prosté dB je poměr — potřebuje „ve srovnání s čím“. dBm fixuje referenci na 1 miliwatt, takže vyjadřuje absolutní výkon: vysílač s +30 dBm vydává 1 W; přijímaný signál −90 dBm je miliardtina miliwattu. dBW dělá totéž vůči 1 W."}},{"@type":"Question","name":"Co znamená záporná hodnota dB nebo dBm?","acceptedAnswer":{"@type":"Answer","text":"Záporný poměr v dB znamená, že hodnota je menší než její reference (polovina výkonu = −3.01 dB). Záporné dBm znamená výkon pod 1 mW — normální a očekávané u přijímaných rádiových signálů, které běžně činí −70 až −110 dBm."}},{"@type":"Question","name":"Jak se sčítají zisky zesilovačů v dB?","acceptedAnswer":{"@type":"Answer","text":"Sčítají se — to je podstata logaritmů. Předzesilovač s +20 dB následovaný koncovým zesilovačem s +26 dB dává celkově +46 dB; kabel se ztrátou 3 dB odečte 3. Práce v dB mění řetězec násobení na jednoduché sčítání a odčítání."}},{"@type":"Question","name":"Platí pravidlo poměru napětí vždy?","acceptedAnswer":{"@type":"Answer","text":"Pouze když se obě napětí měří na stejné impedanci — to platí uvnitř většiny audio a RF řetězců. Srovnávání napětí v bodě 50 Ω s napětím v bodě 600 Ω jen pomocí 20 log poměr výkonu zkresluje; když se impedance liší, převádějte přes výkon."}},{"@type":"Question","name":"Jak dB souvisí s hladinami zvuku, které vidím uváděné?","acceptedAnswer":{"@type":"Answer","text":"Hladina akustického tlaku používá dB SPL vztažené k 20 µPa (práh slyšení), s napěťovým 20 log, protože jde o poměr tlaků. Tento převodník zvládá elektrické poměry a dBm; SPL je stejná matematika s jinou pevnou referencí."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/cs/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Převodník dB",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/cs/db-converter/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo Loona Automation">
+<div class="brand">Loona <span>Stavební kalkulačky</span></div>
+<nav>
+<a href="../">Domů</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">O nás</a>
+<a href="../contact.html">Kontakt</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Elektro &rsaquo; Převodník dB</div>
+<h1 class="pagetitle">🔊 Převodník dB</h1>
+<p class="lead">Decibely komprimují obrovské poměry do šikovných čísel. Převeďte poměr výkonu nebo napětí na dB vůči libovolné referenci, kterou si zvolíte, nebo převádějte mezi dBm a skutečným výkonem v miliwattech a wattech — jazyk audia, rádia a zisků zesilovačů.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_mode">Převod</label><select id="f_mode"><option value="pratio" selected>Poměr výkonu &rarr; dB</option><option value="vratio">Poměr napětí &rarr; dB</option><option value="dbm2p">dBm &rarr; výkon (mW / W)</option><option value="p2dbm">Výkon &rarr; dBm</option></select></div><div class="fld"><label for="f_val">Hodnota — výkon nebo napětí (režimy poměrů)</label><input type="number" id="f_val" step="any" value="100"></div><div class="fld"><label for="f_ref">Reference — stejné jednotky jako hodnota (režimy poměrů)</label><input type="number" id="f_ref" step="any" value="1"></div><div class="fld"><label for="f_dbm">Úroveň v dBm (režim dBm &rarr; výkon)</label><input type="number" id="f_dbm" step="any" value="20"></div><div class="fld"><label for="f_pval">Výkon (režim výkon &rarr; dBm)</label><input type="number" id="f_pval" step="any" value="100"></div><div class="fld"><label for="f_punit">Jednotka výkonu</label><select id="f_punit"><option value="mw" selected>Miliwatty (mW)</option><option value="w">Watty (W)</option></select></div>
+<button type="button" class="calcbtn" id="calcBtn">Vypočítat</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Jak používat Převodník dB</h2><ol><li>Zvolte převod: poměr výkonu nebo napětí na dB, dBm na skutečný výkon, nebo skutečný výkon na dBm.</li><li>U poměrů zadejte hodnotu a její referenci ve stejných jednotkách (watty s watty, volty s volty) — reference je to, co pro vaše měření znamená „0 dB“.</li><li>Stiskněte Vypočítat. Použijí se pouze pole zvoleného režimu.</li></ol>
+<div class="exbox"><strong>Příklad:</strong> Zesilovač dodávající 100 W vůči referenci 1 W je 10 × log₁₀(100) = <strong>+20 dB</strong>; a 20 dBm je přesně <strong>100 mW</strong>.</div>
+<h2>Časté dotazy</h2></section><div class="faq"><h3>Proč jsou dva vzorce — 10 log a 20 log?</h3><p>Decibely jsou definovány na výkonu. Poměry výkonu používají 10 × log. Protože výkon je úměrný druhé mocnině napětí (při stejné impedanci), mění se druhá mocnina v logaritmu na faktor dva — proto 20 × log pro poměry napětí a proudu. Jejich záměna je nejčastější chybou u dB.</p></div><div class="faq"><h3>Co je dBm a jak se liší od prostého dB?</h3><p>Prosté dB je poměr — potřebuje „ve srovnání s čím“. dBm fixuje referenci na 1 miliwatt, takže vyjadřuje absolutní výkon: vysílač s +30 dBm vydává 1 W; přijímaný signál −90 dBm je miliardtina miliwattu. dBW dělá totéž vůči 1 W.</p></div><div class="faq"><h3>Co znamená záporná hodnota dB nebo dBm?</h3><p>Záporný poměr v dB znamená, že hodnota je menší než její reference (polovina výkonu = −3.01 dB). Záporné dBm znamená výkon pod 1 mW — normální a očekávané u přijímaných rádiových signálů, které běžně činí −70 až −110 dBm.</p></div>
+<h2 class="sec">Související kalkulačky</h2><div class="grid"><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>Kalkulačka ampérů na watty</h3><p>Elektro</p></a><a class="card" href="../reactance-calculator/"><div class="ic">〰️</div><h3>Kalkulačka reaktance</h3><p>Elektro</p></a><a class="card" href="../power-factor-calculator/"><div class="ic">🎚️</div><h3>Kalkulačka účiníku</h3><p>Elektro</p></a><a class="card" href="../three-phase-power-calculator/"><div class="ic">🔺</div><h3>Kalkulačka třífázového výkonu</h3><p>Elektro</p></a></div>
+</div>
+<section class="txt"><h2>Jak to funguje &mdash; vzorec</h2>
+<p><strong>Poměr výkonu:</strong> dB = 10 × log₁₀(P ÷ P<sub>ref</sub>)<br>
+<strong>Poměr napětí:</strong> dB = 20 × log₁₀(V ÷ V<sub>ref</sub>) — 20 se objevuje proto, že výkon roste s druhou mocninou napětí, a předpokládá se, že obě napětí působí na stejnou impedanci<br>
+<strong>dBm na výkon:</strong> P (mW) = 10<sup>(dBm ÷ 10)</sup> &nbsp;·&nbsp; <strong>Výkon na dBm:</strong> dBm = 10 × log₁₀(P v mW)<br>
+<strong>dBW</strong> = dBm − 30 (vztaženo k 1 W místo 1 mW)</p>
+<p>Referenční body, které stojí za zapamatování: +3 dB ≈ dvojnásobek výkonu, +6 dB ≈ dvojnásobek napětí (čtyřnásobek výkonu), +10 dB = přesně desetinásobek výkonu a 0 dBm = 1 mW — standardní reference napříč radiovou a telekomunikační prací.</p>
+<h3>Vypracovaný příklad</h3>
+<div class="exbox">Poměr výkonu: P = 100, reference = 1 (stejné jednotky). dB = 10 × log₁₀(100 ÷ 1) = 10 × 2 = <strong>+20 dB</strong>. Kontrola napětí: poměr 10 dává 20 × log₁₀(10) = <strong>+20 dB</strong> také — protože desetinásobné napětí na stejné impedanci je stonásobný výkon. Kontrola dBm: 10<sup>(20 ÷ 10)</sup> = 10² = <strong>100 mW</strong> pro 20 dBm a 30 dBm = 1,000 mW = <strong>1 W</strong>.</div>
+
+<h3>Časté dotazy</h3></section>
+<div class="faq"><h3>Jak se sčítají zisky zesilovačů v dB?</h3><p>Sčítají se — to je podstata logaritmů. Předzesilovač s +20 dB následovaný koncovým zesilovačem s +26 dB dává celkově +46 dB; kabel se ztrátou 3 dB odečte 3. Práce v dB mění řetězec násobení na jednoduché sčítání a odčítání.</p></div><div class="faq"><h3>Platí pravidlo poměru napětí vždy?</h3><p>Pouze když se obě napětí měří na stejné impedanci — to platí uvnitř většiny audio a RF řetězců. Srovnávání napětí v bodě 50 Ω s napětím v bodě 600 Ω jen pomocí 20 log poměr výkonu zkresluje; když se impedance liší, převádějte přes výkon.</p></div><div class="faq"><h3>Jak dB souvisí s hladinami zvuku, které vidím uváděné?</h3><p>Hladina akustického tlaku používá dB SPL vztažené k 20 µPa (práh slyšení), s napěťovým 20 log, protože jde o poměr tlaků. Tento převodník zvládá elektrické poměry a dBm; SPL je stejná matematika s jinou pevnou referencí.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Vložte tuto kalkulačku na svůj web — zdarma</h2>
+<p style="margin:0 0 12px;line-height:1.6">Přidejte tuto kalkulačku na svůj vlastní web nebo blog — je zcela zdarma, nevyžaduje registraci a vždy zobrazuje nejnovější verzi. Zkopírujte níže uvedený kód a vložte ho na svou stránku tam, kde chcete kalkulačku zobrazit. Ponechání malého řádku „Powered by Loona Automation“ pod vloženým prvkem pomáhá udržet tento nástroj zdarma &mdash; ale můžete ho libovolně upravit nebo odstranit; nástroj funguje tak jako tak.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/cs/db-converter/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="dB Converter by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Poskytuje &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/cs/db-converter/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; zdarma Převodník dB&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Kopírovat kód pro vložení</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Zkopírováno!';setTimeout(function(){b.textContent='Kopírovat kód pro vložení';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Oblíbené kalkulačky</h4><ul><li><a href="../paint-calculator/">Kalkulačka barvy</a></li>
+<li><a href="../concrete-calculator/">Kalkulačka betonu</a></li>
+<li><a href="../tile-calculator/">Kalkulačka dlažby</a></li>
+<li><a href="../brick-calculator/">Kalkulačka cihel</a></li>
+<li><a href="../roof-pitch-calculator/">Kalkulačka sklonu střechy</a></li>
+<li><a href="../stairs-calculator/">Kalkulačka schodů</a></li></ul></div>
+<div><h4>Další nástroje Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Všechny nástroje Loona</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">O nás</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Zásady ochrany osobních údajů</a></li>
+<li><a href="../terms.html">Podmínky použití</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Bezplatné stavební kalkulačky v metrických a imperiálních jednotkách, bez registrace.
+Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  if (v.mode === "pratio") {
+    if (!pos(v.val, v.ref)) return bad("Zadejte prosím výkon a referenční výkon (stejné jednotky).");
+    var db1 = 10 * Math.log10(v.val / v.ref);
+    var html1 = resTable("Rozdíl úrovní", fmt(db1, 2) + " dB",
+      [["Výkon", fmt(v.val, 4)],["Referenční výkon", fmt(v.ref, 4)],["Poměr", fmt(v.val / v.ref, 4) + " \u00D7"]],
+      "Poměry výkonu používají 10\u00D7log\u2081\u2080. Zdvojnásobení výkonu je +3.01 dB; desetinásobek výkonu je +10 dB.");
+    return { ok: true, db: db1, html: html1 };
+  }
+  if (v.mode === "vratio") {
+    if (!pos(v.val, v.ref)) return bad("Zadejte prosím napětí a referenční napětí (stejné jednotky).");
+    var db2 = 20 * Math.log10(v.val / v.ref);
+    var html2 = resTable("Rozdíl úrovní", fmt(db2, 2) + " dB",
+      [["Napětí", fmt(v.val, 4)],["Referenční napětí", fmt(v.ref, 4)],["Poměr", fmt(v.val / v.ref, 4) + " \u00D7"]],
+      "Poměry napětí (a proudu) používají 20\u00D7log\u2081\u2080 \u2014 platné, když se obě napětí měří na stejné impedanci, díky čemuž je poměr výkonu druhou mocninou poměru napětí. Zdvojnásobení napětí je +6.02 dB.");
+    return { ok: true, db: db2, html: html2 };
+  }
+  if (v.mode === "dbm2p") {
+    if (!isFinite(v.dbm)) return bad("Zadejte prosím úroveň v dBm.");
+    var mw = Math.pow(10, v.dbm / 10);
+    var html3 = resTable("Výkon", fmt(mw, 3) + " mW (" + fmt(mw / 1000, 5) + " W)",
+      [["Úroveň", fmt(v.dbm, 2) + " dBm"],["Výkon v miliwattech", fmt(mw, 3) + " mW"],["Výkon ve wattech", fmt(mw / 1000, 5) + " W"],["Rovno také", fmt(v.dbm - 30, 2) + " dBW"]],
+      "dBm je vztaženo k 1 miliwattu: 0 dBm = 1 mW a každých +10 dBm vynásobí výkon deseti.");
+    return { ok: true, mw: mw, w: mw / 1000, html: html3 };
+  }
+  // p2dbm
+  if (!pos(v.pval)) return bad("Zadejte prosím výkon.");
+  var mw2 = (v.punit === "w") ? v.pval * 1000 : v.pval;
+  var dbm4 = 10 * Math.log10(mw2);
+  var html4 = resTable("Úroveň", fmt(dbm4, 2) + " dBm",
+    [["Výkon", fmt(mw2, 3) + " mW (" + fmt(mw2 / 1000, 5) + " W)"],["Úroveň v dBm (ref 1 mW)", fmt(dbm4, 2) + " dBm"],["Úroveň v dBW (ref 1 W)", fmt(dbm4 - 30, 2) + " dBW"]],
+    "Záporné hodnoty dBm jsou prostě výkony pod jeden miliwatt \u2014 citlivý radiový přijímač pracuje se signály kolem \u2212100 dBm.");
+  return { ok: true, dbm: dbm4, mw: mw2, html: html4 };
+} };
+
+function collect(){ return { mode: gs("f_mode"), val: gv("f_val"), ref: gv("f_ref"), dbm: gv("f_dbm"), pval: gv("f_pval"), punit: gs("f_punit") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalovat aplikaci';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Nainstalujte si tuto aplikaci: klepněte na tlačítko Sdílet a pak zvolte „Přidat na plochu“.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

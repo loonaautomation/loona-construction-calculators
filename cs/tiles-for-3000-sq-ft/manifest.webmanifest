@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 3000 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 3000 Sq",
+  "description": "Dlaždice na 3000 sq ft s dlaždicemi 60×60 cm a spárami 3 mm: 844 dlaždic (211 krabic po 4) včetně 10% navíc na řezy a rozbití.",
+  "id": "/loona-construction-calculators/cs/tiles-for-3000-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
