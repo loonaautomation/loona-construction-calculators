@@ -1,0 +1,29 @@
+{
+  "name": "Loona Solar Panel Calculator",
+  "short_name": "Solar Panel Calculator",
+  "description": "বিনামূল্যের সোলার প্যানেল ক্যালকুলেটর: মাসিক বিদ্যুৎ ব্যবহার, সর্বোচ্চ রোদের ঘণ্টা ও প্যানেলের ওয়াটেজ দিলে প্রয়োজনীয় প্যানেল, kW-তে সিস্টেমের আকার, প্রত্যাশিত মাসিক উৎপাদন ও ছাদের ক্ষেত্রফল পাওয়া যায় — কোনো সাইন-আপ নেই।",
+  "id": "/loona-construction-calculators/bn/solar-panel-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

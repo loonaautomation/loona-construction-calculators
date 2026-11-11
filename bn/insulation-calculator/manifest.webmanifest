@@ -1,0 +1,29 @@
+{
+  "name": "Loona Insulation Calculator",
+  "short_name": "Insulation Calculator",
+  "description": "বিনামূল্যের ইনসুলেশন ক্যালকুলেটর: ক্ষেত্রফল ও আপনার লক্ষ্য R-মান (বা মেট্রিক RSI) দিন এবং কেনার জন্য ব্যাট/রোলের প্যাক বা ব্লো-ইন ইনসুলেশনের ব্যাগ পেয়ে যান, সঙ্গে আপনার লক্ষ্যের জন্য দরকারি পুরুত্ব — মেট্রিক ও ইম্পেরিয়াল।",
+  "id": "/loona-construction-calculators/bn/insulation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

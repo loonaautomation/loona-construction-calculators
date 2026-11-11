@@ -1,0 +1,29 @@
+{
+  "name": "Loona Roof Pitch Calculator",
+  "short_name": "Roof Pitch Calculator",
+  "description": "বিনামূল্যের ছাদের ঢাল ক্যালকুলেটর: যেকোনো এককে উত্থান ও বিস্তার দিন — অনুপাত হিসেবে ঢাল (x-in-12), ডিগ্রিতে কোণ, শতাংশ ঢাল ও রাফটারের দৈর্ঘ্য পেয়ে যান। মেট্রিক ও ইম্পেরিয়াল মাপে কাজ করে।",
+  "id": "/loona-construction-calculators/bn/roof-pitch-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Reactance Calculator",
+  "short_name": "Reactance Calculator",
+  "description": "বিনামূল্যের রিঅ্যাক্ট্যান্স ক্যালকুলেটর: ক্যাপাসিট্যান্স (µF) সহ ফ্রিকোয়েন্সি দিলে ক্যাপাসিটিভ রিঅ্যাক্ট্যান্স Xc, ইন্ডাক্ট্যান্স (mH) সহ দিলে ইন্ডাক্টিভ রিঅ্যাক্ট্যান্স Xl পাওয়া যায় — নিট রিঅ্যাক্ট্যান্স ও LC অনুরণন ফ্রিকোয়েন্সির জন্য দুটোই দিন।",
+  "id": "/loona-construction-calculators/bn/reactance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

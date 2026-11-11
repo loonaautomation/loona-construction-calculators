@@ -1,0 +1,29 @@
+{
+  "name": "Loona Sand Calculator",
+  "short_name": "Sand Calculator",
+  "description": "বিনামূল্যের বালু ক্যালকুলেটর: মেট্রিক বা ইম্পেরিয়ালে ক্ষেত্রফল ও গভীরতা দিলে বালুর আয়তন, টন ও US টনে ওজন, এবং 25 kg ব্যাগের সংখ্যা পাওয়া যায় — ঘনত্ব ও অপচয়ের ভাতাসহ, বালুর বাক্স, পেভিং ভিত্তি ও স্ক্রিডের জন্য।",
+  "id": "/loona-construction-calculators/bn/sand-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

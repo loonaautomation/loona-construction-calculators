@@ -1,0 +1,29 @@
+{
+  "name": "Loona Amps to Watts Calculator",
+  "short_name": "Amps to Watts Calculator",
+  "description": "DC, AC সিঙ্গল-ফেজ ও AC থ্রি-ফেজের জন্য বিনামূল্যের অ্যাম্প থেকে ওয়াট ক্যালকুলেটর: কারেন্ট, ভোল্টেজ ও পাওয়ার ফ্যাক্টর দিলে ওয়াট, কিলোওয়াট ও kVA পাওয়া যায় — সূত্র ও একটি করা উদাহরণসহ।",
+  "id": "/loona-construction-calculators/bn/amps-to-watts-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

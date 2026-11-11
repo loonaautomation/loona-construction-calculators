@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for a 20 × 20 ft Garage Slab",
+  "short_name": "Materials for a 20 × 20 ft",
+  "description": "একটি 20 × 20 ft গ্যারেজ স্ল্যাবের উপকরণ: সঠিক কংক্রিট আয়তন ও প্রি-মিক্স ব্যাগের সংখ্যা (4-ইঞ্চি স্ল্যাব, 10% অতিরিক্ত) সঙ্গে ভিত্তি ও শক্তিবর্ধনের কেনাকাটার নোট।",
+  "id": "/loona-construction-calculators/bn/materials-for-garage-slab/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

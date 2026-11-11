@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ব্যাটারি চলার সময় ক্যালকুলেটর — একটি ব্যাটারি কতক্ষণ একটি লোড চালাবে? (Ah, Wh, ঘণ্টা) | Loona Construction Calculators</title>
+<meta name="description" content="বিনামূল্যের ব্যাটারি চলার সময় ক্যালকুলেটর: ব্যাটারির ভোল্ট ও অ্যাম্প-ঘণ্টা, লোডের ওয়াট, ডিসচার্জের গভীরতা ও ইনভার্টারের দক্ষতা দিলে ব্যবহারযোগ্য ওয়াট-ঘণ্টা ও ঘণ্টায় চলার সময় পাওয়া যায় — সোলার, UPS ও অফ-গ্রিড পরিকল্পনার জন্য।">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/bn/battery-runtime-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/battery-runtime-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/battery-runtime-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/battery-runtime-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/battery-runtime-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/battery-runtime-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/battery-runtime-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/battery-runtime-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/battery-runtime-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/battery-runtime-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/battery-runtime-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/battery-runtime-calculator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-construction-calculators/bn/battery-runtime-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/battery-runtime-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="ব্যাটারি চলার সময় ক্যালকুলেটর — একটি ব্যাটারি কতক্ষণ একটি লোড চালাবে? (Ah, Wh, ঘণ্টা) | Loona Construction Calculators">
+<meta property="og:description" content="বিনামূল্যের ব্যাটারি চলার সময় ক্যালকুলেটর: ব্যাটারির ভোল্ট ও অ্যাম্প-ঘণ্টা, লোডের ওয়াট, ডিসচার্জের গভীরতা ও ইনভার্টারের দক্ষতা দিলে ব্যবহারযোগ্য ওয়াট-ঘণ্টা ও ঘণ্টায় চলার সময় পাওয়া যায় — সোলার, UPS ও অফ-গ্রিড পরিকল্পনার জন্য।">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/bn/battery-runtime-calculator/"><meta property="og:locale" content="bn_BD">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ব্যাটারি চলার সময় ক্যালকুলেটর — একটি ব্যাটারি কতক্ষণ একটি লোড চালাবে? (Ah, Wh, ঘণ্টা) | Loona Construction Calculators">
+<meta name="twitter:description" content="বিনামূল্যের ব্যাটারি চলার সময় ক্যালকুলেটর: ব্যাটারির ভোল্ট ও অ্যাম্প-ঘণ্টা, লোডের ওয়াট, ডিসচার্জের গভীরতা ও ইনভার্টারের দক্ষতা দিলে ব্যবহারযোগ্য ওয়াট-ঘণ্টা ও ঘণ্টায় চলার সময় পাওয়া যায় — সোলার, UPS ও অফ-গ্রিড পরিকল্পনার জন্য।">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona ব্যাটারি চলার সময় ক্যালকুলেটর","url":"https://loonaautomation.github.io/loona-construction-calculators/bn/battery-runtime-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"শুধু Ah-কে লোড অ্যাম্প দিয়ে ভাগ করব না কেন?","acceptedAnswer":{"@type":"Answer","text":"কারণ লোড সাধারণত AC দিকে ওয়াটে থাকে, এবং বাস্তবের দুটি বিষয় জড়িত: আপনি নিজেকে যে ডিসচার্জ গভীরতায় সীমাবদ্ধ রাখা উচিত, এবং ইনভার্টারের ক্ষতি। দুটোই উপেক্ষা করলে লেড-অ্যাসিড সিস্টেমে চলার সময় 40% বা তার বেশি বাড়িয়ে দেখায়।"}},{"@type":"Question","name":"আমি কী ডিসচার্জ গভীরতা ব্যবহার করব?","acceptedAnswer":{"@type":"Answer","text":"লেড-অ্যাসিড (AGM ও জেলসহ): যুক্তিসঙ্গত সেবা আয়ুর জন্য 50%। LiFePO4 লিথিয়াম: 80–90% নিয়মিত ব্যবহৃত হয়। আপনার ব্যাটারি নির্মাতার ডেটাশিট দেখুন — চক্র আয়ু একটি উল্লেখিত DoD-তে দেওয়া হয়, এবং গভীর চক্র আয়ু তীব্রভাবে কমায়।"}},{"@type":"Question","name":"আমি কীভাবে কয়েকটি ব্যাটারি একত্র করব?","acceptedAnswer":{"@type":"Answer","text":"সিরিজে ভোল্টেজ যোগ হয় এবং Ah একই থাকে (সিরিজে দুটি 12 V 100 Ah = 24 V 100 Ah)। সমান্তরালে Ah যোগ হয় এবং ভোল্টেজ একই থাকে (সমান্তরালে দুটি = 12 V 200 Ah)। যেভাবেই হোক মোট ওয়াট-ঘণ্টা একই — ব্যাংকের সম্মিলিত ভোল্ট ও Ah দিন।"}},{"@type":"Question","name":"আমার আসল চলার সময় কেন কম বের হলো?","acceptedAnswer":{"@type":"Answer","text":"সাধারণ কারণ: ব্যাটারির Ah রেটিং ধীর 20-ঘণ্টা ডিসচার্জে মাপা হয় — দ্রুত টানলে লেড-অ্যাসিড কম দেয় (Peukert প্রভাব); ঠান্ডা ব্যাটারি কম ধরে; পুরনো ব্যাটারি দুর্বল হয়; এবং ইনভার্টারের স্ট্যান্ডবাই টান লোডে যোগ হয়। ফলাফলটিকে সেরা ক্ষেত্র হিসেবে নিন।"}},{"@type":"Question","name":"আমি কি সরাসরি DC থেকে লোড চালিয়ে ইনভার্টারের ক্ষতি এড়াতে পারি?","acceptedAnswer":{"@type":"Answer","text":"লোড ব্যাটারির ভোল্টেজ মেনে নিলে (আলো, অনেক 12 V যন্ত্র), দক্ষতা 100%-এ ঠিক করুন — আসলে ওয়্যারিংয়ের জন্য 95–98% ধরুন — এবং চলার সময় সেই অনুযায়ী বাড়ে। শুধু AC যন্ত্র কখনো সরাসরি ব্যাটারিতে যুক্ত করবেন না।"}},{"@type":"Question","name":"এটি সোলার প্যানেল ক্যালকুলেটরের সঙ্গে কীভাবে জুটি বাঁধে?","acceptedAnswer":{"@type":"Answer","text":"প্রতিদিন আপনি যে শক্তি ব্যবহার করেন তা বদলাতে সোলার প্যানেল ক্যালকুলেটর দিয়ে অ্যারের আকার ঠিক করুন, এবং ব্যাটারি ব্যাংক আপনার দরকারি ঘণ্টাগুলো ঢাকে কিনা যাচাই করতে এই টুল ব্যবহার করুন — অফ-গ্রিড নকশার দুটি অর্ধেক।"}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/bn/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "ব্যাটারি চলার সময় ক্যালকুলেটর",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/bn/battery-runtime-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation-এর লোগো">
+<div class="brand">Loona <span>নির্মাণ ক্যালকুলেটর</span></div>
+<nav>
+<a href="../">হোম</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">সম্পর্কে</a>
+<a href="../contact.html">যোগাযোগ</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; বৈদ্যুতিক &rsaquo; ব্যাটারি চলার সময় ক্যালকুলেটর</div>
+<h1 class="pagetitle">🔋 ব্যাটারি চলার সময় ক্যালকুলেটর</h1>
+<p class="lead">সৌর ব্যাটারি, একটি UPS বা অফ-গ্রিড সেটআপের পরিকল্পনা করছেন? ব্যাটারির ভোল্টেজ ও অ্যাম্প-ঘণ্টা ধারণক্ষমতা, ওয়াটে লোড, আপনি কত গভীরে ডিসচার্জ করতে রাজি এবং ইনভার্টারের দক্ষতা দিন — এবং ব্যবহারযোগ্য শক্তি ও প্রত্যাশিত চলার সময় পেয়ে যান।</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_volts">ব্যাটারির ভোল্টেজ (V)</label><input type="number" id="f_volts" step="any" value="12"></div><div class="fld"><label for="f_ah">ব্যাটারির ধারণক্ষমতা (Ah)</label><input type="number" id="f_ah" step="any" value="100"></div><div class="fld"><label for="f_load">লোড (ওয়াট)</label><input type="number" id="f_load" step="any" value="100"></div><div class="fld"><label for="f_dod">ব্যবহারযোগ্য ডিসচার্জ গভীরতা (%) — লেড-অ্যাসিডের জন্য 50, লিথিয়ামের (LiFePO80) জন্য 90–4</label><input type="number" id="f_dod" step="any" value="50"></div><div class="fld"><label for="f_eff">ইনভার্টার / সিস্টেমের দক্ষতা (%) — সরাসরি DC লোডের জন্য 100, একটি সাধারণ ইনভার্টারের জন্য ~85</label><input type="number" id="f_eff" step="any" value="85"></div>
+<button type="button" class="calcbtn" id="calcBtn">হিসাব করুন</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>ব্যাটারি চলার সময় ক্যালকুলেটর কীভাবে ব্যবহার করবেন</h2><ol><li>ব্যাটারির ভোল্টেজ ও এর অ্যাম্প-ঘণ্টা (Ah) রেটিং দিন — ব্যাটারির ব্যাংকের জন্য ওই ভোল্টেজে ব্যাংকের মোট ভোল্টেজ ও Ah ব্যবহার করুন।</li><li>ওয়াটে লোড দিন (একসঙ্গে যা যা চলবে সব যোগ করুন)।</li><li>আপনি আসলে যে ডিসচার্জ গভীরতা ব্যবহার করবেন তা ও ইনভার্টারের দক্ষতা ঠিক করুন, তারপর Calculate চাপুন।</li></ol>
+<div class="exbox"><strong>উদাহরণ:</strong> 12%-দক্ষ ইনভার্টার দিয়ে 100% ডিসচার্জ গভীরতায় 100 W লোড চালানো একটি 50 V, 85 Ah ব্যাটারি: ব্যবহারযোগ্য শক্তি = 510 Wh, চলার সময় = <strong>5.1 ঘণ্টা</strong>.</div>
+<h2>সচরাচর জিজ্ঞাসিত প্রশ্ন</h2></section><div class="faq"><h3>শুধু Ah-কে লোড অ্যাম্প দিয়ে ভাগ করব না কেন?</h3><p>কারণ লোড সাধারণত AC দিকে ওয়াটে থাকে, এবং বাস্তবের দুটি বিষয় জড়িত: আপনি নিজেকে যে ডিসচার্জ গভীরতায় সীমাবদ্ধ রাখা উচিত, এবং ইনভার্টারের ক্ষতি। দুটোই উপেক্ষা করলে লেড-অ্যাসিড সিস্টেমে চলার সময় 40% বা তার বেশি বাড়িয়ে দেখায়।</p></div><div class="faq"><h3>আমি কী ডিসচার্জ গভীরতা ব্যবহার করব?</h3><p>লেড-অ্যাসিড (AGM ও জেলসহ): যুক্তিসঙ্গত সেবা আয়ুর জন্য 50%। LiFePO4 লিথিয়াম: 80–90% নিয়মিত ব্যবহৃত হয়। আপনার ব্যাটারি নির্মাতার ডেটাশিট দেখুন — চক্র আয়ু একটি উল্লেখিত DoD-তে দেওয়া হয়, এবং গভীর চক্র আয়ু তীব্রভাবে কমায়।</p></div><div class="faq"><h3>আমি কীভাবে কয়েকটি ব্যাটারি একত্র করব?</h3><p>সিরিজে ভোল্টেজ যোগ হয় এবং Ah একই থাকে (সিরিজে দুটি 12 V 100 Ah = 24 V 100 Ah)। সমান্তরালে Ah যোগ হয় এবং ভোল্টেজ একই থাকে (সমান্তরালে দুটি = 12 V 200 Ah)। যেভাবেই হোক মোট ওয়াট-ঘণ্টা একই — ব্যাংকের সম্মিলিত ভোল্ট ও Ah দিন।</p></div>
+<h2 class="sec">সম্পর্কিত ক্যালকুলেটর</h2><div class="grid"><a class="card" href="../solar-panel-calculator/"><div class="ic">☀️</div><h3>সোলার প্যানেল ক্যালকুলেটর</h3><p>বৈদ্যুতিক</p></a><a class="card" href="../electricity-cost-calculator/"><div class="ic">💷</div><h3>বিদ্যুৎ খরচ ক্যালকুলেটর</h3><p>বৈদ্যুতিক</p></a><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>অ্যাম্প থেকে ওয়াট ক্যালকুলেটর</h3><p>বৈদ্যুতিক</p></a><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>ভোল্টেজ ড্রপ ক্যালকুলেটর</h3><p>বৈদ্যুতিক</p></a></div>
+</div>
+<section class="txt"><h2>এটি কীভাবে কাজ করে &mdash; সূত্রটি</h2>
+<p><strong>সঞ্চিত শক্তি (Wh)</strong> = ভোল্ট × অ্যাম্প-ঘণ্টা<br>
+<strong>ব্যবহারযোগ্য শক্তি (Wh)</strong> = সঞ্চিত × ডিসচার্জের গভীরতা × দক্ষতা<br>
+<strong>চলার সময় (ঘণ্টা)</strong> = ব্যবহারযোগ্য Wh ÷ লোড (W)<br>
+<strong>গড় ব্যাটারি কারেন্ট (A)</strong> = লোড ÷ (ভোল্ট × দক্ষতা)</p>
+<p>দুটি সৎ সমন্বয় এটিকে সরল 'Ah ÷ অ্যাম্প' যোগ থেকে আলাদা করে: আপনি বেশিরভাগ ব্যাটারি খালি করবেন না (50%-এর বেশি নিয়মিত ডিসচার্জ করা একটি লেড-অ্যাসিড ব্যাটারি দ্রুত শেষ হয়, যখন LiFePO4 80–90% সহ্য করে), এবং একটি ইনভার্টার তার রূপান্তরিত শক্তির 10–20% নষ্ট করে। দুটোই ওপরের সূত্রে আছে।</p>
+<h3>করা উদাহরণ</h3>
+<div class="exbox">12 V × 100 Ah = <strong>1,200 Wh</strong> সঞ্চিত। ব্যবহারযোগ্য = 1,200 × 0.50 × 0.85 = <strong>510 Wh</strong>. চলার সময় = 510 ÷ 100 W = <strong>5.1 ঘণ্টা</strong> (5 h 6 min)। ব্যাটারিটি গড়ে সরবরাহ করে 100 ÷ (12 × 0.85) = <strong>9.80 A</strong> তা করার সময়।</div>
+
+<h3>সচরাচর জিজ্ঞাসিত প্রশ্ন</h3></section>
+<div class="faq"><h3>আমার আসল চলার সময় কেন কম বের হলো?</h3><p>সাধারণ কারণ: ব্যাটারির Ah রেটিং ধীর 20-ঘণ্টা ডিসচার্জে মাপা হয় — দ্রুত টানলে লেড-অ্যাসিড কম দেয় (Peukert প্রভাব); ঠান্ডা ব্যাটারি কম ধরে; পুরনো ব্যাটারি দুর্বল হয়; এবং ইনভার্টারের স্ট্যান্ডবাই টান লোডে যোগ হয়। ফলাফলটিকে সেরা ক্ষেত্র হিসেবে নিন।</p></div><div class="faq"><h3>আমি কি সরাসরি DC থেকে লোড চালিয়ে ইনভার্টারের ক্ষতি এড়াতে পারি?</h3><p>লোড ব্যাটারির ভোল্টেজ মেনে নিলে (আলো, অনেক 12 V যন্ত্র), দক্ষতা 100%-এ ঠিক করুন — আসলে ওয়্যারিংয়ের জন্য 95–98% ধরুন — এবং চলার সময় সেই অনুযায়ী বাড়ে। শুধু AC যন্ত্র কখনো সরাসরি ব্যাটারিতে যুক্ত করবেন না।</p></div><div class="faq"><h3>এটি সোলার প্যানেল ক্যালকুলেটরের সঙ্গে কীভাবে জুটি বাঁধে?</h3><p>প্রতিদিন আপনি যে শক্তি ব্যবহার করেন তা বদলাতে সোলার প্যানেল ক্যালকুলেটর দিয়ে অ্যারের আকার ঠিক করুন, এবং ব্যাটারি ব্যাংক আপনার দরকারি ঘণ্টাগুলো ঢাকে কিনা যাচাই করতে এই টুল ব্যবহার করুন — অফ-গ্রিড নকশার দুটি অর্ধেক।</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">এই ক্যালকুলেটরটি আপনার ওয়েবসাইটে বসান — বিনামূল্যে</h2>
+<p style="margin:0 0 12px;line-height:1.6">এই ক্যালকুলেটরটি আপনার নিজের ওয়েবসাইট বা ব্লগে যোগ করুন — এটি সম্পূর্ণ বিনামূল্যে, কোনো সাইন-আপ লাগে না, এবং সবসময় সর্বশেষ সংস্করণ দেখায়। নিচের কোডটি কপি করে আপনার পৃষ্ঠায় যেখানে ক্যালকুলেটরটি দেখাতে চান সেখানে বসান। এমবেডের নিচে ছোট &ldquo;Powered by Loona Automation&rdquo; কৃতিত্বের লাইনটি রাখলে এই টুলটি বিনামূল্যে রাখতে সাহায্য হয় &mdash; তবে আপনি চাইলে এটি সাজাতে বা সরিয়ে দিতে পারেন; টুলটি যেভাবেই হোক কাজ করে।</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/bn/battery-runtime-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Battery Runtime Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;সৌজন্যে &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/bn/battery-runtime-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; বিনামূল্যে ব্যাটারি চলার সময় ক্যালকুলেটর&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">এমবেড কোড কপি করুন</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='কপি হয়েছে!';setTimeout(function(){b.textContent='এম্বেড কোড কপি করুন';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>জনপ্রিয় ক্যালকুলেটর</h4><ul><li><a href="../paint-calculator/">রঙের ক্যালকুলেটর</a></li>
+<li><a href="../concrete-calculator/">কংক্রিট ক্যালকুলেটর</a></li>
+<li><a href="../tile-calculator/">টাইলস ক্যালকুলেটর</a></li>
+<li><a href="../brick-calculator/">ইটের ক্যালকুলেটর</a></li>
+<li><a href="../roof-pitch-calculator/">ছাদের ঢাল ক্যালকুলেটর</a></li>
+<li><a href="../stairs-calculator/">সিঁড়ির ক্যালকুলেটর</a></li></ul></div>
+<div><h4>আরও Loona টুল</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">সব Loona টুল</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">সম্পর্কে</a></li>
+<li><a href="../contact.html">যোগাযোগ</a></li>
+<li><a href="../privacy-policy.html">গোপনীয়তা নীতি</a></li>
+<li><a href="../terms.html">ব্যবহারের শর্তাবলি</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> প্রকল্প। মেট্রিক ও ইম্পেরিয়াল এককে বিনামূল্যের নির্মাণ ক্যালকুলেটর, সাইনআপ ছাড়া।
+যোগাযোগ: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.volts, v.ah, v.load)) return bad("ব্যাটারির ভোল্টেজ, Ah-তে ধারণক্ষমতা ও ওয়াটে লোড দিন।");
+  var eff = (v.eff > 0 && v.eff <= 100) ? v.eff / 100 : NaN;
+  var dod = (v.dod > 0 && v.dod <= 100) ? v.dod / 100 : NaN;
+  if (!isFinite(eff) || !isFinite(dod)) return bad("দক্ষতা ও ব্যবহারযোগ্য ডিসচার্জ গভীরতা প্রতিটি 1 থেকে 100%-এর মধ্যে হতে হবে।");
+  var stored = v.volts * v.ah;
+  var usable = stored * dod * eff;
+  var hours = usable / v.load;
+  var mins = Math.round(hours * 60);
+  var current = v.load / (v.volts * eff);
+  var html = resTable("অনুমিত চলার সময়", fmt(hours, 2) + " ঘণ্টা (" + Math.floor(mins / 60) + " h " + (mins % 60) + " min)",
+    [["সঞ্চিত শক্তি", fmt(stored, 0) + " Wh"],["ব্যবহারযোগ্য শক্তি (DoD ও ক্ষতির পরে)", fmt(usable, 0) + " Wh"],["ব্যাটারি থেকে গড় কারেন্ট", fmt(current, 2) + " A"],["লোড", fmt(v.load, 0) + " W"]],
+    "আসল চলার সময় সাধারণত কম: উচ্চ ডিসচার্জ হারে ধারণক্ষমতা কমে (লেড-অ্যাসিডে Peukert প্রভাব), ঠান্ডা আবহাওয়ায় এবং ব্যাটারি পুরনো হলে। এটিকে সেরা-ক্ষেত্রের পরিকল্পনা সংখ্যা ধরুন এবং গুরুত্বপূর্ণ লোডের জন্য মার্জিন রাখুন।");
+  return { ok: true, storedWh: stored, usableWh: usable, hours: hours, current: current, html: html };
+} };
+
+function collect(){ return { volts: gv("f_volts"), ah: gv("f_ah"), load: gv("f_load"), dod: gv("f_dod"), eff: gv("f_eff") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' অ্যাপ ইনস্টল করুন';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('এই অ্যাপটি ইনস্টল করুন: Share বোতামে ট্যাপ করুন, তারপর "Add to Home Screen" বেছে নিন।');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

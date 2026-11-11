@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Calculator",
+  "short_name": "Brick Calculator",
+  "description": "বিনামূল্যের ইটের ক্যালকুলেটর: মেট্রিক বা ইম্পেরিয়ালে দেয়ালের দৈর্ঘ্য ও উচ্চতা — একস্তর দেয়ালের জন্য মানক ইটের (215 mm বা US মডুলার) সংখ্যা পেয়ে যান, মসলা জোড় ও অপচয়ের ভাতাসহ।",
+  "id": "/loona-construction-calculators/bn/brick-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

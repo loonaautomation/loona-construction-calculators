@@ -1,0 +1,29 @@
+{
+  "name": "Loona Wire Size Calculator",
+  "short_name": "Wire Size Calculator",
+  "description": "বিনামূল্যের তারের আকার ক্যালকুলেটর: কারেন্ট, একদিকের দৈর্ঘ্য, অনুমোদিত ভোল্টেজ-ড্রপ %, ভোল্টেজ, তামা বা অ্যালুমিনিয়াম, সিঙ্গল বা থ্রি-ফেজ — mm²-এ সর্বনিম্ন তারের আকার, নিকটতম মানক আকার ও AWG সমতুল্য।",
+  "id": "/loona-construction-calculators/bn/wire-size-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona kVA to Amps Calculator",
+  "short_name": "kVA to Amps Calculator",
+  "description": "সিঙ্গল-ফেজ ও থ্রি-ফেজ সরবরাহের জন্য বিনামূল্যের kVA থেকে অ্যাম্প ক্যালকুলেটর — এবং উল্টোটি, অ্যাম্প থেকে kVA। kVA ও ভোল্টেজ থেকে জেনারেটর, ট্রান্সফরমার ও সরবরাহ কারেন্টের আকার ঠিক করুন।",
+  "id": "/loona-construction-calculators/bn/kva-to-amps-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

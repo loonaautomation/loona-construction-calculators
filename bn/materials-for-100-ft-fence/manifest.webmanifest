@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for a 100 ft Fence",
+  "short_name": "Materials for a 100 ft Fence",
+  "description": "100 ft 6-ft বেড়ার কেনার তালিকা: 13টি খুঁটি, 13 বে প্যানেল বা 340টি পিকেট, প্রতি গর্তে সৎ কংক্রিটের পরিমাণ ও ফাস্টেনারের সংখ্যা।",
+  "id": "/loona-construction-calculators/bn/materials-for-100-ft-fence/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

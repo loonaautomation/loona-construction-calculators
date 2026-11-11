@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Concrete for 1500 Sq Ft? Volume",
+  "short_name": "How Much Concrete for 1500 Sq",
+  "description": "1500 sq ft-এর একটি স্ল্যাবের জন্য কংক্রিট, 4 ইঞ্চি পুরু: 15.57% অতিরিক্তসহ 20.37 m³ (10 yd³), সঙ্গে 80 lb, 60 lb, 25 kg ও 20 kg ব্যাগের জন্য প্রি-মিক্স ব্যাগের সংখ্যা।",
+  "id": "/loona-construction-calculators/bn/concrete-for-1500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

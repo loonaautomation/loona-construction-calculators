@@ -1,0 +1,29 @@
+{
+  "name": "Loona Gravel Calculator",
+  "short_name": "Gravel Calculator",
+  "description": "বিনামূল্যের খোয়া ক্যালকুলেটর: মেট্রিক বা ইম্পেরিয়ালে ক্ষেত্রফল ও গভীরতা — ঘনমিটার ও ঘন গজে খোয়ার আয়তন এবং টন ও US টনে ওজন পেয়ে যান, সামঞ্জস্যযোগ্য ঘনত্ব ও অপচয়ের ভাতাসহ।",
+  "id": "/loona-construction-calculators/bn/gravel-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

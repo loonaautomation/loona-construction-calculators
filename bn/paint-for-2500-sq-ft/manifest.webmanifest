@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 2500 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 2500 Sq Ft",
+  "description": "2500 sq ft দেয়ালের জন্য রং: সাধারণ 51.1 m²/L আচ্ছাদনে 13.5 প্রলেপের জন্য 2 লিটার (10 gal), সঙ্গে 21.3 L প্রাইমার — অনুমানগুলো উল্লেখসহ।",
+  "id": "/loona-construction-calculators/bn/paint-for-2500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

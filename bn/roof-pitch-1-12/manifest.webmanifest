@@ -1,0 +1,29 @@
+{
+  "name": "Loona 1/12 Roof Pitch",
+  "short_name": "1/12 Roof Pitch",
+  "description": "একটি 1/12 ছাদের ঢাল 4.76 ডিগ্রি (8% গ্রেড)। রাফটার গুণক 1.0035, সাধারণ বিস্তারের জন্য রাফটারের দৈর্ঘ্য, উপকরণ ও ব্যবহার।",
+  "id": "/loona-construction-calculators/bn/roof-pitch-1-12/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

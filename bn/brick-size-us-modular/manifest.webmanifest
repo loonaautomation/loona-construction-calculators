@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in United States (Modular)",
+  "short_name": "Brick Size in United States",
+  "description": "যুক্তরাষ্ট্রে (Modular) মানক ইটের আকার: 194 × 92 × 57 mm। 73.9 mm মসলা জোড়সহ একস্তর দেয়ালের প্রতি m²-এ 6.87টি ইট (প্রতি sq ft-এ 9.5), প্রতি 1,000 ইটের আচ্ছাদন এবং একটি করা দেয়ালের উদাহরণ।",
+  "id": "/loona-construction-calculators/bn/brick-size-us-modular/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

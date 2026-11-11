@@ -1,0 +1,29 @@
+{
+  "name": "Loona Mulch Calculator",
+  "short_name": "Mulch Calculator",
+  "description": "বিনামূল্যের মালচ ক্যালকুলেটর: মেট্রিক বা ইম্পেরিয়ালে বেডের ক্ষেত্রফল ও গভীরতা — মালচের আয়তন, 40/50 লিটার বা 2/3 ঘনফুট ব্যাগের সংখ্যা, এবং খোলা ঘনমিটার ও গজ পেয়ে যান।",
+  "id": "/loona-construction-calculators/bn/mulch-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

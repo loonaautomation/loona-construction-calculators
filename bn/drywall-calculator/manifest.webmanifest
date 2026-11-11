@@ -1,0 +1,29 @@
+{
+  "name": "Loona Drywall Calculator",
+  "short_name": "Drywall Calculator",
+  "description": "বিনামূল্যের ড্রাইওয়াল ও প্লাস্টারবোর্ড ক্যালকুলেটর: মেট্রিক বা ইম্পেরিয়ালে ঘরের আকার — দেয়াল ও ছাদের ক্ষেত্রফল এবং কেনার জন্য 1200 × 2400 mm বা 4 × 8 ft শিটের সংখ্যা পেয়ে যান, অপচয়সহ।",
+  "id": "/loona-construction-calculators/bn/drywall-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

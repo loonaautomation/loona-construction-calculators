@@ -1,0 +1,29 @@
+{
+  "name": "Loona Stairs Calculator",
+  "short_name": "Stairs Calculator",
+  "description": "বিনামূল্যের সিঁড়ির ক্যালকুলেটর: মেট্রিক বা ইম্পেরিয়ালে মোট উত্থান দিন — ধাপের সংখ্যা, সঠিক রাইজার উচ্চতা, মোট বিস্তার ও স্ট্রিংগারের দৈর্ঘ্য পেয়ে যান, 2R + T স্বাচ্ছন্দ্যের নিয়ম স্বয়ংক্রিয়ভাবে যাচাইসহ।",
+  "id": "/loona-construction-calculators/bn/stairs-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

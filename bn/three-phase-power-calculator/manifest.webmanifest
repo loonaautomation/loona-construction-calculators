@@ -1,0 +1,29 @@
+{
+  "name": "Loona Three-Phase Power Calculator",
+  "short_name": "Three-Phase Power Calculator",
+  "description": "বিনামূল্যের থ্রি-ফেজ পাওয়ার ক্যালকুলেটর: লাইন-টু-লাইন ভোল্টেজ, লাইন কারেন্ট ও পাওয়ার ফ্যাক্টর দিলে সুষম লোডের জন্য kW-তে প্রকৃত ক্ষমতা, kVA-তে আপাত ক্ষমতা ও kvar-তে প্রতিক্রিয়াশীল ক্ষমতা পাওয়া যায়।",
+  "id": "/loona-construction-calculators/bn/three-phase-power-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

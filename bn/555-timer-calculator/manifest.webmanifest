@@ -1,0 +1,29 @@
+{
+  "name": "Loona 555 Timer Calculator",
+  "short_name": "555 Timer Calculator",
+  "description": "বিনামূল্যের 555 টাইমার ক্যালকুলেটর: অ্যাস্টেবল মোড R1, R2 ও C থেকে ফ্রিকোয়েন্সি, ডিউটি চক্র ও HIGH/LOW সময় দেয়; মনোস্টেবল মোড R ও C থেকে পালস প্রস্থ দেয় — মানক 1.44 ও 1.1 সূত্র।",
+  "id": "/loona-construction-calculators/bn/555-timer-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Motor Current Calculator",
+  "short_name": "Motor Current Calculator",
+  "description": "বিনামূল্যের মোটর কারেন্ট ক্যালকুলেটর: kW বা হর্সপাওয়ারে মোটরের ক্ষমতা, ভোল্টেজ, সিঙ্গল বা থ্রি-ফেজ, দক্ষতা ও পাওয়ার ফ্যাক্টর দিলে একটি অনুমিত পূর্ণ-লোড কারেন্ট পাওয়া যায় — সৎ নেমপ্লেট ও কোড সতর্কতাসহ।",
+  "id": "/loona-construction-calculators/bn/motor-current-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

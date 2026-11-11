@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Sizes by Country",
+  "short_name": "Brick Sizes by Country",
+  "description": "UK, USA, ভারত, পাকিস্তান, অস্ট্রেলিয়া, জার্মানি ও দক্ষিণ আফ্রিকায় মানক ইটের আকার — মাপ ও প্রতি বর্গমিটারে ইটের তুলনা।",
+  "id": "/loona-construction-calculators/bn/brick-sizes-by-country/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

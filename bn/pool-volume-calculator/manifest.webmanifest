@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pool Volume Calculator",
+  "short_name": "Pool Volume Calculator",
+  "description": "আয়তাকার, গোল ও ডিম্বাকার পুলের জন্য বিনামূল্যের পুল আয়তন ক্যালকুলেটর: মেট্রিক বা ইম্পেরিয়ালে আকার ও অগভীর/গভীর প্রান্তের গভীরতা দিন এবং রাসায়নিক মাত্রা ও ভরার জন্য লিটার ও US গ্যালনে পানির আয়তন পেয়ে যান।",
+  "id": "/loona-construction-calculators/bn/pool-volume-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

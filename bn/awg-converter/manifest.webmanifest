@@ -1,0 +1,29 @@
+{
+  "name": "Loona AWG Converter",
+  "short_name": "AWG Converter",
+  "description": "বিনামূল্যের AWG রূপান্তরকারী: AWG গেজ থেকে mm ও ইঞ্চিতে ব্যাস, mm²-এ প্রস্থচ্ছেদ এবং তামা ও অ্যালুমিনিয়ামের জন্য প্রতি কিলোমিটারে রোধ — বা mm² বা ব্যাস থেকে নিকটতম AWG খুঁজুন।",
+  "id": "/loona-construction-calculators/bn/awg-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Power Factor Calculator",
+  "short_name": "Power Factor Calculator",
+  "description": "বিনামূল্যের পাওয়ার ফ্যাক্টর ক্যালকুলেটর: প্রকৃত ক্ষমতা (kW) ও আপাত ক্ষমতা (kVA) দিলে পাওয়ার ফ্যাক্টর, kvar-এ প্রতিক্রিয়াশীল ক্ষমতা, ফেজ কোণ পাওয়া যায় — এবং একটি লক্ষ্য PF-এ সংশোধনের জন্য দরকারি ক্যাপাসিটর kvar।",
+  "id": "/loona-construction-calculators/bn/power-factor-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

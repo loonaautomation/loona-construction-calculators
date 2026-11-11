@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ohm's Law Calculator",
+  "short_name": "Ohm's Law Calculator",
+  "description": "বিনামূল্যের ওহমের সূত্র ক্যালকুলেটর: ভোল্টেজ, কারেন্ট, রোধ ও ক্ষমতার যেকোনো দুটি দিন এবং অন্য দুটি পেয়ে যান — ওহমের সূত্র চাকার চারটি চতুর্ভাগই, সূত্র ও একটি করা উদাহরণসহ।",
+  "id": "/loona-construction-calculators/bn/ohms-law-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

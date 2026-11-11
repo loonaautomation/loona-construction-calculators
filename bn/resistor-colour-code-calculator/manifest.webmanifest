@@ -1,0 +1,29 @@
+{
+  "name": "Loona Resistor Colour Code Calculator",
+  "short_name": "Resistor Colour Code",
+  "description": "বিনামূল্যের রেজিস্টর রঙের কোড ক্যালকুলেটর: একটি 4-ব্যান্ড, 5-ব্যান্ড বা 6-ব্যান্ড রেজিস্টরে ব্যান্ডের রঙ বেছে নিন রোধ, সহনমাত্রা ও তাপমাত্রা সহগ পেতে — বা উল্টো করুন, মান থেকে ব্যান্ড।",
+  "id": "/loona-construction-calculators/bn/resistor-colour-code-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
