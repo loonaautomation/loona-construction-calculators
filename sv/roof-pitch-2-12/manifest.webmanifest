@@ -1,0 +1,29 @@
+{
+  "name": "Loona 2/12 Roof Pitch",
+  "short_name": "2/12 Roof Pitch",
+  "description": "En taklutning på 2/12 är 9.46 grader (17% lutning). Takstolsmultiplikator 1.0138, takstolslängder för vanliga spann, material och användningsområden.",
+  "id": "/loona-construction-calculators/sv/roof-pitch-2-12/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

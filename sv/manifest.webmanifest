@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Gratis byggkalkylatorer som fungerar i BÅDE metriska och imperiala enheter: färg, kakel, betong, golv, gipsskiva, tegel, grus, taklutning, trappor, board foot, tapet, täckbark, asfalt, isolering, staket, trall, poolvolym, solpanel, matta, plywood, sand, Ohms lag, spänningsfall, kabelarea, elkostnad, ampere till watt, watt till ampere, kVA till ampere, effektfaktor, batteritid, LED-motstånd, trefaseffekt, motorström, motståndsfärgkod, 555-timer, AWG-omvandling, reaktans och decibelomvandling — med spilltillägg och genomräknade exempel.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/sv/"
+}

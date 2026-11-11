@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for a 100 ft Fence",
+  "short_name": "Materials for a 100 ft Fence",
+  "description": "Inköpslista för 100 ft staket på 6 ft: 13 stolpar, 13 fack paneler eller 340 ribbor, ärliga mängder betong per hål och antal fästdon.",
+  "id": "/loona-construction-calculators/sv/materials-for-100-ft-fence/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

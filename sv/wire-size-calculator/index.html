@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kabelareakalkylator — Minsta kabelstorlek i mm² och AWG från spänningsfall | Loona Construction Calculators</title>
+<meta name="description" content="Gratis kabelareakalkylator: ström, enkelvägs längd, tillåten spänningsfalls-%, spänning, koppar eller aluminium, enfas eller trefas — minsta kabelstorlek i mm², närmaste standardstorlek och AWG-motsvarighet.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/sv/wire-size-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/wire-size-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/wire-size-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/wire-size-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/wire-size-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/wire-size-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/wire-size-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/wire-size-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/wire-size-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/wire-size-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/wire-size-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/wire-size-calculator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-construction-calculators/bn/wire-size-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/wire-size-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-construction-calculators/id/wire-size-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-construction-calculators/ja/wire-size-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/wire-size-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-construction-calculators/pl/wire-size-calculator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-construction-calculators/vi/wire-size-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-construction-calculators/zh/wire-size-calculator/"><link rel="alternate" hreflang="sv" href="https://loonaautomation.github.io/loona-construction-calculators/sv/wire-size-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/wire-size-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kabelareakalkylator — Minsta kabelstorlek i mm² och AWG från spänningsfall | Loona Construction Calculators">
+<meta property="og:description" content="Gratis kabelareakalkylator: ström, enkelvägs längd, tillåten spänningsfalls-%, spänning, koppar eller aluminium, enfas eller trefas — minsta kabelstorlek i mm², närmaste standardstorlek och AWG-motsvarighet.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/sv/wire-size-calculator/"><meta property="og:locale" content="sv_SE">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kabelareakalkylator — Minsta kabelstorlek i mm² och AWG från spänningsfall | Loona Construction Calculators">
+<meta name="twitter:description" content="Gratis kabelareakalkylator: ström, enkelvägs längd, tillåten spänningsfalls-%, spänning, koppar eller aluminium, enfas eller trefas — minsta kabelstorlek i mm², närmaste standardstorlek och AWG-motsvarighet.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Kabelareakalkylator","url":"https://loonaautomation.github.io/loona-construction-calculators/sv/wire-size-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Varför avrundas svaret uppåt till en standardstorlek?","acceptedAnswer":{"@type":"Answer","text":"Kabel tillverkas i standardtvärsnitt. Att avrunda nedåt till storleken under det beräknade minimumet skulle överskrida din fallgräns, så kalkylatorn avrundar alltid uppåt — och resultatrutan visar det (lägre) fall som standardstorleken faktiskt ger."}},{"@type":"Question","name":"Kontrollerar den här kalkylatorn att kabeln kan föra strömmen?","acceptedAnswer":{"@type":"Answer","text":"Nej — och det spelar roll. Det här verktyget löser bara spänningsfallshalvan av kabeldimensionering. Ampacitet (säker strömföringskapacitet) beror på hur kabeln är installerad — i fri luft, kanal, isolering eller under jord — och på temperatur och gruppering. Kontrollera storleken mot din lokala kods ampacitetstabeller, eller fråga en elektriker, och använd den större av de två storlekarna."}},{"@type":"Question","name":"Varför behöver aluminium en tjockare kabel än koppar?","acceptedAnswer":{"@type":"Answer","text":"Aluminiums resistivitet är ungefär 1.58× koppars, så för samma fallgräns behöver den ungefär 58% mer tvärsnitt — i praktiken ett eller två standardsteg upp. Aluminium behöver också lämpliga anslutningar; följ lokal kod för dess användning."}},{"@type":"Question","name":"Är AWG-motsvarigheten exakt?","acceptedAnswer":{"@type":"Answer","text":"Nej. AWG-storlekar (…3.31 mm² för 12 AWG, 5.26 mm² för 10 AWG…) sammanfaller inte med metriska standardstorlekar, så siffran som visas är den närmaste vanliga gauge. Om du köper efter AWG och motsvarigheten sitter mellan gauges, välj den tjockare (lägre numrerade) gauge."}},{"@type":"Question","name":"Vilken fallprocent ska jag tillåta?","acceptedAnswer":{"@type":"Answer","text":"Vanlig vägledning (IEC 60364-5-52 informativ bilaga och nationella regler baserade på den) är ungefär 3% för belysning och 5% för andra användningar, från installationens ursprung. Om en del av den budgeten redan används av en uppströms ledning, tillåt bara det som återstår för den här ledningen."}},{"@type":"Question","name":"Resultatet säger större än 240 mm² — vad då?","acceptedAnswer":{"@type":"Answer","text":"Mycket långa eller tunga sträckor löses normalt med parallella kablar, en högre matningsspänning, eller att flytta matningen närmare lasten. Det är specialistdesignterritorium — ta in en kvalificerad elektriker eller elingenjör."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/sv/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kabelareakalkylator",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/sv/wire-size-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automations logotyp">
+<div class="brand">Loona <span>Byggkalkylatorer</span></div>
+<nav>
+<a href="../">Hem</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; El &rsaquo; Kabelareakalkylator</div>
+<h1 class="pagetitle">🧵 Kabelareakalkylator</h1>
+<p class="lead">Berätta för den här kalkylatorn strömmen, enkelvägssträckan, matningsspänningen och spänningsfallet du kan acceptera, så räknar den ut minsta kabeltvärsnitt — och avrundar sedan uppåt till närmaste standardstorlek i mm² med dess AWG-motsvarighet.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system">Enhetssystem</label><select id="f_system"><option value="m">Metriskt (meter, mm&sup2;)</option><option value="i">Imperial (feet, AWG)</option></select></div><div class="fld"><label for="f_length">Enkelvägs kabellängd <span class="u" data-u="length"></span></label><input type="number" id="f_length" step="any" data-m="20" data-i="66" value="20"></div><div class="fld"><label for="f_current">Lastström (ampere)</label><input type="number" id="f_current" step="any" value="16"></div><div class="fld"><label for="f_volts">Matningsspänning (volt)</label><input type="number" id="f_volts" step="any" value="230"></div><div class="fld"><label for="f_pct">Tillåtet spänningsfall (%)</label><input type="number" id="f_pct" step="any" value="3"></div><div class="fld"><label for="f_material">Ledarmaterial</label><select id="f_material"><option value="cu" selected>Koppar (&rho; = 1.68 &times; 10&#8315;&#8312; &Omega;&middot;m)</option><option value="al">Aluminium (&rho; = 2.65 &times; 10&#8315;&#8312; &Omega;&middot;m)</option></select></div><div class="fld"><label for="f_phase">Matningstyp</label><select id="f_phase"><option value="1" selected>Enfas (2-trådsledning)</option><option value="3">Trefas (balanserad)</option></select></div>
+<button type="button" class="calcbtn" id="calcBtn">Beräkna</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Så använder du Kabelareakalkylatorn</h2><ol><li>Ange strömmen lasten drar och det enkelvägda avståndet från matning till last.</li><li>Ange matningsspänningen och fallet du kan tillåta — 3% är den vanliga vägledningen för belysning, 5% för andra kretsar.</li><li>Välj koppar eller aluminium och enfas eller trefas, tryck sedan på Beräkna för minimum och närmaste standardstorlek.</li></ol>
+<div class="exbox"><strong>Exempel:</strong> 16 A över 20 m koppar vid 230 V med 3% tillåtet: minimum är <strong>1.56 mm²</strong>, så närmaste standardstorlek är <strong>2.5 mm²</strong> (≈ 14 AWG).</div>
+<h2>Vanliga frågor</h2></section><div class="faq"><h3>Varför avrundas svaret uppåt till en standardstorlek?</h3><p>Kabel tillverkas i standardtvärsnitt. Att avrunda nedåt till storleken under det beräknade minimumet skulle överskrida din fallgräns, så kalkylatorn avrundar alltid uppåt — och resultatrutan visar det (lägre) fall som standardstorleken faktiskt ger.</p></div><div class="faq"><h3>Kontrollerar den här kalkylatorn att kabeln kan föra strömmen?</h3><p>Nej — och det spelar roll. Det här verktyget löser bara spänningsfallshalvan av kabeldimensionering. Ampacitet (säker strömföringskapacitet) beror på hur kabeln är installerad — i fri luft, kanal, isolering eller under jord — och på temperatur och gruppering. Kontrollera storleken mot din lokala kods ampacitetstabeller, eller fråga en elektriker, och använd den större av de två storlekarna.</p></div><div class="faq"><h3>Varför behöver aluminium en tjockare kabel än koppar?</h3><p>Aluminiums resistivitet är ungefär 1.58× koppars, så för samma fallgräns behöver den ungefär 58% mer tvärsnitt — i praktiken ett eller två standardsteg upp. Aluminium behöver också lämpliga anslutningar; följ lokal kod för dess användning.</p></div>
+<h2 class="sec">Relaterade kalkylatorer</h2><div class="grid"><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>Spänningsfallskalkylator</h3><p>El</p></a><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>Ohms lag-kalkylator</h3><p>El</p></a><a class="card" href="../electricity-cost-calculator/"><div class="ic">💷</div><h3>Elkostnadskalkylator</h3><p>El</p></a><a class="card" href="../solar-panel-calculator/"><div class="ic">☀️</div><h3>Solpanelskalkylator</h3><p>El</p></a></div>
+</div>
+<section class="txt"><h2>Hur det fungerar &mdash; formeln</h2>
+<p><strong>Tillåtet fall (V)</strong> = Matningsspänning × Tillåten % ÷ 100<br>
+<strong>Enfas:</strong> A = 2 × I × ρ × L ÷ Tillåtet fall<br>
+<strong>Trefas:</strong> A = √3 × I × ρ × L ÷ Tillåtet fall</p>
+<p>med ρ = 0.0168 Ω·mm²/m för koppar (1.68 × 10<sup>−8</sup> Ω·m) och 0.0265 Ω·mm²/m för aluminium (2.65 × 10<sup>−8</sup> Ω·m), L enkelvägslängden i meter och A tvärsnittet i mm². Det råa minimumet avrundas sedan <em>up</em> till nästa standardstorlek (1.5, 2.5, 4, 6, 10, 16, 25, 35, 50, 70, 95, 120, 150, 185, 240 mm²), och AWG-siffran är den närmaste vanliga amerikanska gauge till den standardstorleken — en approximation, eftersom de två systemens steg inte ligger exakt i linje.</p>
+<h3>Genomräknat exempel</h3>
+<div class="exbox">Koppar, enfas, I = 16 A, L = 20 m, 230 V, 3% tillåtet. Tillåtet fall = 230 × 0.03 = <strong>6.9 V</strong>. A = 2 × 16 × 0.0168 × 20 ÷ 6.9 = 10.752 ÷ 6.9 = <strong>1.56 mm²</strong>. Nästa standardstorlek vid eller över 1.56 mm² är <strong>2.5 mm²</strong> (≈ 14 AWG), som i själva verket bara tappar 2 × 16 × 0.0168 × 20 ÷ 2.5 = 4.30 V (1.87%).</div>
+<div class="resnote" style="font-size:14px;color:#5a6b68;background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin:12px 0"><strong>Säkerhetsfriskrivning:</strong> den här kalkylatorn dimensionerar en kabel för <em>bara spänningsfall</em>. Den kontrollerar inte strömbelastbarhet (ampacitet), som beror på installationsmetod, gruppering, isolering och temperatur, och inte heller samordning av skyddsanordningar eller jordning. De kontrollerna kommer från tabellerna i dina lokala elinstallationsregler och en behörig elektriker — installera aldrig en kabel enbart på styrkan av ett spänningsfallsresultat, och använd alltid den större storleken när de två kontrollerna inte är överens.</div>
+<h3>Vanliga frågor</h3></section>
+<div class="faq"><h3>Är AWG-motsvarigheten exakt?</h3><p>Nej. AWG-storlekar (…3.31 mm² för 12 AWG, 5.26 mm² för 10 AWG…) sammanfaller inte med metriska standardstorlekar, så siffran som visas är den närmaste vanliga gauge. Om du köper efter AWG och motsvarigheten sitter mellan gauges, välj den tjockare (lägre numrerade) gauge.</p></div><div class="faq"><h3>Vilken fallprocent ska jag tillåta?</h3><p>Vanlig vägledning (IEC 60364-5-52 informativ bilaga och nationella regler baserade på den) är ungefär 3% för belysning och 5% för andra användningar, från installationens ursprung. Om en del av den budgeten redan används av en uppströms ledning, tillåt bara det som återstår för den här ledningen.</p></div><div class="faq"><h3>Resultatet säger större än 240 mm² — vad då?</h3><p>Mycket långa eller tunga sträckor löses normalt med parallella kablar, en högre matningsspänning, eller att flytta matningen närmare lasten. Det är specialistdesignterritorium — ta in en kvalificerad elektriker eller elingenjör.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Bädda in den här kalkylatorn på din webbplats — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Lägg till den här kalkylatorn på din egen webbplats eller blogg — den är helt gratis, kräver ingen registrering, och visar alltid den senaste versionen. Kopiera koden nedan och klistra in den på din sida där du vill att kalkylatorn ska visas. Att behålla den lilla kreditraden &ldquo;Powered by Loona Automation&rdquo; under inbäddningen hjälper till att hålla det här verktyget gratis &mdash; men du får gärna styla eller ta bort den; verktyget fungerar hur som helst.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/sv/wire-size-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Wire Size Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Drivs av &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/sv/wire-size-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Kabelareakalkylator&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Kopiera inbäddningskod</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Kopierat!';setTimeout(function(){b.textContent='Kopiera inbäddningskod';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Populära kalkylatorer</h4><ul><li><a href="../paint-calculator/">Färgkalkylator</a></li>
+<li><a href="../concrete-calculator/">Betongkalkylator</a></li>
+<li><a href="../tile-calculator/">Kakelkalkylator</a></li>
+<li><a href="../brick-calculator/">Tegelkalkylator</a></li>
+<li><a href="../roof-pitch-calculator/">Taklutningskalkylator</a></li>
+<li><a href="../stairs-calculator/">Trappkalkylator</a></li></ul></div>
+<div><h4>Fler Loona-verktyg</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Alla Loona-verktyg</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Integritetspolicy</a></li>
+<li><a href="../terms.html">Användarvillkor</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis byggkalkylatorer i metriska och imperiala enheter, ingen registrering.
+Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var RHO2 = { cu: 0.0168, al: 0.0265 };
+var STD = [1.5, 2.5, 4, 6, 10, 16, 25, 35, 50, 70, 95, 120, 150, 185, 240];
+var STD_AWG = { "1.5": "16 AWG (approx.)", "2.5": "14 AWG (approx.)", "4": "12 AWG (approx.)", "6": "10 AWG (approx.)", "10": "8 AWG (approx.)", "16": "6 AWG (approx.)", "25": "4 AWG (approx.)", "35": "2 AWG (approx.)", "50": "1/0 AWG (approx.)", "70": "2/0 AWG (approx.)", "95": "3/0 AWG (approx.)", "120": "4/0 AWG (approx.)", "150": "300 kcmil (approx.)", "185": "350 kcmil (approx.)", "240": "500 kcmil (approx.)" };
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.length, v.current, v.volts, v.pct)) return bad("Ange enkelvägslängden, strömmen, matningsspänningen och tillåtet spänningsfall % (alla över noll).");
+  var L = v.length * ((v.sys === "i") ? FT : 1);
+  var rho = RHO2[v.material] || RHO2.cu;
+  var k = (v.phase === "3") ? Math.sqrt(3) : 2;
+  var allowed = v.volts * v.pct / 100;
+  var Areq = k * v.current * rho * L / allowed;
+  var std = null;
+  for (var i = 0; i < STD.length; i++) { if (STD[i] >= Areq - 1e-9) { std = STD[i]; break; } }
+  var stdTxt = std ? (fmt(std, 1) + " mm\u00B2") : "större än 240 mm\u00B2 (använd parallella sträckor / specialistdesign)";
+  var awgTxt = std ? (STD_AWG[String(std)] || "") : "";
+  var actualDrop = std ? (k * v.current * rho * L / std) : NaN;
+  var rows = [["Minsta tvärsnitt för fallgränsen", fmt(Areq, 2) + " mm\u00B2"],["Närmaste standardstorlek vid eller över den", stdTxt]];
+  if (std) { rows.push(["AWG-motsvarighet (närmaste vanliga gauge)", awgTxt]); rows.push(["Faktiskt fall med standardstorleken", fmt(actualDrop, 2) + " V (" + fmt(actualDrop / v.volts * 100, 2) + "%)"]); }
+  rows.push(["Tillåtet fall", fmt(allowed, 2) + " V (" + fmt(v.pct, 1) + "% of " + fmt(v.volts, 0) + " V)"]);
+  var html = resTable("Rekommenderad kabelstorlek (för spänningsfall)", stdTxt + (awgTxt ? " \u2014 " + awgTxt : ""), rows,
+    "VIKTIGT: det här resultatet uppfyller bara spänningsfallsmålet. En kabel måste OCKSÅ vara klassad för att föra strömmen säkert (strömföringsförmåga), och den klassningen beror på installationsmetoden \u2014 klämd direkt, i rör, nedgrävd, buntad med andra kablar, isoleringstyp och omgivningstemperatur ändrar den alla. Kontrollera alltid den valda storleken mot strömföringstabellerna i din lokala ledningskod, och låt installationsarbete utföras eller certifieras av en kvalificerad elektriker. När den fallsbaserade storleken och den strömföringsbaserade storleken skiljer sig, använd den STÖRRE av de två.");
+  return { ok: true, Areq: Areq, std: std, awg: awgTxt, actualDrop: actualDrop, L: L, html: html };
+} };
+
+function collect(){ return { sys: gs("f_system"), length: gv("f_length"), current: gv("f_current"), volts: gv("f_volts"), pct: gv("f_pct"), material: gs("f_material"), phase: gs("f_phase") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {"length":["m","ft"]};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installera app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installera den här appen: tryck på Dela-knappen och välj sedan "Lägg till på hemskärmen".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

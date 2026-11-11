@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 2500 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 2500 Sq",
+  "description": "Plattor till 2500 sq ft med plattor på 60×60 cm och 3 mm fogar: 703 plattor (176 lådor om 4) inklusive 10% extra för kapningar och brott.",
+  "id": "/loona-construction-calculators/sv/tiles-for-2500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

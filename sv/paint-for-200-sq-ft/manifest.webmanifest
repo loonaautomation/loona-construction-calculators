@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 200 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 200 Sq Ft",
+  "description": "Färg till 200 sq ft vägg: 4.1 liter (1.1 gal) för 2 strykningar vid typisk täckning på 10 m²/L, plus 1.7 L grundfärg — med antagandena angivna.",
+  "id": "/loona-construction-calculators/sv/paint-for-200-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Motståndsfärgkalkylator — 4, 5 & 6 band + omvänt (värde till band) | Loona Construction Calculators</title>
+<meta name="description" content="Gratis motståndsfärgkalkylator: välj bandfärgerna på ett 4-bands-, 5-bands- eller 6-bandsmotstånd för att få resistans, tolerans och temperaturkoefficient — eller omvänt, värde till band.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/sv/resistor-colour-code-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/resistor-colour-code-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/resistor-colour-code-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/resistor-colour-code-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/resistor-colour-code-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/resistor-colour-code-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/resistor-colour-code-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/resistor-colour-code-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/resistor-colour-code-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/resistor-colour-code-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/resistor-colour-code-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/resistor-colour-code-calculator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-construction-calculators/bn/resistor-colour-code-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/resistor-colour-code-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-construction-calculators/id/resistor-colour-code-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-construction-calculators/ja/resistor-colour-code-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/resistor-colour-code-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-construction-calculators/pl/resistor-colour-code-calculator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-construction-calculators/vi/resistor-colour-code-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-construction-calculators/zh/resistor-colour-code-calculator/"><link rel="alternate" hreflang="sv" href="https://loonaautomation.github.io/loona-construction-calculators/sv/resistor-colour-code-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/resistor-colour-code-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Motståndsfärgkalkylator — 4, 5 & 6 band + omvänt (värde till band) | Loona Construction Calculators">
+<meta property="og:description" content="Gratis motståndsfärgkalkylator: välj bandfärgerna på ett 4-bands-, 5-bands- eller 6-bandsmotstånd för att få resistans, tolerans och temperaturkoefficient — eller omvänt, värde till band.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/sv/resistor-colour-code-calculator/"><meta property="og:locale" content="sv_SE">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Motståndsfärgkalkylator — 4, 5 & 6 band + omvänt (värde till band) | Loona Construction Calculators">
+<meta name="twitter:description" content="Gratis motståndsfärgkalkylator: välj bandfärgerna på ett 4-bands-, 5-bands- eller 6-bandsmotstånd för att få resistans, tolerans och temperaturkoefficient — eller omvänt, värde till band.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Motståndsfärgkalkylator","url":"https://loonaautomation.github.io/loona-construction-calculators/sv/resistor-colour-code-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Från vilken ände läser jag?","acceptedAnswer":{"@type":"Answer","text":"Börja i änden där banden är grupperade närmast kanten, och läs mot toleransbandet — vanligtvis guld, silver, eller åtskilt med ett bredare mellanrum. På 4-bandsdelar, om båda ändarna ser liknande ut, är det första bandet aldrig guld eller silver (de är inte sifferfärger), vilket avgör riktningen."}},{"@type":"Question","name":"Vad är skillnaden mellan 4-bands- och 5-bandsmotstånd?","acceptedAnswer":{"@type":"Answer","text":"Precision. En 4-bandsdel kodar två signifikanta siffror och är fin vid ±5% eller ±10%. En 5-bandsdel kodar tre siffror, så värden som 4.99 kΩ kan specificeras exakt, och toleranser är vanligtvis ±1% eller bättre (metallfilmtyper)."}},{"@type":"Question","name":"Vad betyder det 6:e bandet?","acceptedAnswer":{"@type":"Answer","text":"Temperaturkoefficienten: hur mycket resistansen driver per grad temperaturförändring, i delar per miljon per kelvin. 50 ppm/K betyder att ett motstånd på 1,000 Ω ändras med ungefär 0.05 Ω per grad — relevant i precisions- och mätkretsar, sällan i vardagliga."}},{"@type":"Question","name":"Varför säger omvänt läge ibland att värdet inte kan visas exakt?","acceptedAnswer":{"@type":"Answer","text":"Eftersom en 4-bandskod bara rymmer två signifikanta siffror. 4,720 Ω behöver tre (4-7-2), så ett 4-bandsmotstånd finns helt enkelt inte på det exakta värdet — kalkylatorn visar det närmaste representerbara och säger det, i stället för att låtsas."}},{"@type":"Question","name":"Kan jag lita på färgerna på ett gammalt eller bränt motstånd?","acceptedAnswer":{"@type":"Answer","text":"Värme och ålder bleker färger — röd, orange och brun blir svåra att skilja åt, och ett bränt motstånds värde kan ha drivit ändå. Vid tveksamhet, mät med en multimeter (utanför kretsen, eller med ett ben lyft) i stället för att lita på banden."}},{"@type":"Question","name":"Hur är det med motstånd med bara 3 band, eller SMD-koder?","acceptedAnswer":{"@type":"Answer","text":"Ett 3-bandsmotstånd läses som ett 4-band med en underförstådd tolerans på ±20%. SMD-delar (ytmonterade) använder tryckta sifferkoder i stället för färger — ett annat system som den här kalkylatorn inte täcker."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/sv/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Motståndsfärgkalkylator",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/sv/resistor-colour-code-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automations logotyp">
+<div class="brand">Loona <span>Byggkalkylatorer</span></div>
+<nav>
+<a href="../">Hem</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; El &rsaquo; Motståndsfärgkalkylator</div>
+<h1 class="pagetitle">🌈 Motståndsfärgkalkylator</h1>
+<p class="lead">Välj färgerna målade på ett motstånd — 4-band, 5-band eller 6-band — och läs av dess resistans, tolerans och (för 6-band) temperaturkoefficient. Eller växla till omvänt läge: skriv ett värde i ohm och få banden du bör se.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_mode">Läge</label><select id="f_mode"><option value="fwd" selected>Färger &rarr; resistans</option><option value="rev">Resistans &rarr; färger (omvänt)</option></select></div><div class="fld"><label for="f_bands">Antal band</label><select id="f_bands"><option value="4" selected>4-band</option><option value="5">5-band</option><option value="6">6-band (lägger till temperaturkoefficient)</option></select></div><div class="fld"><label for="f_b1">Band 1 — första siffran (framåtläge)</label><select id="f_b1"><option value="black">Svart</option><option value="brown">Brun</option><option value="red">Röd</option><option value="orange">Orange</option><option value="yellow" selected>Gul</option><option value="green">Grön</option><option value="blue">Blå</option><option value="violet">Violett</option><option value="grey">Grå</option><option value="white">Vit</option><option value="gold">Guld</option><option value="silver">Silver</option></select></div><div class="fld"><label for="f_b2">Band 2 — andra siffran</label><select id="f_b2"><option value="black">Svart</option><option value="brown">Brun</option><option value="red">Röd</option><option value="orange">Orange</option><option value="yellow">Gul</option><option value="green">Grön</option><option value="blue">Blå</option><option value="violet" selected>Violett</option><option value="grey">Grå</option><option value="white">Vit</option><option value="gold">Guld</option><option value="silver">Silver</option></select></div><div class="fld"><label for="f_b3">Band 3 — tredje siffran (5/6-band) eller multiplikator (4-band)</label><select id="f_b3"><option value="black">Svart</option><option value="brown" selected>Brun</option><option value="red">Röd</option><option value="orange">Orange</option><option value="yellow">Gul</option><option value="green">Grön</option><option value="blue">Blå</option><option value="violet">Violett</option><option value="grey">Grå</option><option value="white">Vit</option><option value="gold">Guld</option><option value="silver">Silver</option></select></div><div class="fld"><label for="f_b4">Band 4 — multiplikator (5/6-band) eller tolerans (4-band)</label><select id="f_b4"><option value="black">Svart</option><option value="brown">Brun</option><option value="red">Röd</option><option value="orange">Orange</option><option value="yellow">Gul</option><option value="green">Grön</option><option value="blue">Blå</option><option value="violet">Violett</option><option value="grey">Grå</option><option value="white">Vit</option><option value="gold" selected>Guld</option><option value="silver">Silver</option></select></div><div class="fld"><label for="f_b5">Band 5 — tolerans (5/6-band)</label><select id="f_b5"><option value="black">Svart</option><option value="brown" selected>Brun</option><option value="red">Röd</option><option value="orange">Orange</option><option value="yellow">Gul</option><option value="green">Grön</option><option value="blue">Blå</option><option value="violet">Violett</option><option value="grey">Grå</option><option value="white">Vit</option><option value="gold">Guld</option><option value="silver">Silver</option></select></div><div class="fld"><label for="f_b6">Band 6 — temperaturkoefficient (endast 6-band)</label><select id="f_b6"><option value="black">Svart</option><option value="brown">Brun</option><option value="red" selected>Röd</option><option value="orange">Orange</option><option value="yellow">Gul</option><option value="green">Grön</option><option value="blue">Blå</option><option value="violet">Violett</option><option value="grey">Grå</option><option value="white">Vit</option><option value="gold">Guld</option><option value="silver">Silver</option></select></div><div class="fld"><label for="f_rev">Omvänt läge: resistansvärde (ohm)</label><input type="number" id="f_rev" step="any" value="4700"></div><div class="fld"><label for="f_revtol">Omvänt läge: toleransbandfärg</label><select id="f_revtol"><option value="gold" selected>Guld (±5%)</option><option value="silver">Silver (±10%)</option><option value="brown">Brun (±1%)</option><option value="red">Röd (±2%)</option><option value="green">Grön (±0.5%)</option><option value="blue">Blå (±0.25%)</option><option value="violet">Violett (±0.1%)</option><option value="none">Inget band (±20%)</option></select></div>
+<button type="button" class="calcbtn" id="calcBtn">Beräkna</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Så använder du Motståndsfärgkalkylatorn</h2><ol><li>Välj framåt- eller bakåtläge och antalet band som är tryckt på motståndet.</li><li>Framåt: ställ in varje bands färg i ordning, börja med bandet närmast ena änden (toleransbandet — guld, silver eller brett åtskilt — läses sist).</li><li>Omvänt: ange värdet i ohm och toleransen du vill ha; kalkylatorn namnger bandfärgerna och det exakta värdet de representerar.</li></ol>
+<div class="exbox"><strong>Exempel:</strong> Gul – violett – brun – guld på ett 4-bandsmotstånd: 4, 7, ×10 → <strong>470 Ω ±5%</strong>.</div>
+<h2>Vanliga frågor</h2></section><div class="faq"><h3>Från vilken ände läser jag?</h3><p>Börja i änden där banden är grupperade närmast kanten, och läs mot toleransbandet — vanligtvis guld, silver, eller åtskilt med ett bredare mellanrum. På 4-bandsdelar, om båda ändarna ser liknande ut, är det första bandet aldrig guld eller silver (de är inte sifferfärger), vilket avgör riktningen.</p></div><div class="faq"><h3>Vad är skillnaden mellan 4-bands- och 5-bandsmotstånd?</h3><p>Precision. En 4-bandsdel kodar två signifikanta siffror och är fin vid ±5% eller ±10%. En 5-bandsdel kodar tre siffror, så värden som 4.99 kΩ kan specificeras exakt, och toleranser är vanligtvis ±1% eller bättre (metallfilmtyper).</p></div><div class="faq"><h3>Vad betyder det 6:e bandet?</h3><p>Temperaturkoefficienten: hur mycket resistansen driver per grad temperaturförändring, i delar per miljon per kelvin. 50 ppm/K betyder att ett motstånd på 1,000 Ω ändras med ungefär 0.05 Ω per grad — relevant i precisions- och mätkretsar, sällan i vardagliga.</p></div>
+<h2 class="sec">Relaterade kalkylatorer</h2><div class="grid"><a class="card" href="../led-resistor-calculator/"><div class="ic">💡</div><h3>LED-motståndskalkylator</h3><p>El</p></a><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>Ohms lag-kalkylator</h3><p>El</p></a><a class="card" href="../awg-converter/"><div class="ic">📏</div><h3>AWG-omvandlare</h3><p>El</p></a><a class="card" href="../reactance-calculator/"><div class="ic">〰️</div><h3>Reaktanskalkylator</h3><p>El</p></a></div>
+</div>
+<section class="txt"><h2>Hur det fungerar &mdash; formeln</h2>
+<p><strong>4-band:</strong> Value = (10 × d<sub>1</sub> + d<sub>2</sub>) × multiplikator, 4:e bandet = tolerans<br>
+<strong>5-band:</strong> Value = (100 × d<sub>1</sub> + 10 × d<sub>2</sub> + d<sub>3</sub>) × multiplikator, 5:e bandet = tolerans<br>
+<strong>6-band:</strong> som 5-band, 6:e bandet = temperaturkoefficient (ppm/K)</p>
+<p>Sifferfärger: svart 0, brun 1, röd 2, orange 3, gul 4, grön 5, blå 6, violett 7, grå 8, vit 9. Multiplikatorer går från ×0.01 (silver) och ×0.1 (guld) upp till ×10⁹ (vit). Toleranser: guld ±5%, silver ±10%, inget band ±20%, och precisionsfärgerna brun ±1%, röd ±2%, grön ±0.5%, blå ±0.25%, violett ±0.1%, grå ±0.05%. Temperaturkoefficienter: brun 100, röd 50, orange 15, gul 25, grön 20, blå 10, violett 5, grå 1 ppm/K (svart 250).</p>
+<h3>Genomräknat exempel</h3>
+<div class="exbox">4-band, gul–violett–brun–guld: siffrorna 4 och 7 ger 47; den bruna multiplikatorn är ×10; 47 × 10 = <strong>470 Ω</strong>; guld betyder ±5%, så det sanna värdet ligger mellan 446.5 Ω och 493.5 Ω. Omvänd kontroll: 4,700 Ω i 4-bandsform är 47 × 100, och ×100 är den röda multiplikatorn — gul, violett, <strong>röd</strong>, plus ditt toleransband.</div>
+
+<h3>Vanliga frågor</h3></section>
+<div class="faq"><h3>Varför säger omvänt läge ibland att värdet inte kan visas exakt?</h3><p>Eftersom en 4-bandskod bara rymmer två signifikanta siffror. 4,720 Ω behöver tre (4-7-2), så ett 4-bandsmotstånd finns helt enkelt inte på det exakta värdet — kalkylatorn visar det närmaste representerbara och säger det, i stället för att låtsas.</p></div><div class="faq"><h3>Kan jag lita på färgerna på ett gammalt eller bränt motstånd?</h3><p>Värme och ålder bleker färger — röd, orange och brun blir svåra att skilja åt, och ett bränt motstånds värde kan ha drivit ändå. Vid tveksamhet, mät med en multimeter (utanför kretsen, eller med ett ben lyft) i stället för att lita på banden.</p></div><div class="faq"><h3>Hur är det med motstånd med bara 3 band, eller SMD-koder?</h3><p>Ett 3-bandsmotstånd läses som ett 4-band med en underförstådd tolerans på ±20%. SMD-delar (ytmonterade) använder tryckta sifferkoder i stället för färger — ett annat system som den här kalkylatorn inte täcker.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Bädda in den här kalkylatorn på din webbplats — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Lägg till den här kalkylatorn på din egen webbplats eller blogg — den är helt gratis, kräver ingen registrering, och visar alltid den senaste versionen. Kopiera koden nedan och klistra in den på din sida där du vill att kalkylatorn ska visas. Att behålla den lilla kreditraden &ldquo;Powered by Loona Automation&rdquo; under inbäddningen hjälper till att hålla det här verktyget gratis &mdash; men du får gärna styla eller ta bort den; verktyget fungerar hur som helst.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/sv/resistor-colour-code-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Resistor Colour Code Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Drivs av &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/sv/resistor-colour-code-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Motståndsfärgkalkylator&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Kopiera inbäddningskod</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Kopierat!';setTimeout(function(){b.textContent='Kopiera inbäddningskod';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Populära kalkylatorer</h4><ul><li><a href="../paint-calculator/">Färgkalkylator</a></li>
+<li><a href="../concrete-calculator/">Betongkalkylator</a></li>
+<li><a href="../tile-calculator/">Kakelkalkylator</a></li>
+<li><a href="../brick-calculator/">Tegelkalkylator</a></li>
+<li><a href="../roof-pitch-calculator/">Taklutningskalkylator</a></li>
+<li><a href="../stairs-calculator/">Trappkalkylator</a></li></ul></div>
+<div><h4>Fler Loona-verktyg</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Alla Loona-verktyg</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Integritetspolicy</a></li>
+<li><a href="../terms.html">Användarvillkor</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis byggkalkylatorer i metriska och imperiala enheter, ingen registrering.
+Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var DIGIT = { black: 0, brown: 1, red: 2, orange: 3, yellow: 4, green: 5, blue: 6, violet: 7, grey: 8, white: 9 };
+var MULT = { silver: 0.01, gold: 0.1, black: 1, brown: 10, red: 100, orange: 1000, yellow: 10000, green: 100000, blue: 1000000, violet: 10000000, grey: 100000000, white: 1000000000 };
+var MULT_NAME = { "-2": "silver", "-1": "gold", "0": "black", "1": "brown", "2": "red", "3": "orange", "4": "yellow", "5": "green", "6": "blue", "7": "violet", "8": "grey", "9": "white" };
+var TOL = { brown: 1, red: 2, green: 0.5, blue: 0.25, violet: 0.1, grey: 0.05, gold: 5, silver: 10, none: 20 };
+var TEMPCO = { black: 250, brown: 100, red: 50, orange: 15, yellow: 25, green: 20, blue: 10, violet: 5, grey: 1 };
+function fmtOhms(x) {
+  if (x >= 1000000) return fmt(x / 1000000, 3) + " M\u03A9";
+  if (x >= 1000) return fmt(x / 1000, 3) + " k\u03A9";
+  return fmt(x, 2) + " \u03A9";
+}
+var LOONA_TOOL = { run: function (v) {
+  if (v.mode === "rev") {
+    if (!pos(v.revValue)) return bad("Ange resistansvärdet i ohm.");
+    var ndig = (v.bands === "4") ? 2 : 3;
+    var exp = Math.floor(Math.log10(v.revValue)) - (ndig - 1);
+    if (exp < -2) exp = -2; if (exp > 9) exp = 9;
+    var mant = v.revValue / Math.pow(10, exp);
+    var mantR = Math.round(mant);
+    if (mantR >= Math.pow(10, ndig)) { mantR = mantR / 10; exp += 1; }
+    var represented = mantR * Math.pow(10, exp);
+    var digNames = ["black","brown","red","orange","yellow","green","blue","violet","grey","white"];
+    var bandNames = [];
+    var s = String(mantR);
+    while (s.length < ndig) s = "0" + s;
+    for (var i = 0; i < ndig; i++) bandNames.push(digNames[parseInt(s[i], 10)]);
+    bandNames.push(MULT_NAME[String(exp)]);
+    var tolPct = TOL[v.revTol];
+    var rowsR = [["Siffer- / multiplikatorband", bandNames.join(" \u2013 " )],["Toleransband", v.revTol + " (\u00B1" + tolPct + "%)"],["Värde banden representerar", fmtOhms(represented)]];
+    if (Math.abs(represented - v.revValue) > represented * 0.001) rowsR.push(["Obs", "Ditt exakta värde kan inte visas med " + ndig + " signifikanta siffror \u2014 dessa band ger närmaste representerbara värde."]);
+    var htmlR = resTable("Band för " + fmtOhms(v.revValue), bandNames.join(", ") + ", " + v.revTol, rowsR,
+      "Läs banden från änden närmast bandklustret, med toleransbandet (ofta guld, silver eller ett band med bredare avstånd) sist.");
+    return { ok: true, represented: represented, revBands: bandNames.concat([v.revTol]), tolPct: tolPct, html: htmlR };
+  }
+  var b = v.bandCols;
+  var tolBand = v.tolBand;
+  if (!(b[0] in DIGIT) || !(b[1] in DIGIT)) return bad("Välj färger för varje band.");
+  var digits, multC;
+  if (v.bands === "4") { digits = DIGIT[b[0]] * 10 + DIGIT[b[1]]; multC = b[2]; }
+  else { if (!(b[2] in DIGIT)) return bad("Välj färger för varje band."); digits = DIGIT[b[0]] * 100 + DIGIT[b[1]] * 10 + DIGIT[b[2]]; multC = b[3]; }
+  if (!(multC in MULT)) return bad("Multiplikatorbandets färg är inte giltig.");
+  var ohms = digits * MULT[multC];
+  var tol = TOL[tolBand];
+  if (tol === undefined) return bad("Toleransbandet måste vara brunt, rött, grönt, blått, violett, grått, guld, silver \u2014 eller välj 'inget' \u00B120%.");
+  var rows = [["Resistans", fmtOhms(ohms) + " (" + fmt(ohms, 2) + " \u03A9)"],["Tolerans", "\u00B1" + tol + "%  \u2192  mellan " + fmtOhms(ohms * (1 - tol / 100)) + " and " + fmtOhms(ohms * (1 + tol / 100))]];
+  var tempco = null;
+  if (v.bands === "6") { tempco = TEMPCO[b[5]]; if (tempco === undefined) return bad("Temperaturkoefficientbandets färg är inte giltig."); rows.push(["Temperaturkoefficient", tempco + " ppm/K"]);}
+  var html = resTable("Resistans", fmtOhms(ohms) + " \u00B1" + tol + "%", rows,
+    "Tips: håll motståndet med bandklustret till vänster och toleransbandet (guld, silver, eller det udda) till höger, läs sedan vänster till höger.");
+  return { ok: true, ohms: ohms, tolPct: tol, tempco: tempco, html: html };
+} };
+
+function collect(){
+  var bc = gs("f_bands");
+  var cols = [gs("f_b1"), gs("f_b2"), gs("f_b3"), gs("f_b4"), gs("f_b5"), gs("f_b6")];
+  var tolBand = (bc === "4") ? cols[3] : cols[4];
+  if (tolBand === "none") tolBand = "none";
+  return { mode: gs("f_mode"), bands: bc, bandCols: cols, tolBand: tolBand, revValue: gv("f_rev"), revTol: gs("f_revtol") };
+}
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installera app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installera den här appen: tryck på Dela-knappen och välj sedan "Lägg till på hemskärmen".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

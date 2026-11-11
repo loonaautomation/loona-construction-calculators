@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 3000 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 3000 Sq Ft",
+  "description": "Färg till 3000 sq ft vägg: 61.3 liter (16.2 gal) för 2 strykningar vid typisk täckning på 10 m²/L, plus 25.5 L grundfärg — med antagandena angivna.",
+  "id": "/loona-construction-calculators/sv/paint-for-3000-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
