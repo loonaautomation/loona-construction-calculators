@@ -1,0 +1,29 @@
+{
+  "name": "Loona Reactance Calculator",
+  "short_name": "Reactance Calculator",
+  "description": "Besplatni kalkulator reaktancije: frekvencija s kapacitetom (µF) daje kapacitivnu reaktanciju Xc, s induktivitetom (mH) daje induktivnu reaktanciju Xl — unesite oboje za neto reaktanciju i frekvenciju rezonancije LC-a.",
+  "id": "/loona-construction-calculators/hr/reactance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

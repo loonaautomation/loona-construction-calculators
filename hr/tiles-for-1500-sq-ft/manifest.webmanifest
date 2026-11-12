@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 1500 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 1500 Sq",
+  "description": "Pločice za 1500 sq ft s pločicama 60×60 cm i razmacima fuga od 3 mm: 422 pločice (106 kutija od 4) uključujući 10% viška za rezove i lomove.",
+  "id": "/loona-construction-calculators/hr/tiles-for-1500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

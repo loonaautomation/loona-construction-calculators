@@ -1,0 +1,344 @@
+[
+ {
+  "n": "Kalkulator boje",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/paint-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Litre i galoni za bilo koju sobu, vrata/prozori oduzeti, temeljni premaz uključen.",
+  "k": "kalkulator boje kalkulator boje kalkulator boje kalkulator gradjevinarstvo litre i galoni za bilo koju sobu vrata prozori oduzeti temeljni premaz ukljucen",
+  "p": 0,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator pločica",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/tile-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Pločice i kutije za podove i zidove, razmak fuga uračunat.",
+  "k": "kalkulator plocica kalkulator plocica kalkulator plocica kalkulator gradjevinarstvo plocice i kutije za podove i zidove razmak fuga uracunat",
+  "p": 1,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator betona",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/concrete-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Volumen ploče u m³ i yd³ plus broj vreća gotove mješavine.",
+  "k": "kalkulator betona kalkulator betona kalkulator betona kalkulator gradjevinarstvo volumen ploce u m3 i yd3 plus broj vreca gotove mjesavine",
+  "p": 2,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator podova",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/flooring-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Kutije laminata, vinila i drva s otpadom od rezanja.",
+  "k": "kalkulator podova kalkulator podova kalkulator podova kalkulator gradjevinarstvo kutije laminata vinila i drva s otpadom od rezanja",
+  "p": 3,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator gipsanih ploča",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/drywall-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Gipsane ploče za zidove i stropove.",
+  "k": "kalkulator gipsanih ploca kalkulator gipsanih ploca kalkulator gipsanih ploca kalkulator gradjevinarstvo gipsane ploce za zidove i stropove",
+  "p": 4,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator opeke",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/brick-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Brojevi opeka za standardne metričke i američke veličine opeke.",
+  "k": "kalkulator opeke kalkulator opeke kalkulator opeke kalkulator gradjevinarstvo brojevi opeka za standardne metricke i americke velicine opeke",
+  "p": 5,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator šljunka",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/gravel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tone i kubni jardi za prilaze, staze i podloge.",
+  "k": "kalkulator sljunka kalkulator sljunka kalkulator sljunka kalkulator gradjevinarstvo tone i kubni jardi za prilaze staze i podloge",
+  "p": 106,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator nagiba krova",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/roof-pitch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Omjer nagiba, kut, stupanj i duljina roga.",
+  "k": "kalkulator nagiba krova kalkulator nagiba krova kalkulator nagiba krova kalkulator gradjevinarstvo omjer nagiba kut stupanj i duljina roga",
+  "p": 107,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator stepenica",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/stairs-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Stepenice, visina čela stepenice, gazište, pomak i duljina kosnika.",
+  "k": "kalkulator stepenica kalkulator stepenica kalkulator stepenica kalkulator gradjevinarstvo stepenice visina cela stepenice gaziste pomak i duljina kosnika",
+  "p": 108,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator drvene građe (board foot)",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/board-foot-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Volumen drvene građe u board feetima i kubnim metrima.",
+  "k": "kalkulator drvene gra e board foot kalkulator drvene gra e board foot kalkulator drvene gra e board foot kalkulator gradjevinarstvo volumen drvene gra e u board feetima i kubnim metrima",
+  "p": 109,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator tapeta",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/wallpaper-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Role za EU i američke role, ponavljanje uzorka dopušteno.",
+  "k": "kalkulator tapeta kalkulator tapeta kalkulator tapeta kalkulator gradjevinarstvo role za eu i americke role ponavljanje uzorka dopusteno",
+  "p": 110,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator malča",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/mulch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Vreće i sipki volumen za gredice i obrube.",
+  "k": "kalkulator malca kalkulator malca kalkulator malca kalkulator gradjevinarstvo vrece i sipki volumen za gredice i obrube",
+  "p": 111,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator asfalta",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/asphalt-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tone i američke tone iz površine i debljine, gustoća se može uređivati, procjena troška.",
+  "k": "kalkulator asfalta kalkulator asfalta kalkulator asfalta kalkulator gradjevinarstvo tone i americke tone iz povrsine i debljine gustoca se moze ure ivati procjena troska",
+  "p": 112,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator izolacije",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/insulation-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Ploče, role ili vreće za upuhivanje za vašu ciljanu R-vrijednost / RSI, vodič za debljinu.",
+  "k": "kalkulator izolacije kalkulator izolacije kalkulator izolacije kalkulator gradjevinarstvo ploce role ili vrece za upuhivanje za vasu ciljanu r vrijednost rsi vodic za debljinu",
+  "p": 113,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator ograde",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/fence-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Stupovi, prečke, letvice i vreće betona iz duljine ograde i razmaka.",
+  "k": "kalkulator ograde kalkulator ograde kalkulator ograde kalkulator gradjevinarstvo stupovi precke letvice i vrece betona iz duljine ograde i razmaka",
+  "p": 114,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator terase",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/deck-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Daske za terasu, grede i vijci iz veličine terase, širine daske i razmaka greda.",
+  "k": "kalkulator terase kalkulator terase kalkulator terase kalkulator gradjevinarstvo daske za terasu grede i vijci iz velicine terase sirine daske i razmaka greda",
+  "p": 115,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator volumena bazena",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/pool-volume-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Litre i američki galoni za pravokutne, okrugle i ovalne bazene — spremno za doziranje.",
+  "k": "kalkulator volumena bazena kalkulator volumena bazena kalkulator volumena bazena kalkulator gradjevinarstvo litre i americki galoni za pravokutne okrugle i ovalne bazene spremno za doziranje",
+  "p": 116,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator solarnih panela",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/solar-panel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Potrebni paneli, kW sustava, očekivana proizvodnja i površina krova iz vašeg računa.",
+  "k": "kalkulator solarnih panela kalkulator solarnih panela kalkulator solarnih panela kalkulator gradjevinarstvo potrebni paneli kw sustava ocekivana proizvodnja i povrsina krova iz vaseg racuna",
+  "p": 117,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator tepiha",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/carpet-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Linearna duljina i prava površina kupnje iz veličine sobe i širine role.",
+  "k": "kalkulator tepiha kalkulator tepiha kalkulator tepiha kalkulator gradjevinarstvo linearna duljina i prava povrsina kupnje iz velicine sobe i sirine role",
+  "p": 118,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator šperploče",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/plywood-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Ploče po površini i po rasporedu za ploče 2440×1220 mm i 4×8 ft.",
+  "k": "kalkulator sperploce kalkulator sperploce kalkulator sperploce kalkulator gradjevinarstvo ploce po povrsini i po rasporedu za ploce 2440 1220 mm i 4 8 ft",
+  "p": 119,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator pijeska",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/sand-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tone i vreće od 25 kg za pijeskovnike, podloge za popločavanje i estrihe.",
+  "k": "kalkulator pijeska kalkulator pijeska kalkulator pijeska kalkulator gradjevinarstvo tone i vrece od 25 kg za pijeskovnike podloge za poplocavanje i estrihe",
+  "p": 120,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator Ohmova zakona",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/ohms-law-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Voltage, current, resistance & power from any two values — the full Ohm's law wheel.",
+  "k": "kalkulator ohmova zakona kalkulator ohmova zakona kalkulator ohmova zakona kalkulator gradjevinarstvo voltage current resistance power from any two values the full ohm s law wheel",
+  "p": 121,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator pada napona",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/voltage-drop-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Volts & % dropped over a cable run, mm² or AWG, single & three-phase.",
+  "k": "kalkulator pada napona kalkulator pada napona kalkulator pada napona kalkulator gradjevinarstvo volts dropped over a cable run mm2 or awg single three phase",
+  "p": 122,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator veličine žice",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/wire-size-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Minimum cable size in mm² + standard size & AWG from your drop limit.",
+  "k": "kalkulator velicine zice kalkulator velicine zice kalkulator velicine zice kalkulator gradjevinarstvo minimum cable size in mm2 standard size awg from your drop limit",
+  "p": 123,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator troška električne energije",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/electricity-cost-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "What an appliance costs per day, month & year from watts & price per kWh.",
+  "k": "kalkulator troska elektricne energije kalkulator troska elektricne energije kalkulator troska elektricne energije kalkulator gradjevinarstvo what an appliance costs per day month year from watts price per kwh",
+  "p": 124,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator ampera u vate",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/amps-to-watts-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Watts & kW from amps and volts — DC, single-phase & three-phase with power factor.",
+  "k": "kalkulator ampera u vate kalkulator ampera u vate kalkulator ampera u vate kalkulator gradjevinarstvo watts kw from amps and volts dc single phase three phase with power factor",
+  "p": 125,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator vata u ampere",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/watts-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Amps from watts and volts for breaker & cable checks — DC, single & three-phase.",
+  "k": "kalkulator vata u ampere kalkulator vata u ampere kalkulator vata u ampere kalkulator gradjevinarstvo amps from watts and volts for breaker cable checks dc single three phase",
+  "p": 126,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator kVA u ampere",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/kva-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Generator & transformer kVA to full-load amps, and amps back to kVA, single & three-phase.",
+  "k": "kalkulator kva u ampere kalkulator kva u ampere kalkulator kva u ampere kalkulator gradjevinarstvo generator transformer kva to full load amps and amps back to kva single three phase",
+  "p": 127,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator faktora snage",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/power-factor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Power factor, kvar & phase angle from kW and kVA, plus correction capacitor size.",
+  "k": "kalkulator faktora snage kalkulator faktora snage kalkulator faktora snage kalkulator gradjevinarstvo power factor kvar phase angle from kw and kva plus correction capacitor size",
+  "p": 128,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator trajanja baterije",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/battery-runtime-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "How long a battery runs a load — Ah, usable Wh, depth of discharge & inverter losses counted.",
+  "k": "kalkulator trajanja baterije kalkulator trajanja baterije kalkulator trajanja baterije kalkulator gradjevinarstvo how long a battery runs a load ah usable wh depth of discharge inverter losses counted",
+  "p": 129,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator LED otpornika",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/led-resistor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Series resistor in ohms, nearest standard E12 value, actual current & wattage.",
+  "k": "kalkulator led otpornika kalkulator led otpornika kalkulator led otpornika kalkulator gradjevinarstvo series resistor in ohms nearest standard e12 value actual current wattage",
+  "p": 130,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator trofazne snage",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/three-phase-power-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "kW, kVA & kvar from line voltage, line current & power factor for balanced loads.",
+  "k": "kalkulator trofazne snage kalkulator trofazne snage kalkulator trofazne snage kalkulator gradjevinarstvo kw kva kvar from line voltage line current power factor for balanced loads",
+  "p": 131,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator struje motora",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/motor-current-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Estimated full-load amps from motor kW or hp, efficiency & power factor.",
+  "k": "kalkulator struje motora kalkulator struje motora kalkulator struje motora kalkulator gradjevinarstvo estimated full load amps from motor kw or hp efficiency power factor",
+  "p": 132,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator koda boja otpornika",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/resistor-colour-code-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Read 4, 5 & 6-band resistor colours to ohms & tolerance — or turn a value back into bands.",
+  "k": "kalkulator koda boja otpornika kalkulator koda boja otpornika kalkulator koda boja otpornika kalkulator gradjevinarstvo read 4 5 6 band resistor colours to ohms tolerance or turn a value back into bands",
+  "p": 133,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator 555 timera",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/555-timer-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Astable frequency & duty cycle and monostable pulse width from R and C.",
+  "k": "kalkulator 555 timera kalkulator 555 timera kalkulator 555 timera kalkulator gradjevinarstvo astable frequency duty cycle and monostable pulse width from r and c",
+  "p": 134,
+  "c": "Tool"
+ },
+ {
+  "n": "AWG pretvarač",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/awg-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "AWG to mm, mm² and resistance per km for copper & aluminium — and back from mm² or diameter.",
+  "k": "awg pretvarac awg pretvarac awg pretvarac kalkulator gradjevinarstvo awg to mm mm2 and resistance per km for copper aluminium and back from mm2 or diameter",
+  "p": 135,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulator reaktancije",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/reactance-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Capacitive & inductive reactance in ohms, plus LC resonant frequency.",
+  "k": "kalkulator reaktancije kalkulator reaktancije kalkulator reaktancije kalkulator gradjevinarstvo capacitive inductive reactance in ohms plus lc resonant frequency",
+  "p": 136,
+  "c": "Tool"
+ },
+ {
+  "n": "dB pretvarač",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/db-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "Power & voltage ratios to decibels, dBm to milliwatts & watts and back.",
+  "k": "db pretvarac db pretvarac db pretvarac kalkulator gradjevinarstvo power voltage ratios to decibels dbm to milliwatts watts and back",
+  "p": 137,
+  "c": "Tool"
+ }
+]

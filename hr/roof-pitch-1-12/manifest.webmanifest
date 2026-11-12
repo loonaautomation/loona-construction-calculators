@@ -1,0 +1,29 @@
+{
+  "name": "Loona 1/12 Roof Pitch",
+  "short_name": "1/12 Roof Pitch",
+  "description": "Nagib krova 1/12 iznosi 4.76 stupnjeva (nagib od 8%). Množitelj roga 1.0035, duljine rogova za uobičajene pomake, materijali i uporabe.",
+  "id": "/loona-construction-calculators/hr/roof-pitch-1-12/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

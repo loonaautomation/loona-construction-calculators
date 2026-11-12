@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Besplatni građevinski kalkulatori koji rade u OBJE metričke i imperijalne jedinice: boja, pločice, beton, podovi, gipsane ploče, opeka, šljunak, nagib krova, stepenice, board foot, tapete, malč, asfalt, izolacija, ograda, terasa, volumen bazena, solarni panel, tepih, šperploča, pijesak, Ohmov zakon, pad napona, veličina žice, trošak električne energije, amperi u vate, vati u ampere, kVA u ampere, faktor snage, vrijeme rada baterije, LED otpornik, trofazna snaga, struja motora, kod boja otpornika, mjerač vremena 555, AWG pretvorba, reaktancija i pretvorba decibela — s dodacima za otpad i obrađenim primjerima.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/hr/"
+}
