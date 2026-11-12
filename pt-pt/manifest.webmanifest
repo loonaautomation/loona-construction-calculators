@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Calculadoras de construção gratuitas que funcionam em AMBAS as unidades, métricas e imperiais: tinta, azulejos, betão, pavimento, pladur, tijolos, gravilha, inclinação do telhado, escadas, pés de tábua, papel de parede, cobertura morta, asfalto, isolamento, cercas, deck, volume de piscina, painéis solares, alcatifa, contraplacado, areia, lei de Ohm, queda de tensão, secção de cabo, custo de eletricidade, amperes para watts, watts para amperes, kVA para amperes, fator de potência, autonomia da bateria, resistência LED, potência trifásica, corrente de motor, código de cores de resistências, temporizador 555, conversão AWG, reactância e conversão de decibéis — com margens de desperdício e exemplos resolvidos.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/pt-pt/"
+}

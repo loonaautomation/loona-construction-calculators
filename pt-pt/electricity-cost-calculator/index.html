@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de custo de eletricidade — Quanto custa um aparelho por dia, mês e ano | Loona Construction Calculators</title>
+<meta name="description" content="Calculadora gratuita de custo de eletricidade: os watts do aparelho (ou amperes × volts), as horas por dia, os dias por mês e o preço por kWh dão os kWh usados e o custo por dia, mês e ano — em qualquer moeda.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/pt-pt/electricity-cost-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/electricity-cost-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/electricity-cost-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/electricity-cost-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/electricity-cost-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/electricity-cost-calculator/"><link rel="alternate" hreflang="pt-PT" href="https://loonaautomation.github.io/loona-construction-calculators/pt-pt/electricity-cost-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/electricity-cost-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/electricity-cost-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/electricity-cost-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/electricity-cost-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/electricity-cost-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/electricity-cost-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-construction-calculators/id/electricity-cost-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/electricity-cost-calculator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-construction-calculators/bn/electricity-cost-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-construction-calculators/ja/electricity-cost-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/electricity-cost-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-construction-calculators/zh/electricity-cost-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-construction-calculators/pl/electricity-cost-calculator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-construction-calculators/vi/electricity-cost-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/electricity-cost-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculadora de custo de eletricidade — Quanto custa um aparelho por dia, mês e ano | Loona Construction Calculators">
+<meta property="og:description" content="Calculadora gratuita de custo de eletricidade: os watts do aparelho (ou amperes × volts), as horas por dia, os dias por mês e o preço por kWh dão os kWh usados e o custo por dia, mês e ano — em qualquer moeda.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/pt-pt/electricity-cost-calculator/"><meta property="og:locale" content="pt_PT">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculadora de custo de eletricidade — Quanto custa um aparelho por dia, mês e ano | Loona Construction Calculators">
+<meta name="twitter:description" content="Calculadora gratuita de custo de eletricidade: os watts do aparelho (ou amperes × volts), as horas por dia, os dias por mês e o preço por kWh dão os kWh usados e o custo por dia, mês e ano — em qualquer moeda.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculadora de custo de eletricidade da Loona","url":"https://loonaautomation.github.io/loona-construction-calculators/pt-pt/electricity-cost-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Onde encontro o meu preço por kWh?","acceptedAnswer":{"@type":"Answer","text":"Na sua fatura de eletricidade: ou uma tarifa unitária declarada, ou divida o encargo total de energia pelos kWh consumidos. Inclua apenas os encargos de energia por unidade se quiser o custo puro de funcionamento; os encargos fixos e os impostos aplicam-se quer este aparelho funcione ou não."}},{"@type":"Question","name":"A etiqueta mostra amperes, não watts — o que faço?","acceptedAnswer":{"@type":"Answer","text":"Preencha os amperes e a sua tensão de alimentação (230 V na maior parte da Europa e no Paquistão, 120 V na América do Norte) e deixe a calculadora multiplicá-los: W = A × V. Se preencher amperes e volts, esses substituem a caixa dos watts."}},{"@type":"Question","name":"Porque é que a minha fatura real é menor que a estimativa para um frigorífico ou ar condicionado?","acceptedAnswer":{"@type":"Answer","text":"Esses aparelhos ciclam: o compressor ou o termóstato liga e desliga a carga, por isso o consumo médio é muitas vezes 30–70% do valor nominal. Aquecedores, chaleiras, bombas e luzes, pelo contrário, consomem perto dos seus watts nominais sempre que estão ligados, por isso a estimativa é próxima para eles."}},{"@type":"Question","name":"Como calculo o custo de uma casa ou oficina inteira?","acceptedAnswer":{"@type":"Answer","text":"Calcule o custo das grandes cargas uma de cada vez — aquecimento, arrefecimento, aquecimento de água, bombas e iluminação são normalmente 80–90% de uma fatura — e some os resultados. As pequenas cargas sempre ligadas (routers, TVs em espera) são baratas individualmente mas funcionam 8,760 horas por ano, por isso verifique-as também."}},{"@type":"Question","name":"Isto funciona para qualquer país e moeda?","acceptedAnswer":{"@type":"Answer","text":"Sim. As contas são as mesmas em todo o lado, e os resultados estão na moeda em que estiver o seu preço por kWh — dólares, libras, euros, rupias. (Para a fatura doméstica completa do Paquistão baseada em escalões, use a ferramenta de fatura de eletricidade da Loona Calculators ligada na secção de fórmulas.)"}},{"@type":"Question","name":"O que é um kWh em termos simples?","acceptedAnswer":{"@type":"Answer","text":"Pôr um aparelho de 1,000 W a funcionar durante 1 hora usa 1 kWh. Uma lâmpada de 100 W leva 10 horas a usar o mesmo 1 kWh — é por isso que a potência × horas, e não a potência sozinha, decide o custo."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/pt-pt/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculadora de custo de eletricidade",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/pt-pt/electricity-cost-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logótipo da Loona Automation">
+<div class="brand">Loona <span>Calculadoras de construção</span></div>
+<nav>
+<a href="../">Início</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Sobre</a>
+<a href="../contact.html">Contacto</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Eletricidade &rsaquo; Calculadora de custo de eletricidade</div>
+<h1 class="pagetitle">💷 Calculadora de custo de eletricidade</h1>
+<p class="lead">Quanto custa realmente pôr a funcionar esse aquecedor, bomba ou ar condicionado? Introduza a sua potência (ou os seus amperes e volts), quanto tempo funciona cada dia e o seu preço por kWh, e obtenha a energia usada e o custo por dia, mês e ano — em qualquer moeda.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_watts">Potência do aparelho (watts) — da sua etiqueta de características</label><input type="number" id="f_watts" step="any" value="1500"></div><div class="fld"><label for="f_amps">OU corrente (amperes) — se amperes e volts estiverem ambos preenchidos, substituem os watts</label><input type="number" id="f_amps" step="any" value=""></div><div class="fld"><label for="f_volts">Tensão (volts) — com os amperes acima</label><input type="number" id="f_volts" step="any" value=""></div><div class="fld"><label for="f_hours">Horas de uso por dia</label><input type="number" id="f_hours" step="any" value="4"></div><div class="fld"><label for="f_days">Dias de uso por mês</label><input type="number" id="f_days" step="any" value="30"></div><div class="fld"><label for="f_price">Preço por kWh (na sua moeda — da sua fatura de eletricidade)</label><input type="number" id="f_price" step="any" value="0.30"></div>
+<button type="button" class="calcbtn" id="calcBtn">Calcular</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Como usar a calculadora de custo de eletricidade</h2><ol><li>Encontre a potência do aparelho: os watts da sua etiqueta de características, ou os seus amperes — preencha amperes e volts em vez disso e a calculadora multiplica-os.</li><li>Introduza horas por dia e dias por mês realistas (um aquecedor usado só nos dias úteis pode ser 22 dias, não 30).</li><li>Tire o preço por kWh da sua fatura mais recente — divida o total da fatura pelos kWh usados se a sua tarifa não estiver mostrada diretamente — e depois prima Calcular.</li></ol>
+<div class="exbox"><strong>Exemplo:</strong> Um aquecedor de 1,500 W a funcionar 4 horas por dia, 30 dias por mês, a 0.30 por kWh usa <strong>180 kWh</strong> por mês e custa <strong>54.00</strong> por mês.</div>
+<h2>Perguntas frequentes</h2></section><div class="faq"><h3>Onde encontro o meu preço por kWh?</h3><p>Na sua fatura de eletricidade: ou uma tarifa unitária declarada, ou divida o encargo total de energia pelos kWh consumidos. Inclua apenas os encargos de energia por unidade se quiser o custo puro de funcionamento; os encargos fixos e os impostos aplicam-se quer este aparelho funcione ou não.</p></div><div class="faq"><h3>A etiqueta mostra amperes, não watts — o que faço?</h3><p>Preencha os amperes e a sua tensão de alimentação (230 V na maior parte da Europa e no Paquistão, 120 V na América do Norte) e deixe a calculadora multiplicá-los: W = A × V. Se preencher amperes e volts, esses substituem a caixa dos watts.</p></div><div class="faq"><h3>Porque é que a minha fatura real é menor que a estimativa para um frigorífico ou ar condicionado?</h3><p>Esses aparelhos ciclam: o compressor ou o termóstato liga e desliga a carga, por isso o consumo médio é muitas vezes 30–70% do valor nominal. Aquecedores, chaleiras, bombas e luzes, pelo contrário, consomem perto dos seus watts nominais sempre que estão ligados, por isso a estimativa é próxima para eles.</p></div>
+<h2 class="sec">Calculadoras relacionadas</h2><div class="grid"><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>Calculadora da lei de Ohm</h3><p>Eletricidade</p></a><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>Calculadora de queda de tensão</h3><p>Eletricidade</p></a><a class="card" href="../wire-size-calculator/"><div class="ic">🧵</div><h3>Calculadora de tamanho de cabo</h3><p>Eletricidade</p></a><a class="card" href="../solar-panel-calculator/"><div class="ic">☀️</div><h3>Calculadora de painéis solares</h3><p>Eletricidade</p></a></div>
+</div>
+<section class="txt"><h2>Como funciona &mdash; a fórmula</h2>
+<p><strong>Potência a partir dos amperes:</strong> W = A × V<br>
+<strong>Energia por dia (kWh)</strong> = Watts ÷ 1,000 × Horas por dia<br>
+<strong>Energia por mês</strong> = kWh por dia × Dias por mês &nbsp;·&nbsp; <strong>Energia por ano</strong> = kWh por mês × 12<br>
+<strong>Custo</strong> = kWh × Preço por kWh</p>
+<p>Um quilowatt-hora é um quilowatt a funcionar durante uma hora — é a unidade em que a sua fatura é contada. Esta é uma ferramenta genérica de custo de funcionamento de aparelhos para qualquer país e moeda. Para uma fatura doméstica completa no Paquistão, incluindo as tarifas por escalões, os impostos e as sobretaxas aplicáveis lá, use a dedicada <a href="https://loonaautomation.github.io/loona-calculators/electricity-bill-calculator/">Calculadora de fatura de eletricidade do Paquistão na Loona Calculators</a> em vez disso — uma ferramenta diferente para um trabalho diferente.</p>
+<h3>Exemplo prático</h3>
+<div class="exbox">Aquecedor: 1,500 W, 4 h/dia, 30 dias/mês, preço 0.30 por kWh. Energia por dia = 1,500 ÷ 1,000 × 4 = <strong>6 kWh</strong>. Por mês = 6 × 30 = <strong>180 kWh</strong>. Custo por mês = 180 × 0.30 = <strong>54.00</strong>; por dia = 6 × 0.30 = 1.80; por ano = 180 × 12 = 2,160 kWh custando 648.00.</div>
+
+<h3>Perguntas frequentes</h3></section>
+<div class="faq"><h3>Como calculo o custo de uma casa ou oficina inteira?</h3><p>Calcule o custo das grandes cargas uma de cada vez — aquecimento, arrefecimento, aquecimento de água, bombas e iluminação são normalmente 80–90% de uma fatura — e some os resultados. As pequenas cargas sempre ligadas (routers, TVs em espera) são baratas individualmente mas funcionam 8,760 horas por ano, por isso verifique-as também.</p></div><div class="faq"><h3>Isto funciona para qualquer país e moeda?</h3><p>Sim. As contas são as mesmas em todo o lado, e os resultados estão na moeda em que estiver o seu preço por kWh — dólares, libras, euros, rupias. (Para a fatura doméstica completa do Paquistão baseada em escalões, use a ferramenta de fatura de eletricidade da Loona Calculators ligada na secção de fórmulas.)</p></div><div class="faq"><h3>O que é um kWh em termos simples?</h3><p>Pôr um aparelho de 1,000 W a funcionar durante 1 hora usa 1 kWh. Uma lâmpada de 100 W leva 10 horas a usar o mesmo 1 kWh — é por isso que a potência × horas, e não a potência sozinha, decide o custo.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Incorpore esta calculadora no seu site — grátis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Adicione esta calculadora ao seu site ou blogue — é totalmente grátis, não precisa de registo e mostra sempre a versão mais recente. Copie o código abaixo e cole-o na sua página onde quiser que a calculadora apareça. Manter a pequena linha de crédito &ldquo;Powered by Loona Automation&rdquo; sob a incorporação ajuda a manter esta ferramenta gratuita &mdash; mas pode estilizá-la ou removê-la à vontade; a ferramenta funciona na mesma.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/pt-pt/electricity-cost-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Electricity Cost Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Desenvolvido por &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/pt-pt/electricity-cost-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; grátis Calculadora de custo de eletricidade&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copiar código de incorporação</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copiado!';setTimeout(function(){b.textContent='Copiar código de incorporação';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculadoras populares</h4><ul><li><a href="../paint-calculator/">Calculadora de tinta</a></li>
+<li><a href="../concrete-calculator/">Calculadora de betão</a></li>
+<li><a href="../tile-calculator/">Calculadora de azulejos</a></li>
+<li><a href="../brick-calculator/">Calculadora de tijolos</a></li>
+<li><a href="../roof-pitch-calculator/">Calculadora de inclinação de telhado</a></li>
+<li><a href="../stairs-calculator/">Calculadora de escadas</a></li></ul></div>
+<div><h4>Mais ferramentas Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Todas as ferramentas Loona</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Sobre</a></li>
+<li><a href="../contact.html">Contacto</a></li>
+<li><a href="../privacy-policy.html">Política de privacidade</a></li>
+<li><a href="../terms.html">Termos de uso</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; um projeto de <a href="https://loonaautomation.github.io/">Loona Automation</a> . Calculadoras de construção gratuitas em unidades métricas e imperiais, sem registo.
+Contacto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  var watts = v.watts;
+  var mode = "watts";
+  if (v.amps > 0 && v.volts > 0) { watts = v.amps * v.volts; mode = "ampsvolts"; }
+  if (!pos(watts, v.hours, v.days, v.price)) return bad("Introduza a potência do aparelho em watts (ou amperes e volts), as horas por dia, os dias por mês e o preço por kWh.");
+  if (v.hours > 24) return bad("As horas por dia não podem ser mais de 24.");
+  var kwhDay = watts / 1000 * v.hours;
+  var kwhMonth = kwhDay * v.days;
+  var kwhYear = kwhMonth * 12;
+  var html = resTable("Custo por mês", fmt(kwhMonth * v.price, 2),
+    [["Potência do aparelho usada", fmt(watts, 0) + " W" + (mode === "ampsvolts" ? " (de amperes \u00D7 volts)" : "")],
+     ["Energia por dia", fmt(kwhDay, 3) + " kWh \u2014 custo " + fmt(kwhDay * v.price, 2)],
+     ["Energia por mês (" + fmt(v.days, 0) + " dias)", fmt(kwhMonth, 2) + " kWh \u2014 custo " + fmt(kwhMonth * v.price, 2)],
+     ["Energia por ano", fmt(kwhYear, 1) + " kWh \u2014 custo " + fmt(kwhYear * v.price, 2)],
+     ["Custo por hora de uso", fmt(watts / 1000 * v.price, 3)]],
+    "Os custos estão na moeda em que estiver o seu preço por kWh, e pressupõem que o aparelho consome a sua potência nominal completa sempre que está ligado. Os aparelhos cíclicos (frigoríficos, ares condicionados, aquecedores termostáticos) usam tipicamente 30\u201370% disso na prática. O valor anual é o valor mensal \u00D7 12.");
+  return { ok: true, watts: watts, kwhDay: kwhDay, kwhMonth: kwhMonth, kwhYear: kwhYear, costDay: kwhDay * v.price, costMonth: kwhMonth * v.price, costYear: kwhYear * v.price, html: html };
+} };
+
+function collect(){ return { watts: gv("f_watts"), amps: gv("f_amps"), volts: gv("f_volts"), hours: gv("f_hours"), days: gv("f_days"), price: gv("f_price") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalar app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Instale esta app: toque no botão Partilhar e depois escolha "Adicionar ao ecrã principal".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

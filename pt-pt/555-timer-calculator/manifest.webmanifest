@@ -1,0 +1,29 @@
+{
+  "name": "Loona 555 Timer Calculator",
+  "short_name": "555 Timer Calculator",
+  "description": "Calculadora de temporizador 555 gratuita: o modo astável dá a frequência, o ciclo de trabalho e os tempos ALTO/BAIXO a partir de R1, R2 e C; o modo monoestável dá a largura do pulso a partir de R e C — fórmulas padrão 1.44 e 1.1.",
+  "id": "/loona-construction-calculators/pt-pt/555-timer-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

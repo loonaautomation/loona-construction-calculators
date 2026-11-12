@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 300 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 300 Sq Ft?",
+  "description": "Azulejos para 300 sq ft com azulejos de 60×60 cm e juntas de 3 mm: 85 azulejos (22 caixas de 4) incluindo 10% extra para cortes e quebras.",
+  "id": "/loona-construction-calculators/pt-pt/tiles-for-300-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
