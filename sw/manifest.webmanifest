@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Vikokotoo vya ujenzi vya bure vinavyofanya kazi katika vitengo vya metriki NA imperial: rangi, kigae, zege, sakafu, drywall, tofali, changarawe, mteremko wa paa, ngazi, futi ya ubao, karatasi ya ukuta, matandazo, lami, kihami, uzio, deki, kiasi cha bwawa, paneli ya jua, zulia, plywood, mchanga, sheria ya Ohm, kushuka kwa volti, ukubwa wa waya, gharama ya umeme, ampea hadi wati, wati hadi ampea, kVA hadi ampea, kipengele cha nguvu, muda wa betri, kinzani ya LED, nguvu ya awamu tatu, mkondo wa mota, msimbo wa rangi za kinzani, kipima muda cha 555, ubadilishaji wa AWG, ukinzani tendaji na ubadilishaji wa desibeli — kwa posho za upotevu na mifano iliyofanyiwa kazi.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/sw/"
+}

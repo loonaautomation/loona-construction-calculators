@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in United Kingdom",
+  "short_name": "Brick Size in United Kingdom",
+  "description": "Ukubwa wa kawaida wa tofali nchini Uingereza: 215 × 102.5 × 65 mm. Matofali 59.3 kwa m² (5.51 kwa sq ft) ya ukuta wa safu moja kwa viungo vya chokaa vya 10 mm, ufunikaji kwa matofali 1,000 na mfano wa ukuta uliofanyiwa kazi.",
+  "id": "/loona-construction-calculators/sw/brick-size-uk/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+[
+ {
+  "n": "Kikokotoo cha Rangi",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/paint-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Lita na galoni kwa chumba chochote, milango/madirisha yametolewa, rangi ya msingi imejumuishwa.",
+  "k": "kikokotoo cha rangi kikokotoo cha rangi kikokotoo cha rangi calculator construction lita na galoni kwa chumba chochote milango madirisha yametolewa rangi ya msingi imejumuishwa",
+  "p": 0,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Vigae",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/tile-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Vigae na visanduku kwa sakafu na kuta, pengo la grauti limehesabiwa.",
+  "k": "kikokotoo cha vigae kikokotoo cha vigae kikokotoo cha vigae calculator construction vigae na visanduku kwa sakafu na kuta pengo la grauti limehesabiwa",
+  "p": 1,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Zege",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/concrete-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Kiasi cha slabu katika m³ na yd³ pamoja na hesabu ya mifuko ya mchanganyiko tayari.",
+  "k": "kikokotoo cha zege kikokotoo cha zege kikokotoo cha zege calculator construction kiasi cha slabu katika m na yd pamoja na hesabu ya mifuko ya mchanganyiko tayari",
+  "p": 2,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Sakafu",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/flooring-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Visanduku vya laminate, vinyl na mbao kwa upotevu wa ukataji.",
+  "k": "kikokotoo cha sakafu kikokotoo cha sakafu kikokotoo cha sakafu calculator construction visanduku vya laminate vinyl na mbao kwa upotevu wa ukataji",
+  "p": 3,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Drywall",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/drywall-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Mabamba ya plasterboard / drywall kwa kuta na dari.",
+  "k": "kikokotoo cha drywall kikokotoo cha drywall kikokotoo cha drywall calculator construction mabamba ya plasterboard drywall kwa kuta na dari",
+  "p": 4,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Matofali",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/brick-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Hesabu za matofali kwa ukubwa wa kawaida wa metriki na Marekani wa matofali.",
+  "k": "kikokotoo cha matofali kikokotoo cha matofali kikokotoo cha matofali calculator construction hesabu za matofali kwa ukubwa wa kawaida wa metriki na marekani wa matofali",
+  "p": 5,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Changarawe",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/gravel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tani na yadi za ujazo kwa njia za gari, njia za miguu na misingi.",
+  "k": "kikokotoo cha changarawe kikokotoo cha changarawe kikokotoo cha changarawe calculator construction tani na yadi za ujazo kwa njia za gari njia za miguu na misingi",
+  "p": 106,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Mteremko wa Paa",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/roof-pitch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Uwiano wa mteremko, pembe, daraja na urefu wa kengeu.",
+  "k": "kikokotoo cha mteremko wa paa kikokotoo cha mteremko wa paa kikokotoo cha mteremko wa paa calculator construction uwiano wa mteremko pembe daraja na urefu wa kengeu",
+  "p": 107,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Ngazi",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/stairs-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Hatua, kimo cha kipandio, kina cha hatua, kwenda na urefu wa ubao wa pembeni.",
+  "k": "kikokotoo cha ngazi kikokotoo cha ngazi kikokotoo cha ngazi calculator construction hatua kimo cha kipandio kina cha hatua kwenda na urefu wa ubao wa pembeni",
+  "p": 108,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Futi za Ubao",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/board-foot-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Kiasi cha mbao katika futi za ubao na mita za ujazo.",
+  "k": "kikokotoo cha futi za ubao kikokotoo cha futi za ubao kikokotoo cha futi za ubao calculator construction kiasi cha mbao katika futi za ubao na mita za ujazo",
+  "p": 109,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Karatasi ya Ukuta",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/wallpaper-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Rolo kwa rolo za EU na Marekani, marudio ya mfumo yameruhusiwa.",
+  "k": "kikokotoo cha karatasi ya ukuta kikokotoo cha karatasi ya ukuta kikokotoo cha karatasi ya ukuta calculator construction rolo kwa rolo za eu na marekani marudio ya mfumo yameruhusiwa",
+  "p": 110,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Matandazo",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/mulch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Mifuko na kiasi cha wingi kwa vitanda na mipaka.",
+  "k": "kikokotoo cha matandazo kikokotoo cha matandazo kikokotoo cha matandazo calculator construction mifuko na kiasi cha wingi kwa vitanda na mipaka",
+  "p": 111,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Lami",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/asphalt-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tani na tani za Marekani kutoka eneo na unene, msongamano unaoweza kuhaririwa, makadirio ya gharama.",
+  "k": "kikokotoo cha lami kikokotoo cha lami kikokotoo cha lami calculator construction tani na tani za marekani kutoka eneo na unene msongamano unaoweza kuhaririwa makadirio ya gharama",
+  "p": 112,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Kihami",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/insulation-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Vipande, rolo au mifuko inayopulizwa kwa thamani yako lengwa ya R / RSI, mwongozo wa unene.",
+  "k": "kikokotoo cha kihami kikokotoo cha kihami kikokotoo cha kihami calculator construction vipande rolo au mifuko inayopulizwa kwa thamani yako lengwa ya r rsi mwongozo wa unene",
+  "p": 113,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Uzio",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/fence-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Nguzo, reli, fito na mifuko ya zege kutoka urefu wa uzio na nafasi.",
+  "k": "kikokotoo cha uzio kikokotoo cha uzio kikokotoo cha uzio calculator construction nguzo reli fito na mifuko ya zege kutoka urefu wa uzio na nafasi",
+  "p": 114,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Deki",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/deck-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Mbao za deki, mihimili na skrubu kutoka ukubwa wa deki, upana wa ubao na nafasi ya mhimili.",
+  "k": "kikokotoo cha deki kikokotoo cha deki kikokotoo cha deki calculator construction mbao za deki mihimili na skrubu kutoka ukubwa wa deki upana wa ubao na nafasi ya mhimili",
+  "p": 115,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Kiasi cha Bwawa",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/pool-volume-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Lita na galoni za Marekani kwa mabwawa ya mstatili, duara na mviringo — tayari kwa kuweka vipimo.",
+  "k": "kikokotoo cha kiasi cha bwawa kikokotoo cha kiasi cha bwawa kikokotoo cha kiasi cha bwawa calculator construction lita na galoni za marekani kwa mabwawa ya mstatili duara na mviringo tayari kwa kuweka vipimo",
+  "p": 116,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Paneli za Jua",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/solar-panel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Paneli zinazohitajika, kW ya mfumo, uzalishaji unaotarajiwa na eneo la paa kutoka bili yako.",
+  "k": "kikokotoo cha paneli za jua kikokotoo cha paneli za jua kikokotoo cha paneli za jua calculator construction paneli zinazohitajika kw ya mfumo uzalishaji unaotarajiwa na eneo la paa kutoka bili yako",
+  "p": 117,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Zulia",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/carpet-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Urefu wa mstari na eneo halisi la ununuzi kutoka ukubwa wa chumba na upana wa rolo.",
+  "k": "kikokotoo cha zulia kikokotoo cha zulia kikokotoo cha zulia calculator construction urefu wa mstari na eneo halisi la ununuzi kutoka ukubwa wa chumba na upana wa rolo",
+  "p": 118,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Plywood",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/plywood-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Mabamba kwa eneo na kwa mpangilio kwa mabamba ya 2440×1220 mm na 4×8 ft.",
+  "k": "kikokotoo cha plywood kikokotoo cha plywood kikokotoo cha plywood calculator construction mabamba kwa eneo na kwa mpangilio kwa mabamba ya 2440 1220 mm na 4 8 ft",
+  "p": 119,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Mchanga",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/sand-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tani na mifuko ya 25 kg kwa masanduku ya mchanga, misingi ya kuweka vigae na screeds.",
+  "k": "kikokotoo cha mchanga kikokotoo cha mchanga kikokotoo cha mchanga calculator construction tani na mifuko ya 25 kg kwa masanduku ya mchanga misingi ya kuweka vigae na screeds",
+  "p": 120,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Sheria ya Ohm",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/ohms-law-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Voltage, current, resistance & power from any two values — the full Ohm's law wheel.",
+  "k": "kikokotoo cha sheria ya ohm kikokotoo cha sheria ya ohm kikokotoo cha sheria ya ohm calculator construction voltage current resistance power from any two values the full ohm s law wheel",
+  "p": 121,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Kushuka kwa Volti",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/voltage-drop-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Volts & % dropped over a cable run, mm² or AWG, single & three-phase.",
+  "k": "kikokotoo cha kushuka kwa volti kikokotoo cha kushuka kwa volti kikokotoo cha kushuka kwa volti calculator construction volts dropped over a cable run mm or awg single three phase",
+  "p": 122,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Ukubwa wa Waya",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/wire-size-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Minimum cable size in mm² + standard size & AWG from your drop limit.",
+  "k": "kikokotoo cha ukubwa wa waya kikokotoo cha ukubwa wa waya kikokotoo cha ukubwa wa waya calculator construction minimum cable size in mm standard size awg from your drop limit",
+  "p": 123,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Gharama ya Umeme",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/electricity-cost-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "What an appliance costs per day, month & year from watts & price per kWh.",
+  "k": "kikokotoo cha gharama ya umeme kikokotoo cha gharama ya umeme kikokotoo cha gharama ya umeme calculator construction what an appliance costs per day month year from watts price per kwh",
+  "p": 124,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Ampea hadi Wati",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/amps-to-watts-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Watts & kW from amps and volts — DC, single-phase & three-phase with power factor.",
+  "k": "kikokotoo cha ampea hadi wati kikokotoo cha ampea hadi wati kikokotoo cha ampea hadi wati calculator construction watts kw from amps and volts dc single phase three phase with power factor",
+  "p": 125,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Wati hadi Ampea",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/watts-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Amps from watts and volts for breaker & cable checks — DC, single & three-phase.",
+  "k": "kikokotoo cha wati hadi ampea kikokotoo cha wati hadi ampea kikokotoo cha wati hadi ampea calculator construction amps from watts and volts for breaker cable checks dc single three phase",
+  "p": 126,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha kVA hadi Ampea",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/kva-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Generator & transformer kVA to full-load amps, and amps back to kVA, single & three-phase.",
+  "k": "kikokotoo cha kva hadi ampea kikokotoo cha kva hadi ampea kikokotoo cha kva hadi ampea calculator construction generator transformer kva to full load amps and amps back to kva single three phase",
+  "p": 127,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Kipengele cha Nguvu",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/power-factor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Power factor, kvar & phase angle from kW and kVA, plus correction capacitor size.",
+  "k": "kikokotoo cha kipengele cha nguvu kikokotoo cha kipengele cha nguvu kikokotoo cha kipengele cha nguvu calculator construction power factor kvar phase angle from kw and kva plus correction capacitor size",
+  "p": 128,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Muda wa Betri",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/battery-runtime-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "How long a battery runs a load — Ah, usable Wh, depth of discharge & inverter losses counted.",
+  "k": "kikokotoo cha muda wa betri kikokotoo cha muda wa betri kikokotoo cha muda wa betri calculator construction how long a battery runs a load ah usable wh depth of discharge inverter losses counted",
+  "p": 129,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Kinzani ya LED",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/led-resistor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Series resistor in ohms, nearest standard E12 value, actual current & wattage.",
+  "k": "kikokotoo cha kinzani ya led kikokotoo cha kinzani ya led kikokotoo cha kinzani ya led calculator construction series resistor in ohms nearest standard e12 value actual current wattage",
+  "p": 130,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Nguvu ya Awamu Tatu",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/three-phase-power-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "kW, kVA & kvar from line voltage, line current & power factor for balanced loads.",
+  "k": "kikokotoo cha nguvu ya awamu tatu kikokotoo cha nguvu ya awamu tatu kikokotoo cha nguvu ya awamu tatu calculator construction kw kva kvar from line voltage line current power factor for balanced loads",
+  "p": 131,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Mkondo wa Mota",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/motor-current-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Estimated full-load amps from motor kW or hp, efficiency & power factor.",
+  "k": "kikokotoo cha mkondo wa mota kikokotoo cha mkondo wa mota kikokotoo cha mkondo wa mota calculator construction estimated full load amps from motor kw or hp efficiency power factor",
+  "p": 132,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Msimbo wa Rangi za Kinzani",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/resistor-colour-code-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Read 4, 5 & 6-band resistor colours to ohms & tolerance — or turn a value back into bands.",
+  "k": "kikokotoo cha msimbo wa rangi za kinzani kikokotoo cha msimbo wa rangi za kinzani kikokotoo cha msimbo wa rangi za kinzani calculator construction read 4 5 6 band resistor colours to ohms tolerance or turn a value back into bands",
+  "p": 133,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Kipima Muda 555",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/555-timer-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Astable frequency & duty cycle and monostable pulse width from R and C.",
+  "k": "kikokotoo cha kipima muda 555 kikokotoo cha kipima muda 555 kikokotoo cha kipima muda 555 calculator construction astable frequency duty cycle and monostable pulse width from r and c",
+  "p": 134,
+  "c": "Tool"
+ },
+ {
+  "n": "Kibadilishaji cha AWG",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/awg-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "AWG to mm, mm² and resistance per km for copper & aluminium — and back from mm² or diameter.",
+  "k": "kibadilishaji cha awg kibadilishaji cha awg kibadilishaji cha awg calculator construction awg to mm mm and resistance per km for copper aluminium and back from mm or diameter",
+  "p": 135,
+  "c": "Tool"
+ },
+ {
+  "n": "Kikokotoo cha Ukinzani Tendaji",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/reactance-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Capacitive & inductive reactance in ohms, plus LC resonant frequency.",
+  "k": "kikokotoo cha ukinzani tendaji kikokotoo cha ukinzani tendaji kikokotoo cha ukinzani tendaji calculator construction capacitive inductive reactance in ohms plus lc resonant frequency",
+  "p": 136,
+  "c": "Tool"
+ },
+ {
+  "n": "Kibadilishaji cha dB",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sw/db-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "Power & voltage ratios to decibels, dBm to milliwatts & watts and back.",
+  "k": "kibadilishaji cha db kibadilishaji cha db kibadilishaji cha db calculator construction power voltage ratios to decibels dbm to milliwatts watts and back",
+  "p": 137,
+  "c": "Tool"
+ }
+]

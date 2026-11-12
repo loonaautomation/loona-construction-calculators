@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Concrete for 100 Sq Ft? Volume &",
+  "short_name": "How Much Concrete for 100 Sq",
+  "description": "Zege kwa slabu ya sq ft 100, yenye unene wa inchi 4: 1.04 m³ (1.36 yd³) pamoja na ziada ya 10%, pamoja na hesabu za mifuko ya mchanganyiko tayari kwa mifuko ya 80 lb, 60 lb, 25 kg na 20 kg.",
+  "id": "/loona-construction-calculators/sw/concrete-for-100-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

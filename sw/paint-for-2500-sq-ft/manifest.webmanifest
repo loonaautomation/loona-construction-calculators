@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 2500 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 2500 Sq Ft",
+  "description": "Rangi kwa sq ft 2500 za ukuta: lita 51.1 (13.5 gal) kwa tabaka 2 kwa ufunikaji wa kawaida wa 10 m²/L, pamoja na 21.3 L za rangi ya msingi — kwa mawazo yaliyotajwa.",
+  "id": "/loona-construction-calculators/sw/paint-for-2500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

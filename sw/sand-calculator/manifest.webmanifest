@@ -1,0 +1,29 @@
+{
+  "name": "Loona Sand Calculator",
+  "short_name": "Sand Calculator",
+  "description": "Kikokotoo cha bure cha mchanga: eneo na kina katika metriki au imperial hukupa kiasi cha mchanga, uzito katika tani na tani za Marekani, na idadi ya mifuko ya 25 kg — kwa msongamano na posho ya upotevu, kwa masanduku ya mchanga, misingi ya kuweka vigae na screeds.",
+  "id": "/loona-construction-calculators/sw/sand-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

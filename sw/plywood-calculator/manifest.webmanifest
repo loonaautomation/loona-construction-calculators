@@ -1,0 +1,29 @@
+{
+  "name": "Loona Plywood Calculator",
+  "short_name": "Plywood Calculator",
+  "description": "Kikokotoo cha bure cha mabamba ya plywood: ukubwa wa eneo na ukubwa wa bamba (2440×1220 mm au 4×8 ft) katika metriki au imperial hukupa mabamba kwa eneo na kwa mpangilio, hesabu inayopendekezwa, posho ya upotevu na gharama ya hiari.",
+  "id": "/loona-construction-calculators/sw/plywood-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

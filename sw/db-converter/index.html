@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kibadilishaji cha dB — Uwiano wa Nguvu na Volti hadi Desibeli, dBm hadi mW na Wati | Vikokotoo vya Ujenzi vya Loona</title>
+<meta name="description" content="Kibadilishaji cha bure cha desibeli: uwiano wa nguvu na uwiano wa volti hadi dB kwa rejeo yako mwenyewe, dBm hadi miliwati na wati, na nguvu kurudi hadi dBm na dBW — fomula na mifano iliyofanyiwa kazi.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/sw/db-converter/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/db-converter/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/db-converter/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/db-converter/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/db-converter/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/db-converter/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/db-converter/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/db-converter/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/db-converter/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/db-converter/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/db-converter/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/db-converter/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-construction-calculators/id/db-converter/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/db-converter/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-construction-calculators/bn/db-converter/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-construction-calculators/ja/db-converter/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/db-converter/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-construction-calculators/zh/db-converter/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-construction-calculators/pl/db-converter/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-construction-calculators/vi/db-converter/"><link rel="alternate" hreflang="ms" href="https://loonaautomation.github.io/loona-construction-calculators/ms/db-converter/"><link rel="alternate" hreflang="th" href="https://loonaautomation.github.io/loona-construction-calculators/th/db-converter/"><link rel="alternate" hreflang="ro" href="https://loonaautomation.github.io/loona-construction-calculators/ro/db-converter/"><link rel="alternate" hreflang="cs" href="https://loonaautomation.github.io/loona-construction-calculators/cs/db-converter/"><link rel="alternate" hreflang="sv" href="https://loonaautomation.github.io/loona-construction-calculators/sv/db-converter/"><link rel="alternate" hreflang="nb" href="https://loonaautomation.github.io/loona-construction-calculators/nb/db-converter/"><link rel="alternate" hreflang="en-us" href="https://loonaautomation.github.io/loona-construction-calculators/en-us/db-converter/"><link rel="alternate" hreflang="en-gb" href="https://loonaautomation.github.io/loona-construction-calculators/en-gb/db-converter/"><link rel="alternate" hreflang="zh-hant" href="https://loonaautomation.github.io/loona-construction-calculators/zh-hant/db-converter/"><link rel="alternate" hreflang="pt-br" href="https://loonaautomation.github.io/loona-construction-calculators/pt-br/db-converter/"><link rel="alternate" hreflang="pt-pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt-pt/db-converter/"><link rel="alternate" hreflang="sw" href="https://loonaautomation.github.io/loona-construction-calculators/sw/db-converter/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/db-converter/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kibadilishaji cha dB — Uwiano wa Nguvu na Volti hadi Desibeli, dBm hadi mW na Wati | Vikokotoo vya Ujenzi vya Loona">
+<meta property="og:description" content="Kibadilishaji cha bure cha desibeli: uwiano wa nguvu na uwiano wa volti hadi dB kwa rejeo yako mwenyewe, dBm hadi miliwati na wati, na nguvu kurudi hadi dBm na dBW — fomula na mifano iliyofanyiwa kazi.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/sw/db-converter/"><meta property="og:locale" content="sw_KE">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kibadilishaji cha dB — Uwiano wa Nguvu na Volti hadi Desibeli, dBm hadi mW na Wati | Vikokotoo vya Ujenzi vya Loona">
+<meta name="twitter:description" content="Kibadilishaji cha bure cha desibeli: uwiano wa nguvu na uwiano wa volti hadi dB kwa rejeo yako mwenyewe, dBm hadi miliwati na wati, na nguvu kurudi hadi dBm na dBW — fomula na mifano iliyofanyiwa kazi.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Kibadilishaji cha dB","url":"https://loonaautomation.github.io/loona-construction-calculators/sw/db-converter/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Kwa nini kuna fomula mbili — 10 log na 20 log?","acceptedAnswer":{"@type":"Answer","text":"Desibeli hufafanuliwa kwa nguvu. Uwiano wa nguvu hutumia 10 × log. Kwa kuwa nguvu ni sawia na volti ya mraba (kwa kizuizi kile kile), mraba hugeuka kuwa kipengele cha mbili katika log — kwa hivyo 20 × log kwa uwiano wa volti na mkondo. Kuvichanganya ndiyo kosa la kawaida la dB."}},{"@type":"Question","name":"dBm ni nini, na inatofautianaje na dB ya kawaida?","acceptedAnswer":{"@type":"Answer","text":"dB ya kawaida ni uwiano — inahitaji 'ikilinganishwa na nini'. dBm huweka rejeo kwa miliwati 1, kwa hivyo huonyesha nguvu kamili: kisambazaji kwa +30 dBm hutoa 1 W; ishara iliyopokelewa kwa −90 dBm ni sehemu ya bilioni ya miliwati. dBW hufanya vivyo hivyo dhidi ya 1 W."}},{"@type":"Question","name":"Thamani hasi ya dB au dBm humaanisha nini?","acceptedAnswer":{"@type":"Answer","text":"Uwiano hasi katika dB humaanisha thamani ni ndogo kuliko rejarejeo yake (nusu ya nguvu = −3.01 dB). dBm hasi humaanisha nguvu iliyo chini ya 1 mW — ni ya kawaida na inayotarajiwa kwa mawimbi ya redio yanayopokelewa, ambayo kwa kawaida ni −70 hadi −110 dBm."}},{"@type":"Question","name":"Faida za kikuza sauti katika dB huunganika vipi?","acceptedAnswer":{"@type":"Answer","text":"Huongezeka — hiyo ndiyo pointi ya logarithmu. Preamp yenye +20 dB ikifuatiwa na power amp yenye +26 dB hutoa +46 dB kwa jumla; kebo inayopoteza 3 dB hutoa 3. Kufanya kazi katika dB hugeuza mnyororo wa vizidisho kuwa kuongeza na kutoa rahisi."}},{"@type":"Question","name":"Je, kanuni ya uwiano wa volti ni halali kila mara?","acceptedAnswer":{"@type":"Answer","text":"Wakati tu volti zote mbili zinapimwa kuvuka kizuizi kile kile — kweli ndani ya minyororo mingi ya sauti na RF. Kulinganisha volti katika pointi ya 50 Ω na moja katika pointi ya 600 Ω kwa 20 log pekee hukosea uwiano wa nguvu; badilisha kupitia nguvu wakati vizuizi vinatofautiana."}},{"@type":"Question","name":"dB inahusiana vipi na viwango vya sauti ninavyoviona vikitajwa?","acceptedAnswer":{"@type":"Answer","text":"Kiwango cha shinikizo la sauti hutumia dB SPL inayorejelea 20 µPa (kizingiti cha kusikia), kwa 20 log ya mtindo wa volti kwa sababu ni uwiano wa shinikizo. Kibadilishaji hiki hushughulikia uwiano wa umeme na dBm; SPL ni hesabu ile ile kwa rejeo thabiti tofauti."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Vikokotoo vya Ujenzi",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/sw/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kibadilishaji cha dB",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/sw/db-converter/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Nembo ya Loona Automation">
+<div class="brand">Loona <span>Vikokotoo vya Ujenzi</span></div>
+<nav>
+<a href="../">Nyumbani</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Kuhusu</a>
+<a href="../contact.html">Wasiliana</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Vikokotoo vya Ujenzi</a> &rsaquo; Umeme &rsaquo; Kibadilishaji cha dB</div>
+<h1 class="pagetitle">🔊 Kibadilishaji cha dB</h1>
+<p class="lead">Desibeli hubana uwiano mkubwa kuwa namba zinazofaa. Badilisha uwiano wa nguvu au uwiano wa volti hadi dB dhidi ya rejeo lolote unalochagua, au tafsiri kati ya dBm na nguvu halisi katika miliwati na wati — lugha ya sauti, redio na faida za kikuza sauti.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_mode">Ubadilishaji</label><select id="f_mode"><option value="pratio" selected>Uwiano wa nguvu &rarr; dB</option><option value="vratio">Uwiano wa volti &rarr; dB</option><option value="dbm2p">dBm &rarr; nguvu (mW / W)</option><option value="p2dbm">Nguvu &rarr; dBm</option></select></div><div class="fld"><label for="f_val">Thamani — nguvu au volti (hali za uwiano)</label><input type="number" id="f_val" step="any" value="100"></div><div class="fld"><label for="f_ref">Rejeo — vitengo vile vile kama thamani (hali za uwiano)</label><input type="number" id="f_ref" step="any" value="1"></div><div class="fld"><label for="f_dbm">Kiwango katika dBm (hali ya dBm &rarr; nguvu)</label><input type="number" id="f_dbm" step="any" value="20"></div><div class="fld"><label for="f_pval">Nguvu (hali ya nguvu &rarr; dBm)</label><input type="number" id="f_pval" step="any" value="100"></div><div class="fld"><label for="f_punit">Kitengo cha nguvu</label><select id="f_punit"><option value="mw" selected>Miliwati (mW)</option><option value="w">Wati (W)</option></select></div>
+<button type="button" class="calcbtn" id="calcBtn">Kokotoa</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Jinsi ya kutumia Kibadilishaji cha dB</h2><ol><li>Chagua ubadilishaji: uwiano wa nguvu au volti hadi dB, dBm hadi nguvu halisi, au nguvu halisi hadi dBm.</li><li>Kwa uwiano, ingiza thamani na rejeo lake katika vitengo vile vile (wati kwa wati, volti kwa volti) — rejeo ndiyo kile '0 dB' hunamaanisha kwa kipimo chako.</li><li>Bonyeza Kokotoa. Sehemu za hali iliyochaguliwa pekee hutumika.</li></ol>
+<div class="exbox"><strong>Mfano:</strong> Kikuza sauti kinachotoa 100 W dhidi ya rejeo la 1 W ni 10 × log₁₀(100) = <strong>+20 dB</strong>; na 20 dBm ni hasa <strong>100 mW</strong>.</div>
+<h2>Maswali Yanayoulizwa Mara kwa Mara</h2></section><div class="faq"><h3>Kwa nini kuna fomula mbili — 10 log na 20 log?</h3><p>Desibeli hufafanuliwa kwa nguvu. Uwiano wa nguvu hutumia 10 × log. Kwa kuwa nguvu ni sawia na volti ya mraba (kwa kizuizi kile kile), mraba hugeuka kuwa kipengele cha mbili katika log — kwa hivyo 20 × log kwa uwiano wa volti na mkondo. Kuvichanganya ndiyo kosa la kawaida la dB.</p></div><div class="faq"><h3>dBm ni nini, na inatofautianaje na dB ya kawaida?</h3><p>dB ya kawaida ni uwiano — inahitaji 'ikilinganishwa na nini'. dBm huweka rejeo kwa miliwati 1, kwa hivyo huonyesha nguvu kamili: kisambazaji kwa +30 dBm hutoa 1 W; ishara iliyopokelewa kwa −90 dBm ni sehemu ya bilioni ya miliwati. dBW hufanya vivyo hivyo dhidi ya 1 W.</p></div><div class="faq"><h3>Thamani hasi ya dB au dBm humaanisha nini?</h3><p>Uwiano hasi katika dB humaanisha thamani ni ndogo kuliko rejarejeo yake (nusu ya nguvu = −3.01 dB). dBm hasi humaanisha nguvu iliyo chini ya 1 mW — ni ya kawaida na inayotarajiwa kwa mawimbi ya redio yanayopokelewa, ambayo kwa kawaida ni −70 hadi −110 dBm.</p></div>
+<h2 class="sec">Vikokotoo Vinavyohusiana</h2><div class="grid"><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>Kikokotoo cha Ampea hadi Wati</h3><p>Umeme</p></a><a class="card" href="../reactance-calculator/"><div class="ic">〰️</div><h3>Kikokotoo cha Ukinzani Tendaji</h3><p>Umeme</p></a><a class="card" href="../power-factor-calculator/"><div class="ic">🎚️</div><h3>Kikokotoo cha Kipengele cha Nguvu</h3><p>Umeme</p></a><a class="card" href="../three-phase-power-calculator/"><div class="ic">🔺</div><h3>Kikokotoo cha Nguvu ya Awamu Tatu</h3><p>Umeme</p></a></div>
+</div>
+<section class="txt"><h2>Jinsi inavyofanya kazi &mdash; fomula</h2>
+<p><strong>Uwiano wa nguvu:</strong> dB = 10 × log₁₀(P ÷ P<sub>ref</sub>)<br>
+<strong>Uwiano wa volti:</strong> dB = 20 × log₁₀(V ÷ V<sub>ref</sub>) — 20 inaonekana kwa sababu nguvu huenda kwa mraba wa volti, na inadhani volti zote mbili zinaona impedansi ile ile<br>
+<strong>dBm hadi nguvu:</strong> P (mW) = 10<sup>(dBm ÷ 10)</sup> &nbsp;·&nbsp; <strong>Nguvu hadi dBm:</strong> dBm = 10 × log₁₀(P katika mW)<br>
+<strong>dBW</strong> = dBm − 30 (ikirejeshwa kwa 1 W badala ya 1 mW)</p>
+<p>Pointi za rejeo zenye thamani ya kukariri: +3 dB ≈ mara mbili ya nguvu, +6 dB ≈ mara mbili ya volti (mara nne ya nguvu), +10 dB = hasa mara kumi ya nguvu, na 0 dBm = 1 mW — rejeo ya kawaida katika kazi yote ya redio na mawasiliano.</p>
+<h3>Mfano uliofanyiwa kazi</h3>
+<div class="exbox">Uwiano wa nguvu: P = 100, rejeo = 1 (vitengo vile vile). dB = 10 × log₁₀(100 ÷ 1) = 10 × 2 = <strong>+20 dB</strong>. Ukaguzi wa volti: uwiano wa 10 hutoa 20 × log₁₀(10) = <strong>+20 dB</strong> pia — kwa sababu mara kumi ya volti kuvuka kizuizi kile kile ni mara mia ya nguvu. Ukaguzi wa dBm: 10<sup>(20 ÷ 10)</sup> = 10² = <strong>100 mW</strong> kwa 20 dBm, na 30 dBm = 1,000 mW = <strong>1 W</strong>.</div>
+
+<h3>Maswali yanayoulizwa mara kwa mara</h3></section>
+<div class="faq"><h3>Faida za kikuza sauti katika dB huunganika vipi?</h3><p>Huongezeka — hiyo ndiyo pointi ya logarithmu. Preamp yenye +20 dB ikifuatiwa na power amp yenye +26 dB hutoa +46 dB kwa jumla; kebo inayopoteza 3 dB hutoa 3. Kufanya kazi katika dB hugeuza mnyororo wa vizidisho kuwa kuongeza na kutoa rahisi.</p></div><div class="faq"><h3>Je, kanuni ya uwiano wa volti ni halali kila mara?</h3><p>Wakati tu volti zote mbili zinapimwa kuvuka kizuizi kile kile — kweli ndani ya minyororo mingi ya sauti na RF. Kulinganisha volti katika pointi ya 50 Ω na moja katika pointi ya 600 Ω kwa 20 log pekee hukosea uwiano wa nguvu; badilisha kupitia nguvu wakati vizuizi vinatofautiana.</p></div><div class="faq"><h3>dB inahusiana vipi na viwango vya sauti ninavyoviona vikitajwa?</h3><p>Kiwango cha shinikizo la sauti hutumia dB SPL inayorejelea 20 µPa (kizingiti cha kusikia), kwa 20 log ya mtindo wa volti kwa sababu ni uwiano wa shinikizo. Kibadilishaji hiki hushughulikia uwiano wa umeme na dBm; SPL ni hesabu ile ile kwa rejeo thabiti tofauti.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Pachika kikokotoo hiki kwenye tovuti yako — bure</h2>
+<p style="margin:0 0 12px;line-height:1.6">Ongeza kikokotoo hiki kwenye tovuti au blogu yako mwenyewe — ni bure kabisa, hakihitaji kujisajili, na huonyesha toleo jipya kila mara. Nakili msimbo ulio hapa chini na uubandike kwenye ukurasa wako mahali unapotaka kikokotoo kionekane. Kuweka mstari mdogo wa sifa wa &ldquo;Imetolewa na Loona Automation&rdquo; chini ya kipachiko husaidia kuweka zana hii bure &mdash; lakini uko huru kuupamba au kuuondoa; zana hufanya kazi kwa njia yoyote.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/sw/db-converter/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="dB Converter by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Imetolewa na &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/sw/db-converter/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; bure Kibadilishaji cha dB&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Nakili msimbo wa kupachika</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Imenakiliwa!';setTimeout(function(){b.textContent='Nakili msimbo wa kupachika';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Vikokotoo Maarufu</h4><ul><li><a href="../paint-calculator/">Kikokotoo cha Rangi</a></li>
+<li><a href="../concrete-calculator/">Kikokotoo cha Zege</a></li>
+<li><a href="../tile-calculator/">Kikokotoo cha Vigae</a></li>
+<li><a href="../brick-calculator/">Kikokotoo cha Matofali</a></li>
+<li><a href="../roof-pitch-calculator/">Kikokotoo cha Mteremko wa Paa</a></li>
+<li><a href="../stairs-calculator/">Kikokotoo cha Ngazi</a></li></ul></div>
+<div><h4>Zana Zaidi za Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Zana Zote za Loona</a></li></ul></div>
+<div><h4>Loona Vikokotoo vya Ujenzi</h4><ul>
+<li><a href="../about.html">Kuhusu</a></li>
+<li><a href="../contact.html">Wasiliana</a></li>
+<li><a href="../privacy-policy.html">Sera ya Faragha</a></li>
+<li><a href="../terms.html">Masharti ya Matumizi</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Vikokotoo vya Ujenzi vya Loona &mdash; mradi wa <a href="https://loonaautomation.github.io/">Loona Automation</a> mradi. Vikokotoo vya ujenzi vya bure katika vitengo vya metriki na imperial, bila kujisajili.
+Mawasiliano: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  if (v.mode === "pratio") {
+    if (!pos(v.val, v.ref)) return bad("Tafadhali ingiza nguvu na nguvu ya rejeo (vitengo vile vile).");
+    var db1 = 10 * Math.log10(v.val / v.ref);
+    var html1 = resTable("Tofauti ya kiwango", fmt(db1, 2) + " dB",
+      [["Nguvu", fmt(v.val, 4)],["Nguvu ya rejeo", fmt(v.ref, 4)],["Uwiano", fmt(v.val / v.ref, 4) + " \u00D7"]],
+      "Uwiano wa nguvu hutumia 10×log₁₀. Kuongeza nguvu mara mbili ni +3.01 dB; mara kumi ya nguvu ni +10 dB.");
+    return { ok: true, db: db1, html: html1 };
+  }
+  if (v.mode === "vratio") {
+    if (!pos(v.val, v.ref)) return bad("Tafadhali ingiza volti na volti ya rejeo (vitengo vile vile).");
+    var db2 = 20 * Math.log10(v.val / v.ref);
+    var html2 = resTable("Tofauti ya kiwango", fmt(db2, 2) + " dB",
+      [["Volti", fmt(v.val, 4)],["Volti ya rejeo", fmt(v.ref, 4)],["Uwiano", fmt(v.val / v.ref, 4) + " \u00D7"]],
+      "Uwiano wa volti (na mkondo) hutumia 20×log₁₀ — halali wakati volti zote mbili zinapimwa kuvuka kizuizi kile kile, ambayo ndiyo inayofanya uwiano wa nguvu kuwa mraba wa uwiano wa volti. Kuongeza volti mara mbili ni +6.02 dB.");
+    return { ok: true, db: db2, html: html2 };
+  }
+  if (v.mode === "dbm2p") {
+    if (!isFinite(v.dbm)) return bad("Tafadhali ingiza kiwango katika dBm.");
+    var mw = Math.pow(10, v.dbm / 10);
+    var html3 = resTable("Nguvu", fmt(mw, 3) + " mW (" + fmt(mw / 1000, 5) + " W)",
+      [["Kiwango", fmt(v.dbm, 2) + " dBm"],["Nguvu katika milliwati", fmt(mw, 3) + " mW"],["Nguvu katika wati", fmt(mw / 1000, 5) + " W"],["Pia sawa na", fmt(v.dbm - 30, 2) + " dBW"]],
+      "dBm hurejelea milliwati 1: 0 dBm = 1 mW, na kila +10 dBm huzidisha nguvu mara kumi.");
+    return { ok: true, mw: mw, w: mw / 1000, html: html3 };
+  }
+  // p2dbm
+  if (!pos(v.pval)) return bad("Tafadhali ingiza nguvu.");
+  var mw2 = (v.punit === "w") ? v.pval * 1000 : v.pval;
+  var dbm4 = 10 * Math.log10(mw2);
+  var html4 = resTable("Kiwango", fmt(dbm4, 2) + " dBm",
+    [["Nguvu", fmt(mw2, 3) + " mW (" + fmt(mw2 / 1000, 5) + " W)"],["Kiwango katika dBm (rejeo 1 mW)", fmt(dbm4, 2) + " dBm"],["Kiwango katika dBW (rejeo 1 W)", fmt(dbm4 - 30, 2) + " dBW"]],
+    "Thamani hasi za dBm ni nguvu tu zilizo chini ya milliwati — kipokea redio nyeti hufanya kazi kwa ishara za takriban −100 dBm.");
+  return { ok: true, dbm: dbm4, mw: mw2, html: html4 };
+} };
+
+function collect(){ return { mode: gs("f_mode"), val: gv("f_val"), ref: gv("f_ref"), dbm: gv("f_dbm"), pval: gv("f_pval"), punit: gs("f_punit") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Sakinisha Programu';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Sakinisha programu hii: gusa kitufe cha Shiriki, kisha chagua "Ongeza kwenye Skrini ya Nyumbani".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

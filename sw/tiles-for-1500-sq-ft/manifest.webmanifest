@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 1500 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 1500 Sq",
+  "description": "Vigae kwa sq ft 1500 kwa vigae vya 60×60 cm na mapengo ya grauti ya mm 3: vigae 422 (visanduku 106 vya 4) pamoja na ziada ya 10% kwa ukataji na kuvunjika.",
+  "id": "/loona-construction-calculators/sw/tiles-for-1500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
