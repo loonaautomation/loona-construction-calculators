@@ -1,0 +1,29 @@
+{
+  "name": "Loona Sand Calculator",
+  "short_name": "Sand Calculator",
+  "description": "Gratis sandkalkulator: areal og dybde i metrisk eller imperiell gir deg sandvolum, vekt i tonn og US tons, og antall sekker på 25 kg — med tetthet og svinntillegg, for sandkasser, belegningsbaser og avrettingslag.",
+  "id": "/loona-construction-calculators/nb/sand-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

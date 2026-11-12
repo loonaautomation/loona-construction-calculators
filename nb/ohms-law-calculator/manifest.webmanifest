@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ohm's Law Calculator",
+  "short_name": "Ohm's Law Calculator",
+  "description": "Gratis Ohms lov-kalkulator: skriv inn to av spenning, strøm, motstand og effekt og få de to andre — alle fire kvadranter av Ohms lov-hjulet, med formler og et gjennomarbeidet eksempel.",
+  "id": "/loona-construction-calculators/nb/ohms-law-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

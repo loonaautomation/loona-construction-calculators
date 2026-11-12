@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 750 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 750 Sq Ft",
+  "description": "Maling for 750 sq ft vegg: 15.3 liter (4.0 gal) for 2 strøk med typisk dekning på 10 m²/L, pluss 6.4 L grunning — med forutsetningene oppgitt.",
+  "id": "/loona-construction-calculators/nb/paint-for-750-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

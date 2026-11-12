@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in Australia",
+  "short_name": "Brick Size in Australia",
+  "description": "Standard mursteinstørrelse i Australia: 230 × 110 × 76 mm. 48.4 murstein per m² (4.50 per sq ft) halvsteinsmur med 10 mm mørtelfuger, dekning per 1,000 murstein og et gjennomarbeidet veggeksempel.",
+  "id": "/loona-construction-calculators/nb/brick-size-australia/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

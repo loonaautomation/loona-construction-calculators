@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalkulator for watt til ampere — DC, enfase og trefase (W til A) | Loona Construction Calculators</title>
+<meta name="description" content="Gratis kalkulator for watt til ampere for DC, AC enfase og AC trefase: effekt, spenning og effektfaktor gir strømmen i ampere — det første trinnet for å dimensjonere en bryter eller kabel.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/nb/watts-to-amps-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/watts-to-amps-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/watts-to-amps-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/watts-to-amps-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/watts-to-amps-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/watts-to-amps-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/watts-to-amps-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/watts-to-amps-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/watts-to-amps-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/watts-to-amps-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/watts-to-amps-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/watts-to-amps-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/watts-to-amps-calculator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-construction-calculators/bn/watts-to-amps-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-construction-calculators/ja/watts-to-amps-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/watts-to-amps-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-construction-calculators/zh/watts-to-amps-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-construction-calculators/id/watts-to-amps-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-construction-calculators/pl/watts-to-amps-calculator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-construction-calculators/vi/watts-to-amps-calculator/"><link rel="alternate" hreflang="nb" href="https://loonaautomation.github.io/loona-construction-calculators/nb/watts-to-amps-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/watts-to-amps-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kalkulator for watt til ampere — DC, enfase og trefase (W til A) | Loona Construction Calculators">
+<meta property="og:description" content="Gratis kalkulator for watt til ampere for DC, AC enfase og AC trefase: effekt, spenning og effektfaktor gir strømmen i ampere — det første trinnet for å dimensjonere en bryter eller kabel.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/nb/watts-to-amps-calculator/"><meta property="og:locale" content="nb_NO">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kalkulator for watt til ampere — DC, enfase og trefase (W til A) | Loona Construction Calculators">
+<meta name="twitter:description" content="Gratis kalkulator for watt til ampere for DC, AC enfase og AC trefase: effekt, spenning og effektfaktor gir strømmen i ampere — det første trinnet for å dimensjonere en bryter eller kabel.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona kalkulator for watt til ampere","url":"https://loonaautomation.github.io/loona-construction-calculators/nb/watts-to-amps-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Hvorfor endrer effektfaktoren amperene?","acceptedAnswer":{"@type":"Answer","text":"Bare en del av strømmen som trekkes av en induktiv last gjør nyttig arbeid. Med en effektfaktor på 0.8 må forsyningen levere 1 ÷ 0.8 = 1.25× strømmen som wattene alene antyder, så kabler og brytere ser det høyere tallet."}},{"@type":"Question","name":"Hvilken bryterstørrelse trenger jeg for resultatet?","acceptedAnswer":{"@type":"Answer","text":"Bryteren må være klassifisert ved eller over laststrømmen, og mange koder krever 125% dimensjonering for kontinuerlige laster (som går 3+ timer). Kalkulatoren viser den sanne laststrømmen; å anvende din lokale kodes marginer og velge bryteren og kabelen er neste trinn — se Ledningsstørrelseskalkulatoren."}},{"@type":"Question","name":"Hvor mange ampere er 1,000 W?","acceptedAnswer":{"@type":"Answer","text":"Det avhenger av spenning og effektfaktor: ved 230 V og PF 1 er det 4.35 A; ved 230 V og PF 0.8, 5.43 A; ved 120 V og PF 1, 8.33 A; på en DC-krets på 12 V, 83.3 A — og derfor trenger lavspentsystemer så tykke kabler."}},{"@type":"Question","name":"Fungerer dette for en motors nominelle kW?","acceptedAnswer":{"@type":"Answer","text":"En motors typeskilt-kW er vanligvis dens aksel- (utgangs-) effekt. Det elektriske inntaket er høyere på grunn av motortap, så bruk Motorkalkulatoren for strøm, som legger virkningsgrad til beregningen, for et bedre anslag av fullaststrøm — og foretrekk alltid typeskiltets FLA når du har det."}},{"@type":"Question","name":"Hva med trefase — hvilken spenning skriver jeg inn?","acceptedAnswer":{"@type":"Answer","text":"Linje-til-linje-spenningen: 400 V på et typisk europeisk 400/230 V-system, 480 V eller 208 V i Nord-Amerika. Formelens √3 håndterer resten."}},{"@type":"Question","name":"Kan jeg regne ampere tilbake til watt?","acceptedAnswer":{"@type":"Answer","text":"Ja — det er den tilhørende kalkulatoren for ampere til watt, lenket nedenfor; de to er nøyaktige inverser når samme spenning og effektfaktor brukes."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/nb/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kalkulator for watt til ampere",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/nb/watts-to-amps-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation-logo">
+<div class="brand">Loona <span>Byggekalkulatorer</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Elektro &rsaquo; Kalkulator for watt til ampere</div>
+<h1 class="pagetitle">🔁 Kalkulator for watt til ampere</h1>
+<p class="lead">Du kjenner wattene — en varmeovns klassifisering, en motors typeskilt — finn nå amperene den vil trekke. Velg DC, enfase eller trefase, skriv inn spenningen og effektfaktoren, og få strømmen: tallet du trenger før du velger en bryter, sikring eller kabel.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system_type">Systemtype</label><select id="f_system_type"><option value="dc">DC</option><option value="1" selected>AC enfase</option><option value="3">AC trefase (linje-til-linje-spenning)</option></select></div><div class="fld"><label for="f_watts">Effekt (watt)</label><input type="number" id="f_watts" step="any" value="3000"></div><div class="fld"><label for="f_volts">Spenning (volt) — linje-til-linje for trefase</label><input type="number" id="f_volts" step="any" value="230"></div><div class="fld"><label for="f_pf">Effektfaktor (0.1–1.0; 1.0 for DC / resistive laster)</label><input type="number" id="f_pf" step="any" value="0.8"></div>
+<button type="button" class="calcbtn" id="calcBtn">Beregn</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Slik bruker du kalkulatoren for watt til ampere</h2><ol><li>Velg DC, AC enfase eller AC trefase.</li><li>Skriv inn lastens effekt i watt (typeskiltet, eller watt = kW × 1,000) og forsyningsspenningen.</li><li>Sett effektfaktoren for AC-laster — 1.0 for varmeovner, omtrent 0.8 for en typisk motor — og trykk deretter Beregn.</li></ol>
+<div class="exbox"><strong>Eksempel:</strong> En last på 3,000 W på 230 V enfase med PF 0.8 trekker 3,000 ÷ (230 × 0.8) = <strong>16.30 A</strong> — så en bryter på 16 A er ikke nok; neste størrelse opp trengs.</div>
+<h2>Ofte stilte spørsmål</h2></section><div class="faq"><h3>Hvorfor endrer effektfaktoren amperene?</h3><p>Bare en del av strømmen som trekkes av en induktiv last gjør nyttig arbeid. Med en effektfaktor på 0.8 må forsyningen levere 1 ÷ 0.8 = 1.25× strømmen som wattene alene antyder, så kabler og brytere ser det høyere tallet.</p></div><div class="faq"><h3>Hvilken bryterstørrelse trenger jeg for resultatet?</h3><p>Bryteren må være klassifisert ved eller over laststrømmen, og mange koder krever 125% dimensjonering for kontinuerlige laster (som går 3+ timer). Kalkulatoren viser den sanne laststrømmen; å anvende din lokale kodes marginer og velge bryteren og kabelen er neste trinn — se Ledningsstørrelseskalkulatoren.</p></div><div class="faq"><h3>Hvor mange ampere er 1,000 W?</h3><p>Det avhenger av spenning og effektfaktor: ved 230 V og PF 1 er det 4.35 A; ved 230 V og PF 0.8, 5.43 A; ved 120 V og PF 1, 8.33 A; på en DC-krets på 12 V, 83.3 A — og derfor trenger lavspentsystemer så tykke kabler.</p></div>
+<h2 class="sec">Relaterte kalkulatorer</h2><div class="grid"><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>Kalkulator for ampere til watt</h3><p>Elektro</p></a><a class="card" href="../motor-current-calculator/"><div class="ic">🌀</div><h3>Motorstrømkalkulator</h3><p>Elektro</p></a><a class="card" href="../wire-size-calculator/"><div class="ic">🧵</div><h3>Ledningsstørrelseskalkulator</h3><p>Elektro</p></a><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>Ohms lov-kalkulator</h3><p>Elektro</p></a></div>
+</div>
+<section class="txt"><h2>Slik fungerer det &mdash; formelen</h2>
+<p><strong>DC:</strong> I = P ÷ V<br>
+<strong>AC enfase:</strong> I = P ÷ (V × PF)<br>
+<strong>AC trefase:</strong> I = P ÷ (√3 × V<sub>L-L</sub> × PF)</p>
+<p>Dette er effektlovformlene omordnet. Legg merke til hva effektfaktoren gjør: med PF 0.8 trenger samme watt 25% mer strøm enn med PF 1 — og derfor overrasker motorlaster folk som deler watt på volt og stopper der.</p>
+<h3>Gjennomarbeidet eksempel</h3>
+<div class="exbox">P = 3,000 W, V = 230 V, PF = 0.8, single-phase: I = 3,000 ÷ (230 × 0.8) = 3,000 ÷ 184 = <strong>16.30 A</strong>. Samme last som ren motstand (PF 1) ville trekke 3,000 ÷ 230 = 13.04 A — effektfaktoren alene la til over 3 A.</div>
+
+<h3>Ofte stilte spørsmål</h3></section>
+<div class="faq"><h3>Fungerer dette for en motors nominelle kW?</h3><p>En motors typeskilt-kW er vanligvis dens aksel- (utgangs-) effekt. Det elektriske inntaket er høyere på grunn av motortap, så bruk Motorkalkulatoren for strøm, som legger virkningsgrad til beregningen, for et bedre anslag av fullaststrøm — og foretrekk alltid typeskiltets FLA når du har det.</p></div><div class="faq"><h3>Hva med trefase — hvilken spenning skriver jeg inn?</h3><p>Linje-til-linje-spenningen: 400 V på et typisk europeisk 400/230 V-system, 480 V eller 208 V i Nord-Amerika. Formelens √3 håndterer resten.</p></div><div class="faq"><h3>Kan jeg regne ampere tilbake til watt?</h3><p>Ja — det er den tilhørende kalkulatoren for ampere til watt, lenket nedenfor; de to er nøyaktige inverser når samme spenning og effektfaktor brukes.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Bygg inn denne kalkulatoren på nettstedet ditt — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Legg til denne kalkulatoren på ditt eget nettsted eller blogg — den er helt gratis, krever ingen registrering, og viser alltid den nyeste versjonen. Kopier koden nedenfor og lim den inn på siden din der du vil at kalkulatoren skal vises. Å beholde den lille kredittlinjen &ldquo;Drevet av Loona Automation&rdquo; under innbyggingen bidrar til å holde dette verktøyet gratis &mdash; men du kan style eller fjerne den som du vil; verktøyet fungerer uansett.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/nb/watts-to-amps-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Watts to Amps Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Drevet av &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/nb/watts-to-amps-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Kalkulator for watt til ampere&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Kopier innbyggingskode</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Kopiert!';setTimeout(function(){b.textContent='Kopier innebyggingskode';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Populære kalkulatorer</h4><ul><li><a href="../paint-calculator/">Malingskalkulator</a></li>
+<li><a href="../concrete-calculator/">Betongkalkulator</a></li>
+<li><a href="../tile-calculator/">Fliskalkulator</a></li>
+<li><a href="../brick-calculator/">Mursteinskalkulator</a></li>
+<li><a href="../roof-pitch-calculator/">Takvinkelkalkulator</a></li>
+<li><a href="../stairs-calculator/">Trappekalkulator</a></li></ul></div>
+<div><h4>Flere Loona-verktøy</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Alle Loona-verktøy</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Personvernerklæring</a></li>
+<li><a href="../terms.html">Vilkår for bruk</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> prosjekt. Gratis byggekalkulatorer i metriske og imperielle enheter, ingen registrering.
+Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.watts, v.volts)) return bad("Skriv inn effekten i watt og spenningen i volt.");
+  var pf = (v.type === "dc") ? 1 : v.pf;
+  if (!(pf > 0 && pf <= 1)) return bad("Effektfaktoren må være over 0 og høyst 1.");
+  var amps;
+  if (v.type === "3") amps = v.watts / (Math.sqrt(3) * v.volts * pf);
+  else amps = v.watts / (v.volts * pf);
+  var html = resTable("Strøm", fmt(amps, 2) + " A",
+    [["Effekt", fmt(v.watts, 0) + " W (" + fmt(v.watts / 1000, 3) + " kW)"],["Spenning", fmt(v.volts, 1) + " V"],["Effektfaktor brukt", fmt(pf, 2)]],
+    "Dette er bare laststrømmen. Å velge en bryter eller kabel trenger margin på toppen — regler for kontinuerlig last i mange koder dimensjonerer vern til 125% av laststrømmen, og kabelens strømbelastningsevne og spenningsfall må også kontrolleres (se Ledningsstørrelses- og Spenningsfallkalkulatorene).");
+  return { ok: true, amps: amps, html: html };
+} };
+
+function collect(){ return { type: gs("f_system_type"), watts: gv("f_watts"), volts: gv("f_volts"), pf: gv("f_pf") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installer app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installer denne appen: trykk på Del-knappen, og velg deretter "Legg til på Hjem-skjerm".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

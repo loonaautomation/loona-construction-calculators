@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dB-omregner — Effekt- og spenningsforhold til desibel, dBm til mW og watt | Loona Construction Calculators</title>
+<meta name="description" content="Gratis desibelomregner: effektforhold og spenningsforhold til dB med din egen referanse, dBm til milliwatt og watt, og effekt tilbake til dBm og dBW — formler og gjennomarbeidede eksempler.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/nb/db-converter/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/db-converter/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/db-converter/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/db-converter/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/db-converter/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/db-converter/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/db-converter/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/db-converter/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/db-converter/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/db-converter/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/db-converter/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/db-converter/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/db-converter/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-construction-calculators/bn/db-converter/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-construction-calculators/ja/db-converter/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/db-converter/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-construction-calculators/zh/db-converter/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-construction-calculators/id/db-converter/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-construction-calculators/pl/db-converter/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-construction-calculators/vi/db-converter/"><link rel="alternate" hreflang="nb" href="https://loonaautomation.github.io/loona-construction-calculators/nb/db-converter/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/db-converter/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="dB-omregner — Effekt- og spenningsforhold til desibel, dBm til mW og watt | Loona Construction Calculators">
+<meta property="og:description" content="Gratis desibelomregner: effektforhold og spenningsforhold til dB med din egen referanse, dBm til milliwatt og watt, og effekt tilbake til dBm og dBW — formler og gjennomarbeidede eksempler.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/nb/db-converter/"><meta property="og:locale" content="nb_NO">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="dB-omregner — Effekt- og spenningsforhold til desibel, dBm til mW og watt | Loona Construction Calculators">
+<meta name="twitter:description" content="Gratis desibelomregner: effektforhold og spenningsforhold til dB med din egen referanse, dBm til milliwatt og watt, og effekt tilbake til dBm og dBW — formler og gjennomarbeidede eksempler.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona dB-omregner","url":"https://loonaautomation.github.io/loona-construction-calculators/nb/db-converter/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Hvorfor er det to formler — 10 log og 20 log?","acceptedAnswer":{"@type":"Answer","text":"Desibel defineres på effekt. Effektforhold bruker 10 × log. Siden effekt er proporsjonal med spenning i kvadrat (ved samme impedans), blir kvadratet til en faktor på to i loggen — derav 20 × log for spennings- og strømforhold. Å blande dem er den vanligste dB-feilen."}},{"@type":"Question","name":"Hva er dBm, og hvordan er det forskjellig fra vanlig dB?","acceptedAnswer":{"@type":"Answer","text":"Vanlig dB er et forhold — det trenger en 'sammenlignet med hva'. dBm fester referansen til 1 milliwatt, så den uttrykker en absolutt effekt: en sender på +30 dBm sender ut 1 W; et mottatt signal på −90 dBm er en milliarddel av en milliwatt. dBW gjør det samme mot 1 W."}},{"@type":"Question","name":"Hva betyr en negativ dB- eller dBm-verdi?","acceptedAnswer":{"@type":"Answer","text":"Et negativt forhold i dB betyr at verdien er mindre enn referansen (halv effekt = −3.01 dB). En negativ dBm betyr en effekt under 1 mW — normalt og forventet for mottatte radiosignaler, som rutinemessig er −70 til −110 dBm."}},{"@type":"Question","name":"Hvordan kombineres forsterkerforsterkninger i dB?","acceptedAnswer":{"@type":"Answer","text":"De legges sammen — det er poenget med logaritmer. En forforsterker med +20 dB etterfulgt av en effektforsterker med +26 dB gir +46 dB totalt; en kabel som mister 3 dB trekker fra 3. Å arbeide i dB gjør en kjede av multiplikasjoner til enkel addisjon og subtraksjon."}},{"@type":"Question","name":"Er spenningsforholdregelen alltid gyldig?","acceptedAnswer":{"@type":"Answer","text":"Bare når begge spenninger måles over samme impedans — sant inne i de fleste lyd- og RF-kjeder. Å sammenligne en spenning ved et 50 Ω-punkt med en ved et 600 Ω-punkt med bare 20 log gir et feil bilde av effektforholdet; regn om gjennom effekt når impedanser avviker."}},{"@type":"Question","name":"Hvordan forholder dB seg til lydnivåer jeg ser oppgitt?","acceptedAnswer":{"@type":"Answer","text":"Lydtrykknivå bruker dB SPL referert til 20 µPa (hørselsterskelen), med spenningsstil 20 log fordi det er et trykkforhold. Denne omregneren håndterer elektriske forhold og dBm; SPL er samme matematikk med en annen fast referanse."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/nb/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "dB-omregner",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/nb/db-converter/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation-logo">
+<div class="brand">Loona <span>Byggekalkulatorer</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Elektro &rsaquo; dB-omregner</div>
+<h1 class="pagetitle">🔊 dB-omregner</h1>
+<p class="lead">Desibel komprimerer enorme forhold til hendige tall. Regn om et effektforhold eller et spenningsforhold til dB mot enhver referanse du velger, eller oversett mellom dBm og virkelig effekt i milliwatt og watt — språket til lyd, radio og forsterkerforsterkning.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_mode">Omregning</label><select id="f_mode"><option value="pratio" selected>Effektforhold &rarr; dB</option><option value="vratio">Spenningsforhold &rarr; dB</option><option value="dbm2p">dBm &rarr; effekt (mW / W)</option><option value="p2dbm">Effekt &rarr; dBm</option></select></div><div class="fld"><label for="f_val">Verdi — effekt eller spenning (forholdsmoduser)</label><input type="number" id="f_val" step="any" value="100"></div><div class="fld"><label for="f_ref">Referanse — samme enheter som verdien (forholdsmoduser)</label><input type="number" id="f_ref" step="any" value="1"></div><div class="fld"><label for="f_dbm">Nivå i dBm (dBm &rarr; effektmodus)</label><input type="number" id="f_dbm" step="any" value="20"></div><div class="fld"><label for="f_pval">Effekt (effekt &rarr; dBm-modus)</label><input type="number" id="f_pval" step="any" value="100"></div><div class="fld"><label for="f_punit">Effektenhet</label><select id="f_punit"><option value="mw" selected>Milliwatt (mW)</option><option value="w">Watts (W)</option></select></div>
+<button type="button" class="calcbtn" id="calcBtn">Beregn</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Slik bruker du dB-omregneren</h2><ol><li>Velg omregningen: et effekt- eller spenningsforhold til dB, dBm til virkelig effekt, eller virkelig effekt til dBm.</li><li>For forhold, skriv inn verdien og referansen i samme enheter (watt med watt, volt med volt) — referansen er det '0 dB' betyr for målingen din.</li><li>Trykk Beregn. Bare feltene for den valgte modusen brukes.</li></ol>
+<div class="exbox"><strong>Eksempel:</strong> En forsterker som leverer 100 W mot en referanse på 1 W er 10 × log₁₀(100) = <strong>+20 dB</strong>; og 20 dBm er nøyaktig <strong>100 mW</strong>.</div>
+<h2>Ofte stilte spørsmål</h2></section><div class="faq"><h3>Hvorfor er det to formler — 10 log og 20 log?</h3><p>Desibel defineres på effekt. Effektforhold bruker 10 × log. Siden effekt er proporsjonal med spenning i kvadrat (ved samme impedans), blir kvadratet til en faktor på to i loggen — derav 20 × log for spennings- og strømforhold. Å blande dem er den vanligste dB-feilen.</p></div><div class="faq"><h3>Hva er dBm, og hvordan er det forskjellig fra vanlig dB?</h3><p>Vanlig dB er et forhold — det trenger en 'sammenlignet med hva'. dBm fester referansen til 1 milliwatt, så den uttrykker en absolutt effekt: en sender på +30 dBm sender ut 1 W; et mottatt signal på −90 dBm er en milliarddel av en milliwatt. dBW gjør det samme mot 1 W.</p></div><div class="faq"><h3>Hva betyr en negativ dB- eller dBm-verdi?</h3><p>Et negativt forhold i dB betyr at verdien er mindre enn referansen (halv effekt = −3.01 dB). En negativ dBm betyr en effekt under 1 mW — normalt og forventet for mottatte radiosignaler, som rutinemessig er −70 til −110 dBm.</p></div>
+<h2 class="sec">Relaterte kalkulatorer</h2><div class="grid"><a class="card" href="../amps-to-watts-calculator/"><div class="ic">🔌</div><h3>Kalkulator for ampere til watt</h3><p>Elektro</p></a><a class="card" href="../reactance-calculator/"><div class="ic">〰️</div><h3>Reaktanskalkulator</h3><p>Elektro</p></a><a class="card" href="../power-factor-calculator/"><div class="ic">🎚️</div><h3>Effektfaktorkalkulator</h3><p>Elektro</p></a><a class="card" href="../three-phase-power-calculator/"><div class="ic">🔺</div><h3>Trefaseeffektkalkulator</h3><p>Elektro</p></a></div>
+</div>
+<section class="txt"><h2>Slik fungerer det &mdash; formelen</h2>
+<p><strong>Effektforhold:</strong> dB = 10 × log₁₀(P ÷ P<sub>ref</sub>)<br>
+<strong>Spenningsforhold:</strong> dB = 20 × log₁₀(V ÷ V<sub>ref</sub>) — tallet 20 står der fordi effekten øker med kvadratet av spenningen, og det forutsettes at begge spenningene ser samme impedans<br>
+<strong>dBm til effekt:</strong> P (mW) = 10<sup>(dBm ÷ 10)</sup> &nbsp;·&nbsp; <strong>Effekt til dBm:</strong> dBm = 10 × log₁₀(P in mW)<br>
+<strong>dBW</strong> = dBm − 30 (referert til 1 W i stedet for 1 mW)</p>
+<p>Referansepunkter verdt å huske: +3 dB ≈ dobbel effekt, +6 dB ≈ dobbel spenning (fire ganger effekten), +10 dB = nøyaktig ti ganger effekten, og 0 dBm = 1 mW — standardreferansen i radio- og telearbeid.</p>
+<h3>Gjennomarbeidet eksempel</h3>
+<div class="exbox">Effektforhold: P = 100, referanse = 1 (samme enheter). dB = 10 × log₁₀(100 ÷ 1) = 10 × 2 = <strong>+20 dB</strong>. Spenningskontroll: et forhold på 10 gir 20 × log₁₀(10) = <strong>+20 dB</strong> også — fordi ti ganger spenningen over samme impedans er hundre ganger effekten. dBm-sjekk: 10<sup>(20 ÷ 10)</sup> = 10² = <strong>100 mW</strong> for 20 dBm, og 30 dBm = 1,000 mW = <strong>1 W</strong>.</div>
+
+<h3>Ofte stilte spørsmål</h3></section>
+<div class="faq"><h3>Hvordan kombineres forsterkerforsterkninger i dB?</h3><p>De legges sammen — det er poenget med logaritmer. En forforsterker med +20 dB etterfulgt av en effektforsterker med +26 dB gir +46 dB totalt; en kabel som mister 3 dB trekker fra 3. Å arbeide i dB gjør en kjede av multiplikasjoner til enkel addisjon og subtraksjon.</p></div><div class="faq"><h3>Er spenningsforholdregelen alltid gyldig?</h3><p>Bare når begge spenninger måles over samme impedans — sant inne i de fleste lyd- og RF-kjeder. Å sammenligne en spenning ved et 50 Ω-punkt med en ved et 600 Ω-punkt med bare 20 log gir et feil bilde av effektforholdet; regn om gjennom effekt når impedanser avviker.</p></div><div class="faq"><h3>Hvordan forholder dB seg til lydnivåer jeg ser oppgitt?</h3><p>Lydtrykknivå bruker dB SPL referert til 20 µPa (hørselsterskelen), med spenningsstil 20 log fordi det er et trykkforhold. Denne omregneren håndterer elektriske forhold og dBm; SPL er samme matematikk med en annen fast referanse.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Bygg inn denne kalkulatoren på nettstedet ditt — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Legg til denne kalkulatoren på ditt eget nettsted eller blogg — den er helt gratis, krever ingen registrering, og viser alltid den nyeste versjonen. Kopier koden nedenfor og lim den inn på siden din der du vil at kalkulatoren skal vises. Å beholde den lille kredittlinjen &ldquo;Drevet av Loona Automation&rdquo; under innbyggingen bidrar til å holde dette verktøyet gratis &mdash; men du kan style eller fjerne den som du vil; verktøyet fungerer uansett.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/nb/db-converter/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="dB Converter by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Drevet av &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/nb/db-converter/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis dB-omregner&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Kopier innbyggingskode</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Kopiert!';setTimeout(function(){b.textContent='Kopier innebyggingskode';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Populære kalkulatorer</h4><ul><li><a href="../paint-calculator/">Malingskalkulator</a></li>
+<li><a href="../concrete-calculator/">Betongkalkulator</a></li>
+<li><a href="../tile-calculator/">Fliskalkulator</a></li>
+<li><a href="../brick-calculator/">Mursteinskalkulator</a></li>
+<li><a href="../roof-pitch-calculator/">Takvinkelkalkulator</a></li>
+<li><a href="../stairs-calculator/">Trappekalkulator</a></li></ul></div>
+<div><h4>Flere Loona-verktøy</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Alle Loona-verktøy</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Personvernerklæring</a></li>
+<li><a href="../terms.html">Vilkår for bruk</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> prosjekt. Gratis byggekalkulatorer i metriske og imperielle enheter, ingen registrering.
+Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var LOONA_TOOL = { run: function (v) {
+  if (v.mode === "pratio") {
+    if (!pos(v.val, v.ref)) return bad("Skriv inn effekten og referanseeffekten (samme enheter).");
+    var db1 = 10 * Math.log10(v.val / v.ref);
+    var html1 = resTable("Nivåforskjell", fmt(db1, 2) + " dB",
+      [["Effekt", fmt(v.val, 4)],["Referanseeffekt", fmt(v.ref, 4)],["Forhold", fmt(v.val / v.ref, 4) + " \u00D7"]],
+      "Effektforhold bruker 10×log₁₀. Å doble en effekt er +3.01 dB; ti ganger effekten er +10 dB.");
+    return { ok: true, db: db1, html: html1 };
+  }
+  if (v.mode === "vratio") {
+    if (!pos(v.val, v.ref)) return bad("Skriv inn spenningen og referansespenningen (samme enheter).");
+    var db2 = 20 * Math.log10(v.val / v.ref);
+    var html2 = resTable("Nivåforskjell", fmt(db2, 2) + " dB",
+      [["Spenning", fmt(v.val, 4)],["Referansespenning", fmt(v.ref, 4)],["Forhold", fmt(v.val / v.ref, 4) + " \u00D7"]],
+      "Spennings- (og strøm-) forhold bruker 20×log₁₀ — gyldig når begge spenninger måles over samme impedans, som er det som gjør effektforholdet til kvadratet av spenningsforholdet. Å doble en spenning er +6.02 dB.");
+    return { ok: true, db: db2, html: html2 };
+  }
+  if (v.mode === "dbm2p") {
+    if (!isFinite(v.dbm)) return bad("Skriv inn nivået i dBm.");
+    var mw = Math.pow(10, v.dbm / 10);
+    var html3 = resTable("Effekt", fmt(mw, 3) + " mW (" + fmt(mw / 1000, 5) + " W)",
+      [["Nivå", fmt(v.dbm, 2) + " dBm"],["Effekt i milliwatt", fmt(mw, 3) + " mW"],["Effekt i watt", fmt(mw / 1000, 5) + " W"],["Også lik", fmt(v.dbm - 30, 2) + " dBW"]],
+      "dBm er referert til 1 milliwatt: 0 dBm = 1 mW, og hver +10 dBm multipliserer effekten med ti.");
+    return { ok: true, mw: mw, w: mw / 1000, html: html3 };
+  }
+  // p2dbm
+  if (!pos(v.pval)) return bad("Skriv inn effekten.");
+  var mw2 = (v.punit === "w") ? v.pval * 1000 : v.pval;
+  var dbm4 = 10 * Math.log10(mw2);
+  var html4 = resTable("Nivå", fmt(dbm4, 2) + " dBm",
+    [["Effekt", fmt(mw2, 3) + " mW (" + fmt(mw2 / 1000, 5) + " W)"],["Nivå i dBm (ref 1 mW)", fmt(dbm4, 2) + " dBm"],["Nivå i dBW (ref 1 W)", fmt(dbm4 - 30, 2) + " dBW"]],
+    "Negative dBm-verdier er ganske enkelt effekter under en milliwatt — en følsom radiomottaker arbeider med signaler rundt −100 dBm.");
+  return { ok: true, dbm: dbm4, mw: mw2, html: html4 };
+} };
+
+function collect(){ return { mode: gs("f_mode"), val: gv("f_val"), ref: gv("f_ref"), dbm: gv("f_dbm"), pval: gv("f_pval"), punit: gs("f_punit") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installer app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installer denne appen: trykk på Del-knappen, og velg deretter "Legg til på Hjem-skjerm".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Watts to Amps Calculator",
+  "short_name": "Watts to Amps Calculator",
+  "description": "Gratis kalkulator for watt til ampere for DC, AC enfase og AC trefase: effekt, spenning og effektfaktor gir strømmen i ampere — det første trinnet for å dimensjonere en bryter eller kabel.",
+  "id": "/loona-construction-calculators/nb/watts-to-amps-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

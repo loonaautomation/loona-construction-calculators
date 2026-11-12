@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials by Area",
+  "short_name": "Materials by Area",
+  "description": "Hvor mye materiale for arealet ditt? Betongvolumer, flisetellinger og malingsmengder for 100 til 3,000 sq ft — beregnet med nettstedets egne kalkulatorer.",
+  "id": "/loona-construction-calculators/nb/materials-by-area/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

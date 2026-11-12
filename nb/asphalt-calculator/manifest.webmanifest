@@ -1,0 +1,29 @@
+{
+  "name": "Loona Asphalt Calculator",
+  "short_name": "Asphalt Calculator",
+  "description": "Gratis asfaltkalkulator: skriv inn lengde, bredde og tykkelse i metrisk eller imperiell og få asfaltvekten å bestille i tonn og US tons, med en redigerbar tetthet (2,450 kg/m³ / 145 lb/ft³), svinntillegg og valgfri kostnad.",
+  "id": "/loona-construction-calculators/nb/asphalt-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
