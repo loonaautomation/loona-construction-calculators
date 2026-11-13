@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Ingyenes építőipari kalkulátorok, amelyek MIND metrikus, MIND angolszász mértékegységben működnek: festék, csempe, beton, padlóburkolat, gipszkarton, tégla, kavics, tetőhajlás, lépcső, deszkaláb, tapéta, mulcs, aszfalt, szigetelés, kerítés, terasz, medencetérfogat, napelem, szőnyeg, rétegelt lemez, homok, Ohm törvénye, feszültségesés, vezetékméret, villamosenergia-költség, amperből watt, wattból amper, kVA-ból amper, teljesítménytényező, akkumulátor-üzemidő, LED-előtétellenállás, háromfázisú teljesítmény, motoráram, ellenállás-színkód, 555-ös időzítő, AWG-átváltás, reaktancia és decibelátváltás — hulladékráhagyásokkal és kidolgozott példákkal.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/hu/"
+}

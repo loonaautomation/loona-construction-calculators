@@ -1,0 +1,344 @@
+[
+ {
+  "n": "Festékkalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/paint-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Liter és gallon bármilyen helyiséghez, ajtók/ablakok levonva, alapozóval együtt.",
+  "k": "festekkalkulator festekkalkulator festekkalkulator calculator construction liter es gallon barmilyen helyiseghez ajtok ablakok levonva alapozoval egyutt",
+  "p": 0,
+  "c": "Tool"
+ },
+ {
+  "n": "Csempekalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/tile-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Csempék és dobozok padlókhoz és falakhoz, fugaközzel számolva.",
+  "k": "csempekalkulator csempekalkulator csempekalkulator calculator construction csempek es dobozok padlokhoz es falakhoz fugakozzel szamolva",
+  "p": 1,
+  "c": "Tool"
+ },
+ {
+  "n": "Betonkalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/concrete-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Lemeztérfogat m³-ben és yd³-ben, plusz az előkevert zsákok száma.",
+  "k": "betonkalkulator betonkalkulator betonkalkulator calculator construction lemezterfogat m3 ben es yd3 ben plusz az elokevert zsakok szama",
+  "p": 2,
+  "c": "Tool"
+ },
+ {
+  "n": "Padlóburkolat-kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/flooring-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Laminált, vinil és fa dobozok vágási hulladékkal.",
+  "k": "padloburkolat kalkulator padloburkolat kalkulator padloburkolat kalkulator calculator construction laminalt vinil es fa dobozok vagasi hulladekkal",
+  "p": 3,
+  "c": "Tool"
+ },
+ {
+  "n": "Gipszkarton-kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/drywall-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Gipszkarton táblák falakhoz és mennyezetekhez.",
+  "k": "gipszkarton kalkulator gipszkarton kalkulator gipszkarton kalkulator calculator construction gipszkarton tablak falakhoz es mennyezetekhez",
+  "p": 4,
+  "c": "Tool"
+ },
+ {
+  "n": "Téglakalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/brick-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tégladarabszámok szabványos metrikus és US téglaméretekhez.",
+  "k": "teglakalkulator teglakalkulator teglakalkulator calculator construction tegladarabszamok szabvanyos metrikus es us teglameretekhez",
+  "p": 5,
+  "c": "Tool"
+ },
+ {
+  "n": "Kavicskalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/gravel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tonnák és köbyárdok behajtókhoz, utakhoz és alapokhoz.",
+  "k": "kavicskalkulator kavicskalkulator kavicskalkulator calculator construction tonnak es kobyardok behajtokhoz utakhoz es alapokhoz",
+  "p": 106,
+  "c": "Tool"
+ },
+ {
+  "n": "Tetőhajlás-kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/roof-pitch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Hajlásarány, szög, lejtés és szarufahossz.",
+  "k": "tetohajlas kalkulator tetohajlas kalkulator tetohajlas kalkulator calculator construction hajlasarany szog lejtes es szarufahossz",
+  "p": 107,
+  "c": "Tool"
+ },
+ {
+  "n": "Lépcsőkalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/stairs-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Fokok, fellépőmagasság, belépő, vízszintes hossz és pofafahossz.",
+  "k": "lepcsokalkulator lepcsokalkulator lepcsokalkulator calculator construction fokok fellepomagassag belepo vizszintes hossz es pofafahossz",
+  "p": 108,
+  "c": "Tool"
+ },
+ {
+  "n": "Deszkaláb-kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/board-foot-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Fűrészáru-térfogat deszkalábban és köbméterben.",
+  "k": "deszkalab kalkulator deszkalab kalkulator deszkalab kalkulator calculator construction fureszaru terfogat deszkalabban es kobmeterben",
+  "p": 109,
+  "c": "Tool"
+ },
+ {
+  "n": "Tapétakalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/wallpaper-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tekercsek EU és US tekercsekhez, a mintaismétlődésre is számolva.",
+  "k": "tapetakalkulator tapetakalkulator tapetakalkulator calculator construction tekercsek eu es us tekercsekhez a mintaismetlodesre is szamolva",
+  "p": 110,
+  "c": "Tool"
+ },
+ {
+  "n": "Mulcskalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/mulch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Zsákok és ömlesztett térfogat ágyásokhoz és szegélyekhez.",
+  "k": "mulcskalkulator mulcskalkulator mulcskalkulator calculator construction zsakok es omlesztett terfogat agyasokhoz es szegelyekhez",
+  "p": 111,
+  "c": "Tool"
+ },
+ {
+  "n": "Aszfaltkalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/asphalt-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tonnák és US tonnák területből és vastagságból, szerkeszthető sűrűséggel, költségbecsléssel.",
+  "k": "aszfaltkalkulator aszfaltkalkulator aszfaltkalkulator calculator construction tonnak es us tonnak teruletbol es vastagsagbol szerkesztheto suruseggel koltsegbecslessel",
+  "p": 112,
+  "c": "Tool"
+ },
+ {
+  "n": "Szigeteléskalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/insulation-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Paplanok, tekercsek vagy befújt zsákok a cél R-értékéhez / RSI-hez, vastagsági útmutató.",
+  "k": "szigeteleskalkulator szigeteleskalkulator szigeteleskalkulator calculator construction paplanok tekercsek vagy befujt zsakok a cel r ertekehez rsi hez vastagsagi utmutato",
+  "p": 113,
+  "c": "Tool"
+ },
+ {
+  "n": "Kerítéskalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/fence-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Oszlopok, sínek, lécek és beton zsákok a kerítés hosszából és távolságából.",
+  "k": "keriteskalkulator keriteskalkulator keriteskalkulator calculator construction oszlopok sinek lecek es beton zsakok a kerites hosszabol es tavolsagabol",
+  "p": 114,
+  "c": "Tool"
+ },
+ {
+  "n": "Teraszkalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/deck-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Teraszdeszkák, tartógerendák és csavarok a terasz méretéből, a deszkaszélességből és a gerendatávolságból.",
+  "k": "teraszkalkulator teraszkalkulator teraszkalkulator calculator construction teraszdeszkak tartogerendak es csavarok a terasz meretebol a deszkaszelessegbol es a gerendatavolsagbol",
+  "p": 115,
+  "c": "Tool"
+ },
+ {
+  "n": "Medencetérfogat-kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/pool-volume-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Liter és US gallon téglalap, kerek és ovális medencékhez — adagolásra kész.",
+  "k": "medenceterfogat kalkulator medenceterfogat kalkulator medenceterfogat kalkulator calculator construction liter es us gallon teglalap kerek es ovalis medencekhez adagolasra kesz",
+  "p": 116,
+  "c": "Tool"
+ },
+ {
+  "n": "Napelem-kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/solar-panel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Szükséges panelek, rendszer-teljesítmény kW-ban, várható termelés és tetőfelület a számlája alapján.",
+  "k": "napelem kalkulator napelem kalkulator napelem kalkulator calculator construction szukseges panelek rendszer teljesitmeny kw ban varhato termeles es tetofelulet a szamlaja alapjan",
+  "p": 117,
+  "c": "Tool"
+ },
+ {
+  "n": "Szőnyegkalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/carpet-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Folyóméter-hossz és valódi vásárlási terület a helyiségméretből és tekercsszélességből.",
+  "k": "szonyegkalkulator szonyegkalkulator szonyegkalkulator calculator construction folyometer hossz es valodi vasarlasi terulet a helyisegmeretbol es tekercsszelessegbol",
+  "p": 118,
+  "c": "Tool"
+ },
+ {
+  "n": "Rétegeltlemez-kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/plywood-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Táblák terület és kiosztás alapján 2440×1220 mm-es és 4×8 ft-es táblákhoz.",
+  "k": "retegeltlemez kalkulator retegeltlemez kalkulator retegeltlemez kalkulator calculator construction tablak terulet es kiosztas alapjan 2440 1220 mm es es 4 8 ft es tablakhoz",
+  "p": 119,
+  "c": "Tool"
+ },
+ {
+  "n": "Homokkalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/sand-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tonnák és 25 kg-os zsákok homokozókhoz, térkőalapokhoz és esztrichekhez.",
+  "k": "homokkalkulator homokkalkulator homokkalkulator calculator construction tonnak es 25 kg os zsakok homokozokhoz terkoalapokhoz es esztrichekhez",
+  "p": 120,
+  "c": "Tool"
+ },
+ {
+  "n": "Ohm-törvény-kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/ohms-law-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Voltage, current, resistance & power from any two values — the full Ohm's law wheel.",
+  "k": "ohm torveny kalkulator ohm torveny kalkulator ohm torveny kalkulator calculator construction voltage current resistance power from any two values the full ohm s law wheel",
+  "p": 121,
+  "c": "Tool"
+ },
+ {
+  "n": "Feszültségesés-kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/voltage-drop-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Volts & % dropped over a cable run, mm² or AWG, single & three-phase.",
+  "k": "feszultsegeses kalkulator feszultsegeses kalkulator feszultsegeses kalkulator calculator construction volts dropped over a cable run mm2 or awg single three phase",
+  "p": 122,
+  "c": "Tool"
+ },
+ {
+  "n": "Vezetékméret-kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/wire-size-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Minimum cable size in mm² + standard size & AWG from your drop limit.",
+  "k": "vezetekmeret kalkulator vezetekmeret kalkulator vezetekmeret kalkulator calculator construction minimum cable size in mm2 standard size awg from your drop limit",
+  "p": 123,
+  "c": "Tool"
+ },
+ {
+  "n": "Villamosenergia-költség kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/electricity-cost-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "What an appliance costs per day, month & year from watts & price per kWh.",
+  "k": "villamosenergia koltseg kalkulator villamosenergia koltseg kalkulator villamosenergia koltseg kalkulator calculator construction what an appliance costs per day month year from watts price per kwh",
+  "p": 124,
+  "c": "Tool"
+ },
+ {
+  "n": "Amper–watt kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/amps-to-watts-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Watts & kW from amps and volts — DC, single-phase & three-phase with power factor.",
+  "k": "amper watt kalkulator amper watt kalkulator amper watt kalkulator calculator construction watts kw from amps and volts dc single phase three phase with power factor",
+  "p": 125,
+  "c": "Tool"
+ },
+ {
+  "n": "Watt–amper-kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/watts-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Amps from watts and volts for breaker & cable checks — DC, single & three-phase.",
+  "k": "watt amper kalkulator watt amper kalkulator watt amper kalkulator calculator construction amps from watts and volts for breaker cable checks dc single three phase",
+  "p": 126,
+  "c": "Tool"
+ },
+ {
+  "n": "kVA–amper-kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/kva-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Generator & transformer kVA to full-load amps, and amps back to kVA, single & three-phase.",
+  "k": "kva amper kalkulator kva amper kalkulator kva amper kalkulator calculator construction generator transformer kva to full load amps and amps back to kva single three phase",
+  "p": 127,
+  "c": "Tool"
+ },
+ {
+  "n": "Teljesítménytényező-kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/power-factor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Power factor, kvar & phase angle from kW and kVA, plus correction capacitor size.",
+  "k": "teljesitmenytenyezo kalkulator teljesitmenytenyezo kalkulator teljesitmenytenyezo kalkulator calculator construction power factor kvar phase angle from kw and kva plus correction capacitor size",
+  "p": 128,
+  "c": "Tool"
+ },
+ {
+  "n": "Akkumulátor-üzemidő kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/battery-runtime-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "How long a battery runs a load — Ah, usable Wh, depth of discharge & inverter losses counted.",
+  "k": "akkumulator uzemido kalkulator akkumulator uzemido kalkulator akkumulator uzemido kalkulator calculator construction how long a battery runs a load ah usable wh depth of discharge inverter losses counted",
+  "p": 129,
+  "c": "Tool"
+ },
+ {
+  "n": "LED-előtétellenállás-kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/led-resistor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Series resistor in ohms, nearest standard E12 value, actual current & wattage.",
+  "k": "led elotetellenallas kalkulator led elotetellenallas kalkulator led elotetellenallas kalkulator calculator construction series resistor in ohms nearest standard e12 value actual current wattage",
+  "p": 130,
+  "c": "Tool"
+ },
+ {
+  "n": "Háromfázisú teljesítménykalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/three-phase-power-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "kW, kVA & kvar from line voltage, line current & power factor for balanced loads.",
+  "k": "haromfazisu teljesitmenykalkulator haromfazisu teljesitmenykalkulator haromfazisu teljesitmenykalkulator calculator construction kw kva kvar from line voltage line current power factor for balanced loads",
+  "p": 131,
+  "c": "Tool"
+ },
+ {
+  "n": "Motoráram-kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/motor-current-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Estimated full-load amps from motor kW or hp, efficiency & power factor.",
+  "k": "motoraram kalkulator motoraram kalkulator motoraram kalkulator calculator construction estimated full load amps from motor kw or hp efficiency power factor",
+  "p": 132,
+  "c": "Tool"
+ },
+ {
+  "n": "Ellenállás-színkód-kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/resistor-colour-code-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Read 4, 5 & 6-band resistor colours to ohms & tolerance — or turn a value back into bands.",
+  "k": "ellenallas szinkod kalkulator ellenallas szinkod kalkulator ellenallas szinkod kalkulator calculator construction read 4 5 6 band resistor colours to ohms tolerance or turn a value back into bands",
+  "p": 133,
+  "c": "Tool"
+ },
+ {
+  "n": "555-ös időzítő kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/555-timer-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Astable frequency & duty cycle and monostable pulse width from R and C.",
+  "k": "555 os idozito kalkulator 555 os idozito kalkulator 555 os idozito kalkulator calculator construction astable frequency duty cycle and monostable pulse width from r and c",
+  "p": 134,
+  "c": "Tool"
+ },
+ {
+  "n": "AWG-átváltó",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/awg-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "AWG to mm, mm² and resistance per km for copper & aluminium — and back from mm² or diameter.",
+  "k": "awg atvalto awg atvalto awg atvalto calculator construction awg to mm mm2 and resistance per km for copper aluminium and back from mm2 or diameter",
+  "p": 135,
+  "c": "Tool"
+ },
+ {
+  "n": "Reaktancia-kalkulátor",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/reactance-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Capacitive & inductive reactance in ohms, plus LC resonant frequency.",
+  "k": "reaktancia kalkulator reaktancia kalkulator reaktancia kalkulator calculator construction capacitive inductive reactance in ohms plus lc resonant frequency",
+  "p": 136,
+  "c": "Tool"
+ },
+ {
+  "n": "dB-átváltó",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hu/db-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "Power & voltage ratios to decibels, dBm to milliwatts & watts and back.",
+  "k": "db atvalto db atvalto db atvalto calculator construction power voltage ratios to decibels dbm to milliwatts watts and back",
+  "p": 137,
+  "c": "Tool"
+ }
+]

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Sand Calculator",
+  "short_name": "Sand Calculator",
+  "description": "Ingyenes homokkalkulátor: a terület és mélység metrikus vagy angolszász mértékegységben megadja a homoktérfogatot, a tömeget tonnában és US tonnában, és a 25 kg-os zsákok számát — sűrűséggel és hulladékráhagyással, homokozókhoz, burkolatalapokhoz és esztrichekhez.",
+  "id": "/loona-construction-calculators/hu/sand-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

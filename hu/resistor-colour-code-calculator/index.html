@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ellenállás-színkód-kalkulátor — 4, 5 és 6 sáv + fordított (értékből sávok) | Loona Construction Calculators</title>
+<meta name="description" content="Ingyenes ellenállás-színkód kalkulátor: válassza ki a sávszíneket egy 4, 5 vagy 6 sávos ellenálláson, hogy megkapja az ellenállást, a tűrést és a hőmérsékleti együtthatót — vagy fordítva, értékről sávokra.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/hu/resistor-colour-code-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/resistor-colour-code-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/resistor-colour-code-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/resistor-colour-code-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/resistor-colour-code-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/resistor-colour-code-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/resistor-colour-code-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/resistor-colour-code-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/resistor-colour-code-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/resistor-colour-code-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/resistor-colour-code-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/resistor-colour-code-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-construction-calculators/id/resistor-colour-code-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/resistor-colour-code-calculator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-construction-calculators/bn/resistor-colour-code-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-construction-calculators/ja/resistor-colour-code-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/resistor-colour-code-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-construction-calculators/zh/resistor-colour-code-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-construction-calculators/pl/resistor-colour-code-calculator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-construction-calculators/vi/resistor-colour-code-calculator/"><link rel="alternate" hreflang="th" href="https://loonaautomation.github.io/loona-construction-calculators/th/resistor-colour-code-calculator/"><link rel="alternate" hreflang="ms" href="https://loonaautomation.github.io/loona-construction-calculators/ms/resistor-colour-code-calculator/"><link rel="alternate" hreflang="ro" href="https://loonaautomation.github.io/loona-construction-calculators/ro/resistor-colour-code-calculator/"><link rel="alternate" hreflang="cs" href="https://loonaautomation.github.io/loona-construction-calculators/cs/resistor-colour-code-calculator/"><link rel="alternate" hreflang="sv" href="https://loonaautomation.github.io/loona-construction-calculators/sv/resistor-colour-code-calculator/"><link rel="alternate" hreflang="nb" href="https://loonaautomation.github.io/loona-construction-calculators/nb/resistor-colour-code-calculator/"><link rel="alternate" hreflang="en-us" href="https://loonaautomation.github.io/loona-construction-calculators/en-us/resistor-colour-code-calculator/"><link rel="alternate" hreflang="en-gb" href="https://loonaautomation.github.io/loona-construction-calculators/en-gb/resistor-colour-code-calculator/"><link rel="alternate" hreflang="zh-hant" href="https://loonaautomation.github.io/loona-construction-calculators/zh-hant/resistor-colour-code-calculator/"><link rel="alternate" hreflang="pt-br" href="https://loonaautomation.github.io/loona-construction-calculators/pt-br/resistor-colour-code-calculator/"><link rel="alternate" hreflang="pt-pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt-pt/resistor-colour-code-calculator/"><link rel="alternate" hreflang="sw" href="https://loonaautomation.github.io/loona-construction-calculators/sw/resistor-colour-code-calculator/"><link rel="alternate" hreflang="hr" href="https://loonaautomation.github.io/loona-construction-calculators/hr/resistor-colour-code-calculator/"><link rel="alternate" hreflang="hu" href="https://loonaautomation.github.io/loona-construction-calculators/hu/resistor-colour-code-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/resistor-colour-code-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ellenállás-színkód-kalkulátor — 4, 5 és 6 sáv + fordított (értékből sávok) | Loona Construction Calculators">
+<meta property="og:description" content="Ingyenes ellenállás-színkód kalkulátor: válassza ki a sávszíneket egy 4, 5 vagy 6 sávos ellenálláson, hogy megkapja az ellenállást, a tűrést és a hőmérsékleti együtthatót — vagy fordítva, értékről sávokra.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/hu/resistor-colour-code-calculator/"><meta property="og:locale" content="hu_HU">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ellenállás-színkód-kalkulátor — 4, 5 és 6 sáv + fordított (értékből sávok) | Loona Construction Calculators">
+<meta name="twitter:description" content="Ingyenes ellenállás-színkód kalkulátor: válassza ki a sávszíneket egy 4, 5 vagy 6 sávos ellenálláson, hogy megkapja az ellenállást, a tűrést és a hőmérsékleti együtthatót — vagy fordítva, értékről sávokra.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Ellenállás-színkód kalkulátor","url":"https://loonaautomation.github.io/loona-construction-calculators/hu/resistor-colour-code-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Melyik végéről olvassak?","acceptedAnswer":{"@type":"Answer","text":"Kezdje azon a végen, ahol a sávok a legsűrűbben csoportosulnak a szélhez közel, és olvasson a tűréssáv felé — az rendszerint arany vagy ezüst, vagy szélesebb hézag választja el. 4 sávos alkatrészeknél, ha mindkét vég hasonlónak tűnik, az első sáv soha nem arany vagy ezüst (ezek nem számjegyszínek), ami eldönti az irányt."}},{"@type":"Question","name":"Mi a különbség a 4 sávos és az 5 sávos ellenállások között?","acceptedAnswer":{"@type":"Answer","text":"Precizitás. Egy 4 sávos alkatrész két értékes jegyet kódol, és ±5% vagy ±10% mellett megfelel. Egy 5 sávos alkatrész három jegyet kódol, így az olyan értékek, mint a 4.99 kΩ, pontosan megadhatók, és a tűrések rendszerint ±1% vagy jobbak (fémréteg-típusok)."}},{"@type":"Question","name":"Mit jelent a 6. sáv?","acceptedAnswer":{"@type":"Answer","text":"A hőmérsékleti együttható: hogy mennyit sodródik az ellenállás a hőmérséklet-változás fokonként, milliomodrész per kelvinben. Az 50 ppm/K azt jelenti, hogy egy 1,000 Ω-os ellenállás fokonként körülbelül 0.05 Ω-ot változik — precíziós és mérőáramkörökben lényeges, a hétköznapiakban ritkán."}},{"@type":"Question","name":"Miért mondja a fordított mód néha, hogy az érték nem jeleníthető meg pontosan?","acceptedAnswer":{"@type":"Answer","text":"Mert egy 4 sávos kód csak két értékes számjegyet tud tárolni. A 4,720 Ω-hoz három kell (4-7-2), ezért pontosan ilyen értékű 4 sávos ellenállás egyszerűen nem létezik — a kalkulátor a legközelebbi ábrázolható értéket mutatja, és ezt ki is írja, ahelyett hogy úgy tenne, mintha létezne."}},{"@type":"Question","name":"Megbízhatok egy régi vagy megégett ellenállás színeiben?","acceptedAnswer":{"@type":"Answer","text":"A hő és az öregedés kifakítja a színeket — a piros, narancs és barna nehezen különböztethető meg, és egy megégett ellenállás értéke amúgy is elsodródhatott. Ha kétségei vannak, mérjen multiméterrel (áramkörön kívül, vagy egy lábát felemelve), ahelyett hogy a sávokban bízna."}},{"@type":"Question","name":"És a csak 3 sávos ellenállások, vagy az SMD kódok?","acceptedAnswer":{"@type":"Answer","text":"Egy 3 sávos ellenállást úgy olvasunk, mint egy 4 sávost, beleértett ±20% tűréssel. Az SMD (felületszerelt) alkatrészek színek helyett nyomtatott számkódokat használnak — ez egy másik rendszer, amelyre ez a kalkulátor nem terjed ki."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/hu/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ellenállás-színkód-kalkulátor",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/hu/resistor-colour-code-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation logó">
+<div class="brand">Loona <span>Építőipari kalkulátorok</span></div>
+<nav>
+<a href="../">Kezdőlap</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Rólunk</a>
+<a href="../contact.html">Kapcsolat</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Elektromos &rsaquo; Ellenállás-színkód kalkulátor</div>
+<h1 class="pagetitle">🌈 Ellenállás-színkód-kalkulátor</h1>
+<p class="lead">Válassza ki az ellenállásra festett színeket — 4 sávos, 5 sávos vagy 6 sávos — és olvassa le az ellenállását, tűrését és (6 sávosnál) hőmérsékleti együtthatóját. Vagy váltson fordított módba: írjon be egy értéket ohmban, és megkapja a sávokat, amelyeket látnia kell.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_mode">Mód</label><select id="f_mode"><option value="fwd" selected>Színek &rarr; ellenállás</option><option value="rev">Ellenállás &rarr; színek (fordított)</option></select></div><div class="fld"><label for="f_bands">Sávok száma</label><select id="f_bands"><option value="4" selected>4 sávos</option><option value="5">5 sávos</option><option value="6">6 sávos (hőmérsékleti együtthatóval kiegészítve)</option></select></div><div class="fld"><label for="f_b1">1. sáv — első számjegy (előre olvasva)</label><select id="f_b1"><option value="black">Fekete</option><option value="brown">Barna</option><option value="red">Piros</option><option value="orange">Narancssárga</option><option value="yellow" selected>Sárga</option><option value="green">Zöld</option><option value="blue">Kék</option><option value="violet">Ibolya</option><option value="grey">Szürke</option><option value="white">Fehér</option><option value="gold">Arany</option><option value="silver">Ezüst</option></select></div><div class="fld"><label for="f_b2">2. sáv — második számjegy</label><select id="f_b2"><option value="black">Fekete</option><option value="brown">Barna</option><option value="red">Piros</option><option value="orange">Narancssárga</option><option value="yellow">Sárga</option><option value="green">Zöld</option><option value="blue">Kék</option><option value="violet" selected>Ibolya</option><option value="grey">Szürke</option><option value="white">Fehér</option><option value="gold">Arany</option><option value="silver">Ezüst</option></select></div><div class="fld"><label for="f_b3">3. sáv — harmadik számjegy (5/6 sávos) vagy szorzó (4 sávos)</label><select id="f_b3"><option value="black">Fekete</option><option value="brown" selected>Barna</option><option value="red">Piros</option><option value="orange">Narancssárga</option><option value="yellow">Sárga</option><option value="green">Zöld</option><option value="blue">Kék</option><option value="violet">Ibolya</option><option value="grey">Szürke</option><option value="white">Fehér</option><option value="gold">Arany</option><option value="silver">Ezüst</option></select></div><div class="fld"><label for="f_b4">4. sáv — szorzó (5/6 sávos) vagy tűrés (4 sávos)</label><select id="f_b4"><option value="black">Fekete</option><option value="brown">Barna</option><option value="red">Piros</option><option value="orange">Narancssárga</option><option value="yellow">Sárga</option><option value="green">Zöld</option><option value="blue">Kék</option><option value="violet">Ibolya</option><option value="grey">Szürke</option><option value="white">Fehér</option><option value="gold" selected>Arany</option><option value="silver">Ezüst</option></select></div><div class="fld"><label for="f_b5">5. sáv — tűrés (5/6 sávos)</label><select id="f_b5"><option value="black">Fekete</option><option value="brown" selected>Barna</option><option value="red">Piros</option><option value="orange">Narancssárga</option><option value="yellow">Sárga</option><option value="green">Zöld</option><option value="blue">Kék</option><option value="violet">Ibolya</option><option value="grey">Szürke</option><option value="white">Fehér</option><option value="gold">Arany</option><option value="silver">Ezüst</option></select></div><div class="fld"><label for="f_b6">6. sáv — hőmérsékleti együttható (csak 6 sávos)</label><select id="f_b6"><option value="black">Fekete</option><option value="brown">Barna</option><option value="red" selected>Piros</option><option value="orange">Narancssárga</option><option value="yellow">Sárga</option><option value="green">Zöld</option><option value="blue">Kék</option><option value="violet">Ibolya</option><option value="grey">Szürke</option><option value="white">Fehér</option><option value="gold">Arany</option><option value="silver">Ezüst</option></select></div><div class="fld"><label for="f_rev">Fordított mód: ellenállás értéke (ohm)</label><input type="number" id="f_rev" step="any" value="4700"></div><div class="fld"><label for="f_revtol">Fordított mód: tűréssáv színe</label><select id="f_revtol"><option value="gold" selected>Arany (±5%)</option><option value="silver">Ezüst (±10%)</option><option value="brown">Barna (±1%)</option><option value="red">Piros (±2%)</option><option value="green">Zöld (±0.5%)</option><option value="blue">Kék (±0.25%)</option><option value="violet">Ibolya (±0.1%)</option><option value="none">Nincs sáv (±20%)</option></select></div>
+<button type="button" class="calcbtn" id="calcBtn">Számítás</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Hogyan használja az Ellenállás-színkód kalkulátort</h2><ol><li>Válassza az előre vagy hátra módot és az ellenállásra nyomtatott sávszámot.</li><li>Előre: állítsa be minden sáv színét sorrendben, attól a sávtól kezdve, amely az egyik véghez legközelebb van (a tűréssávot — arany, ezüst vagy szélesen elhelyezett — olvassuk utoljára).</li><li>Fordított mód: adja meg az értéket ohmban és a kívánt tűrést; a kalkulátor megnevezi a sávszíneket és azt a pontos értéket, amelyet képviselnek.</li></ol>
+<div class="exbox"><strong>Példa:</strong> Sárga – ibolya – barna – arany egy 4 sávos ellenálláson: 4, 7, ×10 → <strong>470 Ω ±5%</strong>.</div>
+<h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Melyik végéről olvassak?</h3><p>Kezdje azon a végen, ahol a sávok a legsűrűbben csoportosulnak a szélhez közel, és olvasson a tűréssáv felé — az rendszerint arany vagy ezüst, vagy szélesebb hézag választja el. 4 sávos alkatrészeknél, ha mindkét vég hasonlónak tűnik, az első sáv soha nem arany vagy ezüst (ezek nem számjegyszínek), ami eldönti az irányt.</p></div><div class="faq"><h3>Mi a különbség a 4 sávos és az 5 sávos ellenállások között?</h3><p>Precizitás. Egy 4 sávos alkatrész két értékes jegyet kódol, és ±5% vagy ±10% mellett megfelel. Egy 5 sávos alkatrész három jegyet kódol, így az olyan értékek, mint a 4.99 kΩ, pontosan megadhatók, és a tűrések rendszerint ±1% vagy jobbak (fémréteg-típusok).</p></div><div class="faq"><h3>Mit jelent a 6. sáv?</h3><p>A hőmérsékleti együttható: hogy mennyit sodródik az ellenállás a hőmérséklet-változás fokonként, milliomodrész per kelvinben. Az 50 ppm/K azt jelenti, hogy egy 1,000 Ω-os ellenállás fokonként körülbelül 0.05 Ω-ot változik — precíziós és mérőáramkörökben lényeges, a hétköznapiakban ritkán.</p></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../led-resistor-calculator/"><div class="ic">💡</div><h3>LED-előtétellenállás-kalkulátor</h3><p>Elektromos</p></a><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>Ohm-törvény-kalkulátor</h3><p>Elektromos</p></a><a class="card" href="../awg-converter/"><div class="ic">📏</div><h3>AWG-átváltó</h3><p>Elektromos</p></a><a class="card" href="../reactance-calculator/"><div class="ic">〰️</div><h3>Reaktancia-kalkulátor</h3><p>Elektromos</p></a></div>
+</div>
+<section class="txt"><h2>Hogyan működik &mdash; a képlet</h2>
+<p><strong>4 sávos:</strong> Érték = (10 × d<sub>1</sub> + d<sub>2</sub>) × szorzó, 4. sáv = tűrés<br>
+<strong>5 sávos:</strong> Érték = (100 × d<sub>1</sub> + 10 × d<sub>2</sub> + d<sub>3</sub>) × szorzó, 5. sáv = tűrés<br>
+<strong>6 sávos:</strong> mint az 5 sávos, 6. sáv = hőmérsékleti együttható (ppm/K)</p>
+<p>Számjegyszínek: fekete 0, barna 1, piros 2, narancs 3, sárga 4, zöld 5, kék 6, lila 7, szürke 8, fehér 9. A szorzók ×0.01-től (ezüst) és ×0.1-től (arany) ×10⁹-ig (fehér) futnak. Tűrések: arany ±5%, ezüst ±10%, sáv nélkül ±20%, és a precíziós színek: barna ±1%, piros ±2%, zöld ±0.5%, kék ±0.25%, lila ±0.1%, szürke ±0.05%. Hőmérsékleti együtthatók: barna 100, piros 50, narancs 15, sárga 25, zöld 20, kék 10, lila 5, szürke 1 ppm/K (fekete 250).</p>
+<h3>Kidolgozott példa</h3>
+<div class="exbox">4 sávos, sárga–lila–barna–arany: a 4 és 7 számjegy 47-et ad; a barna szorzó ×10; 47 × 10 = <strong>470 Ω</strong>; az arany ±5%-ot jelent, tehát a valódi érték 446.5 Ω és 493.5 Ω között van. Fordított ellenőrzés: a 4,700 Ω 4 sávos formában 47 × 100, és a ×100 a piros szorzó — sárga, lila, <strong>piros</strong>, plusz a tűréssávja.</div>
+
+<h3>Gyakran ismételt kérdések</h3></section>
+<div class="faq"><h3>Miért mondja a fordított mód néha, hogy az érték nem jeleníthető meg pontosan?</h3><p>Mert egy 4 sávos kód csak két értékes számjegyet tud tárolni. A 4,720 Ω-hoz három kell (4-7-2), ezért pontosan ilyen értékű 4 sávos ellenállás egyszerűen nem létezik — a kalkulátor a legközelebbi ábrázolható értéket mutatja, és ezt ki is írja, ahelyett hogy úgy tenne, mintha létezne.</p></div><div class="faq"><h3>Megbízhatok egy régi vagy megégett ellenállás színeiben?</h3><p>A hő és az öregedés kifakítja a színeket — a piros, narancs és barna nehezen különböztethető meg, és egy megégett ellenállás értéke amúgy is elsodródhatott. Ha kétségei vannak, mérjen multiméterrel (áramkörön kívül, vagy egy lábát felemelve), ahelyett hogy a sávokban bízna.</p></div><div class="faq"><h3>És a csak 3 sávos ellenállások, vagy az SMD kódok?</h3><p>Egy 3 sávos ellenállást úgy olvasunk, mint egy 4 sávost, beleértett ±20% tűréssel. Az SMD (felületszerelt) alkatrészek színek helyett nyomtatott számkódokat használnak — ez egy másik rendszer, amelyre ez a kalkulátor nem terjed ki.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Ágyazza be ezt a kalkulátort a weboldalába — ingyen</h2>
+<p style="margin:0 0 12px;line-height:1.6">Adja hozzá ezt a kalkulátort a saját weboldalához vagy blogjához — teljesen ingyenes, nem igényel regisztrációt, és mindig a legújabb verziót mutatja. Másolja ki az alábbi kódot, és illessze be az oldalába oda, ahol a kalkulátort meg szeretné jeleníteni. Ha megtartja a beágyazás alatt a kis &ldquo;Powered by Loona Automation&rdquo; jelöléssort, az segít abban, hogy ez az eszköz ingyenes maradjon &mdash; de szabadon formázhatja vagy eltávolíthatja; az eszköz mindenképpen működik.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/hu/resistor-colour-code-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Resistor Colour Code Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Üzemeltető: &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/hu/resistor-colour-code-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; ingyenes Ellenállás-színkód-kalkulátor&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Beágyazókód másolása</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Másolva!';setTimeout(function(){b.textContent='Beágyazási kód másolása';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../paint-calculator/">Festékkalkulátor</a></li>
+<li><a href="../concrete-calculator/">Betonkalkulátor</a></li>
+<li><a href="../tile-calculator/">Csempekalkulátor</a></li>
+<li><a href="../brick-calculator/">Téglakalkulátor</a></li>
+<li><a href="../roof-pitch-calculator/">Tetőhajlás-kalkulátor</a></li>
+<li><a href="../stairs-calculator/">Lépcsőkalkulátor</a></li></ul></div>
+<div><h4>További Loona eszközök</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Összes Loona eszköz</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">Rólunk</a></li>
+<li><a href="../contact.html">Kapcsolat</a></li>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; a <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes építőipari kalkulátorok metrikus és angolszász mértékegységben, regisztráció nélkül.
+Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var DIGIT = { black: 0, brown: 1, red: 2, orange: 3, yellow: 4, green: 5, blue: 6, violet: 7, grey: 8, white: 9 };
+var MULT = { silver: 0.01, gold: 0.1, black: 1, brown: 10, red: 100, orange: 1000, yellow: 10000, green: 100000, blue: 1000000, violet: 10000000, grey: 100000000, white: 1000000000 };
+var MULT_NAME = { "-2": "silver", "-1": "gold", "0": "black", "1": "brown", "2": "red", "3": "orange", "4": "yellow", "5": "green", "6": "blue", "7": "violet", "8": "grey", "9": "white" };
+var TOL = { brown: 1, red: 2, green: 0.5, blue: 0.25, violet: 0.1, grey: 0.05, gold: 5, silver: 10, none: 20 };
+var TEMPCO = { black: 250, brown: 100, red: 50, orange: 15, yellow: 25, green: 20, blue: 10, violet: 5, grey: 1 };
+function fmtOhms(x) {
+  if (x >= 1000000) return fmt(x / 1000000, 3) + " M\u03A9";
+  if (x >= 1000) return fmt(x / 1000, 3) + " k\u03A9";
+  return fmt(x, 2) + " \u03A9";
+}
+var LOONA_TOOL = { run: function (v) {
+  if (v.mode === "rev") {
+    if (!pos(v.revValue)) return bad("Kérjük, adja meg az ellenállás értékét ohmban.");
+    var ndig = (v.bands === "4") ? 2 : 3;
+    var exp = Math.floor(Math.log10(v.revValue)) - (ndig - 1);
+    if (exp < -2) exp = -2; if (exp > 9) exp = 9;
+    var mant = v.revValue / Math.pow(10, exp);
+    var mantR = Math.round(mant);
+    if (mantR >= Math.pow(10, ndig)) { mantR = mantR / 10; exp += 1; }
+    var represented = mantR * Math.pow(10, exp);
+    var digNames = ["black","brown","red","orange","yellow","green","blue","violet","grey","white"];
+    var bandNames = [];
+    var s = String(mantR);
+    while (s.length < ndig) s = "0" + s;
+    for (var i = 0; i < ndig; i++) bandNames.push(digNames[parseInt(s[i], 10)]);
+    bandNames.push(MULT_NAME[String(exp)]);
+    var tolPct = TOL[v.revTol];
+    var rowsR = [["Számjegy- / szorzósávok", bandNames.join(" \u2013 " )],["Tűréssáv", v.revTol + " (\u00B1" + tolPct + "%)"],["Az érték, amelyet a sávok képviselnek", fmtOhms(represented)]];
+    if (Math.abs(represented - v.revValue) > represented * 0.001) rowsR.push(["Megjegyzés", "A pontos értéke nem jeleníthető meg ezzel: " + ndig + " értékes jegy \u2014 ezek a sávok a legközelebbi ábrázolható értéket adják."]);
+    var htmlR = resTable("Sávok ehhez: " + fmtOhms(v.revValue), bandNames.join(", ") + ", " + v.revTol, rowsR,
+      "Olvassa le a sávokat attól a végtől, amely a sávcsoporthoz legközelebb van, a tűréssávval (gyakran arany, ezüst vagy egy tágabban elhelyezett sáv) utoljára.");
+    return { ok: true, represented: represented, revBands: bandNames.concat([v.revTol]), tolPct: tolPct, html: htmlR };
+  }
+  var b = v.bandCols;
+  var tolBand = v.tolBand;
+  if (!(b[0] in DIGIT) || !(b[1] in DIGIT)) return bad("Kérjük, minden sávhoz válasszon színt.");
+  var digits, multC;
+  if (v.bands === "4") { digits = DIGIT[b[0]] * 10 + DIGIT[b[1]]; multC = b[2]; }
+  else { if (!(b[2] in DIGIT)) return bad("Kérjük, minden sávhoz válasszon színt."); digits = DIGIT[b[0]] * 100 + DIGIT[b[1]] * 10 + DIGIT[b[2]]; multC = b[3]; }
+  if (!(multC in MULT)) return bad("A szorzósáv színe nem érvényes.");
+  var ohms = digits * MULT[multC];
+  var tol = TOL[tolBand];
+  if (tol === undefined) return bad("A tűréssávnak barnának, pirosnak, zöldnek, kéknek, ibolyának, szürkének, aranynak, ezüstnek kell lennie \u2014 vagy válassza a 'none' \u00B120% lehetőséget.");
+  var rows = [["Ellenállás", fmtOhms(ohms) + " (" + fmt(ohms, 2) + " \u03A9)"],["Tűrés", "\u00B1" + tol + "%  \u2192  között " + fmtOhms(ohms * (1 - tol / 100)) + " and " + fmtOhms(ohms * (1 + tol / 100))]];
+  var tempco = null;
+  if (v.bands === "6") { tempco = TEMPCO[b[5]]; if (tempco === undefined) return bad("A hőmérsékleti együttható sávjának színe nem érvényes."); rows.push(["Hőmérsékleti együttható", tempco + " ppm/K"]);}
+  var html = resTable("Ellenállás", fmtOhms(ohms) + " \u00B1" + tol + "%", rows,
+    "Tipp: tartsa az ellenállást úgy, hogy a sávcsoport balra, a tűréssáv (arany, ezüst vagy a kakukktojás) jobbra legyen, majd olvasson balról jobbra.");
+  return { ok: true, ohms: ohms, tolPct: tol, tempco: tempco, html: html };
+} };
+
+function collect(){
+  var bc = gs("f_bands");
+  var cols = [gs("f_b1"), gs("f_b2"), gs("f_b3"), gs("f_b4"), gs("f_b5"), gs("f_b6")];
+  var tolBand = (bc === "4") ? cols[3] : cols[4];
+  if (tolBand === "none") tolBand = "none";
+  return { mode: gs("f_mode"), bands: bc, bandCols: cols, tolBand: tolBand, revValue: gv("f_rev"), revTol: gs("f_revtol") };
+}
+
+if (typeof document !== "undefined") {
+  var UNITS = {};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Alkalmazás telepítése';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Telepítse ezt az alkalmazást: koppintson a Megosztás gombra, majd válassza a "Hozzáadás a kezdőképernyőhöz" lehetőséget.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>
