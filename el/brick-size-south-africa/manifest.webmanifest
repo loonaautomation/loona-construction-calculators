@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in South Africa",
+  "short_name": "Brick Size in South Africa",
+  "description": "Τυπικό μέγεθος τούβλου στη Νότια Αφρική: 222 × 106 × 73 mm. 51.9 τούβλα ανά m² (4.82 ανά sq ft) τοίχου μονής τοιχοποιίας με αρμούς κονιάματος 10 mm, κάλυψη ανά 1,000 τούβλα και ένα λυμένο παράδειγμα τοίχου.",
+  "id": "/loona-construction-calculators/el/brick-size-south-africa/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

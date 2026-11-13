@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Calculator",
+  "short_name": "Brick Calculator",
+  "description": "Δωρεάν υπολογιστής τούβλων: μήκος και ύψος τοίχου σε μετρικό ή αυτοκρατορικό — λάβετε τον αριθμό τυπικών τούβλων (215 mm ή αμερικανικό modular) για τοίχο μονής στρώσης, συμπεριλαμβανομένων περιθωρίων αρμού κονιάματος και φθοράς.",
+  "id": "/loona-construction-calculators/el/brick-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

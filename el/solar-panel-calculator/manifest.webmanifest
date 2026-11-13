@@ -1,0 +1,29 @@
+{
+  "name": "Loona Solar Panel Calculator",
+  "short_name": "Solar Panel Calculator",
+  "description": "Δωρεάν υπολογιστής ηλιακών πάνελ: μηνιαία χρήση ηλεκτρικής ενέργειας, ώρες αιχμής ήλιου και ισχύς πάνελ σας δίνουν τα πάνελ που χρειάζονται, μέγεθος συστήματος σε kW, αναμενόμενη μηνιαία παραγωγή και επιφάνεια στέγης — χωρίς εγγραφή.",
+  "id": "/loona-construction-calculators/el/solar-panel-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

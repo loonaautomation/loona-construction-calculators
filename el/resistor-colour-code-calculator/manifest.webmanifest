@@ -1,0 +1,29 @@
+{
+  "name": "Loona Resistor Colour Code Calculator",
+  "short_name": "Resistor Colour Code",
+  "description": "Δωρεάν υπολογιστής χρωματικού κωδικού αντίστασης: επιλέξτε τα χρώματα ζωνών σε αντίσταση 4 ζωνών, 5 ζωνών ή 6 ζωνών για αντίσταση, ανοχή και συντελεστή θερμοκρασίας — ή αντίστροφα, τιμή σε ζώνες.",
+  "id": "/loona-construction-calculators/el/resistor-colour-code-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

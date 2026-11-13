@@ -1,0 +1,29 @@
+{
+  "name": "Loona Concrete Calculator",
+  "short_name": "Concrete Calculator",
+  "description": "Δωρεάν υπολογιστής σκυροδέματος: μήκος, πλάτος και πάχος πλάκας σε μετρικό ή αυτοκρατορικό — λάβετε όγκο σκυροδέματος σε κυβικά μέτρα και κυβικές γιάρδες, συν πόσα σακιά έτοιμου μείγματος 20/25 kg ή 60/80 lb χρειάζεστε.",
+  "id": "/loona-construction-calculators/el/concrete-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

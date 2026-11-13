@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for a 12 × 16 ft Deck",
+  "short_name": "Materials for a 12 × 16 ft",
+  "description": "Λίστα αγορών για κατάστρωμα 12×16 ft: σανίδες καταστρώματος, board feet, δοκοί, στύλοι και αριθμοί βιδών — υπολογισμένα από τη διάταξη, με τις επιφυλάξεις κανονισμών δηλωμένες.",
+  "id": "/loona-construction-calculators/el/materials-for-12x16-deck/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

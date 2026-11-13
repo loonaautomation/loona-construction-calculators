@@ -1,0 +1,344 @@
+[
+ {
+  "n": "Υπολογιστής Βαφής",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/paint-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Λίτρα & γαλόνια για οποιοδήποτε δωμάτιο, πόρτες/παράθυρα αφαιρεμένα, αστάρι συμπεριλαμβάνεται.",
+  "k": "Υπολογιστής Βαφής paint calculator paint calculator paint calculator calculator construction litres gallons for any room doors windows subtracted primer included & Βαφής Λίτρα Υπολογιστής αστάρι αφαιρεμένα γαλόνια για δωμάτιο οποιοδήποτε παράθυρα πόρτες συμπεριλαμβάνεται",
+  "p": 0,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Πλακιδίων",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/tile-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Πλακίδια και κουτιά για δάπεδα & τοίχους, με τον αρμό να μετριέται.",
+  "k": "Υπολογιστής Πλακιδίων tile calculator tile calculator tile calculator calculator construction tiles and boxes for floors walls grout gap counted & Πλακίδια Πλακιδίων Υπολογιστής αρμό για δάπεδα και κουτιά με μετριέται να τοίχους τον",
+  "p": 1,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Σκυροδέματος",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/concrete-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Όγκος πλάκας σε m³ & yd³ συν μέτρηση σακιών έτοιμου μείγματος.",
+  "k": "Υπολογιστής Σκυροδέματος concrete calculator concrete calculator concrete calculator calculator construction slab volume in m3 yd3 plus pre mix bag count & m³ yd³ Όγκος Σκυροδέματος Υπολογιστής έτοιμου μέτρηση μείγματος πλάκας σακιών σε συν",
+  "p": 2,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Δαπέδων",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/flooring-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Κουτιά laminate, βινυλίου & ξύλου με φθορά κοπής.",
+  "k": "Υπολογιστής Δαπέδων flooring calculator flooring calculator flooring calculator calculator construction laminate vinyl wood boxes with cutting waste & laminate Δαπέδων Κουτιά Υπολογιστής βινυλίου κοπής με ξύλου φθορά",
+  "p": 3,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Γυψοσανίδας",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/drywall-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Φύλλα γυψοσανίδας / ξηράς δόμησης για τοίχους & ταβάνια.",
+  "k": "Υπολογιστής Γυψοσανίδας drywall calculator drywall calculator drywall calculator calculator construction plasterboard drywall sheets for walls ceilings & Γυψοσανίδας Υπολογιστής Φύλλα για γυψοσανίδας δόμησης ξηράς ταβάνια τοίχους",
+  "p": 4,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Τούβλων",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/brick-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Αριθμοί τούβλων για τυπικά μετρικά & αμερικανικά μεγέθη τούβλων.",
+  "k": "Υπολογιστής Τούβλων brick calculator brick calculator brick calculator calculator construction brick counts for standard metric us brick sizes & Αριθμοί Τούβλων Υπολογιστής αμερικανικά για μεγέθη μετρικά τούβλων τυπικά",
+  "p": 5,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Χαλικιού",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/gravel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Τόνοι & κυβικές γιάρδες για δρόμους, μονοπάτια και βάσεις.",
+  "k": "Υπολογιστής Χαλικιού gravel calculator gravel calculator gravel calculator calculator construction tonnes cubic yards for drives paths and bases & Τόνοι Υπολογιστής Χαλικιού βάσεις γιάρδες για δρόμους και κυβικές μονοπάτια",
+  "p": 106,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Κλίσης Στέγης",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/roof-pitch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Λόγος κλίσης, γωνία, κλίση εδάφους και μήκος δοκού.",
+  "k": "Υπολογιστής Κλίσης Στέγης roof pitch calculator roof pitch calculator roof pitch calculator calculator construction pitch ratio angle grade and rafter length Κλίσης Λόγος Στέγης Υπολογιστής γωνία δοκού εδάφους και κλίση κλίσης μήκος",
+  "p": 107,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Σκάλας",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/stairs-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Σκαλοπάτια, ύψος ριχτιού, πάτημα, προβολή και μήκος βαθμιδοφόρου.",
+  "k": "Υπολογιστής Σκάλας stairs calculator stairs calculator stairs calculator calculator construction steps riser height tread run and stringer length Σκάλας Σκαλοπάτια Υπολογιστής βαθμιδοφόρου και μήκος πάτημα προβολή ριχτιού ύψος",
+  "p": 108,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Board Foot",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/board-foot-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Όγκος ξυλείας σε board feet & κυβικά μέτρα.",
+  "k": "Υπολογιστής Board Foot board foot calculator board foot calculator board foot calculator calculator construction lumber volume in board feet cubic metres & Board Foot board feet Όγκος Υπολογιστής κυβικά μέτρα ξυλείας σε",
+  "p": 109,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Ταπετσαρίας",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/wallpaper-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Ρολά για ρολά ΕΕ & ΗΠΑ, με πρόβλεψη για επανάληψη μοτίβου.",
+  "k": "Υπολογιστής Ταπετσαρίας wallpaper calculator wallpaper calculator wallpaper calculator calculator construction rolls for eu us rolls pattern repeat allowed for & ΕΕ ΗΠΑ Ρολά Ταπετσαρίας Υπολογιστής για επανάληψη με μοτίβου πρόβλεψη ρολά",
+  "p": 110,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Επιστρώματος",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/mulch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Σακιά & χύμα όγκος για παρτέρια και μπορντούρες.",
+  "k": "Υπολογιστής Επιστρώματος mulch calculator mulch calculator mulch calculator calculator construction bags bulk volume for beds and borders & Επιστρώματος Σακιά Υπολογιστής για και μπορντούρες παρτέρια χύμα όγκος",
+  "p": 111,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Ασφάλτου",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/asphalt-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Τόνοι & τόνοι ΗΠΑ από επιφάνεια και πάχος, πυκνότητα επεξεργάσιμη, εκτίμηση κόστους.",
+  "k": "Υπολογιστής Ασφάλτου asphalt calculator asphalt calculator asphalt calculator calculator construction tonnes us tons from area and thickness density editable cost estimate & Ασφάλτου ΗΠΑ Τόνοι Υπολογιστής από εκτίμηση επεξεργάσιμη επιφάνεια και κόστους πάχος πυκνότητα τόνοι",
+  "p": 112,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Μόνωσης",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/insulation-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Πλάκες, ρολά ή σακιά εμφύσησης για το R-value / RSI στόχο σας, οδηγός πάχους.",
+  "k": "Υπολογιστής Μόνωσης insulation calculator insulation calculator insulation calculator calculator construction batts rolls or blown in bags for your target r value rsi thickness guide R RSI value Μόνωσης Πλάκες Υπολογιστής ή για εμφύσησης οδηγός πάχους ρολά σακιά σας στόχο το",
+  "p": 113,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Περίφραξης",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/fence-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Στύλοι, ράγες, σανίδες και σακιά σκυροδέματος από το μήκος και την απόσταση του φράχτη.",
+  "k": "Υπολογιστής Περίφραξης fence calculator fence calculator fence calculator calculator construction posts rails pickets and concrete bags from fence length and spacing Περίφραξης Στύλοι Υπολογιστής από απόσταση και μήκος ράγες σακιά σανίδες σκυροδέματος την το του φράχτη",
+  "p": 114,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Καταστρώματος",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/deck-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Σανίδες καταστρώματος, δοκοί και βίδες από μέγεθος καταστρώματος, πλάτος σανίδας και απόσταση δοκών.",
+  "k": "Υπολογιστής Καταστρώματος deck calculator deck calculator deck calculator calculator construction deck boards joists and screws from deck size board width and joist spacing Καταστρώματος Σανίδες Υπολογιστής από απόσταση βίδες δοκοί δοκών και καταστρώματος μέγεθος πλάτος σανίδας",
+  "p": 115,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Όγκου Πισίνας",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/pool-volume-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Λίτρα & γαλόνια ΗΠΑ για ορθογώνιες, στρογγυλές και οβάλ πισίνες — έτοιμα για δοσολογία.",
+  "k": "Υπολογιστής Όγκου Πισίνας pool volume calculator pool volume calculator pool volume calculator calculator construction litres us gallons for rectangle round and oval pools dosing ready & Όγκου ΗΠΑ Λίτρα Πισίνας Υπολογιστής έτοιμα γαλόνια για δοσολογία και οβάλ ορθογώνιες πισίνες στρογγυλές",
+  "p": 116,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Ηλιακών Πάνελ",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/solar-panel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Πάνελ που χρειάζονται, kW συστήματος, αναμενόμενη παραγωγή και επιφάνεια στέγης από τον λογαριασμό σας.",
+  "k": "Υπολογιστής Ηλιακών Πάνελ solar panel calculator solar panel calculator solar panel calculator calculator construction panels needed system kw expected production and roof area from your bill kW Ηλιακών Πάνελ Υπολογιστής αναμενόμενη από επιφάνεια και λογαριασμό παραγωγή που σας στέγης συστήματος τον χρειάζονται",
+  "p": 117,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Μοκέτας",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/carpet-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Γραμμικό μήκος και πραγματική επιφάνεια αγοράς από μέγεθος δωματίου και πλάτος ρολού.",
+  "k": "Υπολογιστής Μοκέτας carpet calculator carpet calculator carpet calculator calculator construction linear length and true purchase area from room size and roll width Γραμμικό Μοκέτας Υπολογιστής αγοράς από δωματίου επιφάνεια και μέγεθος μήκος πλάτος πραγματική ρολού",
+  "p": 118,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Κόντρα Πλακέ",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/plywood-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Φύλλα κατά επιφάνεια και κατά διάταξη για φύλλα 2440×1220 mm και 4×8 ft.",
+  "k": "Υπολογιστής Κόντρα Πλακέ plywood calculator plywood calculator plywood calculator calculator construction sheets by area and by layout for 2440 1220 mm and 4 8 ft sheets 2440×1220 4×8 ft mm Κόντρα Πλακέ Υπολογιστής Φύλλα για διάταξη επιφάνεια και κατά φύλλα",
+  "p": 119,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Άμμου",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/sand-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Τόνοι και σακιά 25 kg για αμμοδόχους, βάσεις πλακόστρωσης και τσιμεντοκονίες.",
+  "k": "Υπολογιστής Άμμου sand calculator sand calculator sand calculator calculator construction tonnes and 25 kg bags for sandboxes paving bases and screeds 25 kg Άμμου Τόνοι Υπολογιστής αμμοδόχους βάσεις για και πλακόστρωσης σακιά τσιμεντοκονίες",
+  "p": 120,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Νόμου του Ohm",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/ohms-law-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Voltage, current, resistance & power from any two values — the full Ohm's law wheel.",
+  "k": "Υπολογιστής Νόμου του Ohm ohm s law calculator ohm s law calculator ohm s law calculator calculator construction voltage current resistance power from any two values the full ohm s law wheel & Ohm Voltage any current from full law power resistance s the two values wheel Νόμου Υπολογιστής του",
+  "p": 121,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Πτώσης Τάσης",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/voltage-drop-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Volts & % dropped over a cable run, mm² or AWG, single & three-phase.",
+  "k": "Υπολογιστής Πτώσης Τάσης voltage drop calculator voltage drop calculator voltage drop calculator calculator construction volts dropped over a cable run mm2 or awg single three phase % & AWG Volts a cable dropped mm² or over phase run single three Πτώσης Τάσης Υπολογιστής",
+  "p": 122,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Μεγέθους Σύρματος",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/wire-size-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Minimum cable size in mm² + standard size & AWG from your drop limit.",
+  "k": "Υπολογιστής Μεγέθους Σύρματος wire size calculator wire size calculator wire size calculator calculator construction minimum cable size in mm2 standard size awg from your drop limit & + AWG Minimum cable drop from in limit mm² size standard your Μεγέθους Σύρματος Υπολογιστής",
+  "p": 123,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Κόστους Ηλεκτρικής Ενέργειας",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/electricity-cost-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "What an appliance costs per day, month & year from watts & price per kWh.",
+  "k": "Υπολογιστής Κόστους Ηλεκτρικής Ενέργειας electricity cost calculator electricity cost calculator electricity cost calculator calculator construction what an appliance costs per day month year from watts price per kwh & What an appliance costs day from kWh month per price watts year Ενέργειας Ηλεκτρικής Κόστους Υπολογιστής",
+  "p": 124,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Amps σε Watts",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/amps-to-watts-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Watts & kW from amps and volts — DC, single-phase & three-phase with power factor.",
+  "k": "Υπολογιστής Amps σε Watts amps to watts calculator amps to watts calculator amps to watts calculator calculator construction watts kw from amps and volts dc single phase three phase with power factor & Amps DC Watts amps and factor from kW phase power single three volts with Υπολογιστής σε",
+  "p": 125,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Watt σε Αμπέρ",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/watts-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Amps from watts and volts for breaker & cable checks — DC, single & three-phase.",
+  "k": "Υπολογιστής Watt σε Αμπέρ watts to amps calculator watts to amps calculator watts to amps calculator calculator construction amps from watts and volts for breaker cable checks dc single three phase & Amps DC Watt and breaker cable checks for from phase single three volts watts Αμπέρ Υπολογιστής σε",
+  "p": 126,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής kVA σε Αμπέρ",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/kva-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Generator & transformer kVA to full-load amps, and amps back to kVA, single & three-phase.",
+  "k": "Υπολογιστής kVA σε Αμπέρ kva to amps calculator kva to amps calculator kva to amps calculator calculator construction generator transformer kva to full load amps and amps back to kva single three phase & Generator amps and back full kVA load phase single three to transformer Αμπέρ Υπολογιστής σε",
+  "p": 127,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Συντελεστή Ισχύος",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/power-factor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Power factor, kvar & phase angle from kW and kVA, plus correction capacitor size.",
+  "k": "Υπολογιστής Συντελεστή Ισχύος power factor calculator power factor calculator power factor calculator calculator construction power factor kvar phase angle from kw and kva plus correction capacitor size & Power and angle capacitor correction factor from kVA kW kvar phase plus size Ισχύος Συντελεστή Υπολογιστής",
+  "p": 128,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Χρόνου Λειτουργίας Μπαταρίας",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/battery-runtime-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "How long a battery runs a load — Ah, usable Wh, depth of discharge & inverter losses counted.",
+  "k": "Υπολογιστής Χρόνου Λειτουργίας Μπαταρίας battery runtime calculator battery runtime calculator battery runtime calculator calculator construction how long a battery runs a load ah usable wh depth of discharge inverter losses counted & Ah How Wh a battery counted depth discharge inverter load long losses of runs usable Λειτουργίας Μπαταρίας Υπολογιστής Χρόνου",
+  "p": 129,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Αντίστασης LED",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/led-resistor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Series resistor in ohms, nearest standard E12 value, actual current & wattage.",
+  "k": "Υπολογιστής Αντίστασης LED led resistor calculator led resistor calculator led resistor calculator calculator construction series resistor in ohms nearest standard e12 value actual current wattage & E12 LED Series actual current in nearest ohms resistor standard value wattage Αντίστασης Υπολογιστής",
+  "p": 130,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Τριφασικής Ισχύος",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/three-phase-power-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "kW, kVA & kvar from line voltage, line current & power factor for balanced loads.",
+  "k": "Υπολογιστής Τριφασικής Ισχύος three phase power calculator three phase power calculator three phase power calculator calculator construction kw kva kvar from line voltage line current power factor for balanced loads & balanced current factor for from kVA kW kvar line loads power voltage Ισχύος Τριφασικής Υπολογιστής",
+  "p": 131,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Ρεύματος Κινητήρα",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/motor-current-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Estimated full-load amps from motor kW or hp, efficiency & power factor.",
+  "k": "Υπολογιστής Ρεύματος Κινητήρα motor current calculator motor current calculator motor current calculator calculator construction estimated full load amps from motor kw or hp efficiency power factor & Estimated amps efficiency factor from full hp kW load motor or power Κινητήρα Ρεύματος Υπολογιστής",
+  "p": 132,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Κώδικα Χρωμάτων Αντίστασης",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/resistor-colour-code-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Read 4, 5 & 6-band resistor colours to ohms & tolerance — or turn a value back into bands.",
+  "k": "Υπολογιστής Κώδικα Χρωμάτων Αντίστασης resistor colour code calculator resistor colour code calculator resistor colour code calculator calculator construction read 4 5 6 band resistor colours to ohms tolerance or turn a value back into bands & 4 5 6 Read a back band bands colours into ohms or resistor to tolerance turn value Αντίστασης Κώδικα Υπολογιστής Χρωμάτων",
+  "p": 133,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Χρονοδιακόπτη 555",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/555-timer-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Astable frequency & duty cycle and monostable pulse width from R and C.",
+  "k": "Υπολογιστής Χρονοδιακόπτη 555 555 timer calculator 555 timer calculator 555 timer calculator calculator construction astable frequency duty cycle and monostable pulse width from r and c & 555 Astable C R and cycle duty frequency from monostable pulse width Υπολογιστής Χρονοδιακόπτη",
+  "p": 134,
+  "c": "Tool"
+ },
+ {
+  "n": "Μετατροπέας AWG",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/awg-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "AWG to mm, mm² and resistance per km for copper & aluminium — and back from mm² or diameter.",
+  "k": "Μετατροπέας AWG awg converter awg converter awg converter calculator construction awg to mm mm2 and resistance per km for copper aluminium and back from mm2 or diameter & AWG aluminium and back copper diameter for from km mm mm² or per resistance to Μετατροπέας",
+  "p": 135,
+  "c": "Tool"
+ },
+ {
+  "n": "Υπολογιστής Αντίδρασης",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/reactance-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Capacitive & inductive reactance in ohms, plus LC resonant frequency.",
+  "k": "Υπολογιστής Αντίδρασης reactance calculator reactance calculator reactance calculator calculator construction capacitive inductive reactance in ohms plus lc resonant frequency & Capacitive LC frequency in inductive ohms plus reactance resonant Αντίδρασης Υπολογιστής",
+  "p": 136,
+  "c": "Tool"
+ },
+ {
+  "n": "Μετατροπέας dB",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/el/db-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "Power & voltage ratios to decibels, dBm to milliwatts & watts and back.",
+  "k": "Μετατροπέας dB db converter db converter db converter calculator construction power voltage ratios to decibels dbm to milliwatts watts and back & Power and back dB dBm decibels milliwatts ratios to voltage watts Μετατροπέας",
+  "p": 137,
+  "c": "Tool"
+ }
+]

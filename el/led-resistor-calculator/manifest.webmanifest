@@ -1,0 +1,29 @@
+{
+  "name": "Loona LED Resistor Calculator",
+  "short_name": "LED Resistor Calculator",
+  "description": "Δωρεάν υπολογιστής αντίστασης LED: τάση τροφοδοσίας, τάση ορθής φοράς LED, ρεύμα ορθής φοράς και LED σε σειρά δίνουν την αντίσταση σε ohms, την πλησιέστερη τυπική τιμή E12, το πραγματικό ρεύμα και την ισχύ αντίστασης.",
+  "id": "/loona-construction-calculators/el/led-resistor-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
