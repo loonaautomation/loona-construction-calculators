@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 2500 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 2500 Sq",
+  "description": "Laatat 2500 sq ft alueelle 60×60 cm laatoilla ja 3 mm saumaväleillä: 703 laattaa (176 laatikkoa, 4 kpl) sisältäen 10% lisän leikkauksia ja rikkoutumisia varten.",
+  "id": "/loona-construction-calculators/fi/tiles-for-2500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

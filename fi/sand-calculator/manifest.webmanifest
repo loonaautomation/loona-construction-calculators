@@ -1,0 +1,29 @@
+{
+  "name": "Loona Sand Calculator",
+  "short_name": "Sand Calculator",
+  "description": "Ilmainen hiekkalaskuri: pinta-ala ja syvyys metrisenä tai tuumaisena antavat hiekan tilavuuden, painon tonneina ja US-tonneina sekä 25 kg säkkien määrän — tiheydellä ja hukkalisällä, hiekkalaatikoihin, päällystyspohjiin ja tasoitteisiin.",
+  "id": "/loona-construction-calculators/fi/sand-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

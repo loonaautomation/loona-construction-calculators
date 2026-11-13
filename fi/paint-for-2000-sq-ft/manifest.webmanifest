@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 2000 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 2000 Sq Ft",
+  "description": "Maali 2000 sq ft seinälle: 40.9 litraa (10.8 gal) 2 kerrokseen tyypillisellä 10 m²/L peittävyydellä, sekä 17.0 L pohjamaalia — oletukset ilmoitettu.",
+  "id": "/loona-construction-calculators/fi/paint-for-2000-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

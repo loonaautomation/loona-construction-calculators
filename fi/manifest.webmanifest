@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Ilmaiset rakentamislaskurit, jotka toimivat SEKÄ metrisissä ETTÄ tuumayksiköissä: maali, laatta, betoni, lattia, kipsilevy, tiili, sora, kattokaltevuus, portaat, lautajalka, tapetti, kate, asfaltti, eristys, aita, terassi, altaan tilavuus, aurinkopaneeli, matto, vaneri, hiekka, Ohmin laki, jännitehäviö, kaapelikoko, sähkökustannus, ampeerit wateiksi, watit ampeereiksi, kVA ampeereiksi, tehokerroin, akun käyttöaika, LED-etuvastus, kolmivaiheteho, moottorin virta, vastuksen värikoodi, 555-ajastin, AWG-muunnos, reaktanssi ja desibelimuunnos — hukkalisillä ja läpilasketuilla esimerkeillä.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/fi/"
+}
