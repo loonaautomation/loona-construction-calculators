@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Many Tiles for 300 Sq Ft? (60×60 cm)",
+  "short_name": "How Many Tiles for 300 Sq Ft?",
+  "description": "אריחים ל-300 sq ft עם אריחי 60×60 cm ומרווחי רובה של 3 mm: 85 אריחים (22 קופסאות של 4) כולל 10% נוספים לחיתוכים ושבירה.",
+  "id": "/loona-construction-calculators/he/tiles-for-300-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

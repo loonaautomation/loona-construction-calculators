@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "מחשבוני בנייה חינמיים שעובדים בשתי יחידות מטריות ואימפריאליות: צבע, אריחים, בטון, ריצוף, גבס, לבנים, חצץ, שיפוע גג, מדרגות, רגל לוח, טפטים, חיפוי קרקע, אספלט, בידוד, גדר, דק, נפח בריכה, פאנל סולארי, שטיחים, לביד, חול, חוק אוהם, מפל מתח, מידת כבל, עלות חשמל, אמפר לוואט, וואט לאמפר, kVA לאמפר, מקדם הספק, זמן פעולת סוללה, נגד LED, הספק תלת-פאזי, זרם מנוע, קוד צבעים של נגד, טיימר 555, המרת AWG, היגב והמרת דציבלים — עם תוספות פחת ודוגמאות פתורות.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/he/"
+}

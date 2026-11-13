@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in Pakistan",
+  "short_name": "Brick Size in Pakistan",
+  "description": "מידת לבנה סטנדרטית בפקיסטן: 228 × 107 × 69 mm. 53.2 לבנים ל-m² (4.94 לרגל רבועה) של קיר חד-שכבתי עם תפרי טיח של 10 mm, כיסוי ל-1,000 לבנים ודוגמת קיר פתורה.",
+  "id": "/loona-construction-calculators/he/brick-size-pakistan/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 500 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 500 Sq Ft",
+  "description": "צבע ל-500 sq ft של קיר: 10.2 ליטרים (2.7 gal) ל-2 שכבות בכיסוי טיפוסי של 10 m²/L, בתוספת 4.3 L צבע יסוד — עם ההנחות מצוינות.",
+  "id": "/loona-construction-calculators/he/paint-for-500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
