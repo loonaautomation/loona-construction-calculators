@@ -1,0 +1,29 @@
+{
+  "name": "Loona Motor Current Calculator",
+  "short_name": "Motor Current Calculator",
+  "description": "Bezplatná kalkulačka prúdu motora: výkon motora v kW alebo koňoch, napätie, jednofázové alebo trojfázové zapojenie, účinnosť a účinník dávajú odhadovaný prúd pri plnej záťaži — s čestnými výhradami o štítku a predpisoch.",
+  "id": "/loona-construction-calculators/sk/motor-current-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

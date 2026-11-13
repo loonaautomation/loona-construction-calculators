@@ -1,0 +1,29 @@
+{
+  "name": "Loona Board Foot Calculator",
+  "short_name": "Board Foot Calculator",
+  "description": "Bezplatná kalkulačka doskových stôp: hrúbka, šírka, dĺžka reziva a počet kusov v imperiálnych alebo metrických jednotkách — získajte celkové doskové stopy a kubické metre pre vašu objednávku dreva.",
+  "id": "/loona-construction-calculators/sk/board-foot-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

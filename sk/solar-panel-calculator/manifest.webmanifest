@@ -1,0 +1,29 @@
+{
+  "name": "Loona Solar Panel Calculator",
+  "short_name": "Solar Panel Calculator",
+  "description": "Bezplatná kalkulačka solárnych panelov: mesačná spotreba elektriny, špičkové slnečné hodiny a výkon panela vám dajú potrebné panely, veľkosť systému v kW, očakávanú mesačnú výrobu a plochu strechy — bez registrácie.",
+  "id": "/loona-construction-calculators/sk/solar-panel-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

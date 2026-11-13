@@ -1,0 +1,29 @@
+{
+  "name": "Loona Amps to Watts Calculator",
+  "short_name": "Amps to Watts Calculator",
+  "description": "Bezplatná kalkulačka ampérov na watty pre jednosmerné, jednofázové striedavé a trojfázové striedavé napájanie: prúd, napätie a účinník dávajú watty, kilowatty a kVA — so vzorcami a prepracovaným príkladom.",
+  "id": "/loona-construction-calculators/sk/amps-to-watts-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

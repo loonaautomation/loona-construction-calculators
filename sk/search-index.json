@@ -1,0 +1,344 @@
+[
+ {
+  "n": "Kalkulačka farby",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/paint-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Litre a galóny pre ľubovoľnú miestnosť, odpočítané dvere/okná, vrátane základnej farby.",
+  "k": "kalkulacka farby kalkulacka farby kalkulacka farby calculator construction litre a galony pre lubovolnu miestnost odpocitane dvere okna vratane zakladnej farby",
+  "p": 0,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka dlaždíc",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/tile-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Dlaždice a krabice na podlahy a steny, škára započítaná.",
+  "k": "kalkulacka dlazdic kalkulacka dlazdic kalkulacka dlazdic calculator construction dlazdice a krabice na podlahy a steny skara zapocitana",
+  "p": 1,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka betónu",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/concrete-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Objem dosky v m³ &amp; yd³ plus počet vriec hotovej zmesi.",
+  "k": "kalkulacka betonu kalkulacka betonu kalkulacka betonu calculator construction objem dosky v m3 amp yd3 plus pocet vriec hotovej zmesi",
+  "p": 2,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka podláh",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/flooring-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Krabice laminátu, vinylu a dreva s odpadom z rezania.",
+  "k": "kalkulacka podlah kalkulacka podlah kalkulacka podlah calculator construction krabice laminatu vinylu a dreva s odpadom z rezania",
+  "p": 3,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka sádrokartónu",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/drywall-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Sadrokartónové dosky na steny &amp; stropy.",
+  "k": "kalkulacka sadrokartonu kalkulacka sadrokartonu kalkulacka sadrokartonu calculator construction sadrokartonove dosky na steny amp stropy",
+  "p": 4,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka tehál",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/brick-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Počty tehál pre štandardné metrické &amp; americké veľkosti tehál.",
+  "k": "kalkulacka tehal kalkulacka tehal kalkulacka tehal calculator construction pocty tehal pre standardne metricke amp americke velkosti tehal",
+  "p": 5,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka štrku",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/gravel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tony a kubické yardy na príjazdy, chodníky a podklady.",
+  "k": "kalkulacka strku kalkulacka strku kalkulacka strku calculator construction tony a kubicke yardy na prijazdy chodniky a podklady",
+  "p": 106,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka sklonu strechy",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/roof-pitch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Pomer sklonu, uhol, stupeň a dĺžka krokvy.",
+  "k": "kalkulacka sklonu strechy kalkulacka sklonu strechy kalkulacka sklonu strechy calculator construction pomer sklonu uhol stupen a dlzka krokvy",
+  "p": 107,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka schodov",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/stairs-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Stupne, výška podstupnice, nástupnica, priemet a dĺžka schodnice.",
+  "k": "kalkulacka schodov kalkulacka schodov kalkulacka schodov calculator construction stupne vyska podstupnice nastupnica priemet a dlzka schodnice",
+  "p": 108,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka doskových stôp",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/board-foot-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Objem reziva v doskových stopách &amp; kubických metroch.",
+  "k": "kalkulacka doskovych stop kalkulacka doskovych stop kalkulacka doskovych stop calculator construction objem reziva v doskovych stopach amp kubickych metroch",
+  "p": 109,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka tapiet",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/wallpaper-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Rolky pre rolky EÚ a USA, povolené opakovanie vzoru.",
+  "k": "kalkulacka tapiet kalkulacka tapiet kalkulacka tapiet calculator construction rolky pre rolky eu a usa povolene opakovanie vzoru",
+  "p": 110,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka mulča",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/mulch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Vrecia a objem vo veľkom pre záhony a okraje.",
+  "k": "kalkulacka mulca kalkulacka mulca kalkulacka mulca calculator construction vrecia a objem vo velkom pre zahony a okraje",
+  "p": 111,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka asfaltu",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/asphalt-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tony a americké tony z plochy a hrúbky, hustota upraviteľná, odhad nákladov.",
+  "k": "kalkulacka asfaltu kalkulacka asfaltu kalkulacka asfaltu calculator construction tony a americke tony z plochy a hrubky hustota upravitelna odhad nakladov",
+  "p": 112,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka izolácie",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/insulation-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Dosky, rolky alebo fúkané vrecia pre vašu cieľovú hodnotu R / RSI, sprievodca hrúbkou.",
+  "k": "kalkulacka izolacie kalkulacka izolacie kalkulacka izolacie calculator construction dosky rolky alebo fukane vrecia pre vasu cielovu hodnotu r rsi sprievodca hrubkou",
+  "p": 113,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka plotu",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/fence-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Stĺpiky, vodidlá, latky a vrecia betónu z dĺžky plota a rozstupu.",
+  "k": "kalkulacka plotu kalkulacka plotu kalkulacka plotu calculator construction stlpiky vodidla latky a vrecia betonu z dlzky plota a rozstupu",
+  "p": 114,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka terasy",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/deck-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Dosky terasy, trámy a skrutky z veľkosti terasy, šírky dosky a rozstupu trámov.",
+  "k": "kalkulacka terasy kalkulacka terasy kalkulacka terasy calculator construction dosky terasy tramy a skrutky z velkosti terasy sirky dosky a rozstupu tramov",
+  "p": 115,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka objemu bazéna",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/pool-volume-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Litre a US galóny pre obdĺžnikové, okrúhle a oválne bazény — pripravené na dávkovanie.",
+  "k": "kalkulacka objemu bazena kalkulacka objemu bazena kalkulacka objemu bazena calculator construction litre a us galony pre obdlznikove okruhle a ovalne bazeny pripravene na davkovanie",
+  "p": 116,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka solárnych panelov",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/solar-panel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Potrebné panely, kW systému, očakávaná výroba a plocha strechy z vášho účtu.",
+  "k": "kalkulacka solarnych panelov kalkulacka solarnych panelov kalkulacka solarnych panelov calculator construction potrebne panely kw systemu ocakavana vyroba a plocha strechy z vasho uctu",
+  "p": 117,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka koberca",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/carpet-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Lineárna dĺžka a skutočná kúpna plocha z veľkosti miestnosti a šírky rolky.",
+  "k": "kalkulacka koberca kalkulacka koberca kalkulacka koberca calculator construction linearna dlzka a skutocna kupna plocha z velkosti miestnosti a sirky rolky",
+  "p": 118,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka preglejky",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/plywood-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Dosky podľa plochy a podľa rozloženia pre dosky 2440×1220 mm a 4×8 ft.",
+  "k": "kalkulacka preglejky kalkulacka preglejky kalkulacka preglejky calculator construction dosky podla plochy a podla rozlozenia pre dosky 2440 1220 mm a 4 8 ft",
+  "p": 119,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka piesku",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/sand-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Tony a 25 kg vrecia na pieskoviská, podklady dlažby a potery.",
+  "k": "kalkulacka piesku kalkulacka piesku kalkulacka piesku calculator construction tony a 25 kg vrecia na pieskoviska podklady dlazby a potery",
+  "p": 120,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka Ohmovho zákona",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/ohms-law-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Voltage, current, resistance & power from any two values — the full Ohm's law wheel.",
+  "k": "kalkulacka ohmovho zakona kalkulacka ohmovho zakona kalkulacka ohmovho zakona calculator construction voltage current resistance power from any two values the full ohm s law wheel",
+  "p": 121,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka úbytku napätia",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/voltage-drop-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Volts & % dropped over a cable run, mm² or AWG, single & three-phase.",
+  "k": "kalkulacka ubytku napatia kalkulacka ubytku napatia kalkulacka ubytku napatia calculator construction volts dropped over a cable run mm2 or awg single three phase",
+  "p": 122,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka prierezu vodiča",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/wire-size-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Minimum cable size in mm² + standard size & AWG from your drop limit.",
+  "k": "kalkulacka prierezu vodica kalkulacka prierezu vodica kalkulacka prierezu vodica calculator construction minimum cable size in mm2 standard size awg from your drop limit",
+  "p": 123,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka nákladov na elektrinu",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/electricity-cost-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "What an appliance costs per day, month & year from watts & price per kWh.",
+  "k": "kalkulacka nakladov na elektrinu kalkulacka nakladov na elektrinu kalkulacka nakladov na elektrinu calculator construction what an appliance costs per day month year from watts price per kwh",
+  "p": 124,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka ampérov na watty",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/amps-to-watts-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Watts & kW from amps and volts — DC, single-phase & three-phase with power factor.",
+  "k": "kalkulacka amperov na watty kalkulacka amperov na watty kalkulacka amperov na watty calculator construction watts kw from amps and volts dc single phase three phase with power factor",
+  "p": 125,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka wattov na ampére",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/watts-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Amps from watts and volts for breaker & cable checks — DC, single & three-phase.",
+  "k": "kalkulacka wattov na ampere kalkulacka wattov na ampere kalkulacka wattov na ampere calculator construction amps from watts and volts for breaker cable checks dc single three phase",
+  "p": 126,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka kVA na ampére",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/kva-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Generator & transformer kVA to full-load amps, and amps back to kVA, single & three-phase.",
+  "k": "kalkulacka kva na ampere kalkulacka kva na ampere kalkulacka kva na ampere calculator construction generator transformer kva to full load amps and amps back to kva single three phase",
+  "p": 127,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka účinníka",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/power-factor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Power factor, kvar & phase angle from kW and kVA, plus correction capacitor size.",
+  "k": "kalkulacka ucinnika kalkulacka ucinnika kalkulacka ucinnika calculator construction power factor kvar phase angle from kw and kva plus correction capacitor size",
+  "p": 128,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka výdrže batérie",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/battery-runtime-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "How long a battery runs a load — Ah, usable Wh, depth of discharge & inverter losses counted.",
+  "k": "kalkulacka vydrze baterie kalkulacka vydrze baterie kalkulacka vydrze baterie calculator construction how long a battery runs a load ah usable wh depth of discharge inverter losses counted",
+  "p": 129,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka rezistora pre LED",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/led-resistor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Series resistor in ohms, nearest standard E12 value, actual current & wattage.",
+  "k": "kalkulacka rezistora pre led kalkulacka rezistora pre led kalkulacka rezistora pre led calculator construction series resistor in ohms nearest standard e12 value actual current wattage",
+  "p": 130,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka trojfázového výkonu",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/three-phase-power-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "kW, kVA & kvar from line voltage, line current & power factor for balanced loads.",
+  "k": "kalkulacka trojfazoveho vykonu kalkulacka trojfazoveho vykonu kalkulacka trojfazoveho vykonu calculator construction kw kva kvar from line voltage line current power factor for balanced loads",
+  "p": 131,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka prúdu motora",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/motor-current-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Estimated full-load amps from motor kW or hp, efficiency & power factor.",
+  "k": "kalkulacka prudu motora kalkulacka prudu motora kalkulacka prudu motora calculator construction estimated full load amps from motor kw or hp efficiency power factor",
+  "p": 132,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka farebného kódu rezistora",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/resistor-colour-code-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Read 4, 5 & 6-band resistor colours to ohms & tolerance — or turn a value back into bands.",
+  "k": "kalkulacka farebneho kodu rezistora kalkulacka farebneho kodu rezistora kalkulacka farebneho kodu rezistora calculator construction read 4 5 6 band resistor colours to ohms tolerance or turn a value back into bands",
+  "p": 133,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka časovača 555",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/555-timer-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Astable frequency & duty cycle and monostable pulse width from R and C.",
+  "k": "kalkulacka casovaca 555 kalkulacka casovaca 555 kalkulacka casovaca 555 calculator construction astable frequency duty cycle and monostable pulse width from r and c",
+  "p": 134,
+  "c": "Tool"
+ },
+ {
+  "n": "Prevodník AWG",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/awg-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "AWG to mm, mm² and resistance per km for copper & aluminium — and back from mm² or diameter.",
+  "k": "prevodnik awg prevodnik awg prevodnik awg calculator construction awg to mm mm2 and resistance per km for copper aluminium and back from mm2 or diameter",
+  "p": 135,
+  "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka reaktancie",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/reactance-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Capacitive & inductive reactance in ohms, plus LC resonant frequency.",
+  "k": "kalkulacka reaktancie kalkulacka reaktancie kalkulacka reaktancie calculator construction capacitive inductive reactance in ohms plus lc resonant frequency",
+  "p": 136,
+  "c": "Tool"
+ },
+ {
+  "n": "Prevodník dB",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/db-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "Power & voltage ratios to decibels, dBm to milliwatts & watts and back.",
+  "k": "prevodnik db prevodnik db prevodnik db calculator construction power voltage ratios to decibels dbm to milliwatts watts and back",
+  "p": 137,
+  "c": "Tool"
+ }
+]

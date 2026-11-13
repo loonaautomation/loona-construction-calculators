@@ -1,0 +1,29 @@
+{
+  "name": "Loona Resistor Colour Code Calculator",
+  "short_name": "Resistor Colour Code",
+  "description": "Bezplatná kalkulačka farebného kódu rezistora: vyberte farby pásikov na 4-pásikovom, 5-pásikovom alebo 6-pásikovom rezistore a získajte odpor, toleranciu a teplotný koeficient — alebo naopak, hodnotu na pásiky.",
+  "id": "/loona-construction-calculators/sk/resistor-colour-code-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

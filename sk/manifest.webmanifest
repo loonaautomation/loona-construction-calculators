@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Bezplatné stavebné kalkulačky, ktoré fungujú v metrických AJ imperiálnych jednotkách: farba, dlaždice, betón, podlahy, sádrokartón, tehla, štrk, sklon strechy, schody, dosková stopa, tapety, mulč, asfalt, izolácia, plot, terasa, objem bazéna, solárny panel, koberec, preglejka, piesok, Ohmov zákon, úbytok napätia, veľkosť vodiča, náklady na elektrinu, ampére na watty, watty na ampére, kVA na ampére, účinník, výdrž batérie, rezistor pre LED, trojfázový výkon, prúd motora, farebný kód rezistora, časovač 555, prevod AWG, reaktancia a prevod decibelov — s rezervami na odpad a prepracovanými príkladmi.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/sk/"
+}

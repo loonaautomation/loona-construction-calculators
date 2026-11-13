@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalkulačka prierezu vodiča — minimálny rozmer kábla v mm² a AWG z úbytku napätia | Loona Construction Calculators</title>
+<meta name="description" content="Bezplatná kalkulačka veľkosti vodiča: prúd, jednosmerná dĺžka, povolený % úbytok napätia, napätie, meď alebo hliník, jednofázové alebo trojfázové zapojenie — minimálna veľkosť kábla v mm², najbližšia štandardná veľkosť a ekvivalent AWG.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-construction-calculators/sk/wire-size-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-construction-calculators/wire-size-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-construction-calculators/es/wire-size-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-construction-calculators/de/wire-size-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-construction-calculators/fr/wire-size-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt/wire-size-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-construction-calculators/it/wire-size-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-construction-calculators/nl/wire-size-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-construction-calculators/ar/wire-size-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-construction-calculators/ur/wire-size-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-construction-calculators/tr/wire-size-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-construction-calculators/ru/wire-size-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-construction-calculators/id/wire-size-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-construction-calculators/hi/wire-size-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-construction-calculators/ja/wire-size-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-construction-calculators/ko/wire-size-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-construction-calculators/pl/wire-size-calculator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-construction-calculators/vi/wire-size-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-construction-calculators/zh/wire-size-calculator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-construction-calculators/bn/wire-size-calculator/"><link rel="alternate" hreflang="th" href="https://loonaautomation.github.io/loona-construction-calculators/th/wire-size-calculator/"><link rel="alternate" hreflang="ms" href="https://loonaautomation.github.io/loona-construction-calculators/ms/wire-size-calculator/"><link rel="alternate" hreflang="ro" href="https://loonaautomation.github.io/loona-construction-calculators/ro/wire-size-calculator/"><link rel="alternate" hreflang="cs" href="https://loonaautomation.github.io/loona-construction-calculators/cs/wire-size-calculator/"><link rel="alternate" hreflang="sv" href="https://loonaautomation.github.io/loona-construction-calculators/sv/wire-size-calculator/"><link rel="alternate" hreflang="nb" href="https://loonaautomation.github.io/loona-construction-calculators/nb/wire-size-calculator/"><link rel="alternate" hreflang="en-us" href="https://loonaautomation.github.io/loona-construction-calculators/en-us/wire-size-calculator/"><link rel="alternate" hreflang="en-gb" href="https://loonaautomation.github.io/loona-construction-calculators/en-gb/wire-size-calculator/"><link rel="alternate" hreflang="zh-hant" href="https://loonaautomation.github.io/loona-construction-calculators/zh-hant/wire-size-calculator/"><link rel="alternate" hreflang="pt-br" href="https://loonaautomation.github.io/loona-construction-calculators/pt-br/wire-size-calculator/"><link rel="alternate" hreflang="pt-pt" href="https://loonaautomation.github.io/loona-construction-calculators/pt-pt/wire-size-calculator/"><link rel="alternate" hreflang="da" href="https://loonaautomation.github.io/loona-construction-calculators/da/wire-size-calculator/"><link rel="alternate" hreflang="he" href="https://loonaautomation.github.io/loona-construction-calculators/he/wire-size-calculator/"><link rel="alternate" hreflang="sw" href="https://loonaautomation.github.io/loona-construction-calculators/sw/wire-size-calculator/"><link rel="alternate" hreflang="uk" href="https://loonaautomation.github.io/loona-construction-calculators/uk/wire-size-calculator/"><link rel="alternate" hreflang="hu" href="https://loonaautomation.github.io/loona-construction-calculators/hu/wire-size-calculator/"><link rel="alternate" hreflang="hr" href="https://loonaautomation.github.io/loona-construction-calculators/hr/wire-size-calculator/"><link rel="alternate" hreflang="sk" href="https://loonaautomation.github.io/loona-construction-calculators/sk/wire-size-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-construction-calculators/wire-size-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kalkulačka prierezu vodiča — minimálny rozmer kábla v mm² a AWG z úbytku napätia | Loona Construction Calculators">
+<meta property="og:description" content="Bezplatná kalkulačka veľkosti vodiča: prúd, jednosmerná dĺžka, povolený % úbytok napätia, napätie, meď alebo hliník, jednofázové alebo trojfázové zapojenie — minimálna veľkosť kábla v mm², najbližšia štandardná veľkosť a ekvivalent AWG.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-construction-calculators/sk/wire-size-calculator/"><meta property="og:locale" content="sk_SK">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kalkulačka prierezu vodiča — minimálny rozmer kábla v mm² a AWG z úbytku napätia | Loona Construction Calculators">
+<meta name="twitter:description" content="Bezplatná kalkulačka veľkosti vodiča: prúd, jednosmerná dĺžka, povolený % úbytok napätia, napätie, meď alebo hliník, jednofázové alebo trojfázové zapojenie — minimálna veľkosť kábla v mm², najbližšia štandardná veľkosť a ekvivalent AWG.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-construction-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona kalkulačka veľkosti vodiča","url":"https://loonaautomation.github.io/loona-construction-calculators/sk/wire-size-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Prečo sa odpoveď zaokrúhľuje nahor na štandardný rozmer?","acceptedAnswer":{"@type":"Answer","text":"Kábel sa vyrába v štandardných prierezoch. Zaokrúhlenie nadol na veľkosť pod vypočítaným minimom by prekročilo váš limit úbytku, takže kalkulačka vždy zaokrúhľuje nahor — a pole s výsledkom ukazuje (nižší) úbytok, ktorý štandardná veľkosť skutočne dáva."}},{"@type":"Question","name":"Kontroluje táto kalkulačka, či kábel prúd unesie?","acceptedAnswer":{"@type":"Answer","text":"Nie — a na tom záleží. Tento nástroj rieši len polovicu dimenzovania kábla týkajúcu sa úbytku napätia. Ampacita (bezpečná prúdová zaťažiteľnosť) závisí od toho, ako je kábel nainštalovaný — vo voľnom vzduchu, v rúrke, v izolácii alebo pod zemou — a od teploty a zoskupenia. Veľkosť skontrolujte podľa tabuliek ampacity vašich miestnych predpisov, alebo sa opýtajte elektrikára, a použite väčšiu z oboch veľkostí."}},{"@type":"Question","name":"Prečo hliník potrebuje hrubší kábel než meď?","acceptedAnswer":{"@type":"Answer","text":"Rezistivita hliníka je približne 1.58× vyššia ako rezistivita medi, takže pri rovnakom limite úbytku potrebuje približne o 58% väčší prierez — v praxi o jeden alebo dva štandardné stupne viac. Hliník tiež potrebuje vhodné zakončenia; pri jeho používaní dodržiavajte miestne predpisy."}},{"@type":"Question","name":"Je ekvivalent AWG presný?","acceptedAnswer":{"@type":"Answer","text":"Nie. Veľkosti AWG (…3.31 mm² pre 12 AWG, 5.26 mm² pre 10 AWG…) sa nezhodujú s metrickými štandardnými veľkosťami, takže uvedený údaj je najbližší bežný stupeň. Ak kupujete podľa AWG a ekvivalent sedí medzi stupňami, vyberte hrubší stupeň (s nižším číslom)."}},{"@type":"Question","name":"Aké percento úbytku mám povoliť?","acceptedAnswer":{"@type":"Answer","text":"Bežné pokyny (informatívna príloha IEC 60364-5-52 a národné pravidlá na nej založené) sú približne 3% pre osvetlenie a 5% pre ostatné použitia, od začiatku inštalácie. Ak časť tohto rozpočtu už spotreboval predradený úsek, povoľte pre tento úsek len to, čo zostáva."}},{"@type":"Question","name":"Výsledok hovorí väčší než 240 mm² — čo potom?","acceptedAnswer":{"@type":"Answer","text":"Veľmi dlhé alebo ťažké trasy sa zvyčajne riešia paralelnými káblami, vyšším napájacím napätím alebo presunutím zdroja bližšie k záťaži. To je územie špecializovaného návrhu — privolajte kvalifikovaného elektrikára alebo elektrotechnického inžiniera."}}]}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Construction Calculators",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/sk/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kalkulačka prierezu vodiča",
+      "item": "https://loonaautomation.github.io/loona-construction-calculators/sk/wire-size-calculator/"
+    }
+  ]
+}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo Loona Automation">
+<div class="brand">Loona <span>Stavebné kalkulačky</span></div>
+<nav>
+<a href="../">Domov</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">O nás</a>
+<a href="../contact.html">Kontakt</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Construction Calculators</a> &rsaquo; Elektroinštalácie &rsaquo; Kalkulačka prierezu vodiča</div>
+<h1 class="pagetitle">🧵 Kalkulačka prierezu vodiča</h1>
+<p class="lead">Povedzte tejto kalkulačke prúd, dĺžku trasy v jednom smere, napájacie napätie a úbytok napätia, ktorý môžete pripustiť, a ona vypočíta minimálny prierez kábla — potom ho zaokrúhli nahor na najbližší štandardný rozmer v mm² s jeho ekvivalentom AWG.</p>
+<div class="toolbox"><form class="calcform" onsubmit="return false">
+<div class="fld"><label for="f_system">Systém jednotiek</label><select id="f_system"><option value="m">Metrické (metre, mm&sup2;)</option><option value="i">Imperiálne (stopy, AWG)</option></select></div><div class="fld"><label for="f_length">Jednosmerná dĺžka kábla <span class="u" data-u="length"></span></label><input type="number" id="f_length" step="any" data-m="20" data-i="66" value="20"></div><div class="fld"><label for="f_current">Prúd záťaže (ampére)</label><input type="number" id="f_current" step="any" value="16"></div><div class="fld"><label for="f_volts">Napájacie napätie (volty)</label><input type="number" id="f_volts" step="any" value="230"></div><div class="fld"><label for="f_pct">Povolený úbytok napätia (%)</label><input type="number" id="f_pct" step="any" value="3"></div><div class="fld"><label for="f_material">Materiál vodiča</label><select id="f_material"><option value="cu" selected>Meď (&rho; = 1.68 &times; 10&#8315;&#8312; &Omega;&middot;m)</option><option value="al">Hliník (&rho; = 2.65 &times; 10&#8315;&#8312; &Omega;&middot;m)</option></select></div><div class="fld"><label for="f_phase">Typ napájania</label><select id="f_phase"><option value="1" selected>Jednofázové (2-vodičový rozvod)</option><option value="3">Trojfázové (vyvážené)</option></select></div>
+<button type="button" class="calcbtn" id="calcBtn">Vypočítať</button>
+<div class="calcresult" id="result" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Ako používať kalkulačku veľkosti vodiča</h2><ol><li>Zadajte prúd, ktorý záťaž odoberá, a jednosmernú vzdialenosť od zdroja k záťaži.</li><li>Zadajte napájacie napätie a úbytok, ktorý môžete povoliť — 3% je bežný návod pre osvetlenie, 5% pre ostatné obvody.</li><li>Vyberte meď alebo hliník a jednofázové alebo trojfázové zapojenie a potom stlačte Vypočítať pre minimum a najbližšiu štandardnú veľkosť.</li></ol>
+<div class="exbox"><strong>Príklad:</strong> 16 A na 20 m medi pri 230 V s povolenými 3%: minimum je <strong>1.56 mm²</strong>, takže najbližšia štandardná veľkosť je <strong>2.5 mm²</strong> (≈ 14 AWG).</div>
+<h2>Často kladené otázky</h2></section><div class="faq"><h3>Prečo sa odpoveď zaokrúhľuje nahor na štandardný rozmer?</h3><p>Kábel sa vyrába v štandardných prierezoch. Zaokrúhlenie nadol na veľkosť pod vypočítaným minimom by prekročilo váš limit úbytku, takže kalkulačka vždy zaokrúhľuje nahor — a pole s výsledkom ukazuje (nižší) úbytok, ktorý štandardná veľkosť skutočne dáva.</p></div><div class="faq"><h3>Kontroluje táto kalkulačka, či kábel prúd unesie?</h3><p>Nie — a na tom záleží. Tento nástroj rieši len polovicu dimenzovania kábla týkajúcu sa úbytku napätia. Ampacita (bezpečná prúdová zaťažiteľnosť) závisí od toho, ako je kábel nainštalovaný — vo voľnom vzduchu, v rúrke, v izolácii alebo pod zemou — a od teploty a zoskupenia. Veľkosť skontrolujte podľa tabuliek ampacity vašich miestnych predpisov, alebo sa opýtajte elektrikára, a použite väčšiu z oboch veľkostí.</p></div><div class="faq"><h3>Prečo hliník potrebuje hrubší kábel než meď?</h3><p>Rezistivita hliníka je približne 1.58× vyššia ako rezistivita medi, takže pri rovnakom limite úbytku potrebuje približne o 58% väčší prierez — v praxi o jeden alebo dva štandardné stupne viac. Hliník tiež potrebuje vhodné zakončenia; pri jeho používaní dodržiavajte miestne predpisy.</p></div>
+<h2 class="sec">Súvisiace kalkulačky</h2><div class="grid"><a class="card" href="../voltage-drop-calculator/"><div class="ic">📉</div><h3>Kalkulačka úbytku napätia</h3><p>Elektroinštalácie</p></a><a class="card" href="../ohms-law-calculator/"><div class="ic">⚡</div><h3>Kalkulačka Ohmovho zákona</h3><p>Elektroinštalácie</p></a><a class="card" href="../electricity-cost-calculator/"><div class="ic">💷</div><h3>Kalkulačka nákladov na elektrinu</h3><p>Elektroinštalácie</p></a><a class="card" href="../solar-panel-calculator/"><div class="ic">☀️</div><h3>Kalkulačka solárnych panelov</h3><p>Elektroinštalácie</p></a></div>
+</div>
+<section class="txt"><h2>Ako to funguje &mdash; vzorec</h2>
+<p><strong>Povolený úbytok (V)</strong> = Napájacie napätie × Povolené % ÷ 100<br>
+<strong>Jednofázové zapojenie:</strong> A = 2 × I × ρ × L ÷ Povolený úbytok<br>
+<strong>Trojfázové:</strong> A = √3 × I × ρ × L ÷ Povolený úbytok</p>
+<p>s ρ = 0.0168 Ω·mm²/m pre meď (1.68 × 10<sup>−8</sup> Ω·m) a 0.0265 Ω·mm²/m pre hliník (2.65 × 10<sup>−8</sup> Ω·m), L je dĺžka v jednom smere v metroch a A je prierez v mm². Surové minimum sa potom zaokrúhli <em>nahor</em> na najbližší štandardný rozmer (1.5, 2.5, 4, 6, 10, 16, 25, 35, 50, 70, 95, 120, 150, 185, 240 mm²) a údaj AWG je najbližšie bežné americké meradlo k tomu štandardnému rozmeru — približne, pretože kroky oboch systémov sa presne nezhodujú.</p>
+<h3>Vypracovaný príklad</h3>
+<div class="exbox">Meď, jednofázové zapojenie, I = 16 A, L = 20 m, 230 V, povolené 3%. Povolený úbytok = 230 × 0.03 = <strong>6.9 V</strong>. A = 2 × 16 × 0.0168 × 20 ÷ 6.9 = 10.752 ÷ 6.9 = <strong>1.56 mm²</strong>. Najbližšia štandardná veľkosť rovná alebo väčšia ako 1.56 mm² je <strong>2.5 mm²</strong> (≈ 14 AWG), ktorý v skutočnosti spôsobí úbytok len 2 × 16 × 0.0168 × 20 ÷ 2.5 = 4.30 V (1.87%).</div>
+<div class="resnote" style="font-size:14px;color:#5a6b68;background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin:12px 0"><strong>Bezpečnostné upozornenie:</strong> táto kalkulačka dimenzuje kábel pre <em>len úbytok napätia</em>. Nekontroluje prúdovú zaťažiteľnosť (ampacitu), ktorá závisí od spôsobu inštalácie, zoskupenia, izolácie a teploty, ani koordináciu ochranných prístrojov či uzemnenie. Tieto kontroly vychádzajú z tabuliek vašich miestnych predpisov pre elektroinštalácie a z posúdenia kvalifikovaného elektrikára — nikdy neinštalujte kábel len na základe výsledku úbytku napätia a keď sa obe kontroly líšia, vždy použite väčší rozmer.</div>
+<h3>Často kladené otázky</h3></section>
+<div class="faq"><h3>Je ekvivalent AWG presný?</h3><p>Nie. Veľkosti AWG (…3.31 mm² pre 12 AWG, 5.26 mm² pre 10 AWG…) sa nezhodujú s metrickými štandardnými veľkosťami, takže uvedený údaj je najbližší bežný stupeň. Ak kupujete podľa AWG a ekvivalent sedí medzi stupňami, vyberte hrubší stupeň (s nižším číslom).</p></div><div class="faq"><h3>Aké percento úbytku mám povoliť?</h3><p>Bežné pokyny (informatívna príloha IEC 60364-5-52 a národné pravidlá na nej založené) sú približne 3% pre osvetlenie a 5% pre ostatné použitia, od začiatku inštalácie. Ak časť tohto rozpočtu už spotreboval predradený úsek, povoľte pre tento úsek len to, čo zostáva.</p></div><div class="faq"><h3>Výsledok hovorí väčší než 240 mm² — čo potom?</h3><p>Veľmi dlhé alebo ťažké trasy sa zvyčajne riešia paralelnými káblami, vyšším napájacím napätím alebo presunutím zdroja bližšie k záťaži. To je územie špecializovaného návrhu — privolajte kvalifikovaného elektrikára alebo elektrotechnického inžiniera.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Vložte túto kalkulačku na svoju webovú stránku — zadarmo</h2>
+<p style="margin:0 0 12px;line-height:1.6">Pridajte túto kalkulačku na svoju vlastnú webovú stránku alebo blog — je úplne zadarmo, nevyžaduje registráciu a vždy zobrazuje najnovšiu verziu. Skopírujte kód nižšie a vložte ho do svojej stránky tam, kde chcete, aby sa kalkulačka zobrazila. Ponechanie malého riadku s kreditom &ldquo;Powered by Loona Automation&rdquo; pod vloženým prvkom pomáha udržať tento nástroj zadarmo &mdash; ale môžete ho upraviť alebo odstrániť; nástroj funguje tak či tak.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-construction-calculators/sk/wire-size-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Wire Size Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Poskytuje &lt;a href="https://loonaautomation.github.io/loona-construction-calculators/sk/wire-size-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; zadarmo Kalkulačka prierezu vodiča&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Kopírovať kód na vloženie</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Skopírované!';setTimeout(function(){b.textContent='Kopírovať kód na vloženie';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Obľúbené kalkulačky</h4><ul><li><a href="../paint-calculator/">Kalkulačka farby</a></li>
+<li><a href="../concrete-calculator/">Kalkulačka betónu</a></li>
+<li><a href="../tile-calculator/">Kalkulačka dlaždíc</a></li>
+<li><a href="../brick-calculator/">Kalkulačka tehál</a></li>
+<li><a href="../roof-pitch-calculator/">Kalkulačka sklonu strechy</a></li>
+<li><a href="../stairs-calculator/">Kalkulačka schodov</a></li></ul></div>
+<div><h4>Viac nástrojov Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-calculators/">Loona Calculators</a></li>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/">Všetky nástroje Loona</a></li></ul></div>
+<div><h4>Loona Construction Calculators</h4><ul>
+<li><a href="../about.html">O nás</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Zásady ochrany osobných údajov</a></li>
+<li><a href="../terms.html">Podmienky používania</a></li></ul></div>
+</div>
+<div class="bar">&copy; 2026 Loona Construction Calculators &mdash; projekt <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Bezplatné stavebné kalkulačky v metrických a imperiálnych jednotkách, bez registrácie.
+Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+/* LOONA-TOOL-SCRIPT */
+function gv(id) { var el = document.getElementById(id); return el ? parseFloat(el.value) : NaN; }
+function gs(id) { var el = document.getElementById(id); return el ? el.value : ""; }
+function gb(id) { var el = document.getElementById(id); return el ? el.checked : false; }
+var FT = 0.3048, IN = 0.0254, FT2 = 0.09290304, GAL = 3.785411784, YD3 = 0.764554858, TON = 1.10231131;
+function fmt(x, d) { if (d === undefined) d = 2; return Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function resTable(bigLabel, bigVal, rows, note) {
+  var h = '<div class="resbig"><span>' + bigLabel + '</span><strong>' + bigVal + "</strong></div>";
+  h += '<table class="restbl">' + rows.map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</table>";
+  if (note) h += '<div class="resnote">' + note + "</div>";
+  return h;
+}
+function bad(msg) { return { ok: false, error: msg }; }
+function pos() { for (var i = 0; i < arguments.length; i++) { if (!(arguments[i] > 0)) return false; } return true; }
+
+
+var RHO2 = { cu: 0.0168, al: 0.0265 };
+var STD = [1.5, 2.5, 4, 6, 10, 16, 25, 35, 50, 70, 95, 120, 150, 185, 240];
+var STD_AWG = { "1.5": "16 AWG (approx.)", "2.5": "14 AWG (approx.)", "4": "12 AWG (approx.)", "6": "10 AWG (approx.)", "10": "8 AWG (approx.)", "16": "6 AWG (approx.)", "25": "4 AWG (approx.)", "35": "2 AWG (approx.)", "50": "1/0 AWG (approx.)", "70": "2/0 AWG (approx.)", "95": "3/0 AWG (approx.)", "120": "4/0 AWG (approx.)", "150": "300 kcmil (approx.)", "185": "350 kcmil (approx.)", "240": "500 kcmil (approx.)" };
+var LOONA_TOOL = { run: function (v) {
+  if (!pos(v.length, v.current, v.volts, v.pct)) return bad("Zadajte prosím dĺžku v jednom smere, prúd, napájacie napätie a povolený úbytok napätia % (všetko nad nulou).");
+  var L = v.length * ((v.sys === "i") ? FT : 1);
+  var rho = RHO2[v.material] || RHO2.cu;
+  var k = (v.phase === "3") ? Math.sqrt(3) : 2;
+  var allowed = v.volts * v.pct / 100;
+  var Areq = k * v.current * rho * L / allowed;
+  var std = null;
+  for (var i = 0; i < STD.length; i++) { if (STD[i] >= Areq - 1e-9) { std = STD[i]; break; } }
+  var stdTxt = std ? (fmt(std, 1) + " mm\u00B2") : "väčší než 240 mm\u00B2 (použite paralelné trasy / špecializovaný návrh)";
+  var awgTxt = std ? (STD_AWG[String(std)] || "") : "";
+  var actualDrop = std ? (k * v.current * rho * L / std) : NaN;
+  var rows = [["Minimálny prierez pre limit úbytku", fmt(Areq, 2) + " mm\u00B2"],["Najbližší štandardný rozmer rovný alebo vyšší", stdTxt]];
+  if (std) { rows.push(["Ekvivalent AWG (najbližšie bežné meradlo)", awgTxt]); rows.push(["Skutočný úbytok so štandardným rozmerom", fmt(actualDrop, 2) + " V (" + fmt(actualDrop / v.volts * 100, 2) + "%)"]); }
+  rows.push(["Povolený úbytok", fmt(allowed, 2) + " V (" + fmt(v.pct, 1) + "% of " + fmt(v.volts, 0) + " V)"]);
+  var html = resTable("Odporúčaný rozmer kábla (pre úbytok napätia)", stdTxt + (awgTxt ? " \u2014 " + awgTxt : ""), rows,
+    "DÔLEŽITÉ: tento výsledok spĺňa len cieľ úbytku napätia. Kábel musí byť TIEŽ dimenzovaný na bezpečné vedenie prúdu (prúdová zaťažiteľnosť) a toto dimenzovanie závisí od spôsobu inštalácie \u2014 uloženie priamo, v rúrke, zakopané, vo zväzku s inými káblami, typ izolácie a teplota okolia ho všetko menia. Zvolený rozmer vždy skontrolujte podľa tabuliek zaťažiteľnosti vašich miestnych elektroinštalačných predpisov a inštalačné práce si nechajte vykonať alebo certifikovať kvalifikovaným elektrikárom. Keď sa rozmer odvodený od úbytku a rozmer odvodený od zaťažiteľnosti líšia, použite VÄČŠÍ z oboch.");
+  return { ok: true, Areq: Areq, std: std, awg: awgTxt, actualDrop: actualDrop, L: L, html: html };
+} };
+
+function collect(){ return { sys: gs("f_system"), length: gv("f_length"), current: gv("f_current"), volts: gv("f_volts"), pct: gv("f_pct"), material: gs("f_material"), phase: gs("f_phase") }; }
+
+if (typeof document !== "undefined") {
+  var UNITS = {"length":["m","ft"]};
+  function cur() { var s = document.getElementById("f_system"); return s ? s.value : "m"; }
+  function applySystem() {
+    var sys = cur();
+    document.querySelectorAll("input[data-m]").forEach(function (el) { el.value = (sys === "m") ? el.dataset.m : el.dataset.i; });
+    document.querySelectorAll(".u[data-u]").forEach(function (el) { var u = UNITS[el.dataset.u]; if (u) el.textContent = "(" + (sys === "m" ? u[0] : u[1]) + ")"; });
+    document.querySelectorAll("[data-vis]").forEach(function (el) { el.style.display = (el.dataset.vis === sys) ? "" : "none"; });
+  }
+  var sysEl = document.getElementById("f_system");
+  if (sysEl) sysEl.addEventListener("change", applySystem);
+  applySystem();
+  var btn = document.getElementById("calcBtn");
+  if (btn) btn.addEventListener("click", function () {
+    var out = document.getElementById("result");
+    var r = LOONA_TOOL.run(collect());
+    if (!r.ok) { out.innerHTML = '<div class="err">' + r.error + "</div>"; out.style.display = "block"; return; }
+    out.innerHTML = r.html; out.style.display = "block";
+  });
+}
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Inštalovať aplikáciu';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Nainštalujte si túto aplikáciu: ťuknite na tlačidlo Zdieľať a potom vyberte „Pridať na domovskú obrazovku“.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

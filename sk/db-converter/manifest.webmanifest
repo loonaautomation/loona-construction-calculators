@@ -1,0 +1,29 @@
+{
+  "name": "Loona dB Converter",
+  "short_name": "dB Converter",
+  "description": "Bezplatný prevodník decibelov: pomery výkonu a pomery napätia na dB s vašou vlastnou referenciou, dBm na miliwatty a watty a výkon späť na dBm a dBW — vzorce a prepracované príklady.",
+  "id": "/loona-construction-calculators/sk/db-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Gravel Calculator",
+  "short_name": "Gravel Calculator",
+  "description": "Bezplatná kalkulačka štrku: plocha a hĺbka v metrických alebo imperiálnych jednotkách — získajte objem štrku v kubických metroch a kubických yardoch a hmotnosť v tonách a US tonách, s nastaviteľnou hustotou a rezervou na odpad.",
+  "id": "/loona-construction-calculators/sk/gravel-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

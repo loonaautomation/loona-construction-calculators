@@ -1,0 +1,29 @@
+{
+  "name": "Loona Fence Calculator",
+  "short_name": "Fence Calculator",
+  "description": "Bezplatná kalkulačka plotu: dĺžka plota a rozstup stĺpikov v metrických alebo imperiálnych jednotkách vám dajú stĺpiky, vodidlá, latky (zo šírky latky a medzery) a vrecia betónu — s rezervou na odpad pre latky.",
+  "id": "/loona-construction-calculators/sk/fence-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

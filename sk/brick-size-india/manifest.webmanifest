@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in India",
+  "short_name": "Brick Size in India",
+  "description": "Štandardná veľkosť tehly v Indii: 190 × 90 × 90 mm. 50.0 tehál na m² (4.65 na sq ft) jednovrstvovej steny so škárami malty 10 mm, pokrytie na 1,000 tehál a prepracovaný príklad steny.",
+  "id": "/loona-construction-calculators/sk/brick-size-india/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
