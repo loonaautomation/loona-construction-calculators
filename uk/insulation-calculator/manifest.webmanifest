@@ -1,0 +1,29 @@
+{
+  "name": "Loona Insulation Calculator",
+  "short_name": "Insulation Calculator",
+  "description": "Безкоштовний калькулятор утеплювача: введіть площу й цільове значення R (або метричне RSI) і отримайте кількість упаковок плит/рулонів або мішків задувного утеплювача для купівлі, а також товщину, потрібну для вашої цілі, — у метричних та імперських одиницях.",
+  "id": "/loona-construction-calculators/uk/insulation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

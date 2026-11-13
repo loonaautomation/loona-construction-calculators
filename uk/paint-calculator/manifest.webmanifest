@@ -1,0 +1,29 @@
+{
+  "name": "Loona Paint Calculator",
+  "short_name": "Paint Calculator",
+  "description": "Безкоштовний калькулятор фарби: введіть розмір кімнати в метрах або футах, відніміть двері й вікна, оберіть кількість шарів і покривність — і отримайте потрібну кількість фарби та ґрунтовки в літрах або галонах, із запасом на відходи.",
+  "id": "/loona-construction-calculators/uk/paint-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

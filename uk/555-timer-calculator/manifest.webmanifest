@@ -1,0 +1,29 @@
+{
+  "name": "Loona 555 Timer Calculator",
+  "short_name": "555 Timer Calculator",
+  "description": "Безкоштовний калькулятор таймера 555: нестабільний режим дає частоту, коефіцієнт заповнення та тривалості HIGH/LOW за R1, R2 і C; моностабільний режим дає ширину імпульсу за R і C — стандартні формули 1.44 та 1.1.",
+  "id": "/loona-construction-calculators/uk/555-timer-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

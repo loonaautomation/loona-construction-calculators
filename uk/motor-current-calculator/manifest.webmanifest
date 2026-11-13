@@ -1,0 +1,29 @@
+{
+  "name": "Loona Motor Current Calculator",
+  "short_name": "Motor Current Calculator",
+  "description": "Безкоштовний калькулятор струму двигуна: потужність двигуна в кВт або кінських силах, напруга, одна чи три фази, ККД і коефіцієнт потужності дають приблизний струм повного навантаження — із чесними застереженнями щодо заводської таблички та норм.",
+  "id": "/loona-construction-calculators/uk/motor-current-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

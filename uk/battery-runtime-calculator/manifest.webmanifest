@@ -1,0 +1,29 @@
+{
+  "name": "Loona Battery Runtime Calculator",
+  "short_name": "Battery Runtime Calculator",
+  "description": "Безкоштовний калькулятор часу роботи від акумулятора: вольти й ампер-години акумулятора, вати навантаження, глибина розряду та ККД інвертора дають корисні ват-години й час роботи в годинах — для планування сонячних систем, ДБЖ та автономного живлення.",
+  "id": "/loona-construction-calculators/uk/battery-runtime-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 200 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 200 Sq Ft",
+  "description": "Фарба на 200 кв. футів стіни: 4.1 літрів (1.1 gal) на 2 шари за типової покривності 10 m²/L, плюс 1.7 L ґрунтовки — із заявленими припущеннями.",
+  "id": "/loona-construction-calculators/uk/paint-for-200-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

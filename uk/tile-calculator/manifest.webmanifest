@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tile Calculator",
+  "short_name": "Tile Calculator",
+  "description": "Безкоштовний калькулятор плитки: розмір підлоги або стіни, розмір плитки й ширина шва в метричних або імперських одиницях — отримайте точну кількість плиток і упаковок для купівлі, включно із запасом на підрізування та бій.",
+  "id": "/loona-construction-calculators/uk/tile-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

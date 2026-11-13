@@ -1,0 +1,29 @@
+{
+  "name": "Loona Amps to Watts Calculator",
+  "short_name": "Amps to Watts Calculator",
+  "description": "Безкоштовний калькулятор амперів у вати для постійного струму, однофазного та трифазного змінного струму: струм, напруга й коефіцієнт потужності дають вати, кіловати й кВА — з формулами та розв’язаним прикладом.",
+  "id": "/loona-construction-calculators/uk/amps-to-watts-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

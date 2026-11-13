@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Concrete for 500 Sq Ft? Volume &",
+  "short_name": "How Much Concrete for 500 Sq",
+  "description": "Бетон для плити площею 500 кв. футів, завтовшки 4 дюйми: 5.19 m³ (6.79 yd³) включно із запасом 10%, плюс кількість мішків готової суміші для мішків 80 lb, 60 lb, 25 kg і 20 kg.",
+  "id": "/loona-construction-calculators/uk/concrete-for-500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

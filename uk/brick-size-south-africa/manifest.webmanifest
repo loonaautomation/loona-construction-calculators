@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in South Africa",
+  "short_name": "Brick Size in South Africa",
+  "description": "Стандартний розмір цегли в Південній Африці: 222 × 106 × 73 mm. 51.9 цеглин на м² (4.82 на кв. фут) стіни в пів цегли зі швами розчину 10 mm, покриття на 1,000 цеглин і розв’язаний приклад стіни.",
+  "id": "/loona-construction-calculators/uk/brick-size-south-africa/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
