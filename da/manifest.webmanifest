@@ -1,0 +1,29 @@
+{
+  "name": "Loona Construction Calculators",
+  "short_name": "Construction Calc",
+  "description": "Gratis byggeberegnere, der virker i BÅDE metriske og imperiale enheder: maling, fliser, beton, gulvbelægning, gipsplader, mursten, grus, taghældning, trapper, board foot, tapet, barkflis, asfalt, isolering, hegn, terrasse, poolvolumen, solpanel, tæppe, krydsfiner, sand, Ohms lov, spændingsfald, ledningsstørrelse, elpris, ampere til watt, watt til ampere, kVA til ampere, effektfaktor, batteritid, LED-modstand, trefaset effekt, motorstrøm, modstandsfarvekode, 555-timer, AWG-omregning, reaktans og decibelomregning — med spildtillæg og gennemregnede eksempler.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-construction-calculators/da/"
+}

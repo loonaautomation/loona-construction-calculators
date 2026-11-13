@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in South Africa",
+  "short_name": "Brick Size in South Africa",
+  "description": "Standard murstenstørrelse i Sydafrika: 222 × 106 × 73 mm. 51.9 mursten pr. m² (4.82 pr. sq ft) enkeltskalvæg med 10 mm mørtelfuger, dækning pr. 1,000 mursten og et gennemregnet vægeksempel.",
+  "id": "/loona-construction-calculators/da/brick-size-south-africa/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

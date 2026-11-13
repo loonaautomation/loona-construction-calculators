@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Size in United Kingdom",
+  "short_name": "Brick Size in United Kingdom",
+  "description": "Standard murstenstørrelse i Storbritannien: 215 × 102.5 × 65 mm. 59.3 mursten pr. m² (5.51 pr. sq ft) enkeltskalvæg med 10 mm mørtelfuger, dækning pr. 1,000 mursten og et gennemregnet vægeksempel.",
+  "id": "/loona-construction-calculators/da/brick-size-uk/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

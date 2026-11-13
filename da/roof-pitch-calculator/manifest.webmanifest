@@ -1,0 +1,29 @@
+{
+  "name": "Loona Roof Pitch Calculator",
+  "short_name": "Roof Pitch Calculator",
+  "description": "Gratis taghældningsberegner: indtast stigning og løb i enhver enhed — få hældningen som et forhold (x-i-12), vinklen i grader, procentgraden og spærlængden. Virker til metriske og imperiale mål.",
+  "id": "/loona-construction-calculators/da/roof-pitch-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

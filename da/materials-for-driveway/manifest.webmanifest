@@ -1,0 +1,29 @@
+{
+  "name": "Loona Materials for a 12 × 40 ft Driveway",
+  "short_name": "Materials for a 12 × 40 ft",
+  "description": "Materialer til en 12 × 40 ft indkørsel: nøjagtigt betonvolumen og antal færdigblandingssække (4-tommer plade, 10% ekstra) plus indkøbsnoter til base og armering.",
+  "id": "/loona-construction-calculators/da/materials-for-driveway/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

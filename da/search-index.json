@@ -1,0 +1,344 @@
+[
+ {
+  "n": "Malingberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/paint-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Liter og gallon til ethvert rum, døre/vinduer fratrukket, grunder inkluderet.",
+  "k": "malingberegner malingberegner malingberegner calculator construction liter og gallon til ethvert rum d re vinduer fratrukket grunder inkluderet",
+  "p": 0,
+  "c": "Tool"
+ },
+ {
+  "n": "Fliseberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/tile-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Fliser og kasser til gulve & vægge, fugemellemrum medregnet.",
+  "k": "fliseberegner fliseberegner fliseberegner calculator construction fliser og kasser til gulve v gge fugemellemrum medregnet",
+  "p": 1,
+  "c": "Tool"
+ },
+ {
+  "n": "Betonberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/concrete-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Pladevolumen i m³ og yd³ plus antal færdigblandingssække.",
+  "k": "betonberegner betonberegner betonberegner calculator construction pladevolumen i m3 og yd3 plus antal f rdigblandingss kke",
+  "p": 2,
+  "c": "Tool"
+ },
+ {
+  "n": "Gulvbelægningsberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/flooring-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Laminat-, vinyl- og trækasser med tilskæringsspild.",
+  "k": "gulvbel gningsberegner gulvbel gningsberegner gulvbel gningsberegner calculator construction laminat vinyl og tr kasser med tilsk ringsspild",
+  "p": 3,
+  "c": "Tool"
+ },
+ {
+  "n": "Gipspladeberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/drywall-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Gipsplader til vægge og lofter.",
+  "k": "gipspladeberegner gipspladeberegner gipspladeberegner calculator construction gipsplader til v gge og lofter",
+  "p": 4,
+  "c": "Tool"
+ },
+ {
+  "n": "Murstenberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/brick-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Murstenantal til standard metriske og US-murstenstørrelser.",
+  "k": "murstenberegner murstenberegner murstenberegner calculator construction murstenantal til standard metriske og us murstenst rrelser",
+  "p": 5,
+  "c": "Tool"
+ },
+ {
+  "n": "Grusberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/gravel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Ton & kubikyard til indkørsler, stier og underlag.",
+  "k": "grusberegner grusberegner grusberegner calculator construction ton kubikyard til indk rsler stier og underlag",
+  "p": 106,
+  "c": "Tool"
+ },
+ {
+  "n": "Taghældningsberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/roof-pitch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Hældningsforhold, vinkel, grad og spærlængde.",
+  "k": "tagh ldningsberegner tagh ldningsberegner tagh ldningsberegner calculator construction h ldningsforhold vinkel grad og sp rl ngde",
+  "p": 107,
+  "c": "Tool"
+ },
+ {
+  "n": "Trappeberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/stairs-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Trin, stigningshøjde, trin, løb og vangelængde.",
+  "k": "trappeberegner trappeberegner trappeberegner calculator construction trin stigningsh jde trin l b og vangel ngde",
+  "p": 108,
+  "c": "Tool"
+ },
+ {
+  "n": "Board Foot-beregner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/board-foot-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Trævolumen i board feet og kubikmeter.",
+  "k": "board foot beregner board foot beregner board foot beregner calculator construction tr volumen i board feet og kubikmeter",
+  "p": 109,
+  "c": "Tool"
+ },
+ {
+  "n": "Tapetberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/wallpaper-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Ruller til EU- og US-ruller, mønsterrapport taget højde for.",
+  "k": "tapetberegner tapetberegner tapetberegner calculator construction ruller til eu og us ruller m nsterrapport taget h jde for",
+  "p": 110,
+  "c": "Tool"
+ },
+ {
+  "n": "Barkflisberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/mulch-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Sække & løsvolumen til bede og kanter.",
+  "k": "barkflisberegner barkflisberegner barkflisberegner calculator construction s kke l svolumen til bede og kanter",
+  "p": 111,
+  "c": "Tool"
+ },
+ {
+  "n": "Asfaltberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/asphalt-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Ton & US tons ud fra areal og tykkelse, densitet kan redigeres, prisoverslag.",
+  "k": "asfaltberegner asfaltberegner asfaltberegner calculator construction ton us tons ud fra areal og tykkelse densitet kan redigeres prisoverslag",
+  "p": 112,
+  "c": "Tool"
+ },
+ {
+  "n": "Isoleringsberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/insulation-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Batts, ruller eller indblæste sække til din mål-R-værdi / RSI, tykkelsesvejledning.",
+  "k": "isoleringsberegner isoleringsberegner isoleringsberegner calculator construction batts ruller eller indbl ste s kke til din mal r v rdi rsi tykkelsesvejledning",
+  "p": 113,
+  "c": "Tool"
+ },
+ {
+  "n": "Hegnberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/fence-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Stolper, tværribber, stakitter og betonsække ud fra hegnslængde og afstand.",
+  "k": "hegnberegner hegnberegner hegnberegner calculator construction stolper tv rribber stakitter og betons kke ud fra hegnsl ngde og afstand",
+  "p": 114,
+  "c": "Tool"
+ },
+ {
+  "n": "Terrasseberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/deck-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Terrassebrædder, strøer og skruer ud fra terrassestørrelse, bræddebrede og strøafstand.",
+  "k": "terrasseberegner terrasseberegner terrasseberegner calculator construction terrassebr dder str er og skruer ud fra terrassest rrelse br ddebrede og str afstand",
+  "p": 115,
+  "c": "Tool"
+ },
+ {
+  "n": "Poolvolumenberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/pool-volume-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Liter og US gallon til rektangulære, runde og ovale pools — klar til dosering.",
+  "k": "poolvolumenberegner poolvolumenberegner poolvolumenberegner calculator construction liter og us gallon til rektangul re runde og ovale pools klar til dosering",
+  "p": 116,
+  "c": "Tool"
+ },
+ {
+  "n": "Solpanelberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/solar-panel-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Nødvendige paneler, system-kW, forventet produktion og tagareal ud fra din regning.",
+  "k": "solpanelberegner solpanelberegner solpanelberegner calculator construction n dvendige paneler system kw forventet produktion og tagareal ud fra din regning",
+  "p": 117,
+  "c": "Tool"
+ },
+ {
+  "n": "Tæppeberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/carpet-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Lineær længde og sandt købsareal ud fra rumstørrelse og rullebredde.",
+  "k": "t ppeberegner t ppeberegner t ppeberegner calculator construction line r l ngde og sandt k bsareal ud fra rumst rrelse og rullebredde",
+  "p": 118,
+  "c": "Tool"
+ },
+ {
+  "n": "Krydsfinerberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/plywood-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Plader efter areal og efter layout til 2440×1220 mm- og 4×8 ft-plader.",
+  "k": "krydsfinerberegner krydsfinerberegner krydsfinerberegner calculator construction plader efter areal og efter layout til 2440 1220 mm og 4 8 ft plader",
+  "p": 119,
+  "c": "Tool"
+ },
+ {
+  "n": "Sandberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/sand-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Ton og 25 kg-sække til sandkasser, belægningsunderlag og afretningslag.",
+  "k": "sandberegner sandberegner sandberegner calculator construction ton og 25 kg s kke til sandkasser bel gningsunderlag og afretningslag",
+  "p": 120,
+  "c": "Tool"
+ },
+ {
+  "n": "Ohms lov-beregner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/ohms-law-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Voltage, current, resistance & power from any two values — the full Ohm's law wheel.",
+  "k": "ohms lov beregner ohms lov beregner ohms lov beregner calculator construction voltage current resistance power from any two values the full ohm s law wheel",
+  "p": 121,
+  "c": "Tool"
+ },
+ {
+  "n": "Spændingsfaldberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/voltage-drop-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Volts & % dropped over a cable run, mm² or AWG, single & three-phase.",
+  "k": "sp ndingsfaldberegner sp ndingsfaldberegner sp ndingsfaldberegner calculator construction volts dropped over a cable run mm2 or awg single three phase",
+  "p": 122,
+  "c": "Tool"
+ },
+ {
+  "n": "Kabelstørrelsesberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/wire-size-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Minimum cable size in mm² + standard size & AWG from your drop limit.",
+  "k": "kabelst rrelsesberegner kabelst rrelsesberegner kabelst rrelsesberegner calculator construction minimum cable size in mm2 standard size awg from your drop limit",
+  "p": 123,
+  "c": "Tool"
+ },
+ {
+  "n": "Elprisberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/electricity-cost-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "What an appliance costs per day, month & year from watts & price per kWh.",
+  "k": "elprisberegner elprisberegner elprisberegner calculator construction what an appliance costs per day month year from watts price per kwh",
+  "p": 124,
+  "c": "Tool"
+ },
+ {
+  "n": "Ampere til watt-beregner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/amps-to-watts-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Watts & kW from amps and volts — DC, single-phase & three-phase with power factor.",
+  "k": "ampere til watt beregner ampere til watt beregner ampere til watt beregner calculator construction watts kw from amps and volts dc single phase three phase with power factor",
+  "p": 125,
+  "c": "Tool"
+ },
+ {
+  "n": "Watt til ampere-beregner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/watts-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Amps from watts and volts for breaker & cable checks — DC, single & three-phase.",
+  "k": "watt til ampere beregner watt til ampere beregner watt til ampere beregner calculator construction amps from watts and volts for breaker cable checks dc single three phase",
+  "p": 126,
+  "c": "Tool"
+ },
+ {
+  "n": "kVA til ampere-beregner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/kva-to-amps-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Generator & transformer kVA to full-load amps, and amps back to kVA, single & three-phase.",
+  "k": "kva til ampere beregner kva til ampere beregner kva til ampere beregner calculator construction generator transformer kva to full load amps and amps back to kva single three phase",
+  "p": 127,
+  "c": "Tool"
+ },
+ {
+  "n": "Effektfaktorberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/power-factor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Power factor, kvar & phase angle from kW and kVA, plus correction capacitor size.",
+  "k": "effektfaktorberegner effektfaktorberegner effektfaktorberegner calculator construction power factor kvar phase angle from kw and kva plus correction capacitor size",
+  "p": 128,
+  "c": "Tool"
+ },
+ {
+  "n": "Batteritidsberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/battery-runtime-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "How long a battery runs a load — Ah, usable Wh, depth of discharge & inverter losses counted.",
+  "k": "batteritidsberegner batteritidsberegner batteritidsberegner calculator construction how long a battery runs a load ah usable wh depth of discharge inverter losses counted",
+  "p": 129,
+  "c": "Tool"
+ },
+ {
+  "n": "LED-modstandsberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/led-resistor-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Series resistor in ohms, nearest standard E12 value, actual current & wattage.",
+  "k": "led modstandsberegner led modstandsberegner led modstandsberegner calculator construction series resistor in ohms nearest standard e12 value actual current wattage",
+  "p": 130,
+  "c": "Tool"
+ },
+ {
+  "n": "Trefaset effektberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/three-phase-power-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "kW, kVA & kvar from line voltage, line current & power factor for balanced loads.",
+  "k": "trefaset effektberegner trefaset effektberegner trefaset effektberegner calculator construction kw kva kvar from line voltage line current power factor for balanced loads",
+  "p": 131,
+  "c": "Tool"
+ },
+ {
+  "n": "Motorstrømberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/motor-current-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Estimated full-load amps from motor kW or hp, efficiency & power factor.",
+  "k": "motorstr mberegner motorstr mberegner motorstr mberegner calculator construction estimated full load amps from motor kw or hp efficiency power factor",
+  "p": 132,
+  "c": "Tool"
+ },
+ {
+  "n": "Modstandsfarvekodeberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/resistor-colour-code-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Read 4, 5 & 6-band resistor colours to ohms & tolerance — or turn a value back into bands.",
+  "k": "modstandsfarvekodeberegner modstandsfarvekodeberegner modstandsfarvekodeberegner calculator construction read 4 5 6 band resistor colours to ohms tolerance or turn a value back into bands",
+  "p": 133,
+  "c": "Tool"
+ },
+ {
+  "n": "555 Timer-beregner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/555-timer-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Astable frequency & duty cycle and monostable pulse width from R and C.",
+  "k": "555 timer beregner 555 timer beregner 555 timer beregner calculator construction astable frequency duty cycle and monostable pulse width from r and c",
+  "p": 134,
+  "c": "Tool"
+ },
+ {
+  "n": "AWG-omregner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/awg-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "AWG to mm, mm² and resistance per km for copper & aluminium — and back from mm² or diameter.",
+  "k": "awg omregner awg omregner awg omregner calculator construction awg to mm mm2 and resistance per km for copper aluminium and back from mm2 or diameter",
+  "p": 135,
+  "c": "Tool"
+ },
+ {
+  "n": "Reaktansberegner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/reactance-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Capacitive & inductive reactance in ohms, plus LC resonant frequency.",
+  "k": "reaktansberegner reaktansberegner reaktansberegner calculator construction capacitive inductive reactance in ohms plus lc resonant frequency",
+  "p": 136,
+  "c": "Tool"
+ },
+ {
+  "n": "dB-omregner",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/da/db-converter/",
+  "s": "Loona Construction Calculators",
+  "d": "Power & voltage ratios to decibels, dBm to milliwatts & watts and back.",
+  "k": "db omregner db omregner db omregner calculator construction power voltage ratios to decibels dbm to milliwatts watts and back",
+  "p": 137,
+  "c": "Tool"
+ }
+]

@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Concrete for 2500 Sq Ft? Volume",
+  "short_name": "How Much Concrete for 2500 Sq",
+  "description": "Beton til en 2500 sq ft plade, 4 tommer tyk: 25.96 m³ (33.95 yd³) inklusive 10% ekstra, plus antal færdigblandingssække for 80 lb-, 60 lb-, 25 kg- og 20 kg-sække.",
+  "id": "/loona-construction-calculators/da/concrete-for-2500-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
