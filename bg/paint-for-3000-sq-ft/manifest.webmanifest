@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Paint for 3000 Sq Ft of Wall?",
+  "short_name": "How Much Paint for 3000 Sq Ft",
+  "description": "Боя за 3000 sq ft стена: 61.3 литра (16.2 gal) за 2 слоя при типично покритие 10 m²/L, плюс 25.5 L грунд — с посочените предположения.",
+  "id": "/loona-construction-calculators/bg/paint-for-3000-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

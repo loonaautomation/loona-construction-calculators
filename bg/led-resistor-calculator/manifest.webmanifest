@@ -1,0 +1,29 @@
+{
+  "name": "Loona LED Resistor Calculator",
+  "short_name": "LED Resistor Calculator",
+  "description": "Безплатен калкулатор за LED резистор: захранващото напрежение, напрежението в права посока на светодиода, токът в права посока и светодиодите в серия дават резистора в омове, най-близката стандартна стойност E12, действителния ток и мощността на резистора.",
+  "id": "/loona-construction-calculators/bg/led-resistor-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

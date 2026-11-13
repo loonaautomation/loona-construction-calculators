@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Concrete for 200 Sq Ft? Volume &",
+  "short_name": "How Much Concrete for 200 Sq",
+  "description": "Бетон за плоча от 200 sq ft, дебела 4 инча: 2.08 m³ (2.72 yd³), включително 10% допълнително, плюс брой торби готова смес от 80 lb, 60 lb, 25 kg и 20 kg.",
+  "id": "/loona-construction-calculators/bg/concrete-for-200-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

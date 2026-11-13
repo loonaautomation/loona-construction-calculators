@@ -1,0 +1,29 @@
+{
+  "name": "Loona How Much Concrete for 100 Sq Ft? Volume &",
+  "short_name": "How Much Concrete for 100 Sq",
+  "description": "Бетон за плоча от 100 sq ft, дебела 4 инча: 1.04 m³ (1.36 yd³), включително 10% допълнително, плюс брой торби готова смес от 80 lb, 60 lb, 25 kg и 20 kg.",
+  "id": "/loona-construction-calculators/bg/concrete-for-100-sq-ft/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

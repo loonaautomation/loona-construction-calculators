@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brick Sizes by Country",
+  "short_name": "Brick Sizes by Country",
+  "description": "Стандартни размери тухли в Обединеното кралство, САЩ, Индия, Пакистан, Австралия, Германия и Южна Африка — сравнени размери и тухли на квадратен метър.",
+  "id": "/loona-construction-calculators/bg/brick-sizes-by-country/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

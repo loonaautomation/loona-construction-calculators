@@ -1,0 +1,29 @@
+{
+  "name": "Loona Roof Pitch Chart",
+  "short_name": "Roof Pitch Chart",
+  "description": "Пълна таблица за наклон на покрива: от 1/12 до 12/12 с ъгли, наклони и коефициенти за ребрата, всеки наклон със собствена страница с указания.",
+  "id": "/loona-construction-calculators/bg/roof-pitch-chart/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
