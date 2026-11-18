@@ -340,5 +340,14 @@
   "k": "db converter db converter db converter decibel dbm milliwatts watts ratio",
   "p": 137,
   "c": "Tool"
+ },
+ {
+  "n": "حاسبة المساحة بالقدم المربع",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/square-footage-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "المساحة الكلية بالقدم المربع والمتر المربع والياردة المربعة والأكر لغرفة واحدة أو غرف كثيرة، مع تقدير التكلفة.",
+  "k": "square footage calculator square footage calculator square footage calculator calculator construction",
+  "p": 138,
+  "c": "Tool"
  }
 ]
