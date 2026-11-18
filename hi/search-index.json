@@ -340,5 +340,14 @@
   "k": "db converter db converter db converter decibel dbm milliwatts watts ratio पावर और वोल्टेज अनुपात से डेसीबल dbm से मिलीवाट और वाट और वापस।",
   "p": 137,
   "c": "Tool"
+ },
+ {
+  "n": "स्क्वायर फुटेज कैलकुलेटर",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hi/square-footage-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "एक या कई कमरों के लिए कुल क्षेत्रफल sq ft, sq m, sq yd और एकड़ में, लागत अनुमान के साथ।",
+  "k": "square footage calculator square footage calculator square footage calculator calculator construction एक या कई कमरों के लिए कुल क्षेत्रफल sq ft sq m sq yd और एकड़ में लागत अनुमान के साथ।",
+  "p": 138,
+  "c": "Tool"
  }
 ]
