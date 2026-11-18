@@ -1,0 +1,29 @@
+{
+  "name": "Loona Square Footage Calculator",
+  "short_name": "Square Footage",
+  "description": "حاسبة مجانية للمساحة بالقدم المربع: أضف غرفًا ومساحات بأشكال مستطيلة ودائرية ومثلثة وعلى شكل L، بالأقدام والبوصات أو بالأمتار، واحصل على المساحة الكلية بالقدم المربع والمتر المربع والياردة المربعة والأكر — مع تقدير اختياري للتكلفة.",
+  "id": "/loona-construction-calculators/ar/square-footage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
