@@ -1,0 +1,29 @@
+{
+  "name": "Loona Square Footage Calculator",
+  "short_name": "Square Footage",
+  "description": "Calculator gratuit de suprafață: adăugați camere în formă de dreptunghi, cerc, triunghi și formă de L, în picioare și inci sau metri, și obțineți suprafața totală în picioare pătrate, m², yarzi pătrați și acri — cu o estimare opțională a costului.",
+  "id": "/loona-construction-calculators/ro/square-footage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
