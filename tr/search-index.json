@@ -340,5 +340,14 @@
 "k": "db converter db converter db converter calculator construction guc ve voltaj oranlarindan desibele dbm den miliwatt ve watta ve geriye",
 "p": 137,
 "c": "Tool"
+},
+{
+"n": "Metrekare Hesaplayıcısı",
+"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/square-footage-calculator/",
+"s": "Loona Construction Calculators",
+"d": "Bir veya birçok oda için sq ft, sq m, sq yd & acre cinsinden toplam alan, maliyet tahmini ile.",
+"k": "metrekare hesaplayıcısı metrekare hesaplayıcısı metrekare hesaplayıcısı calculator construction bir veya birçok oda için sq ft, sq m, sq yd & acre cinsinden toplam alan, maliyet tahmini ile.",
+"p": 138,
+"c": "Tool"
 }
 ]
