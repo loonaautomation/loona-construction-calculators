@@ -340,5 +340,14 @@
   "k": "db muunnin db muunnin db muunnin calculator construction power voltage ratios to decibels dbm to milliwatts watts and back",
   "p": 137,
   "c": "Tool"
+ },
+ {
+  "n": "Neliömetrilaskuri",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/square-footage-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Kokonaispinta-ala yksiköissä sq ft, sq m, sq yd & acres yhdelle tai monelle huoneelle, kustannusarviolla.",
+  "k": "neliömetrilaskuri neliömetrilaskuri neliömetrilaskuri calculator construction kokonaispinta-ala yksiköissä sq ft, sq m, sq yd & acres yhdelle tai monelle huoneelle, kustannusarviolla.",
+  "p": 138,
+  "c": "Tool"
  }
 ]
