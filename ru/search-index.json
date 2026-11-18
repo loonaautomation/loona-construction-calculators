@@ -340,5 +340,14 @@
   "k": "конвертер db db converter db converter db converter decibel dbm milliwatts watts ratio power voltage ratios to decibels dbm to milliwatts watts and back db dbm в ватты децибелы и конвертер милливатты мощности напряжения обратно отношения",
   "p": 137,
   "c": "Tool"
+ },
+ {
+  "n": "Калькулятор площади",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ru/square-footage-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Общая площадь в кв. футах, кв. м, кв. ярдах и акрах для одной или многих комнат, с оценкой стоимости.",
+  "k": "калькулятор площади калькулятор площади калькулятор площади calculator construction общая площадь в кв. футах, кв. м, кв. ярдах и акрах для однои или многих комнат, с оценкои стоимости.",
+  "p": 138,
+  "c": "Tool"
  }
 ]
