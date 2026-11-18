@@ -340,5 +340,14 @@
   "k": "db 換算器 db 換算器 db 換算器 calculator construction power voltage ratios to decibels dbm to milliwatts watts and back",
   "p": 137,
   "c": "Tool"
+ },
+ {
+  "n": "平方英尺計算器",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/zh-hant/square-footage-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "一個或多個房間的總面積，以平方英尺、平方米、平方碼和英畝為單位，附費用估算。",
+  "k": "平方英尺計算器 square footage calculator square footage calculator square footage calculator calculator construction total area in sq ft sq m sq yd acres for one or many rooms with cost estimate 一個或多個房間的總面積 以平方英尺 平方米 平方碼和英畝為單位 附費用估算 ",
+  "p": 138,
+  "c": "Tool"
  }
 ]
