@@ -1,0 +1,29 @@
+{
+  "name": "Loona Square Footage Calculator",
+  "short_name": "Square Footage",
+  "description": "無料の平方フィート計算機：長方形、円、三角形、L字型の部屋を追加し、フィートとインチまたはメートルで入力すると、合計面積が平方フィート、平方メートル、平方ヤード、エーカーで得られます — 任意の費用見積もり付きです。",
+  "id": "/loona-construction-calculators/ja/square-footage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
