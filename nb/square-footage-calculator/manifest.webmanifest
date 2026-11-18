@@ -1,0 +1,29 @@
+{
+  "name": "Loona Square Footage Calculator",
+  "short_name": "Square Footage",
+  "description": "Gratis kvadratmeterkalkulator: legg til rom i rektangel-, sirkel-, trekant- og L-former, i fot og tommer eller meter, og få samlet areal i sq ft, sq m, sq yd og acres — med et valgfritt kostnadsoverslag.",
+  "id": "/loona-construction-calculators/nb/square-footage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
