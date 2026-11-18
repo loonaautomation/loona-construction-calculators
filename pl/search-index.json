@@ -340,5 +340,14 @@
   "k": "konwerter db konwerter db konwerter db calculator construction power voltage ratios to decibels dbm to milliwatts watts and back",
   "p": 137,
   "c": "Tool"
+ },
+ {
+  "n": "Kalkulator powierzchni",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/pl/square-footage-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Całkowita powierzchnia w stopach kw., m², jardach kw. i akrach dla jednego lub wielu pomieszczeń, z szacunkiem kosztów.",
+  "k": "kalkulator powierzchni kalkulator powierzchni kalkulator powierzchni calculator construction całkowita powierzchnia w stopach kw., m2, jardach kw. i akrach dla jednego lub wielu pomieszczen, z szacunkiem kosztow.",
+  "p": 138,
+  "c": "Tool"
  }
 ]
