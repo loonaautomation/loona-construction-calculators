@@ -340,5 +340,14 @@
   "k": "dB-omvandlare db converter db converter db converter calculator construction power voltage ratios to decibels dbm to milliwatts watts and back db omvandlare power voltage ratios to decibels dbm to milliwatts watts and back",
   "p": 137,
   "c": "Tool"
+ },
+ {
+  "n": "Kvadratmeterkalkylator",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sv/square-footage-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Total area i sq ft, sq m, sq yd & acres för ett eller många rum, med kostnadsuppskattning.",
+  "k": "kvadratmeterkalkylator kvadratmeterkalkylator kvadratmeterkalkylator calculator construction total area i sq ft, sq m, sq yd & acres för ett eller många rum, med kostnadsuppskattning.",
+  "p": 138,
+  "c": "Tool"
  }
 ]
