@@ -340,5 +340,14 @@
   "k": "prevodnik db prevodnik db prevodnik db calculator construction power voltage ratios to decibels dbm to milliwatts watts and back",
   "p": 137,
   "c": "Tool"
+ },
+ {
+  "n": "Kalkulačka plochy",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/sk/square-footage-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Celková plocha v štvorcových stopách, m², štvorcových yardoch a akroch pre jednu alebo viac miestností, s odhadom ceny.",
+  "k": "kalkulacka plochy kalkulacka plochy kalkulacka plochy calculator construction celkova plocha v stvorcovych stopach, m2, stvorcovych yardoch a akroch pre jednu alebo viac miestnosti, s odhadom ceny.",
+  "p": 138,
+  "c": "Tool"
  }
 ]
