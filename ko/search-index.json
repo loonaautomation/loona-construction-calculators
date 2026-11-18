@@ -340,5 +340,14 @@
   "k": "db converter db converter db converter decibel dbm milliwatts watts ratio 전력과 전압 비율을 데시벨로 dbm을 밀리와트와 와트로 거꾸로도 바꿔요",
   "p": 137,
   "c": "Tool"
+ },
+ {
+  "n": "평방피트 계산기",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/ko/square-footage-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "방 하나 또는 여러 방의 총면적을 평방피트, 제곱미터, 평방야드, 에이커로, 비용 견적과 함께.",
+  "k": "평방피트 계산기 square footage calculator square footage calculator square footage calculator calculator construction total area in sq ft sq m sq yd acres for one or many rooms with cost estimate 방 하나 또는 여러 방의 총면적을 평방피트, 제곱미터, 평방야드, 에이커로, 비용 견적과 함께.",
+  "p": 138,
+  "c": "Tool"
  }
 ]
