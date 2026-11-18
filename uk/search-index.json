@@ -340,5 +340,14 @@
   "k": "calculator construction power voltage ratios to decibels dbm to milliwatts watts and back",
   "p": 137,
   "c": "Tool"
+ },
+ {
+  "n": "Калькулятор площі",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/square-footage-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Загальна площа у кв. футах, кв. м, кв. ярдах та акрах для однієї чи багатьох кімнат, з оцінкою вартості.",
+  "k": "калькулятор площі калькулятор площі калькулятор площі calculator construction загальна площа у кв. футах, кв. м, кв. ярдах та акрах для однієі чи багатьох кімнат, з оцінкою вартості.",
+  "p": 138,
+  "c": "Tool"
  }
 ]
