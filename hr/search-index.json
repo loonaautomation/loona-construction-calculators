@@ -340,5 +340,14 @@
   "k": "db pretvarac db pretvarac db pretvarac kalkulator gradjevinarstvo power voltage ratios to decibels dbm to milliwatts watts and back",
   "p": 137,
   "c": "Tool"
+ },
+ {
+  "n": "Kalkulator površine",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/hr/square-footage-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "Ukupna površina u četvornim stopama, m², četvornim jardima i jutrima za jednu ili više prostorija, s procjenom troška.",
+  "k": "kalkulator povrsine kalkulator povrsine kalkulator povrsine calculator construction ukupna povrsina u cetvornim stopama, m2, cetvornim jardima i jutrima za jednu ili vise prostorija, s procjenom troska.",
+  "p": 138,
+  "c": "Tool"
  }
 ]
