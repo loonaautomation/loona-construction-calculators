@@ -340,5 +340,14 @@
   "k": "ตัวแปลง db ตัวแปลง db ตัวแปลง db calculator construction power voltage ratios to decibels dbm to milliwatts watts and back",
   "p": 137,
   "c": "Tool"
+ },
+ {
+  "n": "เครื่องคำนวณตารางฟุต",
+  "u": "https://loonaautomation.github.io/loona-construction-calculators/th/square-footage-calculator/",
+  "s": "Loona Construction Calculators",
+  "d": "พื้นที่รวมในหน่วย sq ft, sq m, sq yd และเอเคอร์ สำหรับห้องเดียวหรือหลายห้อง พร้อมการประเมินราคา",
+  "k": "เครื่องคำนวณตารางฟุต เครื่องคำนวณตารางฟุต เครื่องคำนวณตารางฟุต calculator construction พื้นที่รวมในหน่วย sq ft sq m sq yd และเอเคอร์ สำหรับห้องเดียวหรือหลายห้อง พร้อมการประเมินราคา",
+  "p": 138,
+  "c": "Tool"
  }
 ]
