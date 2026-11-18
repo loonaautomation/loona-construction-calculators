@@ -1,0 +1,29 @@
+{
+  "name": "Loona Square Footage Calculator",
+  "short_name": "Square Footage",
+  "description": "मुफ़्त स्क्वायर फुटेज कैलकुलेटर: आयत, वृत्त, त्रिभुज और L-आकार में कमरे और स्थान जोड़ें, फ़ीट व इंच या मीटर में, और कुल क्षेत्रफल वर्ग फ़ुट, वर्ग मीटर, वर्ग गज़ और एकड़ में पाएँ — वैकल्पिक लागत अनुमान के साथ।",
+  "id": "/loona-construction-calculators/hi/square-footage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-construction-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-construction-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
