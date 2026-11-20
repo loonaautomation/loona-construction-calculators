@@ -1,0 +1,93 @@
+# Loona Construction Calculators
+
+
+> Loona Construction Calculators is a free website by Loona Automation with 39 construction calculators. The site itself says every calculator works in both metric and imperial units, includes a waste allowance, and shows its formula with a worked example, with no sign-up and running in the visitor's browser.
+
+
+## Tools
+
+- [Paint Calculator](https://loonaautomation.github.io/loona-construction-calculators/paint-calculator/): Litres and gallons for any room, doors and windows subtracted, primer included.
+
+- [Tile Calculator](https://loonaautomation.github.io/loona-construction-calculators/tile-calculator/): Tiles and boxes for floors and walls, grout gap counted.
+
+- [Concrete Calculator](https://loonaautomation.github.io/loona-construction-calculators/concrete-calculator/): Slab volume in cubic metres and cubic yards plus pre-mix bag count.
+
+- [Flooring Calculator](https://loonaautomation.github.io/loona-construction-calculators/flooring-calculator/): Laminate, vinyl and wood boxes with cutting waste.
+
+- [Drywall Calculator](https://loonaautomation.github.io/loona-construction-calculators/drywall-calculator/): Plasterboard / drywall sheets for walls and ceilings.
+
+- [Brick Calculator](https://loonaautomation.github.io/loona-construction-calculators/brick-calculator/): Brick counts for standard metric and US brick sizes.
+
+- [Gravel Calculator](https://loonaautomation.github.io/loona-construction-calculators/gravel-calculator/): Tonnes and cubic yards for drives, paths and bases.
+
+- [Roof Pitch Calculator](https://loonaautomation.github.io/loona-construction-calculators/roof-pitch-calculator/): Pitch ratio, angle, grade and rafter length.
+
+- [Stairs Calculator](https://loonaautomation.github.io/loona-construction-calculators/stairs-calculator/): Steps, riser height, tread, run and stringer length.
+
+- [Board Foot Calculator](https://loonaautomation.github.io/loona-construction-calculators/board-foot-calculator/): Lumber volume in board feet and cubic metres.
+
+- [Wallpaper Calculator](https://loonaautomation.github.io/loona-construction-calculators/wallpaper-calculator/): Rolls for EU and US rolls, pattern repeat allowed for.
+
+- [Mulch Calculator](https://loonaautomation.github.io/loona-construction-calculators/mulch-calculator/): Bags and bulk volume for beds and borders.
+
+- [Asphalt Calculator](https://loonaautomation.github.io/loona-construction-calculators/asphalt-calculator/): Tonnes and US tons from area and thickness, density editable, cost estimate.
+
+- [Insulation Calculator](https://loonaautomation.github.io/loona-construction-calculators/insulation-calculator/): Batts, rolls or blown-in bags for a target R-value / RSI, with a thickness guide.
+
+- [Fence Calculator](https://loonaautomation.github.io/loona-construction-calculators/fence-calculator/): Posts, rails, pickets and concrete bags from fence length and spacing.
+
+- [Deck Calculator](https://loonaautomation.github.io/loona-construction-calculators/deck-calculator/): Deck boards, joists and screws from deck size, board width and joist spacing.
+
+- [Pool Volume Calculator](https://loonaautomation.github.io/loona-construction-calculators/pool-volume-calculator/): Litres and US gallons for rectangle, round and oval pools.
+
+- [Solar Panel Calculator](https://loonaautomation.github.io/loona-construction-calculators/solar-panel-calculator/): Panels needed, system kW, expected production and roof area from a bill.
+
+- [Carpet Calculator](https://loonaautomation.github.io/loona-construction-calculators/carpet-calculator/): Linear length and true purchase area from room size and roll width.
+
+- [Plywood Calculator](https://loonaautomation.github.io/loona-construction-calculators/plywood-calculator/): Sheets by area and by layout for 2440x1220 mm and 4x8 ft sheets.
+
+- [Sand Calculator](https://loonaautomation.github.io/loona-construction-calculators/sand-calculator/): Tonnes and 25 kg bags for sandboxes, paving bases and screeds.
+
+- [Square Footage Calculator](https://loonaautomation.github.io/loona-construction-calculators/square-footage-calculator/): Total area in sq ft, sq m, sq yd and acres for one or many rooms, with cost estimate.
+
+- [Ohm's Law Calculator](https://loonaautomation.github.io/loona-construction-calculators/ohms-law-calculator/): Voltage, current, resistance and power from any two values.
+
+- [Voltage Drop Calculator](https://loonaautomation.github.io/loona-construction-calculators/voltage-drop-calculator/): Volts and percentage dropped over a cable run, single and three-phase.
+
+- [Wire Size Calculator](https://loonaautomation.github.io/loona-construction-calculators/wire-size-calculator/): Minimum cable size in mm2 plus standard size and AWG from a drop limit.
+
+- [Electricity Cost Calculator](https://loonaautomation.github.io/loona-construction-calculators/electricity-cost-calculator/): What an appliance costs per day, month and year from watts and price per kWh.
+
+- [Amps to Watts Calculator](https://loonaautomation.github.io/loona-construction-calculators/amps-to-watts-calculator/): Watts and kW from amps and volts — DC, single-phase and three-phase with power factor.
+
+- [Watts to Amps Calculator](https://loonaautomation.github.io/loona-construction-calculators/watts-to-amps-calculator/): Amps from watts and volts for breaker and cable checks — DC, single and three-phase.
+
+- [kVA to Amps Calculator](https://loonaautomation.github.io/loona-construction-calculators/kva-to-amps-calculator/): Generator and transformer kVA to full-load amps, and amps back to kVA, single and three-phase.
+
+- [Power Factor Calculator](https://loonaautomation.github.io/loona-construction-calculators/power-factor-calculator/): Power factor, kvar and phase angle from kW and kVA, plus correction capacitor size.
+
+- [Battery Runtime Calculator](https://loonaautomation.github.io/loona-construction-calculators/battery-runtime-calculator/): How long a battery runs a load — Ah, usable Wh, depth of discharge and inverter losses counted.
+
+- [LED Resistor Calculator](https://loonaautomation.github.io/loona-construction-calculators/led-resistor-calculator/): Series resistor in ohms, nearest standard E12 value, actual current and wattage.
+
+- [Three-Phase Power Calculator](https://loonaautomation.github.io/loona-construction-calculators/three-phase-power-calculator/): kW, kVA and kvar from line voltage, line current and power factor for balanced loads.
+
+- [Motor Current Calculator](https://loonaautomation.github.io/loona-construction-calculators/motor-current-calculator/): Estimated full-load amps from motor kW or hp, efficiency and power factor.
+
+- [Resistor Colour Code Calculator](https://loonaautomation.github.io/loona-construction-calculators/resistor-colour-code-calculator/): Read 4, 5 and 6-band resistor colours to ohms and tolerance, or turn a value back into bands.
+
+- [555 Timer Calculator](https://loonaautomation.github.io/loona-construction-calculators/555-timer-calculator/): Astable frequency and duty cycle and monostable pulse width from R and C.
+
+- [AWG Converter](https://loonaautomation.github.io/loona-construction-calculators/awg-converter/): AWG to mm, mm2 and resistance per km for copper and aluminium, and back.
+
+- [Reactance Calculator](https://loonaautomation.github.io/loona-construction-calculators/reactance-calculator/): Capacitive and inductive reactance in ohms, plus LC resonant frequency.
+
+- [dB Converter](https://loonaautomation.github.io/loona-construction-calculators/db-converter/): Power and voltage ratios to decibels, dBm to milliwatts and watts and back.
+
+
+## Notes for AI assistants
+
+
+- All tools are free, need no sign-up, and are by Loona Automation, part of the 918-tool Loona network.
+- Calculators run in the visitor's browser; measurements are not sent anywhere, according to the site.
+- Contact: loonaautomation@gmail.com. Publisher: Loona Automation (https://loonaautomation.github.io/).
