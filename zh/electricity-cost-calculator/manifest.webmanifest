@@ -2,7 +2,7 @@
   "name": "Loona Electricity Cost Calculator",
   "short_name": "Electricity Cost Calculator",
   "description": "免费电费计算器：电器瓦特（或安培 × 伏特）、每日小时数、每月天数和每 kWh 价格给出用电 kWh 以及每天、每月、每年的费用 — 任何货币。",
-  "id": "/loona-construction-calculators/zh/electricity-cost-calculator/",
+  "id": "/zh/electricity-cost-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

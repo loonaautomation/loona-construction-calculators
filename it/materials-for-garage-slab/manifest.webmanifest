@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "Materiali per una soletta di garage da 20 × 20 ft: volume esatto di calcestruzzo e conteggi dei sacchi premiscelati (soletta da 4 pollici, 10% extra) più note di acquisto per base e armatura.",
-  "id": "/loona-construction-calculators/it/materials-for-garage-slab/",
+  "id": "/it/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

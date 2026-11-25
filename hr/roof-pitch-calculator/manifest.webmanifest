@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Calculator",
   "short_name": "Roof Pitch Calculator",
   "description": "Besplatni kalkulator nagiba krova: unesite uspon i pomak u bilo kojoj jedinici — dobit ćete nagib kao omjer (x-na-12), kut u stupnjevima, postotni nagib i duljinu roga. Radi za metrička i imperijalna mjerenja.",
-  "id": "/loona-construction-calculators/hr/roof-pitch-calculator/",
+  "id": "/hr/roof-pitch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

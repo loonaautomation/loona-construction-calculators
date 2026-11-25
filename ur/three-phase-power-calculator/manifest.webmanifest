@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "مفت تھری فیز پاور کیلکولیٹر: لائن سے لائن وولٹیج، لائن کرنٹ اور پاور فیکٹر متوازن لوڈز کے لیے اصل پاور kW میں، ظاہری پاور kVA میں اور ری ایکٹو پاور kvar میں دیتے ہیں۔",
-  "id": "/loona-construction-calculators/ur/three-phase-power-calculator/",
+  "id": "/ur/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "مفت ٹائل کیلکولیٹر: میٹرک یا امپیریل میں فرش یا دیوار سائز، ٹائل سائز اور گراؤٹ خلا — خریدنے والی ٹائلوں اور ڈبوں کی درست تعداد پائیں، کٹائی اور ٹوٹ پھوٹ کی ضیاع گنجائش سمیت۔",
-  "id": "/loona-construction-calculators/ur/tile-calculator/",
+  "id": "/ur/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

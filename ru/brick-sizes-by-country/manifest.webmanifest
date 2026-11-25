@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Стандартные размеры кирпича в Великобритании, США, Индии, Пакистане, Австралии, Германии и Южной Африке — размеры и количество кирпичей на квадратный метр в сравнении.",
-  "id": "/loona-construction-calculators/ru/brick-sizes-by-country/",
+  "id": "/ru/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

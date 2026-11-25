@@ -2,7 +2,7 @@
   "name": "Loona Plywood Calculator",
   "short_name": "Plywood Calculator",
   "description": "Ingyenes rétegeltlemez-kalkulátor: a területméret és a lapméret (2440×1220 mm vagy 4×8 láb) metrikus vagy angolszász mértékegységben megadja a lapokat terület és elrendezés szerint, az ajánlott darabszámot, a hulladékráhagyást és opcionális költséget.",
-  "id": "/loona-construction-calculators/hu/plywood-calculator/",
+  "id": "/hu/plywood-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

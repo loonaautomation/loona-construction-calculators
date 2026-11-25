@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "Ingyenes ellenállás-színkód kalkulátor: válassza ki a sávszíneket egy 4, 5 vagy 6 sávos ellenálláson, hogy megkapja az ellenállást, a tűrést és a hőmérsékleti együtthatót — vagy fordítva, értékről sávokra.",
-  "id": "/loona-construction-calculators/hu/resistor-colour-code-calculator/",
+  "id": "/hu/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

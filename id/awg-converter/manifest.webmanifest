@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Konverter AWG gratis: ukuran AWG ke diameter dalam mm dan inci, penampang dalam mm², dan resistansi per kilometer untuk tembaga dan aluminium — atau temukan AWG terdekat dari mm² atau diameter.",
-  "id": "/loona-construction-calculators/id/awg-converter/",
+  "id": "/id/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

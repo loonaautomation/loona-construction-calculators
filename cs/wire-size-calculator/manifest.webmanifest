@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Bezplatná kalkulačka průřezu vodiče: proud, jednosměrná délka, povolený úbytek napětí v %, napětí, měď nebo hliník, jednofázové nebo třífázové — minimální průřez kabelu v mm², nejbližší standardní rozměr a ekvivalent AWG.",
-  "id": "/loona-construction-calculators/cs/wire-size-calculator/",
+  "id": "/cs/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

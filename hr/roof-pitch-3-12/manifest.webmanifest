@@ -2,7 +2,7 @@
   "name": "Loona 3/12 Roof Pitch",
   "short_name": "3/12 Roof Pitch",
   "description": "Nagib krova 3/12 iznosi 14.04 stupnjeva (nagib od 25%). Množitelj roga 1.0308, duljine rogova za uobičajene pomake, materijali i uporabe.",
-  "id": "/loona-construction-calculators/hr/roof-pitch-3-12/",
+  "id": "/hr/roof-pitch-3-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

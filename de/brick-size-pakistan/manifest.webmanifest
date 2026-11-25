@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Pakistan",
   "short_name": "Brick Size in Pakistan",
   "description": "Standard-Ziegelmaß in Pakistan: 228 × 107 × 69 mm. 53.2 Ziegel pro m² (4.94 pro sq ft) einschaliger Wand mit 10 mm Mörtelfugen, Abdeckung pro 1,000 Ziegel und ein durchgerechnetes Wandbeispiel.",
-  "id": "/loona-construction-calculators/de/brick-size-pakistan/",
+  "id": "/de/brick-size-pakistan/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

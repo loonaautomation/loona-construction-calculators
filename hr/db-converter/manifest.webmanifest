@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "Besplatni pretvarač decibela: omjeri snage i omjeri napona u dB s vlastitom referencom, dBm u milivate i vate i snaga natrag u dBm i dBW — formule i obrađeni primjeri.",
-  "id": "/loona-construction-calculators/hr/db-converter/",
+  "id": "/hr/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

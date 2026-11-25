@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Ilmainen tiililaskuri: seinän pituus ja korkeus metrisenä tai tuumaisena — saat vakiotiilien määrän (215 mm tai US modulaarinen) yksinkertaiselle seinälle, muurauslaastisauma- ja hukkalisät mukaan lukien.",
-  "id": "/loona-construction-calculators/fi/brick-calculator/",
+  "id": "/fi/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

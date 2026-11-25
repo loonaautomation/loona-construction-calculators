@@ -2,7 +2,7 @@
   "name": "Loona 5/12 Roof Pitch",
   "short_name": "5/12 Roof Pitch",
   "description": "Nagib krova 5/12 iznosi 22.62 stupnja (nagib od 42%). Množitelj roga 1.0833, duljine rogova za uobičajene pomake, materijali i uporabe.",
-  "id": "/loona-construction-calculators/hr/roof-pitch-5-12/",
+  "id": "/hr/roof-pitch-5-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

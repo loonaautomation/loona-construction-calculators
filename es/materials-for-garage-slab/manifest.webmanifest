@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "Materiales para una losa de garaje de 20 × 20 ft: volumen exacto de hormigón y cómputos de bolsas premezcladas (losa de 4 pulgadas, 10% extra) más notas de compra de base y armadura.",
-  "id": "/loona-construction-calculators/es/materials-for-garage-slab/",
+  "id": "/es/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

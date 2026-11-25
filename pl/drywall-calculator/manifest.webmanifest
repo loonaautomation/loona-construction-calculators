@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Darmowy kalkulator płyt gipsowo-kartonowych: rozmiar pokoju w systemie metrycznym lub imperialnym — otrzymaj powierzchnię ścian i sufitu oraz liczbę płyt 1200 × 2400 mm lub 4 × 8 ft do kupienia, z zapasem.",
-  "id": "/loona-construction-calculators/pl/drywall-calculator/",
+  "id": "/pl/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona kVA to Amps Calculator",
   "short_name": "kVA to Amps Calculator",
   "description": "เครื่องคำนวณ kVA เป็นแอมป์ฟรีสำหรับแหล่งจ่ายเฟสเดียวและสามเฟส — และย้อนกลับ แอมป์เป็น kVA กำหนดขนาดเครื่องกำเนิดไฟฟ้า หม้อแปลง และกระแสแหล่งจ่ายจาก kVA และแรงดัน",
-  "id": "/loona-construction-calculators/th/kva-to-amps-calculator/",
+  "id": "/th/kva-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

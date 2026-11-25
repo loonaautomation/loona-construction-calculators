@@ -2,7 +2,7 @@
   "name": "Loona 📏 AWG Converter",
   "short_name": "📏 AWG Converter",
   "description": "Free AWG converter: AWG gauge to diameter in mm and inches, cross-section in mm² and resistance per kilometer for copper and aluminum — or find the nearest AWG from mm² or diameter.",
-  "id": "/loona-construction-calculators/en-us/awg-converter/",
+  "id": "/en-us/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

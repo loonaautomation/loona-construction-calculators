@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "বিনামূল্যের ভোল্টেজ ড্রপ ক্যালকুলেটর: একদিকের তারের দৈর্ঘ্য, কারেন্ট, তামা বা অ্যালুমিনিয়াম, mm² বা AWG-তে তারের আকার, সিঙ্গল-ফেজ বা থ্রি-ফেজ — কমে যাওয়া ভোল্ট ও % ড্রপ, 3%/5% নির্দেশিকাসহ।",
-  "id": "/loona-construction-calculators/bn/voltage-drop-calculator/",
+  "id": "/bn/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

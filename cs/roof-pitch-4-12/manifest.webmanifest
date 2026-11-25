@@ -2,7 +2,7 @@
   "name": "Loona 4/12 Roof Pitch",
   "short_name": "4/12 Roof Pitch",
   "description": "Sklon střechy 4/12 je 18.43 stupně (sklon 33%). Násobitel krokve 1.0541, délky krokví pro běžné průměty, materiály a použití.",
-  "id": "/loona-construction-calculators/cs/roof-pitch-4-12/",
+  "id": "/cs/roof-pitch-4-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

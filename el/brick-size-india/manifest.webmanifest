@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in India",
   "short_name": "Brick Size in India",
   "description": "Τυπικό μέγεθος τούβλου στην Ινδία: 190 × 90 × 90 mm. 50.0 τούβλα ανά m² (4.65 ανά sq ft) τοίχου μονής τοιχοποιίας με αρμούς κονιάματος 10 mm, κάλυψη ανά 1,000 τούβλα και ένα λυμένο παράδειγμα τοίχου.",
-  "id": "/loona-construction-calculators/el/brick-size-india/",
+  "id": "/el/brick-size-india/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "Calcolatore gratuito da watt ad ampere per CC, CA monofase e CA trifase: potenza, tensione e fattore di potenza danno la corrente in ampere — il primo passo per dimensionare un interruttore o un cavo.",
-  "id": "/loona-construction-calculators/it/watts-to-amps-calculator/",
+  "id": "/it/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

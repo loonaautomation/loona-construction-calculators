@@ -2,7 +2,7 @@
   "name": "Loona Board Foot Calculator",
   "short_name": "Board Foot Calculator",
   "description": "Kalkulator board foot gratis: ketebalan, lebar, panjang, dan jumlah potong kayu dalam imperial atau metrik — dapatkan total board feet dan meter kubik untuk pesanan kayu Anda.",
-  "id": "/loona-construction-calculators/id/board-foot-calculator/",
+  "id": "/id/board-foot-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

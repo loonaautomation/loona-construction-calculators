@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in India",
   "short_name": "Brick Size in India",
   "description": "Tamaño estándar de ladrillo en la India: 190 × 90 × 90 mm. 50.0 ladrillos por m² (4.65 por sq ft) de pared de una hoja con juntas de mortero de 10 mm, cobertura por cada 1,000 ladrillos y un ejemplo de pared resuelto.",
-  "id": "/loona-construction-calculators/es/brick-size-india/",
+  "id": "/es/brick-size-india/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

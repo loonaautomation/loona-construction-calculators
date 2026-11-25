@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "مفت ڈیسیبل کنورٹر: آپ کے اپنے حوالے کے ساتھ پاور تناسب اور وولٹیج تناسب سے dB، dBm سے ملی واٹ اور واٹ، اور پاور واپس dBm اور dBW تک — فارمولے اور حل شدہ مثالیں۔",
-  "id": "/loona-construction-calculators/ur/db-converter/",
+  "id": "/ur/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

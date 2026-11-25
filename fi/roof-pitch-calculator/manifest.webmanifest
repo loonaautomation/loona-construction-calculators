@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Calculator",
   "short_name": "Roof Pitch Calculator",
   "description": "Ilmainen kattokaltevuuslaskuri: syötä nousu ja juoksu missä tahansa yksikössä — saat kaltevuuden suhteena (x-in-12), kulman asteina, prosenttikaltevuuden ja kattotuolin pituuden. Toimii metrisillä ja tuumamitoilla.",
-  "id": "/loona-construction-calculators/fi/roof-pitch-calculator/",
+  "id": "/fi/roof-pitch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

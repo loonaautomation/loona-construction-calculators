@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "Calculateur de surface gratuit : ajoutez des pièces en formes rectangulaires, circulaires, triangulaires et en L, en pieds et pouces ou en mètres, et obtenez la surface totale en pieds carrés, mètres carrés, yards carrés et acres — avec une estimation de coût optionnelle.",
-  "id": "/loona-construction-calculators/fr/square-footage-calculator/",
+  "id": "/fr/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

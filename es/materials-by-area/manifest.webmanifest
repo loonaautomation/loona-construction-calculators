@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "¿Cuánto material para tu área? Volúmenes de hormigón, cómputos de baldosas y cantidades de pintura para 100 a 3,000 sq ft — calculados con las propias calculadoras del sitio.",
-  "id": "/loona-construction-calculators/es/materials-by-area/",
+  "id": "/es/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

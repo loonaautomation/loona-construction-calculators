@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "Calculadora gratuita de corrente do motor: a potência do motor em kW ou cavalos, a tensão, monofásico ou trifásico, a eficiência e o fator de potência dão uma corrente estimada em plena carga — com ressalvas honestas de placa e código.",
-  "id": "/loona-construction-calculators/pt-pt/motor-current-calculator/",
+  "id": "/pt-pt/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

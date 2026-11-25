@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "DC, AC सिंगल-फेज़ और AC थ्री-फेज़ के लिए मुफ़्त वाट से एम्प्स कैलकुलेटर: पावर, वोल्टेज और पावर फैक्टर से एम्प्स में करंट मिलता है — ब्रेकर या केबल का आकार तय करने का पहला चरण।",
-  "id": "/loona-construction-calculators/hi/watts-to-amps-calculator/",
+  "id": "/hi/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

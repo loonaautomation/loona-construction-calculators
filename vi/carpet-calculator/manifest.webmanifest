@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Máy tính thảm miễn phí: kích thước phòng và khổ cuộn thảm theo hệ mét hoặc imperial cho bạn chiều dài và diện tích thảm thực sự cần mua (đã gồm phần thừa cuộn), cộng chi phí tùy chọn — với dự phòng hao hụt.",
-  "id": "/loona-construction-calculators/vi/carpet-calculator/",
+  "id": "/vi/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

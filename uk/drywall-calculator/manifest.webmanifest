@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Безкоштовний калькулятор гіпсокартону: розмір кімнати в метричних або імперських одиницях — отримайте площу стін і стелі та кількість листів 1200 × 2400 mm або 4 × 8 ft для купівлі, відходи враховано.",
-  "id": "/loona-construction-calculators/uk/drywall-calculator/",
+  "id": "/uk/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

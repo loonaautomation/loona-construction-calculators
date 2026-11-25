@@ -2,7 +2,7 @@
   "name": "Loona Board Foot Calculator",
   "short_name": "Board Foot Calculator",
   "description": "বিনামূল্যের বোর্ড ফুট ক্যালকুলেটর: ইম্পেরিয়াল বা মেট্রিকে কাঠের পুরুত্ব, প্রস্থ, দৈর্ঘ্য ও টুকরোর সংখ্যা — আপনার কাঠের অর্ডারের জন্য মোট বোর্ড ফুট ও ঘনমিটার পেয়ে যান।",
-  "id": "/loona-construction-calculators/bn/board-foot-calculator/",
+  "id": "/bn/board-foot-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

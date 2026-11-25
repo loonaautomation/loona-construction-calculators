@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "あなたの面積に材料はどれくらい？100 から 3,000 sq ft のコンクリート体積、タイル数、塗料の量 — サイト独自の計算機で計算しています。",
-  "id": "/loona-construction-calculators/ja/materials-by-area/",
+  "id": "/ja/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

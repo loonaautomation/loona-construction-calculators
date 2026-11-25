@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "مفت ریزسٹر کلر کوڈ کیلکولیٹر: 4-band، 5-band یا 6-band ریزسٹر پر بینڈ رنگ چنیں اور مزاحمت، ٹالرینس اور درجہ حرارت عددی سر پائیں — یا الٹا کریں، قدر سے بینڈ۔",
-  "id": "/loona-construction-calculators/ur/resistor-colour-code-calculator/",
+  "id": "/ur/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

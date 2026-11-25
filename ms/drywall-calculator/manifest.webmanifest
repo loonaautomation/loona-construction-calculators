@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Kalkulator dinding kering dan papan plaster percuma: saiz bilik dalam metrik atau imperial — dapatkan keluasan dinding dan siling serta bilangan kepingan 1200 × 2400 mm atau 4 × 8 kaki untuk dibeli, pembaziran termasuk.",
-  "id": "/loona-construction-calculators/ms/drywall-calculator/",
+  "id": "/ms/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

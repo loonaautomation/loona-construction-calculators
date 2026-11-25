@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "DC, AC tek faz ve AC üç faz için ücretsiz watt-amper hesaplayıcısı: güç, voltaj ve güç faktörü, amper cinsinden akımı verir — bir sigorta veya kablo boyutlandırmanın ilk adımı.",
-  "id": "/loona-construction-calculators/tr/watts-to-amps-calculator/",
+  "id": "/tr/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

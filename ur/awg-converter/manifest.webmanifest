@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "مفت AWG کنورٹر: AWG گیج سے mm اور انچ میں قطر، mm² میں کراس سیکشن اور تانبے و ایلومینیم کے لیے مزاحمت فی کلومیٹر — یا mm² یا قطر سے قریب ترین AWG تلاش کریں۔",
-  "id": "/loona-construction-calculators/ur/awg-converter/",
+  "id": "/ur/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

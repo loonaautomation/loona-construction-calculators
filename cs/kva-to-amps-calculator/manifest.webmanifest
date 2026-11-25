@@ -2,7 +2,7 @@
   "name": "Loona kVA to Amps Calculator",
   "short_name": "kVA to Amps Calculator",
   "description": "Bezplatná kalkulačka kVA na ampéry pro jednofázové a třífázové zdroje — a obráceně, ampéry na kVA. Dimenzujte proudy generátoru, transformátoru a přívodu z kVA a napětí.",
-  "id": "/loona-construction-calculators/cs/kva-to-amps-calculator/",
+  "id": "/cs/kva-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

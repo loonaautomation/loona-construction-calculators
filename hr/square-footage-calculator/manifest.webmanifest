@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "Besplatni kalkulator površine: dodajte prostorije u obliku pravokutnika, kruga, trokuta i oblika L, u stopama i inčima ili metrima, i dobijte ukupnu površinu u četvornim stopama, m², četvornim jardima i jutrima — s neobaveznom procjenom troška.",
-  "id": "/loona-construction-calculators/hr/square-footage-calculator/",
+  "id": "/hr/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Calculator gratuit de gips-carton: dimensiunea camerei în metric sau imperial — obțineți suprafața pereților și a tavanului și numărul de plăci de 1200 × 2400 mm sau 4 × 8 ft de cumpărat, pierderi incluse.",
-  "id": "/loona-construction-calculators/ro/drywall-calculator/",
+  "id": "/ro/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

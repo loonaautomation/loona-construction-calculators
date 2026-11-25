@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "Безкоштовний конвертер децибелів: відношення потужностей і напруг у дБ із власною опорною величиною, дБм у мілівати й вати, а також потужність назад у дБм і дБВт — формули та розв’язані приклади.",
-  "id": "/loona-construction-calculators/uk/db-converter/",
+  "id": "/uk/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

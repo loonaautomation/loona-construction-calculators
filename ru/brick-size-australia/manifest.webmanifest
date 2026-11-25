@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Australia",
   "short_name": "Brick Size in Australia",
   "description": "Стандартный размер кирпича в Австралии: 230 × 110 × 76 mm. 48.4 кирпича на m² (4.50 на кв. фут) однослойной стены со швами раствора 10 mm, покрытие на 1,000 кирпичей и разобранный пример стены.",
-  "id": "/loona-construction-calculators/ru/brick-size-australia/",
+  "id": "/ru/brick-size-australia/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

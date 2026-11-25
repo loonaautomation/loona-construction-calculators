@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "Бесплатный калькулятор реактивного сопротивления: частота с ёмкостью (µF) даёт ёмкостное сопротивление Xc, с индуктивностью (mH) — индуктивное сопротивление Xl; введите оба значения, чтобы получить суммарное реактивное сопротивление и резонансную частоту LC-контура.",
-  "id": "/loona-construction-calculators/ru/reactance-calculator/",
+  "id": "/ru/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

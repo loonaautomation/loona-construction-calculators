@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Standard)",
   "short_name": "Brick Size in United States",
   "description": "Standard mursteinstørrelse i USA (standard): 203 × 92 × 57 mm. 70.8 murstein per m² (6.57 per sq ft) halvsteinsmur med 9.5 mm mørtelfuger, dekning per 1,000 murstein og et gjennomarbeidet veggeksempel.",
-  "id": "/loona-construction-calculators/nb/brick-size-us-standard/",
+  "id": "/nb/brick-size-us-standard/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

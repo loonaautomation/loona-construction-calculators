@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "مفت قالین کیلکولیٹر: میٹرک یا امپیریل میں کمرے کا سائز اور قالین رول چوڑائی آپ کو اصل میں خریدنے والے قالین کی لکیری لمبائی اور رقبہ دیتے ہیں (رول کٹے ٹکڑے شامل)، اختیاری لاگت کے علاوہ — ضیاع گنجائش کے ساتھ۔",
-  "id": "/loona-construction-calculators/ur/carpet-calculator/",
+  "id": "/ur/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

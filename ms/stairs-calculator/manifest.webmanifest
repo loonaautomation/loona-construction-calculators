@@ -2,7 +2,7 @@
   "name": "Loona Stairs Calculator",
   "short_name": "Stairs Calculator",
   "description": "Kalkulator tangga percuma: masukkan jumlah ketinggian dalam metrik atau imperial — dapatkan bilangan anak tangga, ketinggian anak tangga yang tepat, jumlah larian dan panjang rasuk tangga, dengan peraturan keselesaan 2R + T disemak secara automatik.",
-  "id": "/loona-construction-calculators/ms/stairs-calculator/",
+  "id": "/ms/stairs-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

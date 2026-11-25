@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Полная таблица уклонов крыши: от 1/12 до 12/12 с углами, уклонами и коэффициентами для стропил, у каждого уклона — своя страница руководства.",
-  "id": "/loona-construction-calculators/ru/roof-pitch-chart/",
+  "id": "/ru/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

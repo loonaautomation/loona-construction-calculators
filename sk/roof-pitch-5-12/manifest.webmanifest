@@ -2,7 +2,7 @@
   "name": "Loona 5/12 Roof Pitch",
   "short_name": "5/12 Roof Pitch",
   "description": "Sklon strechy 5/12 má 22.62 stupňa (sklon 42%). Násobiteľ krokvy 1.0833, dĺžky krokiev pre bežné priemety, materiály a použitia.",
-  "id": "/loona-construction-calculators/sk/roof-pitch-5-12/",
+  "id": "/sk/roof-pitch-5-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

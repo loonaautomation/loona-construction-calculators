@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United Kingdom",
   "short_name": "Brick Size in United Kingdom",
   "description": "Τυπικό μέγεθος τούβλου στο Ηνωμένο Βασίλειο: 215 × 102.5 × 65 mm. 59.3 τούβλα ανά m² (5.51 ανά sq ft) τοίχου μονής τοιχοποιίας με αρμούς κονιάματος 10 mm, κάλυψη ανά 1,000 τούβλα και ένα λυμένο παράδειγμα τοίχου.",
-  "id": "/loona-construction-calculators/el/brick-size-uk/",
+  "id": "/el/brick-size-uk/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

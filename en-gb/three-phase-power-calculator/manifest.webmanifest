@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "Free three-phase power calculator: line-to-line voltage, line current and power factor give real power in kW, apparent power in kVA and reactive power in kvar for balanced loads.",
-  "id": "/loona-construction-calculators/en-gb/three-phase-power-calculator/",
+  "id": "/en-gb/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

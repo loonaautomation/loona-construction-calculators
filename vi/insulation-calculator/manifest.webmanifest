@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "Máy tính cách nhiệt miễn phí: nhập diện tích và giá trị R mục tiêu (hoặc RSI hệ mét) và nhận số gói tấm/cuộn hoặc bao vật liệu thổi vào cần mua, cộng độ dày mục tiêu của bạn cần — hệ mét và imperial.",
-  "id": "/loona-construction-calculators/vi/insulation-calculator/",
+  "id": "/vi/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

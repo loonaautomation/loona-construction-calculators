@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United Kingdom",
   "short_name": "Brick Size in United Kingdom",
   "description": "Tamaño estándar de ladrillo en el Reino Unido: 215 × 102.5 × 65 mm. 59.3 ladrillos por m² (5.51 por sq ft) de pared de una hoja con juntas de mortero de 10 mm, cobertura por cada 1,000 ladrillos y un ejemplo de pared resuelto.",
-  "id": "/loona-construction-calculators/es/brick-size-uk/",
+  "id": "/es/brick-size-uk/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

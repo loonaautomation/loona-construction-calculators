@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Pakistan",
   "short_name": "Brick Size in Pakistan",
   "description": "Τυπικό μέγεθος τούβλου στο Πακιστάν: 228 × 107 × 69 mm. 53.2 τούβλα ανά m² (4.94 ανά sq ft) τοίχου μονής τοιχοποιίας με αρμούς κονιάματος 10 mm, κάλυψη ανά 1,000 τούβλα και ένα λυμένο παράδειγμα τοίχου.",
-  "id": "/loona-construction-calculators/el/brick-size-pakistan/",
+  "id": "/el/brick-size-pakistan/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

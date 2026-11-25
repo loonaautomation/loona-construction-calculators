@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Calculator",
   "short_name": "Roof Pitch Calculator",
   "description": "Kalkulator cerun bumbung percuma: masukkan kenaikan dan larian dalam sebarang unit — dapatkan cerun sebagai nisbah (x-dalam-12), sudut dalam darjah, peratusan gred dan panjang kasau. Berfungsi untuk ukuran metrik dan imperial.",
-  "id": "/loona-construction-calculators/ms/roof-pitch-calculator/",
+  "id": "/ms/roof-pitch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona 9/12 Roof Pitch",
   "short_name": "9/12 Roof Pitch",
   "description": "Nachylenie dachu 9/12 to 36.87 stopni (75% spadku). Mnożnik krokwi 1.2500, długości krokwi dla typowych rozpiętości, materiały i zastosowania.",
-  "id": "/loona-construction-calculators/pl/roof-pitch-9-12/",
+  "id": "/pl/roof-pitch-9-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "Gratis betonberegner: pladelængde, -bredde og -tykkelse i metrisk eller imperial — få betonvolumen i kubikmeter og kubikyards, plus hvor mange 20/25 kg- eller 60/80 lb-færdigblandingssække du skal bruge.",
-  "id": "/loona-construction-calculators/da/concrete-calculator/",
+  "id": "/da/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

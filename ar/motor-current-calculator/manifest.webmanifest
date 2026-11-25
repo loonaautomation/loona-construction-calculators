@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "حاسبة تيار محرك مجانية: قدرة المحرك بـ kW أو الحصان، والجهد، وأحادي أو ثلاثي الأطوار، والكفاءة ومعامل القدرة تعطي تيار حمل كامل تقديريًا — مع تحفظات صادقة عن لوحة الاسم واللائحة.",
-  "id": "/loona-construction-calculators/ar/motor-current-calculator/",
+  "id": "/ar/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

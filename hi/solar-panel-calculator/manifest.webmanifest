@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "मुफ़्त सौर पैनल कैलकुलेटर: मासिक बिजली उपयोग, चरम धूप घंटे और पैनल वाट क्षमता से आपको आवश्यक पैनल, kW में प्रणाली आकार, अपेक्षित मासिक उत्पादन और छत क्षेत्र मिलता है — कोई साइन-अप नहीं।",
-  "id": "/loona-construction-calculators/hi/solar-panel-calculator/",
+  "id": "/hi/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

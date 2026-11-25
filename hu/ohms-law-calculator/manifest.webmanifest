@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "Ingyenes Ohm-törvény kalkulátor: adjon meg bármely kettőt a feszültség, áram, ellenállás és teljesítmény közül, és megkapja a másik kettőt — az Ohm-törvény kerék mind a négy negyede, képletekkel és kidolgozott példával.",
-  "id": "/loona-construction-calculators/hu/ohms-law-calculator/",
+  "id": "/hu/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

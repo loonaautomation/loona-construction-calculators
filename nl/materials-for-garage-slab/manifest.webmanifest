@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "Materialen voor een garagevloer van 20 × 20 ft: exact betonvolume en aantallen kant-en-klare zakken (vloer van 4 inch, 10% extra) plus boodschappennotities voor fundering en wapening.",
-  "id": "/loona-construction-calculators/nl/materials-for-garage-slab/",
+  "id": "/nl/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

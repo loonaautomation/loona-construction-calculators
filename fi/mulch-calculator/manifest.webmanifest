@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Ilmainen katelaskuri: penkin pinta-ala ja syvyys metrisenä tai tuumaisena — saat katteen tilavuuden, 40/50 litran tai 2/3 kuutiojalan säkkien määrän sekä irtokuutiometrit ja -jaardit.",
-  "id": "/loona-construction-calculators/fi/mulch-calculator/",
+  "id": "/fi/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

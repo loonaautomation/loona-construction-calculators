@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Ingyenes téglakalkulátor: falhossz és -magasság metrikus vagy angolszász mértékegységben — megkapja a szabványos téglák számát (215 mm vagy amerikai moduláris) egy egyrétegű falhoz, habarcsfuga- és hulladékráhagyással együtt.",
-  "id": "/loona-construction-calculators/hu/brick-calculator/",
+  "id": "/hu/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

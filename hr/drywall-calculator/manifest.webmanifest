@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Besplatni kalkulator gipsanih ploča: veličina sobe u metričkim ili imperijalnim jedinicama — dobit ćete površinu zidova i stropa i broj ploča od 1200 × 2400 mm ili 4 × 8 ft za kupnju, otpad uključen.",
-  "id": "/loona-construction-calculators/hr/drywall-calculator/",
+  "id": "/hr/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

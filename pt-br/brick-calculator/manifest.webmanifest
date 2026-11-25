@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Calculadora gratuita de tijolos: comprimento e altura da parede em métrico ou imperial — obtenha o número de tijolos padrão (215 mm ou modulares dos EUA) para uma parede de um pano, incluindo margens para juntas de argamassa e desperdício.",
-  "id": "/loona-construction-calculators/pt-br/brick-calculator/",
+  "id": "/pt-br/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

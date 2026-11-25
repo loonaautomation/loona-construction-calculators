@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "ממיר דציבלים חינמי: יחסי הספק ויחסי מתח ל-dB עם ייחוס משלכם, dBm למיליוואט ולוואט, והספק בחזרה ל-dBm ול-dBW — נוסחאות ודוגמאות פתורות.",
-  "id": "/loona-construction-calculators/he/db-converter/",
+  "id": "/he/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

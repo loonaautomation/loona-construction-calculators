@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "Darmowy kalkulator reaktancji: częstotliwość z pojemnością (µF) daje reaktancję pojemnościową Xc, z indukcyjnością (mH) daje reaktancję indukcyjną Xl — wpisz obie dla reaktancji wypadkowej i częstotliwości rezonansowej LC.",
-  "id": "/loona-construction-calculators/pl/reactance-calculator/",
+  "id": "/pl/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

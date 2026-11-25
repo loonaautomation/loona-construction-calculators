@@ -2,7 +2,7 @@
   "name": "Loona 9/12 Roof Pitch",
   "short_name": "9/12 Roof Pitch",
   "description": "9/12 屋顶坡度为 36.87 度（坡度 75%）。椽子系数 1.2500，常见水平跨度的椽子长度、材料与用途。",
-  "id": "/loona-construction-calculators/zh/roof-pitch-9-12/",
+  "id": "/zh/roof-pitch-9-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona 4/12 Roof Pitch",
   "short_name": "4/12 Roof Pitch",
   "description": "Uma inclinação de telhado de 4/12 é 18.43 graus (inclinação de 33%). Multiplicador de caibro 1.0541, comprimentos de caibro para percursos comuns, materiais e usos.",
-  "id": "/loona-construction-calculators/pt/roof-pitch-4-12/",
+  "id": "/pt/roof-pitch-4-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

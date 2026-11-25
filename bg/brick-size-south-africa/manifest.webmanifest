@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in South Africa",
   "short_name": "Brick Size in South Africa",
   "description": "Стандартен размер тухла в Южна Африка: 222 × 106 × 73 mm. 51.9 тухли на m² (4.82 на квадратен фут) еднослойна стена с фуги от хоросан 10 mm, покритие на 1,000 тухли и разработен пример за стена.",
-  "id": "/loona-construction-calculators/bg/brick-size-south-africa/",
+  "id": "/bg/brick-size-south-africa/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

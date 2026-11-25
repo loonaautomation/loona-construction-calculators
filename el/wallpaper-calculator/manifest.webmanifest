@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Δωρεάν υπολογιστής ταπετσαρίας: μέγεθος δωματίου σε μετρικό ή αυτοκρατορικό, ευρωπαϊκά ή αμερικανικά διπλά ρολά, επανάληψη μοτίβου επιτρεπόμενη — λάβετε τον ακριβή αριθμό ρολών ταπετσαρίας προς αγορά, με φθορά.",
-  "id": "/loona-construction-calculators/el/wallpaper-calculator/",
+  "id": "/el/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

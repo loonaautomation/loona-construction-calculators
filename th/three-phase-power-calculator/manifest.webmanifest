@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "เครื่องคำนวณไฟฟ้าสามเฟสฟรี: แรงดันระหว่างสาย กระแสสาย และตัวประกอบกำลัง ให้กำลังจริงเป็น kW กำลังปรากฏเป็น kVA และกำลังรีแอกทีฟเป็น kvar สำหรับโหลดที่สมดุล",
-  "id": "/loona-construction-calculators/th/three-phase-power-calculator/",
+  "id": "/th/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

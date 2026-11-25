@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Kalkulator bata percuma: panjang dan ketinggian dinding dalam metrik atau imperial — dapatkan bilangan bata piawai (215 mm atau modular US) untuk dinding satu lapis, termasuk elaun sambungan mortar dan pembaziran.",
-  "id": "/loona-construction-calculators/ms/brick-calculator/",
+  "id": "/ms/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

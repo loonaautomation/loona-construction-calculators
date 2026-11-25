@@ -2,7 +2,7 @@
   "name": "Loona kVA to Amps Calculator",
   "short_name": "kVA to Amps Calculator",
   "description": "Gratis kVA-naar-ampère-calculator voor enkelfase- en driefasenvoedingen — en omgekeerd, ampère naar kVA. Dimensioneer generator-, transformator- en voedingsstromen uit kVA en spanning.",
-  "id": "/loona-construction-calculators/nl/kva-to-amps-calculator/",
+  "id": "/nl/kva-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

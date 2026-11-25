@@ -2,7 +2,7 @@
   "name": "Loona 2/12 Roof Pitch",
   "short_name": "2/12 Roof Pitch",
   "description": "Una pendenza del tetto di 2/12 è 9.46 gradi (pendenza del 17%). Moltiplicatore del puntone 1.0138, lunghezze dei puntoni per percorsi comuni, materiali e usi.",
-  "id": "/loona-construction-calculators/it/roof-pitch-2-12/",
+  "id": "/it/roof-pitch-2-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

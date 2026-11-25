@@ -2,7 +2,7 @@
   "name": "Loona 4/12 Roof Pitch",
   "short_name": "4/12 Roof Pitch",
   "description": "Una pendenza del tetto di 4/12 è 18.43 gradi (pendenza del 33%). Moltiplicatore del puntone 1.0541, lunghezze dei puntoni per percorsi comuni, materiali e usi.",
-  "id": "/loona-construction-calculators/it/roof-pitch-4-12/",
+  "id": "/it/roof-pitch-4-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

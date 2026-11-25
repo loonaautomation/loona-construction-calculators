@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "Ücretsiz beton hesaplayıcısı: plak uzunluğu, genişliği ve kalınlığı metrik veya emperyal olarak — beton hacmini metreküp ve yarda küp cinsinden alın, artı kaç adet 20/25 kg veya 60/80 lb hazır karışım torbasına ihtiyacınız olduğunu.",
-  "id": "/loona-construction-calculators/tr/concrete-calculator/",
+  "id": "/tr/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

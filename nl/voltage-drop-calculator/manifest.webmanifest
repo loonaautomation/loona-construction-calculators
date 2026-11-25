@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Gratis spanningsvalcalculator: enkele kabellengte, stroom, koper of aluminium, kabelmaat in mm² of AWG, enkelfase of driefasen — gevallen volts en % val met 3%/5%-richtlijn.",
-  "id": "/loona-construction-calculators/nl/voltage-drop-calculator/",
+  "id": "/nl/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

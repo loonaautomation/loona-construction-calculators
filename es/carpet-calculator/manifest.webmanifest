@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Calculadora gratuita de alfombras: el tamaño de la habitación y el ancho del rollo en métrico o imperial te dan la longitud lineal y el área de alfombra que realmente debes comprar (recortes del rollo incluidos), más un coste opcional — con margen de desperdicio.",
-  "id": "/loona-construction-calculators/es/carpet-calculator/",
+  "id": "/es/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

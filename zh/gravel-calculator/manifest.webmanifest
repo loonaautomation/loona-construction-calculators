@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "免费砾石计算器：面积和深度（公制或英制）— 得到以立方米和立方码计的砾石体积以及以吨和美吨计的重量，密度和损耗余量可调。",
-  "id": "/loona-construction-calculators/zh/gravel-calculator/",
+  "id": "/zh/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Kalkulator permaidani percuma: saiz bilik dan lebar gulungan permaidani dalam metrik atau imperial memberikan panjang linear dan keluasan permaidani yang sebenarnya perlu dibeli (termasuk potongan lebihan gulungan), serta kos pilihan — dengan elaun pembaziran.",
-  "id": "/loona-construction-calculators/ms/carpet-calculator/",
+  "id": "/ms/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

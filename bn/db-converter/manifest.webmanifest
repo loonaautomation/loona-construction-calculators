@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "বিনামূল্যের ডেসিবেল রূপান্তরকারী: আপনার নিজের প্রসঙ্গসহ ক্ষমতা অনুপাত ও ভোল্টেজ অনুপাত থেকে dB, dBm থেকে মিলিওয়াট ও ওয়াট, এবং ক্ষমতা থেকে আবার dBm ও dBW — সূত্র ও করা উদাহরণ।",
-  "id": "/loona-construction-calculators/bn/db-converter/",
+  "id": "/bn/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

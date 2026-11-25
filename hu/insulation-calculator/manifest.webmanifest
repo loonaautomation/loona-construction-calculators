@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "Ingyenes szigeteléskalkulátor: adja meg a területet és a cél R-értékét (vagy metrikus RSI-t), és megkapja a megvásárolandó paplan-/tekercscsomagokat vagy befújt szigetelőzsákokat, plusz a céljához szükséges vastagságot — metrikus és angolszász.",
-  "id": "/loona-construction-calculators/hu/insulation-calculator/",
+  "id": "/hu/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

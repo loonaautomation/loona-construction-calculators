@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Bezplatná kalkulačka koberca: veľkosť miestnosti a šírka rolky koberca v metrických alebo imperiálnych jednotkách vám dajú lineárnu dĺžku a plochu koberca, ktorú skutočne kúpite (vrátane odrezkov z rolky), plus voliteľné náklady — s rezervou na odpad.",
-  "id": "/loona-construction-calculators/sk/carpet-calculator/",
+  "id": "/sk/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

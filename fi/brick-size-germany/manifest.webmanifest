@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "Vakiotiilikoko Saksassa (NF): 240 × 115 × 71 mm. 49.4 tiiltä per m² (4.59 per sq ft) yksinkertaista seinää 10 mm laastisaumoilla, riittoisuus per 1,000 tiiltä ja laskettu seinäesimerkki.",
-  "id": "/loona-construction-calculators/fi/brick-size-germany/",
+  "id": "/fi/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

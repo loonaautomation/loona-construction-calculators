@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "Materialer til en 20 × 20 ft garageplade: nøjagtigt betonvolumen og antal færdigblandingssække (4-tommer plade, 10% ekstra) plus indkøbsnoter til base og armering.",
-  "id": "/loona-construction-calculators/da/materials-for-garage-slab/",
+  "id": "/da/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

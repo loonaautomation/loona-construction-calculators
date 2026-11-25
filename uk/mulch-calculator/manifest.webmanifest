@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Безкоштовний калькулятор мульчі: площа грядки й глибина в метричних або імперських одиницях — отримайте об’єм мульчі, кількість мішків по 40/50 litres або 2/3 cubic-foot, а також кубічні метри й ярди насипом.",
-  "id": "/loona-construction-calculators/uk/mulch-calculator/",
+  "id": "/uk/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

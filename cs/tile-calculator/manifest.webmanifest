@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Bezplatná kalkulačka dlažby: rozměry podlahy nebo stěny, rozměr dlaždice a šířka spáry v metrických nebo imperiálních jednotkách — získáte přesný počet dlaždic a krabic k nákupu, včetně přídavku na odpad za řezy a rozbití.",
-  "id": "/loona-construction-calculators/cs/tile-calculator/",
+  "id": "/cs/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

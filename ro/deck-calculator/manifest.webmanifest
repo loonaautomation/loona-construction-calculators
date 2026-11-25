@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Calculator gratuit de terasă: dimensiunea terasei și lățimea scândurii în metric sau imperial vă oferă scândurile de terasă de cumpărat, lungimea totală a scândurilor, grinzile și o estimare de șuruburi — cu rost între scânduri, distanța dintre grinzi și rezervă pentru pierderi.",
-  "id": "/loona-construction-calculators/ro/deck-calculator/",
+  "id": "/ro/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

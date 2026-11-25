@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Modular)",
   "short_name": "Brick Size in United States",
   "description": "Standard-Ziegelmaß in den Vereinigten Staaten (Modular): 194 × 92 × 57 mm. 73.9 Ziegel pro m² (6.87 pro sq ft) einschaliger Wand mit 9.5 mm Mörtelfugen, Abdeckung pro 1,000 Ziegel und ein durchgerechnetes Wandbeispiel.",
-  "id": "/loona-construction-calculators/de/brick-size-us-modular/",
+  "id": "/de/brick-size-us-modular/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "Kalkulator hukum Ohm percuma: masukkan mana-mana dua daripada voltan, arus, rintangan dan kuasa dan dapatkan dua yang lain — keempat-empat kuadran roda hukum Ohm, dengan formula dan contoh kiraan.",
-  "id": "/loona-construction-calculators/ms/ohms-law-calculator/",
+  "id": "/ms/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

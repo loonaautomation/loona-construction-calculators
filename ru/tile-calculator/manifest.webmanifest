@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Бесплатный калькулятор плитки: размер пола или стены, размер плитки и зазор для затирки в метрической или имперской системе — получите точное количество плиток и коробок для покупки, включая запас на отходы из-за подрезки и боя.",
-  "id": "/loona-construction-calculators/ru/tile-calculator/",
+  "id": "/ru/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

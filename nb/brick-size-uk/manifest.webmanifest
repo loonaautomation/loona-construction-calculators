@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United Kingdom",
   "short_name": "Brick Size in United Kingdom",
   "description": "Standard mursteinstørrelse i Storbritannia: 215 × 102.5 × 65 mm. 59.3 murstein per m² (5.51 per sq ft) halvsteinsmur med 10 mm mørtelfuger, dekning per 1,000 murstein og et gjennomarbeidet veggeksempel.",
-  "id": "/loona-construction-calculators/nb/brick-size-uk/",
+  "id": "/nb/brick-size-uk/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

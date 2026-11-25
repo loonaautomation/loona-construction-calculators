@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Gratis tæppeberegner: rumstørrelse og tæppets rullebredde i metrisk eller imperial giver dig den lineære længde og det areal af tæppe, du faktisk skal købe (inklusive rulleafskær), plus en valgfri pris — med spildtillæg.",
-  "id": "/loona-construction-calculators/da/carpet-calculator/",
+  "id": "/da/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

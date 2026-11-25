@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "Ücretsiz Ohm kanunu hesaplayıcısı: voltaj, akım, direnç ve güçten herhangi ikisini girin ve diğer ikisini alın — Ohm kanunu çarkının dört kadranı, formüller ve çözümlü bir örnekle.",
-  "id": "/loona-construction-calculators/tr/ohms-law-calculator/",
+  "id": "/tr/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Δωρεάν μετατροπέας AWG: μετρητής AWG σε διάμετρο σε mm και ίντσες, διατομή σε mm² και αντίσταση ανά χιλιόμετρο για χαλκό και αλουμίνιο — ή βρείτε το πλησιέστερο AWG από mm² ή διάμετρο.",
-  "id": "/loona-construction-calculators/el/awg-converter/",
+  "id": "/el/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

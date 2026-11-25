@@ -2,7 +2,7 @@
   "name": "Loona 〰️ Reactance Calculator",
   "short_name": "〰️ Reactance Calculator",
   "description": "Free reactance calculator: frequency with capacitance (µF) gives capacitive reactance Xc, with inductance (mH) gives inductive reactance Xl — enter both for net reactance and the LC resonant frequency.",
-  "id": "/loona-construction-calculators/en-us/reactance-calculator/",
+  "id": "/en-us/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

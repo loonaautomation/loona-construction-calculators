@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "Gratis grusberegner: areal og dybde i metrisk eller imperial — få grusvolumen i kubikmeter og kubikyards og vægt i ton og US tons, med en justerbar densitet og et spildtillæg.",
-  "id": "/loona-construction-calculators/da/gravel-calculator/",
+  "id": "/da/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

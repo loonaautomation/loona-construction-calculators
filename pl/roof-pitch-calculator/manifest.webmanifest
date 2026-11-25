@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Calculator",
   "short_name": "Roof Pitch Calculator",
   "description": "Darmowy kalkulator nachylenia dachu: wpisz wznios i bieg w dowolnej jednostce — otrzymaj nachylenie jako stosunek (x-na-12), kąt w stopniach, spadek w procentach i długość krokwi. Działa dla pomiarów metrycznych i imperialnych.",
-  "id": "/loona-construction-calculators/pl/roof-pitch-calculator/",
+  "id": "/pl/roof-pitch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

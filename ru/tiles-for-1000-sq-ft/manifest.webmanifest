@@ -2,7 +2,7 @@
   "name": "Loona How Many Tiles for 1000 Sq Ft? (60×60 cm)",
   "short_name": "How Many Tiles for 1000 Sq",
   "description": "Плитка для 1000 sq ft плиткой 60×60 cm и швами 3 mm: 282 плиток (71 коробки по 4), включая 10% запаса на обрезку и бой.",
-  "id": "/loona-construction-calculators/ru/tiles-for-1000-sq-ft/",
+  "id": "/ru/tiles-for-1000-sq-ft/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

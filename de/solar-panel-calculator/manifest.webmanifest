@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "Kostenloser Solarpanel-Rechner: Monatlicher Stromverbrauch, Spitzenstunden der Sonne und Panelleistung geben Ihnen die benötigten Panels, die Systemgröße in kW, die erwartete monatliche Produktion und die Dachfläche — ohne Anmeldung.",
-  "id": "/loona-construction-calculators/de/solar-panel-calculator/",
+  "id": "/de/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

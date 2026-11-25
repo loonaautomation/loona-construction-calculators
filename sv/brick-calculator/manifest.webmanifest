@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Gratis tegelkalkylator: vägglängd och -höjd i metriskt eller imperial — få antalet standardtegel (215 mm eller US modular) för en enkelskiktsvägg, inklusive murbruksfog- och spilltillägg.",
-  "id": "/loona-construction-calculators/sv/brick-calculator/",
+  "id": "/sv/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

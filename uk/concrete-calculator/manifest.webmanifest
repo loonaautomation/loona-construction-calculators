@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "Безкоштовний калькулятор бетону: довжина, ширина й товщина плити в метричних або імперських одиницях — отримайте об’єм бетону в кубічних метрах і кубічних ярдах, а також кількість потрібних мішків готової суміші по 20/25 kg або 60/80 lb.",
-  "id": "/loona-construction-calculators/uk/concrete-calculator/",
+  "id": "/uk/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

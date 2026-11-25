@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in India",
   "short_name": "Brick Size in India",
   "description": "Стандартний розмір цегли в Індії: 190 × 90 × 90 mm. 50.0 цеглин на м² (4.65 на кв. фут) стіни в пів цегли зі швами розчину 10 mm, покриття на 1,000 цеглин і розв’язаний приклад стіни.",
-  "id": "/loona-construction-calculators/uk/brick-size-india/",
+  "id": "/uk/brick-size-india/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

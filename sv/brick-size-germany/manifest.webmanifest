@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "Standard tegelstorlek i Tyskland (NF): 240 × 115 × 71 mm. 49.4 tegelstenar per m² (4.59 per sq ft) enkelskiktsvägg med murbruksfogar på 10 mm, täckning per 1,000 tegelstenar och ett genomräknat väggexempel.",
-  "id": "/loona-construction-calculators/sv/brick-size-germany/",
+  "id": "/sv/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

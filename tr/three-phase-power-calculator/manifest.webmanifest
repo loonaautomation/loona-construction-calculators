@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "Ücretsiz üç faz güç hesaplayıcısı: faz-faz arası voltaj, hat akımı ve güç faktörü; dengeli yükler için kW cinsinden gerçek gücü, kVA cinsinden görünür gücü ve kvar cinsinden reaktif gücü verir.",
-  "id": "/loona-construction-calculators/tr/three-phase-power-calculator/",
+  "id": "/tr/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

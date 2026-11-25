@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "Besplatni kalkulator Ohmova zakona: unesite bilo koje dvije od napona, struje, otpora i snage i dobit ćete druge dvije — sva četiri kvadranta kotača Ohmova zakona, s formulama i obrađenim primjerom.",
-  "id": "/loona-construction-calculators/hr/ohms-law-calculator/",
+  "id": "/hr/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

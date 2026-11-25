@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Gratis AWG-omvandlare: AWG-gauge till diameter i mm och inches, tvärsnitt i mm² och resistans per kilometer för koppar och aluminium — eller hitta närmaste AWG från mm² eller diameter.",
-  "id": "/loona-construction-calculators/sv/awg-converter/",
+  "id": "/sv/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

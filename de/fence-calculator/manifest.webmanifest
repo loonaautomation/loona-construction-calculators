@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Kostenloser Zaun-Rechner: Zaunlänge und Pfostenabstand metrisch oder imperial ergeben Pfosten, Riegel, Latten (aus Lattenbreite und Abstand) und Betonsäcke — mit einer Verschnittzugabe für Latten.",
-  "id": "/loona-construction-calculators/de/fence-calculator/",
+  "id": "/de/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

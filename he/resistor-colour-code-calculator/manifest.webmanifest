@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "מחשבון קוד צבעים של נגד חינמי: בחרו את צבעי הפסים בנגד 4 פסים, 5 פסים או 6 פסים כדי לקבל התנגדות, סבולת ומקדם טמפרטורה — או הפוך, ערך לפסים.",
-  "id": "/loona-construction-calculators/he/resistor-colour-code-calculator/",
+  "id": "/he/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

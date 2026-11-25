@@ -2,7 +2,7 @@
   "name": "Loona 2/12 Roof Pitch",
   "short_name": "2/12 Roof Pitch",
   "description": "Η κλίση στέγης 2/12 είναι 9.46 μοίρες (κλίση 17%). Συντελεστής δοκού 1.0138, μήκη δοκών για συνηθισμένες διαδρομές, υλικά και χρήσεις.",
-  "id": "/loona-construction-calculators/el/roof-pitch-2-12/",
+  "id": "/el/roof-pitch-2-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

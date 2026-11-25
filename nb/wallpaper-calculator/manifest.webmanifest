@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Gratis tapetkalkulator: romstørrelse i metrisk eller imperiell, europeiske eller amerikanske dobbeltruller, mønsterrapport tatt hensyn til — få det nøyaktige antallet tapetruller å kjøpe, svinn inkludert.",
-  "id": "/loona-construction-calculators/nb/wallpaper-calculator/",
+  "id": "/nb/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

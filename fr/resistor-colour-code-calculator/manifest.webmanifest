@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "Calculateur gratuit de code couleur des résistances : choisissez les couleurs des anneaux d'une résistance à 4, 5 ou 6 anneaux pour obtenir résistance, tolérance et coefficient de température — ou inversez-le, de la valeur aux anneaux.",
-  "id": "/loona-construction-calculators/fr/resistor-colour-code-calculator/",
+  "id": "/fr/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

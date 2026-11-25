@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Besplatni kalkulator terase: veličina terase i širina daske u metričkim ili imperijalnim jedinicama daju vam daske za terasu za kupnju, ukupnu duljinu dasaka, grede i procjenu vijaka — s razmakom dasaka, razmakom greda i dodatkom za otpad.",
-  "id": "/loona-construction-calculators/hr/deck-calculator/",
+  "id": "/hr/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

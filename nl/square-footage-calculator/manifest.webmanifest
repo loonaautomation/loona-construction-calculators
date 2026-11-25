@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "Gratis oppervlaktecalculator: voeg kamers toe in rechthoek-, cirkel-, driehoek- en L-vormen, in feet en inches of meters, en krijg de totale oppervlakte in vierkante feet, vierkante meters, vierkante yards en acres — met een optionele kostenraming.",
-  "id": "/loona-construction-calculators/nl/square-footage-calculator/",
+  "id": "/nl/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

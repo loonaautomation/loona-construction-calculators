@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 12 × 16 ft Deck",
   "short_name": "Materials for a 12 × 16 ft",
   "description": "Список покупок на настил 12×16 ft: дошки настилу, board feet, балки, стовпи й кількість шурупів — обчислено з планування, із застереженнями норм.",
-  "id": "/loona-construction-calculators/uk/materials-for-12x16-deck/",
+  "id": "/uk/materials-for-12x16-deck/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

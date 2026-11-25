@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Ilmainen kaapelikokolaskuri: virta, yksisuuntainen pituus, sallittu jännitehäviö %, jännite, kupari tai alumiini, yksivaihe tai kolmivaihe — kaapelin vähimmäiskoko mm²:ina, lähin vakiokoko ja AWG-vastine.",
-  "id": "/loona-construction-calculators/fi/wire-size-calculator/",
+  "id": "/fi/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "Bezplatná kalkulačka trojfázového výkonu: združené napätie, združený prúd a účinník dávajú činný výkon v kW, zdanlivý výkon v kVA a jalový výkon v kvar pre vyvážené záťaže.",
-  "id": "/loona-construction-calculators/sk/three-phase-power-calculator/",
+  "id": "/sk/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

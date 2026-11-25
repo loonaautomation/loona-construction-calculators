@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "Standardna veličina opeke u Njemačkoj (NF): 240 × 115 × 71 mm. 49.4 opeke po m² (4.59 po sq ft) jednoslojnog zida sa spojnicama morta od 10 mm, pokrivenost po 1,000 opeka i obrađeni primjer zida.",
-  "id": "/loona-construction-calculators/hr/brick-size-germany/",
+  "id": "/hr/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

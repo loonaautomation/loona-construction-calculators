@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Calculator gratuit de plăci ceramice: dimensiunea pardoselii sau a peretelui, dimensiunea plăcii și rostul de chit în metric sau imperial — obțineți numărul exact de plăci și cutii de cumpărat, inclusiv o rezervă pentru pierderi la tăieturi și spargeri.",
-  "id": "/loona-construction-calculators/ro/tile-calculator/",
+  "id": "/ro/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

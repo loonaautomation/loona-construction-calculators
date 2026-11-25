@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "Calculadora gratuita de potência trifásica: a tensão linha a linha, a corrente de linha e o fator de potência dão a potência real em kW, a potência aparente em kVA e a potência reativa em kvar para cargas equilibradas.",
-  "id": "/loona-construction-calculators/pt/three-phase-power-calculator/",
+  "id": "/pt/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

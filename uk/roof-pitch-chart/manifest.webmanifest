@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Повна таблиця ухилів даху: від 1/12 до 12/12 з кутами, відсотками й множниками крокв, кожен ухил із власною сторінкою-довідником.",
-  "id": "/loona-construction-calculators/uk/roof-pitch-chart/",
+  "id": "/uk/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

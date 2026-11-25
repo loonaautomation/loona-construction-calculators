@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "Kalkulator penebat percuma: masukkan keluasan dan nilai R sasaran anda (atau RSI metrik) dan dapatkan pek kepingan/gulungan atau beg penebat tiupan untuk dibeli, serta ketebalan yang diperlukan oleh sasaran anda — metrik dan imperial.",
-  "id": "/loona-construction-calculators/ms/insulation-calculator/",
+  "id": "/ms/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

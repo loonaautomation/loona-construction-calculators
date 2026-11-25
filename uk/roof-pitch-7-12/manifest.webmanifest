@@ -2,7 +2,7 @@
   "name": "Loona 7/12 Roof Pitch",
   "short_name": "7/12 Roof Pitch",
   "description": "Ухил даху 7/12 — це 30.26 градусів (ухил 58%). Коефіцієнт крокви 1.1577, довжини кроков для поширених прогонів, матеріали й застосування.",
-  "id": "/loona-construction-calculators/uk/roof-pitch-7-12/",
+  "id": "/uk/roof-pitch-7-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

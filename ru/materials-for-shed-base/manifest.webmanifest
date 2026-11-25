@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 10 × 12 ft Shed Base",
   "short_name": "Materials for a 10 × 12 ft",
   "description": "Материалы для основания сарая 10 × 12 ft: точный объём бетона и количество мешков готовой смеси (плита 4 дюйма, запас 10%) плюс заметки о покупке основания и армирования.",
-  "id": "/loona-construction-calculators/ru/materials-for-shed-base/",
+  "id": "/ru/materials-for-shed-base/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

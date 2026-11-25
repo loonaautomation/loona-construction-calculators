@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 10 × 12 ft Shed Base",
   "short_name": "Materials for a 10 × 12 ft",
   "description": "Materiały na podstawę szopy 10 × 12 ft: dokładna objętość betonu i liczby worków gotowej mieszanki (płyta 4 cale, 10% zapasu) plus uwagi zakupowe o podbudowie i zbrojeniu.",
-  "id": "/loona-construction-calculators/pl/materials-for-shed-base/",
+  "id": "/pl/materials-for-shed-base/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

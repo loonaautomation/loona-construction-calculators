@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "Darmowy kalkulator watów na ampery dla DC, AC jednofazowego i AC trójfazowego: moc, napięcie i współczynnik mocy dają prąd w amperach — pierwszy krok do wymiarowania wyłącznika lub przewodu.",
-  "id": "/loona-construction-calculators/pl/watts-to-amps-calculator/",
+  "id": "/pl/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

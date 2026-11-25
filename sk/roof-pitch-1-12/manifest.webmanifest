@@ -2,7 +2,7 @@
   "name": "Loona 1/12 Roof Pitch",
   "short_name": "1/12 Roof Pitch",
   "description": "Sklon strechy 1/12 má 4.76 stupňa (sklon 8%). Násobiteľ krokvy 1.0035, dĺžky krokiev pre bežné priemety, materiály a použitia.",
-  "id": "/loona-construction-calculators/sk/roof-pitch-1-12/",
+  "id": "/sk/roof-pitch-1-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

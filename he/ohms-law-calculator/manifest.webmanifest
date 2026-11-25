@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "מחשבון חוק אוהם חינמי: הזינו כל שניים ממתח, זרם, התנגדות והספק וקבלו את השניים האחרים — כל ארבעת רביעי גלגל חוק אוהם, עם נוסחאות ודוגמה פתורה.",
-  "id": "/loona-construction-calculators/he/ohms-law-calculator/",
+  "id": "/he/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

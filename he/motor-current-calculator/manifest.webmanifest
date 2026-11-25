@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "מחשבון זרם מנוע חינמי: הספק מנוע ב-kW או בכוחות סוס, מתח, חד או תלת-פאזי, נצילות ומקדם הספק נותנים זרם עומס מלא משוער — עם הסתייגויות כנות של לוחית ותקן.",
-  "id": "/loona-construction-calculators/he/motor-current-calculator/",
+  "id": "/he/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

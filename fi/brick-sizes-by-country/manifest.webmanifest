@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Vakiotiilikoot UK:ssa, USA:ssa, Intiassa, Pakistanissa, Australiassa, Saksassa ja Etelä-Afrikassa — mitat ja tiilet per neliömetri vertailtuna.",
-  "id": "/loona-construction-calculators/fi/brick-sizes-by-country/",
+  "id": "/fi/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

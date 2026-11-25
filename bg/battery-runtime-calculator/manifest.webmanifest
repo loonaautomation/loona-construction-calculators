@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "Безплатен калкулатор за време на работа на батерия: волтовете и ампер-часовете на батерията, ватовете на товара, дълбочината на разреждане и ефективността на инвертора дават използваеми ват-часове и време на работа в часове — за планиране на соларни, UPS и автономни системи.",
-  "id": "/loona-construction-calculators/bg/battery-runtime-calculator/",
+  "id": "/bg/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

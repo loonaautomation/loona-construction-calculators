@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "Kostenloser Motorstrom-Rechner: Motorleistung in kW oder Pferdestärken, Spannung, ein- oder dreiphasig, Wirkungsgrad und Leistungsfaktor geben einen geschätzten Volllaststrom — mit ehrlichen Typenschild- und Code-Vorbehalten.",
-  "id": "/loona-construction-calculators/de/motor-current-calculator/",
+  "id": "/de/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

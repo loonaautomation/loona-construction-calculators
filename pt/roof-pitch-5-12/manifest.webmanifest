@@ -2,7 +2,7 @@
   "name": "Loona 5/12 Roof Pitch",
   "short_name": "5/12 Roof Pitch",
   "description": "Uma inclinação de telhado de 5/12 é 22.62 graus (inclinação de 42%). Multiplicador de caibro 1.0833, comprimentos de caibro para percursos comuns, materiais e usos.",
-  "id": "/loona-construction-calculators/pt/roof-pitch-5-12/",
+  "id": "/pt/roof-pitch-5-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

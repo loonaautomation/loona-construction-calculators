@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 12 × 16 ft Deck",
   "short_name": "Materials for a 12 × 16 ft",
   "description": "รายการซื้อสำหรับพื้นไม้ภายนอก 12×16 ft: ไม้พื้น บอร์ดฟุต ตง เสา และจำนวนสกรู — คำนวณจากการจัดวาง พร้อมระบุข้อควรระวังตามข้อกำหนด",
-  "id": "/loona-construction-calculators/th/materials-for-12x16-deck/",
+  "id": "/th/materials-for-12x16-deck/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

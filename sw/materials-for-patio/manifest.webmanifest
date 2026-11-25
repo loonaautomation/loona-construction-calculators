@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 16 × 20 ft Patio",
   "short_name": "Materials for a 16 × 20 ft",
   "description": "Orodha ya ununuzi kwa patio ya 16×20 ft: hesabu ya vigae vya kuweka kwa mpangilio, kitanda cha mchanga, msingi wa changarawe na vizuizi vya ukingo — kiasi kilichohesabiwa.",
-  "id": "/loona-construction-calculators/sw/materials-for-patio/",
+  "id": "/sw/materials-for-patio/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

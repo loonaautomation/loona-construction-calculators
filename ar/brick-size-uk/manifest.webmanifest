@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United Kingdom",
   "short_name": "Brick Size in United Kingdom",
   "description": "المقاس القياسي للطوب في المملكة المتحدة: 215 × 102.5 × 65 mm. 59.3 طوبة لكل m² (5.51 لكل sq ft) من جدار أحادي الطبقة بفواصل ملاط 10 mm، وتغطية لكل 1,000 طوبة ومثال جدار محلول.",
-  "id": "/loona-construction-calculators/ar/brick-size-uk/",
+  "id": "/ar/brick-size-uk/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

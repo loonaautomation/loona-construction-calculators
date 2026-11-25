@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Australia",
   "short_name": "Brick Size in Australia",
   "description": "Standard-Ziegelmaß in Australien: 230 × 110 × 76 mm. 48.4 Ziegel pro m² (4.50 pro sq ft) einschaliger Wand mit 10 mm Mörtelfugen, Abdeckung pro 1,000 Ziegel und ein durchgerechnetes Wandbeispiel.",
-  "id": "/loona-construction-calculators/de/brick-size-australia/",
+  "id": "/de/brick-size-australia/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

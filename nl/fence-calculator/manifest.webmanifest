@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Gratis schuttingcalculator: schuttinglengte en paalafstand in metrisch of imperiaal geven je palen, regels, latten (uit lattenbreedte en voeg) en betonzakken — met een verliesstoeslag voor latten.",
-  "id": "/loona-construction-calculators/nl/fence-calculator/",
+  "id": "/nl/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

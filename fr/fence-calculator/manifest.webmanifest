@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Calculateur gratuit de clôture : la longueur de la clôture et l'espacement des poteaux en métrique ou impérial vous donnent les poteaux, les lisses, les piquets (d'après la largeur et l'espacement) et les sacs de béton — avec une marge de pertes pour les piquets.",
-  "id": "/loona-construction-calculators/fr/fence-calculator/",
+  "id": "/fr/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

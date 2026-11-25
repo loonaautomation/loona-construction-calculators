@@ -2,7 +2,7 @@
   "name": "Loona 6/12 Roof Pitch",
   "short_name": "6/12 Roof Pitch",
   "description": "Eine 6/12 Dachneigung sind 26.57 Grad (50% Steigung). Sparren-Multiplikator 1.1180, Sparrenlängen für übliche Verläufe, Materialien und Verwendungen.",
-  "id": "/loona-construction-calculators/de/roof-pitch-6-12/",
+  "id": "/de/roof-pitch-6-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "حاسبة نشارة مجانية: مساحة الحوض وعمقه بالمتري أو الإمبراطوري — احصل على حجم النشارة وعدد أكياس 40/50 لتر أو 2/3 أقدام مكعبة، والأمتار المكعبة والياردات السائبة.",
-  "id": "/loona-construction-calculators/ar/mulch-calculator/",
+  "id": "/ar/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

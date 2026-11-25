@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "מחשבון לבנים חינמי: אורך וגובה קיר במטרי או באימפריאלי — קבלו את מספר הלבנים הסטנדרטיות (215 mm או מודולרית אמריקאית) לקיר חד-שכבתי, כולל תוספות תפר טיח ופחת.",
-  "id": "/loona-construction-calculators/he/brick-calculator/",
+  "id": "/he/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

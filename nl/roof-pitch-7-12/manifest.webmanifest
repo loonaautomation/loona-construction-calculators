@@ -2,7 +2,7 @@
   "name": "Loona 7/12 Roof Pitch",
   "short_name": "7/12 Roof Pitch",
   "description": "Een dakhelling van 7/12 is 30.26 graden (58% hellingspercentage). Dakspantvermenigvuldiger 1.1577, dakspantlengtes voor gebruikelijke aantredes, materialen en toepassingen.",
-  "id": "/loona-construction-calculators/nl/roof-pitch-7-12/",
+  "id": "/nl/roof-pitch-7-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

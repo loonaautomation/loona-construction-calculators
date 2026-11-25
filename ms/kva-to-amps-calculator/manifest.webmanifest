@@ -2,7 +2,7 @@
   "name": "Loona kVA to Amps Calculator",
   "short_name": "kVA to Amps Calculator",
   "description": "Kalkulator kVA kepada amp percuma untuk bekalan satu fasa dan tiga fasa — dan sebaliknya, amp kepada kVA. Tentukan saiz penjana, transformer dan arus bekalan daripada kVA dan voltan.",
-  "id": "/loona-construction-calculators/ms/kva-to-amps-calculator/",
+  "id": "/ms/kva-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

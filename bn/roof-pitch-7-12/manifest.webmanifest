@@ -2,7 +2,7 @@
   "name": "Loona 7/12 Roof Pitch",
   "short_name": "7/12 Roof Pitch",
   "description": "একটি 7/12 ছাদের ঢাল 30.26 ডিগ্রি (58% গ্রেড)। রাফটার গুণক 1.1577, সাধারণ বিস্তারের জন্য রাফটারের দৈর্ঘ্য, উপকরণ ও ব্যবহার।",
-  "id": "/loona-construction-calculators/bn/roof-pitch-7-12/",
+  "id": "/bn/roof-pitch-7-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

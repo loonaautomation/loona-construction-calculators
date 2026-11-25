@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "Kostenloser Kies-Rechner: Fläche und Tiefe metrisch oder imperial — erhalten Sie das Kiesvolumen in Kubikmetern und Kubikyard und das Gewicht in Tonnen und US-Tonnen, mit einstellbarer Dichte und Verschnittzugabe.",
-  "id": "/loona-construction-calculators/de/gravel-calculator/",
+  "id": "/de/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

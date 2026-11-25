@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Berapa banyak bahan untuk kawasan anda? Isi padu konkrit, bilangan jubin dan kuantiti cat untuk 100 hingga 3,000 kaki persegi — dikira dengan kalkulator tapak ini sendiri.",
-  "id": "/loona-construction-calculators/ms/materials-by-area/",
+  "id": "/ms/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

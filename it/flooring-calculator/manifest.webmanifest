@@ -2,7 +2,7 @@
   "name": "Loona Flooring Calculator",
   "short_name": "Flooring Calculator",
   "description": "Calcolatore pavimenti gratuito: dimensioni della stanza e copertura per scatola in metrico o imperiale — ottieni il numero di scatole di laminato, vinile o legno ingegnerizzato da comprare, incluso il margine per gli scarti di taglio.",
-  "id": "/loona-construction-calculators/it/flooring-calculator/",
+  "id": "/it/flooring-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

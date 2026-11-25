@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "Ilmainen akun käyttöaikalaskuri: akun voltit ja ampeeritunnit, kuorman watit, purkusyvyys ja vaihtosuuntaajan hyötysuhde antavat käytettävät wattitunnit ja käyttöajan tunteina — aurinko-, UPS- ja verkon ulkopuoliseen suunnitteluun.",
-  "id": "/loona-construction-calculators/fi/battery-runtime-calculator/",
+  "id": "/fi/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

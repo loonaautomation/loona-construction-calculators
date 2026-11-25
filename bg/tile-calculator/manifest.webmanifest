@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Безплатен калкулатор за плочки: размерът на пода или стената, размерът на плочката и фугата в метрична или имперска система — получете точния брой плочки и кутии за покупка, включително резерв за отпадък при срезове и счупвания.",
-  "id": "/loona-construction-calculators/bg/tile-calculator/",
+  "id": "/bg/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "מחשבון מידת כבל חינמי: זרם, אורך חד-כיווני, % מפל מתח מותר, מתח, נחושת או אלומיניום, חד או תלת-פאזי — מידת כבל מינימלית ב-mm², מידה סטנדרטית קרובה ביותר ומקביל AWG.",
-  "id": "/loona-construction-calculators/he/wire-size-calculator/",
+  "id": "/he/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

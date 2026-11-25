@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Standard)",
   "short_name": "Brick Size in United States",
   "description": "Standardowy rozmiar cegły w Stanach Zjednoczonych (Standard): 203 × 92 × 57 mm. 70.8 cegieł na m² (6.57 na sq ft) ściany jednowarstwowej przy fugach zaprawy 9.5 mm, pokrycie na 1,000 cegieł i przykład obliczeniowy ściany.",
-  "id": "/loona-construction-calculators/pl/brick-size-us-standard/",
+  "id": "/pl/brick-size-us-standard/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

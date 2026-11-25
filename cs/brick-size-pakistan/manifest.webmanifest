@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Pakistan",
   "short_name": "Brick Size in Pakistan",
   "description": "Standardní rozměr cihly v Pákistánu: 228 × 107 × 69 mm. 53.2 cihel na m² (4.94 na čtvereční stopu) jednovrstvé zdi se spárami 10 mm na maltu, pokrytí na 1,000 cihel a vypracovaný příklad zdi.",
-  "id": "/loona-construction-calculators/cs/brick-size-pakistan/",
+  "id": "/cs/brick-size-pakistan/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Komplett takvinkeltabell: 1/12 til 12/12 med vinkler, hellinger og sperremultiplikatorer, hver takvinkel med sin egen guideside.",
-  "id": "/loona-construction-calculators/nb/roof-pitch-chart/",
+  "id": "/nb/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

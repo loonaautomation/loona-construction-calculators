@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "मुफ़्त वायर साइज़ कैलकुलेटर: करंट, एक-तरफ़ा लंबाई, अनुमत वोल्टेज-गिरावट %, वोल्टेज, ताँबा या एल्युमिनियम, सिंगल या थ्री-फेज़ — mm² में न्यूनतम केबल आकार, निकटतम मानक आकार और AWG समकक्ष।",
-  "id": "/loona-construction-calculators/hi/wire-size-calculator/",
+  "id": "/hi/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

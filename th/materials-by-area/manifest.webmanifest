@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "วัสดุเท่าใดสำหรับพื้นที่ของคุณ? ปริมาตรคอนกรีต จำนวนกระเบื้อง และปริมาณสีสำหรับ 100 ถึง 3,000 sq ft — คำนวณด้วยเครื่องคำนวณของเว็บไซต์เอง",
-  "id": "/loona-construction-calculators/th/materials-by-area/",
+  "id": "/th/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

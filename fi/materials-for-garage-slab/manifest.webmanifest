@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "Materiaalit 20 × 20 ft autotallin laatalle: tarkka betonitilavuus ja valmisseossäkkien määrät (4-tuumainen laatta, 10% lisää) sekä pohjan ja raudoituksen ostohuomautukset.",
-  "id": "/loona-construction-calculators/fi/materials-for-garage-slab/",
+  "id": "/fi/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

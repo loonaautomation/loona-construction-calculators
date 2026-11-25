@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "Calculadora gratuita de aislamiento: introduce el área y tu valor R objetivo (o el RSI métrico) y obtén los paquetes de paneles/rollos o bolsas de aislamiento soplado a comprar, más el grosor que tu objetivo necesita — métrico e imperial.",
-  "id": "/loona-construction-calculators/es/insulation-calculator/",
+  "id": "/es/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "Ücretsiz reaktans hesaplayıcısı: frekans; kapasitans (µF) ile kapasitif reaktans Xc'yi, endüktans (mH) ile endüktif reaktans Xl'yi verir — net reaktans ve LC rezonans frekansı için ikisini de girin.",
-  "id": "/loona-construction-calculators/tr/reactance-calculator/",
+  "id": "/tr/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

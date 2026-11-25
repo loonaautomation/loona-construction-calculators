@@ -2,7 +2,7 @@
   "name": "Loona Board Foot Calculator",
   "short_name": "Board Foot Calculator",
   "description": "Bezplatná kalkulačka deskových stop: tloušťka, šířka, délka a počet kusů řeziva v imperiálních nebo metrických jednotkách — získáte celkové deskové stopy a krychlové metry pro objednávku dřeva.",
-  "id": "/loona-construction-calculators/cs/board-foot-calculator/",
+  "id": "/cs/board-foot-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

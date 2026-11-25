@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Ingyenes vezetékméret-kalkulátor: áram, egyszeres hossz, megengedett feszültségesés %, feszültség, réz vagy alumínium, egyfázisú vagy háromfázisú — minimális kábelméret mm²-ben, legközelebbi szabványos méret és AWG-megfelelő.",
-  "id": "/loona-construction-calculators/hu/wire-size-calculator/",
+  "id": "/hu/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Free wire size calculator: current, one-way length, allowed voltage-drop %, voltage, copper or aluminium, single or three-phase — minimum cable size in mm², nearest standard size and AWG equivalent.",
-  "id": "/loona-construction-calculators/wire-size-calculator/",
+  "id": "/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

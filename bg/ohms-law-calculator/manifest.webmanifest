@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "Безплатен калкулатор за закона на Ом: въведете кои и да е две от напрежение, ток, съпротивление и мощност и ще получите другите две — всичките четири квадранта на колелото на закона на Ом, с формули и разработен пример.",
-  "id": "/loona-construction-calculators/bg/ohms-law-calculator/",
+  "id": "/bg/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

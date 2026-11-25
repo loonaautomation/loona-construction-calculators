@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "免费电线规格计算器：电流、单程长度、允许压降百分比、电压、铜或铝、单相或三相 — 最小电缆规格（mm²）、最接近的标准规格和 AWG 等效值。",
-  "id": "/loona-construction-calculators/zh/wire-size-calculator/",
+  "id": "/zh/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "Ilmainen altaan tilavuuslaskuri suorakulmaisille, pyöreille ja soikeille altaille: syötä koko ja matalan/syvän pään syvyydet metrisenä tai tuumaisena, niin saat veden tilavuuden litroina ja US-galloneina kemikaalien annostukseen ja täyttöön.",
-  "id": "/loona-construction-calculators/fi/pool-volume-calculator/",
+  "id": "/fi/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

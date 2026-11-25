@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Standard)",
   "short_name": "Brick Size in United States",
   "description": "Tamaño estándar de ladrillo en Estados Unidos (estándar): 203 × 92 × 57 mm. 70.8 ladrillos por m² (6.57 por sq ft) de pared de una hoja con juntas de mortero de 9.5 mm, cobertura por cada 1,000 ladrillos y un ejemplo de pared resuelto.",
-  "id": "/loona-construction-calculators/es/brick-size-us-standard/",
+  "id": "/es/brick-size-us-standard/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

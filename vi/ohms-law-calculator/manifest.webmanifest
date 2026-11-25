@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "Máy tính định luật Ohm miễn phí: nhập bất kỳ hai trong điện áp, dòng điện, điện trở và công suất và nhận hai giá trị còn lại — cả bốn góc phần tư của bánh xe định luật Ohm, với công thức và ví dụ đã làm sẵn.",
-  "id": "/loona-construction-calculators/vi/ohms-law-calculator/",
+  "id": "/vi/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

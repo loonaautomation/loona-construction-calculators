@@ -2,7 +2,7 @@
   "name": "Loona Stairs Calculator",
   "short_name": "Stairs Calculator",
   "description": "Besplatni kalkulator stepenica: unesite ukupni uspon u metričkim ili imperijalnim jedinicama — dobit ćete broj stepenica, točnu visinu čela stepenice, ukupni pomak i duljinu kosnika, uz pravilo udobnosti 2R + T koje se provjerava automatski.",
-  "id": "/loona-construction-calculators/hr/stairs-calculator/",
+  "id": "/hr/stairs-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

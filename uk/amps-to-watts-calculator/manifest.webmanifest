@@ -2,7 +2,7 @@
   "name": "Loona Amps to Watts Calculator",
   "short_name": "Amps to Watts Calculator",
   "description": "Безкоштовний калькулятор амперів у вати для постійного струму, однофазного та трифазного змінного струму: струм, напруга й коефіцієнт потужності дають вати, кіловати й кВА — з формулами та розв’язаним прикладом.",
-  "id": "/loona-construction-calculators/uk/amps-to-watts-calculator/",
+  "id": "/uk/amps-to-watts-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

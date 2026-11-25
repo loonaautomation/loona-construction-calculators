@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "無料のオームの法則計算機：電圧、電流、抵抗、電力のうち任意の二つを入力すると残りの二つが得られます — オームの法則の円の四つの象限すべて、公式と計算例付きです。",
-  "id": "/loona-construction-calculators/ja/ohms-law-calculator/",
+  "id": "/ja/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

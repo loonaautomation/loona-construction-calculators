@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Calculateur gratuit de chute de tension : longueur de câble aller simple, courant, cuivre ou aluminium, taille de câble en mm² ou AWG, monophasé ou triphasé — volts perdus et % de chute avec guide 3%/5%.",
-  "id": "/loona-construction-calculators/fr/voltage-drop-calculator/",
+  "id": "/fr/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

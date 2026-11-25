@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Gratis mattkalkylator: rumsstorlek och matrullbredd i metriskt eller imperial ger dig den löpande längden och ytan matta att faktiskt köpa (rullavkap inkluderade), plus en valfri kostnad — med spilltillägg.",
-  "id": "/loona-construction-calculators/sv/carpet-calculator/",
+  "id": "/sv/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

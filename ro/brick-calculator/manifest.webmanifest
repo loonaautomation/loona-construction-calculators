@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Calculator gratuit de cărămizi: lungimea și înălțimea zidului în metric sau imperial — obțineți numărul de cărămizi standard (215 mm sau modulare SUA) pentru un zid cu un singur strat, inclusiv rezervele pentru rosturi de mortar și pierderi.",
-  "id": "/loona-construction-calculators/ro/brick-calculator/",
+  "id": "/ro/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

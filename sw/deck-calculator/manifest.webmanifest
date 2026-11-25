@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Kikokotoo cha bure cha deki: ukubwa wa deki na upana wa ubao katika metriki au imperial hukupa mbao za deki za kununua, jumla ya urefu wa ubao, mihimili na makadirio ya skrubu — kwa pengo la ubao, nafasi ya mhimili na posho ya upotevu.",
-  "id": "/loona-construction-calculators/sw/deck-calculator/",
+  "id": "/sw/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

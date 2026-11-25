@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "무료 멀치 계산기: 화단 면적과 깊이를 미터법이나 야드파운드법으로 입력하면 멀치 부피, 40/50리터 또는 2/3세제곱피트 포대 수, 벌크 세제곱미터와 야드를 알려 줘요.",
-  "id": "/loona-construction-calculators/ko/mulch-calculator/",
+  "id": "/ko/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

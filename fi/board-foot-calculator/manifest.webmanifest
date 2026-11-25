@@ -2,7 +2,7 @@
   "name": "Loona Board Foot Calculator",
   "short_name": "Board Foot Calculator",
   "description": "Ilmainen lautajalkalaskuri: puutavaran paksuus, leveys, pituus ja kappalemäärä tuumaisena tai metrisenä — saat kokonaislautajalat ja kuutiometrit puutavaratilaukseesi.",
-  "id": "/loona-construction-calculators/fi/board-foot-calculator/",
+  "id": "/fi/board-foot-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

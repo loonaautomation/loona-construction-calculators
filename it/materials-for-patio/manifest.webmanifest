@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 16 × 20 ft Patio",
   "short_name": "Materials for a 16 × 20 ft",
   "description": "Elenco di acquisto per un patio da 16×20 ft: conteggio degli autobloccanti a passo, letto di sabbia, base di ghiaia e contenimenti di bordo — quantità calcolate.",
-  "id": "/loona-construction-calculators/it/materials-for-patio/",
+  "id": "/it/materials-for-patio/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

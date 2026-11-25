@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Standard)",
   "short_name": "Brick Size in United States",
   "description": "Dimension standard de brique aux États-Unis (standard) : 203 × 92 × 57 mm. 70.8 briques par m² (6.57 par sq ft) de mur à simple paroi avec des joints de mortier de 9.5 mm, couverture pour 1,000 briques et un exemple de mur calculé.",
-  "id": "/loona-construction-calculators/fr/brick-size-us-standard/",
+  "id": "/fr/brick-size-us-standard/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

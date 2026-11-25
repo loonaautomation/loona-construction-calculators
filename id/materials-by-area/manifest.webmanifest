@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Berapa banyak material untuk luas Anda? Volume beton, jumlah keramik, dan jumlah cat untuk 100 hingga 3,000 sq ft — dihitung dengan kalkulator situs ini sendiri.",
-  "id": "/loona-construction-calculators/id/materials-by-area/",
+  "id": "/id/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "כמה חומר לשטח שלכם? נפחי בטון, ספירות אריחים וכמויות צבע ל-100 עד 3,000 sq ft — מחושבים עם המחשבונים של האתר עצמו.",
-  "id": "/loona-construction-calculators/he/materials-by-area/",
+  "id": "/he/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

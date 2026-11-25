@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "您的面积需要多少材料？100 到 3,000 sq ft 的混凝土体积、瓷砖数量和油漆量 — 用本站&#x27;自己的计算器算出。",
-  "id": "/loona-construction-calculators/zh/materials-by-area/",
+  "id": "/zh/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

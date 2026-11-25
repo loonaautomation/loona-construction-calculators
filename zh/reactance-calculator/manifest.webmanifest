@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "免费电抗计算器：频率配电容（µF）得到容抗 Xc，配电感（mH）得到感抗 Xl — 两者都输入可得到净电抗和 LC 谐振频率。",
-  "id": "/loona-construction-calculators/zh/reactance-calculator/",
+  "id": "/zh/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

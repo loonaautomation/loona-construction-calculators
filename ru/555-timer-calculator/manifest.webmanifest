@@ -2,7 +2,7 @@
   "name": "Loona 555 Timer Calculator",
   "short_name": "555 Timer Calculator",
   "description": "Бесплатный калькулятор таймера 555: в астабильном режиме даёт частоту, коэффициент заполнения и времена HIGH/LOW по R1, R2 и C; в моностабильном режиме даёт ширину импульса по R и C — стандартные формулы 1.44 и 1.1.",
-  "id": "/loona-construction-calculators/ru/555-timer-calculator/",
+  "id": "/ru/555-timer-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

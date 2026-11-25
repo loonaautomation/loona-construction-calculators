@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "Gratis betongkalkulator: platelengde, -bredde og -tykkelse i metrisk eller imperiell — få betongvolum i kubikkmeter og kubikkyard, pluss hvor mange sekker med ferdigblanding på 20/25 kg eller 60/80 lb du trenger.",
-  "id": "/loona-construction-calculators/nb/concrete-calculator/",
+  "id": "/nb/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "Безкоштовний калькулятор щебеню: площа й глибина в метричних або імперських одиницях — отримайте об’єм щебеню в кубічних метрах і кубічних ярдах та вагу в тоннах і американських тоннах, із регульованою густиною й запасом на відходи.",
-  "id": "/loona-construction-calculators/uk/gravel-calculator/",
+  "id": "/uk/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Bao nhiêu vật liệu cho diện tích của bạn? Thể tích bê tông, số gạch và lượng sơn cho 100 đến 3,000 sq ft — tính bằng chính các máy tính của trang.",
-  "id": "/loona-construction-calculators/vi/materials-by-area/",
+  "id": "/vi/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

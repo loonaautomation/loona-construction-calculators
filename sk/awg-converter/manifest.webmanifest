@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Bezplatný prevodník AWG: stupeň AWG na priemer v mm a palcoch, prierez v mm² a odpor na kilometer pre meď a hliník — alebo nájdite najbližšie AWG z mm² alebo priemeru.",
-  "id": "/loona-construction-calculators/sk/awg-converter/",
+  "id": "/sk/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

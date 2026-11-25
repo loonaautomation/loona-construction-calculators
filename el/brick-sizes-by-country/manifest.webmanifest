@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Τυπικά μεγέθη τούβλων σε Ηνωμένο Βασίλειο, ΗΠΑ, Ινδία, Πακιστάν, Αυστραλία, Γερμανία και Νότια Αφρική — διαστάσεις και τούβλα ανά τετραγωνικό μέτρο σε σύγκριση.",
-  "id": "/loona-construction-calculators/el/brick-sizes-by-country/",
+  "id": "/el/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

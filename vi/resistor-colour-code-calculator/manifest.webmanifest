@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "Máy tính mã màu điện trở miễn phí: chọn màu vạch trên điện trở 4 vạch, 5 vạch hoặc 6 vạch để được điện trở, dung sai và hệ số nhiệt độ — hoặc ngược lại, giá trị sang vạch.",
-  "id": "/loona-construction-calculators/vi/resistor-colour-code-calculator/",
+  "id": "/vi/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

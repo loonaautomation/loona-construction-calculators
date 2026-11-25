@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Безкоштовний калькулятор цегли: довжина й висота стіни в метричних або імперських одиницях — отримайте кількість стандартної цегли (215 mm або американська модульна) для стіни в пів цегли, включно із запасами на шви розчину та відходи.",
-  "id": "/loona-construction-calculators/uk/brick-calculator/",
+  "id": "/uk/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

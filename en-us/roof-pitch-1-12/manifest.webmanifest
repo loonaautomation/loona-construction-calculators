@@ -2,7 +2,7 @@
   "name": "Loona 1/12 Roof Pitch — 4.8°",
   "short_name": "1/12 Roof Pitch — 4.8°",
   "description": "A 1/12 roof pitch is 4.76 degrees (8% grade). Rafter multiplier 1.0035, rafter lengths for common runs, materials and uses.",
-  "id": "/loona-construction-calculators/en-us/roof-pitch-1-12/",
+  "id": "/en-us/roof-pitch-1-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

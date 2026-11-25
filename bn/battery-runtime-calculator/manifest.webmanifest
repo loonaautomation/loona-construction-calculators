@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "বিনামূল্যের ব্যাটারি চলার সময় ক্যালকুলেটর: ব্যাটারির ভোল্ট ও অ্যাম্প-ঘণ্টা, লোডের ওয়াট, ডিসচার্জের গভীরতা ও ইনভার্টারের দক্ষতা দিলে ব্যবহারযোগ্য ওয়াট-ঘণ্টা ও ঘণ্টায় চলার সময় পাওয়া যায় — সোলার, UPS ও অফ-গ্রিড পরিকল্পনার জন্য।",
-  "id": "/loona-construction-calculators/bn/battery-runtime-calculator/",
+  "id": "/bn/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

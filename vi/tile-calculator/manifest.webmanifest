@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Máy tính gạch lát miễn phí: kích thước sàn hoặc tường, kích thước gạch và mạch vữa theo hệ mét hoặc imperial — nhận số gạch và hộp chính xác cần mua, gồm dự phòng hao hụt cho cắt và vỡ.",
-  "id": "/loona-construction-calculators/vi/tile-calculator/",
+  "id": "/vi/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

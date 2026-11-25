@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "Máy tính điện kháng miễn phí: tần số với điện dung (µF) cho điện kháng dung Xc, với điện cảm (mH) cho điện kháng cảm Xl — nhập cả hai cho điện kháng tổng và tần số cộng hưởng LC.",
-  "id": "/loona-construction-calculators/vi/reactance-calculator/",
+  "id": "/vi/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

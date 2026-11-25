@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Calculator",
   "short_name": "Roof Pitch Calculator",
   "description": "Δωρεάν υπολογιστής κλίσης στέγης: εισαγάγετε ανύψωση και διαδρομή σε οποιαδήποτε μονάδα — λάβετε την κλίση ως λόγο (x-in-12), τη γωνία σε μοίρες, τον βαθμό ποσοστού και το μήκος δοκού. Λειτουργεί για μετρικές και αυτοκρατορικές μετρήσεις.",
-  "id": "/loona-construction-calculators/el/roof-pitch-calculator/",
+  "id": "/el/roof-pitch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

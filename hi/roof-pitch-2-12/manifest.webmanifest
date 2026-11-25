@@ -2,7 +2,7 @@
   "name": "Loona 2/12 Roof Pitch",
   "short_name": "2/12 Roof Pitch",
   "description": "2/12 छत ढलान 9.46 डिग्री है (17% ग्रेड)। राफ्टर गुणक 1.0138, सामान्य रनों के लिए राफ्टर लंबाइयाँ, सामग्री और उपयोग।",
-  "id": "/loona-construction-calculators/hi/roof-pitch-2-12/",
+  "id": "/hi/roof-pitch-2-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

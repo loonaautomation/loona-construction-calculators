@@ -1,7 +1,7 @@
 [
  {
   "n": "Калькулятор фарби",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/paint-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/paint-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Літри й галони для будь-якої кімнати, двері/вікна віднято, ґрунтовку враховано.",
   "k": "calculator construction",
@@ -10,7 +10,7 @@
  },
  {
   "n": "Калькулятор плитки",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/tile-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/tile-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Плитки й упаковки для підлог і стін, шов враховано.",
   "k": "calculator construction",
@@ -19,7 +19,7 @@
  },
  {
   "n": "Калькулятор бетону",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/concrete-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/concrete-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Об’єм плити в m³ і yd³ плюс кількість мішків готової суміші.",
   "k": "calculator construction m yd",
@@ -28,7 +28,7 @@
  },
  {
   "n": "Калькулятор підлогового покриття",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/flooring-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/flooring-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Упаковки ламінату, вінілу й дерева із запасом на підрізування.",
   "k": "calculator construction",
@@ -37,7 +37,7 @@
  },
  {
   "n": "Калькулятор гіпсокартону",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/drywall-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/drywall-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Листи гіпсокартону для стін і стель.",
   "k": "calculator construction",
@@ -46,7 +46,7 @@
  },
  {
   "n": "Калькулятор цегли",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/brick-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/brick-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Кількість цегли для стандартних метричних і американських розмірів цегли.",
   "k": "calculator construction",
@@ -55,7 +55,7 @@
  },
  {
   "n": "Калькулятор щебеню",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/gravel-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/gravel-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Тонни й кубічні ярди для під’їздів, доріжок і основ.",
   "k": "calculator construction",
@@ -64,7 +64,7 @@
  },
  {
   "n": "Калькулятор ухилу даху",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/roof-pitch-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/roof-pitch-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Співвідношення ухилу, кут, відсоток і довжина крокви.",
   "k": "calculator construction",
@@ -73,7 +73,7 @@
  },
  {
   "n": "Калькулятор сходів",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/stairs-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/stairs-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Сходинки, висота підсходинки, проступ, прогін і довжина тятиви.",
   "k": "calculator construction",
@@ -82,7 +82,7 @@
  },
  {
   "n": "Калькулятор Board Foot",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/board-foot-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/board-foot-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Об’єм пиломатеріалів у борд-футах і кубічних метрах.",
   "k": "board foot board foot board foot calculator construction",
@@ -91,7 +91,7 @@
  },
  {
   "n": "Калькулятор шпалер",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/wallpaper-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/wallpaper-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Рулони для рулонів ЄС і США, рапорт візерунка враховано.",
   "k": "calculator construction",
@@ -100,7 +100,7 @@
  },
  {
   "n": "Калькулятор мульчі",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/mulch-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/mulch-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Мішки та насипний об’єм для грядок і бордюрів.",
   "k": "calculator construction",
@@ -109,7 +109,7 @@
  },
  {
   "n": "Калькулятор асфальту",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/asphalt-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/asphalt-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Тонни й американські тонни за площею й товщиною, густина редагується, оцінка вартості.",
   "k": "calculator construction",
@@ -118,7 +118,7 @@
  },
  {
   "n": "Калькулятор утеплювача",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/insulation-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/insulation-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Плити, рулони або мішки для вдування під ваше цільове значення R / RSI, довідник товщини.",
   "k": "calculator construction r rsi",
@@ -127,7 +127,7 @@
  },
  {
   "n": "Калькулятор паркана",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/fence-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/fence-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Стовпи, рейки, штахетини й мішки бетону за довжиною паркану та відстанями.",
   "k": "calculator construction",
@@ -136,7 +136,7 @@
  },
  {
   "n": "Калькулятор настилу",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/deck-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/deck-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Дошки настилу, балки й шурупи з розміру настилу, ширини дошки й кроку балок.",
   "k": "calculator construction",
@@ -145,7 +145,7 @@
  },
  {
   "n": "Калькулятор об’єму басейну",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/pool-volume-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/pool-volume-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Літри й американські галони для прямокутних, круглих і овальних басейнів — готово для дозування.",
   "k": "calculator construction",
@@ -154,7 +154,7 @@
  },
  {
   "n": "Калькулятор сонячних панелей",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/solar-panel-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/solar-panel-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Потрібні панелі, кВт системи, очікуване вироблення та площа даху з вашого рахунку.",
   "k": "calculator construction",
@@ -163,7 +163,7 @@
  },
  {
   "n": "Калькулятор килима",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/carpet-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/carpet-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Погонна довжина та справжня площа купівлі за розміром кімнати й шириною рулону.",
   "k": "calculator construction",
@@ -172,7 +172,7 @@
  },
  {
   "n": "Калькулятор фанери",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/plywood-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/plywood-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Листи за площею та за розкладкою для листів 2440×1220 mm і 4×8 ft.",
   "k": "calculator construction 2440 1220 mm 4 8 ft",
@@ -181,7 +181,7 @@
  },
  {
   "n": "Калькулятор піску",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/sand-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/sand-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Тонни й мішки по 25 kg для пісочниць, основ під бруківку та стяжок.",
   "k": "calculator construction 25 kg",
@@ -190,7 +190,7 @@
  },
  {
   "n": "Калькулятор закону Ома",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/ohms-law-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/ohms-law-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Voltage, current, resistance & power from any two values — the full Ohm's law wheel.",
   "k": "calculator construction voltage current resistance power from any two values the full ohm s law wheel",
@@ -199,7 +199,7 @@
  },
  {
   "n": "Калькулятор падіння напруги",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/voltage-drop-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/voltage-drop-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Volts & % dropped over a cable run, mm² or AWG, single & three-phase.",
   "k": "calculator construction volts dropped over a cable run mm or awg single three phase",
@@ -208,7 +208,7 @@
  },
  {
   "n": "Калькулятор перерізу дроту",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/wire-size-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/wire-size-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Minimum cable size in mm² + standard size & AWG from your drop limit.",
   "k": "calculator construction minimum cable size in mm standard size awg from your drop limit",
@@ -217,7 +217,7 @@
  },
  {
   "n": "Калькулятор вартості електроенергії",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/electricity-cost-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/electricity-cost-calculator/",
   "s": "Loona Construction Calculators",
   "d": "What an appliance costs per day, month & year from watts & price per kWh.",
   "k": "calculator construction what an appliance costs per day month year from watts price per kwh",
@@ -226,7 +226,7 @@
  },
  {
   "n": "Калькулятор переведення амперів у вати",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/amps-to-watts-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/amps-to-watts-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Watts & kW from amps and volts — DC, single-phase & three-phase with power factor.",
   "k": "calculator construction watts kw from amps and volts dc single phase three phase with power factor",
@@ -235,7 +235,7 @@
  },
  {
   "n": "Калькулятор ватів в ампери",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/watts-to-amps-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/watts-to-amps-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Amps from watts and volts for breaker & cable checks — DC, single & three-phase.",
   "k": "calculator construction amps from watts and volts for breaker cable checks dc single three phase",
@@ -244,7 +244,7 @@
  },
  {
   "n": "Калькулятор кВА в ампери",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/kva-to-amps-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/kva-to-amps-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Generator & transformer kVA to full-load amps, and amps back to kVA, single & three-phase.",
   "k": "calculator construction generator transformer kva to full load amps and amps back to kva single three phase",
@@ -253,7 +253,7 @@
  },
  {
   "n": "Калькулятор коефіцієнта потужності",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/power-factor-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/power-factor-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Power factor, kvar & phase angle from kW and kVA, plus correction capacitor size.",
   "k": "calculator construction power factor kvar phase angle from kw and kva plus correction capacitor size",
@@ -262,7 +262,7 @@
  },
  {
   "n": "Калькулятор часу роботи від акумулятора",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/battery-runtime-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/battery-runtime-calculator/",
   "s": "Loona Construction Calculators",
   "d": "How long a battery runs a load — Ah, usable Wh, depth of discharge & inverter losses counted.",
   "k": "calculator construction how long a battery runs a load ah usable wh depth of discharge inverter losses counted",
@@ -271,7 +271,7 @@
  },
  {
   "n": "Калькулятор резистора для світлодіода",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/led-resistor-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/led-resistor-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Series resistor in ohms, nearest standard E12 value, actual current & wattage.",
   "k": "calculator construction series resistor in ohms nearest standard e12 value actual current wattage",
@@ -280,7 +280,7 @@
  },
  {
   "n": "Калькулятор трифазної потужності",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/three-phase-power-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/three-phase-power-calculator/",
   "s": "Loona Construction Calculators",
   "d": "kW, kVA & kvar from line voltage, line current & power factor for balanced loads.",
   "k": "calculator construction kw kva kvar from line voltage line current power factor for balanced loads",
@@ -289,7 +289,7 @@
  },
  {
   "n": "Калькулятор струму двигуна",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/motor-current-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/motor-current-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Estimated full-load amps from motor kW or hp, efficiency & power factor.",
   "k": "calculator construction estimated full load amps from motor kw or hp efficiency power factor",
@@ -298,7 +298,7 @@
  },
  {
   "n": "Калькулятор колірного коду резистора",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/resistor-colour-code-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/resistor-colour-code-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Read 4, 5 & 6-band resistor colours to ohms & tolerance — or turn a value back into bands.",
   "k": "calculator construction read 4 5 6 band resistor colours to ohms tolerance or turn a value back into bands",
@@ -307,7 +307,7 @@
  },
  {
   "n": "Калькулятор таймера 555",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/555-timer-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/555-timer-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Astable frequency & duty cycle and monostable pulse width from R and C.",
   "k": "555 555 555 calculator construction astable frequency duty cycle and monostable pulse width from r and c",
@@ -316,7 +316,7 @@
  },
  {
   "n": "Конвертер AWG",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/awg-converter/",
+  "u": "https://construction.loonaautomation.com/uk/awg-converter/",
   "s": "Loona Construction Calculators",
   "d": "AWG to mm, mm² and resistance per km for copper & aluminium — and back from mm² or diameter.",
   "k": "awg awg awg calculator construction awg to mm mm and resistance per km for copper aluminium and back from mm or diameter",
@@ -325,7 +325,7 @@
  },
  {
   "n": "Калькулятор реактивного опору",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/reactance-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/reactance-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Capacitive & inductive reactance in ohms, plus LC resonant frequency.",
   "k": "calculator construction capacitive inductive reactance in ohms plus lc resonant frequency",
@@ -334,7 +334,7 @@
  },
  {
   "n": "Конвертер дБ",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/db-converter/",
+  "u": "https://construction.loonaautomation.com/uk/db-converter/",
   "s": "Loona Construction Calculators",
   "d": "Power & voltage ratios to decibels, dBm to milliwatts & watts and back.",
   "k": "calculator construction power voltage ratios to decibels dbm to milliwatts watts and back",
@@ -343,7 +343,7 @@
  },
  {
   "n": "Калькулятор площі",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/uk/square-footage-calculator/",
+  "u": "https://construction.loonaautomation.com/uk/square-footage-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Загальна площа у кв. футах, кв. м, кв. ярдах та акрах для однієї чи багатьох кімнат, з оцінкою вартості.",
   "k": "калькулятор площі калькулятор площі калькулятор площі calculator construction загальна площа у кв. футах, кв. м, кв. ярдах та акрах для однієі чи багатьох кімнат, з оцінкою вартості.",

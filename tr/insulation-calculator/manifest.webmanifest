@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "Ücretsiz yalıtım hesaplayıcısı: alanı ve hedef R değerinizi (veya metrik RSI) girin ve satın alınacak levha/rulo paketlerini veya üflemeli yalıtım torbalarını alın, artı hedefinizin gerektirdiği kalınlığı — metrik ve emperyal.",
-  "id": "/loona-construction-calculators/tr/insulation-calculator/",
+  "id": "/tr/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

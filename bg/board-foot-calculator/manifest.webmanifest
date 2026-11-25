@@ -2,7 +2,7 @@
   "name": "Loona Board Foot Calculator",
   "short_name": "Board Foot Calculator",
   "description": "Безплатен калкулатор за дъсков фут: дебелина, ширина, дължина и брой парчета дървен материал в имперски или метрични единици — получете общо дъскови футове и кубични метри за поръчката си на дървен материал.",
-  "id": "/loona-construction-calculators/bg/board-foot-calculator/",
+  "id": "/bg/board-foot-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

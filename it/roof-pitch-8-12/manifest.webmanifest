@@ -2,7 +2,7 @@
   "name": "Loona 8/12 Roof Pitch",
   "short_name": "8/12 Roof Pitch",
   "description": "Una pendenza del tetto di 8/12 è 33.69 gradi (pendenza del 67%). Moltiplicatore del puntone 1.2019, lunghezze dei puntoni per percorsi comuni, materiali e usi.",
-  "id": "/loona-construction-calculators/it/roof-pitch-8-12/",
+  "id": "/it/roof-pitch-8-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

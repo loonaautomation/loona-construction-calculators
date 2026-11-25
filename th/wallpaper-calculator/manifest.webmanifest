@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "เครื่องคำนวณวอลเปเปอร์ฟรี: ขนาดห้องเป็นเมตริกหรืออิมพีเรียล ม้วนยุโรปหรือม้วนคู่ของสหรัฐฯ เผื่อการต่อลาย — รับจำนวนม้วนวอลเปเปอร์ที่ต้องซื้ออย่าง exact รวมเผื่อเศษ",
-  "id": "/loona-construction-calculators/th/wallpaper-calculator/",
+  "id": "/th/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

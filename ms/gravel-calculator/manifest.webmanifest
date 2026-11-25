@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "Kalkulator batu kerikil percuma: keluasan dan kedalaman dalam metrik atau imperial — dapatkan isi padu batu kerikil dalam meter padu dan ela padu serta berat dalam tan dan tan US, dengan ketumpatan boleh laras dan elaun pembaziran.",
-  "id": "/loona-construction-calculators/ms/gravel-calculator/",
+  "id": "/ms/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

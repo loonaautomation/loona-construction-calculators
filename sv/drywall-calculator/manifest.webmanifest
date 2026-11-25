@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Gratis gipsskivekalkylator: rumsstorlek i metriskt eller imperial — få vägg- och takyta och antalet skivor på 1200 × 2400 mm eller 4 × 8 ft att köpa, spill inkluderat.",
-  "id": "/loona-construction-calculators/sv/drywall-calculator/",
+  "id": "/sv/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

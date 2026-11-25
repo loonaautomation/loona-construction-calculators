@@ -2,7 +2,7 @@
   "name": "Loona 2/12 Roof Pitch",
   "short_name": "2/12 Roof Pitch",
   "description": "Sklon střechy 2/12 je 9.46 stupně (sklon 17%). Násobitel krokve 1.0138, délky krokví pro běžné průměty, materiály a použití.",
-  "id": "/loona-construction-calculators/cs/roof-pitch-2-12/",
+  "id": "/cs/roof-pitch-2-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Calculateur gratuit de terrasse : la taille de la terrasse et la largeur des lames en métrique ou impérial vous donnent les lames à acheter, la longueur totale de lames, les solives et une estimation des vis — avec espacement des lames, entraxe des solives et marge de pertes.",
-  "id": "/loona-construction-calculators/fr/deck-calculator/",
+  "id": "/fr/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

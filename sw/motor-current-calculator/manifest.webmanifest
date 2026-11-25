@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "Kikokotoo cha bure cha mkondo wa mota: nguvu ya mota katika kW au horsepower, volti, awamu moja au tatu, ufanisi na kipengele cha nguvu hutoa mkondo wa mzigo kamili uliokadiriwa — kwa maonyo ya uaminifu ya bamba la jina na kanuni.",
-  "id": "/loona-construction-calculators/sw/motor-current-calculator/",
+  "id": "/sw/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

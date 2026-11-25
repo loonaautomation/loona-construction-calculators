@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "เครื่องคำนวณวัตต์เป็นแอมป์ฟรีสำหรับ DC, AC เฟสเดียว และ AC สามเฟส: กำลัง แรงดัน และตัวประกอบกำลังให้กระแสเป็นแอมป์ — ขั้นตอนแรกในการกำหนดขนาดเบรกเกอร์หรือสายเคเบิล",
-  "id": "/loona-construction-calculators/th/watts-to-amps-calculator/",
+  "id": "/th/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

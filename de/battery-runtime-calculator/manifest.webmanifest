@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "Kostenloser Batterielaufzeit-Rechner: Batteriespannung und Amperestunden, Last in Watt, Entladetiefe und Wechselrichter-Wirkungsgrad ergeben nutzbare Wattstunden und Laufzeit in Stunden — für Solar-, USV- und Inselanlagen-Planung.",
-  "id": "/loona-construction-calculators/de/battery-runtime-calculator/",
+  "id": "/de/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Standard)",
   "short_name": "Brick Size in United States",
   "description": "Standard tegelstorlek i USA (Standard): 203 × 92 × 57 mm. 70.8 tegelstenar per m² (6.57 per sq ft) enkelskiktsvägg med murbruksfogar på 9.5 mm, täckning per 1,000 tegelstenar och ett genomräknat väggexempel.",
-  "id": "/loona-construction-calculators/sv/brick-size-us-standard/",
+  "id": "/sv/brick-size-us-standard/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

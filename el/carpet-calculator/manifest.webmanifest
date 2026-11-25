@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Δωρεάν υπολογιστής μοκέτας: μέγεθος δωματίου και πλάτος ρολού μοκέτας σε μετρικό ή αυτοκρατορικό σας δίνουν το γραμμικό μήκος και την επιφάνεια μοκέτας που πραγματικά αγοράζετε (συμπεριλαμβανομένων αποκομμάτων ρολού), συν προαιρετικό κόστος — με περιθώριο φθοράς.",
-  "id": "/loona-construction-calculators/el/carpet-calculator/",
+  "id": "/el/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

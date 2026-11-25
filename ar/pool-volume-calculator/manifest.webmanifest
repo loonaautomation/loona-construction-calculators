@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "حاسبة حجم مسبح مجانية للمسابح المستطيلة والدائرية والبيضاوية: أدخل المقاس وأعماق الطرف الضحل والعميق بالمتري أو الإمبراطوري واحصل على حجم الماء باللترات والغالونات الأمريكية للجرعات الكيميائية والملء.",
-  "id": "/loona-construction-calculators/ar/pool-volume-calculator/",
+  "id": "/ar/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

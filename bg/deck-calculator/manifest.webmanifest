@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Безплатен калкулатор за тераса: размерът на терасата и ширината на дъската в метрична или имперска система ви дават дъските за тераса за покупка, общата дължина на дъските, гредите и оценка на винтовете — с фуга между дъските, разстояние между гредите и резерв за отпадък.",
-  "id": "/loona-construction-calculators/bg/deck-calculator/",
+  "id": "/bg/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

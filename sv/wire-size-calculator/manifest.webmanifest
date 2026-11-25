@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Gratis kabelareakalkylator: ström, enkelvägs längd, tillåten spänningsfalls-%, spänning, koppar eller aluminium, enfas eller trefas — minsta kabelstorlek i mm², närmaste standardstorlek och AWG-motsvarighet.",
-  "id": "/loona-construction-calculators/sv/wire-size-calculator/",
+  "id": "/sv/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "Δωρεάν υπολογιστής χαλικιού: επιφάνεια και βάθος σε μετρικό ή αυτοκρατορικό — λάβετε όγκο χαλικιού σε κυβικά μέτρα και κυβικές γιάρδες και βάρος σε τόνους και τόνους ΗΠΑ, με ρυθμιζόμενη πυκνότητα και περιθώριο φθοράς.",
-  "id": "/loona-construction-calculators/el/gravel-calculator/",
+  "id": "/el/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

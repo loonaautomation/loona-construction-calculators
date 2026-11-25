@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Komplett tabell för taklutning: 1/12 till 12/12 med vinklar, lutningar och takstolsmultiplikatorer, varje lutning med sin egen guidesida.",
-  "id": "/loona-construction-calculators/sv/roof-pitch-chart/",
+  "id": "/sv/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Calculator gratuit de mochetă: dimensiunea camerei și lățimea rolei de mochetă în metric sau imperial vă oferă lungimea liniară și suprafața de mochetă de cumpărat de fapt (resturi de rolă incluse), plus un cost opțional — cu rezervă pentru pierderi.",
-  "id": "/loona-construction-calculators/ro/carpet-calculator/",
+  "id": "/ro/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

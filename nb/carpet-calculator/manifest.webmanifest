@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Gratis teppekalkulator: romstørrelse og tepperullbredde i metrisk eller imperiell gir deg den lineære lengden og arealet av teppe du faktisk skal kjøpe (rullavkapp inkludert), pluss en valgfri kostnad — med svinntillegg.",
-  "id": "/loona-construction-calculators/nb/carpet-calculator/",
+  "id": "/nb/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

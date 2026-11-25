@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "Gratis grindcalculator: oppervlakte en diepte in metrisch of imperiaal — krijg het grindvolume in kubieke meters en kubieke yards en het gewicht in tonnen en US tons, met een instelbare dichtheid en verliesstoeslag.",
-  "id": "/loona-construction-calculators/nl/gravel-calculator/",
+  "id": "/nl/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

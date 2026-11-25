@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "Ücretsiz pil çalışma süresi hesaplayıcısı: pil voltları ve amper-saatleri, yük wattları, deşarj derinliği ve invertör verimliliği; kullanılabilir watt-saatleri ve saat cinsinden çalışma süresini verir — güneş, UPS ve şebeke dışı planlama için.",
-  "id": "/loona-construction-calculators/tr/battery-runtime-calculator/",
+  "id": "/tr/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

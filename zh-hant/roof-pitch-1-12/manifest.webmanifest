@@ -2,7 +2,7 @@
   "name": "Loona 1/12 Roof Pitch",
   "short_name": "1/12 Roof Pitch",
   "description": "1/12 屋頂坡度為 4.76 度（坡度 8%）。椽子係數 1.0035，常見水平跨度的椽子長度、材料與用途。",
-  "id": "/loona-construction-calculators/zh-hant/roof-pitch-1-12/",
+  "id": "/zh-hant/roof-pitch-1-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

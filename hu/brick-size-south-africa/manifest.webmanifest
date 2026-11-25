@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in South Africa",
   "short_name": "Brick Size in South Africa",
   "description": "Szabványos téglaméret Dél-Afrikában: 222 × 106 × 73 mm. 51.9 tégla m²-enként (4.82 négyzetlábonként) egyrétegű falban, 10 mm-es habarcsfugákkal, fedés 1,000 téglára és egy kidolgozott falpélda.",
-  "id": "/loona-construction-calculators/hu/brick-size-south-africa/",
+  "id": "/hu/brick-size-south-africa/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

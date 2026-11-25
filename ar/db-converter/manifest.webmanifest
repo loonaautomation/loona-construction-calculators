@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "محول ديسيبل مجاني: نسب القدرة ونسب الجهد إلى dB بمرجعك الخاص، وdBm إلى الميلي واط والواط، والقدرة عودة إلى dBm وdBW — صيغ وأمثلة محلولة.",
-  "id": "/loona-construction-calculators/ar/db-converter/",
+  "id": "/ar/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

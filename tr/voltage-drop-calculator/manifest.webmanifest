@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Ücretsiz voltaj düşümü hesaplayıcısı: tek yön kablo uzunluğu, akım, bakır veya alüminyum, mm² veya AWG cinsinden kablo boyutu, tek faz veya üç faz — düşen volt ve % düşüş, %3/%5 rehberiyle.",
-  "id": "/loona-construction-calculators/tr/voltage-drop-calculator/",
+  "id": "/tr/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

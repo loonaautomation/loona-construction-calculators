@@ -2,7 +2,7 @@
   "name": "Loona 1/12 Roof Pitch",
   "short_name": "1/12 Roof Pitch",
   "description": "ميل سقف 1/12 يساوي 4.76 درجة (انحدار 8%). مضاعف العارضة 1.0035، وأطوال العوارض للمسارات الشائعة، والمواد والاستخدامات.",
-  "id": "/loona-construction-calculators/ar/roof-pitch-1-12/",
+  "id": "/ar/roof-pitch-1-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

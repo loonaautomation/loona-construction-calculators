@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "Calculator gratuit de pietriș: suprafața și adâncimea în metric sau imperial — obțineți volumul de pietriș în metri cubi și yarzi cubi și greutatea în tone și tone SUA, cu densitate reglabilă și rezervă pentru pierderi.",
-  "id": "/loona-construction-calculators/ro/gravel-calculator/",
+  "id": "/ro/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

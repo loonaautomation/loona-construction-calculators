@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "Darmowy kalkulator izolacji: wpisz powierzchnię i docelową wartość R (lub metryczne RSI), a otrzymasz opakowania mat/rolek lub worki izolacji wdmuchiwanej do kupienia oraz grubość, której wymaga twój cel — metrycznie i imperialnie.",
-  "id": "/loona-construction-calculators/pl/insulation-calculator/",
+  "id": "/pl/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

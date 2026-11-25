@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Kalkulator susutan voltan percuma: panjang kabel sehala, arus, kuprum atau aluminium, saiz kabel dalam mm² atau AWG, satu fasa atau tiga fasa — volt yang susut dan % susutan dengan panduan 3%/5%.",
-  "id": "/loona-construction-calculators/ms/voltage-drop-calculator/",
+  "id": "/ms/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

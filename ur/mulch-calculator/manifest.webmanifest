@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "مفت ملچ کیلکولیٹر: میٹرک یا امپیریل میں کیاری رقبہ اور گہرائی — ملچ حجم، 40/50 litre یا 2/3 مکعب فٹ بوریوں کی تعداد، اور کھلے مکعب میٹر اور گز پائیں۔",
-  "id": "/loona-construction-calculators/ur/mulch-calculator/",
+  "id": "/ur/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United Kingdom",
   "short_name": "Brick Size in United Kingdom",
   "description": "イギリスの標準レンガサイズ：215 × 102.5 × 65 mm。10 mm のモルタル目地で一重張りの壁 m²あたり 59.3 個（5.51 / sq ft）、1,000個あたりのカバー面積、壁の計算例。",
-  "id": "/loona-construction-calculators/ja/brick-size-uk/",
+  "id": "/ja/brick-size-uk/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "Бесплатный калькулятор гравия: площадь и глубина в метрической или имперской системе — получите объём гравия в кубических метрах и кубических ярдах и вес в тоннах и американских тоннах, с настраиваемой плотностью и запасом на отходы.",
-  "id": "/loona-construction-calculators/ru/gravel-calculator/",
+  "id": "/ru/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

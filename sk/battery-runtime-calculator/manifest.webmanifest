@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "Bezplatná kalkulačka výdrže batérie: volty a ampérhodiny batérie, watty záťaže, hĺbka vybitia a účinnosť meniča dávajú využiteľné watthodiny a dobu prevádzky v hodinách — pre plánovanie solárnych systémov, UPS a systémov mimo siete.",
-  "id": "/loona-construction-calculators/sk/battery-runtime-calculator/",
+  "id": "/sk/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

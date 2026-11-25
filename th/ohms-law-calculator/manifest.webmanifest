@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "เครื่องคำนวณกฎของโอห์มฟรี: กรอกสองค่าใดก็ได้จากแรงดัน กระแส ความต้านทาน และกำลัง แล้วรับอีกสองค่า — ทั้งสี่ส่วนของวงล้อกฎของโอห์ม พร้อมสูตรและตัวอย่างที่ทำไว้",
-  "id": "/loona-construction-calculators/th/ohms-law-calculator/",
+  "id": "/th/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

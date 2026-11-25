@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Modular)",
   "short_name": "Brick Size in United States",
   "description": "미국의 표준 벽돌 크기(모듈러): 194 × 92 × 57 mm예요. 모르타르 줄눈 9.5 mm 홑벽 기준 m²당 73.9장(sq ft당 6.87장), 벽돌 1,000장당 도포 면적과 벽 시공 예시를 담았어요.",
-  "id": "/loona-construction-calculators/ko/brick-size-us-modular/",
+  "id": "/ko/brick-size-us-modular/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

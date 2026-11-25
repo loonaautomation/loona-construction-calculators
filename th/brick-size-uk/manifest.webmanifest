@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United Kingdom",
   "short_name": "Brick Size in United Kingdom",
   "description": "ขนาดอิฐมาตรฐานในสหราชอาณาจักร: 215 × 102.5 × 65 mm อิฐ 59.3 ก้อนต่อ m² (5.51 ต่อ sq ft) ของผนังชั้นเดียวด้วยรอยต่อปูน 10 mm พื้นที่ครอบคลุมต่ออิฐ 1,000 ก้อน และตัวอย่างผนังที่ทำไว้",
-  "id": "/loona-construction-calculators/th/brick-size-uk/",
+  "id": "/th/brick-size-uk/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

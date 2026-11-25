@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "Vifaa vya slabu ya gereji ya 20 × 20 ft: kiasi kamili cha zege na hesabu za mifuko ya mchanganyiko tayari (slabu ya inchi 4, ziada ya 10%) pamoja na maelezo ya ununuzi wa msingi na uimarishaji.",
-  "id": "/loona-construction-calculators/sw/materials-for-garage-slab/",
+  "id": "/sw/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

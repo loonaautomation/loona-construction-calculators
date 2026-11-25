@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "Materiały na płytę garażową 20 × 20 ft: dokładna objętość betonu i liczby worków gotowej mieszanki (płyta 4 cale, 10% zapasu) plus uwagi zakupowe o podbudowie i zbrojeniu.",
-  "id": "/loona-construction-calculators/pl/materials-for-garage-slab/",
+  "id": "/pl/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

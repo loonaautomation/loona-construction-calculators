@@ -2,7 +2,7 @@
   "name": "Loona LED Resistor Calculator",
   "short_name": "LED Resistor Calculator",
   "description": "Bezplatná kalkulačka rezistora pre LED: napájacie napätie, priepustné napätie LED, priepustný prúd a LED v sérii dávajú rezistor v ohmoch, najbližšiu štandardnú hodnotu E12, skutočný prúd a výkon rezistora.",
-  "id": "/loona-construction-calculators/sk/led-resistor-calculator/",
+  "id": "/sk/led-resistor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "Calculadora de superficie gratuita: añade habitaciones en formas rectangulares, circulares, triangulares y en L, en pies y pulgadas o metros, y obtén la superficie total en pies cuadrados, metros cuadrados, yardas cuadradas y acres — con una estimación de coste opcional.",
-  "id": "/loona-construction-calculators/es/square-footage-calculator/",
+  "id": "/es/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "Kalkulator arus motor percuma: kuasa motor dalam kW atau kuasa kuda, voltan, satu atau tiga fasa, kecekapan dan faktor kuasa memberikan anggaran arus beban penuh — dengan peringatan plat nama dan kod yang jujur.",
-  "id": "/loona-construction-calculators/ms/motor-current-calculator/",
+  "id": "/ms/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

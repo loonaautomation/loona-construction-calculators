@@ -2,7 +2,7 @@
   "name": "Loona Sand Calculator",
   "short_name": "Sand Calculator",
   "description": "Calculator gratuit de nisip: suprafața și adâncimea în metric sau imperial vă oferă volumul de nisip, greutatea în tone și tone SUA și numărul de saci de 25 kg — cu densitate și rezervă pentru pierderi, pentru gropi de nisip, baze de pavaj și șape.",
-  "id": "/loona-construction-calculators/ro/sand-calculator/",
+  "id": "/ro/sand-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

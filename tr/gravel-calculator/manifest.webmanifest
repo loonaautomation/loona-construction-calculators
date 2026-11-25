@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "Ücretsiz çakıl hesaplayıcısı: alan ve derinlik metrik veya emperyal olarak — çakıl hacmini metreküp ve yarda küp cinsinden ve ağırlığı ton ve ABD tonu cinsinden alın; ayarlanabilir yoğunluk ve fire payıyla.",
-  "id": "/loona-construction-calculators/tr/gravel-calculator/",
+  "id": "/tr/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

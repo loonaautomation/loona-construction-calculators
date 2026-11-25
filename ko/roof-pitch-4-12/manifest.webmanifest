@@ -2,7 +2,7 @@
   "name": "Loona 4/12 Roof Pitch",
   "short_name": "4/12 Roof Pitch",
   "description": "4/12 지붕 경사는 18.43도예요 (33% 경사율). 서까래 계수 1.0541, 흔한 수평 거리별 서까래 길이, 자재와 용도를 정리했어요.",
-  "id": "/loona-construction-calculators/ko/roof-pitch-4-12/",
+  "id": "/ko/roof-pitch-4-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

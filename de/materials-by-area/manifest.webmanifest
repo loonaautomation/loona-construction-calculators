@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Wie viel Material für Ihre Fläche? Betonvolumen, Fliesenanzahlen und Farbmengen für 100 bis 3,000 sq ft — berechnet mit den eigenen Rechnern der Website.",
-  "id": "/loona-construction-calculators/de/materials-by-area/",
+  "id": "/de/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

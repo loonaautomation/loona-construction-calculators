@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "Darmowy kalkulator prawa Ohma: wpisz dowolne dwie spośród napięcia, prądu, rezystancji i mocy, a otrzymasz pozostałe dwie — wszystkie cztery ćwiartki koła prawa Ohma, ze wzorami i przykładem obliczeniowym.",
-  "id": "/loona-construction-calculators/pl/ohms-law-calculator/",
+  "id": "/pl/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

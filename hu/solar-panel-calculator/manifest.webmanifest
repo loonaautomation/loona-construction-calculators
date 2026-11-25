@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "Ingyenes napelemkalkulátor: a havi villamosenergia-fogyasztás, a csúcsnapsütéses órák és a panelteljesítmény megadja a szükséges paneleket, a rendszerméretet kW-ban, a várható havi termelést és a tetőterületet — regisztráció nélkül.",
-  "id": "/loona-construction-calculators/hu/solar-panel-calculator/",
+  "id": "/hu/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

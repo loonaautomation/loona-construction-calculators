@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "Máy tính thời lượng pin miễn phí: volt và ampe-giờ của pin, watt tải, độ xả sâu và hiệu suất nghịch lưu cho watt-giờ dùng được và thời gian chạy theo giờ — cho lập kế hoạch năng lượng mặt trời, UPS và độc lập lưới.",
-  "id": "/loona-construction-calculators/vi/battery-runtime-calculator/",
+  "id": "/vi/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

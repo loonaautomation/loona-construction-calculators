@@ -2,7 +2,7 @@
   "name": "Loona 3/12 Roof Pitch",
   "short_name": "3/12 Roof Pitch",
   "description": "ميل سقف 3/12 يساوي 14.04 درجة (انحدار 25%). مضاعف العارضة 1.0308، وأطوال العوارض للمسارات الشائعة، والمواد والاستخدامات.",
-  "id": "/loona-construction-calculators/ar/roof-pitch-3-12/",
+  "id": "/ar/roof-pitch-3-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

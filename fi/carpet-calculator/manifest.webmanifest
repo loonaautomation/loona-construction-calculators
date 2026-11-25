@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Ilmainen mattolaskuri: huoneen koko ja mattorullan leveys metrisenä tai tuumaisena antavat todella ostettavan maton juoksumetrimäärän ja pinta-alan (rullan hukkapalat mukaan lukien), sekä valinnaisen hinnan — hukkalisällä.",
-  "id": "/loona-construction-calculators/fi/carpet-calculator/",
+  "id": "/fi/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

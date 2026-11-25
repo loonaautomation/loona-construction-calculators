@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 16 × 20 ft Patio",
   "short_name": "Materials for a 16 × 20 ft",
   "description": "Inköpslista för en uteplats på 16×20 ft: antal marksten på delning, sandbädd, grusunderlag och kantstöd — beräknade mängder.",
-  "id": "/loona-construction-calculators/sv/materials-for-patio/",
+  "id": "/sv/materials-for-patio/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

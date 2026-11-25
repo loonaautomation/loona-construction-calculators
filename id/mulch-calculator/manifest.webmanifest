@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Kalkulator mulsa gratis: luas bedeng dan kedalaman dalam metrik atau imperial — dapatkan volume mulsa, jumlah kantong 40/50 liter atau 2/3 kaki kubik, serta meter kubik dan yard curah.",
-  "id": "/loona-construction-calculators/id/mulch-calculator/",
+  "id": "/id/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona How Much Paint for 100 Sq Ft of Wall?",
   "short_name": "How Much Paint for 100 Sq Ft",
   "description": "Βαφή για 100 sq ft τοίχου: 2.0 λίτρα (0.5 gal) για 2 στρώσεις με τυπική κάλυψη 10 m²/L, συν 0.9 L αστάρι — με τις παραδοχές να αναφέρονται.",
-  "id": "/loona-construction-calculators/el/paint-for-100-sq-ft/",
+  "id": "/el/paint-for-100-sq-ft/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

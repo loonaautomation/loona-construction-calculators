@@ -2,7 +2,7 @@
   "name": "Loona 8/12 Roof Pitch",
   "short_name": "8/12 Roof Pitch",
   "description": "שיפוע גג של 8/12 הוא 33.69 מעלות (67% דירוג). מכפיל קורת 1.2019, אורכי קורות למהלכים נפוצים, חומרים ושימושים.",
-  "id": "/loona-construction-calculators/he/roof-pitch-8-12/",
+  "id": "/he/roof-pitch-8-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in India",
   "short_name": "Brick Size in India",
   "description": "Dimension standard de brique en Inde : 190 × 90 × 90 mm. 50.0 briques par m² (4.65 par sq ft) de mur à simple paroi avec des joints de mortier de 10 mm, couverture pour 1,000 briques et un exemple de mur calculé.",
-  "id": "/loona-construction-calculators/fr/brick-size-india/",
+  "id": "/fr/brick-size-india/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

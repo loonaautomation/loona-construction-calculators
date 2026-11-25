@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Hur mycket material för din yta? Betongvolymer, plattantal och färgmängder för 100 till 3,000 sq ft — beräknade med webbplatsens egna kalkylatorer.",
-  "id": "/loona-construction-calculators/sv/materials-by-area/",
+  "id": "/sv/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "Δωρεάν υπολογιστής όγκου πισίνας για ορθογώνιες, στρογγυλές και οβάλ πισίνες: εισαγάγετε το μέγεθος και τα βάθη ρηχής/βαθιάς άκρης σε μετρικό ή αυτοκρατορικό και λάβετε τον όγκο νερού σε λίτρα και γαλόνια ΗΠΑ για χημική δοσολογία και γέμισμα.",
-  "id": "/loona-construction-calculators/el/pool-volume-calculator/",
+  "id": "/el/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

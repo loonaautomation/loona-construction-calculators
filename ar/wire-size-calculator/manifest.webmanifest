@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "حاسبة مقاس سلك مجانية: التيار وطول أحادي الاتجاه ونسبة هبوط جهد مسموحة والجهد ونحاس أو ألومنيوم، أحادي أو ثلاثي الأطوار — أدنى مقاس كابل بـ mm²، وأقرب مقاس قياسي ومكافئ AWG.",
-  "id": "/loona-construction-calculators/ar/wire-size-calculator/",
+  "id": "/ar/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

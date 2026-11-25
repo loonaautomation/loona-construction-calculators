@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "Kalkulator isi padu kolam percuma untuk kolam segi empat tepat, bulat dan bujur: masukkan saiz dan kedalaman hujung cetek/dalam dalam metrik atau imperial dan dapatkan isi padu air dalam liter dan gelen US untuk dos bahan kimia dan pengisian.",
-  "id": "/loona-construction-calculators/ms/pool-volume-calculator/",
+  "id": "/ms/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

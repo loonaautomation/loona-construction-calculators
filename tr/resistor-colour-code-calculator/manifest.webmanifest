@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "Ücretsiz direnç renk kodu hesaplayıcısı: direnci, toleransı ve sıcaklık katsayısını almak için 4, 5 veya 6 bantlı bir direnç üzerindeki bant renklerini seçin — veya ters çevirin, değerden bantlara.",
-  "id": "/loona-construction-calculators/tr/resistor-colour-code-calculator/",
+  "id": "/tr/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Calculator",
   "short_name": "Roof Pitch Calculator",
   "description": "Gratis taklutningskalkylator: ange stigning och spann i vilken enhet som helst — få lutningen som ett förhållande (x-av-12), vinkeln i grader, procentlutningen och takstolslängden. Fungerar för metriska och imperiala mätningar.",
-  "id": "/loona-construction-calculators/sv/roof-pitch-calculator/",
+  "id": "/sv/roof-pitch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

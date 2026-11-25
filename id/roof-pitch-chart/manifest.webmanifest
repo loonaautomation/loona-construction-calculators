@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Bagan kemiringan atap lengkap: 1/12 hingga 12/12 dengan sudut, tingkat kemiringan, dan pengali kasau, setiap kemiringan dengan halaman panduannya sendiri.",
-  "id": "/loona-construction-calculators/id/roof-pitch-chart/",
+  "id": "/id/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

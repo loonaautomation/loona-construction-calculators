@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Ilmainen kipsilevylaskuri: huoneen koko metrisenä tai tuumaisena — saat seinän ja katon pinta-alan sekä ostettavien 1200 × 2400 mm tai 4 × 8 ft levyjen määrän, hukka mukaan lukien.",
-  "id": "/loona-construction-calculators/fi/drywall-calculator/",
+  "id": "/fi/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

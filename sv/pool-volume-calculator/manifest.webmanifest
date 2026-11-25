@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "Gratis poolvolymkalkylator för rektangel-, runda och ovala pooler: ange storleken och djupen i grunda/djupa änden i metriskt eller imperial och få vattenvolymen i liter och US gallons för kemisk dosering och fyllning.",
-  "id": "/loona-construction-calculators/sv/pool-volume-calculator/",
+  "id": "/sv/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Calcolatore gratuito di tappezzeria: dimensioni della stanza in metrico o imperiale, rotoli doppi europei o USA, rapporto tenuto in conto — ottieni il numero esatto di rotoli da comprare, spreco incluso.",
-  "id": "/loona-construction-calculators/it/wallpaper-calculator/",
+  "id": "/it/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

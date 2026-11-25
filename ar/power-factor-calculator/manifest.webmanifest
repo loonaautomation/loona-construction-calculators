@@ -2,7 +2,7 @@
   "name": "Loona Power Factor Calculator",
   "short_name": "Power Factor Calculator",
   "description": "حاسبة معامل قدرة مجانية: القدرة الحقيقية (kW) والقدرة الظاهرة (kVA) تعطي معامل القدرة والقدرة غير الفعالة بـ kvar وزاوية الطور — ومكثف kvar اللازم للتصحيح إلى PF مستهدف.",
-  "id": "/loona-construction-calculators/ar/power-factor-calculator/",
+  "id": "/ar/power-factor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

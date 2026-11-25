@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "מחשבון אריחים חינמי: מידת רצפה או קיר, מידת אריח ותפר רובה במטרי או באימפריאלי — קבלו את מספר האריחים והקופסאות המדויק לקנייה, כולל תוספת פחת לחיתוכים ולשבירות.",
-  "id": "/loona-construction-calculators/he/tile-calculator/",
+  "id": "/he/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

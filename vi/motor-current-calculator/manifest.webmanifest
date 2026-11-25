@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "Máy tính dòng điện động cơ miễn phí: công suất động cơ theo kW hoặc mã lực, điện áp, một hoặc ba pha, hiệu suất và hệ số công suất cho dòng đầy tải ước tính — với lưu ý nhãn máy và quy chuẩn trung thực.",
-  "id": "/loona-construction-calculators/vi/motor-current-calculator/",
+  "id": "/vi/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

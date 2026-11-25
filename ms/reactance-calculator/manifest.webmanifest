@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "Kalkulator reaktans percuma: frekuensi dengan kapasitans (µF) memberikan reaktans kapasitif Xc, dengan induktans (mH) memberikan reaktans induktif Xl — masukkan kedua-duanya untuk reaktans bersih dan frekuensi resonan LC.",
-  "id": "/loona-construction-calculators/ms/reactance-calculator/",
+  "id": "/ms/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

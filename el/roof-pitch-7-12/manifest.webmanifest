@@ -2,7 +2,7 @@
   "name": "Loona 7/12 Roof Pitch",
   "short_name": "7/12 Roof Pitch",
   "description": "Η κλίση στέγης 7/12 είναι 30.26 μοίρες (κλίση 58%). Συντελεστής δοκού 1.1577, μήκη δοκών για συνηθισμένες διαδρομές, υλικά και χρήσεις.",
-  "id": "/loona-construction-calculators/el/roof-pitch-7-12/",
+  "id": "/el/roof-pitch-7-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

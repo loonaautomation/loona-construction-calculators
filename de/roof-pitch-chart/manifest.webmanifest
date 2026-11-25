@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Komplette Dachneigungs-Tabelle: 1/12 bis 12/12 mit Winkeln, Steigungen und Sparren-Multiplikatoren, jede Neigung mit eigener Anleitungsseite.",
-  "id": "/loona-construction-calculators/de/roof-pitch-chart/",
+  "id": "/de/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

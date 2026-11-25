@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "เครื่องคำนวณกรวดฟรี: พื้นที่และความลึกเป็นเมตริกหรืออิมพีเรียล — รับปริมาตรกรวดเป็นลูกบาศก์เมตรและลูกบาศก์หลา และน้ำหนักเป็นตันและ US tons พร้อมความหนาแน่นที่ปรับได้และค่าเผื่อเศษ",
-  "id": "/loona-construction-calculators/th/gravel-calculator/",
+  "id": "/th/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

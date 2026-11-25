@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "免费保温计算器：输入面积和目标 R 值（或公制 RSI），得到要买的棉块/卷材包数或吹入式保温袋数，以及目标所需的厚度 — 公制和英制。",
-  "id": "/loona-construction-calculators/zh/insulation-calculator/",
+  "id": "/zh/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

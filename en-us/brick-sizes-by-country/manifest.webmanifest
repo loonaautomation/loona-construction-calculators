@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Standard brick sizes in the UK, USA, India, Pakistan, Australia, Germany and South Africa — dimensions and bricks per square meter compared.",
-  "id": "/loona-construction-calculators/en-us/brick-sizes-by-country/",
+  "id": "/en-us/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

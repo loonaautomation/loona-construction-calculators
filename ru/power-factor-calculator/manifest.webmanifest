@@ -2,7 +2,7 @@
   "name": "Loona Power Factor Calculator",
   "short_name": "Power Factor Calculator",
   "description": "Бесплатный калькулятор коэффициента мощности: реальная мощность (kW) и полная мощность (kVA) дают коэффициент мощности, реактивную мощность в kvar, угол фазы — и количество kvar конденсатора, необходимое для коррекции до целевого коэффициента мощности.",
-  "id": "/loona-construction-calculators/ru/power-factor-calculator/",
+  "id": "/ru/power-factor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

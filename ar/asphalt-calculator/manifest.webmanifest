@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "حاسبة أسفلت مجانية: أدخل الطول والعرض والسُمك بالمتري أو الإمبراطوري واحصل على وزن الأسفلت المطلوب طلبه بالأطنان المترية والأمريكية، مع كثافة قابلة للتعديل (2,450 kg/m³ / 145 lb/ft³) وبدل فاقد وتكلفة اختيارية.",
-  "id": "/loona-construction-calculators/ar/asphalt-calculator/",
+  "id": "/ar/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona 4/12 Roof Pitch",
   "short_name": "4/12 Roof Pitch",
   "description": "4/12 çatı eğimi 18.43 derecedir (%33 eğim). Mertek çarpanı 1.0541, yaygın mesafeler için mertek uzunlukları, malzemeler ve kullanım alanları.",
-  "id": "/loona-construction-calculators/tr/roof-pitch-4-12/",
+  "id": "/tr/roof-pitch-4-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

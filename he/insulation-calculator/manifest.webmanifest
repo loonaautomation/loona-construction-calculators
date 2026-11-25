@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "מחשבון בידוד חינמי: הזינו את השטח ואת ערך R היעד שלכם (או RSI מטרי) וקבלו את חבילות לוחות הבידוד/גלילים או שקי הבידוד המנופח לקנייה, בתוספת העובי שהיעד שלכם צריך — מטרי ואימפריאלי.",
-  "id": "/loona-construction-calculators/he/insulation-calculator/",
+  "id": "/he/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

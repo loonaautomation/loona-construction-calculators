@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "جدول ميل سقف كامل: 1/12 إلى 12/12 مع الزوايا والانحدارات ومضاعفات العوارض، كل ميل مع صفحة دليله الخاصة.",
-  "id": "/loona-construction-calculators/ar/roof-pitch-chart/",
+  "id": "/ar/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

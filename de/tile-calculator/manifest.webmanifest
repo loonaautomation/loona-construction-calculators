@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Kostenloser Fliesen-Rechner: Boden- oder Wandgröße, Fliesengröße und Fugenabstand in metrisch oder imperial — erhalten Sie die exakte Anzahl der zu kaufenden Fliesen und Kartons, einschließlich einer Verschnittzugabe für Schnitte und Brüche.",
-  "id": "/loona-construction-calculators/de/tile-calculator/",
+  "id": "/de/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

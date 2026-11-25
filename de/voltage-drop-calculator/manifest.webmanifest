@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Kostenloser Spannungsabfall-Rechner: Einfache Kabellänge, Strom, Kupfer oder Aluminium, Kabelgröße in mm² oder AWG, einphasig oder dreiphasig — abgefallene Volt und % Abfall mit 3%/5% Anleitung.",
-  "id": "/loona-construction-calculators/de/voltage-drop-calculator/",
+  "id": "/de/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

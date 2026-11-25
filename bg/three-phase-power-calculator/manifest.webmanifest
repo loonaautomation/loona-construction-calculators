@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "Безплатен калкулатор за трифазна мощност: линейното напрежение, линейният ток и факторът на мощността дават реалната мощност в kW, пълната мощност в kVA и реактивната мощност в kvar за балансирани товари.",
-  "id": "/loona-construction-calculators/bg/three-phase-power-calculator/",
+  "id": "/bg/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

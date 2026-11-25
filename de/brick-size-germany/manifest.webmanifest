@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "Standard-Ziegelmaß in Deutschland (NF): 240 × 115 × 71 mm. 49.4 Ziegel pro m² (4.59 pro sq ft) einschaliger Wand mit 10 mm Mörtelfugen, Abdeckung pro 1,000 Ziegel und ein durchgerechnetes Wandbeispiel.",
-  "id": "/loona-construction-calculators/de/brick-size-germany/",
+  "id": "/de/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

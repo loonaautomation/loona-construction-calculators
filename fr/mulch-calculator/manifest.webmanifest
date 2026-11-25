@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Calculateur gratuit de paillis : surface et profondeur du massif en métrique ou impérial — obtenez le volume de paillis, le nombre de sacs de 40/50 litres ou de 2/3 pieds cubes, et les mètres et yards cubes en vrac.",
-  "id": "/loona-construction-calculators/fr/mulch-calculator/",
+  "id": "/fr/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "বিনামূল্যের টাইলস ক্যালকুলেটর: মেট্রিক বা ইম্পেরিয়ালে মেঝে বা দেয়ালের আকার, টাইলসের আকার ও গ্রাউট ফাঁক — কেনার জন্য টাইলস ও বাক্সের সঠিক সংখ্যা পেয়ে যান, কাটা ও ভাঙার জন্য অপচয়ের ভাতাসহ।",
-  "id": "/loona-construction-calculators/bn/tile-calculator/",
+  "id": "/bn/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

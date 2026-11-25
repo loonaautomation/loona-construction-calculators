@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "Gratis motorstrømkalkulator: motoreffekt i kW eller hestekrefter, spenning, en- eller trefase, virkningsgrad og effektfaktor gir en anslått fullaststrøm — med ærlige forbehold om typeskilt og kode.",
-  "id": "/loona-construction-calculators/nb/motor-current-calculator/",
+  "id": "/nb/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Безкоштовний калькулятор падіння напруги: довжина кабелю в один бік, струм, мідь або алюміній, переріз кабелю в мм² або AWG, одна чи три фази — втрачені вольти й % падіння з орієнтирами 3%/5%.",
-  "id": "/loona-construction-calculators/uk/voltage-drop-calculator/",
+  "id": "/uk/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

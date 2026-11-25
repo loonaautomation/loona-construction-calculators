@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "Безкоштовний калькулятор трифазної потужності: лінійна напруга, лінійний струм і коефіцієнт потужності дають активну потужність у кВт, повну потужність у кВА та реактивну потужність у квар для збалансованих навантажень.",
-  "id": "/loona-construction-calculators/uk/three-phase-power-calculator/",
+  "id": "/uk/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

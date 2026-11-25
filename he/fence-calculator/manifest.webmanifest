@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "מחשבון גדר חינמי: אורך גדר ומרווח עמודים במטרי או באימפריאלי נותנים לכם עמודים, קורות, לוחות גדר (מרוחב לוח ומרווח) ושקי בטון — עם תוספת פחת ללוחות גדר.",
-  "id": "/loona-construction-calculators/he/fence-calculator/",
+  "id": "/he/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "Kikokotoo cha bure cha msimbo wa rangi za kinzani: chagua rangi za utepe kwenye kinzani ya utepe-4, utepe-5 au utepe-6 ili kupata ukinzani, uvumilivu na kipengele cha joto — au kinyume chake, thamani hadi utepe.",
-  "id": "/loona-construction-calculators/sw/resistor-colour-code-calculator/",
+  "id": "/sw/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

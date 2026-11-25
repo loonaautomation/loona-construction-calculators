@@ -2,7 +2,7 @@
   "name": "Loona kVA to Amps Calculator",
   "short_name": "kVA to Amps Calculator",
   "description": "Kalkulator kVA ke ampere gratis untuk suplai satu fase dan tiga fase — dan sebaliknya, ampere ke kVA. Tentukan arus generator, transformator, dan suplai dari kVA dan tegangan.",
-  "id": "/loona-construction-calculators/id/kva-to-amps-calculator/",
+  "id": "/id/kva-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

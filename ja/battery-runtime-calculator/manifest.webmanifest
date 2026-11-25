@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "無料のバッテリー駆動時間計算機：バッテリーの電圧とアンペア時、負荷のワット数、放電深度、インバーター効率から、使用可能なワット時と時間単位の駆動時間が得られます — 太陽光、UPS、オフグリッドの計画に。",
-  "id": "/loona-construction-calculators/ja/battery-runtime-calculator/",
+  "id": "/ja/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

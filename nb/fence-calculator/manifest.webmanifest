@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Gratis gjerdekalkulator: gjerdlengde og stolpeavstand i metrisk eller imperiell gir deg stolper, skinner, lameller (fra lamellbredde og åpning) og betongsekker — med et svinntillegg for lameller.",
-  "id": "/loona-construction-calculators/nb/fence-calculator/",
+  "id": "/nb/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

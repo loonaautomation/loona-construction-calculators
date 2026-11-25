@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "DC, AC সিঙ্গল-ফেজ ও AC থ্রি-ফেজের জন্য বিনামূল্যের ওয়াট থেকে অ্যাম্প ক্যালকুলেটর: ক্ষমতা, ভোল্টেজ ও পাওয়ার ফ্যাক্টর দিলে অ্যাম্পে কারেন্ট পাওয়া যায় — ব্রেকার বা তারের আকার ঠিক করার প্রথম ধাপ।",
-  "id": "/loona-construction-calculators/bn/watts-to-amps-calculator/",
+  "id": "/bn/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

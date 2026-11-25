@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Calculateur gratuit de papier peint : taille de pièce en métrique ou impérial, rouleaux doubles européens ou américains, raccord pris en compte — obtenez le nombre exact de rouleaux à acheter, chutes incluses.",
-  "id": "/loona-construction-calculators/fr/wallpaper-calculator/",
+  "id": "/fr/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

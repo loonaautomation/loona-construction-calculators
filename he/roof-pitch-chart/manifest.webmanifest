@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "טבלת שיפועי גג מלאה: 1/12 עד 12/12 עם זוויות, שיפועים ומכפילי קורות גג, לכל שיפוע עמוד מדריך משלו.",
-  "id": "/loona-construction-calculators/he/roof-pitch-chart/",
+  "id": "/he/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

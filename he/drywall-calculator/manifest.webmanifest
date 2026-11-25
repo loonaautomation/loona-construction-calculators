@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "מחשבון גבס ולוחות גבס חינמי: מידת חדר במטרי או באימפריאלי — קבלו שטח קירות ותקרה ואת מספר הלוחות של 1200 × 2400 mm או 4 × 8 ft לקנייה, פחת כלול.",
-  "id": "/loona-construction-calculators/he/drywall-calculator/",
+  "id": "/he/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

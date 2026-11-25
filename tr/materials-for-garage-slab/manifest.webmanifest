@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "20 × 20 ft garaj plağı için malzemeler: tam beton hacmi ve hazır karışım torba sayıları (4 inç plak, %10 fazlalık) artı taban ve donatı alışveriş notları.",
-  "id": "/loona-construction-calculators/tr/materials-for-garage-slab/",
+  "id": "/tr/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Máy tính sàn gỗ miễn phí: kích thước sàn và chiều rộng ván theo hệ mét hoặc imperial cho bạn số ván sàn cần mua, tổng chiều dài ván, dầm và ước tính vít — với khe ván, khoảng cách dầm và dự phòng hao hụt.",
-  "id": "/loona-construction-calculators/vi/deck-calculator/",
+  "id": "/vi/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Ingyenes AWG-átváltó: AWG-méretről átmérőre mm-ben és hüvelykben, keresztmetszetre mm²-ben és ellenállásra kilométerenként rézre és alumíniumra — vagy keresse meg a legközelebbi AWG-t mm²-ből vagy átmérőből.",
-  "id": "/loona-construction-calculators/hu/awg-converter/",
+  "id": "/hu/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

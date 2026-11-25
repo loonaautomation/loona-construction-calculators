@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Free voltage drop calculator: one-way cable length, current, copper or aluminium, cable size in mm² or AWG, single-phase or three-phase — volts dropped and % drop with 3%/5% guidance.",
-  "id": "/loona-construction-calculators/voltage-drop-calculator/",
+  "id": "/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

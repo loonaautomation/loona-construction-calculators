@@ -2,7 +2,7 @@
   "name": "Loona Stairs Calculator",
   "short_name": "Stairs Calculator",
   "description": "Free stairs calculator: enter the total rise in metric or imperial — get the number of steps, exact riser height, total run and stringer length, with the 2R + T comfort rule checked automatically.",
-  "id": "/loona-construction-calculators/en-gb/stairs-calculator/",
+  "id": "/en-gb/stairs-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

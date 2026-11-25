@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Бесплатный калькулятор обоев: размер комнаты в метрической или имперской системе, европейские или американские двойные рулоны, с учётом раппорта рисунка — получите точное количество рулонов обоев для покупки, с учётом отходов.",
-  "id": "/loona-construction-calculators/ru/wallpaper-calculator/",
+  "id": "/ru/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

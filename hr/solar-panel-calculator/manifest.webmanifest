@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "Besplatni kalkulator solarnih panela: mjesečna potrošnja električne energije, vršni sunčani sati i snaga panela daju vam potrebne panele, veličinu sustava u kW, očekivanu mjesečnu proizvodnju i površinu krova — bez prijave.",
-  "id": "/loona-construction-calculators/hr/solar-panel-calculator/",
+  "id": "/hr/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

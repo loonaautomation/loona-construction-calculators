@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "免费泳池体积计算器，适用于矩形、圆形和椭圆形泳池：输入尺寸和浅/深端深度（公制或英制），得到以升和美制加仑计的水量，用于化学投药和注水。",
-  "id": "/loona-construction-calculators/zh/pool-volume-calculator/",
+  "id": "/zh/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

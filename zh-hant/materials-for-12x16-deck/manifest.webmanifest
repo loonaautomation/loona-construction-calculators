@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 12 × 16 ft Deck",
   "short_name": "Materials for a 12 × 16 ft",
   "description": "12×16 ft 露臺的購買清單：鋪板、板英尺、託梁、立柱和螺絲數量 — 按佈局計算，並註明規範注意事項。",
-  "id": "/loona-construction-calculators/zh-hant/materials-for-12x16-deck/",
+  "id": "/zh-hant/materials-for-12x16-deck/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

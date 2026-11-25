@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Calculator gratuit de mulci: suprafața stratului și adâncimea în metric sau imperial — obțineți volumul de mulci, numărul de saci de 40/50 litri sau 2/3 picioare cubi și metri și yarzi cubi vrac.",
-  "id": "/loona-construction-calculators/ro/mulch-calculator/",
+  "id": "/ro/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona 4/12 Roof Pitch",
   "short_name": "4/12 Roof Pitch",
   "description": "Een dakhelling van 4/12 is 18.43 graden (33% hellingspercentage). Dakspantvermenigvuldiger 1.0541, dakspantlengtes voor gebruikelijke aantredes, materialen en toepassingen.",
-  "id": "/loona-construction-calculators/nl/roof-pitch-4-12/",
+  "id": "/nl/roof-pitch-4-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

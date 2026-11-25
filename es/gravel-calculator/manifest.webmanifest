@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "Calculadora gratuita de grava: área y profundidad en métrico o imperial — obtén el volumen de grava en metros cúbicos y yardas cúbicas y el peso en toneladas y toneladas estadounidenses, con densidad ajustable y margen de desperdicio.",
-  "id": "/loona-construction-calculators/es/gravel-calculator/",
+  "id": "/es/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

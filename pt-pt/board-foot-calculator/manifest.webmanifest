@@ -2,7 +2,7 @@
   "name": "Loona Board Foot Calculator",
   "short_name": "Board Foot Calculator",
   "description": "Calculadora gratuita de pés de tábua: espessura, largura, comprimento e número de peças da madeira em imperial ou métrico — obtenha os pés de tábua totais e os metros cúbicos para a sua encomenda de madeira.",
-  "id": "/loona-construction-calculators/pt-pt/board-foot-calculator/",
+  "id": "/pt-pt/board-foot-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

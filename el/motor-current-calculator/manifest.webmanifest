@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "Δωρεάν υπολογιστής ρεύματος κινητήρα: ισχύς κινητήρα σε kW ή ίππους, τάση, μονοφασικό ή τριφασικό, απόδοση και συντελεστής ισχύος δίνουν εκτιμώμενο ρεύμα πλήρους φορτίου — με ειλικρινείς επιφυλάξεις πινακίδας και κανονισμών.",
-  "id": "/loona-construction-calculators/el/motor-current-calculator/",
+  "id": "/el/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

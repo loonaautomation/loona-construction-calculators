@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 12 × 16 ft Deck",
   "short_name": "Materials for a 12 × 16 ft",
   "description": "Bevásárlólista egy 12×16 láb teraszhoz: teraszdeszkák, deszkaláb, tartógerendák, oszlopok és csavardarabszámok — az elrendezésből számítva, az előírásokra vonatkozó fenntartások feltüntetésével.",
-  "id": "/loona-construction-calculators/hu/materials-for-12x16-deck/",
+  "id": "/hu/materials-for-12x16-deck/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Stairs Calculator",
   "short_name": "Stairs Calculator",
   "description": "Безплатен калкулатор за стълби: въведете общото издигане в метрична или имперска система — получете броя стъпала, точната височина на вертикалната част, общата хоризонтална дължина и дължината на страничната греда, с автоматична проверка на правилото за удобство 2R + T.",
-  "id": "/loona-construction-calculators/bg/stairs-calculator/",
+  "id": "/bg/stairs-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona 9/12 Roof Pitch",
   "short_name": "9/12 Roof Pitch",
   "description": "9/12 छत ढलान 36.87 डिग्री है (75% ग्रेड)। राफ्टर गुणक 1.2500, सामान्य रनों के लिए राफ्टर लंबाइयाँ, सामग्री और उपयोग।",
-  "id": "/loona-construction-calculators/hi/roof-pitch-9-12/",
+  "id": "/hi/roof-pitch-9-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

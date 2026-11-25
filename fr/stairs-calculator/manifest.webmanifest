@@ -2,7 +2,7 @@
   "name": "Loona Stairs Calculator",
   "short_name": "Stairs Calculator",
   "description": "Calculateur gratuit d'escaliers : saisissez la montée totale en métrique ou impérial — obtenez le nombre de marches, la hauteur exacte de contremarche, la portée totale et la longueur de limon, avec la règle de confort 2R + T vérifiée automatiquement.",
-  "id": "/loona-construction-calculators/fr/stairs-calculator/",
+  "id": "/fr/stairs-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

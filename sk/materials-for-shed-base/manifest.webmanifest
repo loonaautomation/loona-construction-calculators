@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 10 × 12 ft Shed Base",
   "short_name": "Materials for a 10 × 12 ft",
   "description": "Materiál na základ prístrešku 10 × 12 ft: presný objem betónu a počty vriec hotovej zmesi (doska s hrúbkou 4-in, 10% navyše) plus nákupné poznámky k podkladu a výstuži.",
-  "id": "/loona-construction-calculators/sk/materials-for-shed-base/",
+  "id": "/sk/materials-for-shed-base/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Materials for Painting a 12 × 14 ft Room",
   "short_name": "Materials for Painting a 12 ×",
   "description": "একটি 12×14 ft ঘর রঙের পুরো কেনার তালিকা: 2-প্রলেপ রঙের লিটার/গ্যালন, প্রাইমার, টেপ, রোলার ও প্রস্তুতির উপকরণ — হিসাব করা, অনুমান নয়।",
-  "id": "/loona-construction-calculators/bn/materials-for-painting-a-room/",
+  "id": "/bn/materials-for-painting-a-room/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

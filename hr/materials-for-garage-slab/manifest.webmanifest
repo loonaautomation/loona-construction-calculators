@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "Materijali za garažnu ploču 20 × 20 ft: točan volumen betona i brojevi vreća gotove mješavine (ploča od 4 inča, 10% viška) plus napomene za kupnju podloge i armature.",
-  "id": "/loona-construction-calculators/hr/materials-for-garage-slab/",
+  "id": "/hr/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

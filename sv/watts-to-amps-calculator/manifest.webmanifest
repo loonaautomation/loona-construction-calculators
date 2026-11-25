@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "Gratis watt-till-ampere-kalkylator för DC, AC enfas och AC trefas: effekt, spänning och effektfaktor ger strömmen i ampere — det första steget för att dimensionera en säkring eller kabel.",
-  "id": "/loona-construction-calculators/sv/watts-to-amps-calculator/",
+  "id": "/sv/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

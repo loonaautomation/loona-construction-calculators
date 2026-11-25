@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Bezplatná kalkulačka plotu: délka plotu a rozteč sloupků v metrických nebo imperiálních jednotkách vám dají sloupky, latě, plaňky (ze šířky plaňku a mezery) a pytle betonu — s přídavkem na odpad pro plaňky.",
-  "id": "/loona-construction-calculators/cs/fence-calculator/",
+  "id": "/cs/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

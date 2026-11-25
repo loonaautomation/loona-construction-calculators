@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "বিনামূল্যের ওয়ালপেপার ক্যালকুলেটর: মেট্রিক বা ইম্পেরিয়ালে ঘরের আকার, ইউরোপীয় বা US ডাবল রোল, প্যাটার্নের পুনরাবৃত্তি ধরা — কেনার জন্য ওয়ালপেপার রোলের সঠিক সংখ্যা পেয়ে যান, অপচয়সহ।",
-  "id": "/loona-construction-calculators/bn/wallpaper-calculator/",
+  "id": "/bn/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

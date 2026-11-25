@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Koliko materijala za vašu površinu? Volumeni betona, brojevi pločica i količine boje za 100 do 3,000 sq ft — izračunato vlastitim kalkulatorima stranice.",
-  "id": "/loona-construction-calculators/hr/materials-by-area/",
+  "id": "/hr/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Sand Calculator",
   "short_name": "Sand Calculator",
   "description": "Безкоштовний калькулятор піску: площа й глибина в метричних або імперських одиницях дають об’єм піску, вагу в тоннах і американських тоннах та кількість мішків по 25 kg — із густиною й запасом на відходи, для пісочниць, основ під бруківку та стяжок.",
-  "id": "/loona-construction-calculators/uk/sand-calculator/",
+  "id": "/uk/sand-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

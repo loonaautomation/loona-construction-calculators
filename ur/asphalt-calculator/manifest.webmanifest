@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "مفت اسفالٹ کیلکولیٹر: میٹرک یا امپیریل میں لمبائی، چوڑائی اور موٹائی درج کریں اور tonnes اور US tons میں آرڈر کا اسفالٹ وزن پائیں، قابل تدوین کثافت (2,450 kg/m³ / 145 lb/ft³)، ضیاع گنجائش اور اختیاری لاگت کے ساتھ۔",
-  "id": "/loona-construction-calculators/ur/asphalt-calculator/",
+  "id": "/ur/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

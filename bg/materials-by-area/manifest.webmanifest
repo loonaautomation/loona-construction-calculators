@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Колко материал за вашата площ? Обеми бетон, брой плочки и количества боя за 100 до 3,000 sq ft — изчислени със собствените калкулатори на сайта.",
-  "id": "/loona-construction-calculators/bg/materials-by-area/",
+  "id": "/bg/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

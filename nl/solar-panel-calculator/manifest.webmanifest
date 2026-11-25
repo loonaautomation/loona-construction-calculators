@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "Gratis zonnepaneelcalculator: maandelijks elektriciteitsverbruik, piekzonuren en paneelvermogen geven je de benodigde panelen, de systeemgrootte in kW, de verwachte maandproductie en de dakoppervlakte — geen registratie.",
-  "id": "/loona-construction-calculators/nl/solar-panel-calculator/",
+  "id": "/nl/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

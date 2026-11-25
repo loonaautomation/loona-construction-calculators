@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "Gratis asfaltcalculator: voer lengte, breedte en dikte in metrisch of imperiaal in en krijg het te bestellen asfaltgewicht in tonnen en US tons, met een bewerkbare dichtheid (2,450 kg/m³ / 145 lb/ft³), verliesstoeslag en optionele kosten.",
-  "id": "/loona-construction-calculators/nl/asphalt-calculator/",
+  "id": "/nl/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Gratis gips- og gipsplatekalkulator: romstørrelse i metrisk eller imperiell — få vegg- og takareal og antall plater på 1200 × 2400 mm eller 4 × 8 ft å kjøpe, svinn inkludert.",
-  "id": "/loona-construction-calculators/nb/drywall-calculator/",
+  "id": "/nb/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

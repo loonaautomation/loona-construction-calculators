@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Australia",
   "short_name": "Brick Size in Australia",
   "description": "Стандартний розмір цегли в Австралії: 230 × 110 × 76 mm. 48.4 цеглини на м² (4.50 на кв. фут) стіни в пів цегли зі швами розчину 10 mm, покриття на 1,000 цеглин і розв’язаний приклад стіни.",
-  "id": "/loona-construction-calculators/uk/brick-size-australia/",
+  "id": "/uk/brick-size-australia/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

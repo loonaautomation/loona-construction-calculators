@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "מחשבון וואט לאמפר חינמי ל-DC, AC חד-פאזי ו-AC תלת-פאזי: הספק, מתח ומקדם הספק נותנים את הזרם באמפר — הצעד הראשון למידות מפסק או כבל.",
-  "id": "/loona-construction-calculators/he/watts-to-amps-calculator/",
+  "id": "/he/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

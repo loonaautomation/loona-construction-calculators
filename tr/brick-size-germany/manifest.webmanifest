@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "Almanya'da standart tuğla boyutu (NF): 240 × 115 × 71 mm. 10 mm harç derzleriyle tek kat duvarın m² başına 49.4 tuğla (sq ft başına 4.59), 1,000 tuğla başına kaplama ve çözülmüş bir duvar örneği.",
-  "id": "/loona-construction-calculators/tr/brick-size-germany/",
+  "id": "/tr/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

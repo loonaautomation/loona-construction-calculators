@@ -2,7 +2,7 @@
   "name": "Loona Board Foot Calculator",
   "short_name": "Board Foot Calculator",
   "description": "Calculator gratuit board foot: grosimea, lățimea, lungimea și numărul de bucăți de cherestea în imperial sau metric — obțineți totalul de board feet și metri cubi pentru comanda de cherestea.",
-  "id": "/loona-construction-calculators/ro/board-foot-calculator/",
+  "id": "/ro/board-foot-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

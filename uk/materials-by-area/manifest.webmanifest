@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Скільки матеріалу на вашу площу? Об’єми бетону, кількість плитки й фарби для 100 to 3,000 sq ft — розраховано власними калькуляторами сайту.",
-  "id": "/loona-construction-calculators/uk/materials-by-area/",
+  "id": "/uk/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

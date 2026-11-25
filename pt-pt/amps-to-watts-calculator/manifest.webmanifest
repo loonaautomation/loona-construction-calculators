@@ -2,7 +2,7 @@
   "name": "Loona Amps to Watts Calculator",
   "short_name": "Amps to Watts Calculator",
   "description": "Calculadora gratuita de amperes para watts para CC, CA monofásica e CA trifásica: a corrente, a tensão e o fator de potência dão watts, quilowatts e kVA — com fórmulas e um exemplo prático.",
-  "id": "/loona-construction-calculators/pt-pt/amps-to-watts-calculator/",
+  "id": "/pt-pt/amps-to-watts-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

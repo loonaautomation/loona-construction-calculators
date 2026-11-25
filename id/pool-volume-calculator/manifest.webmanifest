@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "Kalkulator volume kolam gratis untuk kolam persegi panjang, bulat, dan oval: masukkan ukuran dan kedalaman ujung dangkal/dalam dalam metrik atau imperial dan dapatkan volume air dalam liter dan galon AS untuk pemberian dosis kimia dan pengisian.",
-  "id": "/loona-construction-calculators/id/pool-volume-calculator/",
+  "id": "/id/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

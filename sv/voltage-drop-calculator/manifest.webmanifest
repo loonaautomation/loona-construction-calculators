@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Gratis spänningsfallskalkylator: enkelvägs kabellängd, ström, koppar eller aluminium, kabelstorlek i mm² eller AWG, enfas eller trefas — volt tappade och % fall med 3%/5%-vägledning.",
-  "id": "/loona-construction-calculators/sv/voltage-drop-calculator/",
+  "id": "/sv/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

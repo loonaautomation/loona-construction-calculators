@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Calcolatore recinzioni gratuito: la lunghezza della recinzione e l'interasse dei pali in metrico o imperiale ti danno pali, traversi, stecche (da larghezza e distanza delle stecche) e sacchi di calcestruzzo — con un margine per gli scarti delle stecche.",
-  "id": "/loona-construction-calculators/it/fence-calculator/",
+  "id": "/it/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

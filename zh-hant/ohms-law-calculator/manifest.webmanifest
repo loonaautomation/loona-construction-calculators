@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "免費歐姆定律計算器：輸入電壓、電流、電阻和功率中任意兩個，得到另外兩個 — 歐姆定律輪盤的四個象限，附公式和計算示例。",
-  "id": "/loona-construction-calculators/zh-hant/ohms-law-calculator/",
+  "id": "/zh-hant/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

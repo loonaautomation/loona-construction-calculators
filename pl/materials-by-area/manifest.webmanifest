@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Ile materiału na twoją powierzchnię? Objętości betonu, liczby płytek i ilości farby dla 100 do 3,000 sq ft — obliczone własnymi kalkulatorami strony.",
-  "id": "/loona-construction-calculators/pl/materials-by-area/",
+  "id": "/pl/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

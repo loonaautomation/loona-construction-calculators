@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "Besplatni kalkulator izolacije: unesite površinu i svoju ciljanu R-vrijednost (ili metrički RSI) i dobit ćete pakete ploča/rola ili vreće upuhivane izolacije za kupnju, plus debljinu koju vaš cilj treba — metričke i imperijalne jedinice.",
-  "id": "/loona-construction-calculators/hr/insulation-calculator/",
+  "id": "/hr/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

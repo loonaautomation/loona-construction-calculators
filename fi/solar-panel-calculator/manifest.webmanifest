@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "Ilmainen aurinkopaneelilaskuri: kuukausittainen sähkönkäyttö, huippuaurinkotunnit ja paneelin teho antavat tarvittavat paneelit, järjestelmän koon kilowatteina, odotetun kuukausituotannon ja kattoalan — ei rekisteröitymistä.",
-  "id": "/loona-construction-calculators/fi/solar-panel-calculator/",
+  "id": "/fi/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona How Many Tiles for 500 Sq Ft? (60×60 cm)",
   "short_name": "How Many Tiles for 500 Sq Ft?",
   "description": "Fliser for 500 sq ft med fliser på 60×60 cm og fuger på 3 mm: 141 fliser (36 esker à 4) inkludert 10% ekstra for kutt og brekkasje.",
-  "id": "/loona-construction-calculators/nb/tiles-for-500-sq-ft/",
+  "id": "/nb/tiles-for-500-sq-ft/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

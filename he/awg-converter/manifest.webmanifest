@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "ממיר AWG חינמי: מידת AWG לקוטר ב-mm ובאינץ', חתך ב-mm² והתנגדות לקילומטר לנחושת ואלומיניום — או מצאו את ה-AWG הקרוב ביותר מ-mm² או מקוטר.",
-  "id": "/loona-construction-calculators/he/awg-converter/",
+  "id": "/he/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

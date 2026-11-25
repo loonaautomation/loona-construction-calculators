@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Ücretsiz teras hesaplayıcısı: teras boyutu ve tahta genişliği metrik veya emperyal olarak, satın alınacak teras tahtalarını, toplam tahta uzunluğunu, kirişleri ve bir vida tahminini verir — tahta boşluğu, kiriş aralığı ve fire payıyla.",
-  "id": "/loona-construction-calculators/tr/deck-calculator/",
+  "id": "/tr/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "Kikokotoo cha bure cha wati hadi ampea kwa DC, AC awamu moja na AC awamu tatu: nguvu, volti na kipengele cha nguvu hutoa mkondo katika ampea — hatua ya kwanza ya kupima kivunja saketi au kebo.",
-  "id": "/loona-construction-calculators/sw/watts-to-amps-calculator/",
+  "id": "/sw/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

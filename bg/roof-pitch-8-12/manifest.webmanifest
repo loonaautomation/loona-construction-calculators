@@ -2,7 +2,7 @@
   "name": "Loona 8/12 Roof Pitch",
   "short_name": "8/12 Roof Pitch",
   "description": "Наклон на покрива 8/12 е 33.69 градуса (наклон 67%). Коефициент за реброто 1.2019, дължини на ребрата за обичайни хоризонтални дължини, материали и приложения.",
-  "id": "/loona-construction-calculators/bg/roof-pitch-8-12/",
+  "id": "/bg/roof-pitch-8-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

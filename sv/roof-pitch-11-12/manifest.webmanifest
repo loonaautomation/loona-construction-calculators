@@ -2,7 +2,7 @@
   "name": "Loona 11/12 Roof Pitch",
   "short_name": "11/12 Roof Pitch",
   "description": "En taklutning på 11/12 är 42.51 grader (92% lutning). Takstolsmultiplikator 1.3566, takstolslängder för vanliga spann, material och användningsområden.",
-  "id": "/loona-construction-calculators/sv/roof-pitch-11-12/",
+  "id": "/sv/roof-pitch-11-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

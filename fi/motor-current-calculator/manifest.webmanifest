@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "Ilmainen moottorin virtalaskuri: moottorin teho kilowatteina tai hevosvoimina, jännite, yksi- tai kolmivaihe, hyötysuhde ja tehokerroin antavat arvioidun täyskuormavirran — rehellisillä arvokilpi- ja määräysvarauksilla.",
-  "id": "/loona-construction-calculators/fi/motor-current-calculator/",
+  "id": "/fi/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

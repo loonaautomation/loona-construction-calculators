@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "Free concrete calculator: slab length, width and thickness in metric or imperial — get concrete volume in cubic metres and cubic yards, plus how many 20/25 kg or 60/80 lb pre-mix bags you need.",
-  "id": "/loona-construction-calculators/en-gb/concrete-calculator/",
+  "id": "/en-gb/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

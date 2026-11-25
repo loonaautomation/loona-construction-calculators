@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Calculadora gratuita de deck: o tamanho do deck e a largura da tábua em métrico ou imperial dão-lhe as tábuas a comprar, o comprimento total de tábua, as vigas e uma estimativa de parafusos — com espaçamento entre tábuas, distância entre vigas e margem de desperdício.",
-  "id": "/loona-construction-calculators/pt-pt/deck-calculator/",
+  "id": "/pt-pt/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

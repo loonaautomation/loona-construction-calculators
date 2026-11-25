@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "Calculadora gratuita de betão: comprimento, largura e espessura da laje em métrico ou imperial — obtenha o volume de betão em metros cúbicos e jardas cúbicas, mais quantos sacos pré-misturados de 20/25 kg ou 60/80 lb precisa.",
-  "id": "/loona-construction-calculators/pt/concrete-calculator/",
+  "id": "/pt/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

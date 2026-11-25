@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Darmowy kalkulator przekroju przewodów: prąd, długość w jedną stronę, dopuszczalny % spadku napięcia, napięcie, miedź lub aluminium, jedno- lub trójfazowe — minimalny rozmiar przewodu w mm², najbliższy rozmiar standardowy i odpowiednik AWG.",
-  "id": "/loona-construction-calculators/pl/wire-size-calculator/",
+  "id": "/pl/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

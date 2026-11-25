@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "मुफ़्त थ्री-फेज़ पावर कैलकुलेटर: लाइन-से-लाइन वोल्टेज, लाइन करंट और पावर फैक्टर से संतुलित लोड के लिए kW में वास्तविक पावर, kVA में आभासी पावर और kvar में प्रतिघाती पावर मिलती है।",
-  "id": "/loona-construction-calculators/hi/three-phase-power-calculator/",
+  "id": "/hi/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

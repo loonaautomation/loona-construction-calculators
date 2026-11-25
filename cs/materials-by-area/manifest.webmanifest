@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Kolik materiálu na vaši plochu? Objemy betonu, počty dlaždic a množství barvy pro 100 až 3,000 sq ft — spočítáno vlastními kalkulačkami webu.",
-  "id": "/loona-construction-calculators/cs/materials-by-area/",
+  "id": "/cs/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

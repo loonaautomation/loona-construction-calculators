@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Besplatni kalkulator tepiha: veličina sobe i širina role tepiha u metričkim ili imperijalnim jedinicama daju vam linearnu duljinu i površinu tepiha koji stvarno treba kupiti (uključujući odrezke s role), plus opcionalni trošak — s dodatkom za otpad.",
-  "id": "/loona-construction-calculators/hr/carpet-calculator/",
+  "id": "/hr/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

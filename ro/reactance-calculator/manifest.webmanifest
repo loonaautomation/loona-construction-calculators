@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "Calculator gratuit de reactanță: frecvența cu capacitatea (µF) oferă reactanța capacitivă Xc, cu inductanța (mH) oferă reactanța inductivă Xl — introduceți ambele pentru reactanța netă și frecvența de rezonanță LC.",
-  "id": "/loona-construction-calculators/ro/reactance-calculator/",
+  "id": "/ro/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

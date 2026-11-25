@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Kalkulator dek gratis: ukuran dek dan lebar papan dalam metrik atau imperial memberikan papan dek yang harus dibeli, total panjang papan, balok anak, dan perkiraan sekrup — dengan celah papan, jarak balok anak, dan cadangan limbah.",
-  "id": "/loona-construction-calculators/id/deck-calculator/",
+  "id": "/id/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Paint Calculator",
   "short_name": "Paint Calculator",
   "description": "免费油漆计算器：输入房间尺寸（米或英尺），扣除门窗，选择涂层数和覆盖率，得到所需的油漆和底漆（升或加仑）— 含损耗余量。",
-  "id": "/loona-construction-calculators/zh/paint-calculator/",
+  "id": "/zh/paint-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

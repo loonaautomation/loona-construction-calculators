@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "Saiz bata piawai di Jerman (NF): 240 × 115 × 71 mm. 49.4 bata setiap m² (4.59 setiap kaki persegi) dinding satu lapis dengan sambungan mortar 10 mm, liputan setiap 1,000 bata dan contoh dinding yang dikerjakan.",
-  "id": "/loona-construction-calculators/ms/brick-size-germany/",
+  "id": "/ms/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "Standardní rozměr cihly v Německu (NF): 240 × 115 × 71 mm. 49.4 cihel na m² (4.59 na čtvereční stopu) jednovrstvé zdi se spárami 10 mm na maltu, pokrytí na 1,000 cihel a vypracovaný příklad zdi.",
-  "id": "/loona-construction-calculators/cs/brick-size-germany/",
+  "id": "/cs/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

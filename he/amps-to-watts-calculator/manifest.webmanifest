@@ -2,7 +2,7 @@
   "name": "Loona Amps to Watts Calculator",
   "short_name": "Amps to Watts Calculator",
   "description": "מחשבון אמפר לוואט חינמי ל-DC, AC חד-פאזי ו-AC תלת-פאזי: זרם, מתח ומקדם הספק נותנים וואט, קילוואט ו-kVA — עם נוסחאות ודוגמה פתורה.",
-  "id": "/loona-construction-calculators/he/amps-to-watts-calculator/",
+  "id": "/he/amps-to-watts-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

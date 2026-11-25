@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "Ilmainen soralaskuri: pinta-ala ja syvyys metrisenä tai tuumaisena — saat soran tilavuuden kuutiometreinä ja kuutiojaardeina sekä painon tonneina ja US-tonneina, säädettävällä tiheydellä ja hukkalisällä.",
-  "id": "/loona-construction-calculators/fi/gravel-calculator/",
+  "id": "/fi/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

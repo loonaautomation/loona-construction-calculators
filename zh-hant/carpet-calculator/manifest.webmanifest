@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "免費地毯計算器：房間尺寸和地毯卷寬（公制或英制）給您實際要買的地毯線性長度和麵積（含卷材邊角料），外加可選成本 — 含損耗餘量。",
-  "id": "/loona-construction-calculators/zh-hant/carpet-calculator/",
+  "id": "/zh-hant/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

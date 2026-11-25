@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "حاسبة ألواح جبس مجانية: مقاس الغرفة بالمتري أو الإمبراطوري — احصل على مساحة الجدار والسقف وعدد ألواح 1200 × 2400 mm أو 4 × 8 ft المطلوب شراؤها، الفاقد مشمول.",
-  "id": "/loona-construction-calculators/ar/drywall-calculator/",
+  "id": "/ar/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

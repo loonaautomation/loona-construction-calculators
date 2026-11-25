@@ -2,7 +2,7 @@
   "name": "Loona kVA to Amps Calculator",
   "short_name": "kVA to Amps Calculator",
   "description": "Ingyenes kVA–amper kalkulátor egyfázisú és háromfázisú táplálásokhoz — és fordítva, amper kVA-ra. Méretezzen generátor-, transzformátor- és betáplálási áramokat kVA-ból és feszültségből.",
-  "id": "/loona-construction-calculators/hu/kva-to-amps-calculator/",
+  "id": "/hu/kva-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

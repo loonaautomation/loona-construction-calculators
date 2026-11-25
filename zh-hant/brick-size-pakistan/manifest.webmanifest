@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Pakistan",
   "short_name": "Brick Size in Pakistan",
   "description": "巴基斯坦的標準磚尺寸：228 × 107 × 69 mm。帶 10 mm 砂漿縫的單層牆每平方米 53.2 塊（每平方英尺 4.94 塊），含每 1,000 塊磚的覆蓋面積和一個牆體計算示例。",
-  "id": "/loona-construction-calculators/zh-hant/brick-size-pakistan/",
+  "id": "/zh-hant/brick-size-pakistan/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

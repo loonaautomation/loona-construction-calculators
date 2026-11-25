@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "Materialien für eine 20 × 20 ft Garagenplatte: exaktes Betonvolumen und Sackanzahlen der Fertigmischung (4-Zoll-Platte, 10% extra) plus Einkaufsnotizen für Basis und Bewehrung.",
-  "id": "/loona-construction-calculators/de/materials-for-garage-slab/",
+  "id": "/de/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

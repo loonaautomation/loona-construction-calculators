@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Бесплатный калькулятор гипсокартона: размер комнаты в метрической или имперской системе — получите площадь стен и потолка и количество листов 1200 × 2400 mm или 4 × 8 ft для покупки, с учётом отходов.",
-  "id": "/loona-construction-calculators/ru/drywall-calculator/",
+  "id": "/ru/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

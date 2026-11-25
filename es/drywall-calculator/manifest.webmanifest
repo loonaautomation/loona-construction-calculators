@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Calculadora gratuita de paneles de yeso y cartón yeso: tamaño de la habitación en métrico o imperial — obtén el área de paredes y techo y el número de láminas de 1200 × 2400 mm o 4 × 8 ft a comprar, desperdicio incluido.",
-  "id": "/loona-construction-calculators/es/drywall-calculator/",
+  "id": "/es/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "免費電阻色環計算器：選擇 4 色環、5 色環或 6 色環電阻的色環顏色，得到電阻、容差和溫度係數 — 或反向操作，數值轉色環。",
-  "id": "/loona-construction-calculators/zh-hant/resistor-colour-code-calculator/",
+  "id": "/zh-hant/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

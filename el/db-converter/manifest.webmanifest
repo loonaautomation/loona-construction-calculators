@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "Δωρεάν μετατροπέας decibel: λόγοι ισχύος και λόγοι τάσης σε dB με τη δική σας αναφορά, dBm σε milliwatts και watts, και ισχύς πίσω σε dBm και dBW — τύποι και επεξεργασμένα παραδείγματα.",
-  "id": "/loona-construction-calculators/el/db-converter/",
+  "id": "/el/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "Tamaño estándar de ladrillo en Alemania (NF): 240 × 115 × 71 mm. 49.4 ladrillos por m² (4.59 por sq ft) de pared de una hoja con juntas de mortero de 10 mm, cobertura por cada 1,000 ladrillos y un ejemplo de pared resuelto.",
-  "id": "/loona-construction-calculators/es/brick-size-germany/",
+  "id": "/es/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

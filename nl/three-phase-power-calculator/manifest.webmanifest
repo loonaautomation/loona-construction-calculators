@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "Gratis driefasenvermogen-calculator: lijn-tot-lijn-spanning, lijnstroom en arbeidsfactor geven werkelijk vermogen in kW, schijnbaar vermogen in kVA en reactief vermogen in kvar voor gebalanceerde belastingen.",
-  "id": "/loona-construction-calculators/nl/three-phase-power-calculator/",
+  "id": "/nl/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

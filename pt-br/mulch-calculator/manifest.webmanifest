@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Calculadora gratuita de cobertura morta: área e profundidade do canteiro em métrico ou imperial — obtenha o volume de cobertura, o número de sacos de 40/50 litros ou de 2/3 pés cúbicos, e metros e jardas cúbicas a granel.",
-  "id": "/loona-construction-calculators/pt-br/mulch-calculator/",
+  "id": "/pt-br/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

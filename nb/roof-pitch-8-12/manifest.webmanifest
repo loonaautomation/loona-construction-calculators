@@ -2,7 +2,7 @@
   "name": "Loona 8/12 Roof Pitch",
   "short_name": "8/12 Roof Pitch",
   "description": "En takvinkel på 8/12 er 33.69 grader (67% helling). Sperremultiplikator 1.2019, sperrelengder for vanlige lengder, materialer og bruksområder.",
-  "id": "/loona-construction-calculators/nb/roof-pitch-8-12/",
+  "id": "/nb/roof-pitch-8-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

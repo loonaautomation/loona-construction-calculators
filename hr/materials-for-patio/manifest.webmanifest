@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 16 × 20 ft Patio",
   "short_name": "Materials for a 16 × 20 ft",
   "description": "Popis za kupnju za terasu 16×20 ft: broj opločnika na koraku, pješčana podloga, podloga od šljunka i rubna ograničenja — izračunate količine.",
-  "id": "/loona-construction-calculators/hr/materials-for-patio/",
+  "id": "/hr/materials-for-patio/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

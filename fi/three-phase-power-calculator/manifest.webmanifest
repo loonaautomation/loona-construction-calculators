@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "Ilmainen kolmivaihetehon laskuri: vaiheiden välinen jännite, vaihevirta ja tehokerroin antavat pätötehon kilowatteina, näennäistehon kVA:ina ja loistehon kvar:ina tasapainotetuille kuormille.",
-  "id": "/loona-construction-calculators/fi/three-phase-power-calculator/",
+  "id": "/fi/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

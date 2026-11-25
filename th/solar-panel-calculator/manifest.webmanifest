@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "เครื่องคำนวณแผงโซลาร์เซลล์ฟรี: ปริมาณการใช้ไฟฟ้ารายเดือน ชั่วโมงแดดสูงสุด และกำลังวัตต์แผง ให้จำนวนแผงที่ต้องการ ขนาดระบบเป็น kW ปริมาณการผลิตรายเดือนที่คาดหวัง และพื้นที่หลังคา — ไม่ต้องสมัครสมาชิก",
-  "id": "/loona-construction-calculators/th/solar-panel-calculator/",
+  "id": "/th/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

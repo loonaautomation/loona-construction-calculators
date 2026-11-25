@@ -2,7 +2,7 @@
   "name": "Loona Sand Calculator",
   "short_name": "Sand Calculator",
   "description": "Kalkulator pasir percuma: keluasan dan kedalaman dalam metrik atau imperial memberikan isi padu pasir, berat dalam tan dan tan US, dan bilangan beg 25 kg — dengan ketumpatan dan elaun pembaziran, untuk kotak pasir, tapak turapan dan lapisan perata.",
-  "id": "/loona-construction-calculators/ms/sand-calculator/",
+  "id": "/ms/sand-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

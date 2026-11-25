@@ -2,7 +2,7 @@
   "name": "Loona Sand Calculator",
   "short_name": "Sand Calculator",
   "description": "Бесплатный калькулятор песка: площадь и глубина в метрической или имперской системе дадут вам объём песка, вес в тоннах и американских тоннах и количество мешков по 25 kg — с плотностью и запасом на отходы, для песочниц, оснований под мощение и стяжек.",
-  "id": "/loona-construction-calculators/ru/sand-calculator/",
+  "id": "/ru/sand-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

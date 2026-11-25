@@ -2,7 +2,7 @@
   "name": "Loona 🌱 Mulch Calculator",
   "short_name": "🌱 Mulch Calculator",
   "description": "Free mulch calculator: bed area and depth in metric or imperial — get mulch volume, the number of 40/50 liter or 2/3 cubic-foot bags, and bulk cubic meters and yards.",
-  "id": "/loona-construction-calculators/en-us/mulch-calculator/",
+  "id": "/en-us/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

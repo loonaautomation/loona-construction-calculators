@@ -2,7 +2,7 @@
   "name": "Loona Stairs Calculator",
   "short_name": "Stairs Calculator",
   "description": "Kikokotoo cha bure cha ngazi: ingiza jumla ya kupanda katika metriki au imperial — pata idadi ya hatua, kimo kamili cha kipandio, jumla ya kwenda na urefu wa ubao wa pembeni, kwa kanuni ya starehe ya 2R + T ikiangaliwa kiotomatiki.",
-  "id": "/loona-construction-calculators/sw/stairs-calculator/",
+  "id": "/sw/stairs-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 10 × 12 ft Shed Base",
   "short_name": "Materials for a 10 × 12 ft",
   "description": "مواد قاعدة سقيفة 10 × 12 ft: حجم خرسانة دقيق وأعداد أكياس خلط جاهز (بلاطة 4 بوصات، 10% إضافية) زائد ملاحظات تسوق الأساس والتسليح.",
-  "id": "/loona-construction-calculators/ar/materials-for-shed-base/",
+  "id": "/ar/materials-for-shed-base/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

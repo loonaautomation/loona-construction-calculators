@@ -2,7 +2,7 @@
   "name": "Loona Electricity Cost Calculator",
   "short_name": "Electricity Cost Calculator",
   "description": "Δωρεάν υπολογιστής κόστους ηλεκτρικής ενέργειας: watts συσκευής (ή amps × volts), ώρες ανά ημέρα, ημέρες ανά μήνα και τιμή ανά kWh δίνουν kWh που καταναλώθηκαν και κόστος ανά ημέρα, μήνα και έτος — οποιοδήποτε νόμισμα.",
-  "id": "/loona-construction-calculators/el/electricity-cost-calculator/",
+  "id": "/el/electricity-cost-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

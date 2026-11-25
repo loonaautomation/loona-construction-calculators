@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "Gratis wet-van-Ohm-calculator: voer twee willekeurige van spanning, stroom, weerstand en vermogen in en krijg de andere twee — alle vier de kwadranten van het Ohm-wiel, met formules en een uitgewerkt voorbeeld.",
-  "id": "/loona-construction-calculators/nl/ohms-law-calculator/",
+  "id": "/nl/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "Gratis desibelomregner: effektforhold og spenningsforhold til dB med din egen referanse, dBm til milliwatt og watt, og effekt tilbake til dBm og dBW — formler og gjennomarbeidede eksempler.",
-  "id": "/loona-construction-calculators/nb/db-converter/",
+  "id": "/nb/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

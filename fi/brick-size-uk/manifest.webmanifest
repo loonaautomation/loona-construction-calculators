@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United Kingdom",
   "short_name": "Brick Size in United Kingdom",
   "description": "Vakiotiilikoko Yhdistyneessä kuningaskunnassa: 215 × 102.5 × 65 mm. 59.3 tiiltä per m² (5.51 per sq ft) yksinkertaista seinää 10 mm laastisaumoilla, riittoisuus per 1,000 tiiltä ja laskettu seinäesimerkki.",
-  "id": "/loona-construction-calculators/fi/brick-size-uk/",
+  "id": "/fi/brick-size-uk/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona 12/12 Roof Pitch",
   "short_name": "12/12 Roof Pitch",
   "description": "Una inclinación de techo de 12/12 es 45.00 grados (pendiente del 100%). Multiplicador de cabio 1.4142, longitudes de cabio para recorridos comunes, materiales y usos.",
-  "id": "/loona-construction-calculators/es/roof-pitch-12-12/",
+  "id": "/es/roof-pitch-12-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

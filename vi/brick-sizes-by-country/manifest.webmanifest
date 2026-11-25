@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Kích thước gạch tiêu chuẩn ở Anh, Mỹ, Ấn Độ, Pakistan, Úc, Đức và Nam Phi — kích thước và số gạch trên mỗi mét vuông so sánh.",
-  "id": "/loona-construction-calculators/vi/brick-sizes-by-country/",
+  "id": "/vi/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

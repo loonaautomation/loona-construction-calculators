@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Ingyenes tapétakalkulátor: helyiségméret metrikus vagy angolszász mértékegységben, európai vagy amerikai dupla tekercsek, mintaismétlődésre ráhagyással — megkapja a megvásárolandó tapétatekercsek pontos számát, hulladékkal együtt.",
-  "id": "/loona-construction-calculators/hu/wallpaper-calculator/",
+  "id": "/hu/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

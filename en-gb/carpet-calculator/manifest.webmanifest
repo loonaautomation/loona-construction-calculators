@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Free carpet calculator: room size and carpet roll width in metric or imperial give you the linear length and area of carpet to actually buy (roll off-cuts included), plus an optional cost — with waste allowance.",
-  "id": "/loona-construction-calculators/en-gb/carpet-calculator/",
+  "id": "/en-gb/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Bezplatná kalkulačka cihel: délka a výška stěny v metrických nebo imperiálních jednotkách — získáte počet standardních cihel (215 mm nebo amerických modulových) pro jednovrstvou zeď, včetně přídavků na spáry malty a odpad.",
-  "id": "/loona-construction-calculators/cs/brick-calculator/",
+  "id": "/cs/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

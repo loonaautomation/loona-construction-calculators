@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Potpuna tablica nagiba krova: od 1/12 do 12/12 s kutovima, nagibima i množiteljima rogova, svaki nagib sa svojom stranicom vodiča.",
-  "id": "/loona-construction-calculators/hr/roof-pitch-chart/",
+  "id": "/hr/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

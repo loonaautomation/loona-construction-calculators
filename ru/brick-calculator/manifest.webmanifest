@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Бесплатный калькулятор кирпича: длина и высота стены в метрической или имперской системе — получите количество стандартных кирпичей (215 mm или американский модульный) для стены в один слой, включая запасы на швы раствора и отходы.",
-  "id": "/loona-construction-calculators/ru/brick-calculator/",
+  "id": "/ru/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

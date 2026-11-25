@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "Calcolatore isolamento gratuito: inserisci l'area e il tuo valore R obiettivo (o l'RSI metrico) e ottieni i pacchi di pannelli/rotoli o i sacchi di isolamento insuflato da comprare, più lo spessore che il tuo obiettivo richiede — metrico e imperiale.",
-  "id": "/loona-construction-calculators/it/insulation-calculator/",
+  "id": "/it/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

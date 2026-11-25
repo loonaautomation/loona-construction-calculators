@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United Kingdom",
   "short_name": "Brick Size in United Kingdom",
   "description": "Standard tegelstorlek i Storbritannien: 215 × 102.5 × 65 mm. 59.3 tegelstenar per m² (5.51 per sq ft) enkelskiktsvägg med murbruksfogar på 10 mm, täckning per 1,000 tegelstenar och ett genomräknat väggexempel.",
-  "id": "/loona-construction-calculators/sv/brick-size-uk/",
+  "id": "/sv/brick-size-uk/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "বিনামূল্যের কার্পেট ক্যালকুলেটর: মেট্রিক বা ইম্পেরিয়ালে ঘরের আকার ও কার্পেট রোলের প্রস্থ দিলে আসলে কিনতে হবে এমন কার্পেটের রৈখিক দৈর্ঘ্য ও ক্ষেত্রফল পাওয়া যায় (রোলের কাটা অংশসহ), সঙ্গে ঐচ্ছিক খরচ — অপচয়ের ভাতাসহ।",
-  "id": "/loona-construction-calculators/bn/carpet-calculator/",
+  "id": "/bn/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

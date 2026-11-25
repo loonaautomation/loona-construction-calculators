@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "Безплатен калкулатор за цветен код на резистор: изберете цветовете на ивиците на резистор с 4, 5 или 6 ивици, за да получите съпротивлението, толеранса и температурния коефициент — или обратното, от стойност към ивици.",
-  "id": "/loona-construction-calculators/bg/resistor-colour-code-calculator/",
+  "id": "/bg/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "Gratis batteridriftstidskalkulator: batterivolt og amperetimer, lastwatt, utladingsdybde og vekselrettervirkningsgrad gir brukbare wattimer og driftstid i timer — for sol-, UPS- og off-grid-planlegging.",
-  "id": "/loona-construction-calculators/nb/battery-runtime-calculator/",
+  "id": "/nb/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

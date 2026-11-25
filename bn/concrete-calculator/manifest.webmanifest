@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "বিনামূল্যের কংক্রিট ক্যালকুলেটর: মেট্রিক বা ইম্পেরিয়ালে স্ল্যাবের দৈর্ঘ্য, প্রস্থ ও পুরুত্ব — ঘনমিটার ও ঘন গজে কংক্রিটের আয়তন পেয়ে যান, সঙ্গে কয়টি 20/25 kg বা 60/80 lb প্রি-মিক্স ব্যাগ দরকার তাও।",
-  "id": "/loona-construction-calculators/bn/concrete-calculator/",
+  "id": "/bn/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

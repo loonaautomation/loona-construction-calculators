@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Kalkulator ukuran kabel gratis: arus, panjang satu arah, % jatuh tegangan yang diizinkan, tegangan, tembaga atau aluminium, satu atau tiga fase — ukuran kabel minimum dalam mm², ukuran standar terdekat, dan ekuivalen AWG.",
-  "id": "/loona-construction-calculators/id/wire-size-calculator/",
+  "id": "/id/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Gratis spenningsfallkalkulator: enveis kabellengde, strøm, kobber eller aluminium, kabelstørrelse i mm² eller AWG, en- eller trefase — volt falt og % fall med 3%/5% veiledning.",
-  "id": "/loona-construction-calculators/nb/voltage-drop-calculator/",
+  "id": "/nb/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

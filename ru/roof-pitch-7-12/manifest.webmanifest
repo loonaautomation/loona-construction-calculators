@@ -2,7 +2,7 @@
   "name": "Loona 7/12 Roof Pitch",
   "short_name": "7/12 Roof Pitch",
   "description": "Уклон крыши 7/12 равен 30.26 градусам (уклон 58%). Множитель стропила 1.1577, длины стропил для обычных пролётов, материалы и применения.",
-  "id": "/loona-construction-calculators/ru/roof-pitch-7-12/",
+  "id": "/ru/roof-pitch-7-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

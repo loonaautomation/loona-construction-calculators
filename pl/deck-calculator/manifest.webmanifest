@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Darmowy kalkulator tarasu: rozmiar tarasu i szerokość deski w systemie metrycznym lub imperialnym dają deski tarasowe do kupienia, łączną długość desek, legary i szacunkową liczbę wkrętów — ze szczeliną między deskami, rozstawem legarów i zapasem na odpady.",
-  "id": "/loona-construction-calculators/pl/deck-calculator/",
+  "id": "/pl/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

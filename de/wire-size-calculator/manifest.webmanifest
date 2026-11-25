@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Kostenloser Kabelgrößen-Rechner: Strom, einfache Länge, erlaubter Spannungsabfall %, Spannung, Kupfer oder Aluminium, ein- oder dreiphasig — Mindestkabelgröße in mm², nächste Standardgröße und AWG-Äquivalent.",
-  "id": "/loona-construction-calculators/de/wire-size-calculator/",
+  "id": "/de/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

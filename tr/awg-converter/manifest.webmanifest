@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Ücretsiz AWG dönüştürücü: AWG ölçüsünden mm ve inç cinsinden çapa, mm² cinsinden kesite ve bakır ve alüminyum için kilometre başına dirence — veya mm² ya da çaptan en yakın AWG'yi bulun.",
-  "id": "/loona-construction-calculators/tr/awg-converter/",
+  "id": "/tr/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

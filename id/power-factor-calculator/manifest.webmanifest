@@ -2,7 +2,7 @@
   "name": "Loona Power Factor Calculator",
   "short_name": "Power Factor Calculator",
   "description": "Kalkulator faktor daya gratis: daya nyata (kW) dan daya semu (kVA) memberikan faktor daya, daya reaktif dalam kvar, sudut fase — dan kvar kapasitor yang dibutuhkan untuk mengoreksi ke PF target.",
-  "id": "/loona-construction-calculators/id/power-factor-calculator/",
+  "id": "/id/power-factor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Calculator",
   "short_name": "Roof Pitch Calculator",
   "description": "Free roof pitch calculator: enter rise and run in any unit — get the pitch as a ratio (x-in-12), the angle in degrees, the percentage grade and the rafter length. Works for metric and imperial measurements.",
-  "id": "/loona-construction-calculators/en-gb/roof-pitch-calculator/",
+  "id": "/en-gb/roof-pitch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

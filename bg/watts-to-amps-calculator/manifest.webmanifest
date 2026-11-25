@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "Безплатен калкулатор ватове в ампери за постоянен ток, променлив еднофазен и променлив трифазен ток: мощността, напрежението и факторът на мощността дават тока в ампери — първата стъпка към оразмеряване на предпазител или кабел.",
-  "id": "/loona-construction-calculators/bg/watts-to-amps-calculator/",
+  "id": "/bg/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

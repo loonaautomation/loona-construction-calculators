@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "Calcolatore gratuito dell'autonomia batteria: volt e ampere-ora della batteria, watt del carico, profondità di scarica ed efficienza dell'inverter danno i wattora utilizzabili e l'autonomia in ore — per la pianificazione solare, UPS e off-grid.",
-  "id": "/loona-construction-calculators/it/battery-runtime-calculator/",
+  "id": "/it/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

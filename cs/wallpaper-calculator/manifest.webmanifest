@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Bezplatná kalkulačka tapet: rozměry místnosti v metrických nebo imperiálních jednotkách, evropské nebo americké dvojité role, započtené opakování vzoru — získáte přesný počet rolí tapet k nákupu, včetně odpadu.",
-  "id": "/loona-construction-calculators/cs/wallpaper-calculator/",
+  "id": "/cs/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

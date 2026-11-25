@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Besplatni kalkulator malča: površina gredice i dubina u metričkim ili imperijalnim jedinicama — dobit ćete volumen malča, broj vreća od 40/50 litara ili 2/3 kubne stope i kubne metre i jarde u rasutom stanju.",
-  "id": "/loona-construction-calculators/hr/mulch-calculator/",
+  "id": "/hr/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

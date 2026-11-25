@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "كم مادة لمساحتك؟ أحجام الخرسانة وأعداد البلاط وكميات الطلاء لمساحات 100 إلى 3,000 sq ft — محسوبة بحاسبات الموقع نفسه.",
-  "id": "/loona-construction-calculators/ar/materials-by-area/",
+  "id": "/ar/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

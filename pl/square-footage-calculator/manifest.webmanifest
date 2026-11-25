@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "Darmowy kalkulator powierzchni: dodaj pomieszczenia w kształcie prostokąta, koła, trójkąta i litery L, w stopach i calach lub metrach, i otrzymaj całkowitą powierzchnię w stopach kw., m², jardach kw. i akrach — z opcjonalnym szacunkiem kosztów.",
-  "id": "/loona-construction-calculators/pl/square-footage-calculator/",
+  "id": "/pl/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

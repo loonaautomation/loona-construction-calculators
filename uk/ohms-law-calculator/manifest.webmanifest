@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "Безкоштовний калькулятор закону Ома: введіть будь-які дві величини з напруги, струму, опору та потужності й отримайте дві інші — усі чотири квадранти колеса закону Ома, з формулами та розв’язаним прикладом.",
-  "id": "/loona-construction-calculators/uk/ohms-law-calculator/",
+  "id": "/uk/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

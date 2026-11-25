@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "مفت وولٹیج ڈراپ کیلکولیٹر: یک طرفہ کیبل لمبائی، کرنٹ، تانبا یا ایلومینیم، mm² یا AWG میں کیبل سائز، سنگل فیز یا تھری فیز — گرے وولٹ اور % کمی 3%/5% رہنمائی کے ساتھ۔",
-  "id": "/loona-construction-calculators/ur/voltage-drop-calculator/",
+  "id": "/ur/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

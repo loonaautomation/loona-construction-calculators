@@ -2,7 +2,7 @@
   "name": "Loona Electricity Cost Calculator",
   "short_name": "Electricity Cost Calculator",
   "description": "Ilmainen sähkökustannuslaskuri: laitteen watit (tai ampeerit × voltit), tunnit päivässä, päivät kuukaudessa ja hinta per kWh antavat käytetyt kWh-arvot ja kustannuksen päivässä, kuukaudessa ja vuodessa — missä tahansa valuutassa.",
-  "id": "/loona-construction-calculators/fi/electricity-cost-calculator/",
+  "id": "/fi/electricity-cost-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

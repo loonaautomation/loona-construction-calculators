@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "เครื่องคำนวณอิฐฟรี: ความยาวและความสูงผนังเป็นเมตริกหรืออิมพีเรียล — รับจำนวนอิฐมาตรฐาน (215 mm หรือแบบโมดูลาร์ของสหรัฐฯ) สำหรับผนังชั้นเดียว รวมค่าเผื่อรอยต่อปูนและค่าเผื่อเศษ",
-  "id": "/loona-construction-calculators/th/brick-calculator/",
+  "id": "/th/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

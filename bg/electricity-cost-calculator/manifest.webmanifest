@@ -2,7 +2,7 @@
   "name": "Loona Electricity Cost Calculator",
   "short_name": "Electricity Cost Calculator",
   "description": "Безплатен калкулатор за цена на електроенергията: ватовете на уреда (или ампери × волта), часовете на ден, дните на месец и цената на kWh дават използваните kWh и цената на ден, месец и година — във всяка валута.",
-  "id": "/loona-construction-calculators/bg/electricity-cost-calculator/",
+  "id": "/bg/electricity-cost-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

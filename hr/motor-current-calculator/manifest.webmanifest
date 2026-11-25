@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "Besplatni kalkulator struje motora: snaga motora u kW ili konjskim snagama, napon, jednofazno ili trofazno, učinkovitost i faktor snage daju procijenjenu struju punog opterećenja — s poštenim upozorenjima o natpisnoj pločici i normama.",
-  "id": "/loona-construction-calculators/hr/motor-current-calculator/",
+  "id": "/hr/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

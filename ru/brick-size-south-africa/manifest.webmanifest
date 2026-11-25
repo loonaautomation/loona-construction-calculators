@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in South Africa",
   "short_name": "Brick Size in South Africa",
   "description": "Стандартный размер кирпича в Южной Африке: 222 × 106 × 73 mm. 51.9 кирпича на m² (4.82 на кв. фут) однослойной стены со швами раствора 10 mm, покрытие на 1,000 кирпичей и разобранный пример стены.",
-  "id": "/loona-construction-calculators/ru/brick-size-south-africa/",
+  "id": "/ru/brick-size-south-africa/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

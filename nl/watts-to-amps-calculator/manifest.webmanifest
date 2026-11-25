@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "Gratis watt-naar-ampère-calculator voor DC, AC enkelfase en AC driefasen: vermogen, spanning en arbeidsfactor geven de stroom in ampères — de eerste stap om een zekering of kabel te dimensioneren.",
-  "id": "/loona-construction-calculators/nl/watts-to-amps-calculator/",
+  "id": "/nl/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

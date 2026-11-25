@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Standard)",
   "short_name": "Brick Size in United States",
   "description": "Standaard baksteenformaat in de Verenigde Staten (Standard): 203 × 92 × 57 mm. 70.8 stenen per m² (6.57 per sq ft) enkelsteens muur met mortelvoegen van 9.5 mm, dekking per 1,000 stenen en een uitgewerkt wandvoorbeeld.",
-  "id": "/loona-construction-calculators/nl/brick-size-us-standard/",
+  "id": "/nl/brick-size-us-standard/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

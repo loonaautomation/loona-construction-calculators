@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "حاسبة بلاط مجانية: مقاس الأرضية أو الجدار ومقاس البلاطة وفاصل الجص بالمتري أو الإمبراطوري — احصل على العدد الدقيق للبلاطات والعلب التي تشتريها، شاملًا بدل فاقد للقص والكسر.",
-  "id": "/loona-construction-calculators/ar/tile-calculator/",
+  "id": "/ar/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

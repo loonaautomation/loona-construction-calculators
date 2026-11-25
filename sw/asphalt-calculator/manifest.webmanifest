@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "Kikokotoo cha bure cha lami: ingiza urefu, upana na unene katika metriki au imperial na upate uzito wa lami wa kuagiza katika tani na tani za Marekani, kwa msongamano unaoweza kuhaririwa (2,450 kg/m³ / 145 lb/ft³), posho ya upotevu na gharama ya hiari.",
-  "id": "/loona-construction-calculators/sw/asphalt-calculator/",
+  "id": "/sw/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

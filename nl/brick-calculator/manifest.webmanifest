@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Gratis baksteencalculator: wandlengte en -hoogte in metrisch of imperiaal — krijg het aantal standaardstenen (215 mm of US modular) voor een enkelsteens muur, inclusief toeslagen voor mortelvoegen en verlies.",
-  "id": "/loona-construction-calculators/nl/brick-calculator/",
+  "id": "/nl/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

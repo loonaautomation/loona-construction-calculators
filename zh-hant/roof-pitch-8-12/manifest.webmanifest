@@ -2,7 +2,7 @@
   "name": "Loona 8/12 Roof Pitch",
   "short_name": "8/12 Roof Pitch",
   "description": "8/12 屋頂坡度為 33.69 度（坡度 67%）。椽子係數 1.2019，常見水平跨度的椽子長度、材料與用途。",
-  "id": "/loona-construction-calculators/zh-hant/roof-pitch-8-12/",
+  "id": "/zh-hant/roof-pitch-8-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

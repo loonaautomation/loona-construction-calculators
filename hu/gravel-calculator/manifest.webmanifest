@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "Ingyenes kavicskalkulátor: terület és mélység metrikus vagy angolszász mértékegységben — megkapja a kavicstérfogatot köbméterben és köbyárdban és a tömeget tonnában és US tonnában, állítható sűrűséggel és hulladékráhagyással.",
-  "id": "/loona-construction-calculators/hu/gravel-calculator/",
+  "id": "/hu/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

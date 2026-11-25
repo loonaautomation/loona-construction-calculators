@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "Gratis asfaltberegner: indtast længde, bredde og tykkelse i metrisk eller imperial, og få den asfaltvægt, der skal bestilles, i ton og US tons, med en redigerbar densitet (2,450 kg/m³ / 145 lb/ft³), spildtillæg og valgfri pris.",
-  "id": "/loona-construction-calculators/da/asphalt-calculator/",
+  "id": "/da/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

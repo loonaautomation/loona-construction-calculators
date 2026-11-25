@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Безкоштовний калькулятор паркану: довжина паркану й відстань між стовпами в метричних або імперських одиницях дають стовпи, рейки, штахетини (за шириною штахетини й зазором) і мішки бетону — із запасом на відходи для штахетин.",
-  "id": "/loona-construction-calculators/uk/fence-calculator/",
+  "id": "/uk/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "Bezplatná kalkulačka wattov na ampére pre jednosmerné, jednofázové striedavé a trojfázové striedavé napájanie: výkon, napätie a účinník dávajú prúd v ampéroch — prvý krok k dimenzovaniu ističa alebo kábla.",
-  "id": "/loona-construction-calculators/sk/watts-to-amps-calculator/",
+  "id": "/sk/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

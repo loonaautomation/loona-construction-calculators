@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "Gratis betoncalculator: vloerlengte, -breedte en -dikte in metrisch of imperiaal — krijg het betonvolume in kubieke meters en kubieke yards, plus hoeveel kant-en-klare zakken van 20/25 kg of 60/80 lb je nodig hebt.",
-  "id": "/loona-construction-calculators/nl/concrete-calculator/",
+  "id": "/nl/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona kVA to Amps Calculator",
   "short_name": "kVA to Amps Calculator",
   "description": "Máy tính đổi kVA sang ampe miễn phí cho nguồn một pha và ba pha — và ngược lại, ampe sang kVA. Định cỡ dòng của máy phát, máy biến áp và nguồn từ kVA và điện áp.",
-  "id": "/loona-construction-calculators/vi/kva-to-amps-calculator/",
+  "id": "/vi/kva-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

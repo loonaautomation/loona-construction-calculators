@@ -2,7 +2,7 @@
   "name": "Loona Amps to Watts Calculator",
   "short_name": "Amps to Watts Calculator",
   "description": "DC、AC単相、AC三相に対応する無料のアンペア→ワット変換計算機：電流、電圧、力率からワット、キロワット、kVAが得られます — 公式と計算例付きです。",
-  "id": "/loona-construction-calculators/ja/amps-to-watts-calculator/",
+  "id": "/ja/amps-to-watts-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

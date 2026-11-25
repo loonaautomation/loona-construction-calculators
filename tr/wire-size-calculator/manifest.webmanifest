@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Ücretsiz kablo kesiti hesaplayıcısı: akım, tek yön uzunluk, izin verilen voltaj düşüşü %, voltaj, bakır veya alüminyum, tek veya üç faz — mm² cinsinden minimum kablo boyutu, en yakın standart boyut ve AWG karşılığı.",
-  "id": "/loona-construction-calculators/tr/wire-size-calculator/",
+  "id": "/tr/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

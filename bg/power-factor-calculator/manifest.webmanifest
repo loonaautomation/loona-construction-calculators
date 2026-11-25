@@ -2,7 +2,7 @@
   "name": "Loona Power Factor Calculator",
   "short_name": "Power Factor Calculator",
   "description": "Безплатен калкулатор за фактор на мощността: реалната мощност (kW) и пълната мощност (kVA) дават фактора на мощността, реактивната мощност в kvar, фазовия ъгъл — и kvar на кондензатора, нужни за корекция до целеви PF.",
-  "id": "/loona-construction-calculators/bg/power-factor-calculator/",
+  "id": "/bg/power-factor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

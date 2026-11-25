@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "מחשבון חיפוי קרקע חינמי: שטח ערוגה ועומק במטרי או באימפריאלי — קבלו נפח חיפוי, מספר שקי 40/50 ליטר או 2/3 רגל מעוקבת, ומטרים ויארדים מעוקבים בתפזורת.",
-  "id": "/loona-construction-calculators/he/mulch-calculator/",
+  "id": "/he/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Gratis trallkalkylator: trallstorlek och brädbredd i metriskt eller imperial ger dig trallbrädor att köpa, total brädlängd, bjälkar och en skruvuppskattning — med brädmellanrum, bjälkavstånd och spilltillägg.",
-  "id": "/loona-construction-calculators/sv/deck-calculator/",
+  "id": "/sv/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

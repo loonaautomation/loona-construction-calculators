@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "Безплатен калкулатор за бетон: дължина, ширина и дебелина на плочата в метрична или имперска система — получете обема бетон в кубични метри и кубични ярдове, плюс колко торби готова смес от 20/25 kg или 60/80 lb са ви нужни.",
-  "id": "/loona-construction-calculators/bg/concrete-calculator/",
+  "id": "/bg/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

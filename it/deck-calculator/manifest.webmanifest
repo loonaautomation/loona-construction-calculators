@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Calcolatore terrazze gratuito: le dimensioni della terrazza e la larghezza delle tavole in metrico o imperiale ti danno le tavole da comprare, la lunghezza totale delle tavole, i travetti e una stima delle viti — con distanza tra le tavole, interasse dei travetti e margine per gli scarti.",
-  "id": "/loona-construction-calculators/it/deck-calculator/",
+  "id": "/it/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

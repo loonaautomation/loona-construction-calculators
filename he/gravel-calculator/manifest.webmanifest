@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "מחשבון חצץ חינמי: שטח ועומק במטרי או באימפריאלי — קבלו נפח חצץ במטרים מעוקבים וביארדים מעוקבים ומשקל בטון ובטון אמריקאי, עם צפיפות ניתנת לכוונון ותוספת פחת.",
-  "id": "/loona-construction-calculators/he/gravel-calculator/",
+  "id": "/he/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

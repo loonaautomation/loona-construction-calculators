@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "مفت انسولیشن کیلکولیٹر: رقبہ اور اپنی ہدف R-value (یا میٹرک RSI) درج کریں اور خریدنے والے بیٹس/رولز کے پیک یا پھونک کر بھری انسولیشن کی بوریاں پائیں، اس کے علاوہ وہ موٹائی جو آپ کے ہدف کو چاہیے — میٹرک اور امپیریل۔",
-  "id": "/loona-construction-calculators/ur/insulation-calculator/",
+  "id": "/ur/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

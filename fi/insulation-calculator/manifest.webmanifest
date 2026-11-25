@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "Ilmainen eristyslaskuri: syötä pinta-ala ja tavoite-R-arvosi (tai metrinen RSI) niin saat ostettavien levy-/rullapakkausten tai puhalluseristesäkkien määrän sekä tavoitteesi tarvitseman paksuuden — metrisenä ja tuumaisena.",
-  "id": "/loona-construction-calculators/fi/insulation-calculator/",
+  "id": "/fi/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

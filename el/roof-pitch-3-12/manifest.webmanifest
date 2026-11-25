@@ -2,7 +2,7 @@
   "name": "Loona 3/12 Roof Pitch",
   "short_name": "3/12 Roof Pitch",
   "description": "Η κλίση στέγης 3/12 είναι 14.04 μοίρες (κλίση 25%). Συντελεστής δοκού 1.0308, μήκη δοκών για συνηθισμένες διαδρομές, υλικά και χρήσεις.",
-  "id": "/loona-construction-calculators/el/roof-pitch-3-12/",
+  "id": "/el/roof-pitch-3-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

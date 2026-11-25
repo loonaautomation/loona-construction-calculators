@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 16 × 20 ft Patio",
   "short_name": "Materials for a 16 × 20 ft",
   "description": "Lista zakupów na patio 16×20 ft: liczba kostki w rozstawie, podsypka piaskowa, podbudowa żwirowa i ograniczenia krawędzi — ilości obliczone.",
-  "id": "/loona-construction-calculators/pl/materials-for-patio/",
+  "id": "/pl/materials-for-patio/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

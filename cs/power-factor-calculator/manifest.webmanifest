@@ -2,7 +2,7 @@
   "name": "Loona Power Factor Calculator",
   "short_name": "Power Factor Calculator",
   "description": "Bezplatná kalkulačka účiníku: činný výkon (kW) a zdánlivý výkon (kVA) dají účiník, jalový výkon v kvar, fázový úhel — a kvar kondenzátoru potřebné ke korekci na cílový účiník.",
-  "id": "/loona-construction-calculators/cs/power-factor-calculator/",
+  "id": "/cs/power-factor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

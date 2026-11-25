@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Pakistan",
   "short_name": "Brick Size in Pakistan",
   "description": "Стандартний розмір цегли в Пакистані: 228 × 107 × 69 mm. 53.2 цеглини на м² (4.94 на кв. фут) стіни в пів цегли зі швами розчину 10 mm, покриття на 1,000 цеглин і розв’язаний приклад стіни.",
-  "id": "/loona-construction-calculators/uk/brick-size-pakistan/",
+  "id": "/uk/brick-size-pakistan/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

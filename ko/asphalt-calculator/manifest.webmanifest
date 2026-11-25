@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "무료 아스팔트 계산기: 길이, 너비, 두께를 미터법이나 야드파운드법으로 입력하면 주문할 아스팔트 무게를 톤과 US 톤으로 알려 줘요. 조정 가능한 밀도 (2,450 kg/m³ / 145 lb/ft³), 로스 여유, 선택형 비용이 포함돼요.",
-  "id": "/loona-construction-calculators/ko/asphalt-calculator/",
+  "id": "/ko/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

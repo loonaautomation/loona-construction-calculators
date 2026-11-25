@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Calculadora gratuita de vallas: la longitud de la valla y la distancia entre postes en métrico o imperial te dan los postes, travesaños, piquetes (desde el ancho de piquete y la separación) y bolsas de hormigón — con un margen de desperdicio para los piquetes.",
-  "id": "/loona-construction-calculators/es/fence-calculator/",
+  "id": "/es/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona 8/12 Roof Pitch",
   "short_name": "8/12 Roof Pitch",
   "description": "Η κλίση στέγης 8/12 είναι 33.69 μοίρες (κλίση 67%). Συντελεστής δοκού 1.2019, μήκη δοκών για συνηθισμένες διαδρομές, υλικά και χρήσεις.",
-  "id": "/loona-construction-calculators/el/roof-pitch-8-12/",
+  "id": "/el/roof-pitch-8-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

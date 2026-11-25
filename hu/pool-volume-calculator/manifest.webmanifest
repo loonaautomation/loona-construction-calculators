@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "Ingyenes medencetérfogat-kalkulátor téglalap, kerek és ovális medencékhez: adja meg a méretet és a sekély/mély vég mélységeit metrikus vagy angolszász mértékegységben, és megkapja a víztérfogatot literben és US gallonban a vegyszeradagoláshoz és feltöltéshez.",
-  "id": "/loona-construction-calculators/hu/pool-volume-calculator/",
+  "id": "/hu/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

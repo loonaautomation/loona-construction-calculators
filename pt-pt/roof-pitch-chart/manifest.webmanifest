@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Tabela completa de inclinações de telhado: de 1/12 a 12/12 com ângulos, inclinações e multiplicadores de caibro, cada inclinação com a sua própria página guia.",
-  "id": "/loona-construction-calculators/pt-pt/roof-pitch-chart/",
+  "id": "/pt-pt/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

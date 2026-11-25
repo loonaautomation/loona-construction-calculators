@@ -2,7 +2,7 @@
   "name": "Loona 3/12 Roof Pitch",
   "short_name": "3/12 Roof Pitch",
   "description": "ความลาดชันหลังคา 3/12 คือ 14.04 องศา (ความชัน 25%) ตัวคูณจันทัน 1.0308 ความยาวจันทันสำหรับระยะแนวราบทั่วไป วัสดุ และการใช้งาน",
-  "id": "/loona-construction-calculators/th/roof-pitch-3-12/",
+  "id": "/th/roof-pitch-3-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

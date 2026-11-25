@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "حاسبة حصى مجانية: المساحة والعمق بالمتري أو الإمبراطوري — احصل على حجم الحصى بالأمتار المكعبة والياردات المكعبة والوزن بالأطنان المترية والأمريكية، مع كثافة قابلة للتعديل وبدل فاقد.",
-  "id": "/loona-construction-calculators/ar/gravel-calculator/",
+  "id": "/ar/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

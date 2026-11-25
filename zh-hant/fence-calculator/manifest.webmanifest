@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "免費圍欄計算器：圍欄長度和立柱間距（公制或英制）給您立柱、橫杆、柵欄條（根據柵欄條寬度和間隙）和混凝土袋 — 柵欄條含損耗餘量。",
-  "id": "/loona-construction-calculators/zh-hant/fence-calculator/",
+  "id": "/zh-hant/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

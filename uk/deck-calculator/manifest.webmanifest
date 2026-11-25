@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Безкоштовний калькулятор тераси: розмір тераси й ширина дошки в метричних або імперських одиницях дають кількість дощок для купівлі, загальну довжину дощок, балки та приблизну кількість шурупів — із зазором між дошками, кроком балок і запасом на відходи.",
-  "id": "/loona-construction-calculators/uk/deck-calculator/",
+  "id": "/uk/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

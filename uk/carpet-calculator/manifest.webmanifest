@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Безкоштовний калькулятор килимового покриття: розмір кімнати й ширина рулону в метричних або імперських одиницях дають погонну довжину й площу покриття, яку справді треба купити (з урахуванням обрізків рулону), плюс необов’язкову вартість — із запасом на відходи.",
-  "id": "/loona-construction-calculators/uk/carpet-calculator/",
+  "id": "/uk/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

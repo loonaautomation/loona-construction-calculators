@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "Ingyenes reaktanciakalkulátor: a frekvencia kapacitással (µF) kapacitív reaktanciát Xc ad, induktivitással (mH) induktív reaktanciát Xl — adja meg mindkettőt a nettó reaktanciához és az LC rezonanciafrekvenciához.",
-  "id": "/loona-construction-calculators/hu/reactance-calculator/",
+  "id": "/hu/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "Kikokotoo cha bure cha nguvu ya awamu tatu: volti ya laini hadi laini, mkondo wa laini na kipengele cha nguvu hutoa nguvu halisi katika kW, nguvu inayoonekana katika kVA na nguvu tendaji katika kvar kwa mizigo yenye uwiano.",
-  "id": "/loona-construction-calculators/sw/three-phase-power-calculator/",
+  "id": "/sw/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona 6/12 Roof Pitch",
   "short_name": "6/12 Roof Pitch",
   "description": "ميل سقف 6/12 يساوي 26.57 درجة (انحدار 50%). مضاعف العارضة 1.1180، وأطوال العوارض للمسارات الشائعة، والمواد والاستخدامات.",
-  "id": "/loona-construction-calculators/ar/roof-pitch-6-12/",
+  "id": "/ar/roof-pitch-6-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

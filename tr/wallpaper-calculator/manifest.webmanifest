@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Ücretsiz duvar kağıdı hesaplayıcısı: oda boyutu metrik veya emperyal olarak, Avrupa veya ABD çift ruloları, desen tekrarı hesaba katılarak — satın alınacak tam duvar kağıdı rulo sayısını alın, fire dahil.",
-  "id": "/loona-construction-calculators/tr/wallpaper-calculator/",
+  "id": "/tr/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

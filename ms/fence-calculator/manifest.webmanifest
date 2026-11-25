@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Kalkulator pagar percuma: panjang pagar dan jarak tiang dalam metrik atau imperial memberikan tiang, rel, papan pagar (daripada lebar dan celah papan) dan beg konkrit — dengan elaun pembaziran untuk papan pagar.",
-  "id": "/loona-construction-calculators/ms/fence-calculator/",
+  "id": "/ms/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

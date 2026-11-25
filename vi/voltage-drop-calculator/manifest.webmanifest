@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Máy tính sụt áp miễn phí: chiều dài cáp một chiều, dòng điện, đồng hoặc nhôm, kích thước cáp theo mm² hoặc AWG, một pha hoặc ba pha — volt bị sụt và % sụt với hướng dẫn 3%/5%.",
-  "id": "/loona-construction-calculators/vi/voltage-drop-calculator/",
+  "id": "/vi/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

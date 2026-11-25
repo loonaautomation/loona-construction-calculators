@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "Gratis trefaset effektberegner: fasespænding, linjestrøm og effektfaktor giver reel effekt i kW, tilsyneladende effekt i kVA og reaktiv effekt i kvar til balancerede belastninger.",
-  "id": "/loona-construction-calculators/da/three-phase-power-calculator/",
+  "id": "/da/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

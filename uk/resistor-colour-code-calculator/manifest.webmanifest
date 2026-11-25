@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "Безкоштовний калькулятор колірного коду резистора: оберіть кольори смуг на резисторі з 4, 5 або 6 смугами, щоб отримати опір, допуск і температурний коефіцієнт, — або навпаки, від значення до смуг.",
-  "id": "/loona-construction-calculators/uk/resistor-colour-code-calculator/",
+  "id": "/uk/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

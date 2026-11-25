@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Quanto materiale per la tua superficie? Volumi di calcestruzzo, conteggi di piastrelle e quantità di pittura per 100 a 3,000 sq ft — calcolati con i calcolatori del sito stesso.",
-  "id": "/loona-construction-calculators/it/materials-by-area/",
+  "id": "/it/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

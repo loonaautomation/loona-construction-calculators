@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Calculator gratuit de secțiune a cablului: curentul, lungimea într-un sens, procentul de cădere de tensiune permis, tensiunea, cupru sau aluminiu, monofazat sau trifazat — dimensiunea minimă a cablului în mm², cea mai apropiată dimensiune standard și echivalentul AWG.",
-  "id": "/loona-construction-calculators/ro/wire-size-calculator/",
+  "id": "/ro/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

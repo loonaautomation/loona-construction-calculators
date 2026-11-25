@@ -2,7 +2,7 @@
   "name": "Loona 7/12 Roof Pitch",
   "short_name": "7/12 Roof Pitch",
   "description": "ความลาดชันหลังคา 7/12 คือ 30.26 องศา (ความชัน 58%) ตัวคูณจันทัน 1.1577 ความยาวจันทันสำหรับระยะแนวราบทั่วไป วัสดุ และการใช้งาน",
-  "id": "/loona-construction-calculators/th/roof-pitch-7-12/",
+  "id": "/th/roof-pitch-7-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

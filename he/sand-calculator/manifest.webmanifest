@@ -2,7 +2,7 @@
   "name": "Loona Sand Calculator",
   "short_name": "Sand Calculator",
   "description": "מחשבון חול חינמי: שטח ועומק במטרי או באימפריאלי נותנים לכם נפח חול, משקל בטון ובטון אמריקאי, ומספר שקי 25 kg — עם צפיפות ותוספת פחת, לארגזי חול, בסיסי סלילה ומישרים.",
-  "id": "/loona-construction-calculators/he/sand-calculator/",
+  "id": "/he/sand-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

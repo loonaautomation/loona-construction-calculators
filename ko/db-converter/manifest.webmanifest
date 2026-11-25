@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "무료 데시벨 변환기: 내 기준값으로 전력비와 전압비를 dB로 바꾸고, dBm을 밀리와트와 와트로, 전력을 다시 dBm과 dBW로 바꿔요. 공식과 예제 풀이가 함께 있어요.",
-  "id": "/loona-construction-calculators/ko/db-converter/",
+  "id": "/ko/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

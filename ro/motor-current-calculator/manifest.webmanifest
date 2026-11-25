@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "Calculator gratuit de curent al motorului: puterea motorului în kW sau cai putere, tensiunea, monofazat sau trifazat, eficiența și factorul de putere oferă un curent estimat la sarcină maximă — cu avertismente oneste despre plăcuță și cod.",
-  "id": "/loona-construction-calculators/ro/motor-current-calculator/",
+  "id": "/ro/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

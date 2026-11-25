@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Kikokotoo cha bure cha vigae: ukubwa wa sakafu au ukuta, ukubwa wa kigae na pengo la grauti katika metriki au imperial — pata idadi kamili ya vigae na visanduku vya kununua, pamoja na posho ya upotevu kwa mikato na uharibifu.",
-  "id": "/loona-construction-calculators/sw/tile-calculator/",
+  "id": "/sw/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona 1/12 Roof Pitch",
   "short_name": "1/12 Roof Pitch",
   "description": "En takvinkel på 1/12 er 4.76 grader (8% helling). Sperremultiplikator 1.0035, sperrelengder for vanlige lengder, materialer og bruksområder.",
-  "id": "/loona-construction-calculators/nb/roof-pitch-1-12/",
+  "id": "/nb/roof-pitch-1-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

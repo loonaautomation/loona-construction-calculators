@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Ilmainen AWG-muunnin: AWG-koko halkaisijaksi millimetreinä ja tuumina, poikkipinta-ala mm²:ina ja resistanssi kilometriä kohti kuparille ja alumiinille — tai etsi lähin AWG arvoista mm² tai halkaisijasta.",
-  "id": "/loona-construction-calculators/fi/awg-converter/",
+  "id": "/fi/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

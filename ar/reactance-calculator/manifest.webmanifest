@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "حاسبة مفاعلة مجانية: التردد مع السعة (µF) يعطي المفاعلة السعوية Xc، ومع الحث (mH) يعطي المفاعلة الحثية Xl — أدخل كليهما للمفاعلة الصافية وتردد رنين LC.",
-  "id": "/loona-construction-calculators/ar/reactance-calculator/",
+  "id": "/ar/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

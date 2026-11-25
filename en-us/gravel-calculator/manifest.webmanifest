@@ -2,7 +2,7 @@
   "name": "Loona 🪨 Gravel Calculator",
   "short_name": "🪨 Gravel Calculator",
   "description": "Free gravel calculator: area and depth in metric or imperial — get gravel volume in cubic meters and cubic yards and weight in tonnes and US tons, with an adjustable density and waste allowance.",
-  "id": "/loona-construction-calculators/en-us/gravel-calculator/",
+  "id": "/en-us/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

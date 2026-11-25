@@ -1,7 +1,7 @@
 [
  {
   "n": "Maalilaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/paint-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/paint-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Litrat ja gallonat mille tahansa huoneelle, ovet/ikkunat vähennettynä, pohjamaali mukaan lukien.",
   "k": "maalilaskuri maalilaskuri maalilaskuri calculator construction litrat ja gallonat mille tahansa huoneelle ovet ikkunat v hennettyn pohjamaali mukaan lukien",
@@ -10,7 +10,7 @@
  },
  {
   "n": "Laattalaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/tile-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/tile-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Laatat ja laatikot lattioille & seinille, saumaväli laskettuna.",
   "k": "laattalaskuri laattalaskuri laattalaskuri calculator construction laatat ja laatikot lattioille seinille saumav li laskettuna",
@@ -19,7 +19,7 @@
  },
  {
   "n": "Betonilaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/concrete-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/concrete-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Laatan tilavuus yksiköissä m³ & yd³ sekä valmisseossäkkien määrä.",
   "k": "betonilaskuri betonilaskuri betonilaskuri calculator construction laatan tilavuus yksik iss m yd sek valmisseoss kkien m r",
@@ -28,7 +28,7 @@
  },
  {
   "n": "Lattialaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/flooring-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/flooring-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Laminaatti-, vinyyli- ja puulaatikot leikkuuhukalla.",
   "k": "lattialaskuri lattialaskuri lattialaskuri calculator construction laminaatti vinyyli ja puulaatikot leikkuuhukalla",
@@ -37,7 +37,7 @@
  },
  {
   "n": "Kipsilevylaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/drywall-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/drywall-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Kipsilevyt seinille ja katoille.",
   "k": "kipsilevylaskuri kipsilevylaskuri kipsilevylaskuri calculator construction kipsilevyt seinille ja katoille",
@@ -46,7 +46,7 @@
  },
  {
   "n": "Tiililaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/brick-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/brick-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Tiilimäärät vakio metrisille ja US-tiilikoille.",
   "k": "tiililaskuri tiililaskuri tiililaskuri calculator construction tiilim r t vakio metrisille ja us tiilikoille",
@@ -55,7 +55,7 @@
  },
  {
   "n": "Soralaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/gravel-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/gravel-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Tonnit & kuutiojaardit pihatieille, poluille ja pohjille.",
   "k": "soralaskuri soralaskuri soralaskuri calculator construction tonnit kuutiojaardit pihatieille poluille ja pohjille",
@@ -64,7 +64,7 @@
  },
  {
   "n": "Kattokaltevuuslaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/roof-pitch-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/roof-pitch-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Kaltevuussuhde, kulma, prosenttikaltevuus ja kattotuolin pituus.",
   "k": "kattokaltevuuslaskuri kattokaltevuuslaskuri kattokaltevuuslaskuri calculator construction kaltevuussuhde kulma prosenttikaltevuus ja kattotuolin pituus",
@@ -73,7 +73,7 @@
  },
  {
   "n": "Porraslaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/stairs-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/stairs-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Askelmat, nousukorkeus, etenemä, juoksu ja reisilangan pituus.",
   "k": "porraslaskuri porraslaskuri porraslaskuri calculator construction askelmat nousukorkeus etenem juoksu ja reisilangan pituus",
@@ -82,7 +82,7 @@
  },
  {
   "n": "Lautajalkalaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/board-foot-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/board-foot-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Puutavaran tilavuus lautajalkoina ja kuutiometreinä.",
   "k": "lautajalkalaskuri lautajalkalaskuri lautajalkalaskuri calculator construction puutavaran tilavuus lautajalkoina ja kuutiometrein",
@@ -91,7 +91,7 @@
  },
  {
   "n": "Tapettilaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/wallpaper-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/wallpaper-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Rullat EU- ja US-rullille, kuviotoisto huomioitu.",
   "k": "tapettilaskuri tapettilaskuri tapettilaskuri calculator construction rullat eu ja us rullille kuviotoisto huomioitu",
@@ -100,7 +100,7 @@
  },
  {
   "n": "Katelaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/mulch-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/mulch-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Säkit ja irtotilavuus penkeille ja reunuksille.",
   "k": "katelaskuri katelaskuri katelaskuri calculator construction s kit ja irtotilavuus penkeille ja reunuksille",
@@ -109,7 +109,7 @@
  },
  {
   "n": "Asfalttilaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/asphalt-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/asphalt-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Tonnit & US-tonnit alasta ja paksuudesta, tiheys muokattavissa, kustannusarvio.",
   "k": "asfalttilaskuri asfalttilaskuri asfalttilaskuri calculator construction tonnit us tonnit alasta ja paksuudesta tiheys muokattavissa kustannusarvio",
@@ -118,7 +118,7 @@
  },
  {
   "n": "Eristyslaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/insulation-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/insulation-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Levyt, rullat tai puhallussäkit tavoite-R-arvoosi / RSI-arvoosi, paksuusopas.",
   "k": "eristyslaskuri eristyslaskuri eristyslaskuri calculator construction levyt rullat tai puhalluss kit tavoite r arvoosi rsi arvoosi paksuusopas",
@@ -127,7 +127,7 @@
  },
  {
   "n": "Aitalaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/fence-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/fence-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Tolpat, vaakajuoksut, säleet ja betonisäkit aidan pituudesta ja välistä.",
   "k": "aitalaskuri aitalaskuri aitalaskuri calculator construction tolpat vaakajuoksut s leet ja betonis kit aidan pituudesta ja v list",
@@ -136,7 +136,7 @@
  },
  {
   "n": "Terassilaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/deck-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/deck-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Terassilaudat, palkit ja ruuvit terassin koosta, laudan leveydestä ja koolausvälistä.",
   "k": "terassilaskuri terassilaskuri terassilaskuri calculator construction terassilaudat palkit ja ruuvit terassin koosta laudan leveydest ja koolausv list",
@@ -145,7 +145,7 @@
  },
  {
   "n": "Altaan tilavuuslaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/pool-volume-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/pool-volume-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Litrat ja US-gallonat suorakulmaisille, pyöreille ja soikeille altaille — annostusvalmiina.",
   "k": "altaan tilavuuslaskuri altaan tilavuuslaskuri altaan tilavuuslaskuri calculator construction litrat ja us gallonat suorakulmaisille py reille ja soikeille altaille annostusvalmiina",
@@ -154,7 +154,7 @@
  },
  {
   "n": "Aurinkopaneelilaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/solar-panel-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/solar-panel-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Tarvittavat paneelit, järjestelmän kW, odotettu tuotanto ja kattoala laskustasi.",
   "k": "aurinkopaneelilaskuri aurinkopaneelilaskuri aurinkopaneelilaskuri calculator construction tarvittavat paneelit j rjestelm n kw odotettu tuotanto ja kattoala laskustasi",
@@ -163,7 +163,7 @@
  },
  {
   "n": "Mattolaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/carpet-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/carpet-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Juoksupituus ja todellinen ostoala huoneen koosta ja rullan leveydestä.",
   "k": "mattolaskuri mattolaskuri mattolaskuri calculator construction juoksupituus ja todellinen ostoala huoneen koosta ja rullan leveydest",
@@ -172,7 +172,7 @@
  },
  {
   "n": "Vanerilaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/plywood-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/plywood-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Levyt alan ja asetelman mukaan 2440×1220 mm ja 4×8 ft levyille.",
   "k": "vanerilaskuri vanerilaskuri vanerilaskuri calculator construction levyt alan ja asetelman mukaan 2440 1220 mm ja 4 8 ft levyille",
@@ -181,7 +181,7 @@
  },
  {
   "n": "Hiekkalaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/sand-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/sand-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Tonnit ja 25 kg säkit hiekkalaatikoille, päällystepohjille ja tasoitteille.",
   "k": "hiekkalaskuri hiekkalaskuri hiekkalaskuri calculator construction tonnit ja 25 kg s kit hiekkalaatikoille p llystepohjille ja tasoitteille",
@@ -190,7 +190,7 @@
  },
  {
   "n": "Ohmin lain laskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/ohms-law-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/ohms-law-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Voltage, current, resistance & power from any two values — the full Ohm's law wheel.",
   "k": "ohmin lain laskuri ohmin lain laskuri ohmin lain laskuri calculator construction voltage current resistance power from any two values the full ohm s law wheel",
@@ -199,7 +199,7 @@
  },
  {
   "n": "Jännitehäviölaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/voltage-drop-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/voltage-drop-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Volts & % dropped over a cable run, mm² or AWG, single & three-phase.",
   "k": "j nniteh vi laskuri j nniteh vi laskuri j nniteh vi laskuri calculator construction volts dropped over a cable run mm or awg single three phase",
@@ -208,7 +208,7 @@
  },
  {
   "n": "Kaapelikokolaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/wire-size-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/wire-size-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Minimum cable size in mm² + standard size & AWG from your drop limit.",
   "k": "kaapelikokolaskuri kaapelikokolaskuri kaapelikokolaskuri calculator construction minimum cable size in mm standard size awg from your drop limit",
@@ -217,7 +217,7 @@
  },
  {
   "n": "Sähkökustannuslaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/electricity-cost-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/electricity-cost-calculator/",
   "s": "Loona Construction Calculators",
   "d": "What an appliance costs per day, month & year from watts & price per kWh.",
   "k": "s hk kustannuslaskuri s hk kustannuslaskuri s hk kustannuslaskuri calculator construction what an appliance costs per day month year from watts price per kwh",
@@ -226,7 +226,7 @@
  },
  {
   "n": "Ampeerit wateiksi -laskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/amps-to-watts-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/amps-to-watts-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Watts & kW from amps and volts — DC, single-phase & three-phase with power factor.",
   "k": "ampeerit wateiksi laskuri ampeerit wateiksi laskuri ampeerit wateiksi laskuri calculator construction watts kw from amps and volts dc single phase three phase with power factor",
@@ -235,7 +235,7 @@
  },
  {
   "n": "Watit ampeereiksi -laskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/watts-to-amps-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/watts-to-amps-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Amps from watts and volts for breaker & cable checks — DC, single & three-phase.",
   "k": "watit ampeereiksi laskuri watit ampeereiksi laskuri watit ampeereiksi laskuri calculator construction amps from watts and volts for breaker cable checks dc single three phase",
@@ -244,7 +244,7 @@
  },
  {
   "n": "kVA-ampeerilaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/kva-to-amps-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/kva-to-amps-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Generator & transformer kVA to full-load amps, and amps back to kVA, single & three-phase.",
   "k": "kva ampeerilaskuri kva ampeerilaskuri kva ampeerilaskuri calculator construction generator transformer kva to full load amps and amps back to kva single three phase",
@@ -253,7 +253,7 @@
  },
  {
   "n": "Tehokerroinlaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/power-factor-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/power-factor-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Power factor, kvar & phase angle from kW and kVA, plus correction capacitor size.",
   "k": "tehokerroinlaskuri tehokerroinlaskuri tehokerroinlaskuri calculator construction power factor kvar phase angle from kw and kva plus correction capacitor size",
@@ -262,7 +262,7 @@
  },
  {
   "n": "Akun käyttöaikalaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/battery-runtime-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/battery-runtime-calculator/",
   "s": "Loona Construction Calculators",
   "d": "How long a battery runs a load — Ah, usable Wh, depth of discharge & inverter losses counted.",
   "k": "akun k ytt aikalaskuri akun k ytt aikalaskuri akun k ytt aikalaskuri calculator construction how long a battery runs a load ah usable wh depth of discharge inverter losses counted",
@@ -271,7 +271,7 @@
  },
  {
   "n": "LED-etuvastuslaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/led-resistor-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/led-resistor-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Series resistor in ohms, nearest standard E12 value, actual current & wattage.",
   "k": "led etuvastuslaskuri led etuvastuslaskuri led etuvastuslaskuri calculator construction series resistor in ohms nearest standard e12 value actual current wattage",
@@ -280,7 +280,7 @@
  },
  {
   "n": "Kolmivaihetehon laskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/three-phase-power-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/three-phase-power-calculator/",
   "s": "Loona Construction Calculators",
   "d": "kW, kVA & kvar from line voltage, line current & power factor for balanced loads.",
   "k": "kolmivaihetehon laskuri kolmivaihetehon laskuri kolmivaihetehon laskuri calculator construction kw kva kvar from line voltage line current power factor for balanced loads",
@@ -289,7 +289,7 @@
  },
  {
   "n": "Moottorin virtalaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/motor-current-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/motor-current-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Estimated full-load amps from motor kW or hp, efficiency & power factor.",
   "k": "moottorin virtalaskuri moottorin virtalaskuri moottorin virtalaskuri calculator construction estimated full load amps from motor kw or hp efficiency power factor",
@@ -298,7 +298,7 @@
  },
  {
   "n": "Vastuksen värikoodilaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/resistor-colour-code-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/resistor-colour-code-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Read 4, 5 & 6-band resistor colours to ohms & tolerance — or turn a value back into bands.",
   "k": "vastuksen v rikoodilaskuri vastuksen v rikoodilaskuri vastuksen v rikoodilaskuri calculator construction read 4 5 6 band resistor colours to ohms tolerance or turn a value back into bands",
@@ -307,7 +307,7 @@
  },
  {
   "n": "555-ajastinlaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/555-timer-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/555-timer-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Astable frequency & duty cycle and monostable pulse width from R and C.",
   "k": "555 ajastinlaskuri 555 ajastinlaskuri 555 ajastinlaskuri calculator construction astable frequency duty cycle and monostable pulse width from r and c",
@@ -316,7 +316,7 @@
  },
  {
   "n": "AWG-muunnin",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/awg-converter/",
+  "u": "https://construction.loonaautomation.com/fi/awg-converter/",
   "s": "Loona Construction Calculators",
   "d": "AWG to mm, mm² and resistance per km for copper & aluminium — and back from mm² or diameter.",
   "k": "awg muunnin awg muunnin awg muunnin calculator construction awg to mm mm and resistance per km for copper aluminium and back from mm or diameter",
@@ -325,7 +325,7 @@
  },
  {
   "n": "Reaktanssilaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/reactance-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/reactance-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Capacitive & inductive reactance in ohms, plus LC resonant frequency.",
   "k": "reaktanssilaskuri reaktanssilaskuri reaktanssilaskuri calculator construction capacitive inductive reactance in ohms plus lc resonant frequency",
@@ -334,7 +334,7 @@
  },
  {
   "n": "dB-muunnin",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/db-converter/",
+  "u": "https://construction.loonaautomation.com/fi/db-converter/",
   "s": "Loona Construction Calculators",
   "d": "Power & voltage ratios to decibels, dBm to milliwatts & watts and back.",
   "k": "db muunnin db muunnin db muunnin calculator construction power voltage ratios to decibels dbm to milliwatts watts and back",
@@ -343,7 +343,7 @@
  },
  {
   "n": "Neliömetrilaskuri",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/fi/square-footage-calculator/",
+  "u": "https://construction.loonaautomation.com/fi/square-footage-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Kokonaispinta-ala yksiköissä sq ft, sq m, sq yd & acres yhdelle tai monelle huoneelle, kustannusarviolla.",
   "k": "neliömetrilaskuri neliömetrilaskuri neliömetrilaskuri calculator construction kokonaispinta-ala yksiköissä sq ft, sq m, sq yd & acres yhdelle tai monelle huoneelle, kustannusarviolla.",

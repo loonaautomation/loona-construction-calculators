@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Free drywall and plasterboard calculator: room size in metric or imperial — get wall and ceiling area and the number of 1200 × 2400 mm or 4 × 8 ft sheets to buy, waste included.",
-  "id": "/loona-construction-calculators/en-gb/drywall-calculator/",
+  "id": "/en-gb/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

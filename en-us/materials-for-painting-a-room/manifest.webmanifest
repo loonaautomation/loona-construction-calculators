@@ -2,7 +2,7 @@
   "name": "Loona Materials for Painting a 12 × 14 ft Room",
   "short_name": "Materials for Painting a 12 × 14 ft Room",
   "description": "Complete buy list for painting a 12×14 ft room: 2-coat paint liters/gallons, primer, tape, rollers and prep materials — computed, not guessed.",
-  "id": "/loona-construction-calculators/en-us/materials-for-painting-a-room/",
+  "id": "/en-us/materials-for-painting-a-room/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Power Factor Calculator",
   "short_name": "Power Factor Calculator",
   "description": "Darmowy kalkulator współczynnika mocy: moc czynna (kW) i moc pozorna (kVA) dają współczynnik mocy, moc bierną w kvar, kąt fazowy — oraz liczbę kvar kondensatora potrzebną do korekty do docelowego PF.",
-  "id": "/loona-construction-calculators/pl/power-factor-calculator/",
+  "id": "/pl/power-factor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

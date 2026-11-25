@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Δωρεάν υπολογιστής μεγέθους σύρματος: ρεύμα, μονόδρομο μήκος, επιτρεπόμενη % πτώση τάσης, τάση, χαλκός ή αλουμίνιο, μονοφασικό ή τριφασικό — ελάχιστο μέγεθος καλωδίου σε mm², πλησιέστερο τυπικό μέγεθος και ισοδύναμο AWG.",
-  "id": "/loona-construction-calculators/el/wire-size-calculator/",
+  "id": "/el/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

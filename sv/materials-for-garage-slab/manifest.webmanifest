@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "Material till en garageplatta på 20 × 20 ft: exakt betongvolym och antal färdigblandade säckar (4-inch platta, 10% extra) plus inköpsanmärkningar för underlag och armering.",
-  "id": "/loona-construction-calculators/sv/materials-for-garage-slab/",
+  "id": "/sv/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

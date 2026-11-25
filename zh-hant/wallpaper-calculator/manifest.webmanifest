@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "免費桌布計算器：房間尺寸（公制或英制）、歐式或美式雙卷、計入圖案重複長度 — 得到要買的桌布卷數的確切數字，含損耗。",
-  "id": "/loona-construction-calculators/zh-hant/wallpaper-calculator/",
+  "id": "/zh-hant/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Tabel complet cu pante de acoperiș: de la 1/12 la 12/12 cu unghiuri, pante procentuale și multiplicatori de căprior, fiecare pantă cu propria pagină de ghid.",
-  "id": "/loona-construction-calculators/ro/roof-pitch-chart/",
+  "id": "/ro/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

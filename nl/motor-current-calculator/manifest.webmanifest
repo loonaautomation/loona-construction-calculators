@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "Gratis motorstroomcalculator: motorvermogen in kW of paardenkracht, spanning, enkelfase of driefasen, rendement en arbeidsfactor geven een geschatte vollaststroom — met eerlijke voorbehouden over typeplaatje en voorschriften.",
-  "id": "/loona-construction-calculators/nl/motor-current-calculator/",
+  "id": "/nl/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

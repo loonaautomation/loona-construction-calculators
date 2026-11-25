@@ -2,7 +2,7 @@
   "name": "Loona 10/12 Roof Pitch",
   "short_name": "10/12 Roof Pitch",
   "description": "10/12 çatı eğimi 39.81 derecedir (%83 eğim). Mertek çarpanı 1.3017, yaygın mesafeler için mertek uzunlukları, malzemeler ve kullanım alanları.",
-  "id": "/loona-construction-calculators/tr/roof-pitch-10-12/",
+  "id": "/tr/roof-pitch-10-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Electricity Cost Calculator",
   "short_name": "Electricity Cost Calculator",
   "description": "Ücretsiz elektrik maliyeti hesaplayıcısı: cihaz wattları (veya amper × volt), günlük saatler, aylık günler ve kWh başına fiyat; kullanılan kWh'yi ve günlük, aylık ve yıllık maliyeti verir — herhangi bir para birimi.",
-  "id": "/loona-construction-calculators/tr/electricity-cost-calculator/",
+  "id": "/tr/electricity-cost-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

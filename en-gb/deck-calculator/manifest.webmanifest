@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Free deck calculator: deck size and board width in metric or imperial give you deck boards to buy, total board length, joists and a screw estimate — with board gap, joist spacing and waste allowance.",
-  "id": "/loona-construction-calculators/en-gb/deck-calculator/",
+  "id": "/en-gb/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

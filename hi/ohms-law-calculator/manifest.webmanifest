@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "मुफ़्त ओम का नियम कैलकुलेटर: वोल्टेज, करंट, प्रतिरोध और पावर में से कोई दो दर्ज करें और बाकी दो पाएँ — ओम के नियम पहिये के चारों चतुर्थांश, सूत्रों और कार्यित उदाहरण के साथ।",
-  "id": "/loona-construction-calculators/hi/ohms-law-calculator/",
+  "id": "/hi/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

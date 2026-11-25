@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in India",
   "short_name": "Brick Size in India",
   "description": "Standardní rozměr cihly v Indii: 190 × 90 × 90 mm. 50.0 cihel na m² (4.65 na čtvereční stopu) jednovrstvé zdi se spárami 10 mm na maltu, pokrytí na 1,000 cihel a vypracovaný příklad zdi.",
-  "id": "/loona-construction-calculators/cs/brick-size-india/",
+  "id": "/cs/brick-size-india/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

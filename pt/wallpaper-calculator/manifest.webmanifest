@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Calculadora gratuita de papel de parede: tamanho do quarto em métrico ou imperial, rolos duplos europeus ou americanos, repetição tida em conta — obtenha o número exato de rolos a comprar, desperdício incluído.",
-  "id": "/loona-construction-calculators/pt/wallpaper-calculator/",
+  "id": "/pt/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

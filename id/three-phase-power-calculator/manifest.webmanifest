@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "Kalkulator daya tiga fase gratis: tegangan antar-jalur, arus jalur, dan faktor daya memberikan daya nyata dalam kW, daya semu dalam kVA, dan daya reaktif dalam kvar untuk beban seimbang.",
-  "id": "/loona-construction-calculators/id/three-phase-power-calculator/",
+  "id": "/id/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

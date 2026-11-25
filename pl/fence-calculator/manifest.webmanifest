@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Darmowy kalkulator ogrodzenia: długość ogrodzenia i rozstaw słupków w systemie metrycznym lub imperialnym dają słupki, poprzeczki, sztachety (z szerokości sztachety i szczeliny) oraz worki betonu — z zapasem na odpady dla sztachet.",
-  "id": "/loona-construction-calculators/pl/fence-calculator/",
+  "id": "/pl/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

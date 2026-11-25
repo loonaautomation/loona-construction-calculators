@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Calculator",
   "short_name": "Roof Pitch Calculator",
   "description": "เครื่องคำนวณความลาดชันหลังคาฟรี: กรอกระยะยกและระยะแนวราบในหน่วยใดก็ได้ — รับความลาดชันเป็นอัตราส่วน (x-in-12) มุมเป็นองศา ความชันเป็นเปอร์เซ็นต์ และความยาวจันทัน ใช้ได้กับการวัดทั้งเมตริกและอิมพีเรียล",
-  "id": "/loona-construction-calculators/th/roof-pitch-calculator/",
+  "id": "/th/roof-pitch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

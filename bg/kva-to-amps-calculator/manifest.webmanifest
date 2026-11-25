@@ -2,7 +2,7 @@
   "name": "Loona kVA to Amps Calculator",
   "short_name": "kVA to Amps Calculator",
   "description": "Безплатен калкулатор kVA в ампери за еднофазни и трифазни захранвания — и обратното, ампери в kVA. Оразмерете токовете на генератор, трансформатор и захранване от kVA и напрежението.",
-  "id": "/loona-construction-calculators/bg/kva-to-amps-calculator/",
+  "id": "/bg/kva-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

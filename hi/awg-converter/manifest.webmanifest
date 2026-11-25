@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "मुफ़्त AWG कनवर्टर: AWG गेज से mm और इंच में व्यास, mm² में अनुप्रस्थ-काट और ताँबे और एल्युमिनियम के लिए प्रतिरोध प्रति किलोमीटर — या mm² या व्यास से निकटतम AWG खोजें।",
-  "id": "/loona-construction-calculators/hi/awg-converter/",
+  "id": "/hi/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

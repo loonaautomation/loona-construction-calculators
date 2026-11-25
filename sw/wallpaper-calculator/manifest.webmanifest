@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Kikokotoo cha bure cha karatasi ya ukuta: ukubwa wa chumba katika metriki au imperial, rolo za Ulaya au rolo mbili za Marekani, marudio ya mfumo yameruhusiwa — pata idadi kamili ya rolo za karatasi ya ukuta za kununua, upotevu umejumuishwa.",
-  "id": "/loona-construction-calculators/sw/wallpaper-calculator/",
+  "id": "/sw/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

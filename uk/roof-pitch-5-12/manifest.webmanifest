@@ -2,7 +2,7 @@
   "name": "Loona 5/12 Roof Pitch",
   "short_name": "5/12 Roof Pitch",
   "description": "Ухил даху 5/12 — це 22.62 градусів (ухил 42%). Коефіцієнт крокви 1.0833, довжини кроков для поширених прогонів, матеріали й застосування.",
-  "id": "/loona-construction-calculators/uk/roof-pitch-5-12/",
+  "id": "/uk/roof-pitch-5-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

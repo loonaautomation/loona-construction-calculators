@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Calculadora gratuita de papel pintado: tamaño de habitación en métrico o imperial, rollos dobles europeos o de EE. UU., con rapport tenido en cuenta — obtén el número exacto de rollos a comprar, desperdicio incluido.",
-  "id": "/loona-construction-calculators/es/wallpaper-calculator/",
+  "id": "/es/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

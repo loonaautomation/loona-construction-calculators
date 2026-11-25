@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "مقاسات الطوب القياسية في المملكة المتحدة والولايات المتحدة والهند وباكستان وأستراليا وألمانيا وجنوب أفريقيا — الأبعاد والطوب لكل متر مربع مقارنة.",
-  "id": "/loona-construction-calculators/ar/brick-sizes-by-country/",
+  "id": "/ar/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Безплатен калкулатор за тапети: размер на стаята в метрична или имперска система, европейски или американски двойни рула, с отчетено повторение на шарката — получете точния брой рула тапети за покупка, с включен отпадък.",
-  "id": "/loona-construction-calculators/bg/wallpaper-calculator/",
+  "id": "/bg/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

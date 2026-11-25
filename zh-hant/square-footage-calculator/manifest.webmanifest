@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "免費平方英尺計算器：新增矩形、圓形、三角形和 L 形的房間，按英尺和英寸或米輸入，即可得到以平方英尺、平方米、平方碼和英畝為單位的總面積 — 還可附帶可選的費用估算。",
-  "id": "/loona-construction-calculators/zh-hant/square-footage-calculator/",
+  "id": "/zh-hant/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

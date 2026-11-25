@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "Besplatni kalkulator vata u ampere za istosmjernu, izmjeničnu jednofaznu i izmjeničnu trofaznu struju: snaga, napon i faktor snage daju struju u amperima — prvi korak za dimenzioniranje prekidača ili kabela.",
-  "id": "/loona-construction-calculators/hr/watts-to-amps-calculator/",
+  "id": "/hr/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

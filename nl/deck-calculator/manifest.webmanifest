@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Gratis terrascalculator: terrasafmeting en plankbreedte in metrisch of imperiaal geven je de te kopen terrasplanken, de totale planklengte, balken en een schroeframing — met plankvoeg, balkafstand en verliesstoeslag.",
-  "id": "/loona-construction-calculators/nl/deck-calculator/",
+  "id": "/nl/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

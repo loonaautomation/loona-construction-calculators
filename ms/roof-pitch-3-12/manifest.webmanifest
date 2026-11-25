@@ -2,7 +2,7 @@
   "name": "Loona 3/12 Roof Pitch",
   "short_name": "3/12 Roof Pitch",
   "description": "Cerun bumbung 3/12 ialah 14.04 darjah (gred 25%). Pengganda kasau 1.0308, panjang kasau untuk larian lazim, bahan dan kegunaan.",
-  "id": "/loona-construction-calculators/ms/roof-pitch-3-12/",
+  "id": "/ms/roof-pitch-3-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

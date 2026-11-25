@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Alanınız için ne kadar malzeme? 100 - 3,000 sq ft için beton hacimleri, fayans sayıları ve boya miktarları — sitenin kendi hesaplayıcılarıyla hesaplanmıştır.",
-  "id": "/loona-construction-calculators/tr/materials-by-area/",
+  "id": "/tr/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

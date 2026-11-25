@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "Besplatni kalkulator asfalta: unesite duljinu, širinu i debljinu u metričkim ili imperijalnim jedinicama i dobit ćete težinu asfalta za narudžbu u tonama i američkim tonama, s prilagodljivom gustoćom (2,450 kg/m³ / 145 lb/ft³), dodatkom za otpad i opcionalnim troškom.",
-  "id": "/loona-construction-calculators/hr/asphalt-calculator/",
+  "id": "/hr/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

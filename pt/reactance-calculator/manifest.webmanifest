@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "Calculadora gratuita de reatância: a frequência com a capacitância (µF) dá a reatância capacitiva Xc, com a indutância (mH) dá a reatância indutiva Xl — introduza ambas para a reatância líquida e a frequência de ressonância LC.",
-  "id": "/loona-construction-calculators/pt/reactance-calculator/",
+  "id": "/pt/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

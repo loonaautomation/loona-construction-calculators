@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Convertor AWG gratuit: calibrul AWG în diametru în mm și inci, secțiune transversală în mm² și rezistență pe kilometru pentru cupru și aluminiu — sau găsiți cel mai apropiat AWG din mm² sau diametru.",
-  "id": "/loona-construction-calculators/ro/awg-converter/",
+  "id": "/ro/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

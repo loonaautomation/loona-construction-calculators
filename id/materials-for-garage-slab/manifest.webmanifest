@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "Material untuk pelat garasi 20 × 20 ft: volume beton tepat dan jumlah kantong campuran siap pakai (pelat 4 inci, tambahan 10%) ditambah catatan belanja dasar dan penguatan.",
-  "id": "/loona-construction-calculators/id/materials-for-garage-slab/",
+  "id": "/id/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

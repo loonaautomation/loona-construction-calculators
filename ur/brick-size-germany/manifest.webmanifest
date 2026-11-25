@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "جرمنی (NF) میں معیاری اینٹ سائز: 240 × 115 × 71 mm۔ 10 mm مسالا جوڑوں کے ساتھ سنگل سکن دیوار کی 49.4 اینٹیں فی m² (4.59 فی sq ft)، کوریج فی 1,000 اینٹیں اور حل شدہ دیوار مثال۔",
-  "id": "/loona-construction-calculators/ur/brick-size-germany/",
+  "id": "/ur/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

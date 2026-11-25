@@ -2,7 +2,7 @@
   "name": "Loona 555 Timer Calculator",
   "short_name": "555 Timer Calculator",
   "description": "מחשבון טיימר 555 חינמי: מצב אסטבילי נותן תדר, מחזור עבודה וזמני HIGH/LOW מ-R1, R2 ו-C; מצב מונוסטבילי נותן את רוחב הפולס מ-R ו-C — נוסחאות 1.44 ו-1.1 סטנדרטיות.",
-  "id": "/loona-construction-calculators/he/555-timer-calculator/",
+  "id": "/he/555-timer-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

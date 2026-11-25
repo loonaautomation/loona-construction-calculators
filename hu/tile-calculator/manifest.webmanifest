@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Ingyenes csempekalkulátor: padló- vagy falméret, csempeméret és fugaköz metrikus vagy angolszász mértékegységben — megkapja a megvásárolandó csempék és dobozok pontos számát, a vágásokra és törésekre szóló hulladékráhagyással együtt.",
-  "id": "/loona-construction-calculators/hu/tile-calculator/",
+  "id": "/hu/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

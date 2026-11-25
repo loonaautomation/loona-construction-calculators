@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Calcolatore cartongesso gratuito: dimensioni della stanza in metrico o imperiale — ottieni l'area di pareti e soffitto e il numero di lastre da 1200 × 2400 mm o 4 × 8 ft da comprare, scarti inclusi.",
-  "id": "/loona-construction-calculators/it/drywall-calculator/",
+  "id": "/it/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

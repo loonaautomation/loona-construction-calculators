@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "Kostenloser Quadratmeter-Rechner: Fügen Sie Räume in Rechteck-, Kreis-, Dreieck- und L-Formen hinzu, in Fuß und Zoll oder Metern, und erhalten Sie die Gesamtfläche in Quadratfuß, Quadratmetern, Quadratyard und Acre — mit optionaler Kostenschätzung.",
-  "id": "/loona-construction-calculators/de/square-footage-calculator/",
+  "id": "/de/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

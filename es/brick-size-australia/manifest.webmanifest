@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Australia",
   "short_name": "Brick Size in Australia",
   "description": "Tamaño estándar de ladrillo en Australia: 230 × 110 × 76 mm. 48.4 ladrillos por m² (4.50 por sq ft) de pared de una hoja con juntas de mortero de 10 mm, cobertura por cada 1,000 ladrillos y un ejemplo de pared resuelto.",
-  "id": "/loona-construction-calculators/es/brick-size-australia/",
+  "id": "/es/brick-size-australia/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

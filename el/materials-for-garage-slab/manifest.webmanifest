@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "Υλικά για πλάκα γκαράζ 20 × 20 ft: ακριβής όγκος σκυροδέματος και αριθμοί σακιών έτοιμου μείγματος (πλάκα 4 ιντσών, 10% επιπλέον) συν σημειώσεις αγορών βάσης και οπλισμού.",
-  "id": "/loona-construction-calculators/el/materials-for-garage-slab/",
+  "id": "/el/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

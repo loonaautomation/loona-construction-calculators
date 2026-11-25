@@ -2,7 +2,7 @@
   "name": "Loona Plywood Calculator",
   "short_name": "Plywood Calculator",
   "description": "Calculadora gratuita de placas de contraplacado: o tamanho da área e da placa (2440×1220 mm ou 4×8 ft) em métrico ou imperial dá-lhe placas por área e por disposição, a contagem recomendada, a margem de desperdício e o custo opcional.",
-  "id": "/loona-construction-calculators/pt/plywood-calculator/",
+  "id": "/pt/plywood-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

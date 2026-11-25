@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Безкоштовний конвертер AWG: калібр AWG у діаметр у мм і дюймах, поперечний переріз у мм² та опір на кілометр для міді й алюмінію — або знайдіть найближчий AWG за мм² чи діаметром.",
-  "id": "/loona-construction-calculators/uk/awg-converter/",
+  "id": "/uk/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

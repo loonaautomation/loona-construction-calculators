@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Gratis tegelcalculator: vloer- of wandmaat, tegelmaat en voeg in metrisch of imperiaal — krijg het exacte aantal te kopen tegels en dozen, inclusief een verliesstoeslag voor sneden en breuk.",
-  "id": "/loona-construction-calculators/nl/tile-calculator/",
+  "id": "/nl/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "Бесплатный калькулятор перевода ватт в амперы для постоянного тока, однофазного и трёхфазного переменного тока: мощность, напряжение и коэффициент мощности дают ток в амперах — первый шаг к выбору автомата или кабеля.",
-  "id": "/loona-construction-calculators/ru/watts-to-amps-calculator/",
+  "id": "/ru/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "วัสดุสำหรับพื้นโรงรถ 20 × 20 ft: ปริมาตรคอนกรีตที่แน่นอนและจำนวนถุงคอนกรีตผสมเสร็จ (พื้นหนา 4 นิ้ว เผื่อ 10%) บวกหมายเหตุการซื้อชั้นฐานและเหล็กเสริม",
-  "id": "/loona-construction-calculators/th/materials-for-garage-slab/",
+  "id": "/th/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

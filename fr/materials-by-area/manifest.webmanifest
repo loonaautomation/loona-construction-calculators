@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Combien de matériau pour votre surface ? Volumes de béton, comptes de carreaux et quantités de peinture pour 100 à 3,000 sq ft — calculés avec les propres calculateurs du site.",
-  "id": "/loona-construction-calculators/fr/materials-by-area/",
+  "id": "/fr/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

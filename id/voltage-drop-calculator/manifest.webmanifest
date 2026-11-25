@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Kalkulator jatuh tegangan gratis: panjang kabel satu arah, arus, tembaga atau aluminium, ukuran kabel dalam mm² atau AWG, satu fase atau tiga fase — volt yang jatuh dan % jatuh dengan panduan 3%/5%.",
-  "id": "/loona-construction-calculators/id/voltage-drop-calculator/",
+  "id": "/id/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

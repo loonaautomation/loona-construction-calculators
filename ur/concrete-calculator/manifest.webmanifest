@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "مفت کنکریٹ کیلکولیٹر: میٹرک یا امپیریل میں سلیب لمبائی، چوڑائی اور موٹائی — مکعب میٹر اور مکعب گز میں کنکریٹ حجم پائیں، اس کے علاوہ کتنی 20/25 kg یا 60/80 lb پری مکس بوریاں چاہئیں۔",
-  "id": "/loona-construction-calculators/ur/concrete-calculator/",
+  "id": "/ur/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

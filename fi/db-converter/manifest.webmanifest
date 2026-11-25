@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "Ilmainen desibelimuunnin: tehosuhteet ja jännitesuhteet desibeleiksi omalla vertailullasi, dBm milliwateiksi ja wateiksi ja teho takaisin arvoiksi dBm ja dBW — kaavat ja läpilasketut esimerkit.",
-  "id": "/loona-construction-calculators/fi/db-converter/",
+  "id": "/fi/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

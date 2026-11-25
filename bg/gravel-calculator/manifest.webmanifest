@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "Безплатен калкулатор за чакъл: площ и дълбочина в метрична или имперска система — получете обема чакъл в кубични метри и кубични ярдове и теглото в тонове и американски тонове, с регулируема плътност и резерв за отпадък.",
-  "id": "/loona-construction-calculators/bg/gravel-calculator/",
+  "id": "/bg/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

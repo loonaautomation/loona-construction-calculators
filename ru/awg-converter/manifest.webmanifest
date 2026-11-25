@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Бесплатный конвертер AWG: калибр AWG в диаметр в mm и дюймах, сечение в mm² и сопротивление на километр для меди и алюминия — или найдите ближайший AWG по mm² или диаметру.",
-  "id": "/loona-construction-calculators/ru/awg-converter/",
+  "id": "/ru/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

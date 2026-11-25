@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "מחשבון זמן פעולת סוללה חינמי: וולט ואמפר-שעה של סוללה, וואט עומס, עומק פריקה ונצילות ממיר נותנים וואט-שעה שימושיים וזמן פעולה בשעות — לתכנון סולארי, UPS ומחוץ לרשת.",
-  "id": "/loona-construction-calculators/he/battery-runtime-calculator/",
+  "id": "/he/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

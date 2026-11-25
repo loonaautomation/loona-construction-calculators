@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "Безкоштовний калькулятор реактивного опору: частота з ємністю (µF) дає ємнісний опір Xc, з індуктивністю (mH) — індуктивний опір Xl; введіть обидва — для сумарного реактивного опору та резонансної частоти LC-контуру.",
-  "id": "/loona-construction-calculators/uk/reactance-calculator/",
+  "id": "/uk/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona 1/12 Roof Pitch",
   "short_name": "1/12 Roof Pitch",
   "description": "Độ dốc mái 1/12 là 4.76 độ (độ dốc 8%). Hệ số nhân kèo 1.0035, chiều dài kèo cho các khẩu độ phổ biến, vật liệu và ứng dụng.",
-  "id": "/loona-construction-calculators/vi/roof-pitch-1-12/",
+  "id": "/vi/roof-pitch-1-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

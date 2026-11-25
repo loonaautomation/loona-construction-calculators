@@ -2,7 +2,7 @@
   "name": "Loona Paint Calculator",
   "short_name": "Paint Calculator",
   "description": "Calculadora gratuita de tinta: digite o tamanho do quarto em metros ou pés, subtraia portas e janelas, escolha demãos e cobertura, e obtenha a tinta e o primário necessários em litros ou galões — com uma margem de desperdício.",
-  "id": "/loona-construction-calculators/pt-br/paint-calculator/",
+  "id": "/pt-br/paint-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

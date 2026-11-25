@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Calculator",
   "short_name": "Roof Pitch Calculator",
   "description": "Ücretsiz çatı eğimi hesaplayıcısı: yükselmeyi ve mesafeyi herhangi bir birimde girin — eğimi bir oran (x-in-12), derece cinsinden açı, yüzde eğim ve mertek uzunluğu olarak alın. Metrik ve emperyal ölçümlerle çalışır.",
-  "id": "/loona-construction-calculators/tr/roof-pitch-calculator/",
+  "id": "/tr/roof-pitch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

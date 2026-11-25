@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "مفت اینٹ کیلکولیٹر: میٹرک یا امپیریل میں دیوار لمبائی اور اونچائی — سنگل سکن دیوار کے لیے معیاری اینٹوں (215 mm یا US ماڈیولر) کی تعداد پائیں، مسالا جوڑ اور ضیاع گنجائشوں سمیت۔",
-  "id": "/loona-construction-calculators/ur/brick-calculator/",
+  "id": "/ur/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

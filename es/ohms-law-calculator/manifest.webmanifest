@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "Calculadora gratuita de la ley de Ohm: introduce dos cualesquiera de voltaje, corriente, resistencia y potencia y obtén los otros dos — los cuatro cuadrantes de la rueda de la ley de Ohm, con fórmulas y un ejemplo resuelto.",
-  "id": "/loona-construction-calculators/es/ohms-law-calculator/",
+  "id": "/es/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

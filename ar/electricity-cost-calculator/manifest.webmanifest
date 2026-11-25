@@ -2,7 +2,7 @@
   "name": "Loona Electricity Cost Calculator",
   "short_name": "Electricity Cost Calculator",
   "description": "حاسبة تكلفة كهرباء مجانية: واط الجهاز (أو أمبير × فولت)، والساعات يوميًا، والأيام شهريًا وسعر kWh تعطي kWh المستخدمة والتكلفة يوميًا وشهريًا وسنويًا — بأي عملة.",
-  "id": "/loona-construction-calculators/ar/electricity-cost-calculator/",
+  "id": "/ar/electricity-cost-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

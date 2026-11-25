@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "מחשבון דק חינמי: מידת דק ורוחב לוח במטרי או באימפריאלי נותנים לכם לוחות דק לקנייה, אורך לוח כולל, קורות והערכת ברגים — עם מרווח לוחות, מרווח קורות ותוספת פחת.",
-  "id": "/loona-construction-calculators/he/deck-calculator/",
+  "id": "/he/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

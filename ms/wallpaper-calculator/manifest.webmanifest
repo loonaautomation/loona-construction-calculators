@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Kalkulator kertas dinding percuma: saiz bilik dalam metrik atau imperial, gulungan berganda Eropah atau US, ulangan corak diambil kira — dapatkan bilangan tepat gulungan kertas dinding untuk dibeli, pembaziran termasuk.",
-  "id": "/loona-construction-calculators/ms/wallpaper-calculator/",
+  "id": "/ms/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "ขนาดอิฐมาตรฐานในสหราชอาณาจักร สหรัฐอเมริกา อินเดีย ปากีสถาน ออสเตรเลีย เยอรมนี และแอฟริกาใต้ — เปรียบเทียบขนาดและจำนวนอิฐต่อตารางเมตร",
-  "id": "/loona-construction-calculators/th/brick-sizes-by-country/",
+  "id": "/th/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Board Foot Calculator",
   "short_name": "Board Foot Calculator",
   "description": "Kostenloser Board-Foot-Rechner: Holzdicke, -breite, -länge und Stückzahl in imperial oder metrisch — erhalten Sie die gesamten Board Feet und Kubikmeter für Ihre Holzbestellung.",
-  "id": "/loona-construction-calculators/de/board-foot-calculator/",
+  "id": "/de/board-foot-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

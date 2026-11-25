@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "حاسبة هبوط جهد مجانية: طول كابل أحادي الاتجاه وتيار ونحاس أو ألومنيوم ومقاس كابل بـ mm² أو AWG، أحادي أو ثلاثي الأطوار — فولتات مهبوطة ونسبة هبوط % مع إرشادات 3%/5%.",
-  "id": "/loona-construction-calculators/ar/voltage-drop-calculator/",
+  "id": "/ar/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

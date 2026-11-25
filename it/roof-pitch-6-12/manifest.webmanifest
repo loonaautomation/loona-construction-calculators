@@ -2,7 +2,7 @@
   "name": "Loona 6/12 Roof Pitch",
   "short_name": "6/12 Roof Pitch",
   "description": "Una pendenza del tetto di 6/12 è 26.57 gradi (pendenza del 50%). Moltiplicatore del puntone 1.1180, lunghezze dei puntoni per percorsi comuni, materiali e usi.",
-  "id": "/loona-construction-calculators/it/roof-pitch-6-12/",
+  "id": "/it/roof-pitch-6-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

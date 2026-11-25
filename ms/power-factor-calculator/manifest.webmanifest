@@ -2,7 +2,7 @@
   "name": "Loona Power Factor Calculator",
   "short_name": "Power Factor Calculator",
   "description": "Kalkulator faktor kuasa percuma: kuasa sebenar (kW) dan kuasa ketara (kVA) memberikan faktor kuasa, kuasa reaktif dalam kvar, sudut fasa — dan kvar kapasitor yang diperlukan untuk membetulkan kepada PF sasaran.",
-  "id": "/loona-construction-calculators/ms/power-factor-calculator/",
+  "id": "/ms/power-factor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

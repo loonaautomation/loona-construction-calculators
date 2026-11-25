@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "حاسبة واط إلى أمبير مجانية للتيار المستمر وأحادي الطور وثلاثي الأطوار: القدرة والجهد ومعامل القدرة تعطي التيار بالأمبير — الخطوة الأولى لقياس قاطع أو كابل.",
-  "id": "/loona-construction-calculators/ar/watts-to-amps-calculator/",
+  "id": "/ar/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

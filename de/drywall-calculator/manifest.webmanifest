@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Kostenloser Trockenbau- und Gipskarton-Rechner: Raumgröße metrisch oder imperial — erhalten Sie Wand- und Deckenfläche und die Anzahl der zu kaufenden 1200 × 2400 mm oder 4 × 8 ft Platten, Verschnitt inklusive.",
-  "id": "/loona-construction-calculators/de/drywall-calculator/",
+  "id": "/de/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

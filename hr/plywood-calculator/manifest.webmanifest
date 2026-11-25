@@ -2,7 +2,7 @@
   "name": "Loona Plywood Calculator",
   "short_name": "Plywood Calculator",
   "description": "Besplatni kalkulator ploča šperploče: veličina površine i veličina ploče (2440×1220 mm ili 4×8 ft) u metričkim ili imperijalnim jedinicama daju vam ploče po površini i po rasporedu, preporučeni broj, dodatak za otpad i opcionalni trošak.",
-  "id": "/loona-construction-calculators/hr/plywood-calculator/",
+  "id": "/hr/plywood-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

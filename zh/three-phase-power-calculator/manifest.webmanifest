@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "免费三相功率计算器：线电压、线电流和功率因数给出平衡负载的有功功率（kW）、视在功率（kVA）和无功功率（kvar）。",
-  "id": "/loona-construction-calculators/zh/three-phase-power-calculator/",
+  "id": "/zh/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

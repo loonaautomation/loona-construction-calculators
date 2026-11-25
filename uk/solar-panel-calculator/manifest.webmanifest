@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "Безкоштовний калькулятор сонячних панелей: місячне споживання електроенергії, пікові сонячні години й потужність панелі дають потрібну кількість панелей, розмір системи в кВт, очікуване місячне вироблення та площу даху — без реєстрації.",
-  "id": "/loona-construction-calculators/uk/solar-panel-calculator/",
+  "id": "/uk/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

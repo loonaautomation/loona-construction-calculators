@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Free tile calculator: floor or wall size, tile size and grout gap in metric or imperial — get the exact number of tiles and boxes to buy, including a waste allowance for cuts and breakages.",
-  "id": "/loona-construction-calculators/tile-calculator/",
+  "id": "/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

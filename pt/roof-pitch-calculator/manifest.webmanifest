@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Calculator",
   "short_name": "Roof Pitch Calculator",
   "description": "Calculadora gratuita de inclinação de telhado: introduza subida e percurso em qualquer unidade — obtenha a inclinação como relação (x-em-12), o ângulo em graus, a inclinação em percentagem e o comprimento do caibro. Funciona para medidas métricas e imperiais.",
-  "id": "/loona-construction-calculators/pt/roof-pitch-calculator/",
+  "id": "/pt/roof-pitch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

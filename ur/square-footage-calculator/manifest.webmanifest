@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "مفت اسکوائر فٹیج کیلکولیٹر: مستطیل، دائرہ، مثلث اور L شکل میں کمرے اور جگہیں شامل کریں، فٹ و انچ یا میٹر میں، اور کل رقبہ مربع فٹ، مربع میٹر، مربع گز اور ایکڑ میں پائیں — اختیاری لاگت تخمینے کے ساتھ۔",
-  "id": "/loona-construction-calculators/ur/square-footage-calculator/",
+  "id": "/ur/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

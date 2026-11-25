@@ -2,7 +2,7 @@
   "name": "Loona Board Foot Calculator",
   "short_name": "Board Foot Calculator",
   "description": "Безкоштовний калькулятор борд-футів: товщина, ширина, довжина пиломатеріалів і кількість штук в імперських або метричних одиницях — отримайте загальну кількість борд-футів і кубічних метрів для замовлення деревини.",
-  "id": "/loona-construction-calculators/uk/board-foot-calculator/",
+  "id": "/uk/board-foot-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

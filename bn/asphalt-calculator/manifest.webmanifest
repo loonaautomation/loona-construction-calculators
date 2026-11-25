@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "বিনামূল্যের অ্যাসফল্ট ক্যালকুলেটর: মেট্রিক বা ইম্পেরিয়ালে দৈর্ঘ্য, প্রস্থ ও পুরুত্ব দিন এবং টন ও US টনে অর্ডারের অ্যাসফল্ট ওজন পেয়ে যান, সম্পাদনাযোগ্য ঘনত্ব (2,450 kg/m³ / 145 lb/ft³), অপচয়ের ভাতা ও ঐচ্ছিক খরচসহ।",
-  "id": "/loona-construction-calculators/bn/asphalt-calculator/",
+  "id": "/bn/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

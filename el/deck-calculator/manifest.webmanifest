@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Δωρεάν υπολογιστής καταστρώματος: μέγεθος καταστρώματος και πλάτος σανίδας σε μετρικό ή αυτοκρατορικό σας δίνουν σανίδες καταστρώματος προς αγορά, συνολικό μήκος σανίδων, δοκούς και εκτίμηση βιδών — με κενό σανίδων, απόσταση δοκών και περιθώριο φθοράς.",
-  "id": "/loona-construction-calculators/el/deck-calculator/",
+  "id": "/el/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

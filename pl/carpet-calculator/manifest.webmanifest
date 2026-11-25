@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Darmowy kalkulator wykładziny: rozmiar pokoju i szerokość rolki wykładziny w systemie metrycznym lub imperialnym dają długość liniową i powierzchnię wykładziny, którą naprawdę trzeba kupić (wraz z odcinkami rolki), plus opcjonalny koszt — z zapasem na odpady.",
-  "id": "/loona-construction-calculators/pl/carpet-calculator/",
+  "id": "/pl/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

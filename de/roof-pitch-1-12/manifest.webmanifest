@@ -2,7 +2,7 @@
   "name": "Loona 1/12 Roof Pitch",
   "short_name": "1/12 Roof Pitch",
   "description": "Eine 1/12 Dachneigung sind 4.76 Grad (8% Steigung). Sparren-Multiplikator 1.0035, Sparrenlängen für übliche Verläufe, Materialien und Verwendungen.",
-  "id": "/loona-construction-calculators/de/roof-pitch-1-12/",
+  "id": "/de/roof-pitch-1-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

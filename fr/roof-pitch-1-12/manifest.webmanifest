@@ -2,7 +2,7 @@
   "name": "Loona 1/12 Roof Pitch",
   "short_name": "1/12 Roof Pitch",
   "description": "Une pente de toit de 1/12 fait 4.76 degrés (pente de 8%). Multiplicateur de chevron 1.0035, longueurs de chevrons pour les portées courantes, matériaux et usages.",
-  "id": "/loona-construction-calculators/fr/roof-pitch-1-12/",
+  "id": "/fr/roof-pitch-1-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

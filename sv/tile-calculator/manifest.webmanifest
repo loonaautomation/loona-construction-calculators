@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Gratis kakelkalkylator: golv- eller väggstorlek, plattstorlek och fogmellanrum i metriskt eller imperial — få det exakta antalet plattor och lådor att köpa, inklusive ett spilltillägg för kapningar och brott.",
-  "id": "/loona-construction-calculators/sv/tile-calculator/",
+  "id": "/sv/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

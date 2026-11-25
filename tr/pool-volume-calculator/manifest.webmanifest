@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "Dikdörtgen, yuvarlak ve oval havuzlar için ücretsiz havuz hacmi hesaplayıcısı: boyutu ve sığ/derin uç derinliklerini metrik veya emperyal olarak girin ve kimyasal dozlama ve doldurma için su hacmini litre ve ABD galonu cinsinden alın.",
-  "id": "/loona-construction-calculators/tr/pool-volume-calculator/",
+  "id": "/tr/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

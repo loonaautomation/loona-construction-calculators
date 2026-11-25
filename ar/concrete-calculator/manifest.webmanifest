@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "حاسبة خرسانة مجانية: طول البلاطة وعرضها وسُمكها بالمتري أو الإمبراطوري — احصل على حجم الخرسانة بالأمتار المكعبة والياردات المكعبة، بالإضافة إلى عدد أكياس الخلط الجاهز 20/25 kg أو 60/80 lb التي تحتاجها.",
-  "id": "/loona-construction-calculators/ar/concrete-calculator/",
+  "id": "/ar/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

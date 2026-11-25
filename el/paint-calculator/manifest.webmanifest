@@ -2,7 +2,7 @@
   "name": "Loona Paint Calculator",
   "short_name": "Paint Calculator",
   "description": "Δωρεάν υπολογιστής βαφής: εισαγάγετε μέγεθος δωματίου σε μέτρα ή πόδια, αφαιρέστε πόρτες και παράθυρα, επιλέξτε στρώσεις και κάλυψη, και λάβετε βαφή και αστάρι που απαιτούνται σε λίτρα ή γαλόνια — με περιθώριο φθοράς.",
-  "id": "/loona-construction-calculators/el/paint-calculator/",
+  "id": "/el/paint-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

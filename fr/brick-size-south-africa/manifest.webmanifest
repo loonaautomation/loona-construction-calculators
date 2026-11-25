@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in South Africa",
   "short_name": "Brick Size in South Africa",
   "description": "Dimension standard de brique en Afrique du Sud : 222 × 106 × 73 mm. 51.9 briques par m² (4.82 par sq ft) de mur à simple paroi avec des joints de mortier de 10 mm, couverture pour 1,000 briques et un exemple de mur calculé.",
-  "id": "/loona-construction-calculators/fr/brick-size-south-africa/",
+  "id": "/fr/brick-size-south-africa/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

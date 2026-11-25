@@ -2,7 +2,7 @@
   "name": "Loona 10/12 Roof Pitch",
   "short_name": "10/12 Roof Pitch",
   "description": "10/12 tetőhajlás: 39.81 fok (83%-os lejtés). Szarufa-szorzó: 1.3017, szarufahosszak gyakori fesztávokra, anyagok és felhasználások.",
-  "id": "/loona-construction-calculators/hu/roof-pitch-10-12/",
+  "id": "/hu/roof-pitch-10-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

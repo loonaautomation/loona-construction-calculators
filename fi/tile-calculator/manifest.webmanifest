@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Ilmainen laattalaskuri: lattian tai seinän koko, laatan koko ja saumausrako metrisenä tai tuumaisena — saat tarkan määrän ostettavia laattoja ja laatikoita, leikkuu- ja rikkoutumishukkalisä mukaan lukien.",
-  "id": "/loona-construction-calculators/fi/tile-calculator/",
+  "id": "/fi/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

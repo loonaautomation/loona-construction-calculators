@@ -2,7 +2,7 @@
   "name": "Loona LED Resistor Calculator",
   "short_name": "LED Resistor Calculator",
   "description": "বিনামূল্যের LED রেজিস্টর ক্যালকুলেটর: সরবরাহ ভোল্টেজ, LED ফরোয়ার্ড ভোল্টেজ, ফরোয়ার্ড কারেন্ট ও সিরিজে LED দিলে ওহমে রেজিস্টর, নিকটতম মানক E12 মান, প্রকৃত কারেন্ট ও রেজিস্টরের ওয়াটেজ পাওয়া যায়।",
-  "id": "/loona-construction-calculators/bn/led-resistor-calculator/",
+  "id": "/bn/led-resistor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

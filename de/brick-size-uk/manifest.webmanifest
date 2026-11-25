@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United Kingdom",
   "short_name": "Brick Size in United Kingdom",
   "description": "Standard-Ziegelmaß im Vereinigten Königreich: 215 × 102.5 × 65 mm. 59.3 Ziegel pro m² (5.51 pro sq ft) einschaliger Wand mit 10 mm Mörtelfugen, Abdeckung pro 1,000 Ziegel und ein durchgerechnetes Wandbeispiel.",
-  "id": "/loona-construction-calculators/de/brick-size-uk/",
+  "id": "/de/brick-size-uk/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

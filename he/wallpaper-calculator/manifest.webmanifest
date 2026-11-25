@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "מחשבון טפטים חינמי: מידת חדר במטרי או באימפריאלי, גלילים אירופיים או גלילים כפולים אמריקאיים, חזרת דוגמה נלקחת בחשבון — קבלו את מספר גלילי הטפט המדויק לקנייה, פחת כלול.",
-  "id": "/loona-construction-calculators/he/wallpaper-calculator/",
+  "id": "/he/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

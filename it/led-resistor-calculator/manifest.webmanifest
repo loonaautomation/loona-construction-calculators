@@ -2,7 +2,7 @@
   "name": "Loona LED Resistor Calculator",
   "short_name": "LED Resistor Calculator",
   "description": "Calcolatore resistenza LED gratuito: tensione di alimentazione, tensione diretta del LED, corrente diretta e LED in serie danno la resistenza in ohm, il valore standard E12 più vicino, la corrente reale e la potenza della resistenza.",
-  "id": "/loona-construction-calculators/it/led-resistor-calculator/",
+  "id": "/it/led-resistor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

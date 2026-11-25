@@ -2,7 +2,7 @@
   "name": "Loona Board Foot Calculator",
   "short_name": "Board Foot Calculator",
   "description": "Calcolatore board foot gratuito: spessore, larghezza, lunghezza e numero di pezzi del legname in imperiale o metrico — ottieni i board feet totali e i metri cubi per il tuo ordine di legname.",
-  "id": "/loona-construction-calculators/it/board-foot-calculator/",
+  "id": "/it/board-foot-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

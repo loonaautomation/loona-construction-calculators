@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "मुफ़्त रेज़िस्टर कलर कोड कैलकुलेटर: प्रतिरोध, सहनशीलता और तापमान गुणांक पाने के लिए 4-बैंड, 5-बैंड या 6-बैंड रेज़िस्टर पर बैंड रंग चुनें — या उल्टा करें, मान से बैंड।",
-  "id": "/loona-construction-calculators/hi/resistor-colour-code-calculator/",
+  "id": "/hi/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

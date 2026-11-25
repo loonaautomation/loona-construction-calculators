@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "Kikokotoo cha bure cha muda wa betri: volti za betri na saa-ampea, wati za mzigo, kina cha uchaji na ufanisi wa kibadilishaji hutoa saa-wati zinazoweza kutumika na muda wa uendeshaji katika saa — kwa upangaji wa jua, UPS na nje ya gridi.",
-  "id": "/loona-construction-calculators/sw/battery-runtime-calculator/",
+  "id": "/sw/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

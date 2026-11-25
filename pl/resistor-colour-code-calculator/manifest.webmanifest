@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "Darmowy kalkulator kodu kolorów rezystorów: wybierz kolory pasków rezystora 4-, 5- lub 6-paskowego, aby uzyskać rezystancję, tolerancję i współczynnik temperaturowy — albo odwrotnie, wartość na paski.",
-  "id": "/loona-construction-calculators/pl/resistor-colour-code-calculator/",
+  "id": "/pl/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

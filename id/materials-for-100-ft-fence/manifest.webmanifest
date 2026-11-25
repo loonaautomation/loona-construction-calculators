@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 100 ft Fence",
   "short_name": "Materials for a 100 ft Fence",
   "description": "Daftar beli untuk pagar 100 ft sepanjang 6 ft: 13 tiang, 13 rentang panel atau 340 bilah, jumlah beton per lubang yang jujur, dan jumlah pengikat.",
-  "id": "/loona-construction-calculators/id/materials-for-100-ft-fence/",
+  "id": "/id/materials-for-100-ft-fence/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

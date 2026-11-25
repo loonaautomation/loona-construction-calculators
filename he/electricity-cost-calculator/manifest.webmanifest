@@ -2,7 +2,7 @@
   "name": "Loona Electricity Cost Calculator",
   "short_name": "Electricity Cost Calculator",
   "description": "מחשבון עלות חשמל חינמי: וואט של מכשיר (או אמפר × וולט), שעות ביום, ימים בחודש ומחיר ל-kWh נותנים kWh בשימוש ועלות ליום, חודש ושנה — כל מטבע.",
-  "id": "/loona-construction-calculators/he/electricity-cost-calculator/",
+  "id": "/he/electricity-cost-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

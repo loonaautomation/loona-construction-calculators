@@ -2,7 +2,7 @@
   "name": "Loona Power Factor Calculator",
   "short_name": "Power Factor Calculator",
   "description": "Free power factor calculator: real power (kW) and apparent power (kVA) give power factor, reactive power in kvar, phase angle — and the capacitor kvar needed to correct to a target PF.",
-  "id": "/loona-construction-calculators/en-gb/power-factor-calculator/",
+  "id": "/en-gb/power-factor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

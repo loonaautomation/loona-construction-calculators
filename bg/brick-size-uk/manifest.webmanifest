@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United Kingdom",
   "short_name": "Brick Size in United Kingdom",
   "description": "Стандартен размер тухла в Обединеното кралство: 215 × 102.5 × 65 mm. 59.3 тухли на m² (5.51 на квадратен фут) еднослойна стена с фуги от хоросан 10 mm, покритие на 1,000 тухли и разработен пример за стена.",
-  "id": "/loona-construction-calculators/bg/brick-size-uk/",
+  "id": "/bg/brick-size-uk/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

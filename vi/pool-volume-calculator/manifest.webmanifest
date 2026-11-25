@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "Máy tính thể tích bể bơi miễn phí cho bể chữ nhật, tròn và bầu dục: nhập kích thước và độ sâu đầu nông/đầu sâu theo hệ mét hoặc imperial và nhận thể tích nước theo lít và gallon Mỹ cho định lượng hóa chất và đổ nước.",
-  "id": "/loona-construction-calculators/vi/pool-volume-calculator/",
+  "id": "/vi/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

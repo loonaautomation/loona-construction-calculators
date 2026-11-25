@@ -2,7 +2,7 @@
   "name": "Loona 9/12 Roof Pitch — 36.9°",
   "short_name": "9/12 Roof Pitch — 36.9°",
   "description": "A 9/12 roof pitch is 36.87 degrees (75% grade). Rafter multiplier 1.2500, rafter lengths for common runs, materials and uses.",
-  "id": "/loona-construction-calculators/en-us/roof-pitch-9-12/",
+  "id": "/en-us/roof-pitch-9-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

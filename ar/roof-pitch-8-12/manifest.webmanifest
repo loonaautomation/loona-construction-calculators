@@ -2,7 +2,7 @@
   "name": "Loona 8/12 Roof Pitch",
   "short_name": "8/12 Roof Pitch",
   "description": "ميل سقف 8/12 يساوي 33.69 درجة (انحدار 67%). مضاعف العارضة 1.2019، وأطوال العوارض للمسارات الشائعة، والمواد والاستخدامات.",
-  "id": "/loona-construction-calculators/ar/roof-pitch-8-12/",
+  "id": "/ar/roof-pitch-8-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

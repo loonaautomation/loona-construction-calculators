@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "Standaard baksteenformaat in Duitsland (NF): 240 × 115 × 71 mm. 49.4 stenen per m² (4.59 per sq ft) enkelsteens muur met mortelvoegen van 10 mm, dekking per 1,000 stenen en een uitgewerkt wandvoorbeeld.",
-  "id": "/loona-construction-calculators/nl/brick-size-germany/",
+  "id": "/nl/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Tamaños estándar de ladrillo en Reino Unido, EE. UU., India, Pakistán, Australia, Alemania y Sudáfrica — dimensiones y ladrillos por metro cuadrado comparados.",
-  "id": "/loona-construction-calculators/es/brick-sizes-by-country/",
+  "id": "/es/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

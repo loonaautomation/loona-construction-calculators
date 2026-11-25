@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "Công cụ đổi decibel miễn phí: tỉ lệ công suất và tỉ lệ điện áp sang dB với tham chiếu của riêng bạn, dBm sang miliwatt và watt, và công suất trở lại dBm và dBW — công thức và ví dụ đã làm sẵn.",
-  "id": "/loona-construction-calculators/vi/db-converter/",
+  "id": "/vi/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

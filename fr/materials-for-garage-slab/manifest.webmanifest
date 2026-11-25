@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "Matériaux pour une dalle de garage de 20 × 20 ft : volume exact de béton et comptes de sacs prémélangés (dalle de 4 pouces, 10% d'extra) plus des notes d'achat pour la base et le ferraillage.",
-  "id": "/loona-construction-calculators/fr/materials-for-garage-slab/",
+  "id": "/fr/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

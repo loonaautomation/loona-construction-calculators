@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "Besplatni kalkulator koda boja otpornika: odaberite boje pojasa na otporniku s 4, 5 ili 6 pojasa da dobijete otpor, toleranciju i temperaturni koeficijent — ili obrnuto, vrijednost u pojase.",
-  "id": "/loona-construction-calculators/hr/resistor-colour-code-calculator/",
+  "id": "/hr/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

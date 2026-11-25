@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Saiz bata piawai di UK, AS, India, Pakistan, Australia, Jerman dan Afrika Selatan — dimensi dan bata setiap meter persegi dibandingkan.",
-  "id": "/loona-construction-calculators/ms/brick-sizes-by-country/",
+  "id": "/ms/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

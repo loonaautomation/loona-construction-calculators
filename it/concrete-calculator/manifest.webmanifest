@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "Calcolatore calcestruzzo gratuito: lunghezza, larghezza e spessore della soletta in metrico o imperiale — ottieni il volume di calcestruzzo in metri cubi e iarde cubiche, più quanti sacchi premiscelati da 20/25 kg o 60/80 lb ti servono.",
-  "id": "/loona-construction-calculators/it/concrete-calculator/",
+  "id": "/it/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

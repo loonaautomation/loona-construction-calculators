@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Standardní rozměry cihel ve Spojeném království, USA, Indii, Pákistánu, Austrálii, Německu a Jižní Africe — porovnání rozměrů a cihel na metr čtvereční.",
-  "id": "/loona-construction-calculators/cs/brick-sizes-by-country/",
+  "id": "/cs/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

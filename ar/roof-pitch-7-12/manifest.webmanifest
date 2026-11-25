@@ -2,7 +2,7 @@
   "name": "Loona 7/12 Roof Pitch",
   "short_name": "7/12 Roof Pitch",
   "description": "ميل سقف 7/12 يساوي 30.26 درجة (انحدار 58%). مضاعف العارضة 1.1577، وأطوال العوارض للمسارات الشائعة، والمواد والاستخدامات.",
-  "id": "/loona-construction-calculators/ar/roof-pitch-7-12/",
+  "id": "/ar/roof-pitch-7-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

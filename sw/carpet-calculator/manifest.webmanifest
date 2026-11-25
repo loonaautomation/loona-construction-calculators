@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Kikokotoo cha bure cha zulia: ukubwa wa chumba na upana wa rolo ya zulia katika metriki au imperial hukupa urefu wa mstari na eneo la zulia la kununua kweli (vipande vya rolo vimejumuishwa), pamoja na gharama ya hiari — kwa posho ya upotevu.",
-  "id": "/loona-construction-calculators/sw/carpet-calculator/",
+  "id": "/sw/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Board Foot Calculator",
   "short_name": "Board Foot Calculator",
   "description": "Ingyenes deszkaláb-kalkulátor: fűrészáru-vastagság, -szélesség, -hossz és darabszám angolszász vagy metrikus mértékegységben — megkapja az összes deszkalábat és köbmétert a faanyag-rendeléséhez.",
-  "id": "/loona-construction-calculators/hu/board-foot-calculator/",
+  "id": "/hu/board-foot-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

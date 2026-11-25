@@ -2,7 +2,7 @@
   "name": "Loona Board Foot Calculator",
   "short_name": "Board Foot Calculator",
   "description": "免费板英尺计算器：木材厚度、宽度、长度和件数，英制或公制 — 为您的木材订单得到总板英尺和立方米。",
-  "id": "/loona-construction-calculators/zh/board-foot-calculator/",
+  "id": "/zh/board-foot-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

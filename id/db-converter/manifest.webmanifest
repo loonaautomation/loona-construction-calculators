@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "Konverter desibel gratis: rasio daya dan rasio tegangan ke dB dengan acuan Anda sendiri, dBm ke miliwatt dan watt, dan daya kembali ke dBm dan dBW — rumus dan contoh perhitungan.",
-  "id": "/loona-construction-calculators/id/db-converter/",
+  "id": "/id/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

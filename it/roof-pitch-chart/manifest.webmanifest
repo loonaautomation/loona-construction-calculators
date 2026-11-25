@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Tabella completa delle pendenze del tetto: da 1/12 a 12/12 con angoli, pendenze e moltiplicatori dei puntoni, ogni pendenza con la propria pagina guida.",
-  "id": "/loona-construction-calculators/it/roof-pitch-chart/",
+  "id": "/it/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

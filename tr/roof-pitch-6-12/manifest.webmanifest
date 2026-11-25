@@ -2,7 +2,7 @@
   "name": "Loona 6/12 Roof Pitch",
   "short_name": "6/12 Roof Pitch",
   "description": "6/12 çatı eğimi 26.57 derecedir (%50 eğim). Mertek çarpanı 1.1180, yaygın mesafeler için mertek uzunlukları, malzemeler ve kullanım alanları.",
-  "id": "/loona-construction-calculators/tr/roof-pitch-6-12/",
+  "id": "/tr/roof-pitch-6-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

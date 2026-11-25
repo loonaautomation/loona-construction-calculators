@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "Ingyenes decibelátváltó: teljesítmény- és feszültségarányok dB-re saját referenciával, dBm milliwattra és wattra, és teljesítmény vissza dBm-re és dBW-re — képletek és kidolgozott példák.",
-  "id": "/loona-construction-calculators/hu/db-converter/",
+  "id": "/hu/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

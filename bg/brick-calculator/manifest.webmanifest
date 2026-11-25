@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Безплатен калкулатор за тухли: дължина и височина на стената в метрични или имперски единици — получете броя стандартни тухли (215 mm или американски модулни) за едноредова стена, включително резерви за фуги на разтвора и отпадъци.",
-  "id": "/loona-construction-calculators/bg/brick-calculator/",
+  "id": "/bg/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

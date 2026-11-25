@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Standard)",
   "short_name": "Brick Size in United States",
   "description": "Misura standard del mattone negli Stati Uniti (standard): 203 × 92 × 57 mm. 70.8 mattoni per m² (6.57 per sq ft) di muro a singola fodera con giunti di malta da 9.5 mm, copertura per 1,000 mattoni e un esempio di muro risolto.",
-  "id": "/loona-construction-calculators/it/brick-size-us-standard/",
+  "id": "/it/brick-size-us-standard/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

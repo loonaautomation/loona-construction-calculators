@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Gratis AWG-omregner: AWG-mål til diameter i mm og tommer, tværsnit i mm² og modstand pr. kilometer for kobber og aluminium — eller find nærmeste AWG ud fra mm² eller diameter.",
-  "id": "/loona-construction-calculators/da/awg-converter/",
+  "id": "/da/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

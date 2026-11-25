@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Bảng độ dốc mái đầy đủ: 1/12 đến 12/12 với góc, độ dốc phần trăm và hệ số kèo, mỗi độ dốc có trang hướng dẫn riêng.",
-  "id": "/loona-construction-calculators/vi/roof-pitch-chart/",
+  "id": "/vi/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

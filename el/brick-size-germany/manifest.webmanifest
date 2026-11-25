@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "Τυπικό μέγεθος τούβλου στη Γερμανία (NF): 240 × 115 × 71 mm. 49.4 τούβλα ανά m² (4.59 ανά sq ft) τοίχου μονής τοιχοποιίας με αρμούς κονιάματος 10 mm, κάλυψη ανά 1,000 τούβλα και ένα λυμένο παράδειγμα τοίχου.",
-  "id": "/loona-construction-calculators/el/brick-size-germany/",
+  "id": "/el/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

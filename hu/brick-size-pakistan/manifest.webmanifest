@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Pakistan",
   "short_name": "Brick Size in Pakistan",
   "description": "Szabványos téglaméret Pakisztánban: 228 × 107 × 69 mm. 53.2 tégla m²-enként (4.94 négyzetlábonként) egyrétegű falban, 10 mm-es habarcsfugákkal, fedés 1,000 téglára és egy kidolgozott falpélda.",
-  "id": "/loona-construction-calculators/hu/brick-size-pakistan/",
+  "id": "/hu/brick-size-pakistan/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

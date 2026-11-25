@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "เครื่องคำนวณกระเบื้องฟรี: ขนาดพื้นหรือผนัง ขนาดกระเบื้อง และรอยต่อยาแนวเป็นเมตริกหรืออิมพีเรียล — รับจำนวนกระเบื้องและกล่องที่ต้องซื้ออย่าง exact รวมค่าเผื่อเศษสำหรับการตัดและการแตกหัก",
-  "id": "/loona-construction-calculators/th/tile-calculator/",
+  "id": "/th/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

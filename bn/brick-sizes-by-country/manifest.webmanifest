@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "UK, USA, ভারত, পাকিস্তান, অস্ট্রেলিয়া, জার্মানি ও দক্ষিণ আফ্রিকায় মানক ইটের আকার — মাপ ও প্রতি বর্গমিটারে ইটের তুলনা।",
-  "id": "/loona-construction-calculators/bn/brick-sizes-by-country/",
+  "id": "/bn/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

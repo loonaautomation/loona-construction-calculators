@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "Безплатен калкулатор за реактивно съпротивление: честотата с капацитет (µF) дава капацитивно реактивно съпротивление Xc, с индуктивност (mH) дава индуктивно реактивно съпротивление Xl — въведете и двете за нетно реактивно съпротивление и резонансната честота на LC веригата.",
-  "id": "/loona-construction-calculators/bg/reactance-calculator/",
+  "id": "/bg/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

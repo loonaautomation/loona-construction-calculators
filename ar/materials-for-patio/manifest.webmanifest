@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 16 × 20 ft Patio",
   "short_name": "Materials for a 16 × 20 ft",
   "description": "قائمة شراء لفناء 16×20 ft: عدد الأرصفة على الخطوة، وطبقة الرمل، وأساس الحصى وقيود الحواف — كميات محسوبة.",
-  "id": "/loona-construction-calculators/ar/materials-for-patio/",
+  "id": "/ar/materials-for-patio/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

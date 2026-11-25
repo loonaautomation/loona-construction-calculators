@@ -2,7 +2,7 @@
   "name": "Loona 11/12 Roof Pitch",
   "short_name": "11/12 Roof Pitch",
   "description": "Η κλίση στέγης 11/12 είναι 42.51 μοίρες (κλίση 92%). Συντελεστής δοκού 1.3566, μήκη δοκών για συνηθισμένες διαδρομές, υλικά και χρήσεις.",
-  "id": "/loona-construction-calculators/el/roof-pitch-11-12/",
+  "id": "/el/roof-pitch-11-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

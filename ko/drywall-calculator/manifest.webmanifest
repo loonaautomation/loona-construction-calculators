@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "무료 석고보드 계산기: 방 크기를 미터법이나 야드파운드법으로 입력하면 벽과 천장 면적, 구매할 1200 × 2400 mm 또는 4 × 8 ft 시트 수를 알려 줘요. 로스가 포함돼요.",
-  "id": "/loona-construction-calculators/ko/drywall-calculator/",
+  "id": "/ko/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

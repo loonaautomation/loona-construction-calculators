@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "מידות לבנים סטנדרטיות בבריטניה, ארצות הברית, הודו, פקיסטן, אוסטרליה, גרמניה ודרום אפריקה — מידות ולבנים למטר רבוע בהשוואה.",
-  "id": "/loona-construction-calculators/he/brick-sizes-by-country/",
+  "id": "/he/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

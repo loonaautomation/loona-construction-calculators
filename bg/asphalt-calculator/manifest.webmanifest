@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "Безплатен калкулатор за асфалт: въведете дължина, ширина и дебелина в метрични или имперски единици и получете теглото на асфалта за поръчка в тонове и американски тонове, с редактируема плътност (2,450 kg/m³ / 145 lb/ft³), резерв за отпадъци и незадължителна цена.",
-  "id": "/loona-construction-calculators/bg/asphalt-calculator/",
+  "id": "/bg/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

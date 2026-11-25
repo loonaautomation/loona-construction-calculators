@@ -1,7 +1,7 @@
 [
 {
 "n": "Boya Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/paint-calculator/",
+"u": "https://construction.loonaautomation.com/tr/paint-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Herhangi bir oda için litre ve galon; kapılar/pencereler çıkarılmış, astar dahil.",
 "k": "paint calculator paint calculator paint calculator calculator construction herhangi bir oda icin litre ve galon kapilar pencereler cikarilmis astar dahil",
@@ -10,7 +10,7 @@
 },
 {
 "n": "Fayans Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/tile-calculator/",
+"u": "https://construction.loonaautomation.com/tr/tile-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Zeminler ve duvarlar için fayanslar ve kutular, derz boşluğu sayılarak.",
 "k": "tile calculator tile calculator tile calculator calculator construction zeminler ve duvarlar icin fayanslar ve kutular derz boslugu sayilarak",
@@ -19,7 +19,7 @@
 },
 {
 "n": "Beton Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/concrete-calculator/",
+"u": "https://construction.loonaautomation.com/tr/concrete-calculator/",
 "s": "Loona Construction Calculators",
 "d": "m³ ve yd³ cinsinden plak hacmi artı hazır karışım torba sayısı.",
 "k": "concrete calculator concrete calculator concrete calculator calculator construction m3 ve yd3 cinsinden plak hacmi arti hazir karisim torba sayisi",
@@ -28,7 +28,7 @@
 },
 {
 "n": "Döşeme Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/flooring-calculator/",
+"u": "https://construction.loonaautomation.com/tr/flooring-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Kesim firesiyle laminat, vinil ve ahşap kutuları.",
 "k": "flooring calculator flooring calculator flooring calculator calculator construction kesim firesiyle laminat vinil ve ahsap kutulari",
@@ -37,7 +37,7 @@
 },
 {
 "n": "Alçıpan Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/drywall-calculator/",
+"u": "https://construction.loonaautomation.com/tr/drywall-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Duvarlar ve tavanlar için alçı levhalar / alçıpanlar.",
 "k": "drywall calculator drywall calculator drywall calculator calculator construction duvarlar ve tavanlar icin alci levhalar alcipanlar",
@@ -46,7 +46,7 @@
 },
 {
 "n": "Tuğla Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/brick-calculator/",
+"u": "https://construction.loonaautomation.com/tr/brick-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Standart metrik ve ABD tuğla boyutları için tuğla sayıları.",
 "k": "brick calculator brick calculator brick calculator calculator construction standart metrik ve abd tugla boyutlari icin tugla sayilari",
@@ -55,7 +55,7 @@
 },
 {
 "n": "Çakıl Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/gravel-calculator/",
+"u": "https://construction.loonaautomation.com/tr/gravel-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Araba yolları, yollar ve tabanlar için ton ve yarda küp.",
 "k": "gravel calculator gravel calculator gravel calculator calculator construction araba yollari yollar ve tabanlar icin ton ve yarda kup",
@@ -64,7 +64,7 @@
 },
 {
 "n": "Çatı Eğimi Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/roof-pitch-calculator/",
+"u": "https://construction.loonaautomation.com/tr/roof-pitch-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Eğim oranı, açı, yüzde ve mertek uzunluğu.",
 "k": "roof pitch calculator roof pitch calculator roof pitch calculator calculator construction egim orani aci yuzde ve mertek uzunlugu",
@@ -73,7 +73,7 @@
 },
 {
 "n": "Merdiven Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/stairs-calculator/",
+"u": "https://construction.loonaautomation.com/tr/stairs-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Basamaklar, rıht yüksekliği, basamak, mesafe ve limonluk uzunluğu.",
 "k": "stairs calculator stairs calculator stairs calculator calculator construction basamaklar riht yuksekligi basamak mesafe ve limonluk uzunlugu",
@@ -82,7 +82,7 @@
 },
 {
 "n": "Board Foot Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/board-foot-calculator/",
+"u": "https://construction.loonaautomation.com/tr/board-foot-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Board feet ve metreküp cinsinden kereste hacmi.",
 "k": "board foot calculator board foot calculator board foot calculator calculator construction board feet ve metrekup cinsinden kereste hacmi",
@@ -91,7 +91,7 @@
 },
 {
 "n": "Duvar Kağıdı Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/wallpaper-calculator/",
+"u": "https://construction.loonaautomation.com/tr/wallpaper-calculator/",
 "s": "Loona Construction Calculators",
 "d": "AB ve ABD ruloları için rulolar, desen tekrarı hesaba katılarak.",
 "k": "wallpaper calculator wallpaper calculator wallpaper calculator calculator construction ab ve abd rulolari icin rulolar desen tekrari hesaba katilarak",
@@ -100,7 +100,7 @@
 },
 {
 "n": "Malç Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/mulch-calculator/",
+"u": "https://construction.loonaautomation.com/tr/mulch-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Tarhlar ve bordürler için torbalar ve dökme hacim.",
 "k": "mulch calculator mulch calculator mulch calculator calculator construction tarhlar ve bordurler icin torbalar ve dokme hacim",
@@ -109,7 +109,7 @@
 },
 {
 "n": "Asfalt Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/asphalt-calculator/",
+"u": "https://construction.loonaautomation.com/tr/asphalt-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Alandan ve kalınlıktan ton ve ABD tonu, düzenlenebilir yoğunluk, maliyet tahmini.",
 "k": "asphalt calculator asphalt calculator asphalt calculator calculator construction alandan ve kalinliktan ton ve abd tonu duzenlenebilir yogunluk maliyet tahmini",
@@ -118,7 +118,7 @@
 },
 {
 "n": "Yalıtım Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/insulation-calculator/",
+"u": "https://construction.loonaautomation.com/tr/insulation-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Hedef R değeriniz / RSI için levhalar, rulolar veya üflemeli torbalar, kalınlık kılavuzu.",
 "k": "insulation calculator insulation calculator insulation calculator calculator construction hedef r degeriniz rsi icin levhalar rulolar veya uflemeli torbalar kalinlik kilavuzu",
@@ -127,7 +127,7 @@
 },
 {
 "n": "Çit Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/fence-calculator/",
+"u": "https://construction.loonaautomation.com/tr/fence-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Çit uzunluğu ve aralığından direkler, raylar, kazıklar ve beton torbaları.",
 "k": "fence calculator fence calculator fence calculator calculator construction cit uzunlugu ve araligindan direkler raylar kaziklar ve beton torbalari",
@@ -136,7 +136,7 @@
 },
 {
 "n": "Teras Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/deck-calculator/",
+"u": "https://construction.loonaautomation.com/tr/deck-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Teras boyutu, tahta genişliği ve kiriş aralığından teras tahtaları, kirişler ve vidalar.",
 "k": "deck calculator deck calculator deck calculator calculator construction teras boyutu tahta genisligi ve kiris araligindan teras tahtalari kirisler ve vidalar",
@@ -145,7 +145,7 @@
 },
 {
 "n": "Havuz Hacmi Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/pool-volume-calculator/",
+"u": "https://construction.loonaautomation.com/tr/pool-volume-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Dikdörtgen, yuvarlak ve oval havuzlar için litre ve ABD galonu — dozlamaya hazır.",
 "k": "pool volume calculator pool volume calculator pool volume calculator calculator construction dikdortgen yuvarlak ve oval havuzlar icin litre ve abd galonu dozlamaya hazir",
@@ -154,7 +154,7 @@
 },
 {
 "n": "Güneş Paneli Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/solar-panel-calculator/",
+"u": "https://construction.loonaautomation.com/tr/solar-panel-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Faturanızdan gereken paneller, sistem kW'si, beklenen üretim ve çatı alanı.",
 "k": "solar panel calculator solar panel calculator solar panel calculator calculator construction faturanizdan gereken paneller sistem kw si beklenen uretim ve cati alani",
@@ -163,7 +163,7 @@
 },
 {
 "n": "Halı Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/carpet-calculator/",
+"u": "https://construction.loonaautomation.com/tr/carpet-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Oda boyutu ve rulo genişliğinden doğrusal uzunluk ve gerçek satın alma alanı.",
 "k": "carpet calculator carpet calculator carpet calculator calculator construction oda boyutu ve rulo genisliginden dogrusal uzunluk ve gercek satin alma alani",
@@ -172,7 +172,7 @@
 },
 {
 "n": "Kontrplak Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/plywood-calculator/",
+"u": "https://construction.loonaautomation.com/tr/plywood-calculator/",
 "s": "Loona Construction Calculators",
 "d": "2440×1220 mm ve 4×8 ft levhalar için alana ve yerleşime göre levhalar.",
 "k": "plywood calculator plywood calculator plywood calculator calculator construction 2440 1220 mm ve 4 8 ft levhalar icin alana ve yerlesime gore levhalar",
@@ -181,7 +181,7 @@
 },
 {
 "n": "Kum Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/sand-calculator/",
+"u": "https://construction.loonaautomation.com/tr/sand-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Kum havuzları, kaplama tabanları ve şaplar için ton ve 25 kg torbalar.",
 "k": "sand calculator sand calculator sand calculator calculator construction kum havuzlari kaplama tabanlari ve saplar icin ton ve 25 kg torbalar",
@@ -190,7 +190,7 @@
 },
 {
 "n": "Ohm Kanunu Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/ohms-law-calculator/",
+"u": "https://construction.loonaautomation.com/tr/ohms-law-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Herhangi iki değerden voltaj, akım, direnç ve güç — tam Ohm kanunu çarkı.",
 "k": "ohm's law calculator ohm's law calculator ohm's law calculator calculator construction herhangi iki degerden voltaj akim direnc ve guc tam ohm kanunu carki",
@@ -199,7 +199,7 @@
 },
 {
 "n": "Voltaj Düşümü Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/voltage-drop-calculator/",
+"u": "https://construction.loonaautomation.com/tr/voltage-drop-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Bir kablo hattı üzerinde düşen volt ve %, mm² veya AWG, tek ve üç faz.",
 "k": "voltage drop calculator voltage drop calculator voltage drop calculator calculator construction bir kablo hatti uzerinde dusen volt ve mm2 veya awg tek ve uc faz",
@@ -208,7 +208,7 @@
 },
 {
 "n": "Kablo Kesiti Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/wire-size-calculator/",
+"u": "https://construction.loonaautomation.com/tr/wire-size-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Düşüm sınırınızdan minimum kablo boyutu + standart boyut ve AWG.",
 "k": "wire size calculator wire size calculator wire size calculator calculator construction dusum sinirinizdan minimum kablo boyutu standart boyut ve awg",
@@ -217,7 +217,7 @@
 },
 {
 "n": "Elektrik Maliyeti Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/electricity-cost-calculator/",
+"u": "https://construction.loonaautomation.com/tr/electricity-cost-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Bir cihazın watt ve kWh başına fiyattan gün, ay ve yıl başına maliyeti.",
 "k": "electricity cost calculator electricity cost calculator electricity cost calculator calculator construction bir cihazin watt ve kwh basina fiyattan gun ay ve yil basina maliyeti",
@@ -226,7 +226,7 @@
 },
 {
 "n": "Amper - Watt Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/amps-to-watts-calculator/",
+"u": "https://construction.loonaautomation.com/tr/amps-to-watts-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Amper ve volttan Watt ve kW — DC, tek faz ve üç faz, güç faktörü ile.",
 "k": "amps to watts calculator amps to watts calculator amps to watts calculator calculator construction amper ve volttan watt ve kw dc tek faz ve uc faz guc faktoru ile",
@@ -235,7 +235,7 @@
 },
 {
 "n": "Watt - Amper Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/watts-to-amps-calculator/",
+"u": "https://construction.loonaautomation.com/tr/watts-to-amps-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Sigorta ve kablo kontrolleri için watt ve volttan amper — DC, tek faz ve üç faz.",
 "k": "watts to amps calculator watts to amps calculator watts to amps calculator calculator construction sigorta ve kablo kontrolleri icin watt ve volttan amper dc tek faz ve uc faz",
@@ -244,7 +244,7 @@
 },
 {
 "n": "kVA - Amper Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/kva-to-amps-calculator/",
+"u": "https://construction.loonaautomation.com/tr/kva-to-amps-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Jeneratör ve transformatör kVA'sından tam yük amperine ve amperden tekrar kVA'ya, tek ve üç faz.",
 "k": "kva to amps calculator kva to amps calculator kva to amps calculator calculator construction jenerator ve transformator kva sindan tam yuk amperine ve amperden tekrar kva ya tek ve uc faz",
@@ -253,7 +253,7 @@
 },
 {
 "n": "Güç Faktörü Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/power-factor-calculator/",
+"u": "https://construction.loonaautomation.com/tr/power-factor-calculator/",
 "s": "Loona Construction Calculators",
 "d": "kW ve kVA'dan güç faktörü, kvar ve faz açısı, artı düzeltme kapasitörü boyutu.",
 "k": "power factor calculator power factor calculator power factor calculator calculator construction kw ve kva dan guc faktoru kvar ve faz acisi arti duzeltme kapasitoru boyutu",
@@ -262,7 +262,7 @@
 },
 {
 "n": "Pil Çalışma Süresi Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/battery-runtime-calculator/",
+"u": "https://construction.loonaautomation.com/tr/battery-runtime-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Bir pilin bir yükü ne kadar çalıştırdığı — Ah, kullanılabilir Wh, deşarj derinliği ve invertör kayıpları sayılarak.",
 "k": "battery runtime calculator battery runtime calculator battery runtime calculator calculator construction bir pilin bir yuku ne kadar calistirdigi ah kullanilabilir wh desarj derinligi ve invertor kayiplari sayilarak",
@@ -271,7 +271,7 @@
 },
 {
 "n": "LED Direnç Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/led-resistor-calculator/",
+"u": "https://construction.loonaautomation.com/tr/led-resistor-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Ohm cinsinden seri direnç, en yakın standart E12 değeri, gerçek akım ve güç.",
 "k": "led resistor calculator led resistor calculator led resistor calculator calculator construction ohm cinsinden seri direnc en yakin standart e12 degeri gercek akim ve guc",
@@ -280,7 +280,7 @@
 },
 {
 "n": "Üç Fazlı Güç Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/three-phase-power-calculator/",
+"u": "https://construction.loonaautomation.com/tr/three-phase-power-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Dengeli yükler için hat voltajı, hat akımı ve güç faktöründen kW, kVA ve kvar.",
 "k": "three-phase power calculator three-phase power calculator three-phase power calculator calculator construction dengeli yukler icin hat voltaji hat akimi ve guc faktorunden kw kva ve kvar",
@@ -289,7 +289,7 @@
 },
 {
 "n": "Motor Akımı Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/motor-current-calculator/",
+"u": "https://construction.loonaautomation.com/tr/motor-current-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Motor kW veya hp'sinden, verimlilikten ve güç faktöründen tahmini tam yük amperi.",
 "k": "motor current calculator motor current calculator motor current calculator calculator construction motor kw veya hp sinden verimlilikten ve guc faktorunden tahmini tam yuk amperi",
@@ -298,7 +298,7 @@
 },
 {
 "n": "Direnç Renk Kodu Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/resistor-colour-code-calculator/",
+"u": "https://construction.loonaautomation.com/tr/resistor-colour-code-calculator/",
 "s": "Loona Construction Calculators",
 "d": "4, 5 ve 6 bantlı direnç renklerini ohm ve toleransa okuyun — veya bir değeri tekrar bantlara çevirin.",
 "k": "resistor colour code calculator resistor colour code calculator resistor colour code calculator calculator construction 4 5 ve 6 bantli direnc renklerini ohm ve toleransa okuyun veya bir degeri tekrar bantlara cevirin",
@@ -307,7 +307,7 @@
 },
 {
 "n": "555 Zamanlayıcı Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/555-timer-calculator/",
+"u": "https://construction.loonaautomation.com/tr/555-timer-calculator/",
 "s": "Loona Construction Calculators",
 "d": "R ve C'den kararsız (astable) frekans ve görev döngüsü ile monostable darbe genişliği.",
 "k": "555 timer calculator 555 timer calculator 555 timer calculator calculator construction r ve c den kararsiz astable frekans ve gorev dongusu ile monostable darbe genisligi",
@@ -316,7 +316,7 @@
 },
 {
 "n": "AWG Dönüştürücü",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/awg-converter/",
+"u": "https://construction.loonaautomation.com/tr/awg-converter/",
 "s": "Loona Construction Calculators",
 "d": "Bakır ve alüminyum için AWG’den mm, mm² ve km başına dirence — ve mm² veya çaptan geriye.",
 "k": "awg converter awg converter awg converter calculator construction bakir ve aluminyum icin awg den mm mm2 ve km basina dirence ve mm2 veya captan geriye",
@@ -325,7 +325,7 @@
 },
 {
 "n": "Reaktans Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/reactance-calculator/",
+"u": "https://construction.loonaautomation.com/tr/reactance-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Ohm cinsinden kapasitif ve endüktif reaktans, artı LC rezonans frekansı.",
 "k": "reactance calculator reactance calculator reactance calculator calculator construction ohm cinsinden kapasitif ve enduktif reaktans arti lc rezonans frekansi",
@@ -334,7 +334,7 @@
 },
 {
 "n": "dB Dönüştürücü",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/db-converter/",
+"u": "https://construction.loonaautomation.com/tr/db-converter/",
 "s": "Loona Construction Calculators",
 "d": "Güç ve voltaj oranlarından desibele, dBm'den miliwatt ve watta ve geriye.",
 "k": "db converter db converter db converter calculator construction guc ve voltaj oranlarindan desibele dbm den miliwatt ve watta ve geriye",
@@ -343,7 +343,7 @@
 },
 {
 "n": "Metrekare Hesaplayıcısı",
-"u": "https://loonaautomation.github.io/loona-construction-calculators/tr/square-footage-calculator/",
+"u": "https://construction.loonaautomation.com/tr/square-footage-calculator/",
 "s": "Loona Construction Calculators",
 "d": "Bir veya birçok oda için sq ft, sq m, sq yd & acre cinsinden toplam alan, maliyet tahmini ile.",
 "k": "metrekare hesaplayıcısı metrekare hesaplayıcısı metrekare hesaplayıcısı calculator construction bir veya birçok oda için sq ft, sq m, sq yd & acre cinsinden toplam alan, maliyet tahmini ile.",

@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Standardne veličine opeke u UK-u, SAD-u, Indiji, Pakistanu, Australiji, Njemačkoj i Južnoj Africi — dimenzije i opeke po četvornom metru uspoređene.",
-  "id": "/loona-construction-calculators/hr/brick-sizes-by-country/",
+  "id": "/hr/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

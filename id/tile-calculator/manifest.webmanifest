@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Kalkulator keramik gratis: ukuran lantai atau dinding, ukuran keramik, dan celah nat dalam metrik atau imperial — dapatkan jumlah tepat keramik dan kotak yang harus dibeli, termasuk cadangan limbah untuk pemotongan dan kerusakan.",
-  "id": "/loona-construction-calculators/id/tile-calculator/",
+  "id": "/id/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

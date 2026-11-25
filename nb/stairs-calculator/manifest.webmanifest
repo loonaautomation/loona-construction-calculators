@@ -2,7 +2,7 @@
   "name": "Loona Stairs Calculator",
   "short_name": "Stairs Calculator",
   "description": "Gratis trappekalkulator: skriv inn den totale stigningen i metrisk eller imperiell — få antall trinn, nøyaktig opptrinnshøyde, total lengde og vangelengde, med 2R + T-komfortregelen kontrollert automatisk.",
-  "id": "/loona-construction-calculators/nb/stairs-calculator/",
+  "id": "/nb/stairs-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

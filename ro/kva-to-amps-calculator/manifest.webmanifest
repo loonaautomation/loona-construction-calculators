@@ -2,7 +2,7 @@
   "name": "Loona kVA to Amps Calculator",
   "short_name": "kVA to Amps Calculator",
   "description": "Calculator gratuit kVA în amperi pentru alimentări monofazate și trifazate — și invers, amperi în kVA. Dimensionați curenții de generator, transformator și alimentare din kVA și tensiune.",
-  "id": "/loona-construction-calculators/ro/kva-to-amps-calculator/",
+  "id": "/ro/kva-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "Bezplatná kalkulačka asfaltu: zadejte délku, šířku a tloušťku v metrických nebo imperiálních jednotkách a získáte hmotnost asfaltu k objednání v tunách a amerických tunách, s upravitelnou hustotou (2,450 kg/m³ / 145 lb/ft³), přídavkem na odpad a volitelnou cenou.",
-  "id": "/loona-construction-calculators/cs/asphalt-calculator/",
+  "id": "/cs/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

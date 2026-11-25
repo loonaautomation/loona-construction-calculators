@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Free wallpaper calculator: room size in metric or imperial, European or US double rolls, pattern repeat allowed for — get the exact number of wallpaper rolls to buy, waste included.",
-  "id": "/loona-construction-calculators/en-gb/wallpaper-calculator/",
+  "id": "/en-gb/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

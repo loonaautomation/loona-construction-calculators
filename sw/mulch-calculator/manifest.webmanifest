@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Kikokotoo cha bure cha matandazo: eneo la kitanda na kina katika metriki au imperial — pata kiasi cha matandazo, idadi ya mifuko ya lita 40/50 au futi za ujazo 2/3, na mita za ujazo na yadi za wingi.",
-  "id": "/loona-construction-calculators/sw/mulch-calculator/",
+  "id": "/sw/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

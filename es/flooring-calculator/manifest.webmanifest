@@ -2,7 +2,7 @@
   "name": "Loona Flooring Calculator",
   "short_name": "Flooring Calculator",
   "description": "Calculadora gratuita de suelos: tamaño de la habitación y cobertura por caja en métrico o imperial — obtén el número de cajas de laminado, vinilo o madera de ingeniería a comprar, incluido el margen de desperdicio de corte.",
-  "id": "/loona-construction-calculators/es/flooring-calculator/",
+  "id": "/es/flooring-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

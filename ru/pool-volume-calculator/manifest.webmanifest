@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "Бесплатный калькулятор объёма бассейна для прямоугольных, круглых и овальных бассейнов: введите размер и глубину в мелкой и глубокой частях в метрической или имперской системе — и получите объём воды в литрах и американских галлонах для дозирования химии и наполнения.",
-  "id": "/loona-construction-calculators/ru/pool-volume-calculator/",
+  "id": "/ru/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

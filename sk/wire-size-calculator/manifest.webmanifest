@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Bezplatná kalkulačka veľkosti vodiča: prúd, jednosmerná dĺžka, povolený % úbytok napätia, napätie, meď alebo hliník, jednofázové alebo trojfázové zapojenie — minimálna veľkosť kábla v mm², najbližšia štandardná veľkosť a ekvivalent AWG.",
-  "id": "/loona-construction-calculators/sk/wire-size-calculator/",
+  "id": "/sk/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

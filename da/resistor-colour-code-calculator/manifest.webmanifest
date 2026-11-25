@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "Gratis modstandsfarvekodeberegner: vælg båndfarverne på en 4-bånds-, 5-bånds- eller 6-båndsmodstand for at få modstand, tolerance og temperaturkoefficient — eller vend den om, værdi til bånd.",
-  "id": "/loona-construction-calculators/da/resistor-colour-code-calculator/",
+  "id": "/da/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

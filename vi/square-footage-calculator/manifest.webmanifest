@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "Máy tính diện tích feet vuông miễn phí: thêm các phòng hình chữ nhật, hình tròn, hình tam giác và hình chữ L, theo feet và inch hoặc mét, và nhận tổng diện tích theo feet vuông, mét vuông, yard vuông và mẫu Anh (acre) — kèm ước tính chi phí tùy chọn.",
-  "id": "/loona-construction-calculators/vi/square-footage-calculator/",
+  "id": "/vi/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

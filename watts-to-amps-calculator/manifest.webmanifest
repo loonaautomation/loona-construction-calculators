@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "Free watts to amps calculator for DC, AC single-phase and AC three-phase: power, voltage and power factor give the current in amps — the first step to sizing a breaker or cable.",
-  "id": "/loona-construction-calculators/watts-to-amps-calculator/",
+  "id": "/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Kostenloser Mulch-Rechner: Beetfläche und -tiefe in metrisch oder imperial — erhalten Sie Mulchvolumen, die Anzahl der 40/50-Liter- oder 2/3-Kubikfuß-Säcke sowie Schüttkubikmeter und -yards.",
-  "id": "/loona-construction-calculators/de/mulch-calculator/",
+  "id": "/de/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

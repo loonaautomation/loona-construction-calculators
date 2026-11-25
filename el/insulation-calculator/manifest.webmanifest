@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "Δωρεάν υπολογιστής μόνωσης: εισαγάγετε την επιφάνεια και το R-value στόχο σας (ή μετρικό RSI) και λάβετε τα πακέτα πλακών/ρολών ή σακιά εμφυσημένης μόνωσης προς αγορά, συν το πάχος που χρειάζεται ο στόχος σας — μετρικό και αυτοκρατορικό.",
-  "id": "/loona-construction-calculators/el/insulation-calculator/",
+  "id": "/el/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

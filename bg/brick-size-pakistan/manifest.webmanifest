@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Pakistan",
   "short_name": "Brick Size in Pakistan",
   "description": "Стандартен размер тухла в Пакистан: 228 × 107 × 69 mm. 53.2 тухли на m² (4.94 на квадратен фут) еднослойна стена с фуги от хоросан 10 mm, покритие на 1,000 тухли и разработен пример за стена.",
-  "id": "/loona-construction-calculators/bg/brick-size-pakistan/",
+  "id": "/bg/brick-size-pakistan/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

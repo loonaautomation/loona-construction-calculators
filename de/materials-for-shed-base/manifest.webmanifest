@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 10 × 12 ft Shed Base",
   "short_name": "Materials for a 10 × 12 ft",
   "description": "Materialien für ein 10 × 12 ft Schuppenfundament: exaktes Betonvolumen und Sackanzahlen der Fertigmischung (4-Zoll-Platte, 10% extra) plus Einkaufsnotizen für Basis und Bewehrung.",
-  "id": "/loona-construction-calculators/de/materials-for-shed-base/",
+  "id": "/de/materials-for-shed-base/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

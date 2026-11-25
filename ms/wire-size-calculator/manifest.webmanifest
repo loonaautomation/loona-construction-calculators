@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Kalkulator saiz wayar percuma: arus, panjang sehala, % susutan voltan yang dibenarkan, voltan, kuprum atau aluminium, satu atau tiga fasa — saiz kabel minimum dalam mm², saiz piawai terdekat dan kesetaraan AWG.",
-  "id": "/loona-construction-calculators/ms/wire-size-calculator/",
+  "id": "/ms/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

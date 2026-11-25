@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "حاسبة قانون أوم مجانية: أدخل أي اثنين من الجهد والتيار والمقاومة والقدرة واحصل على الاثنين الآخرين — كل أرباع عجلة قانون أوم الأربعة، مع صيغ ومثال محلول.",
-  "id": "/loona-construction-calculators/ar/ohms-law-calculator/",
+  "id": "/ar/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

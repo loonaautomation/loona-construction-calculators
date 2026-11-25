@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Kalkulator drywall dan papan gipsum gratis: ukuran ruangan dalam metrik atau imperial — dapatkan luas dinding dan langit-langit serta jumlah lembaran 1200 × 2400 mm atau 4 × 8 ft yang harus dibeli, termasuk limbah.",
-  "id": "/loona-construction-calculators/id/drywall-calculator/",
+  "id": "/id/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

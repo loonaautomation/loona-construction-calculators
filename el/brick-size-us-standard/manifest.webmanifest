@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Standard)",
   "short_name": "Brick Size in United States",
   "description": "Τυπικό μέγεθος τούβλου στις Ηνωμένες Πολιτείες (Standard): 203 × 92 × 57 mm. 70.8 τούβλα ανά m² (6.57 ανά sq ft) τοίχου μονής τοιχοποιίας με αρμούς κονιάματος 9.5 mm, κάλυψη ανά 1,000 τούβλα και ένα λυμένο παράδειγμα τοίχου.",
-  "id": "/loona-construction-calculators/el/brick-size-us-standard/",
+  "id": "/el/brick-size-us-standard/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

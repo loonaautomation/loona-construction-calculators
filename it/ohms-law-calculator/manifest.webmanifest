@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "Calcolatore gratuito della legge di Ohm: inserisci due qualsiasi di tensione, corrente, resistenza e potenza e ottieni gli altri due — tutti e quattro i quadranti della ruota della legge di Ohm, con formule e un esempio risolto.",
-  "id": "/loona-construction-calculators/it/ohms-law-calculator/",
+  "id": "/it/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

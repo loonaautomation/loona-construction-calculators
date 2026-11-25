@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Free fence calculator: fence length and post spacing in metric or imperial give you posts, rails, pickets (from picket width and gap) and concrete bags — with a waste allowance for pickets.",
-  "id": "/loona-construction-calculators/fence-calculator/",
+  "id": "/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "เครื่องคำนวณพื้นไม้ภายนอกฟรี: ขนาดพื้นและความกว้างแผ่นเป็นเมตริกหรืออิมพีเรียล ให้จำนวนไม้พื้นที่ต้องซื้อ ความยาวไม้กระดานรวม ตง และค่าประมาณสกรู — พร้อมช่องว่างแผ่น ระยะห่างตง และค่าเผื่อเศษ",
-  "id": "/loona-construction-calculators/th/deck-calculator/",
+  "id": "/th/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

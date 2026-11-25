@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "Δωρεάν υπολογιστής νόμου του Ohm: εισαγάγετε οποιαδήποτε δύο από τάση, ρεύμα, αντίσταση και ισχύ και λάβετε τα άλλα δύο — και τα τέσσερα τεταρτημόρια του τροχού του νόμου του Ohm, με τύπους και επεξεργασμένο παράδειγμα.",
-  "id": "/loona-construction-calculators/el/ohms-law-calculator/",
+  "id": "/el/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

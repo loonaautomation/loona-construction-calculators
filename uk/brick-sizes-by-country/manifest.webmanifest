@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Стандартні розміри цегли у Великобританії, США, Індії, Пакистані, Австралії, Німеччині й Південній Африці — порівняння розмірів і кількості цегли на квадратний метр.",
-  "id": "/loona-construction-calculators/uk/brick-sizes-by-country/",
+  "id": "/uk/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

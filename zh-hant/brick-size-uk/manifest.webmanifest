@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United Kingdom",
   "short_name": "Brick Size in United Kingdom",
   "description": "英國的標準磚尺寸：215 × 102.5 × 65 mm。帶 10 mm 砂漿縫的單層牆每平方米 59.3 塊（每平方英尺 5.51 塊），含每 1,000 塊磚的覆蓋面積和一個牆體計算示例。",
-  "id": "/loona-construction-calculators/zh-hant/brick-size-uk/",
+  "id": "/zh-hant/brick-size-uk/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

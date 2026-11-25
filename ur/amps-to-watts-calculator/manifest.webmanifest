@@ -2,7 +2,7 @@
   "name": "Loona Amps to Watts Calculator",
   "short_name": "Amps to Watts Calculator",
   "description": "DC، AC سنگل فیز اور AC تھری فیز کے لیے مفت ایمپیئر سے واٹ کیلکولیٹر: کرنٹ، وولٹیج اور پاور فیکٹر واٹ، کلو واٹ اور kVA دیتے ہیں — فارمولوں اور حل شدہ مثال کے ساتھ۔",
-  "id": "/loona-construction-calculators/ur/amps-to-watts-calculator/",
+  "id": "/ur/amps-to-watts-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "無料の電圧降下計算機：ケーブルの片道長さ、電流、銅またはアルミニウム、mm² または AWG でのケーブルサイズ、単相または三相 — 降下した電圧と % 降下を、3%/5% の指針付きで。",
-  "id": "/loona-construction-calculators/ja/voltage-drop-calculator/",
+  "id": "/ja/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

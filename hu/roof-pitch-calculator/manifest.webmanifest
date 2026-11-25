@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Calculator",
   "short_name": "Roof Pitch Calculator",
   "description": "Ingyenes tetőhajlás-kalkulátor: adja meg az emelkedést és a fesztávot bármilyen egységben — megkapja a hajlást arányként (x-a-12-ből), a szöget fokban, a százalékos lejtést és a szarufahosszt. Metrikus és angolszász mérésekkel is működik.",
-  "id": "/loona-construction-calculators/hu/roof-pitch-calculator/",
+  "id": "/hu/roof-pitch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

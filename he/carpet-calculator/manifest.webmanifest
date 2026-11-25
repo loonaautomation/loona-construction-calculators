@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "מחשבון שטיחים חינמי: מידת חדר ורוחב גליל שטיח במטרי או באימפריאלי נותנים לכם את האורך הלינארי והשטח של שטיח לקנות בפועל (שאריות גליל כלולות), בתוספת עלות אופציונלית — עם תוספת פחת.",
-  "id": "/loona-construction-calculators/he/carpet-calculator/",
+  "id": "/he/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

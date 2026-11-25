@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in India",
   "short_name": "Brick Size in India",
   "description": "Standardowy rozmiar cegły w Indiach: 190 × 90 × 90 mm. 50.0 cegieł na m² (4.65 na sq ft) ściany jednowarstwowej przy fugach zaprawy 10 mm, pokrycie na 1,000 cegieł i przykład obliczeniowy ściany.",
-  "id": "/loona-construction-calculators/pl/brick-size-india/",
+  "id": "/pl/brick-size-india/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

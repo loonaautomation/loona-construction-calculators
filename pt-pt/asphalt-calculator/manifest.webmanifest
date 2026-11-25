@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "Calculadora de asfalto gratuita: introduza o comprimento, a largura e a espessura em métrico ou imperial e obtenha o peso de asfalto a encomendar em toneladas e toneladas americanas, com densidade editável (2,450 kg/m³ / 145 lb/ft³), margem de desperdício e custo opcional.",
-  "id": "/loona-construction-calculators/pt-pt/asphalt-calculator/",
+  "id": "/pt-pt/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Standard mursteinstørrelser i Storbritannia, USA, India, Pakistan, Australia, Tyskland og Sør-Afrika — mål og murstein per kvadratmeter sammenlignet.",
-  "id": "/loona-construction-calculators/nb/brick-sizes-by-country/",
+  "id": "/nb/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

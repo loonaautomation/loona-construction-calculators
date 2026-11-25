@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "Kalkulator asfalt percuma: masukkan panjang, lebar dan ketebalan dalam metrik atau imperial dan dapatkan berat asfalt untuk ditempah dalam tan dan tan US, dengan ketumpatan yang boleh disunting (2,450 kg/m³ / 145 lb/ft³), elaun pembaziran dan kos pilihan.",
-  "id": "/loona-construction-calculators/ms/asphalt-calculator/",
+  "id": "/ms/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

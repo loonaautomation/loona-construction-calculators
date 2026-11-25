@@ -2,7 +2,7 @@
   "name": "Loona 12/12 Roof Pitch",
   "short_name": "12/12 Roof Pitch",
   "description": "O pantă de acoperiș 12/12 are 45.00 grade (pantă de 100%). Multiplicator de căprior 1.4142, lungimi de căprior pentru deschideri comune, materiale și utilizări.",
-  "id": "/loona-construction-calculators/ro/roof-pitch-12-12/",
+  "id": "/ro/roof-pitch-12-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

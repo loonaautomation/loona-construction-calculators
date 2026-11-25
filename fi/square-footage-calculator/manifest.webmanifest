@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "Ilmainen neliömetrilaskuri: lisää huoneita suorakulmio-, ympyrä-, kolmio- ja L-muodoissa, jalkoina ja tuumina tai metreinä, ja saat kokonaispinta-alan yksiköissä sq ft, sq m, sq yd ja acres — valinnaisella kustannusarviolla.",
-  "id": "/loona-construction-calculators/fi/square-footage-calculator/",
+  "id": "/fi/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

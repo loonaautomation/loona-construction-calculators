@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "पूरा छत ढलान चार्ट: 1/12 से 12/12 कोणों, ग्रेड और राफ्टर गुणकों के साथ, प्रत्येक ढलान का अपना मार्गदर्शक पेज।",
-  "id": "/loona-construction-calculators/hi/roof-pitch-chart/",
+  "id": "/hi/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "מחשבון היגב חינמי: תדר עם קיבול (µF) נותן היגב קיבולי Xc, עם השראות (mH) נותן היגב השראי Xl — הזינו את שניהם להיגב נטו ולתדר תהודה LC.",
-  "id": "/loona-construction-calculators/he/reactance-calculator/",
+  "id": "/he/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

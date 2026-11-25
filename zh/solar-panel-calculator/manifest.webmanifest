@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "免费太阳能板计算器：每月用电量、峰值日照时数和电池板功率给您所需的电池板数量、以 kW 计的系统规模、预计月发电量和屋顶面积 — 无需注册。",
-  "id": "/loona-construction-calculators/zh/solar-panel-calculator/",
+  "id": "/zh/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

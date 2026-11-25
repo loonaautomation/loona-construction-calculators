@@ -1,7 +1,7 @@
 [
  {
   "n": "حاسبة الطلاء",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/paint-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/paint-calculator/",
   "s": "Loona Construction Calculators",
   "d": "اللترات والغالونات لأي غرفة، الأبواب/النوافذ مطروحة، الأساس مشمول.",
   "k": "paint calculator paint calculator paint calculator calculator construction",
@@ -10,7 +10,7 @@
  },
  {
   "n": "حاسبة البلاط",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/tile-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/tile-calculator/",
   "s": "Loona Construction Calculators",
   "d": "البلاط والعلب للأرضيات والجدران، فاصل الجص محسوب.",
   "k": "tile calculator tile calculator tile calculator calculator construction",
@@ -19,7 +19,7 @@
  },
  {
   "n": "حاسبة الخرسانة",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/concrete-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/concrete-calculator/",
   "s": "Loona Construction Calculators",
   "d": "حجم البلاطة بـ m³ وyd³ زائد عدد أكياس الخلط الجاهز.",
   "k": "concrete calculator concrete calculator concrete calculator calculator construction",
@@ -28,7 +28,7 @@
  },
  {
   "n": "حاسبة الأرضيات",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/flooring-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/flooring-calculator/",
   "s": "Loona Construction Calculators",
   "d": "علب اللامينيت والفينيل والخشب مع فاقد القص.",
   "k": "flooring calculator flooring calculator flooring calculator calculator construction",
@@ -37,7 +37,7 @@
  },
  {
   "n": "حاسبة ألواح الجبس",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/drywall-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/drywall-calculator/",
   "s": "Loona Construction Calculators",
   "d": "ألواح الجبس / ألواح الحوائط الجافة للجدران والأسقف.",
   "k": "drywall calculator drywall calculator drywall calculator calculator construction",
@@ -46,7 +46,7 @@
  },
  {
   "n": "حاسبة الطوب",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/brick-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/brick-calculator/",
   "s": "Loona Construction Calculators",
   "d": "أعداد الطوب لمقاسات الطوب المترية القياسية والأمريكية.",
   "k": "brick calculator brick calculator brick calculator calculator construction",
@@ -55,7 +55,7 @@
  },
  {
   "n": "حاسبة الحصى",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/gravel-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/gravel-calculator/",
   "s": "Loona Construction Calculators",
   "d": "الأطنان والياردات المكعبة للممرات والمسارات والقواعد.",
   "k": "gravel calculator gravel calculator gravel calculator calculator construction",
@@ -64,7 +64,7 @@
  },
  {
   "n": "حاسبة ميل السقف",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/roof-pitch-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/roof-pitch-calculator/",
   "s": "Loona Construction Calculators",
   "d": "نسبة الميل والزاوية والانحدار وطول العارضة.",
   "k": "roof pitch calculator roof pitch calculator roof pitch calculator calculator construction",
@@ -73,7 +73,7 @@
  },
  {
   "n": "حاسبة الدرج",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/stairs-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/stairs-calculator/",
   "s": "Loona Construction Calculators",
   "d": "الدرجات وارتفاع القائمة والمداس والمسار وطول العارضة الجانبية.",
   "k": "stairs calculator stairs calculator stairs calculator calculator construction",
@@ -82,7 +82,7 @@
  },
  {
   "n": "حاسبة القدم اللوحي",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/board-foot-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/board-foot-calculator/",
   "s": "Loona Construction Calculators",
   "d": "حجم الأخشاب بالأقدام اللوحية والأمتار المكعبة.",
   "k": "board foot calculator board foot calculator board foot calculator calculator construction",
@@ -91,7 +91,7 @@
  },
  {
   "n": "حاسبة ورق الجدران",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/wallpaper-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/wallpaper-calculator/",
   "s": "Loona Construction Calculators",
   "d": "اللفات للفات الاتحاد الأوروبي والولايات المتحدة، تكرار النقشة محسوب.",
   "k": "wallpaper calculator wallpaper calculator wallpaper calculator calculator construction",
@@ -100,7 +100,7 @@
  },
  {
   "n": "حاسبة النشارة",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/mulch-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/mulch-calculator/",
   "s": "Loona Construction Calculators",
   "d": "الأكياس والحجم السائب للأحواض والحدود.",
   "k": "mulch calculator mulch calculator mulch calculator calculator construction",
@@ -109,7 +109,7 @@
  },
  {
   "n": "حاسبة الأسفلت",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/asphalt-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/asphalt-calculator/",
   "s": "Loona Construction Calculators",
   "d": "الأطنان والأطنان الأمريكية من المساحة والسُمك، كثافة قابلة للتعديل، تقدير تكلفة.",
   "k": "asphalt calculator asphalt calculator asphalt calculator calculator construction",
@@ -118,7 +118,7 @@
  },
  {
   "n": "حاسبة العزل",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/insulation-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/insulation-calculator/",
   "s": "Loona Construction Calculators",
   "d": "اللبادات أو اللفات أو أكياس النفخ لقيمة R / RSI المستهدفة، دليل السُمك.",
   "k": "insulation calculator insulation calculator insulation calculator calculator construction",
@@ -127,7 +127,7 @@
  },
  {
   "n": "حاسبة السياج",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/fence-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/fence-calculator/",
   "s": "Loona Construction Calculators",
   "d": "الأعمدة والقضبان والأوتاد وأكياس الخرسانة من طول السياج والتباعد.",
   "k": "fence calculator fence calculator fence calculator calculator construction",
@@ -136,7 +136,7 @@
  },
  {
   "n": "حاسبة السطح الخشبي",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/deck-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/deck-calculator/",
   "s": "Loona Construction Calculators",
   "d": "ألواح السطح والروافد والبراغي من مقاس السطح وعرض اللوح وتباعد الروافد.",
   "k": "deck calculator deck calculator deck calculator calculator construction",
@@ -145,7 +145,7 @@
  },
  {
   "n": "حاسبة حجم المسبح",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/pool-volume-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/pool-volume-calculator/",
   "s": "Loona Construction Calculators",
   "d": "اللترات والغالونات الأمريكية للمسابح المستطيلة والدائرية والبيضاوية — جاهزة للجرعات.",
   "k": "pool volume calculator pool volume calculator pool volume calculator calculator construction",
@@ -154,7 +154,7 @@
  },
  {
   "n": "حاسبة الألواح الشمسية",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/solar-panel-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/solar-panel-calculator/",
   "s": "Loona Construction Calculators",
   "d": "الألواح اللازمة وkW النظام والإنتاج المتوقع ومساحة السقف من فاتورتك.",
   "k": "solar panel calculator solar panel calculator solar panel calculator calculator construction",
@@ -163,7 +163,7 @@
  },
  {
   "n": "حاسبة السجاد",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/carpet-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/carpet-calculator/",
   "s": "Loona Construction Calculators",
   "d": "الطول الخطي ومساحة الشراء الحقيقية من مقاس الغرفة وعرض اللفة.",
   "k": "carpet calculator carpet calculator carpet calculator calculator construction",
@@ -172,7 +172,7 @@
  },
  {
   "n": "حاسبة الخشب الرقائقي",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/plywood-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/plywood-calculator/",
   "s": "Loona Construction Calculators",
   "d": "الألواح بالمساحة وبالتخطيط لألواح 2440×1220 mm وألواح 4×8 ft.",
   "k": "plywood calculator plywood calculator plywood calculator calculator construction",
@@ -181,7 +181,7 @@
  },
  {
   "n": "حاسبة الرمل",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/sand-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/sand-calculator/",
   "s": "Loona Construction Calculators",
   "d": "الأطنان وأكياس 25 kg لصناديق الرمل وقواعد الرصف والمصاطب.",
   "k": "sand calculator sand calculator sand calculator calculator construction",
@@ -190,7 +190,7 @@
  },
  {
   "n": "حاسبة قانون أوم",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/ohms-law-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/ohms-law-calculator/",
   "s": "Loona Construction Calculators",
   "d": "الجهد والتيار والمقاومة والقدرة من أي قيمتين — عجلة قانون أوم الكاملة.",
   "k": "ohm s law calculator ohms law calculator ohms law calculator electrical voltage current resistance power",
@@ -199,7 +199,7 @@
  },
  {
   "n": "حاسبة هبوط الجهد",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/voltage-drop-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/voltage-drop-calculator/",
   "s": "Loona Construction Calculators",
   "d": "الفولتات ونسبة % المهبوطة على مسار كابل، mm² أو AWG، أحادي وثلاثي الأطوار.",
   "k": "voltage drop calculator voltage drop calculator voltage drop calculator cable electrical copper aluminium awg",
@@ -208,7 +208,7 @@
  },
  {
   "n": "حاسبة مقاس السلك",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/wire-size-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/wire-size-calculator/",
   "s": "Loona Construction Calculators",
   "d": "أدنى مقاس كابل بـ mm² + المقاس القياسي وAWG من حد هبوطك.",
   "k": "wire size calculator wire size calculator wire size calculator cable size mm2 awg electrical",
@@ -217,7 +217,7 @@
  },
  {
   "n": "حاسبة تكلفة الكهرباء",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/electricity-cost-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/electricity-cost-calculator/",
   "s": "Loona Construction Calculators",
   "d": "كم يكلف جهاز في اليوم والشهر والسنة من الواط وسعر kWh.",
   "k": "electricity cost calculator electricity cost calculator electricity cost calculator appliance kwh running cost",
@@ -226,7 +226,7 @@
  },
  {
   "n": "حاسبة الأمبير إلى الواط",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/amps-to-watts-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/amps-to-watts-calculator/",
   "s": "Loona Construction Calculators",
   "d": "الواط وkW من الأمبير والفولت — تيار مستمر وأحادي الطور وثلاثي الأطوار مع معامل القدرة.",
   "k": "amps to watts calculator amps to watts calculator amps to watts calculator electrical conversion power factor",
@@ -235,7 +235,7 @@
  },
  {
   "n": "حاسبة الواط إلى الأمبير",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/watts-to-amps-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/watts-to-amps-calculator/",
   "s": "Loona Construction Calculators",
   "d": "الأمبير من الواط والفولت لفحوص القاطع والكابل — تيار مستمر وأحادي وثلاثي الأطوار.",
   "k": "watts to amps calculator watts to amps calculator watts to amps calculator electrical conversion breaker",
@@ -244,7 +244,7 @@
  },
  {
   "n": "حاسبة kVA إلى الأمبير",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/kva-to-amps-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/kva-to-amps-calculator/",
   "s": "Loona Construction Calculators",
   "d": "kVA المولد والمحول إلى أمبير حمل كامل، والأمبير عودة إلى kVA، أحادي وثلاثي الأطوار.",
   "k": "kva to amps calculator kva to amps calculator kva to amps calculator generator transformer apparent power",
@@ -253,7 +253,7 @@
  },
  {
   "n": "حاسبة معامل القدرة",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/power-factor-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/power-factor-calculator/",
   "s": "Loona Construction Calculators",
   "d": "معامل القدرة وkvar وزاوية الطور من kW وkVA، زائد مقاس مكثف التصحيح.",
   "k": "power factor calculator power factor calculator power factor calculator kvar correction capacitor",
@@ -262,7 +262,7 @@
  },
  {
   "n": "حاسبة زمن تشغيل البطارية",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/battery-runtime-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/battery-runtime-calculator/",
   "s": "Loona Construction Calculators",
   "d": "كم تدوم بطارية في تشغيل حمل — Ah وWh قابلة للاستخدام وعمق التفريغ وفواقد العاكس محسوبة.",
   "k": "battery runtime calculator battery runtime calculator battery runtime calculator amp hours solar ups off grid",
@@ -271,7 +271,7 @@
  },
  {
   "n": "حاسبة مقاوم LED",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/led-resistor-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/led-resistor-calculator/",
   "s": "Loona Construction Calculators",
   "d": "مقاوم تسلسلي بالأوم، أقرب قيمة قياسية E12، التيار والواط الفعليان.",
   "k": "led resistor calculator led resistor calculator led resistor calculator electronics series resistor e12",
@@ -280,7 +280,7 @@
  },
  {
   "n": "حاسبة القدرة ثلاثية الأطوار",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/three-phase-power-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/three-phase-power-calculator/",
   "s": "Loona Construction Calculators",
   "d": "kW وkVA وkvar من جهد الخط وتيار الخط ومعامل القدرة للأحمال المتوازنة.",
   "k": "three phase power calculator three phase power calculator three phase power calculator kw kva kvar",
@@ -289,7 +289,7 @@
  },
  {
   "n": "حاسبة تيار المحرك",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/motor-current-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/motor-current-calculator/",
   "s": "Loona Construction Calculators",
   "d": "أمبير حمل كامل مقدّرة من kW أو hp المحرك والكفاءة ومعامل القدرة.",
   "k": "motor current calculator motor current calculator motor current calculator full load amps fla horsepower",
@@ -298,7 +298,7 @@
  },
  {
   "n": "حاسبة رمز ألوان المقاوم",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/resistor-colour-code-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/resistor-colour-code-calculator/",
   "s": "Loona Construction Calculators",
   "d": "اقرأ ألوان مقاومات 4 و5 و6 نطاقات إلى أوم وتفاوت — أو حوّل قيمة عودة إلى نطاقات.",
   "k": "resistor colour code calculator resistor colour code calculator resistor colour code calculator bands ohms tolerance electronics",
@@ -307,7 +307,7 @@
  },
  {
   "n": "حاسبة المؤقت 555",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/555-timer-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/555-timer-calculator/",
   "s": "Loona Construction Calculators",
   "d": "تردد الاهتزاز الحر ودورة العمل وعرض نبضة الأحادي المستقر من R وC.",
   "k": "555 timer calculator 555 timer calculator 555 timer calculator astable monostable frequency duty cycle",
@@ -316,7 +316,7 @@
  },
  {
   "n": "محول AWG",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/awg-converter/",
+  "u": "https://construction.loonaautomation.com/ar/awg-converter/",
   "s": "Loona Construction Calculators",
   "d": "AWG إلى mm وmm² والمقاومة لكل km للنحاس والألومنيوم — وعودة من mm² أو القطر.",
   "k": "awg converter awg converter awg converter wire gauge mm2 diameter resistance table",
@@ -325,7 +325,7 @@
  },
  {
   "n": "حاسبة المفاعلة",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/reactance-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/reactance-calculator/",
   "s": "Loona Construction Calculators",
   "d": "المفاعلة السعوية والحثية بالأوم، زائد تردد رنين LC.",
   "k": "reactance calculator reactance calculator reactance calculator capacitive inductive resonance frequency",
@@ -334,7 +334,7 @@
  },
  {
   "n": "محول dB",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/db-converter/",
+  "u": "https://construction.loonaautomation.com/ar/db-converter/",
   "s": "Loona Construction Calculators",
   "d": "نسب القدرة والجهد إلى ديسيبل، وdBm إلى ميلي واط وواط وعودة.",
   "k": "db converter db converter db converter decibel dbm milliwatts watts ratio",
@@ -343,7 +343,7 @@
  },
  {
   "n": "حاسبة المساحة بالقدم المربع",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/ar/square-footage-calculator/",
+  "u": "https://construction.loonaautomation.com/ar/square-footage-calculator/",
   "s": "Loona Construction Calculators",
   "d": "المساحة الكلية بالقدم المربع والمتر المربع والياردة المربعة والأكر لغرفة واحدة أو غرف كثيرة، مع تقدير التكلفة.",
   "k": "square footage calculator square footage calculator square footage calculator calculator construction",

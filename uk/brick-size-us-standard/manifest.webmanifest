@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Standard)",
   "short_name": "Brick Size in United States",
   "description": "Стандартний розмір цегли у Сполучених Штатах (стандартна): 203 × 92 × 57 mm. 70.8 цеглин на м² (6.57 на кв. фут) стіни в пів цегли зі швами розчину 9.5 mm, покриття на 1,000 цеглин і розв’язаний приклад стіни.",
-  "id": "/loona-construction-calculators/uk/brick-size-us-standard/",
+  "id": "/uk/brick-size-us-standard/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

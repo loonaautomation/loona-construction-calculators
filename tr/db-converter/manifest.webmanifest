@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "Ücretsiz desibel dönüştürücü: kendi referansınızla güç oranları ve voltaj oranlarından dB'ye, dBm'den miliwatt ve watta ve güçten tekrar dBm ve dBW'ye — formüller ve çözümlü örneklerle.",
-  "id": "/loona-construction-calculators/tr/db-converter/",
+  "id": "/tr/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

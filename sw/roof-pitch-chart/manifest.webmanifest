@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Chati kamili ya mteremko wa paa: 1/12 hadi 12/12 kwa pembe, daraja na vizidishi vya kengeu, kila mteremko ukiwa na ukurasa wake wa mwongozo.",
-  "id": "/loona-construction-calculators/sw/roof-pitch-chart/",
+  "id": "/sw/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

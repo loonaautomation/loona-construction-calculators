@@ -2,7 +2,7 @@
   "name": "Loona Amps to Watts Calculator",
   "short_name": "Amps to Watts Calculator",
   "description": "免费安培换算瓦特计算器，适用于直流、交流单相和交流三相：电流、电压和功率因数给出瓦特、千瓦和 kVA — 附公式和计算示例。",
-  "id": "/loona-construction-calculators/zh/amps-to-watts-calculator/",
+  "id": "/zh/amps-to-watts-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

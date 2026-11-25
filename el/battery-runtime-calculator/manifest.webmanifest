@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "Δωρεάν υπολογιστής χρόνου λειτουργίας μπαταρίας: volts και αμπερώρες μπαταρίας, watts φορτίου, βάθος εκφόρτισης και απόδοση μετατροπέα δίνουν χρήσιμες βατώρες και χρόνο λειτουργίας σε ώρες — για σχεδιασμό ηλιακών, UPS και εκτός δικτύου.",
-  "id": "/loona-construction-calculators/el/battery-runtime-calculator/",
+  "id": "/el/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

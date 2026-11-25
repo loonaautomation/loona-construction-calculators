@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Bezplatná kalkulačka tehál: dĺžka a výška steny v metrických alebo imperiálnych jednotkách — získajte počet štandardných tehál (215 mm alebo amerických modulárnych) pre jednovrstvovú stenu, vrátane rezerv na škáry malty a odpad.",
-  "id": "/loona-construction-calculators/sk/brick-calculator/",
+  "id": "/sk/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

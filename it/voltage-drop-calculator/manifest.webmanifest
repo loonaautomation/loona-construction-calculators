@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Calcolatore gratuito della caduta di tensione: lunghezza del cavo di sola andata, corrente, rame o alluminio, dimensione del cavo in mm² o AWG, monofase o trifase — volt persi e % di caduta con guida 3%/5%.",
-  "id": "/loona-construction-calculators/it/voltage-drop-calculator/",
+  "id": "/it/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

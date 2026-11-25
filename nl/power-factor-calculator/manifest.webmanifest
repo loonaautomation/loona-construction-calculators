@@ -2,7 +2,7 @@
   "name": "Loona Power Factor Calculator",
   "short_name": "Power Factor Calculator",
   "description": "Gratis arbeidsfactorcalculator: werkelijk vermogen (kW) en schijnbaar vermogen (kVA) geven arbeidsfactor, reactief vermogen in kvar, fasehoek — en de condensator-kvar die nodig is om naar een streef-PF te corrigeren.",
-  "id": "/loona-construction-calculators/nl/power-factor-calculator/",
+  "id": "/nl/power-factor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona 12/12 Roof Pitch",
   "short_name": "12/12 Roof Pitch",
   "description": "En taghældning på 12/12 er 45.00 grader (100% hældning). Spærmultiplikator 1.4142, spærlængder til almindelige løb, materialer og anvendelser.",
-  "id": "/loona-construction-calculators/da/roof-pitch-12-12/",
+  "id": "/da/roof-pitch-12-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

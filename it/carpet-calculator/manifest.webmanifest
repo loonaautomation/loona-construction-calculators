@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Calcolatore moquette gratuito: le dimensioni della stanza e la larghezza del rotolo in metrico o imperiale ti danno la lunghezza lineare e l'area di moquette da comprare effettivamente (inclusi gli sfridi del rotolo), più un costo opzionale — con margine per gli scarti.",
-  "id": "/loona-construction-calculators/it/carpet-calculator/",
+  "id": "/it/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

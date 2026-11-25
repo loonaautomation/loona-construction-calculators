@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Ukuran bata standar di Inggris Raya, AS, India, Pakistan, Australia, Jerman, dan Afrika Selatan — dimensi dan bata per meter persegi dibandingkan.",
-  "id": "/loona-construction-calculators/id/brick-sizes-by-country/",
+  "id": "/id/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

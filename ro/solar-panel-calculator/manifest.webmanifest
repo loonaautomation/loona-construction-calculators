@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "Calculator gratuit de panouri solare: consumul lunar de energie electrică, orele de soare de vârf și puterea panoului vă oferă panourile necesare, dimensiunea sistemului în kW, producția lunară așteptată și suprafața acoperișului — fără înregistrare.",
-  "id": "/loona-construction-calculators/ro/solar-panel-calculator/",
+  "id": "/ro/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

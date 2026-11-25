@@ -2,7 +2,7 @@
   "name": "Loona 555 Timer Calculator",
   "short_name": "555 Timer Calculator",
   "description": "Безплатен калкулатор за таймер 555: автоколебателният режим дава честота, коефициент на запълване и времена HIGH/LOW от R1, R2 и C; моностабилният режим дава ширината на импулса от R и C — стандартните формули 1.44 и 1.1.",
-  "id": "/loona-construction-calculators/bg/555-timer-calculator/",
+  "id": "/bg/555-timer-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

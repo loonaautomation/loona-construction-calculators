@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "Bezplatná kalkulačka wattů na ampéry pro DC, AC jednofázové a AC třífázové: výkon, napětí a účiník dají proud v ampérech — první krok k dimenzování jističe nebo kabelu.",
-  "id": "/loona-construction-calculators/cs/watts-to-amps-calculator/",
+  "id": "/cs/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

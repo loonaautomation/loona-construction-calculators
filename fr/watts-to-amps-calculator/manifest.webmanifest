@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "Calculateur gratuit de watts en ampères pour CC, CA monophasé et CA triphasé : la puissance, la tension et le facteur de puissance donnent le courant en ampères — la première étape pour dimensionner un disjoncteur ou un câble.",
-  "id": "/loona-construction-calculators/fr/watts-to-amps-calculator/",
+  "id": "/fr/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

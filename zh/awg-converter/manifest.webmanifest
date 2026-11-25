@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "免费 AWG 换算器：AWG 规格换算为以 mm 和英寸计的直径、以 mm² 计的横截面积，以及铜和铝的每公里电阻 — 或从 mm² 或直径找到最接近的 AWG。",
-  "id": "/loona-construction-calculators/zh/awg-converter/",
+  "id": "/zh/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

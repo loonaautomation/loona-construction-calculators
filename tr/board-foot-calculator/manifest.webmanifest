@@ -2,7 +2,7 @@
   "name": "Loona Board Foot Calculator",
   "short_name": "Board Foot Calculator",
   "description": "Ücretsiz board foot hesaplayıcısı: kereste kalınlığı, genişliği, uzunluğu ve parça sayısı emperyal veya metrik olarak — kereste siparişiniz için toplam board feet ve metreküp değerini alın.",
-  "id": "/loona-construction-calculators/tr/board-foot-calculator/",
+  "id": "/tr/board-foot-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

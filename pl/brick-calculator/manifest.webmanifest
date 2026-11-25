@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Darmowy kalkulator cegieł: długość i wysokość ściany w systemie metrycznym lub imperialnym — otrzymaj liczbę standardowych cegieł (215 mm lub amerykańskich modularnych) na ścianę jednowarstwową, wraz z zapasami na fugi zaprawy i odpady.",
-  "id": "/loona-construction-calculators/pl/brick-calculator/",
+  "id": "/pl/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

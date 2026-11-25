@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "Ingyenes akkumulátor-üzemidő kalkulátor: az akkumulátor voltja és amperórája, a fogyasztó wattja, a kisütési mélység és az inverter hatásfoka használható wattórát és üzemidőt ad órában — napelemes, szünetmentes és hálózaton kívüli tervezéshez.",
-  "id": "/loona-construction-calculators/hu/battery-runtime-calculator/",
+  "id": "/hu/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

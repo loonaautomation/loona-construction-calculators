@@ -2,7 +2,7 @@
   "name": "Loona Power Factor Calculator",
   "short_name": "Power Factor Calculator",
   "description": "無料の力率計算機：有効電力（kW）と皮相電力（kVA）から、力率、kvar での無効電力、位相角が得られます — そして目標の PF に補正するために必要なコンデンサの kvar も。",
-  "id": "/loona-construction-calculators/ja/power-factor-calculator/",
+  "id": "/ja/power-factor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

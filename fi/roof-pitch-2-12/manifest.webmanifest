@@ -2,7 +2,7 @@
   "name": "Loona 2/12 Roof Pitch",
   "short_name": "2/12 Roof Pitch",
   "description": "2/12 kattokaltevuus on 9.46 astetta (17% kaltevuus). Kattotuolikerroin 1.0138, kattotuolien pituudet yleisille juoksuille, materiaalit ja käyttökohteet.",
-  "id": "/loona-construction-calculators/fi/roof-pitch-2-12/",
+  "id": "/fi/roof-pitch-2-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "無料のマルチ計算機：花壇の面積と深さをメートル法またはヤードポンド法で — マルチの体積、40/50 リットルまたは 2/3 立方フィート袋の数、そしてバラの立方メートルと立方ヤードが得られます。",
-  "id": "/loona-construction-calculators/ja/mulch-calculator/",
+  "id": "/ja/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

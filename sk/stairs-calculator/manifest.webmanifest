@@ -2,7 +2,7 @@
   "name": "Loona Stairs Calculator",
   "short_name": "Stairs Calculator",
   "description": "Bezplatná kalkulačka schodov: zadajte celkové stúpanie v metrických alebo imperiálnych jednotkách — získajte počet stupňov, presnú výšku podstupnice, celkový priemet a dĺžku schodnice, s automatickou kontrolou pravidla pohodlia 2R + T.",
-  "id": "/loona-construction-calculators/sk/stairs-calculator/",
+  "id": "/sk/stairs-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

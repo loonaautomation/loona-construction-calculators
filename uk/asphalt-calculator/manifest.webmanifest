@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "Безкоштовний калькулятор асфальту: введіть довжину, ширину й товщину в метричних або імперських одиницях і отримайте вагу асфальту для замовлення в тоннах і американських тоннах, із редагованою густиною (2,450 kg/m³ / 145 lb/ft³), запасом на відходи та необов’язковою вартістю.",
-  "id": "/loona-construction-calculators/uk/asphalt-calculator/",
+  "id": "/uk/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

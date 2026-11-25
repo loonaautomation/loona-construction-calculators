@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Besplatni AWG pretvarač: AWG mjerilo u promjer u mm i inčima, presjek u mm² i otpor po kilometru za bakar i aluminij — ili pronađite najbliži AWG iz mm² ili promjera.",
-  "id": "/loona-construction-calculators/hr/awg-converter/",
+  "id": "/hr/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

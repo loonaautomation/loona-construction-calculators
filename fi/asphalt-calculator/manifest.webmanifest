@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "Ilmainen asfalttilaskuri: syötä pituus, leveys ja paksuus metrisenä tai tuumaisena, niin saat tilattavan asfaltin painon tonneina ja US-tonneina, muokattavalla tiheydellä (2,450 kg/m³ / 145 lb/ft³), hukkalisällä ja valinnaisella hinnalla.",
-  "id": "/loona-construction-calculators/fi/asphalt-calculator/",
+  "id": "/fi/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

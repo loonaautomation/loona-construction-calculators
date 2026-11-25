@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 10 × 12 ft Shed Base",
   "short_name": "Materials for a 10 × 12 ft",
   "description": "Materijali za podlogu šupe 10 × 12 ft: točan volumen betona i brojevi vreća gotove mješavine (ploča od 4 inča, 10% viška) plus napomene za kupnju podloge i armature.",
-  "id": "/loona-construction-calculators/hr/materials-for-shed-base/",
+  "id": "/hr/materials-for-shed-base/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

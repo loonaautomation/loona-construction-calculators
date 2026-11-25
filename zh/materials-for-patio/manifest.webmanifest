@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 16 × 20 ft Patio",
   "short_name": "Materials for a 16 × 20 ft",
   "description": "16×20 ft 庭院的购买清单：按铺贴间距的铺路砖数、沙床、砾石基层和边缘约束 — 均为计算数量。",
-  "id": "/loona-construction-calculators/zh/materials-for-patio/",
+  "id": "/zh/materials-for-patio/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

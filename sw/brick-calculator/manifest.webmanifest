@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Kikokotoo cha bure cha matofali: urefu wa ukuta na kimo katika metriki au imperial — pata idadi ya matofali ya kawaida (215 mm au modula ya Marekani) kwa ukuta wa safu moja, pamoja na posho za kiungo cha chokaa na upotevu.",
-  "id": "/loona-construction-calculators/sw/brick-calculator/",
+  "id": "/sw/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

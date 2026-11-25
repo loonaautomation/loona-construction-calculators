@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "Kostenloser Dezibel-Umrechner: Leistungs- und Spannungsverhältnisse zu dB mit Ihrer eigenen Referenz, dBm zu Milliwatt und Watt, und Leistung zurück zu dBm und dBW — Formeln und durchgerechnete Beispiele.",
-  "id": "/loona-construction-calculators/de/db-converter/",
+  "id": "/de/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

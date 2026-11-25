@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "Gratis isolatiecalculator: voer de oppervlakte en je streef-R-waarde (of metrische RSI) in en krijg de te kopen pakken dekens/rollen of zakken inblaasisolatie, plus de dikte die je streefwaarde nodig heeft — metrisch en imperiaal.",
-  "id": "/loona-construction-calculators/nl/insulation-calculator/",
+  "id": "/nl/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

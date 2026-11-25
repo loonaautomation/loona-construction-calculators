@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Kostenloser Teppich-Rechner: Raumgröße und Teppich-Rollenbreite metrisch oder imperial ergeben die lineare Länge und Fläche des Teppichs, den Sie tatsächlich kaufen müssen (Rollenverschnitt inklusive), plus optionale Kosten — mit Verschnittzugabe.",
-  "id": "/loona-construction-calculators/de/carpet-calculator/",
+  "id": "/de/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

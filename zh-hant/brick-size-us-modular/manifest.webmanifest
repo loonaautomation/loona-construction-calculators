@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Modular)",
   "short_name": "Brick Size in United States",
   "description": "美國的標準磚尺寸（模數）：194 × 92 × 57 mm。帶 9.5 mm 砂漿縫的單層牆每平方米 73.9 塊（每平方英尺 6.87 塊），含每 1,000 塊磚的覆蓋面積和一個牆體計算示例。",
-  "id": "/loona-construction-calculators/zh-hant/brick-size-us-modular/",
+  "id": "/zh-hant/brick-size-us-modular/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

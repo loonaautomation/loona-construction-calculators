@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "مفت باڑ کیلکولیٹر: میٹرک یا امپیریل میں باڑ لمبائی اور پوسٹ فاصلہ آپ کو پوسٹس، ریلز، پکٹس (پکٹ چوڑائی اور خلا سے) اور کنکریٹ بوریاں دیتے ہیں — پکٹس کے لیے ضیاع گنجائش کے ساتھ۔",
-  "id": "/loona-construction-calculators/ur/fence-calculator/",
+  "id": "/ur/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

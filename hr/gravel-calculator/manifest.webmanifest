@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "Besplatni kalkulator šljunka: površina i dubina u metričkim ili imperijalnim jedinicama — dobit ćete volumen šljunka u kubnim metrima i kubnim jardima i težinu u tonama i američkim tonama, s prilagodljivom gustoćom i dodatkom za otpad.",
-  "id": "/loona-construction-calculators/hr/gravel-calculator/",
+  "id": "/hr/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

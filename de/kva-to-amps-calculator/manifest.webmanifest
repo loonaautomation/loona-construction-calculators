@@ -2,7 +2,7 @@
   "name": "Loona kVA to Amps Calculator",
   "short_name": "kVA to Amps Calculator",
   "description": "Kostenloser kVA-zu-Ampere-Rechner für einphasige und dreiphasige Versorgungen — und umgekehrt, Ampere zu kVA. Bemessen Sie Generator-, Transformator- und Versorgungsströme aus kVA und Spannung.",
-  "id": "/loona-construction-calculators/de/kva-to-amps-calculator/",
+  "id": "/de/kva-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

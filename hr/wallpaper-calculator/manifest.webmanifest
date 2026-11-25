@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Besplatni kalkulator tapeta: veličina sobe u metričkim ili imperijalnim jedinicama, europske ili američke dvostruke role, dopušteno ponavljanje uzorka — dobit ćete točan broj rola tapeta za kupnju, otpad uključen.",
-  "id": "/loona-construction-calculators/hr/wallpaper-calculator/",
+  "id": "/hr/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

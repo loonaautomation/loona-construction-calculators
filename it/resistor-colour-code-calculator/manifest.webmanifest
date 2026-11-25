@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "Calcolatore gratuito del codice colore dei resistori: scegli i colori delle bande di un resistore a 4, 5 o 6 bande per ottenere resistenza, tolleranza e coefficiente di temperatura — o invertilo, da valore a bande.",
-  "id": "/loona-construction-calculators/it/resistor-colour-code-calculator/",
+  "id": "/it/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

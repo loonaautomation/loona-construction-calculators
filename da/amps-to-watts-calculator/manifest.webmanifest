@@ -2,7 +2,7 @@
   "name": "Loona Amps to Watts Calculator",
   "short_name": "Amps to Watts Calculator",
   "description": "Gratis ampere-til-watt-beregner til DC, AC enfaset og AC trefaset: strøm, spænding og effektfaktor giver watt, kilowatt og kVA — med formler og et gennemregnet eksempel.",
-  "id": "/loona-construction-calculators/da/amps-to-watts-calculator/",
+  "id": "/da/amps-to-watts-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in South Africa",
   "short_name": "Brick Size in South Africa",
   "description": "দক্ষিণ আফ্রিকায় মানক ইটের আকার: 222 × 106 × 73 mm। 51.9 mm মসলা জোড়সহ একস্তর দেয়ালের প্রতি m²-এ 4.82টি ইট (প্রতি sq ft-এ 10), প্রতি 1,000 ইটের আচ্ছাদন এবং একটি করা দেয়ালের উদাহরণ।",
-  "id": "/loona-construction-calculators/bn/brick-size-south-africa/",
+  "id": "/bn/brick-size-south-africa/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

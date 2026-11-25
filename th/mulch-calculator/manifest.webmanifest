@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "เครื่องคำนวณวัสดุคลุมดินฟรี: พื้นที่แปลงและความลึกเป็นเมตริกหรืออิมพีเรียล — รับปริมาตรวัสดุคลุมดิน จำนวนถุง 40/50 litre หรือ 2/3 ลูกบาศก์ฟุต และปริมาตรแบบกองเป็นลูกบาศก์เมตรและหลา",
-  "id": "/loona-construction-calculators/th/mulch-calculator/",
+  "id": "/th/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

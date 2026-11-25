@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Bezplatná kalkulačka mulča: plocha záhonu a hĺbka v metrických alebo imperiálnych jednotkách — získajte objem mulča, počet vriec po 40/50 litrov alebo 2/3 kubických stôp a kubické metre a yardy vo veľkom.",
-  "id": "/loona-construction-calculators/sk/mulch-calculator/",
+  "id": "/sk/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

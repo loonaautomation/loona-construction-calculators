@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "Gratis isoleringsberegner: indtast arealet og din mål-R-værdi (eller metrisk RSI), og få de pakker batts/ruller eller sække indblæst isolering, der skal købes, plus den tykkelse, dit mål kræver — metrisk og imperial.",
-  "id": "/loona-construction-calculators/da/insulation-calculator/",
+  "id": "/da/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

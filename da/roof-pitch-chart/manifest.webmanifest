@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Komplet taghældningstabel: 1/12 til 12/12 med vinkler, grader og spærmultiplikatorer, hver hældning med sin egen vejledningsside.",
-  "id": "/loona-construction-calculators/da/roof-pitch-chart/",
+  "id": "/da/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

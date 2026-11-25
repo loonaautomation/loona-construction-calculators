@@ -2,7 +2,7 @@
   "name": "Loona kVA to Amps Calculator",
   "short_name": "kVA to Amps Calculator",
   "description": "Calculateur gratuit de kVA en ampères pour alimentations monophasées et triphasées — et l'inverse, ampères en kVA. Dimensionnez les courants de générateur, de transformateur et d'alimentation à partir des kVA et de la tension.",
-  "id": "/loona-construction-calculators/fr/kva-to-amps-calculator/",
+  "id": "/fr/kva-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

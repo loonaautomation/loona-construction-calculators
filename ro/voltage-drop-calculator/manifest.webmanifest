@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Calculator gratuit de cădere de tensiune: lungimea cablului într-un sens, curentul, cupru sau aluminiu, dimensiunea cablului în mm² sau AWG, monofazat sau trifazat — volți pierduți și % cădere cu ghidare de 3%/5%.",
-  "id": "/loona-construction-calculators/ro/voltage-drop-calculator/",
+  "id": "/ro/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

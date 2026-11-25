@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in India",
   "short_name": "Brick Size in India",
   "description": "Стандартный размер кирпича в Индии: 190 × 90 × 90 mm. 50.0 кирпича на m² (4.65 на кв. фут) однослойной стены со швами раствора 10 mm, покрытие на 1,000 кирпичей и разобранный пример стены.",
-  "id": "/loona-construction-calculators/ru/brick-size-india/",
+  "id": "/ru/brick-size-india/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

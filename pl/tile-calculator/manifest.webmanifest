@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Darmowy kalkulator płytek: rozmiar podłogi lub ściany, rozmiar płytki i fuga w systemie metrycznym lub imperialnym — otrzymaj dokładną liczbę płytek i opakowań do kupienia, wraz z zapasem na cięcia i stłuczki.",
-  "id": "/loona-construction-calculators/pl/tile-calculator/",
+  "id": "/pl/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "Calculateur gratuit de béton : longueur, largeur et épaisseur de la dalle en métrique ou impérial — obtenez le volume de béton en mètres cubes et yards cubes, plus le nombre de sacs prémélangés de 20/25 kg ou 60/80 lb qu'il vous faut.",
-  "id": "/loona-construction-calculators/fr/concrete-calculator/",
+  "id": "/fr/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

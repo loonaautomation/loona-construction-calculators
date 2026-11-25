@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 12 × 16 ft Deck",
   "short_name": "Materials for a 12 × 16 ft",
   "description": "Liste d'achat pour une terrasse de 12×16 ft : lames de terrasse, pieds-planche, solives, poteaux et comptes de vis — calculés d'après la disposition, avec les réserves de code indiquées.",
-  "id": "/loona-construction-calculators/fr/materials-for-12x16-deck/",
+  "id": "/fr/materials-for-12x16-deck/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

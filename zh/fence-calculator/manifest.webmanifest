@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "免费围栏计算器：围栏长度和立柱间距（公制或英制）给您立柱、横杆、栅栏条（根据栅栏条宽度和间隙）和混凝土袋 — 栅栏条含损耗余量。",
-  "id": "/loona-construction-calculators/zh/fence-calculator/",
+  "id": "/zh/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona 7/12 Roof Pitch",
   "short_name": "7/12 Roof Pitch",
   "description": "Une pente de toit de 7/12 fait 30.26 degrés (pente de 58%). Multiplicateur de chevron 1.1577, longueurs de chevrons pour les portées courantes, matériaux et usages.",
-  "id": "/loona-construction-calculators/fr/roof-pitch-7-12/",
+  "id": "/fr/roof-pitch-7-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

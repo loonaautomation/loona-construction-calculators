@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Ingyenes mulcskalkulátor: ágyásterület és mélység metrikus vagy angolszász mértékegységben — megkapja a mulcstérfogatot, a 40/50 literes vagy 2/3 köblábas zsákok számát, és az ömlesztett köbmétert és yardot.",
-  "id": "/loona-construction-calculators/hu/mulch-calculator/",
+  "id": "/hu/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

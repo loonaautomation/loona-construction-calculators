@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in South Africa",
   "short_name": "Brick Size in South Africa",
   "description": "남아프리카의 표준 벽돌 크기: 222 × 106 × 73 mm예요. 모르타르 줄눈 10 mm 홑벽 기준 m²당 51.9장(sq ft당 4.82장), 벽돌 1,000장당 도포 면적과 벽 시공 예시를 담았어요.",
-  "id": "/loona-construction-calculators/ko/brick-size-south-africa/",
+  "id": "/ko/brick-size-south-africa/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

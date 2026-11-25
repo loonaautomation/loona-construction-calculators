@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 16 × 20 ft Patio",
   "short_name": "Materials for a 16 × 20 ft",
   "description": "Bevásárlólista egy 16×20 láb teraszburkolathoz: térkődarabszám osztástávolságon, homokágy, kavicsalap és szegélymegtámasztások — számított mennyiségek.",
-  "id": "/loona-construction-calculators/hu/materials-for-patio/",
+  "id": "/hu/materials-for-patio/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Paint Calculator",
   "short_name": "Paint Calculator",
   "description": "Bezplatná kalkulačka barvy: zadejte rozměry místnosti v metrech nebo stopách, odečtěte dveře a okna, zvolte počet vrstev a kryvost a získáte potřebné množství barvy a základního nátěru v litrech nebo galonech — s přídavkem na odpad.",
-  "id": "/loona-construction-calculators/cs/paint-calculator/",
+  "id": "/cs/paint-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

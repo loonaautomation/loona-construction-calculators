@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "Bezplatná kalkulačka reaktancie: frekvencia s kapacitou (µF) dáva kapacitnú reaktanciu Xc, s indukčnosťou (mH) dáva induktívnu reaktanciu Xl — zadajte obe pre čistú reaktanciu a rezonančnú frekvenciu LC.",
-  "id": "/loona-construction-calculators/sk/reactance-calculator/",
+  "id": "/sk/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

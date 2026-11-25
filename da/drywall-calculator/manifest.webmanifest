@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Gratis gipspladeberegner: rumstørrelse i metrisk eller imperial — få væg- og loftareal og antallet af 1200 × 2400 mm- eller 4 × 8 ft-plader, der skal købes, inklusive spild.",
-  "id": "/loona-construction-calculators/da/drywall-calculator/",
+  "id": "/da/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

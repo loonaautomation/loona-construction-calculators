@@ -2,7 +2,7 @@
   "name": "Loona Sand Calculator",
   "short_name": "Sand Calculator",
   "description": "Calculateur gratuit de sable : la surface et la profondeur en métrique ou impérial vous donnent le volume de sable, le poids en tonnes et tonnes US, et le nombre de sacs de 25 kg — avec densité et marge de perte, pour bacs à sable, bases de pavage et chapes.",
-  "id": "/loona-construction-calculators/fr/sand-calculator/",
+  "id": "/fr/sand-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

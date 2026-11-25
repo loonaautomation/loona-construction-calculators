@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "Gratis isoleringskalkylator: ange ytan och ditt mål-R-värde (eller metriskt RSI) och få paketen med mattor/rullar eller påsar med inblåst isolering att köpa, plus tjockleken ditt mål behöver — metriskt och imperial.",
-  "id": "/loona-construction-calculators/sv/insulation-calculator/",
+  "id": "/sv/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

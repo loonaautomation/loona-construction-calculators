@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "Standard mursteinstørrelse i Tyskland (NF): 240 × 115 × 71 mm. 49.4 murstein per m² (4.59 per sq ft) halvsteinsmur med 10 mm mørtelfuger, dekning per 1,000 murstein og et gjennomarbeidet veggeksempel.",
-  "id": "/loona-construction-calculators/nb/brick-size-germany/",
+  "id": "/nb/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona How Much Paint for 100 Sq Ft of Wall?",
   "short_name": "How Much Paint for 100 Sq Ft",
   "description": "Barva na 100 sq ft stěny: 2.0 litry (0.5 gal) na 2 vrstvy při typické kryvosti 10 m²/L, plus 0.9 L základního nátěru — s uvedenými předpoklady.",
-  "id": "/loona-construction-calculators/cs/paint-for-100-sq-ft/",
+  "id": "/cs/paint-for-100-sq-ft/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

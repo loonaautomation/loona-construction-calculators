@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Calculator",
   "short_name": "Roof Pitch Calculator",
   "description": "Calculadora gratuita de inclinación de techo: introduce elevación y recorrido en cualquier unidad — obtén la inclinación como relación (x-en-12), el ángulo en grados, la pendiente en porcentaje y la longitud del cabio. Funciona para medidas métricas e imperiales.",
-  "id": "/loona-construction-calculators/es/roof-pitch-calculator/",
+  "id": "/es/roof-pitch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

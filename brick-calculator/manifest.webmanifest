@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Free brick calculator: wall length and height in metric or imperial — get the number of standard bricks (215 mm or US modular) for a single-skin wall, including mortar-joint and waste allowances.",
-  "id": "/loona-construction-calculators/brick-calculator/",
+  "id": "/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

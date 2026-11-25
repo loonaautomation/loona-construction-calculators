@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "Δωρεάν υπολογιστής αντίδρασης: συχνότητα με χωρητικότητα (µF) δίνει χωρητική αντίδραση Xc, με αυτεπαγωγή (mH) δίνει επαγωγική αντίδραση Xl — εισαγάγετε και τα δύο για καθαρή αντίδραση και συχνότητα συντονισμού LC.",
-  "id": "/loona-construction-calculators/el/reactance-calculator/",
+  "id": "/el/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

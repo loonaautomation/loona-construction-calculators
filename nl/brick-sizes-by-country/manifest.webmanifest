@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Standaard baksteenformaten in de UK, USA, India, Pakistan, Australië, Duitsland en Zuid-Afrika — afmetingen en stenen per vierkante meter vergeleken.",
-  "id": "/loona-construction-calculators/nl/brick-sizes-by-country/",
+  "id": "/nl/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

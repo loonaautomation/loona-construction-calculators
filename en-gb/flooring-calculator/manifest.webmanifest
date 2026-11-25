@@ -2,7 +2,7 @@
   "name": "Loona Flooring Calculator",
   "short_name": "Flooring Calculator",
   "description": "Free flooring calculator: room size and box coverage in metric or imperial — get the number of laminate, vinyl or engineered-wood boxes to buy, including the cutting waste allowance.",
-  "id": "/loona-construction-calculators/en-gb/flooring-calculator/",
+  "id": "/en-gb/flooring-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

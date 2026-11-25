@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Calculator",
   "short_name": "Roof Pitch Calculator",
   "description": "مفت چھت ڈھلوان کیلکولیٹر: کسی بھی اکائی میں چڑھائی اور دوڑ درج کریں — ڈھلوان تناسب (x-in-12) کے طور پر، ڈگریوں میں زاویہ، فیصد گریڈ اور رافٹر لمبائی پائیں۔ میٹرک اور امپیریل پیمائشوں کے لیے کام کرتا ہے۔",
-  "id": "/loona-construction-calculators/ur/roof-pitch-calculator/",
+  "id": "/ur/roof-pitch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

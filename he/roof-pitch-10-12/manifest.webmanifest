@@ -2,7 +2,7 @@
   "name": "Loona 10/12 Roof Pitch",
   "short_name": "10/12 Roof Pitch",
   "description": "שיפוע גג של 10/12 הוא 39.81 מעלות (83% דירוג). מכפיל קורת 1.3017, אורכי קורות למהלכים נפוצים, חומרים ושימושים.",
-  "id": "/loona-construction-calculators/he/roof-pitch-10-12/",
+  "id": "/he/roof-pitch-10-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

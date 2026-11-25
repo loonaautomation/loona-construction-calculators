@@ -2,7 +2,7 @@
   "name": "Loona Paint Calculator",
   "short_name": "Paint Calculator",
   "description": "Calculadora gratuita de pintura: introduce el tamaño de la habitación en metros o pies, resta puertas y ventanas, elige manos y cobertura, y obtén la pintura y la imprimación necesarias en litros o galones — con un margen de desperdicio.",
-  "id": "/loona-construction-calculators/es/paint-calculator/",
+  "id": "/es/paint-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

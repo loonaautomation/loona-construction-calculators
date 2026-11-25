@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Standard)",
   "short_name": "Brick Size in United States",
   "description": "Vakiotiilikoko Yhdysvalloissa (vakio): 203 × 92 × 57 mm. 70.8 tiiltä per m² (6.57 per sq ft) yksinkertaista seinää 9.5 mm laastisaumoilla, riittoisuus per 1,000 tiiltä ja laskettu seinäesimerkki.",
-  "id": "/loona-construction-calculators/fi/brick-size-us-standard/",
+  "id": "/fi/brick-size-us-standard/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

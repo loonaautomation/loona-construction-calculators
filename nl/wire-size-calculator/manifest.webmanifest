@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Gratis draaddiktecalculator: stroom, enkele lengte, toegestaan spanningsval-%, spanning, koper of aluminium, enkelfase of driefasen — minimale kabelmaat in mm², dichtstbijzijnde standaardmaat en AWG-equivalent.",
-  "id": "/loona-construction-calculators/nl/wire-size-calculator/",
+  "id": "/nl/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

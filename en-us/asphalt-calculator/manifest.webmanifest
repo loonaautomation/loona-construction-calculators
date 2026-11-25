@@ -2,7 +2,7 @@
   "name": "Loona 🛣️ Asphalt Calculator",
   "short_name": "🛣️ Asphalt Calculator",
   "description": "Free asphalt calculator: enter length, width and thickness in metric or imperial and get the asphalt weight to order in tonnes and US tons, with an editable density (2,450 kg/m³ / 145 lb/ft³), waste allowance and optional cost.",
-  "id": "/loona-construction-calculators/en-us/asphalt-calculator/",
+  "id": "/en-us/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "Máy tính công suất ba pha miễn phí: điện áp dây–dây, dòng điện dây và hệ số công suất cho công suất thực theo kW, công suất biểu kiến theo kVA và công suất phản kháng theo kvar cho tải cân bằng.",
-  "id": "/loona-construction-calculators/vi/three-phase-power-calculator/",
+  "id": "/vi/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

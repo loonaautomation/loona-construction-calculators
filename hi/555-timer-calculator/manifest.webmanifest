@@ -2,7 +2,7 @@
   "name": "Loona 555 Timer Calculator",
   "short_name": "555 Timer Calculator",
   "description": "मुफ़्त 555 टाइमर कैलकुलेटर: एस्टेबल मोड R1, R2 और C से आवृत्ति, ड्यूटी साइकिल और HIGH/LOW समय देता है; मोनोस्टेबल मोड R और C से पल्स चौड़ाई देता है — मानक 1.44 और 1.1 सूत्र।",
-  "id": "/loona-construction-calculators/hi/555-timer-calculator/",
+  "id": "/hi/555-timer-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

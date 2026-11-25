@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "مکمل چھت ڈھلوان چارٹ: 1/12 سے 12/12 زاویوں، گریڈز اور رافٹر ضرب کنندگان کے ساتھ، ہر ڈھلوان کا اپنا گائیڈ صفحہ۔",
-  "id": "/loona-construction-calculators/ur/roof-pitch-chart/",
+  "id": "/ur/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

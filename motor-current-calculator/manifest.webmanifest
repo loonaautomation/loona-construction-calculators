@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "Free motor current calculator: motor power in kW or horsepower, voltage, single or three-phase, efficiency and power factor give an estimated full-load current — with honest nameplate and code caveats.",
-  "id": "/loona-construction-calculators/motor-current-calculator/",
+  "id": "/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

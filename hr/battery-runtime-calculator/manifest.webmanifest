@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "Besplatni kalkulator vremena rada baterije: volti i amper-sati baterije, vati tereta, dubina pražnjenja i učinkovitost pretvarača daju iskoristive vat-sate i vrijeme rada u satima — za planiranje solarne energije, UPS-a i izvanmrežnih sustava.",
-  "id": "/loona-construction-calculators/hr/battery-runtime-calculator/",
+  "id": "/hr/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

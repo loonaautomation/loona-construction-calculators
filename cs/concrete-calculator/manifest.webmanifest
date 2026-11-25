@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "Bezplatná kalkulačka betonu: délka, šířka a tloušťka desky v metrických nebo imperiálních jednotkách — získáte objem betonu v krychlových metrech a krychlových yardech a kolik pytlů hotové směsi 20/25 kg nebo 60/80 lb potřebujete.",
-  "id": "/loona-construction-calculators/cs/concrete-calculator/",
+  "id": "/cs/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

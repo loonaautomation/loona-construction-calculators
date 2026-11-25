@@ -2,7 +2,7 @@
   "name": "Loona Stairs Calculator",
   "short_name": "Stairs Calculator",
   "description": "無料の階段計算機：総上昇をメートル法またはヤードポンド法で入力すると、段数、正確な蹴上の高さ、総水平距離、ささら桁の長さが得られます。2R + T の快適性ルールは自動でチェックされます。",
-  "id": "/loona-construction-calculators/ja/stairs-calculator/",
+  "id": "/ja/stairs-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

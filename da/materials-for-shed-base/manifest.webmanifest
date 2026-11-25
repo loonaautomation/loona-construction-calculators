@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 10 × 12 ft Shed Base",
   "short_name": "Materials for a 10 × 12 ft",
   "description": "Materialer til en 10 × 12 ft skurbase: nøjagtigt betonvolumen og antal færdigblandingssække (4-tommer plade, 10% ekstra) plus indkøbsnoter til base og armering.",
-  "id": "/loona-construction-calculators/da/materials-for-shed-base/",
+  "id": "/da/materials-for-shed-base/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

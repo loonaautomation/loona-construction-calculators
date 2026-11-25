@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 16 × 20 ft Patio",
   "short_name": "Materials for a 16 × 20 ft",
   "description": "Список покупок для патио 16×20 ft: количество брусчатки по шагу укладки, песчаная подушка, гравийное основание и бортовые упоры — рассчитанные количества.",
-  "id": "/loona-construction-calculators/ru/materials-for-patio/",
+  "id": "/ru/materials-for-patio/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

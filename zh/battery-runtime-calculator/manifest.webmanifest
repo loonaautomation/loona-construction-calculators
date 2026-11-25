@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "免费电池续航计算器：电池伏特和安时、负载瓦特、放电深度和逆变器效率给出可用瓦时和以小时计的续航 — 用于太阳能、UPS 和离网规划。",
-  "id": "/loona-construction-calculators/zh/battery-runtime-calculator/",
+  "id": "/zh/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

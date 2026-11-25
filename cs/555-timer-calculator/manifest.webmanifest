@@ -2,7 +2,7 @@
   "name": "Loona 555 Timer Calculator",
   "short_name": "555 Timer Calculator",
   "description": "Bezplatná kalkulačka časovače 555: astabilní režim dává frekvenci, střídu a časy HIGH/LOW z R1, R2 a C; monostabilní režim dává šířku impulzu z R a C — standardní vzorce 1.44 a 1.1.",
-  "id": "/loona-construction-calculators/cs/555-timer-calculator/",
+  "id": "/cs/555-timer-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

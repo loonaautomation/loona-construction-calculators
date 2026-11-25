@@ -2,7 +2,7 @@
   "name": "Loona Power Factor Calculator",
   "short_name": "Power Factor Calculator",
   "description": "Calculateur gratuit de facteur de puissance : la puissance réelle (kW) et la puissance apparente (kVA) donnent le facteur de puissance, la puissance réactive en kvar, l'angle de phase — et les kvar de condensateur nécessaires pour corriger vers un FP cible.",
-  "id": "/loona-construction-calculators/fr/power-factor-calculator/",
+  "id": "/fr/power-factor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Materials for Painting a 12 × 14 ft Room",
   "short_name": "Materials for Painting a 12 ×",
   "description": "Täydellinen ostoslista 12×14 ft huoneen maalaamiseen: 2 kerroksen maali litroina/galloneina, pohjamaali, teippi, telat ja valmistelumateriaalit — laskettuna, ei arvattuna.",
-  "id": "/loona-construction-calculators/fi/materials-for-painting-a-room/",
+  "id": "/fi/materials-for-painting-a-room/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

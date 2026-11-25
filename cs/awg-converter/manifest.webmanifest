@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Bezplatný převodník AWG: průřez AWG na průměr v mm a palcích, průřez v mm² a odpor na kilometr pro měď a hliník — nebo najděte nejbližší AWG z mm² či průměru.",
-  "id": "/loona-construction-calculators/cs/awg-converter/",
+  "id": "/cs/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

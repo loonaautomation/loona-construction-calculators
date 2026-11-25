@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 12 × 16 ft Deck",
   "short_name": "Materials for a 12 × 16 ft",
   "description": "Ostoslista 12×16 ft terassille: terassilaudat, lautajalat, palkit, tolpat ja ruuvimäärät — laskettuna asettelusta, määräysvaraukset ilmoitettuna.",
-  "id": "/loona-construction-calculators/fi/materials-for-12x16-deck/",
+  "id": "/fi/materials-for-12x16-deck/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

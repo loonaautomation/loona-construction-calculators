@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 100 ft Fence",
   "short_name": "Materials for a 100 ft Fence",
   "description": "Boodschappenlijst voor 100 ft schutting van 6 ft: 13 palen, 13 vakken panelen of 340 latten, eerlijke beton-per-gat-hoeveelheden en aantallen bevestigingsmateriaal.",
-  "id": "/loona-construction-calculators/nl/materials-for-100-ft-fence/",
+  "id": "/nl/materials-for-100-ft-fence/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

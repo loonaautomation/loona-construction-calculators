@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "Kostenloser Asphalt-Rechner: Geben Sie Länge, Breite und Dicke in metrisch oder imperial ein und erhalten Sie das zu bestellende Asphaltgewicht in Tonnen und US-Tonnen, mit bearbeitbarer Dichte (2,450 kg/m³ / 145 lb/ft³), Verschnittzuschlag und optionalen Kosten.",
-  "id": "/loona-construction-calculators/de/asphalt-calculator/",
+  "id": "/de/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

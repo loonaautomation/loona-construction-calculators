@@ -2,7 +2,7 @@
   "name": "Loona Tiles Needed for 100 Sq Ft",
   "short_name": "Tiles Needed for 100 Sq Ft",
   "description": "Tiles for 100 sq ft with 60×60 cm tiles and 3 mm grout gaps: 29 tiles (8 boxes of 4) including 10% extra for cuts and breakage.",
-  "id": "/loona-construction-calculators/en-us/tiles-for-100-sq-ft/",
+  "id": "/en-us/tiles-for-100-sq-ft/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

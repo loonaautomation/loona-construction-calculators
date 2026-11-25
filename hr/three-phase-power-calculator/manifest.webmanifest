@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "Besplatni kalkulator trofazne snage: linijski napon, linijska struja i faktor snage daju stvarnu snagu u kW, prividnu snagu u kVA i jalovu snagu u kvar za uravnotežena trošila.",
-  "id": "/loona-construction-calculators/hr/three-phase-power-calculator/",
+  "id": "/hr/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

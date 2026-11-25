@@ -2,7 +2,7 @@
   "name": "Loona Power Factor Calculator",
   "short_name": "Power Factor Calculator",
   "description": "Besplatni kalkulator faktora snage: stvarna snaga (kW) i prividna snaga (kVA) daju faktor snage, jalovu snagu u kvar, fazni kut — i kvar kondenzatora potreban za korekciju na ciljani PF.",
-  "id": "/loona-construction-calculators/hr/power-factor-calculator/",
+  "id": "/hr/power-factor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

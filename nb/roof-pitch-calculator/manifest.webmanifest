@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Calculator",
   "short_name": "Roof Pitch Calculator",
   "description": "Gratis takvinkelkalkulator: skriv inn stigning og lengde i enhver enhet — få takvinkelen som et forhold (x-i-12), vinkelen i grader, prosenthellingen og sperrelengden. Fungerer for metriske og imperielle mål.",
-  "id": "/loona-construction-calculators/nb/roof-pitch-calculator/",
+  "id": "/nb/roof-pitch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

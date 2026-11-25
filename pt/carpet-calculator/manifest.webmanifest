@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Calculadora gratuita de alcatifa: o tamanho da divisão e a largura do rolo em métrico ou imperial dão-lhe o comprimento linear e a área de alcatifa a comprar realmente (sobras do rolo incluídas), mais um custo opcional — com margem de desperdício.",
-  "id": "/loona-construction-calculators/pt/carpet-calculator/",
+  "id": "/pt/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

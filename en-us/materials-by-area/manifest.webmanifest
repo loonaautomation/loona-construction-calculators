@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "How much material for your area? Concrete volumes, tile counts and paint quantities for 100 to 3,000 sq ft — computed with the site&#x27;s own calculators.",
-  "id": "/loona-construction-calculators/en-us/materials-by-area/",
+  "id": "/en-us/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

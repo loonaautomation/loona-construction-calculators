@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "Gratis zwembadvolumecalculator voor rechthoekige, ronde en ovale zwembaden: voer de maat en de dieptes aan de ondiepe/diepe kant in metrisch of imperiaal in en krijg het watervolume in liters en US gallons voor chemische dosering en vullen.",
-  "id": "/loona-construction-calculators/nl/pool-volume-calculator/",
+  "id": "/nl/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

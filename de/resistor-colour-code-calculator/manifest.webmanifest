@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "Kostenloser Widerstands-Farbcode-Rechner: Wählen Sie die Ringfarben an einem 4-, 5- oder 6-Ring-Widerstand, um Widerstand, Toleranz und Temperaturkoeffizient zu erhalten — oder umgekehrt, Wert zu Ringen.",
-  "id": "/loona-construction-calculators/de/resistor-colour-code-calculator/",
+  "id": "/de/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

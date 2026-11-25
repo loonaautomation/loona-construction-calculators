@@ -2,7 +2,7 @@
   "name": "Loona 7/12 Roof Pitch",
   "short_name": "7/12 Roof Pitch",
   "description": "Mteremko wa paa wa 7/12 ni digrii 30.26 (daraja la 58%). Kizidishi cha kengeu 1.1577, urefu wa kengeu kwa mikwendo ya kawaida, vifaa na matumizi.",
-  "id": "/loona-construction-calculators/sw/roof-pitch-7-12/",
+  "id": "/sw/roof-pitch-7-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

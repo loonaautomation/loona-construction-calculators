@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "Materiál na garážovou desku 20 × 20 ft: přesný objem betonu a počty pytlů hotové směsi (4-palcová deska, 10% navíc) a poznámky k nákupu podkladu a výztuže.",
-  "id": "/loona-construction-calculators/cs/materials-for-garage-slab/",
+  "id": "/cs/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona 555 Timer Calculator",
   "short_name": "555 Timer Calculator",
   "description": "حاسبة مؤقت 555 مجانية: الوضع غير المستقر يعطي التردد ودورة التشغيل وزمني HIGH/LOW من R1 وR2 وC؛ والوضع أحادي الاستقرار يعطي عرض النبضة من R وC — بصيغتي 1.44 و1.1 القياسيتين.",
-  "id": "/loona-construction-calculators/ar/555-timer-calculator/",
+  "id": "/ar/555-timer-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

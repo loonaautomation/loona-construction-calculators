@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Calculateur gratuit de plaques de plâtre : taille de la pièce en métrique ou impérial — obtenez la surface des murs et du plafond et le nombre de plaques de 1200 × 2400 mm ou 4 × 8 ft à acheter, pertes incluses.",
-  "id": "/loona-construction-calculators/fr/drywall-calculator/",
+  "id": "/fr/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

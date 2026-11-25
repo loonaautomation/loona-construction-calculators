@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 10 × 12 ft Shed Base",
   "short_name": "Materials for a 10 × 12 ft",
   "description": "Material untuk dasar gudang 10 × 12 ft: volume beton tepat dan jumlah kantong campuran siap pakai (pelat 4 inci, tambahan 10%) ditambah catatan belanja dasar dan penguatan.",
-  "id": "/loona-construction-calculators/id/materials-for-shed-base/",
+  "id": "/id/materials-for-shed-base/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

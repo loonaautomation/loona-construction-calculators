@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Tamanhos padrão de tijolo no Reino Unido, EUA, Índia, Paquistão, Austrália, Alemanha e África do Sul — dimensões e tijolos por metro quadrado comparados.",
-  "id": "/loona-construction-calculators/pt/brick-sizes-by-country/",
+  "id": "/pt/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

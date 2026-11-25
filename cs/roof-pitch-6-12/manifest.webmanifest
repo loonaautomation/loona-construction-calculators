@@ -2,7 +2,7 @@
   "name": "Loona 6/12 Roof Pitch",
   "short_name": "6/12 Roof Pitch",
   "description": "Sklon střechy 6/12 je 26.57 stupně (sklon 50%). Násobitel krokve 1.1180, délky krokví pro běžné průměty, materiály a použití.",
-  "id": "/loona-construction-calculators/cs/roof-pitch-6-12/",
+  "id": "/cs/roof-pitch-6-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

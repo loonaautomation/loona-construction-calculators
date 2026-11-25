@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 10 × 12 ft Shed Base",
   "short_name": "Materials for a 10 × 12 ft",
   "description": "วัสดุสำหรับฐานโรงเก็บของ 10 × 12 ft: ปริมาตรคอนกรีตที่แน่นอนและจำนวนถุงคอนกรีตผสมเสร็จ (พื้นหนา 4 นิ้ว เผื่อ 10%) บวกหมายเหตุการซื้อชั้นฐานและเหล็กเสริม",
-  "id": "/loona-construction-calculators/th/materials-for-shed-base/",
+  "id": "/th/materials-for-shed-base/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

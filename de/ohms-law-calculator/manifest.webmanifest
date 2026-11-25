@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "Kostenloser Ohmsches-Gesetz-Rechner: Geben Sie zwei beliebige von Spannung, Strom, Widerstand und Leistung ein und erhalten Sie die anderen zwei — alle vier Quadranten des Ohmschen Rades, mit Formeln und einem durchgerechneten Beispiel.",
-  "id": "/loona-construction-calculators/de/ohms-law-calculator/",
+  "id": "/de/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

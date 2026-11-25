@@ -2,7 +2,7 @@
   "name": "Loona Board Foot Calculator",
   "short_name": "Board Foot Calculator",
   "description": "Kikokotoo cha bure cha futi za ubao: unene wa mbao, upana, urefu na hesabu ya vipande katika imperial au metriki — pata jumla ya futi za ubao na mita za ujazo kwa agizo lako la mbao.",
-  "id": "/loona-construction-calculators/sw/board-foot-calculator/",
+  "id": "/sw/board-foot-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

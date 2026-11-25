@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Δωρεάν υπολογιστής πτώσης τάσης: μονόδρομο μήκος καλωδίου, ρεύμα, χαλκός ή αλουμίνιο, μέγεθος καλωδίου σε mm² ή AWG, μονοφασικό ή τριφασικό — volts που πέφτουν και % πτώση με καθοδήγηση 3%/5%.",
-  "id": "/loona-construction-calculators/el/voltage-drop-calculator/",
+  "id": "/el/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "Ücretsiz motor akımı hesaplayıcısı: motor gücü kW veya beygir gücü olarak, voltaj, tek veya üç faz, verimlilik ve güç faktörü; tahmini bir tam yük akımı verir — dürüst etiket ve yönetmelik uyarılarıyla.",
-  "id": "/loona-construction-calculators/tr/motor-current-calculator/",
+  "id": "/tr/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona kVA to Amps Calculator",
   "short_name": "kVA to Amps Calculator",
   "description": "حاسبة kVA إلى أمبير مجانية للتغذيات أحادية الطور وثلاثية الأطوار — والعكس، الأمبير إلى kVA. قِس تيارات المولد والمحول والتغذية من kVA والجهد.",
-  "id": "/loona-construction-calculators/ar/kva-to-amps-calculator/",
+  "id": "/ar/kva-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "Ücretsiz güneş paneli hesaplayıcısı: aylık elektrik kullanımı, pik güneş saatleri ve panel gücü; gereken panelleri, kW cinsinden sistem boyutunu, beklenen aylık üretimi ve çatı alanını verir — kayıt yok.",
-  "id": "/loona-construction-calculators/tr/solar-panel-calculator/",
+  "id": "/tr/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

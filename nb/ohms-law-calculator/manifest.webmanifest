@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "Gratis Ohms lov-kalkulator: skriv inn to av spenning, strøm, motstand og effekt og få de to andre — alle fire kvadranter av Ohms lov-hjulet, med formler og et gjennomarbeidet eksempel.",
-  "id": "/loona-construction-calculators/nb/ohms-law-calculator/",
+  "id": "/nb/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

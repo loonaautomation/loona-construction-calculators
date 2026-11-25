@@ -2,7 +2,7 @@
   "name": "Loona Paint Calculator",
   "short_name": "Paint Calculator",
   "description": "Kalkulator cat gratis: masukkan ukuran ruangan dalam meter atau kaki, kurangi pintu dan jendela, pilih lapis dan cakupan, dan dapatkan cat dan primer yang dibutuhkan dalam liter atau galon — dengan cadangan limbah.",
-  "id": "/loona-construction-calculators/id/paint-calculator/",
+  "id": "/id/paint-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "Ilmainen reaktanssilaskuri: taajuus kapasitanssin (µF) kanssa antaa kapasitiivisen reaktanssin Xc, induktanssin (mH) kanssa induktiivisen reaktanssin Xl — syötä molemmat nettoreaktanssia ja LC-resonanssitaajuutta varten.",
-  "id": "/loona-construction-calculators/fi/reactance-calculator/",
+  "id": "/fi/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

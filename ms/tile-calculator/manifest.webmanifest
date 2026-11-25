@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Kalkulator jubin percuma: saiz lantai atau dinding, saiz jubin dan celah grout dalam metrik atau imperial — dapatkan bilangan tepat jubin dan kotak untuk dibeli, termasuk elaun pembaziran untuk pemotongan dan pecah.",
-  "id": "/loona-construction-calculators/ms/tile-calculator/",
+  "id": "/ms/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

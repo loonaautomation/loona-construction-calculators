@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "Ingyenes motoráram-kalkulátor: a motorteljesítmény kW-ban vagy lóerőben, feszültség, egy- vagy háromfázisú, hatásfok és teljesítménytényező becsült teljes terhelésű áramot ad — őszinte adattábla- és előírási fenntartásokkal.",
-  "id": "/loona-construction-calculators/hu/motor-current-calculator/",
+  "id": "/hu/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

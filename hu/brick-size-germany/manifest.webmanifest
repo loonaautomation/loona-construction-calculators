@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "Szabványos téglaméret Németországban (NF): 240 × 115 × 71 mm. 49.4 tégla m²-enként (4.59 négyzetlábonként) egyrétegű falban, 10 mm-es habarcsfugákkal, fedés 1,000 téglára és egy kidolgozott falpélda.",
-  "id": "/loona-construction-calculators/hu/brick-size-germany/",
+  "id": "/hu/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Power Factor Calculator",
   "short_name": "Power Factor Calculator",
   "description": "Ingyenes teljesítménytényező-kalkulátor: a valódi teljesítmény (kW) és a látszólagos teljesítmény (kVA) megadja a teljesítménytényezőt, a meddő teljesítményt kvar-ban, a fázisszöget — és a cél PF-re javításhoz szükséges kondenzátor-kvart.",
-  "id": "/loona-construction-calculators/hu/power-factor-calculator/",
+  "id": "/hu/power-factor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

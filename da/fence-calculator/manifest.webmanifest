@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Gratis hegnberegner: hegnslængde og stolpeafstand i metrisk eller imperial giver dig stolper, tværribber, stakitter (ud fra stakitbredde og mellemrum) og betonsække — med et spildtillæg til stakitter.",
-  "id": "/loona-construction-calculators/da/fence-calculator/",
+  "id": "/da/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

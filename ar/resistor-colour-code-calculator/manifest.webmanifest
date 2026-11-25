@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "حاسبة رمز ألوان مقاوم مجانية: اختر ألوان الأشرطة على مقاوم 4 أو 5 أو 6 أشرطة للحصول على المقاومة والتفاوت ومعامل الحرارة — أو اعكسها، من القيمة إلى الأشرطة.",
-  "id": "/loona-construction-calculators/ar/resistor-colour-code-calculator/",
+  "id": "/ar/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "免费电压降计算器：单程电缆长度、电流、铜或铝、电缆规格（mm² 或 AWG）、单相或三相 — 压降伏特数和压降百分比，附 3%/5% 指南。",
-  "id": "/loona-construction-calculators/zh/voltage-drop-calculator/",
+  "id": "/zh/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

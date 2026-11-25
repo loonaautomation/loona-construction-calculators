@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Ingyenes gipszkarton-kalkulátor: helyiségméret metrikus vagy angolszász mértékegységben — megkapja a fal- és mennyezetfelületet és a megvásárolandó 1200 × 2400 mm-es vagy 4 × 8 láb lapok számát, hulladékkal együtt.",
-  "id": "/loona-construction-calculators/hu/drywall-calculator/",
+  "id": "/hu/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

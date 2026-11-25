@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "英國、美國、印度、巴基斯坦、澳大利亞、德國和南非的標準磚塊尺寸 — 尺寸與每平方米磚數對比。",
-  "id": "/loona-construction-calculators/zh-hant/brick-sizes-by-country/",
+  "id": "/zh-hant/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

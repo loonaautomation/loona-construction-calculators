@@ -2,7 +2,7 @@
   "name": "Loona Electricity Cost Calculator",
   "short_name": "Electricity Cost Calculator",
   "description": "เครื่องคำนวณค่าไฟฟ้าฟรี: วัตต์ของเครื่องใช้ไฟฟ้า (หรือแอมป์ × โวลต์) ชั่วโมงต่อวัน วันต่อเดือน และราคาต่อ kWh ให้ปริมาณ kWh ที่ใช้และค่าใช้จ่ายต่อวัน เดือน และปี — ทุกสกุลเงิน",
-  "id": "/loona-construction-calculators/th/electricity-cost-calculator/",
+  "id": "/th/electricity-cost-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

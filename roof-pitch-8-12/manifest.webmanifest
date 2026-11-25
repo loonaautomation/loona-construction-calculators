@@ -2,7 +2,7 @@
   "name": "Loona 8/12 Roof Pitch",
   "short_name": "8/12 Roof Pitch",
   "description": "A 8/12 roof pitch is 33.69 degrees (67% grade). Rafter multiplier 1.2019, rafter lengths for common runs, materials and uses.",
-  "id": "/loona-construction-calculators/roof-pitch-8-12/",
+  "id": "/roof-pitch-8-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

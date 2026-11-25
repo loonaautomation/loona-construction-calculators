@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in South Africa",
   "short_name": "Brick Size in South Africa",
   "description": "Standardní rozměr cihly v Jižní Africe: 222 × 106 × 73 mm. 51.9 cihel na m² (4.82 na čtvereční stopu) jednovrstvé zdi se spárami 10 mm na maltu, pokrytí na 1,000 cihel a vypracovaný příklad zdi.",
-  "id": "/loona-construction-calculators/cs/brick-size-south-africa/",
+  "id": "/cs/brick-size-south-africa/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

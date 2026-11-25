@@ -2,7 +2,7 @@
   "name": "Loona 7/12 Roof Pitch",
   "short_name": "7/12 Roof Pitch",
   "description": "Una inclinación de techo de 7/12 es 30.26 grados (pendiente del 58%). Multiplicador de cabio 1.1577, longitudes de cabio para recorridos comunes, materiales y usos.",
-  "id": "/loona-construction-calculators/es/roof-pitch-7-12/",
+  "id": "/es/roof-pitch-7-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Kikokotoo cha bure cha drywall na plasterboard: ukubwa wa chumba katika metriki au imperial — pata eneo la ukuta na dari na idadi ya mabamba ya 1200 × 2400 mm au 4 × 8 ft ya kununua, upotevu umejumuishwa.",
-  "id": "/loona-construction-calculators/sw/drywall-calculator/",
+  "id": "/sw/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

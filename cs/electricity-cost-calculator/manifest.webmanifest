@@ -2,7 +2,7 @@
   "name": "Loona Electricity Cost Calculator",
   "short_name": "Electricity Cost Calculator",
   "description": "Bezplatná kalkulačka nákladů na elektřinu: watty spotřebiče (nebo ampéry × volty), hodiny za den, dny v měsíci a cena za kWh dají spotřebované kWh a náklady za den, měsíc a rok — v jakékoli měně.",
-  "id": "/loona-construction-calculators/cs/electricity-cost-calculator/",
+  "id": "/cs/electricity-cost-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

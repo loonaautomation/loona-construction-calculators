@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "বিনামূল্যের বর্গফুট ক্যালকুলেটর: আয়ত, বৃত্ত, ত্রিভুজ ও L-আকৃতিতে ঘর ও জায়গা যোগ করুন, ফুট ও ইঞ্চি বা মিটারে, এবং মোট ক্ষেত্রফল বর্গফুট, বর্গমিটার, বর্গগজ ও একরে পান — ঐচ্ছিক খরচের হিসাবসহ।",
-  "id": "/loona-construction-calculators/bn/square-footage-calculator/",
+  "id": "/bn/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "เครื่องคำนวณพรมฟรี: ขนาดห้องและความกว้างม้วนพรมเป็นเมตริกหรืออิมพีเรียล ให้ความยาวเชิงเส้นและพื้นที่ของพรมที่ต้องซื้อจริง (รวมเศษตัดจากม้วน) บวกตัวเลือกค่าใช้จ่าย — พร้อมค่าเผื่อเศษ",
-  "id": "/loona-construction-calculators/th/carpet-calculator/",
+  "id": "/th/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

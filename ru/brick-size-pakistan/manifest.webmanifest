@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Pakistan",
   "short_name": "Brick Size in Pakistan",
   "description": "Стандартный размер кирпича в Пакистане: 228 × 107 × 69 mm. 53.2 кирпича на m² (4.94 на кв. фут) однослойной стены со швами раствора 10 mm, покрытие на 1,000 кирпичей и разобранный пример стены.",
-  "id": "/loona-construction-calculators/ru/brick-size-pakistan/",
+  "id": "/ru/brick-size-pakistan/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Standard-Ziegelmaße in UK, USA, Indien, Pakistan, Australien, Deutschland und Südafrika — Maße und Ziegel pro Quadratmeter im Vergleich.",
-  "id": "/loona-construction-calculators/de/brick-sizes-by-country/",
+  "id": "/de/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

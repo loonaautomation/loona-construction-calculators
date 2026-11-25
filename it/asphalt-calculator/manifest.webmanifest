@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "Calcolatore di asfalto gratuito: inserisci lunghezza, larghezza e spessore in metrico o imperiale e ottieni il peso di asfalto da ordinare in tonnellate e tonnellate USA, con densità modificabile (2,450 kg/m³ / 145 lb/ft³), margine di scarto e costo facoltativo.",
-  "id": "/loona-construction-calculators/it/asphalt-calculator/",
+  "id": "/it/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

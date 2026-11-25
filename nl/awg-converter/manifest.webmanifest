@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Gratis AWG-omzetter: AWG-maat naar diameter in mm en inches, doorsnede in mm² en weerstand per kilometer voor koper en aluminium — of vind de dichtstbijzijnde AWG uit mm² of diameter.",
-  "id": "/loona-construction-calculators/nl/awg-converter/",
+  "id": "/nl/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "Бесплатный калькулятор утепления: введите площадь и целевое значение R (или метрическое RSI) — и получите упаковки матов/рулонов или мешки задувного утеплителя для покупки, а также толщину, которую требует ваша цель, — в метрической и имперской системах.",
-  "id": "/loona-construction-calculators/ru/insulation-calculator/",
+  "id": "/ru/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

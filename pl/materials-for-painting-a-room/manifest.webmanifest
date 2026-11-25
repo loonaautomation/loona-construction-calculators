@@ -2,7 +2,7 @@
   "name": "Loona Materials for Painting a 12 × 14 ft Room",
   "short_name": "Materials for Painting a 12 ×",
   "description": "Kompletna lista zakupów do malowania pokoju 12×14 ft: litry/galony farby na 2 warstwy, grunt, taśma, wałki i materiały przygotowawcze — obliczone, nie zgadywane.",
-  "id": "/loona-construction-calculators/pl/materials-for-painting-a-room/",
+  "id": "/pl/materials-for-painting-a-room/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

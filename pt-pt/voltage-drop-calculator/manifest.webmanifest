@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Calculadora gratuita de queda de tensão: comprimento do cabo de ida, corrente, cobre ou alumínio, tamanho do cabo em mm² ou AWG, monofásico ou trifásico — volts perdidos e % de queda com guia de 3%/5%.",
-  "id": "/loona-construction-calculators/pt-pt/voltage-drop-calculator/",
+  "id": "/pt-pt/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "مفت وال پیپر کیلکولیٹر: میٹرک یا امپیریل میں کمرے کا سائز، یورپی یا US ڈبل رول، نمونے کی تکرار کی گنجائش — خریدنے والے وال پیپر رولز کی درست تعداد پائیں، ضیاع شامل۔",
-  "id": "/loona-construction-calculators/ur/wallpaper-calculator/",
+  "id": "/ur/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

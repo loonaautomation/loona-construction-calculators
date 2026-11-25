@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Kuinka paljon materiaalia pinta-alallesi? Betonitilavuudet, laattamäärät ja maalimäärät 100 – 3,000 sq ft alueille — laskettuna sivuston omilla laskureilla.",
-  "id": "/loona-construction-calculators/fi/materials-by-area/",
+  "id": "/fi/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

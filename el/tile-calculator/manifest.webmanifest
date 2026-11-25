@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Δωρεάν υπολογιστής πλακακιών: μέγεθος δαπέδου ή τοίχου, μέγεθος πλακακιού και αρμός ενέματος σε μετρικό ή αυτοκρατορικό — λάβετε τον ακριβή αριθμό πλακακιών και κουτιών προς αγορά, συμπεριλαμβανομένου περιθωρίου φθοράς για κοπές και σπασίματα.",
-  "id": "/loona-construction-calculators/el/tile-calculator/",
+  "id": "/el/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

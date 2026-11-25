@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "เครื่องคำนวณรีแอกแตนซ์ฟรี: ความถี่พร้อมความจุไฟฟ้า (µF) ให้รีแอกแตนซ์แบบเก็บประจุ Xc พร้อมความเหนี่ยวนำ (mH) ให้รีแอกแตนซ์แบบเหนี่ยวนำ Xl — กรอกทั้งสองเพื่อรีแอกแตนซ์สุทธิและความถี่เรโซแนนซ์ LC",
-  "id": "/loona-construction-calculators/th/reactance-calculator/",
+  "id": "/th/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

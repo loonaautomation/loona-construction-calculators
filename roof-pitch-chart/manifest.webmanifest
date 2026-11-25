@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Complete roof pitch chart: 1/12 to 12/12 with angles, grades and rafter multipliers, each pitch with its own guide page.",
-  "id": "/loona-construction-calculators/roof-pitch-chart/",
+  "id": "/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

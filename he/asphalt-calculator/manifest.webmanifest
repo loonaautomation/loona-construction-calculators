@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "מחשבון אספלט חינמי: הזינו אורך, רוחב ועובי במטרי או באימפריאלי וקבלו את משקל האספלט להזמנה בטון ובטון אמריקאי, עם צפיפות ניתנת לעריכה (2,450 kg/m³ / 145 lb/ft³), תוספת פחת ועלות אופציונלית.",
-  "id": "/loona-construction-calculators/he/asphalt-calculator/",
+  "id": "/he/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

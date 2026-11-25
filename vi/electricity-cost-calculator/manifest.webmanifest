@@ -2,7 +2,7 @@
   "name": "Loona Electricity Cost Calculator",
   "short_name": "Electricity Cost Calculator",
   "description": "Máy tính chi phí điện miễn phí: watt thiết bị (hoặc ampe × volt), số giờ mỗi ngày, số ngày mỗi tháng và giá mỗi kWh cho kWh đã dùng và chi phí mỗi ngày, tháng và năm — mọi tiền tệ.",
-  "id": "/loona-construction-calculators/vi/electricity-cost-calculator/",
+  "id": "/vi/electricity-cost-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

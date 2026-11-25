@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Calculator gratuit de tapet: dimensiunea camerei în metric sau imperial, role duble europene sau SUA, repetarea modelului luată în calcul — obțineți numărul exact de role de tapet de cumpărat, pierderi incluse.",
-  "id": "/loona-construction-calculators/ro/wallpaper-calculator/",
+  "id": "/ro/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

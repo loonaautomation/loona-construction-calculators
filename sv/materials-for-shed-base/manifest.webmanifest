@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 10 × 12 ft Shed Base",
   "short_name": "Materials for a 10 × 12 ft",
   "description": "Material till en bodgrund på 10 × 12 ft: exakt betongvolym och antal färdigblandade säckar (4-inch platta, 10% extra) plus inköpsanmärkningar för underlag och armering.",
-  "id": "/loona-construction-calculators/sv/materials-for-shed-base/",
+  "id": "/sv/materials-for-shed-base/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

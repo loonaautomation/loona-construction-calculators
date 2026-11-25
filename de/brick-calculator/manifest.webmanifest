@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Kostenloser Ziegel-Rechner: Wandlänge und -höhe metrisch oder imperial — erhalten Sie die Anzahl der Standardziegel (215 mm oder US-Modular) für eine einschalige Wand, einschließlich Fugen- und Verschnittzugaben.",
-  "id": "/loona-construction-calculators/de/brick-calculator/",
+  "id": "/de/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

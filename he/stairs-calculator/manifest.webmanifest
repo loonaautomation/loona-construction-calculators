@@ -2,7 +2,7 @@
   "name": "Loona Stairs Calculator",
   "short_name": "Stairs Calculator",
   "description": "מחשבון מדרגות חינמי: הזינו את הגובה הכולל במטרי או באימפריאלי — קבלו את מספר המדרגות, גובה רום מדויק, מהלך כולל ואורך קורת מדרגות, עם בדיקה אוטומטית של כלל הנוחות 2R + T.",
-  "id": "/loona-construction-calculators/he/stairs-calculator/",
+  "id": "/he/stairs-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

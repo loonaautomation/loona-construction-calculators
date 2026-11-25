@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in South Africa",
   "short_name": "Brick Size in South Africa",
   "description": "Standard-Ziegelmaß in Südafrika: 222 × 106 × 73 mm. 51.9 Ziegel pro m² (4.82 pro sq ft) einschaliger Wand mit 10 mm Mörtelfugen, Abdeckung pro 1,000 Ziegel und ein durchgerechnetes Wandbeispiel.",
-  "id": "/loona-construction-calculators/de/brick-size-south-africa/",
+  "id": "/de/brick-size-south-africa/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

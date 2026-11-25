@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "Ilmainen watit ampeereiksi -laskuri tasavirralle, AC yksivaiheelle ja AC kolmivaiheelle: teho, jännite ja tehokerroin antavat virran ampeereina — ensimmäinen askel katkaisijan tai kaapelin mitoitukseen.",
-  "id": "/loona-construction-calculators/fi/watts-to-amps-calculator/",
+  "id": "/fi/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

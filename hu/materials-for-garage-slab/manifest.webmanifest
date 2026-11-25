@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "Anyagok egy 20 × 20 láb garázslemezhez: pontos betontérfogat és előkevert zsákszámok (4 hüvelykes lemez, 10% ráhagyás) plusz alap- és vasalásvásárlási megjegyzések.",
-  "id": "/loona-construction-calculators/hu/materials-for-garage-slab/",
+  "id": "/hu/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

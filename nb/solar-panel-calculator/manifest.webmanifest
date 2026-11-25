@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "Gratis solpanelkalkulator: månedlig strømforbruk, solskinstimer på topp og panelwatt gir deg panelene som trengs, systemstørrelse i kW, forventet månedlig produksjon og takareal — ingen registrering.",
-  "id": "/loona-construction-calculators/nb/solar-panel-calculator/",
+  "id": "/nb/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

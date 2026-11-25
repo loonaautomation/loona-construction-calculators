@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "무료 데크 계산기: 데크 크기와 판재 너비를 미터법이나 야드파운드법으로 입력하면 구매할 데크 판재, 전체 판재 길이, 장선, 나사 추정치를 알려 줘요. 판재 간격, 장선 간격, 로스 여유가 포함돼요.",
-  "id": "/loona-construction-calculators/ko/deck-calculator/",
+  "id": "/ko/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

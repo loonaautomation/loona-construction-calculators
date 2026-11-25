@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "حاسبة قدرة ثلاثية أطوار مجانية: جهد خط إلى خط وتيار الخط ومعامل القدرة تعطي القدرة الحقيقية بـ kW والقدرة الظاهرة بـ kVA والقدرة غير الفعالة بـ kvar للأحمال المتوازنة.",
-  "id": "/loona-construction-calculators/ar/three-phase-power-calculator/",
+  "id": "/ar/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

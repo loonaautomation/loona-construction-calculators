@@ -2,7 +2,7 @@
   "name": "Loona Ohm's Law Calculator",
   "short_name": "Ohm's Law Calculator",
   "description": "Bezplatná kalkulačka Ohmovho zákona: zadajte ľubovoľné dve z napätia, prúdu, odporu a výkonu a získajte zvyšné dve — všetky štyri kvadranty kolesa Ohmovho zákona, so vzorcami a prepracovaným príkladom.",
-  "id": "/loona-construction-calculators/sk/ohms-law-calculator/",
+  "id": "/sk/ohms-law-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

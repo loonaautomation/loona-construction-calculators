@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "Gratis accuduurcalculator: accuvolts en ampère-uren, belastingswatts, ontladingsdiepte en omvormerrendement geven bruikbare watt-uren en gebruiksduur in uren — voor planning van zonne-energie, UPS en off-grid.",
-  "id": "/loona-construction-calculators/nl/battery-runtime-calculator/",
+  "id": "/nl/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

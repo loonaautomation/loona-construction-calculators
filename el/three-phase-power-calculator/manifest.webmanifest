@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "Δωρεάν υπολογιστής τριφασικής ισχύος: τάση γραμμής προς γραμμή, ρεύμα γραμμής και συντελεστής ισχύος δίνουν πραγματική ισχύ σε kW, φαινόμενη ισχύ σε kVA και άεργη ισχύ σε kvar για ισορροπημένα φορτία.",
-  "id": "/loona-construction-calculators/el/three-phase-power-calculator/",
+  "id": "/el/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

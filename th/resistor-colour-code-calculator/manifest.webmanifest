@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "เครื่องคำนวณรหัสสีตัวต้านทานฟรี: เลือกสีแถบบนตัวต้านทาน 4 แถบสี 5 แถบสี หรือ 6 แถบสี เพื่อรับค่าความต้านทาน ค่าความคลาดเคลื่อน และสัมประสิทธิ์อุณหภูมิ — หรือย้อนกลับ จากค่าเป็นแถบสี",
-  "id": "/loona-construction-calculators/th/resistor-colour-code-calculator/",
+  "id": "/th/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

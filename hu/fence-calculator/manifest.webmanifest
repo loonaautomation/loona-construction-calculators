@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Ingyenes kerítéskalkulátor: a kerítéshossz és az oszloptávolság metrikus vagy angolszász mértékegységben megadja az oszlopokat, vízszintes elemeket, léceket (a lécszélességből és közből) és betonzsákokat — a lécekre hulladékráhagyással.",
-  "id": "/loona-construction-calculators/hu/fence-calculator/",
+  "id": "/hu/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "محول AWG مجاني: مقاس AWG إلى القطر بـ mm والبوصة، والمقطع العرضي بـ mm² والمقاومة لكل كيلومتر للنحاس والألومنيوم — أو اعثر على أقرب AWG من mm² أو القطر.",
-  "id": "/loona-construction-calculators/ar/awg-converter/",
+  "id": "/ar/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Stairs Calculator",
   "short_name": "Stairs Calculator",
   "description": "Calcolatore gratuito delle scale: inserisci la salita totale in metrico o imperiale — ottieni il numero di gradini, l'altezza esatta dell'alzata, il percorso totale e la lunghezza del cosciale, con la regola di comfort 2R + T verificata automaticamente.",
-  "id": "/loona-construction-calculators/it/stairs-calculator/",
+  "id": "/it/stairs-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

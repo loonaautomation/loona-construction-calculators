@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "Бесплатный калькулятор тока двигателя: мощность двигателя в kW или лошадиных силах, напряжение, однофазное или трёхфазное питание, КПД и коэффициент мощности дают расчётный ток полной нагрузки — с честными оговорками о заводской табличке и нормах.",
-  "id": "/loona-construction-calculators/ru/motor-current-calculator/",
+  "id": "/ru/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

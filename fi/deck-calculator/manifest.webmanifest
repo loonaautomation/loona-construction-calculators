@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Ilmainen terassilaskuri: terassin koko ja laudan leveys metrisenä tai tuumaisena antavat ostettavat terassilaudat, laudan kokonaispituuden, palkit ja ruuviarvion — laudan rako, koolausväli ja hukkalisä mukaan lukien.",
-  "id": "/loona-construction-calculators/fi/deck-calculator/",
+  "id": "/fi/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

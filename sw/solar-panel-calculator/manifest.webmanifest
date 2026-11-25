@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "Kikokotoo cha bure cha paneli za jua: matumizi ya umeme ya kila mwezi, saa za jua za kilele na wati za paneli hukupa paneli zinazohitajika, ukubwa wa mfumo katika kW, uzalishaji unaotarajiwa wa kila mwezi na eneo la paa — bila kujisajili.",
-  "id": "/loona-construction-calculators/sw/solar-panel-calculator/",
+  "id": "/sw/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

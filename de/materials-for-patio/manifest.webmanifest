@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 16 × 20 ft Patio",
   "short_name": "Materials for a 16 × 20 ft",
   "description": "Einkaufsliste für eine 16×20 ft Terrasse: Pflasteranzahl auf Raster, Sandbett, Kiesbasis und Randbefestigungen — berechnete Mengen.",
-  "id": "/loona-construction-calculators/de/materials-for-patio/",
+  "id": "/de/materials-for-patio/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

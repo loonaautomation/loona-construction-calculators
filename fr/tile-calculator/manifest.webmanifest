@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Calculateur gratuit de carrelage : taille du sol ou du mur, taille du carreau et joint en métrique ou impérial — obtenez le nombre exact de carreaux et de boîtes à acheter, y compris une marge de perte pour les coupes et les casses.",
-  "id": "/loona-construction-calculators/fr/tile-calculator/",
+  "id": "/fr/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

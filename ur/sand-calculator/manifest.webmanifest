@@ -2,7 +2,7 @@
   "name": "Loona Sand Calculator",
   "short_name": "Sand Calculator",
   "description": "مفت ریت کیلکولیٹر: میٹرک یا امپیریل میں رقبہ اور گہرائی آپ کو ریت حجم، tonnes اور US tons میں وزن، اور 25 kg بوریوں کی تعداد دیتے ہیں — کثافت اور ضیاع گنجائش کے ساتھ، ریت خانوں، پیونگ بنیادوں اور اسکریڈز کے لیے۔",
-  "id": "/loona-construction-calculators/ur/sand-calculator/",
+  "id": "/ur/sand-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

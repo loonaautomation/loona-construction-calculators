@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 12 × 16 ft Deck",
   "short_name": "Materials for a 12 × 16 ft",
   "description": "Inköpslista för en trall på 12×16 ft: trallbrädor, board feet, bjälkar, stolpar och skruvantal — beräknade från läggningen, med kodförbehåll angivna.",
-  "id": "/loona-construction-calculators/sv/materials-for-12x16-deck/",
+  "id": "/sv/materials-for-12x16-deck/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

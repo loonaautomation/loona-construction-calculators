@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Bezplatná kalkulačka sádrokartonu: rozměry místnosti v metrických nebo imperiálních jednotkách — získáte plochu stěn a stropu a počet desek 1200 × 2400 mm nebo 4 × 8 ft k nákupu, včetně odpadu.",
-  "id": "/loona-construction-calculators/cs/drywall-calculator/",
+  "id": "/cs/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

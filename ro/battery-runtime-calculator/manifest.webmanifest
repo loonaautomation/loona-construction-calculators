@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "Calculator gratuit de autonomie a bateriei: volții și amperii-oră ai bateriei, wații consumatorului, adâncimea de descărcare și eficiența invertorului oferă wați-oră utili și autonomia în ore — pentru planificare solară, UPS și în afara rețelei.",
-  "id": "/loona-construction-calculators/ro/battery-runtime-calculator/",
+  "id": "/ro/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

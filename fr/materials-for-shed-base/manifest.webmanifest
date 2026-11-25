@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 10 × 12 ft Shed Base",
   "short_name": "Materials for a 10 × 12 ft",
   "description": "Matériaux pour une base d'abri de 10 × 12 ft : volume exact de béton et comptes de sacs prémélangés (dalle de 4 pouces, 10% d'extra) plus des notes d'achat pour la base et le ferraillage.",
-  "id": "/loona-construction-calculators/fr/materials-for-shed-base/",
+  "id": "/fr/materials-for-shed-base/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

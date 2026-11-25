@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "無料のデシベル変換ツール：独自の基準で電力比と電圧比を dB へ、dBm をミリワットとワットへ、電力を dBm と dBW に戻す変換 — 公式と計算例付きです。",
-  "id": "/loona-construction-calculators/ja/db-converter/",
+  "id": "/ja/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

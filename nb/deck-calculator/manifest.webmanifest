@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Gratis terrassekalkulator: terrassestørrelse og bordbredde i metrisk eller imperiell gir deg terrassebord å kjøpe, total bordlengde, bjelker og et skrueanslag — med bordåpning, bjelkeavstand og svinntillegg.",
-  "id": "/loona-construction-calculators/nb/deck-calculator/",
+  "id": "/nb/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

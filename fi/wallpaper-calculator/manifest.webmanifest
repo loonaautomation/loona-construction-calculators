@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Ilmainen tapettilaskuri: huoneen koko metrisenä tai tuumaisena, eurooppalaiset tai yhdysvaltalaiset kaksoisrullat, kuviotoisto huomioituna — saat tarkan määrän ostettavia tapettirullia, hukka mukaan lukien.",
-  "id": "/loona-construction-calculators/fi/wallpaper-calculator/",
+  "id": "/fi/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

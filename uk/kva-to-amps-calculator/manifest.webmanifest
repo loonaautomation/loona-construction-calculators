@@ -2,7 +2,7 @@
   "name": "Loona kVA to Amps Calculator",
   "short_name": "kVA to Amps Calculator",
   "description": "Безкоштовний калькулятор кВА в ампери для однофазних і трифазних мереж — і навпаки, ампери в кВА. Визначайте струми генератора, трансформатора й живлення за кВА та напругою.",
-  "id": "/loona-construction-calculators/uk/kva-to-amps-calculator/",
+  "id": "/uk/kva-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "حاسبة ألواح شمسية مجانية: استخدام الكهرباء الشهري وساعات ذروة الشمس وقدرة اللوح بالواط تعطيك الألواح اللازمة وحجم النظام بـ kW والإنتاج الشهري المتوقع ومساحة السقف — بدون تسجيل.",
-  "id": "/loona-construction-calculators/ar/solar-panel-calculator/",
+  "id": "/ar/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

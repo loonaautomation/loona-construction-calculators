@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "Máy tính sỏi miễn phí: diện tích và độ sâu theo hệ mét hoặc imperial — nhận thể tích sỏi theo mét khối và yard khối và khối lượng theo tấn và tấn Mỹ, với khối lượng riêng điều chỉnh được và dự phòng hao hụt.",
-  "id": "/loona-construction-calculators/vi/gravel-calculator/",
+  "id": "/vi/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "Calcolatore gratuito dei pannelli solari: il consumo mensile di elettricità, le ore di sole di punta e la potenza dei pannelli ti danno i pannelli necessari, la dimensione del sistema in kW, la produzione mensile prevista e l'area del tetto — senza registrazione.",
-  "id": "/loona-construction-calculators/it/solar-panel-calculator/",
+  "id": "/it/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

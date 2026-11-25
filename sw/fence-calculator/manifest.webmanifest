@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Kikokotoo cha bure cha uzio: urefu wa uzio na nafasi ya nguzo katika metriki au imperial hukupa nguzo, reli, fito (kutoka upana wa fito na pengo) na mifuko ya zege — kwa posho ya upotevu kwa fito.",
-  "id": "/loona-construction-calculators/sw/fence-calculator/",
+  "id": "/sw/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

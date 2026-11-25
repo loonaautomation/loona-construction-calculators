@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Modular)",
   "short_name": "Brick Size in United States",
   "description": "Ukubwa wa kawaida wa tofali nchini Marekani (Modula): 194 × 92 × 57 mm. Matofali 73.9 kwa m² (6.87 kwa sq ft) ya ukuta wa safu moja kwa viungo vya chokaa vya 9.5 mm, ufunikaji kwa matofali 1,000 na mfano wa ukuta uliofanyiwa kazi.",
-  "id": "/loona-construction-calculators/sw/brick-size-us-modular/",
+  "id": "/sw/brick-size-us-modular/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

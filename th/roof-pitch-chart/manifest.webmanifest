@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "ตารางความลาดชันหลังคาฉบับสมบูรณ์: 1/12 ถึง 12/12 พร้อมมุม ความชัน และตัวคูณจันทัน แต่ละค่าความลาดชันมีหน้าคู่มือของตัวเอง",
-  "id": "/loona-construction-calculators/th/roof-pitch-chart/",
+  "id": "/th/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

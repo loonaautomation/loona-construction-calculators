@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "Ilmainen betonilaskuri: laatan pituus, leveys ja paksuus metrisenä tai tuumaisena — saat betonin tilavuuden kuutiometreinä ja kuutiojaardeina sekä tarvitsemiesi 20/25 kg tai 60/80 lb valmisseossäkkien määrän.",
-  "id": "/loona-construction-calculators/fi/concrete-calculator/",
+  "id": "/fi/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

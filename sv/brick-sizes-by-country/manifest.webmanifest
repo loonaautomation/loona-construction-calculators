@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Standard tegelstorlekar i Storbritannien, USA, Indien, Pakistan, Australien, Tyskland och Sydafrika — mått och tegelstenar per kvadratmeter jämförda.",
-  "id": "/loona-construction-calculators/sv/brick-sizes-by-country/",
+  "id": "/sv/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

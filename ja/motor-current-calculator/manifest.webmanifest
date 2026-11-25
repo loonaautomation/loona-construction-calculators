@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "無料のモーター電流計算機：モーターの動力を kW または馬力で、電圧、単相または三相、効率、力率を入力すると、推定の全負荷電流が得られます — 正直な銘板と規程上の注意付きです。",
-  "id": "/loona-construction-calculators/ja/motor-current-calculator/",
+  "id": "/ja/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

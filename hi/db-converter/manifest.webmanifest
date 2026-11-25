@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "मुफ़्त डेसीबल कनवर्टर: अपने संदर्भ के साथ पावर अनुपात और वोल्टेज अनुपात से dB, dBm से मिलीवाट और वाट, और पावर वापस dBm और dBW तक — सूत्र और कार्यित उदाहरण।",
-  "id": "/loona-construction-calculators/hi/db-converter/",
+  "id": "/hi/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

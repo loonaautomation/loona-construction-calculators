@@ -2,7 +2,7 @@
   "name": "Loona Board Foot Calculator",
   "short_name": "Board Foot Calculator",
   "description": "Gratis board foot-kalkylator: virkestjocklek, bredd, längd och styckantal i imperial eller metriskt — få totala board feet och kubikmeter för din virkesbeställning.",
-  "id": "/loona-construction-calculators/sv/board-foot-calculator/",
+  "id": "/sv/board-foot-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "免费覆盖物计算器：苗床面积和深度（公制或英制）— 得到覆盖物体积、40/50 升或 2/3 立方英尺袋的数量，以及散装立方米和立方码。",
-  "id": "/loona-construction-calculators/zh/mulch-calculator/",
+  "id": "/zh/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

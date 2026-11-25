@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Besplatni kalkulator ograde: duljina ograde i razmak stupova u metričkim ili imperijalnim jedinicama daju vam stupove, prečke, letvice (iz širine letvice i razmaka) i vreće betona — s dodatkom za otpad za letvice.",
-  "id": "/loona-construction-calculators/hr/fence-calculator/",
+  "id": "/hr/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

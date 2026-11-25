@@ -2,7 +2,7 @@
   "name": "Loona How Much Paint for 100 Sq Ft of Wall?",
   "short_name": "How Much Paint for 100 Sq Ft",
   "description": "Farbe für 100 sq ft Wand: 2.0 Liter (0.5 gal) für 2 Anstriche bei typischer Abdeckung von 10 m²/L, plus 0.9 L Grundierung — mit den angegebenen Annahmen.",
-  "id": "/loona-construction-calculators/de/paint-for-100-sq-ft/",
+  "id": "/de/paint-for-100-sq-ft/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

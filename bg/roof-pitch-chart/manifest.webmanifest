@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Пълна таблица за наклон на покрива: от 1/12 до 12/12 с ъгли, наклони и коефициенти за ребрата, всеки наклон със собствена страница с указания.",
-  "id": "/loona-construction-calculators/bg/roof-pitch-chart/",
+  "id": "/bg/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

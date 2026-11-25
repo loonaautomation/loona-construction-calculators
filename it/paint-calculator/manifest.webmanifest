@@ -2,7 +2,7 @@
   "name": "Loona Paint Calculator",
   "short_name": "Paint Calculator",
   "description": "Calcolatore gratuito della vernice: inserisci la dimensione della stanza in metri o piedi, sottrai porte e finestre, scegli mani e copertura, e ottieni la vernice e il primer necessari in litri o galloni — con un margine di sfrido.",
-  "id": "/loona-construction-calculators/it/paint-calculator/",
+  "id": "/it/paint-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

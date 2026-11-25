@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "Kalkulator konkrit percuma: panjang, lebar dan ketebalan papak dalam metrik atau imperial — dapatkan isi padu konkrit dalam meter padu dan ela padu, serta bilangan beg pracampuran 20/25 kg atau 60/80 lb yang anda perlukan.",
-  "id": "/loona-construction-calculators/ms/concrete-calculator/",
+  "id": "/ms/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

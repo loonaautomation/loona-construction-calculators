@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "Calculator gratuit de asfalt: introduceți lungimea, lățimea și grosimea în metric sau imperial și obțineți greutatea asfaltului de comandat în tone și tone SUA, cu densitate editabilă (2,450 kg/m³ / 145 lb/ft³), rezervă pentru pierderi și cost opțional.",
-  "id": "/loona-construction-calculators/ro/asphalt-calculator/",
+  "id": "/ro/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

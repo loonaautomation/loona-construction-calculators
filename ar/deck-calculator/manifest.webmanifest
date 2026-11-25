@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "حاسبة سطح خشبي مجانية: مقاس السطح وعرض اللوح بالمتري أو الإمبراطوري يعطيانك ألواح السطح المطلوب شراؤها وإجمالي طول الألواح والروافد وتقدير براغي — مع فجوة الألواح وتباعد الروافد وبدل الفاقد.",
-  "id": "/loona-construction-calculators/ar/deck-calculator/",
+  "id": "/ar/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

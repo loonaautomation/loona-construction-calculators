@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Australia",
   "short_name": "Brick Size in Australia",
   "description": "Misura standard del mattone in Australia: 230 × 110 × 76 mm. 48.4 mattoni per m² (4.50 per sq ft) di muro a singola fodera con giunti di malta da 10 mm, copertura per 1,000 mattoni e un esempio di muro risolto.",
-  "id": "/loona-construction-calculators/it/brick-size-australia/",
+  "id": "/it/brick-size-australia/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

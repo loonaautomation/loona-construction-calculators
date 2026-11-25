@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "জার্মানিতে (NF) মানক ইটের আকার: 240 × 115 × 71 mm। 49.4 mm মসলা জোড়সহ একস্তর দেয়ালের প্রতি m²-এ 4.59টি ইট (প্রতি sq ft-এ 10), প্রতি 1,000 ইটের আচ্ছাদন এবং একটি করা দেয়ালের উদাহরণ।",
-  "id": "/loona-construction-calculators/bn/brick-size-germany/",
+  "id": "/bn/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

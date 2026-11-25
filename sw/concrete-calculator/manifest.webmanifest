@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "Kikokotoo cha bure cha zege: urefu wa slabu, upana na unene katika metriki au imperial — pata kiasi cha zege katika mita za ujazo na yadi za ujazo, pamoja na ni mifuko mingapi ya mchanganyiko tayari ya 20/25 kg au 60/80 lb unahitaji.",
-  "id": "/loona-construction-calculators/sw/concrete-calculator/",
+  "id": "/sw/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

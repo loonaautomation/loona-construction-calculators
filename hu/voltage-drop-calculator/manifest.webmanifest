@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Ingyenes feszültségesés-kalkulátor: egyszeres kábelhossz, áram, réz vagy alumínium, kábelméret mm²-ben vagy AWG-ben, egyfázisú vagy háromfázisú — esett volt és % esés 3%/5% útmutatással.",
-  "id": "/loona-construction-calculators/hu/voltage-drop-calculator/",
+  "id": "/hu/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

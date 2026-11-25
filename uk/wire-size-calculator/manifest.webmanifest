@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Безкоштовний калькулятор перерізу дроту: струм, довжина в один бік, допустиме падіння напруги у %, напруга, мідь або алюміній, одна чи три фази — мінімальний переріз кабелю в мм², найближчий стандартний розмір і еквівалент AWG.",
-  "id": "/loona-construction-calculators/uk/wire-size-calculator/",
+  "id": "/uk/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

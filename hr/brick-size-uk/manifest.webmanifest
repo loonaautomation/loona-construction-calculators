@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United Kingdom",
   "short_name": "Brick Size in United Kingdom",
   "description": "Standardna veličina opeke u Ujedinjenom Kraljevstvu: 215 × 102.5 × 65 mm. 59.3 opeka po m² (5.51 po sq ft) jednoslojnog zida sa spojnicama morta od 10 mm, pokrivenost po 1,000 opeka i obrađeni primjer zida.",
-  "id": "/loona-construction-calculators/hr/brick-size-uk/",
+  "id": "/hr/brick-size-uk/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

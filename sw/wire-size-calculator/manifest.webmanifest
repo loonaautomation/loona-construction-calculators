@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Kikokotoo cha bure cha ukubwa wa waya: mkondo, urefu wa njia moja, % ya kushuka kwa volti inayokubalika, volti, shaba au alumini, awamu moja au awamu tatu — ukubwa wa chini wa kebo katika mm², ukubwa wa kawaida wa karibu zaidi na unaolingana wa AWG.",
-  "id": "/loona-construction-calculators/sw/wire-size-calculator/",
+  "id": "/sw/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

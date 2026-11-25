@@ -2,7 +2,7 @@
   "name": "Loona Amps to Watts Calculator",
   "short_name": "Amps to Watts Calculator",
   "description": "Δωρεάν υπολογιστής amps σε watts για DC, AC μονοφασικό και AC τριφασικό: ρεύμα, τάση και συντελεστής ισχύος δίνουν watts, kilowatts και kVA — με τύπους και επεξεργασμένο παράδειγμα.",
-  "id": "/loona-construction-calculators/el/amps-to-watts-calculator/",
+  "id": "/el/amps-to-watts-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

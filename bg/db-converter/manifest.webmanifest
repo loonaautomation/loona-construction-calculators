@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "Безплатен конвертор на децибели: съотношения на мощност и напрежение в dB със собствен еталон, dBm в миливатове и ватове и мощност обратно в dBm и dBW — формули и разработени примери.",
-  "id": "/loona-construction-calculators/bg/db-converter/",
+  "id": "/bg/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

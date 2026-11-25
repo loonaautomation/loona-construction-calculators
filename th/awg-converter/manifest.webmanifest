@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "ตัวแปลง AWG ฟรี: เกจ AWG เป็นเส้นผ่านศูนย์กลางเป็น mm และนิ้ว พื้นที่หน้าตัดเป็น mm² และความต้านทานต่อกิโลเมตรสำหรับทองแดงและอะลูมิเนียม — หรือค้นหา AWG ที่ใกล้ที่สุดจาก mm² หรือเส้นผ่านศูนย์กลาง",
-  "id": "/loona-construction-calculators/th/awg-converter/",
+  "id": "/th/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

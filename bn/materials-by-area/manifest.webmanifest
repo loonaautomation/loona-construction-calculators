@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "আপনার ক্ষেত্রফলের জন্য কত উপকরণ? 100 থেকে 3,000 sq ft-এর জন্য কংক্রিটের আয়তন, টাইলসের সংখ্যা ও রঙের পরিমাণ — সাইটের নিজস্ব ক্যালকুলেটর দিয়ে হিসাব করা।",
-  "id": "/loona-construction-calculators/bn/materials-by-area/",
+  "id": "/bn/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona kVA to Amps Calculator",
   "short_name": "kVA to Amps Calculator",
   "description": "Kikokotoo cha bure cha kVA hadi ampea kwa usambazaji wa awamu moja na awamu tatu — na kinyume, ampea hadi kVA. Pima mikondo ya jenereta, transfoma na usambazaji kutoka kVA na volti.",
-  "id": "/loona-construction-calculators/sw/kva-to-amps-calculator/",
+  "id": "/sw/kva-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

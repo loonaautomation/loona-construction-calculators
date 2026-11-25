@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "Free pool volume calculator for rectangle, round and oval pools: enter the size and shallow/deep end depths in metric or imperial and get the water volume in litres and US gallons for chemical dosing and filling.",
-  "id": "/loona-construction-calculators/pool-volume-calculator/",
+  "id": "/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

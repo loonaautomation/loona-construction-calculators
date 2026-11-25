@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Kompletna tabela nachylenia dachu: od 1/12 do 12/12 z kątami, spadkami i mnożnikami krokwi, każde nachylenie z własną stroną przewodnika.",
-  "id": "/loona-construction-calculators/pl/roof-pitch-chart/",
+  "id": "/pl/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

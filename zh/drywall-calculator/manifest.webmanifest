@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "免费石膏板计算器：房间尺寸（公制或英制）— 得到墙面和天花板面积以及要买的 1200 × 2400 mm 或 4 × 8 ft 板材数量，含损耗。",
-  "id": "/loona-construction-calculators/zh/drywall-calculator/",
+  "id": "/zh/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

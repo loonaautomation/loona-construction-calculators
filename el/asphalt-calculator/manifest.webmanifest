@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "Δωρεάν υπολογιστής ασφάλτου: εισαγάγετε μήκος, πλάτος και πάχος σε μετρικό ή αυτοκρατορικό και λάβετε το βάρος ασφάλτου για παραγγελία σε τόνους και τόνους ΗΠΑ, με επεξεργάσιμη πυκνότητα (2,450 kg/m³ / 145 lb/ft³), περιθώριο φθοράς και προαιρετικό κόστος.",
-  "id": "/loona-construction-calculators/el/asphalt-calculator/",
+  "id": "/el/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Bezplatná kalkulačka úbytku napětí: jednosměrná délka kabelu, proud, měď nebo hliník, průřez kabelu v mm² nebo AWG, jednofázové nebo třífázové — úbytek ve voltech a % úbytku s vodítkem 3%/5%.",
-  "id": "/loona-construction-calculators/cs/voltage-drop-calculator/",
+  "id": "/cs/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

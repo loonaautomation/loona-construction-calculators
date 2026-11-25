@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Бесплатный калькулятор террасы: размер террасы и ширина доски в метрической или имперской системе дадут вам доски для покупки, общую длину досок, лаги и оценку количества шурупов — с зазором между досками, шагом лаг и запасом на отходы.",
-  "id": "/loona-construction-calculators/ru/deck-calculator/",
+  "id": "/ru/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

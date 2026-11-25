@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Máy tính hàng rào miễn phí: chiều dài hàng rào và khoảng cách cột theo hệ mét hoặc imperial cho bạn cột, thanh ngang, thanh cọc (từ chiều rộng thanh cọc và khe) và bao bê tông — với dự phòng hao hụt cho thanh cọc.",
-  "id": "/loona-construction-calculators/vi/fence-calculator/",
+  "id": "/vi/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

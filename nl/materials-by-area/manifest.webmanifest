@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Hoeveel materiaal voor jouw oppervlakte? Betonvolumes, tegelaantallen en verfhoeveelheden voor 100 tot 3,000 sq ft — berekend met de eigen calculators van de site.",
-  "id": "/loona-construction-calculators/nl/materials-by-area/",
+  "id": "/nl/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

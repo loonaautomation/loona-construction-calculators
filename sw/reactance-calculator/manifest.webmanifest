@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "Kikokotoo cha bure cha ukinzani tendaji: masafa kwa uwezo wa umeme (µF) hutoa ukinzani tendaji wa kapasita Xc, kwa uingizaji (mH) hutoa ukinzani tendaji wa indukta Xl — ingiza vyote kwa ukinzani tendaji halisi na masafa ya resonant ya LC.",
-  "id": "/loona-construction-calculators/sw/reactance-calculator/",
+  "id": "/sw/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

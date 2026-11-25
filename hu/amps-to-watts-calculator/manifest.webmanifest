@@ -2,7 +2,7 @@
   "name": "Loona Amps to Watts Calculator",
   "short_name": "Amps to Watts Calculator",
   "description": "Ingyenes amper–watt kalkulátor egyenáramra, AC egyfázisúra és AC háromfázisúra: az áram, feszültség és teljesítménytényező wattot, kilowattot és kVA-t ad — képletekkel és kidolgozott példával.",
-  "id": "/loona-construction-calculators/hu/amps-to-watts-calculator/",
+  "id": "/hu/amps-to-watts-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

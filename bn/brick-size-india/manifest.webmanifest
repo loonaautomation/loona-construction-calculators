@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in India",
   "short_name": "Brick Size in India",
   "description": "ভারতে মানক ইটের আকার: 190 × 90 × 90 mm। 50.0 mm মসলা জোড়সহ একস্তর দেয়ালের প্রতি m²-এ 4.65টি ইট (প্রতি sq ft-এ 10), প্রতি 1,000 ইটের আচ্ছাদন এবং একটি করা দেয়ালের উদাহরণ।",
-  "id": "/loona-construction-calculators/bn/brick-size-india/",
+  "id": "/bn/brick-size-india/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

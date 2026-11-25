@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "Misura standard del mattone in Germania (NF): 240 × 115 × 71 mm. 49.4 mattoni per m² (4.59 per sq ft) di muro a singola fodera con giunti di malta da 10 mm, copertura per 1,000 mattoni e un esempio di muro risolto.",
-  "id": "/loona-construction-calculators/it/brick-size-germany/",
+  "id": "/it/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

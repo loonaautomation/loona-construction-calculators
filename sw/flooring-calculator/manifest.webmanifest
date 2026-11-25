@@ -2,7 +2,7 @@
   "name": "Loona Flooring Calculator",
   "short_name": "Flooring Calculator",
   "description": "Kikokotoo cha bure cha sakafu: ukubwa wa chumba na ufunikaji wa kisanduku katika metriki au imperial — pata idadi ya visanduku vya laminate, vinyl au mbao za uhandisi vya kununua, pamoja na posho ya upotevu wa ukataji.",
-  "id": "/loona-construction-calculators/sw/flooring-calculator/",
+  "id": "/sw/flooring-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

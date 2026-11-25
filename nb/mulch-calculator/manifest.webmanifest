@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Gratis dekkmaterialkalkulator: bedareal og dybde i metrisk eller imperiell — få dekkmaterialvolum, antall sekker på 40/50 liter eller 2/3 kubikkfot, og bulk i kubikkmeter og yard.",
-  "id": "/loona-construction-calculators/nb/mulch-calculator/",
+  "id": "/nb/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

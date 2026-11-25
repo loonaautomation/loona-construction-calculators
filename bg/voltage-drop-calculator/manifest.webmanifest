@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "Безплатен калкулатор за пад на напрежението: дължина на кабела в една посока, ток, мед или алуминий, размер на кабела в mm² или AWG, еднофазно или трифазно свързване — изгубени волта и % пад с указания 3%/5%.",
-  "id": "/loona-construction-calculators/bg/voltage-drop-calculator/",
+  "id": "/bg/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

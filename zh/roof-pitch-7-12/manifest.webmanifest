@@ -2,7 +2,7 @@
   "name": "Loona 7/12 Roof Pitch",
   "short_name": "7/12 Roof Pitch",
   "description": "7/12 屋顶坡度为 30.26 度（坡度 58%）。椽子系数 1.1577，常见水平跨度的椽子长度、材料与用途。",
-  "id": "/loona-construction-calculators/zh/roof-pitch-7-12/",
+  "id": "/zh/roof-pitch-7-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

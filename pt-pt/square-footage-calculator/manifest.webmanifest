@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "Calculadora de área gratuita: adicione divisões em formas retangulares, circulares, triangulares e em L, em pés e polegadas ou metros, e obtenha a área total em pés quadrados, metros quadrados, jardas quadradas e acres — com uma estimativa de custo opcional.",
-  "id": "/loona-construction-calculators/pt-pt/square-footage-calculator/",
+  "id": "/pt-pt/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

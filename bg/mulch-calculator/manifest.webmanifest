@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Безплатен калкулатор за мулч: площ и дълбочина на лехата в метрична или имперска система — получете обема мулч, броя торби от 40/50 литра или 2/3 кубични фута и насипните кубични метри и ярдове.",
-  "id": "/loona-construction-calculators/bg/mulch-calculator/",
+  "id": "/bg/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

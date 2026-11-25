@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "Kalkulator durasi baterai gratis: volt dan ampere-jam baterai, watt beban, kedalaman pengosongan, dan efisiensi inverter memberikan watt-jam yang dapat digunakan dan durasi dalam jam — untuk perencanaan surya, UPS, dan off-grid.",
-  "id": "/loona-construction-calculators/id/battery-runtime-calculator/",
+  "id": "/id/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

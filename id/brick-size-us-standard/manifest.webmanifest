@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Standard)",
   "short_name": "Brick Size in United States",
   "description": "Ukuran bata standar di Amerika Serikat (Standar): 203 × 92 × 57 mm. 70.8 bata per m² (6.57 per sq ft) dinding satu lapis dengan sambungan mortar 9.5 mm, cakupan per 1,000 bata, dan contoh perhitungan dinding.",
-  "id": "/loona-construction-calculators/id/brick-size-us-standard/",
+  "id": "/id/brick-size-us-standard/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

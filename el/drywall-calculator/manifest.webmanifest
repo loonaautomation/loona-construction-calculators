@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Δωρεάν υπολογιστής γυψοσανίδας: μέγεθος δωματίου σε μετρικό ή αυτοκρατορικό — λάβετε επιφάνεια τοίχου και οροφής και τον αριθμό φύλλων 1200 × 2400 mm ή 4 × 8 ft προς αγορά, με φθορά.",
-  "id": "/loona-construction-calculators/el/drywall-calculator/",
+  "id": "/el/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

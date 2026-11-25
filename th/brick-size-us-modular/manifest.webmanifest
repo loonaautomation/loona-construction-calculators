@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Modular)",
   "short_name": "Brick Size in United States",
   "description": "ขนาดอิฐมาตรฐานในสหรัฐอเมริกา (แบบโมดูลาร์): 194 × 92 × 57 mm อิฐ 73.9 ก้อนต่อ m² (6.87 ต่อ sq ft) ของผนังชั้นเดียวด้วยรอยต่อปูน 9.5 mm พื้นที่ครอบคลุมต่ออิฐ 1,000 ก้อน และตัวอย่างผนังที่ทำไว้",
-  "id": "/loona-construction-calculators/th/brick-size-us-modular/",
+  "id": "/th/brick-size-us-modular/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

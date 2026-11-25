@@ -2,7 +2,7 @@
   "name": "Loona 2/12 Roof Pitch",
   "short_name": "2/12 Roof Pitch",
   "description": "Наклон на покрива 2/12 е 9.46 градуса (наклон 17%). Коефициент за реброто 1.0138, дължини на ребрата за обичайни хоризонтални дължини, материали и приложения.",
-  "id": "/loona-construction-calculators/bg/roof-pitch-2-12/",
+  "id": "/bg/roof-pitch-2-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

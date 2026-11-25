@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "Calculateur gratuit de volume de piscine pour piscines rectangulaires, rondes et ovales : saisissez la taille et les profondeurs des extrémités peu profonde et profonde en métrique ou impérial et obtenez le volume d'eau en litres et gallons US pour le dosage chimique et le remplissage.",
-  "id": "/loona-construction-calculators/fr/pool-volume-calculator/",
+  "id": "/fr/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Сколько материала нужно на вашу площадь? Объёмы бетона, количество плитки и количество краски для площади от 100 до 3,000 sq ft — рассчитано собственными калькуляторами сайта.",
-  "id": "/loona-construction-calculators/ru/materials-by-area/",
+  "id": "/ru/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

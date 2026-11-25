@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Mennyi anyag a területéhez? Betontérfogatok, csempedarabszámok és festékmennyiségek 100-tól 3,000 négyzetlábig — az oldal saját kalkulátoraival számítva.",
-  "id": "/loona-construction-calculators/hu/materials-by-area/",
+  "id": "/hu/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

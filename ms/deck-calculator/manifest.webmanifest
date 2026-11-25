@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Kalkulator dek percuma: saiz dek dan lebar papan dalam metrik atau imperial memberikan papan dek untuk dibeli, jumlah panjang papan, gelegar dan anggaran skru — dengan celah papan, jarak gelegar dan elaun pembaziran.",
-  "id": "/loona-construction-calculators/ms/deck-calculator/",
+  "id": "/ms/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

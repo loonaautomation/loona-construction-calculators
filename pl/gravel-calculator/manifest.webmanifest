@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "Darmowy kalkulator żwiru: powierzchnia i głębokość w systemie metrycznym lub imperialnym — otrzymaj objętość żwiru w metrach sześciennych i jardach sześciennych oraz masę w tonach i tonach amerykańskich, z regulowaną gęstością i zapasem na odpady.",
-  "id": "/loona-construction-calculators/pl/gravel-calculator/",
+  "id": "/pl/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Calculadora gratuita de baldosas: tamaño de suelo o pared, tamaño de baldosa y junta en métrico o imperial — obtén el número exacto de baldosas y cajas a comprar, incluido un margen de desperdicio para cortes y roturas.",
-  "id": "/loona-construction-calculators/es/tile-calculator/",
+  "id": "/es/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

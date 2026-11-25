@@ -2,7 +2,7 @@
   "name": "Loona Flooring Calculator",
   "short_name": "Flooring Calculator",
   "description": "Kalkulator lantai gratis: ukuran ruangan dan cakupan kotak dalam metrik atau imperial — dapatkan jumlah kotak laminasi, vinil, atau kayu rekayasa yang harus dibeli, termasuk cadangan limbah pemotongan.",
-  "id": "/loona-construction-calculators/id/flooring-calculator/",
+  "id": "/id/flooring-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

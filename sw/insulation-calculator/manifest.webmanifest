@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "Kikokotoo cha bure cha kihami: ingiza eneo na thamani yako lengwa ya R (au RSI ya metriki) na upate pakiti za vipande/rolo au mifuko ya kihami inayopulizwa ya kununua, pamoja na unene ambao lengo lako huhitaji — metriki na imperial.",
-  "id": "/loona-construction-calculators/sw/insulation-calculator/",
+  "id": "/sw/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

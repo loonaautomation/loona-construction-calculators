@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Volledige dakhellingtabel: 1/12 tot 12/12 met hoeken, hellingspercentages en dakspantvermenigvuldigers, elke helling met een eigen gidspagina.",
-  "id": "/loona-construction-calculators/nl/roof-pitch-chart/",
+  "id": "/nl/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

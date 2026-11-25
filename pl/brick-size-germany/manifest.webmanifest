@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "Standardowy rozmiar cegły w Niemczech (NF): 240 × 115 × 71 mm. 49.4 cegieł na m² (4.59 na sq ft) ściany jednowarstwowej przy fugach zaprawy 10 mm, pokrycie na 1,000 cegieł i przykład obliczeniowy ściany.",
-  "id": "/loona-construction-calculators/pl/brick-size-germany/",
+  "id": "/pl/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

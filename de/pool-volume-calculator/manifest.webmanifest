@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "Kostenloser Poolvolumen-Rechner für rechteckige, runde und ovale Pools: Geben Sie die Größe und die Tiefen am flachen/tiefen Ende in metrisch oder imperial ein und erhalten Sie das Wasservolumen in Litern und US-Gallonen für Chemikaliendosierung und Befüllung.",
-  "id": "/loona-construction-calculators/de/pool-volume-calculator/",
+  "id": "/de/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

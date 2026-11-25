@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Darmowy kalkulator ściółki: powierzchnia rabaty i głębokość w systemie metrycznym lub imperialnym — otrzymaj objętość ściółki, liczbę worków 40/50 litrów lub 2/3 stopy sześciennej oraz metry i jardy sześcienne luzem.",
-  "id": "/loona-construction-calculators/pl/mulch-calculator/",
+  "id": "/pl/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

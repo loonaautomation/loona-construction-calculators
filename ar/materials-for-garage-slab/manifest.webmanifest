@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "مواد بلاطة مرآب 20 × 20 ft: حجم خرسانة دقيق وأعداد أكياس خلط جاهز (بلاطة 4 بوصات، 10% إضافية) زائد ملاحظات تسوق الأساس والتسليح.",
-  "id": "/loona-construction-calculators/ar/materials-for-garage-slab/",
+  "id": "/ar/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

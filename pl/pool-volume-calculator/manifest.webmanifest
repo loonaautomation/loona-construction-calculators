@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "Darmowy kalkulator objętości basenu dla basenów prostokątnych, okrągłych i owalnych: wpisz rozmiar oraz głębokości płytkiego i głębokiego końca w systemie metrycznym lub imperialnym, a otrzymasz objętość wody w litrach i galonach amerykańskich do dawkowania chemii i napełniania.",
-  "id": "/loona-construction-calculators/pl/pool-volume-calculator/",
+  "id": "/pl/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

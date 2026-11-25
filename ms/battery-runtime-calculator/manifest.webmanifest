@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "Kalkulator masa jalan bateri percuma: volt bateri dan amp-jam, watt beban, kedalaman nyahcas dan kecekapan penyongsang memberikan watt-jam yang boleh digunakan dan masa jalan dalam jam — untuk perancangan solar, UPS dan luar grid.",
-  "id": "/loona-construction-calculators/ms/battery-runtime-calculator/",
+  "id": "/ms/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

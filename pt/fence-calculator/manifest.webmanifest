@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Calculadora gratuita de cercas: o comprimento da cerca e a distância entre postes em métrico ou imperial dão-lhe os postes, travessas, estacas (a partir da largura e do espaçamento) e sacos de betão — com uma margem de desperdício para as estacas.",
-  "id": "/loona-construction-calculators/pt/fence-calculator/",
+  "id": "/pt/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

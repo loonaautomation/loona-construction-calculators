@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Tableau complet des pentes de toit : de 1/12 à 12/12 avec angles, pentes et multiplicateurs de chevrons, chaque pente avec sa propre page guide.",
-  "id": "/loona-construction-calculators/fr/roof-pitch-chart/",
+  "id": "/fr/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

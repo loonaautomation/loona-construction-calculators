@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "Kalkulator watt kepada amp percuma untuk DC, AC satu fasa dan AC tiga fasa: kuasa, voltan dan faktor kuasa memberikan arus dalam amp — langkah pertama untuk menentukan saiz pemutus litar atau kabel.",
-  "id": "/loona-construction-calculators/ms/watts-to-amps-calculator/",
+  "id": "/ms/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

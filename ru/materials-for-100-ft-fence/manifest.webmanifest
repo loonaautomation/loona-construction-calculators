@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 100 ft Fence",
   "short_name": "Materials for a 100 ft Fence",
   "description": "Список покупок для забора 100 ft высотой 6 ft: 13 столбов, 13 пролётов панелей или 340 штакетин, честные количества бетона на яму и количество крепежа.",
-  "id": "/loona-construction-calculators/ru/materials-for-100-ft-fence/",
+  "id": "/ru/materials-for-100-ft-fence/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 20 × 20 ft Garage Slab",
   "short_name": "Materials for a 20 × 20 ft",
   "description": "Bahan untuk Papak Garaj 20 × 20 kaki: isi padu konkrit tepat dan bilangan beg pracampuran (papak 4 inci, 10% tambahan) serta nota belian tapak dan tetulang.",
-  "id": "/loona-construction-calculators/ms/materials-for-garage-slab/",
+  "id": "/ms/materials-for-garage-slab/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

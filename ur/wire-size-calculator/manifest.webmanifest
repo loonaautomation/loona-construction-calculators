@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "مفت تار سائز کیلکولیٹر: کرنٹ، یک طرفہ لمبائی، اجازت شدہ وولٹیج ڈراپ %، وولٹیج، تانبا یا ایلومینیم، سنگل یا تھری فیز — mm² میں کم از کم کیبل سائز، قریب ترین معیاری سائز اور AWG مساوی۔",
-  "id": "/loona-construction-calculators/ur/wire-size-calculator/",
+  "id": "/ur/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

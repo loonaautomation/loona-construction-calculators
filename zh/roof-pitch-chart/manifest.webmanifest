@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "完整的屋顶坡度表：1/12 到 12/12 的角度、坡度和椽子系数，每种坡度都有自己的指南页面。",
-  "id": "/loona-construction-calculators/zh/roof-pitch-chart/",
+  "id": "/zh/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona kVA to Amps Calculator",
   "short_name": "kVA to Amps Calculator",
   "description": "Gratis kVA-till-ampere-kalkylator för enfas- och trefasmatningar — och omvänt, ampere till kVA. Dimensionera generator-, transformator- och matningsströmmar från kVA och spänning.",
-  "id": "/loona-construction-calculators/sv/kva-to-amps-calculator/",
+  "id": "/sv/kva-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

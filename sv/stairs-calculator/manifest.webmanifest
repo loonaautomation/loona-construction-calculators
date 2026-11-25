@@ -2,7 +2,7 @@
   "name": "Loona Stairs Calculator",
   "short_name": "Stairs Calculator",
   "description": "Gratis trappkalkylator: ange den totala stigningen i metriskt eller imperial — få antalet steg, exakt sättstegshöjd, totalt spann och vangstyckslängd, med 2R + T-komfortregeln kontrollerad automatiskt.",
-  "id": "/loona-construction-calculators/sv/stairs-calculator/",
+  "id": "/sv/stairs-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

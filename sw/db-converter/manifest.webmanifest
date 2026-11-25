@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "Kibadilishaji cha bure cha desibeli: uwiano wa nguvu na uwiano wa volti hadi dB kwa rejeo yako mwenyewe, dBm hadi miliwati na wati, na nguvu kurudi hadi dBm na dBW — fomula na mifano iliyofanyiwa kazi.",
-  "id": "/loona-construction-calculators/sw/db-converter/",
+  "id": "/sw/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

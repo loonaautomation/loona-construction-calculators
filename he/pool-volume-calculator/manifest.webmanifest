@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "מחשבון נפח בריכה חינמי לבריכות מלבניות, עגולות ואליפטיות: הזינו את המידה ואת עומקי הקצה הרדוד/עמוק במטרי או באימפריאלי וקבלו את נפח המים בליטרים ובגלונים אמריקאיים למינון כימי ולמילוי.",
-  "id": "/loona-construction-calculators/he/pool-volume-calculator/",
+  "id": "/he/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

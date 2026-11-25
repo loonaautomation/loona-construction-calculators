@@ -2,7 +2,7 @@
   "name": "Loona 2/12 Roof Pitch",
   "short_name": "2/12 Roof Pitch",
   "description": "Uma inclinação de telhado de 2/12 é 9.46 graus (inclinação de 17%). Multiplicador de caibro 1.0138, comprimentos de caibro para percursos comuns, materiais e usos.",
-  "id": "/loona-construction-calculators/pt/roof-pitch-2-12/",
+  "id": "/pt/roof-pitch-2-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

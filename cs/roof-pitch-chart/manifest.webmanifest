@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Kompletní tabulka sklonů střechy: 1/12 až 12/12 s úhly, sklony a násobiteli krokví, každý sklon s vlastní průvodní stránkou.",
-  "id": "/loona-construction-calculators/cs/roof-pitch-chart/",
+  "id": "/cs/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

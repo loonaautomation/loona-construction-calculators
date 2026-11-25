@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 16 × 20 ft Patio",
   "short_name": "Materials for a 16 × 20 ft",
   "description": "Liste d'achat pour un patio de 16×20 ft : compte de pavés au pas, lit de sable, base de gravier et bordures — quantités calculées.",
-  "id": "/loona-construction-calculators/fr/materials-for-patio/",
+  "id": "/fr/materials-for-patio/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

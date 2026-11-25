@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Besplatni kalkulator opeke: duljina i visina zida u metričkim ili imperijalnim jedinicama — dobit ćete broj standardnih opeka (215 mm ili američka modularna) za jednoslojni zid, uključujući dodatke za spojnice morta i otpad.",
-  "id": "/loona-construction-calculators/hr/brick-calculator/",
+  "id": "/hr/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

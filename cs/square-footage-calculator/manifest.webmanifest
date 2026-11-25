@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "Bezplatná kalkulačka plochy: přidejte místnosti ve tvaru obdélníku, kruhu, trojúhelníku a tvaru L, ve stopách a palcích nebo metrech, a získejte celkovou plochu ve čtverečních stopách, m², čtverečních yardech a akrech — s volitelným odhadem ceny.",
-  "id": "/loona-construction-calculators/cs/square-footage-calculator/",
+  "id": "/cs/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Materials by Area",
   "short_name": "Materials by Area",
   "description": "Hvor meget materiale til dit areal? Betonvolumener, fliseantal og malingmængder til 100 til 3,000 sq ft — beregnet med sitets egne beregnere.",
-  "id": "/loona-construction-calculators/da/materials-by-area/",
+  "id": "/da/materials-by-area/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

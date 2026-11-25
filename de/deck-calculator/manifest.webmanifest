@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Kostenloser Terrassen-Rechner: Terrassengröße und Dielenbreite metrisch oder imperial ergeben die zu kaufenden Dielen, die gesamte Dielenlänge, die Balken und eine Schraubenschätzung — mit Dielenabstand, Balkenabstand und Verschnittzugabe.",
-  "id": "/loona-construction-calculators/de/deck-calculator/",
+  "id": "/de/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

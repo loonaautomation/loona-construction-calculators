@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "ขนาดอิฐมาตรฐานในเยอรมนี (NF): 240 × 115 × 71 mm อิฐ 49.4 ก้อนต่อ m² (4.59 ต่อ sq ft) ของผนังชั้นเดียวด้วยรอยต่อปูน 10 mm พื้นที่ครอบคลุมต่ออิฐ 1,000 ก้อน และตัวอย่างผนังที่ทำไว้",
-  "id": "/loona-construction-calculators/th/brick-size-germany/",
+  "id": "/th/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

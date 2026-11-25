@@ -2,7 +2,7 @@
   "name": "Loona 1/12 Roof Pitch",
   "short_name": "1/12 Roof Pitch",
   "description": "Ухил даху 1/12 — це 4.76 градусів (ухил 8%). Коефіцієнт крокви 1.0035, довжини кроков для поширених прогонів, матеріали й застосування.",
-  "id": "/loona-construction-calculators/uk/roof-pitch-1-12/",
+  "id": "/uk/roof-pitch-1-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

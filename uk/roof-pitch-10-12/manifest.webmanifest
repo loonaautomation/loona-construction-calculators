@@ -2,7 +2,7 @@
   "name": "Loona 10/12 Roof Pitch",
   "short_name": "10/12 Roof Pitch",
   "description": "Ухил даху 10/12 — це 39.81 градусів (ухил 83%). Коефіцієнт крокви 1.3017, довжини кроков для поширених прогонів, матеріали й застосування.",
-  "id": "/loona-construction-calculators/uk/roof-pitch-10-12/",
+  "id": "/uk/roof-pitch-10-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

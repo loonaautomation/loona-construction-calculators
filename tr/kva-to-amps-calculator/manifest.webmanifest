@@ -2,7 +2,7 @@
   "name": "Loona kVA to Amps Calculator",
   "short_name": "kVA to Amps Calculator",
   "description": "Tek faz ve üç faz beslemeler için ücretsiz kVA-amper hesaplayıcısı — ve tersi, amperden kVA'ya. Jeneratör, transformatör ve besleme akımlarını kVA ve voltajdan boyutlandırın.",
-  "id": "/loona-construction-calculators/tr/kva-to-amps-calculator/",
+  "id": "/tr/kva-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

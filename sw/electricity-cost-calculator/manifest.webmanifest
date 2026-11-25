@@ -2,7 +2,7 @@
   "name": "Loona Electricity Cost Calculator",
   "short_name": "Electricity Cost Calculator",
   "description": "Kikokotoo cha bure cha gharama ya umeme: wati za kifaa (au ampea × volti), saa kwa siku, siku kwa mwezi na bei kwa kWh hutoa kWh iliyotumika na gharama kwa siku, mwezi na mwaka — sarafu yoyote.",
-  "id": "/loona-construction-calculators/sw/electricity-cost-calculator/",
+  "id": "/sw/electricity-cost-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

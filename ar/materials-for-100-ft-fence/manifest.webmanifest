@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 100 ft Fence",
   "short_name": "Materials for a 100 ft Fence",
   "description": "قائمة شراء لسياج 100 ft بارتفاع 6 ft: 13 عمودًا، 13 قسمًا من الألواح أو 340 وتدًا، كميات خرسانة صادقة لكل حفرة وأعداد مثبتات.",
-  "id": "/loona-construction-calculators/ar/materials-for-100-ft-fence/",
+  "id": "/ar/materials-for-100-ft-fence/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

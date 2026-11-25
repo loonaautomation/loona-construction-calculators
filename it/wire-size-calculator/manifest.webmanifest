@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Calcolatore gratuito della dimensione del cavo: corrente, lunghezza di sola andata, % di caduta di tensione consentita, tensione, rame o alluminio, mono o trifase — dimensione minima del cavo in mm², dimensione standard più vicina ed equivalente AWG.",
-  "id": "/loona-construction-calculators/it/wire-size-calculator/",
+  "id": "/it/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

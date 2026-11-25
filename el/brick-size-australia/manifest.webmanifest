@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Australia",
   "short_name": "Brick Size in Australia",
   "description": "Τυπικό μέγεθος τούβλου στην Αυστραλία: 230 × 110 × 76 mm. 48.4 τούβλα ανά m² (4.50 ανά sq ft) τοίχου μονής τοιχοποιίας με αρμούς κονιάματος 10 mm, κάλυψη ανά 1,000 τούβλα και ένα λυμένο παράδειγμα τοίχου.",
-  "id": "/loona-construction-calculators/el/brick-size-australia/",
+  "id": "/el/brick-size-australia/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

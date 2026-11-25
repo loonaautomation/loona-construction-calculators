@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Kalkulator wallpaper gratis: ukuran ruangan dalam metrik atau imperial, rol ganda Eropa atau AS, pengulangan pola diperhitungkan — dapatkan jumlah tepat rol wallpaper yang harus dibeli, termasuk limbah.",
-  "id": "/loona-construction-calculators/id/wallpaper-calculator/",
+  "id": "/id/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

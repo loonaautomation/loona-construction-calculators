@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "Máy tính nhựa đường miễn phí: nhập chiều dài, chiều rộng và độ dày theo hệ mét hoặc imperial và nhận khối lượng nhựa đường cần đặt theo tấn và tấn Mỹ, với khối lượng riêng chỉnh sửa được (2,450 kg/m³ / 145 lb/ft³), dự phòng hao hụt và chi phí tùy chọn.",
-  "id": "/loona-construction-calculators/vi/asphalt-calculator/",
+  "id": "/vi/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

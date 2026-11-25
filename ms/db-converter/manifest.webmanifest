@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "Penukar desibel percuma: nisbah kuasa dan nisbah voltan kepada dB dengan rujukan anda sendiri, dBm kepada miliwatt dan watt, dan kuasa kembali kepada dBm dan dBW — formula dan contoh kiraan.",
-  "id": "/loona-construction-calculators/ms/db-converter/",
+  "id": "/ms/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

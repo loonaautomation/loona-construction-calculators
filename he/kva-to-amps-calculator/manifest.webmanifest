@@ -2,7 +2,7 @@
   "name": "Loona kVA to Amps Calculator",
   "short_name": "kVA to Amps Calculator",
   "description": "מחשבון kVA לאמפר חינמי לאספקות חד-פאזיות ותלת-פאזיות — ולהפך, אמפר ל-kVA. מידו זרמי גנרטור, שנאי ואספקה מ-kVA וממתח.",
-  "id": "/loona-construction-calculators/he/kva-to-amps-calculator/",
+  "id": "/he/kva-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

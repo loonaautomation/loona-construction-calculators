@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "Calculator gratuit de volum al piscinei pentru piscine dreptunghiulare, rotunde și ovale: introduceți dimensiunea și adâncimile la capetele puțin adânc și adânc în metric sau imperial și obțineți volumul de apă în litri și galoane SUA pentru dozarea chimică și umplere.",
-  "id": "/loona-construction-calculators/ro/pool-volume-calculator/",
+  "id": "/ro/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

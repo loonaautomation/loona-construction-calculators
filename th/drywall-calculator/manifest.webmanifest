@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "เครื่องคำนวณแผ่นยิปซัมและยิปซัมบอร์ดฟรี: ขนาดห้องเป็นเมตริกหรืออิมพีเรียล — รับพื้นที่ผนังและเพดานและจำนวนแผ่น 1200 × 2400 mm หรือ 4 × 8 ft ที่ต้องซื้อ รวมเผื่อเศษ",
-  "id": "/loona-construction-calculators/th/drywall-calculator/",
+  "id": "/th/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

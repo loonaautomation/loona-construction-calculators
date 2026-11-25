@@ -2,7 +2,7 @@
   "name": "Loona Plywood Calculator",
   "short_name": "Plywood Calculator",
   "description": "מחשבון לוחות לביד חינמי: מידת שטח ומידת לוח (2440×1220 mm או 4×8 ft) במטרי או באימפריאלי נותנים לכם לוחות לפי שטח ולפי פריסה, הספירה המומלצת, תוספת פחת ועלות אופציונלית.",
-  "id": "/loona-construction-calculators/he/plywood-calculator/",
+  "id": "/he/plywood-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

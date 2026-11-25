@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Bezplatná kalkulačka mulče: plocha a hloubka záhonu v metrických nebo imperiálních jednotkách — získáte objem mulče, počet pytlů 40/50 litrů nebo 2/3 krychlové stopy a volně ložené krychlové metry a yardy.",
-  "id": "/loona-construction-calculators/cs/mulch-calculator/",
+  "id": "/cs/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

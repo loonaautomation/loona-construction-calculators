@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Ukubwa wa kawaida wa matofali nchini Uingereza, Marekani, India, Pakistan, Australia, Ujerumani na Afrika Kusini — vipimo na matofali kwa mita ya mraba vilinganishwa.",
-  "id": "/loona-construction-calculators/sw/brick-sizes-by-country/",
+  "id": "/sw/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

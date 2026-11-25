@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Gratis täckbarkskalkylator: rabattyta och djup i metriskt eller imperial — få täckbarksvolym, antalet påsar på 40/50 liter eller 2/3 kubikfot, och bulk i kubikmeter och yard.",
-  "id": "/loona-construction-calculators/sv/mulch-calculator/",
+  "id": "/sv/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

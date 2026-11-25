@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "무료 평방피트 계산기: 직사각형, 원, 삼각형, L자형 방을 추가하고 피트와 인치 또는 미터로 입력하면 총면적을 평방피트, 제곱미터, 평방야드, 에이커로 얻을 수 있어요 — 선택 가능한 비용 견적도 함께 제공돼요.",
-  "id": "/loona-construction-calculators/ko/square-footage-calculator/",
+  "id": "/ko/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

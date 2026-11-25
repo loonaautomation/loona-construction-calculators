@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Standardowe rozmiary cegieł w Wielkiej Brytanii, USA, Indiach, Pakistanie, Australii, Niemczech i Republice Południowej Afryki — wymiary i cegły na metr kwadratowy porównane.",
-  "id": "/loona-construction-calculators/pl/brick-sizes-by-country/",
+  "id": "/pl/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

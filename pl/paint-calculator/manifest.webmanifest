@@ -2,7 +2,7 @@
   "name": "Loona Paint Calculator",
   "short_name": "Paint Calculator",
   "description": "Darmowy kalkulator farby: wpisz rozmiar pokoju w metrach lub stopach, odejmij drzwi i okna, wybierz warstwy i wydajność, a otrzymasz potrzebną farbę i grunt w litrach lub galonach — z zapasem na odpady.",
-  "id": "/loona-construction-calculators/pl/paint-calculator/",
+  "id": "/pl/paint-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

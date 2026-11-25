@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Calculateur gratuit de taille de câble : courant, longueur aller simple, % de chute de tension autorisée, tension, cuivre ou aluminium, mono ou triphasé — taille minimale de câble en mm², taille standard la plus proche et équivalent AWG.",
-  "id": "/loona-construction-calculators/fr/wire-size-calculator/",
+  "id": "/fr/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "मुफ़्त बाड़ कैलकुलेटर: मीट्रिक या इंपीरियल में बाड़ लंबाई और खंभा अंतर से आपको खंभे, रेल, पिकेट (पिकेट चौड़ाई और अंतर से) और कंक्रीट बैग मिलते हैं — पिकेटों के लिए बर्बादी भत्ते के साथ।",
-  "id": "/loona-construction-calculators/hi/fence-calculator/",
+  "id": "/hi/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

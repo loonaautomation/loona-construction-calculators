@@ -2,7 +2,7 @@
   "name": "Loona Sand Calculator",
   "short_name": "Sand Calculator",
   "description": "Máy tính cát miễn phí: diện tích và độ sâu theo hệ mét hoặc imperial cho bạn thể tích cát, khối lượng theo tấn và tấn Mỹ, và số bao 25 kg — với khối lượng riêng và dự phòng hao hụt, cho hố cát, nền lát và lớp cán.",
-  "id": "/loona-construction-calculators/vi/sand-calculator/",
+  "id": "/vi/sand-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

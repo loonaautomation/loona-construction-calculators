@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Darmowy konwerter AWG: numer AWG na średnicę w mm i calach, przekrój w mm² i rezystancję na kilometr dla miedzi i aluminium — albo znajdź najbliższe AWG z mm² lub średnicy.",
-  "id": "/loona-construction-calculators/pl/awg-converter/",
+  "id": "/pl/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

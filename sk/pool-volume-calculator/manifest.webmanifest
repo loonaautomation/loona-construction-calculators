@@ -2,7 +2,7 @@
   "name": "Loona Pool Volume Calculator",
   "short_name": "Pool Volume Calculator",
   "description": "Bezplatná kalkulačka objemu bazéna pre obdĺžnikové, okrúhle a oválne bazény: zadajte veľkosť a hĺbky pri plytkom/hlbokom konci v metrických alebo imperiálnych jednotkách a získajte objem vody v litroch a US galónoch na dávkovanie chémie a napĺňanie.",
-  "id": "/loona-construction-calculators/sk/pool-volume-calculator/",
+  "id": "/sk/pool-volume-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

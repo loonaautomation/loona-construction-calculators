@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Ingyenes szőnyegkalkulátor: a helyiségméret és a szőnyegtekercs-szélesség metrikus vagy angolszász mértékegységben megadja a ténylegesen megvásárolandó szőnyeg folyóméter-hosszát és területét (a tekercs leeső darabjaival együtt), plusz opcionális költséget — hulladékráhagyással.",
-  "id": "/loona-construction-calculators/hu/carpet-calculator/",
+  "id": "/hu/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

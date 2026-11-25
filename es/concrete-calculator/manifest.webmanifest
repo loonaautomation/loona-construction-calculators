@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "Calculadora gratuita de hormigón: longitud, ancho y grosor de la losa en métrico o imperial — obtén el volumen de hormigón en metros cúbicos y yardas cúbicas, más cuántas bolsas premezcladas de 20/25 kg o 60/80 lb necesitas.",
-  "id": "/loona-construction-calculators/es/concrete-calculator/",
+  "id": "/es/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

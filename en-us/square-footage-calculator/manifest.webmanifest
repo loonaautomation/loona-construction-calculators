@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "Free square footage calculator: add rooms in rectangle, circle, triangle and L-shapes, in feet and inches or meters, and get total area in sq ft, sq m, sq yd and acres — with an optional cost estimate.",
-  "id": "/loona-construction-calculators/en-us/square-footage-calculator/",
+  "id": "/en-us/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

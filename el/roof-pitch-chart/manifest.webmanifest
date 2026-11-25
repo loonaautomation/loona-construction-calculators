@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Πλήρης πίνακας κλίσεων στέγης: 1/12 έως 12/12 με γωνίες, βαθμούς και πολλαπλασιαστές δοκών, κάθε κλίση με τη δική της σελίδα οδηγού.",
-  "id": "/loona-construction-calculators/el/roof-pitch-chart/",
+  "id": "/el/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

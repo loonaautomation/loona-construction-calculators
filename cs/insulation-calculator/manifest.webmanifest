@@ -2,7 +2,7 @@
   "name": "Loona Insulation Calculator",
   "short_name": "Insulation Calculator",
   "description": "Bezplatná kalkulačka izolace: zadejte plochu a cílovou hodnotu R (nebo metrické RSI) a získáte balíky rohoží/rolí nebo pytle foukané izolace k nákupu a tloušťku, kterou váš cíl vyžaduje — metricky i imperiálně.",
-  "id": "/loona-construction-calculators/cs/insulation-calculator/",
+  "id": "/cs/insulation-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

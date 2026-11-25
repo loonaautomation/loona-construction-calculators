@@ -2,7 +2,7 @@
   "name": "Loona Materials for a 10 × 12 ft Shed Base",
   "short_name": "Materials for a 10 × 12 ft",
   "description": "Anyagok egy 10 × 12 láb fészeralaphoz: pontos betontérfogat és előkevert zsákszámok (4 hüvelykes lemez, 10% ráhagyás) plusz alap- és vasalásvásárlási megjegyzések.",
-  "id": "/loona-construction-calculators/hu/materials-for-shed-base/",
+  "id": "/hu/materials-for-shed-base/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

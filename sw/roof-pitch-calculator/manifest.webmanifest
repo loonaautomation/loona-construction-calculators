@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Calculator",
   "short_name": "Roof Pitch Calculator",
   "description": "Kikokotoo cha bure cha mteremko wa paa: ingiza kupanda na kwenda katika kitengo chochote — pata mteremko kama uwiano (x-katika-12), pembe katika digrii, daraja la asilimia na urefu wa kengeu. Hufanya kazi kwa vipimo vya metriki na imperial.",
-  "id": "/loona-construction-calculators/sw/roof-pitch-calculator/",
+  "id": "/sw/roof-pitch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

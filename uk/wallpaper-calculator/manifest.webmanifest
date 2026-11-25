@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Безкоштовний калькулятор шпалер: розмір кімнати в метричних або імперських одиницях, європейські або американські подвійні рулони, врахований рапорт візерунка — отримайте точну кількість рулонів шпалер для купівлі, відходи враховано.",
-  "id": "/loona-construction-calculators/uk/wallpaper-calculator/",
+  "id": "/uk/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

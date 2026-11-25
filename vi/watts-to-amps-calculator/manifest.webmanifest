@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "Máy tính đổi watt sang ampe miễn phí cho DC, AC một pha và AC ba pha: công suất, điện áp và hệ số công suất cho dòng điện theo ampe — bước đầu tiên để định cỡ aptomat hoặc cáp.",
-  "id": "/loona-construction-calculators/vi/watts-to-amps-calculator/",
+  "id": "/vi/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

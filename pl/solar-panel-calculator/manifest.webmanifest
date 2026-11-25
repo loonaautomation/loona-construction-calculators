@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "Darmowy kalkulator paneli słonecznych: miesięczne zużycie energii elektrycznej, szczytowe godziny słońca i moc panelu dają potrzebne panele, rozmiar systemu w kW, oczekiwaną miesięczną produkcję i powierzchnię dachu — bez rejestracji.",
-  "id": "/loona-construction-calculators/pl/solar-panel-calculator/",
+  "id": "/pl/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

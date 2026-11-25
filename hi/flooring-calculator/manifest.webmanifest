@@ -2,7 +2,7 @@
   "name": "Loona Flooring Calculator",
   "short_name": "Flooring Calculator",
   "description": "मुफ़्त फर्श कैलकुलेटर: मीट्रिक या इंपीरियल में कमरा आकार और बॉक्स कवरेज — खरीदने के लिए लैमिनेट, विनाइल या इंजीनियर्ड-लकड़ी बॉक्सों की संख्या पाएँ, कटाई बर्बादी भत्ता सहित।",
-  "id": "/loona-construction-calculators/hi/flooring-calculator/",
+  "id": "/hi/flooring-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

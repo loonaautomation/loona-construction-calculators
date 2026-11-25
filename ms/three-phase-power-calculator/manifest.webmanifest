@@ -2,7 +2,7 @@
   "name": "Loona Three-Phase Power Calculator",
   "short_name": "Three-Phase Power Calculator",
   "description": "Kalkulator kuasa tiga fasa percuma: voltan talian-ke-talian, arus talian dan faktor kuasa memberikan kuasa sebenar dalam kW, kuasa ketara dalam kVA dan kuasa reaktif dalam kvar untuk beban seimbang.",
-  "id": "/loona-construction-calculators/ms/three-phase-power-calculator/",
+  "id": "/ms/three-phase-power-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

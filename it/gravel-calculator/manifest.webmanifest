@@ -2,7 +2,7 @@
   "name": "Loona Gravel Calculator",
   "short_name": "Gravel Calculator",
   "description": "Calcolatore ghiaia gratuito: area e profondità in metrico o imperiale — ottieni il volume di ghiaia in metri cubi e iarde cubiche e il peso in tonnellate e tonnellate USA, con densità regolabile e margine per gli scarti.",
-  "id": "/loona-construction-calculators/it/gravel-calculator/",
+  "id": "/it/gravel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

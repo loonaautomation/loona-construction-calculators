@@ -2,7 +2,7 @@
   "name": "Loona Amps to Watts Calculator",
   "short_name": "Amps to Watts Calculator",
   "description": "Free amps to watts calculator for DC, AC single-phase and AC three-phase: current, voltage and power factor give watts, kilowatts and kVA — with formulas and a worked example.",
-  "id": "/loona-construction-calculators/en-gb/amps-to-watts-calculator/",
+  "id": "/en-gb/amps-to-watts-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

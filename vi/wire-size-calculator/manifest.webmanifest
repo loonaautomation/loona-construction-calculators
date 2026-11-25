@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Máy tính tiết diện dây miễn phí: dòng điện, chiều dài một chiều, % sụt áp cho phép, điện áp, đồng hoặc nhôm, một hoặc ba pha — kích thước cáp tối thiểu theo mm², kích thước tiêu chuẩn gần nhất và tương đương AWG.",
-  "id": "/loona-construction-calculators/vi/wire-size-calculator/",
+  "id": "/vi/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

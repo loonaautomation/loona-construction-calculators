@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "Convertor gratuit de decibeli: rapoarte de putere și rapoarte de tensiune în dB cu propria referință, dBm în miliwați și wați și puterea înapoi în dBm și dBW — formule și exemple lucrate.",
-  "id": "/loona-construction-calculators/ro/db-converter/",
+  "id": "/ro/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Stairs Calculator",
   "short_name": "Stairs Calculator",
   "description": "حاسبة درج مجانية: أدخل الارتفاع الكلي بالمتري أو الإمبراطوري — احصل على عدد الدرجات وارتفاع القائمة الدقيق والمسار الكلي وطول العارضة الجانبية، مع فحص قاعدة راحة 2R + T تلقائيًا.",
-  "id": "/loona-construction-calculators/ar/stairs-calculator/",
+  "id": "/ar/stairs-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

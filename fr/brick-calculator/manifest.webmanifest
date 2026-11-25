@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Calculateur gratuit de briques : longueur et hauteur du mur en métrique ou impérial — obtenez le nombre de briques standard (215 mm ou modulaires US) pour un mur à simple paroi, y compris les marges pour joints de mortier et pertes.",
-  "id": "/loona-construction-calculators/fr/brick-calculator/",
+  "id": "/fr/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

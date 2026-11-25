@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "מחשבון פאנלים סולאריים חינמי: צריכת חשמל חודשית, שעות שמש שיא והספק פאנל נותנים לכם את הפאנלים הנדרשים, גודל המערכת ב-kW, ייצור חודשי צפוי ושטח גג — ללא הרשמה.",
-  "id": "/loona-construction-calculators/he/solar-panel-calculator/",
+  "id": "/he/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

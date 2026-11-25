@@ -2,7 +2,7 @@
   "name": "Loona Amps to Watts Calculator",
   "short_name": "Amps to Watts Calculator",
   "description": "Calculator gratuit amperi în wați pentru DC, AC monofazat și AC trifazat: curentul, tensiunea și factorul de putere oferă wați, kilowați și kVA — cu formule și un exemplu lucrat.",
-  "id": "/loona-construction-calculators/ro/amps-to-watts-calculator/",
+  "id": "/ro/amps-to-watts-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

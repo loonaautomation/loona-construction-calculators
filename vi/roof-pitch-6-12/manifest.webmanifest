@@ -2,7 +2,7 @@
   "name": "Loona 6/12 Roof Pitch",
   "short_name": "6/12 Roof Pitch",
   "description": "Độ dốc mái 6/12 là 26.57 độ (độ dốc 50%). Hệ số nhân kèo 1.1180, chiều dài kèo cho các khẩu độ phổ biến, vật liệu và ứng dụng.",
-  "id": "/loona-construction-calculators/vi/roof-pitch-6-12/",
+  "id": "/vi/roof-pitch-6-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

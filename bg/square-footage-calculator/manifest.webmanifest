@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "Безплатен калкулатор за площ: добавете стаи с форма на правоъгълник, кръг, триъгълник и Г-образна форма, във футове и инчове или метри, и получете общата площ в кв. футове, кв. м, кв. ярдове и акри — с незадължителна оценка на цената.",
-  "id": "/loona-construction-calculators/bg/square-footage-calculator/",
+  "id": "/bg/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

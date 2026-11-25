@@ -2,7 +2,7 @@
   "name": "Loona Amps to Watts Calculator",
   "short_name": "Amps to Watts Calculator",
   "description": "حاسبة مجانية من الأمبير إلى الواط للتيار المستمر وأحادي الطور وثلاثي الأطوار: التيار والجهد ومعامل القدرة تعطي الواط والكيلوواط وkVA — مع الصيغ ومثال محلول.",
-  "id": "/loona-construction-calculators/ar/amps-to-watts-calculator/",
+  "id": "/ar/amps-to-watts-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

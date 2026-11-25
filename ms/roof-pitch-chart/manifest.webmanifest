@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Carta kecerunan bumbung lengkap: 1/12 hingga 12/12 dengan sudut, gred dan pengganda kasau, setiap kecerunan dengan halaman panduannya sendiri.",
-  "id": "/loona-construction-calculators/ms/roof-pitch-chart/",
+  "id": "/ms/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

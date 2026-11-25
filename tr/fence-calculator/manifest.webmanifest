@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Ücretsiz çit hesaplayıcısı: çit uzunluğu ve direk aralığı metrik veya emperyal olarak; direkleri, rayları, kazıkları (kazık genişliği ve boşluğundan) ve beton torbalarını verir — kazıklar için fire payıyla.",
-  "id": "/loona-construction-calculators/tr/fence-calculator/",
+  "id": "/tr/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

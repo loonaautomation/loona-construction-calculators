@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "Darmowy kalkulator prądu silnika: moc silnika w kW lub koniach mechanicznych, napięcie, jedno- lub trójfazowe, sprawność i współczynnik mocy dają szacunkowy prąd pełnego obciążenia — z uczciwymi zastrzeżeniami o tabliczce znamionowej i przepisach.",
-  "id": "/loona-construction-calculators/pl/motor-current-calculator/",
+  "id": "/pl/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

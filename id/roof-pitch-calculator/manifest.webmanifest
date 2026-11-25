@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Calculator",
   "short_name": "Roof Pitch Calculator",
   "description": "Kalkulator kemiringan atap gratis: masukkan tanjakan dan bentangan dalam satuan apa pun — dapatkan kemiringan sebagai rasio (x-in-12), sudut dalam derajat, tingkat kemiringan persentase, dan panjang kasau. Berfungsi untuk pengukuran metrik dan imperial.",
-  "id": "/loona-construction-calculators/id/roof-pitch-calculator/",
+  "id": "/id/roof-pitch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

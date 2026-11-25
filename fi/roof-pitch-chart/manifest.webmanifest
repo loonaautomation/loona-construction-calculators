@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Täydellinen kattokaltevuustaulukko: 1/12 – 12/12 kulmilla, kaltevuuksilla ja kattotuolikertoimilla, jokaisella kaltevuudella oma opassivunsa.",
-  "id": "/loona-construction-calculators/fi/roof-pitch-chart/",
+  "id": "/fi/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

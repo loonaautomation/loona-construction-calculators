@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Gratis mulchcalculator: perkoppervlakte en -diepte in metrisch of imperiaal — krijg het mulchvolume, het aantal zakken van 40/50 liter of 2/3 kubieke foot, en bulk in kubieke meters en yards.",
-  "id": "/loona-construction-calculators/nl/mulch-calculator/",
+  "id": "/nl/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

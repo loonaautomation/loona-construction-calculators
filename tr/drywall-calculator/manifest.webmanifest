@@ -2,7 +2,7 @@
   "name": "Loona Drywall Calculator",
   "short_name": "Drywall Calculator",
   "description": "Ücretsiz alçıpan ve alçı levha hesaplayıcısı: oda boyutu metrik veya emperyal olarak — duvar ve tavan alanını ve satın alınacak 1200 × 2400 mm veya 4 × 8 ft levha sayısını alın, fire dahil.",
-  "id": "/loona-construction-calculators/tr/drywall-calculator/",
+  "id": "/tr/drywall-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

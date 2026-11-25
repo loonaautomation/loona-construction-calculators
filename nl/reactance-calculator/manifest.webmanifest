@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "Gratis reactantiecalculator: frequentie met capaciteit (µF) geeft capacitieve reactantie Xc, met inductantie (mH) geeft inductieve reactantie Xl — voer beide in voor de netto reactantie en de LC-resonantiefrequentie.",
-  "id": "/loona-construction-calculators/nl/reactance-calculator/",
+  "id": "/nl/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

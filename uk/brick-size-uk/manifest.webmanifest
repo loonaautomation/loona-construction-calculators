@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United Kingdom",
   "short_name": "Brick Size in United Kingdom",
   "description": "Стандартний розмір цегли у Великобританії: 215 × 102.5 × 65 mm. 59.3 цеглини на м² (5.51 на кв. фут) стіни в пів цегли зі швами розчину 10 mm, покриття на 1,000 цеглин і розв’язаний приклад стіни.",
-  "id": "/loona-construction-calculators/uk/brick-size-uk/",
+  "id": "/uk/brick-size-uk/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

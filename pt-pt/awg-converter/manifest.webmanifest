@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Conversor AWG gratuito: calibre AWG para diâmetro em mm e polegadas, secção em mm² e resistência por quilómetro para cobre e alumínio — ou encontre o AWG mais próximo a partir de mm² ou do diâmetro.",
-  "id": "/loona-construction-calculators/pt-pt/awg-converter/",
+  "id": "/pt-pt/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

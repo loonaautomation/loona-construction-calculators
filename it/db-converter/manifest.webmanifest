@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "Convertitore decibel gratuito: rapporti di potenza e tensione in dB con il tuo riferimento, dBm in milliwatt e watt, e potenza di ritorno in dBm e dBW — formule ed esempi risolti.",
-  "id": "/loona-construction-calculators/it/db-converter/",
+  "id": "/it/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

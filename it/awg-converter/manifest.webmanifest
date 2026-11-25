@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Convertitore AWG gratuito: calibro AWG in diametro in mm e pollici, sezione in mm² e resistenza per chilometro per rame e alluminio — oppure trova l'AWG più vicino da mm² o diametro.",
-  "id": "/loona-construction-calculators/it/awg-converter/",
+  "id": "/it/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Gratis barkflisberegner: bedareal og dybde i metrisk eller imperial — få barkflisvolumen, antallet af 40/50 liter- eller 2/3 kubikfod-sække og bulk i kubikmeter og yards.",
-  "id": "/loona-construction-calculators/da/mulch-calculator/",
+  "id": "/da/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

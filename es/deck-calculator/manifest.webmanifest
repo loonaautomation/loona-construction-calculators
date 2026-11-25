@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Calculadora gratuita de terrazas: el tamaño de la terraza y el ancho de tabla en métrico o imperial te dan las tablas a comprar, la longitud total de tabla, las viguetas y una estimación de tornillos — con separación entre tablas, distancia entre viguetas y margen de desperdicio.",
-  "id": "/loona-construction-calculators/es/deck-calculator/",
+  "id": "/es/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

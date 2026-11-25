@@ -2,7 +2,7 @@
   "name": "Loona LED Resistor Calculator",
   "short_name": "LED Resistor Calculator",
   "description": "Gratis LED-motstandskalkulator: forsyningsspenning, LED-fremspenning, fremstrøm og LED-er i serie gir motstanden i ohm, nærmeste standard E12-verdi, faktisk strøm og motstandswatt.",
-  "id": "/loona-construction-calculators/nb/led-resistor-calculator/",
+  "id": "/nb/led-resistor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

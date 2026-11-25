@@ -2,7 +2,7 @@
   "name": "Loona Materials for Painting a 12 × 14 ft Room",
   "short_name": "Materials for Painting a 12 ×",
   "description": "Повний список покупок для фарбування кімнати 12×14 ft: літри/галони фарби на 2 шари, ґрунтовка, стрічка, валики й матеріали для підготовки — обчислено, а не вгадано.",
-  "id": "/loona-construction-calculators/uk/materials-for-painting-a-room/",
+  "id": "/uk/materials-for-painting-a-room/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

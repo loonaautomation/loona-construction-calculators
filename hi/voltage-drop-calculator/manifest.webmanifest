@@ -2,7 +2,7 @@
   "name": "Loona Voltage Drop Calculator",
   "short_name": "Voltage Drop Calculator",
   "description": "मुफ़्त वोल्टेज ड्रॉप कैलकुलेटर: एक-तरफ़ा केबल लंबाई, करंट, ताँबा या एल्युमिनियम, mm² या AWG में केबल आकार, सिंगल-फेज़ या थ्री-फेज़ — गिरे वोल्ट और % गिरावट 3%/5% मार्गदर्शन के साथ।",
-  "id": "/loona-construction-calculators/hi/voltage-drop-calculator/",
+  "id": "/hi/voltage-drop-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

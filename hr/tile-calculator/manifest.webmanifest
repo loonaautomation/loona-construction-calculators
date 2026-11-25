@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Besplatni kalkulator pločica: veličina poda ili zida, veličina pločice i razmak fuga u metričkim ili imperijalnim jedinicama — dobit ćete točan broj pločica i kutija za kupnju, uključujući dodatak za otpad za rezove i lomove.",
-  "id": "/loona-construction-calculators/hr/tile-calculator/",
+  "id": "/hr/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

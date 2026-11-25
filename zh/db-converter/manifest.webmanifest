@@ -2,7 +2,7 @@
   "name": "Loona dB Converter",
   "short_name": "dB Converter",
   "description": "免费分贝换算器：功率比和电压比按您自己的参考换算为 dB，dBm 换算为毫瓦和瓦特，功率反向换算为 dBm 和 dBW — 附公式和计算示例。",
-  "id": "/loona-construction-calculators/zh/db-converter/",
+  "id": "/zh/db-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

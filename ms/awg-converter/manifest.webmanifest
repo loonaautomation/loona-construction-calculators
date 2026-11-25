@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Penukar AWG percuma: tolok AWG kepada diameter dalam mm dan inci, keratan rentas dalam mm² dan rintangan per kilometer untuk kuprum dan aluminium — atau cari AWG terdekat daripada mm² atau diameter.",
-  "id": "/loona-construction-calculators/ms/awg-converter/",
+  "id": "/ms/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

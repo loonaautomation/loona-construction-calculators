@@ -2,7 +2,7 @@
   "name": "Loona Electricity Cost Calculator",
   "short_name": "Electricity Cost Calculator",
   "description": "Gratis strømkostnadskalkulator: apparatwatt (eller ampere × volt), timer per dag, dager per måned og pris per kWh gir kWh brukt og kostnad per dag, måned og år — enhver valuta.",
-  "id": "/loona-construction-calculators/nb/electricity-cost-calculator/",
+  "id": "/nb/electricity-cost-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

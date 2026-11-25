@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Standard)",
   "short_name": "Brick Size in United States",
   "description": "Standardní rozměr cihly ve Spojených státech (standardní): 203 × 92 × 57 mm. 70.8 cihel na m² (6.57 na čtvereční stopu) jednovrstvé zdi se spárami 9.5 mm na maltu, pokrytí na 1,000 cihel a vypracovaný příklad zdi.",
-  "id": "/loona-construction-calculators/cs/brick-size-us-standard/",
+  "id": "/cs/brick-size-us-standard/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

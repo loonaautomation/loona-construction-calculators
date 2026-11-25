@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "無料のデッキ計算機：デッキのサイズとボードの幅をメートル法またはヤードポンド法で入力すると、購入するデッキボード、ボードの総延長、根太、ネジの見積もりが得られます — ボードの隙間、根太間隔、ロスの余分付きです。",
-  "id": "/loona-construction-calculators/ja/deck-calculator/",
+  "id": "/ja/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

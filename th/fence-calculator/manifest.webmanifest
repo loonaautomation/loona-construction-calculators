@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "เครื่องคำนวณรั้วฟรี: ความยาวรั้วและระยะห่างเสาเป็นเมตริกหรืออิมพีเรียล ให้จำนวนเสา ราง ซี่รั้ว (จากความกว้างซี่รั้วและช่องว่าง) และถุงคอนกรีต — พร้อมค่าเผื่อเศษสำหรับซี่รั้ว",
-  "id": "/loona-construction-calculators/th/fence-calculator/",
+  "id": "/th/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

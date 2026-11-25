@@ -2,7 +2,7 @@
   "name": "Loona Reactance Calculator",
   "short_name": "Reactance Calculator",
   "description": "Gratis reaktanskalkylator: frekvens med kapacitans (µF) ger kapacitiv reaktans Xc, med induktans (mH) ger induktiv reaktans Xl — ange båda för nettoreaktans och LC-resonansfrekvensen.",
-  "id": "/loona-construction-calculators/sv/reactance-calculator/",
+  "id": "/sv/reactance-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

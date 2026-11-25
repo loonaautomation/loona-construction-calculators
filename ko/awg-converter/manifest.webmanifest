@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "무료 AWG 변환기: AWG 게이지를 지름 (mm와 인치), 단면적 (mm²), 구리와 알루미늄의 킬로미터당 저항으로 변환해요. 거꾸로 mm²나 지름에서 가장 가까운 AWG를 찾을 수도 있어요.",
-  "id": "/loona-construction-calculators/ko/awg-converter/",
+  "id": "/ko/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Germany (NF)",
   "short_name": "Brick Size in Germany (NF)",
   "description": "ドイツの標準レンガサイズ（NF）：240 × 115 × 71 mm。10 mm のモルタル目地で一重張りの壁 m²あたり 49.4 個（4.59 / sq ft）、1,000個あたりのカバー面積、壁の計算例。",
-  "id": "/loona-construction-calculators/ja/brick-size-germany/",
+  "id": "/ja/brick-size-germany/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

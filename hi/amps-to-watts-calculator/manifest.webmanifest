@@ -2,7 +2,7 @@
   "name": "Loona Amps to Watts Calculator",
   "short_name": "Amps to Watts Calculator",
   "description": "DC, AC सिंगल-फेज़ और AC थ्री-फेज़ के लिए मुफ़्त एम्प्स से वाट कैलकुलेटर: करंट, वोल्टेज और पावर फैक्टर से वाट, किलोवाट और kVA मिलते हैं — सूत्रों और कार्यित उदाहरण के साथ।",
-  "id": "/loona-construction-calculators/hi/amps-to-watts-calculator/",
+  "id": "/hi/amps-to-watts-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

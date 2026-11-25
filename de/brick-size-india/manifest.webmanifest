@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in India",
   "short_name": "Brick Size in India",
   "description": "Standard-Ziegelmaß in Indien: 190 × 90 × 90 mm. 50.0 Ziegel pro m² (4.65 pro sq ft) einschaliger Wand mit 10 mm Mörtelfugen, Abdeckung pro 1,000 Ziegel und ein durchgerechnetes Wandbeispiel.",
-  "id": "/loona-construction-calculators/de/brick-size-india/",
+  "id": "/de/brick-size-india/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "Ücretsiz halı hesaplayıcısı: oda boyutu ve halı rulo genişliği metrik veya emperyal olarak, gerçekten satın alınacak halının doğrusal uzunluğunu ve alanını verir (rulo kesintileri dahil), artı isteğe bağlı bir maliyet — fire payıyla.",
-  "id": "/loona-construction-calculators/tr/carpet-calculator/",
+  "id": "/tr/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

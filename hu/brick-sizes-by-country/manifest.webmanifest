@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Szabványos téglaméretek az Egyesült Királyságban, az USA-ban, Indiában, Pakisztánban, Ausztráliában, Németországban és Dél-Afrikában — méretek és tégla négyzetméterenként összehasonlítva.",
-  "id": "/loona-construction-calculators/hu/brick-sizes-by-country/",
+  "id": "/hu/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

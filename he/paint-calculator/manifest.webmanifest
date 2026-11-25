@@ -2,7 +2,7 @@
   "name": "Loona Paint Calculator",
   "short_name": "Paint Calculator",
   "description": "מחשבון צבע חינמי: הזינו מידת חדר במטרים או ברגליים, הפחיתו דלתות וחלונות, בחרו שכבות וכיסוי, וקבלו צבע וצבע יסוד נדרשים בליטרים או גלונים — עם תוספת פחת.",
-  "id": "/loona-construction-calculators/he/paint-calculator/",
+  "id": "/he/paint-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

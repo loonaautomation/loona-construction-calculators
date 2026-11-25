@@ -2,7 +2,7 @@
   "name": "Loona Deck Calculator",
   "short_name": "Deck Calculator",
   "description": "Bezplatná kalkulačka terasy: veľkosť terasy a šírka dosky v metrických alebo imperiálnych jednotkách vám dajú dosky terasy na kúpu, celkovú dĺžku dosák, trámy a odhad skrutiek — s medzerou medzi doskami, rozstupom trámov a rezervou na odpad.",
-  "id": "/loona-construction-calculators/sk/deck-calculator/",
+  "id": "/sk/deck-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

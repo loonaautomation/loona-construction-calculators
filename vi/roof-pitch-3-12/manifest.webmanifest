@@ -2,7 +2,7 @@
   "name": "Loona 3/12 Roof Pitch",
   "short_name": "3/12 Roof Pitch",
   "description": "Độ dốc mái 3/12 là 14.04 độ (độ dốc 25%). Hệ số nhân kèo 1.0308, chiều dài kèo cho các khẩu độ phổ biến, vật liệu và ứng dụng.",
-  "id": "/loona-construction-calculators/vi/roof-pitch-3-12/",
+  "id": "/vi/roof-pitch-3-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

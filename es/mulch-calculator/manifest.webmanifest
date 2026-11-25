@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "Calculadora gratuita de mantillo: área y profundidad del parterre en métrico o imperial — obtén el volumen de mantillo, el número de bolsas de 40/50 litros o de 2/3 pies cúbicos, y metros y yardas cúbicas a granel.",
-  "id": "/loona-construction-calculators/es/mulch-calculator/",
+  "id": "/es/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

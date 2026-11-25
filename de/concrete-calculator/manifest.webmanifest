@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "Kostenloser Beton-Rechner: Plattenlänge, -breite und -dicke metrisch oder imperial — erhalten Sie das Betonvolumen in Kubikmetern und Kubikyard, plus wie viele 20/25 kg oder 60/80 lb Fertigmischungssäcke Sie brauchen.",
-  "id": "/loona-construction-calculators/de/concrete-calculator/",
+  "id": "/de/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

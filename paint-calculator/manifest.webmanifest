@@ -2,7 +2,7 @@
   "name": "Loona Paint Calculator",
   "short_name": "Paint Calculator",
   "description": "Free paint calculator: enter room size in metres or feet, subtract doors and windows, choose coats and coverage, and get paint and primer needed in litres or gallons — with a waste allowance.",
-  "id": "/loona-construction-calculators/paint-calculator/",
+  "id": "/paint-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "Ücretsiz metrekare hesaplayıcısı: dikdörtgen, daire, üçgen ve L şekillerinde odalar ekleyin, fit ve inç veya metre cinsinden, ve toplam alanı sq ft, sq m, sq yd ve acre cinsinden alın — isteğe bağlı maliyet tahminiyle.",
-  "id": "/loona-construction-calculators/tr/square-footage-calculator/",
+  "id": "/tr/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

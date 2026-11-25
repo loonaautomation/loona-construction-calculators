@@ -2,7 +2,7 @@
   "name": "Loona Square Footage Calculator",
   "short_name": "Square Footage",
   "description": "Безкоштовний калькулятор площі: додайте кімнати у формі прямокутника, кола, трикутника та Г-подібної форми, у футах і дюймах або метрах, і отримайте загальну площу у кв. футах, кв. м, кв. ярдах та акрах — з необов’язковою оцінкою вартості.",
-  "id": "/loona-construction-calculators/uk/square-footage-calculator/",
+  "id": "/uk/square-footage-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

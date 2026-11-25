@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "UK, USA, भारत, पाकिस्तान, ऑस्ट्रेलिया, जर्मनी और दक्षिण अफ्रीका में मानक ईंट आकार — आयामों और प्रति वर्ग मीटर ईंटों की तुलना।",
-  "id": "/loona-construction-calculators/hi/brick-sizes-by-country/",
+  "id": "/hi/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

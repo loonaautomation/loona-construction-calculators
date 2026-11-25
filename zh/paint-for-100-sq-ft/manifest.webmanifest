@@ -2,7 +2,7 @@
   "name": "Loona How Much Paint for 100 Sq Ft of Wall?",
   "short_name": "How Much Paint for 100 Sq Ft",
   "description": "100 sq ft 墙面的油漆：按典型 2.0 m²/L 覆盖率涂 0.5 层需要 2 升（10 gal），另加 0.9 L 底漆 — 假定条件已注明。",
-  "id": "/loona-construction-calculators/zh/paint-for-100-sq-ft/",
+  "id": "/zh/paint-for-100-sq-ft/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

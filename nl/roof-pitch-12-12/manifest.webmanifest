@@ -2,7 +2,7 @@
   "name": "Loona 12/12 Roof Pitch",
   "short_name": "12/12 Roof Pitch",
   "description": "Een dakhelling van 12/12 is 45.00 graden (100% hellingspercentage). Dakspantvermenigvuldiger 1.4142, dakspantlengtes voor gebruikelijke aantredes, materialen en toepassingen.",
-  "id": "/loona-construction-calculators/nl/roof-pitch-12-12/",
+  "id": "/nl/roof-pitch-12-12/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Brick Calculator",
   "short_name": "Brick Calculator",
   "description": "Ücretsiz tuğla hesaplayıcısı: duvar uzunluğu ve yüksekliği metrik veya emperyal olarak — tek kat bir duvar için standart tuğla sayısını (215 mm veya ABD modüler), harç derzi ve fire payları dahil alın.",
-  "id": "/loona-construction-calculators/tr/brick-calculator/",
+  "id": "/tr/brick-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

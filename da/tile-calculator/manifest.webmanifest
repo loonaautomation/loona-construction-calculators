@@ -2,7 +2,7 @@
   "name": "Loona Tile Calculator",
   "short_name": "Tile Calculator",
   "description": "Gratis fliseberegner: gulv- eller vægstørrelse, flisestørrelse og fuge i metrisk eller imperial — få det nøjagtige antal fliser og kasser, der skal købes, inklusive et spildtillæg til snit og brud.",
-  "id": "/loona-construction-calculators/da/tile-calculator/",
+  "id": "/da/tile-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

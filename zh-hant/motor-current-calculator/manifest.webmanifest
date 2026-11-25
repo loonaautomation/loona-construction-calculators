@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "免費電機電流計算器：電機功率（kW 或馬力）、電壓、單相或三相、效率和功率因數給出估算的滿載電流 — 附實在的銘牌和規範注意事項。",
-  "id": "/loona-construction-calculators/zh-hant/motor-current-calculator/",
+  "id": "/zh-hant/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

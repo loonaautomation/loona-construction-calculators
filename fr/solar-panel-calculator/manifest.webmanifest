@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "Calculateur gratuit de panneaux solaires : la consommation mensuelle d'électricité, les heures de pointe de soleil et la puissance des panneaux vous donnent les panneaux nécessaires, la taille du système en kW, la production mensuelle attendue et la surface de toit — sans inscription.",
-  "id": "/loona-construction-calculators/fr/solar-panel-calculator/",
+  "id": "/fr/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

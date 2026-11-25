@@ -2,7 +2,7 @@
   "name": "Loona Resistor Colour Code Calculator",
   "short_name": "Resistor Colour Code",
   "description": "Bezplatná kalkulačka barevného kódu rezistorů: vyberte barvy proužků na 4-, 5- nebo 6-proužkovém rezistoru a získáte odpor, toleranci a teplotní koeficient — nebo obráceně, z hodnoty proužky.",
-  "id": "/loona-construction-calculators/cs/resistor-colour-code-calculator/",
+  "id": "/cs/resistor-colour-code-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

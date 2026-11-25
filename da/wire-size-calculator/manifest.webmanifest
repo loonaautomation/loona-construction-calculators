@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Gratis ledningsstørrelsesberegner: strøm, enkel længde, tilladt spændingsfald i %, spænding, kobber eller aluminium, en- eller trefaset — mindste kabelstørrelse i mm², nærmeste standardstørrelse og AWG-ækvivalent.",
-  "id": "/loona-construction-calculators/da/wire-size-calculator/",
+  "id": "/da/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

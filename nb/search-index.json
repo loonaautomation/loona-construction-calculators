@@ -1,7 +1,7 @@
 [
  {
   "n": "Malingskalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/paint-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/paint-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Liter og gallon for ethvert rom, dører/vinduer trukket fra, grunning inkludert.",
   "k": "malingskalkulator malingskalkulator malingskalkulator calculator construction liter og gallon for ethvert rom d rer vinduer trukket fra grunning inkludert",
@@ -10,7 +10,7 @@
  },
  {
   "n": "Fliskalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/tile-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/tile-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Fliser og esker for gulv &amp; vegger, fugebredde telt med.",
   "k": "fliskalkulator fliskalkulator fliskalkulator calculator construction fliser og esker for gulv amp vegger fugebredde telt med",
@@ -19,7 +19,7 @@
  },
  {
   "n": "Betongkalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/concrete-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/concrete-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Platevolum i m³ & yd³ pluss antall ferdigblandingssekker.",
   "k": "betongkalkulator betongkalkulator betongkalkulator calculator construction platevolum i m3 yd3 pluss antall ferdigblandingssekker",
@@ -28,7 +28,7 @@
  },
  {
   "n": "Gulvkalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/flooring-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/flooring-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Esker med laminat, vinyl og tre med kuttesvinn.",
   "k": "gulvkalkulator gulvkalkulator gulvkalkulator calculator construction esker med laminat vinyl og tre med kuttesvinn",
@@ -37,7 +37,7 @@
  },
  {
   "n": "Gipsplatekalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/drywall-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/drywall-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Gipsplater for vegger og tak.",
   "k": "gipsplatekalkulator gipsplatekalkulator gipsplatekalkulator calculator construction gipsplater for vegger og tak",
@@ -46,7 +46,7 @@
  },
  {
   "n": "Mursteinskalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/brick-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/brick-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Mursteintellinger for standard metriske og US-mursteinstørrelser.",
   "k": "mursteinskalkulator mursteinskalkulator mursteinskalkulator calculator construction mursteintellinger for standard metriske og us mursteinst rrelser",
@@ -55,7 +55,7 @@
  },
  {
   "n": "Gruskalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/gravel-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/gravel-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Tonn &amp; kubikkyard for innkjørsler, stier og baser.",
   "k": "gruskalkulator gruskalkulator gruskalkulator calculator construction tonn amp kubikkyard for innkj rsler stier og baser",
@@ -64,7 +64,7 @@
  },
  {
   "n": "Takvinkelkalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/roof-pitch-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/roof-pitch-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Takvinkelforhold, vinkel, helling og sperrelengde.",
   "k": "takvinkelkalkulator takvinkelkalkulator takvinkelkalkulator calculator construction takvinkelforhold vinkel helling og sperrelengde",
@@ -73,7 +73,7 @@
  },
  {
   "n": "Trappekalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/stairs-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/stairs-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Trinn, opptrinnshøyde, inntrinn, lengde og vangelengde.",
   "k": "trappekalkulator trappekalkulator trappekalkulator calculator construction trinn opptrinnsh yde inntrinn lengde og vangelengde",
@@ -82,7 +82,7 @@
  },
  {
   "n": "Bordfotkalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/board-foot-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/board-foot-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Tømmervolum i bordfot og kubikkmeter.",
   "k": "bordfotkalkulator bordfotkalkulator bordfotkalkulator calculator construction t mmervolum i bordfot og kubikkmeter",
@@ -91,7 +91,7 @@
  },
  {
   "n": "Tapetkalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/wallpaper-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/wallpaper-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Ruller for EU- og US-ruller, mønsterrapport tatt hensyn til.",
   "k": "tapetkalkulator tapetkalkulator tapetkalkulator calculator construction ruller for eu og us ruller m nsterrapport tatt hensyn til",
@@ -100,7 +100,7 @@
  },
  {
   "n": "Dekkmaterialkalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/mulch-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/mulch-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Sekker og bulkvolum for bed og kanter.",
   "k": "dekkmaterialkalkulator dekkmaterialkalkulator dekkmaterialkalkulator calculator construction sekker og bulkvolum for bed og kanter",
@@ -109,7 +109,7 @@
  },
  {
   "n": "Asfaltkalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/asphalt-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/asphalt-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Tonn &amp; US tons fra areal og tykkelse, tetthet redigerbar, kostnadsanslag.",
   "k": "asfaltkalkulator asfaltkalkulator asfaltkalkulator calculator construction tonn amp us tons fra areal og tykkelse tetthet redigerbar kostnadsanslag",
@@ -118,7 +118,7 @@
  },
  {
   "n": "Isolasjonskalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/insulation-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/insulation-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Plater, ruller eller innblåste sekker for din mål-R-verdi / RSI, tykkelsesguide.",
   "k": "isolasjonskalkulator isolasjonskalkulator isolasjonskalkulator calculator construction plater ruller eller innblaste sekker for din mal r verdi rsi tykkelsesguide",
@@ -127,7 +127,7 @@
  },
  {
   "n": "Gjerdekalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/fence-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/fence-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Stolper, skinner, lameller og betongsekker fra gjerdlengde og avstand.",
   "k": "gjerdekalkulator gjerdekalkulator gjerdekalkulator calculator construction stolper skinner lameller og betongsekker fra gjerdlengde og avstand",
@@ -136,7 +136,7 @@
  },
  {
   "n": "Terrassekalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/deck-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/deck-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Terrassebord, bjelker og skruer fra terrassestørrelse, bordbredde og bjelkeavstand.",
   "k": "terrassekalkulator terrassekalkulator terrassekalkulator calculator construction terrassebord bjelker og skruer fra terrassest rrelse bordbredde og bjelkeavstand",
@@ -145,7 +145,7 @@
  },
  {
   "n": "Bassengvolumkalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/pool-volume-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/pool-volume-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Liter og US gallons for rektangel-, runde og ovale bassenger — doseringsklare.",
   "k": "bassengvolumkalkulator bassengvolumkalkulator bassengvolumkalkulator calculator construction liter og us gallons for rektangel runde og ovale bassenger doseringsklare",
@@ -154,7 +154,7 @@
  },
  {
   "n": "Solpanelkalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/solar-panel-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/solar-panel-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Paneler som trengs, system-kW, forventet produksjon og takareal fra regningen din.",
   "k": "solpanelkalkulator solpanelkalkulator solpanelkalkulator calculator construction paneler som trengs system kw forventet produksjon og takareal fra regningen din",
@@ -163,7 +163,7 @@
  },
  {
   "n": "Teppekalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/carpet-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/carpet-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Lineær lengde og sant kjøpsareal fra romstørrelse og rullbredde.",
   "k": "teppekalkulator teppekalkulator teppekalkulator calculator construction line r lengde og sant kj psareal fra romst rrelse og rullbredde",
@@ -172,7 +172,7 @@
  },
  {
   "n": "Kryssfinerkalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/plywood-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/plywood-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Plater etter areal og etter mønster for plater på 2440×1220 mm og 4×8 ft.",
   "k": "kryssfinerkalkulator kryssfinerkalkulator kryssfinerkalkulator calculator construction plater etter areal og etter m nster for plater pa 2440 1220 mm og 4 8 ft",
@@ -181,7 +181,7 @@
  },
  {
   "n": "Sandkalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/sand-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/sand-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Tonn og sekker på 25 kg for sandkasser, belegningsbaser og avrettingslag.",
   "k": "sandkalkulator sandkalkulator sandkalkulator calculator construction tonn og sekker pa 25 kg for sandkasser belegningsbaser og avrettingslag",
@@ -190,7 +190,7 @@
  },
  {
   "n": "Ohms lov-kalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/ohms-law-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/ohms-law-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Voltage, current, resistance & power from any two values — the full Ohm's law wheel.",
   "k": "ohms lov kalkulator ohms lov kalkulator ohms lov kalkulator calculator construction voltage current resistance power from any two values the full ohm s law wheel",
@@ -199,7 +199,7 @@
  },
  {
   "n": "Spenningsfallkalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/voltage-drop-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/voltage-drop-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Volts & % dropped over a cable run, mm² or AWG, single & three-phase.",
   "k": "spenningsfallkalkulator spenningsfallkalkulator spenningsfallkalkulator calculator construction volts dropped over a cable run mm2 or awg single three phase",
@@ -208,7 +208,7 @@
  },
  {
   "n": "Ledningsstørrelseskalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/wire-size-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/wire-size-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Minimum cable size in mm² + standard size & AWG from your drop limit.",
   "k": "ledningsst rrelseskalkulator ledningsst rrelseskalkulator ledningsst rrelseskalkulator calculator construction minimum cable size in mm2 standard size awg from your drop limit",
@@ -217,7 +217,7 @@
  },
  {
   "n": "Strømkostnadskalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/electricity-cost-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/electricity-cost-calculator/",
   "s": "Loona Construction Calculators",
   "d": "What an appliance costs per day, month & year from watts & price per kWh.",
   "k": "str mkostnadskalkulator str mkostnadskalkulator str mkostnadskalkulator calculator construction what an appliance costs per day month year from watts price per kwh",
@@ -226,7 +226,7 @@
  },
  {
   "n": "Kalkulator for ampere til watt",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/amps-to-watts-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/amps-to-watts-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Watts & kW from amps and volts — DC, single-phase & three-phase with power factor.",
   "k": "kalkulator for ampere til watt kalkulator for ampere til watt kalkulator for ampere til watt calculator construction watts kw from amps and volts dc single phase three phase with power factor",
@@ -235,7 +235,7 @@
  },
  {
   "n": "Kalkulator for watt til ampere",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/watts-to-amps-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/watts-to-amps-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Amps from watts and volts for breaker & cable checks — DC, single & three-phase.",
   "k": "kalkulator for watt til ampere kalkulator for watt til ampere kalkulator for watt til ampere calculator construction amps from watts and volts for breaker cable checks dc single three phase",
@@ -244,7 +244,7 @@
  },
  {
   "n": "Kalkulator for kVA til ampere",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/kva-to-amps-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/kva-to-amps-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Generator & transformer kVA to full-load amps, and amps back to kVA, single & three-phase.",
   "k": "kalkulator for kva til ampere kalkulator for kva til ampere kalkulator for kva til ampere calculator construction generator transformer kva to full load amps and amps back to kva single three phase",
@@ -253,7 +253,7 @@
  },
  {
   "n": "Effektfaktorkalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/power-factor-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/power-factor-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Power factor, kvar & phase angle from kW and kVA, plus correction capacitor size.",
   "k": "effektfaktorkalkulator effektfaktorkalkulator effektfaktorkalkulator calculator construction power factor kvar phase angle from kw and kva plus correction capacitor size",
@@ -262,7 +262,7 @@
  },
  {
   "n": "Batteridriftstidskalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/battery-runtime-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/battery-runtime-calculator/",
   "s": "Loona Construction Calculators",
   "d": "How long a battery runs a load — Ah, usable Wh, depth of discharge & inverter losses counted.",
   "k": "batteridriftstidskalkulator batteridriftstidskalkulator batteridriftstidskalkulator calculator construction how long a battery runs a load ah usable wh depth of discharge inverter losses counted",
@@ -271,7 +271,7 @@
  },
  {
   "n": "LED-motstandskalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/led-resistor-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/led-resistor-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Series resistor in ohms, nearest standard E12 value, actual current & wattage.",
   "k": "led motstandskalkulator led motstandskalkulator led motstandskalkulator calculator construction series resistor in ohms nearest standard e12 value actual current wattage",
@@ -280,7 +280,7 @@
  },
  {
   "n": "Trefaseeffektkalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/three-phase-power-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/three-phase-power-calculator/",
   "s": "Loona Construction Calculators",
   "d": "kW, kVA & kvar from line voltage, line current & power factor for balanced loads.",
   "k": "trefaseeffektkalkulator trefaseeffektkalkulator trefaseeffektkalkulator calculator construction kw kva kvar from line voltage line current power factor for balanced loads",
@@ -289,7 +289,7 @@
  },
  {
   "n": "Motorstrømkalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/motor-current-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/motor-current-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Estimated full-load amps from motor kW or hp, efficiency & power factor.",
   "k": "motorstr mkalkulator motorstr mkalkulator motorstr mkalkulator calculator construction estimated full load amps from motor kw or hp efficiency power factor",
@@ -298,7 +298,7 @@
  },
  {
   "n": "Motstandsfargekodekalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/resistor-colour-code-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/resistor-colour-code-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Read 4, 5 & 6-band resistor colours to ohms & tolerance — or turn a value back into bands.",
   "k": "motstandsfargekodekalkulator motstandsfargekodekalkulator motstandsfargekodekalkulator calculator construction read 4 5 6 band resistor colours to ohms tolerance or turn a value back into bands",
@@ -307,7 +307,7 @@
  },
  {
   "n": "555 Timer-kalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/555-timer-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/555-timer-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Astable frequency & duty cycle and monostable pulse width from R and C.",
   "k": "555 timer kalkulator 555 timer kalkulator 555 timer kalkulator calculator construction astable frequency duty cycle and monostable pulse width from r and c",
@@ -316,7 +316,7 @@
  },
  {
   "n": "AWG-omregner",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/awg-converter/",
+  "u": "https://construction.loonaautomation.com/nb/awg-converter/",
   "s": "Loona Construction Calculators",
   "d": "AWG to mm, mm² and resistance per km for copper & aluminium — and back from mm² or diameter.",
   "k": "awg omregner awg omregner awg omregner calculator construction awg to mm mm2 and resistance per km for copper aluminium and back from mm2 or diameter",
@@ -325,7 +325,7 @@
  },
  {
   "n": "Reaktanskalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/reactance-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/reactance-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Capacitive & inductive reactance in ohms, plus LC resonant frequency.",
   "k": "reaktanskalkulator reaktanskalkulator reaktanskalkulator calculator construction capacitive inductive reactance in ohms plus lc resonant frequency",
@@ -334,7 +334,7 @@
  },
  {
   "n": "dB-omregner",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/db-converter/",
+  "u": "https://construction.loonaautomation.com/nb/db-converter/",
   "s": "Loona Construction Calculators",
   "d": "Power & voltage ratios to decibels, dBm to milliwatts & watts and back.",
   "k": "db omregner db omregner db omregner calculator construction power voltage ratios to decibels dbm to milliwatts watts and back",
@@ -343,7 +343,7 @@
  },
  {
   "n": "Kvadratmeterkalkulator",
-  "u": "https://loonaautomation.github.io/loona-construction-calculators/nb/square-footage-calculator/",
+  "u": "https://construction.loonaautomation.com/nb/square-footage-calculator/",
   "s": "Loona Construction Calculators",
   "d": "Samlet areal i sq ft, sq m, sq yd & acres for ett eller mange rom, med kostnadsoverslag.",
   "k": "kvadratmeterkalkulator kvadratmeterkalkulator kvadratmeterkalkulator calculator construction samlet areal i sq ft, sq m, sq yd & acres for ett eller mange rom, med kostnadsoverslag.",

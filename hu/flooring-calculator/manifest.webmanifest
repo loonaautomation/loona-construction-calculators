@@ -2,7 +2,7 @@
   "name": "Loona Flooring Calculator",
   "short_name": "Flooring Calculator",
   "description": "Ingyenes padlóburkolat-kalkulátor: helyiségméret és dobozfedés metrikus vagy angolszász mértékegységben — megkapja a megvásárolandó laminált, vinil vagy mérnöki fa dobozok számát, a vágási hulladékráhagyással együtt.",
-  "id": "/loona-construction-calculators/hu/flooring-calculator/",
+  "id": "/hu/flooring-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

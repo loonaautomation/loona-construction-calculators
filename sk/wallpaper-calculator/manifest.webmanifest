@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Bezplatná kalkulačka tapiet: veľkosť miestnosti v metrických alebo imperiálnych jednotkách, európske alebo americké dvojrolky, povolené opakovanie vzoru — získajte presný počet roliek tapiet na kúpu vrátane odpadu.",
-  "id": "/loona-construction-calculators/sk/wallpaper-calculator/",
+  "id": "/sk/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

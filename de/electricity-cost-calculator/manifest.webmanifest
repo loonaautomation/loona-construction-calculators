@@ -2,7 +2,7 @@
   "name": "Loona Electricity Cost Calculator",
   "short_name": "Electricity Cost Calculator",
   "description": "Kostenloser Stromkosten-Rechner: Geräte-Watt (oder Ampere × Volt), Stunden pro Tag, Tage pro Monat und Preis pro kWh ergeben verbrauchte kWh und Kosten pro Tag, Monat und Jahr — in jeder Währung.",
-  "id": "/loona-construction-calculators/de/electricity-cost-calculator/",
+  "id": "/de/electricity-cost-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Calculator",
   "short_name": "Roof Pitch Calculator",
   "description": "Bezplatná kalkulačka sklonu střechy: zadejte zdvih a průmět v libovolné jednotce — získáte sklon jako poměr (x z 12), úhel ve stupních, procentuální spád a délku krokve. Funguje pro metrická i imperiální měření.",
-  "id": "/loona-construction-calculators/cs/roof-pitch-calculator/",
+  "id": "/cs/roof-pitch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

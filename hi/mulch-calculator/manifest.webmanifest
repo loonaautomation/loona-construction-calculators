@@ -2,7 +2,7 @@
   "name": "Loona Mulch Calculator",
   "short_name": "Mulch Calculator",
   "description": "मुफ़्त मल्च कैलकुलेटर: मीट्रिक या इंपीरियल में क्यारी क्षेत्र और गहराई — मल्च मात्रा, 40/50 लीटर या 2/3 घन-फुट बैगों की संख्या, और खुली घन मीटर और गज पाएँ।",
-  "id": "/loona-construction-calculators/hi/mulch-calculator/",
+  "id": "/hi/mulch-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Motor Current Calculator",
   "short_name": "Motor Current Calculator",
   "description": "무료 모터 전류 계산기: 모터 출력을 kW나 마력으로, 전압, 단상이나 삼상, 효율, 역률을 입력하면 추정한 전부하 전류를 알려 줘요. 명판과 규정에 대한 솔직한 주의 사항이 함께 있어요.",
-  "id": "/loona-construction-calculators/ko/motor-current-calculator/",
+  "id": "/ko/motor-current-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

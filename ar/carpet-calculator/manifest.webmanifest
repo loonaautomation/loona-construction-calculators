@@ -2,7 +2,7 @@
   "name": "Loona Carpet Calculator",
   "short_name": "Carpet Calculator",
   "description": "حاسبة سجاد مجانية: مقاس الغرفة وعرض لفة السجاد بالمتري أو الإمبراطوري يعطيانك الطول الخطي ومساحة السجاد التي تشتريها فعليًا (قصاصات اللفة مشمولة)، بالإضافة إلى تكلفة اختيارية — مع بدل فاقد.",
-  "id": "/loona-construction-calculators/ar/carpet-calculator/",
+  "id": "/ar/carpet-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

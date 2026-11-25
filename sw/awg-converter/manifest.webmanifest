@@ -2,7 +2,7 @@
   "name": "Loona AWG Converter",
   "short_name": "AWG Converter",
   "description": "Kibadilishaji cha bure cha AWG: geji ya AWG hadi kipenyo kwa mm na inchi, eneo la msalaba kwa mm² na ukinzani kwa kilomita kwa shaba na alumini — au tafuta AWG ya karibu zaidi kutoka mm² au kipenyo.",
-  "id": "/loona-construction-calculators/sw/awg-converter/",
+  "id": "/sw/awg-converter/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

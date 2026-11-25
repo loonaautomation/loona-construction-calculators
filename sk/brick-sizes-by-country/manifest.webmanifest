@@ -2,7 +2,7 @@
   "name": "Loona Brick Sizes by Country",
   "short_name": "Brick Sizes by Country",
   "description": "Štandardné veľkosti tehál vo Spojenom kráľovstve, USA, Indii, Pakistane, Austrálii, Nemecku a Južnej Afrike — rozmery a tehly na štvorcový meter porovnané.",
-  "id": "/loona-construction-calculators/sk/brick-sizes-by-country/",
+  "id": "/sk/brick-sizes-by-country/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

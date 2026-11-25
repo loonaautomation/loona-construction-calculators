@@ -2,7 +2,7 @@
   "name": "Loona Battery Runtime Calculator",
   "short_name": "Battery Runtime Calculator",
   "description": "Darmowy kalkulator czasu pracy baterii: wolty i amperogodziny baterii, waty obciążenia, głębokość rozładowania i sprawność falownika dają użyteczne watogodziny i czas pracy w godzinach — do planowania instalacji solarnych, UPS i off-grid.",
-  "id": "/loona-construction-calculators/pl/battery-runtime-calculator/",
+  "id": "/pl/battery-runtime-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in Pakistan",
   "short_name": "Brick Size in Pakistan",
   "description": "Standardowy rozmiar cegły w Pakistanie: 228 × 107 × 69 mm. 53.2 cegieł na m² (4.94 na sq ft) ściany jednowarstwowej przy fugach zaprawy 10 mm, pokrycie na 1,000 cegieł i przykład obliczeniowy ściany.",
-  "id": "/loona-construction-calculators/pl/brick-size-pakistan/",
+  "id": "/pl/brick-size-pakistan/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

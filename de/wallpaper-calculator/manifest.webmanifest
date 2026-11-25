@@ -2,7 +2,7 @@
   "name": "Loona Wallpaper Calculator",
   "short_name": "Wallpaper Calculator",
   "description": "Kostenloser Tapeten-Rechner: Raumgröße in metrisch oder imperial, europäische oder US-Doppelrollen, Rapport berücksichtigt — erhalten Sie die exakte Anzahl zu kaufender Tapetenrollen, Verschnitt inklusive.",
-  "id": "/loona-construction-calculators/de/wallpaper-calculator/",
+  "id": "/de/wallpaper-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

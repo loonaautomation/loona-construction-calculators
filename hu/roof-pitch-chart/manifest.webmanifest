@@ -2,7 +2,7 @@
   "name": "Loona Roof Pitch Chart",
   "short_name": "Roof Pitch Chart",
   "description": "Teljes tetőhajlás-táblázat: 1/12-től 12/12-ig szögekkel, lejtésekkel és szarufa-szorzókkal, minden hajláshoz saját útmutatóoldal.",
-  "id": "/loona-construction-calculators/hu/roof-pitch-chart/",
+  "id": "/hu/roof-pitch-chart/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

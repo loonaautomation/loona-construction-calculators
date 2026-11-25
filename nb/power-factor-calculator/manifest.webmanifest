@@ -2,7 +2,7 @@
   "name": "Loona Power Factor Calculator",
   "short_name": "Power Factor Calculator",
   "description": "Gratis effektfaktorkalkulator: virkelig effekt (kW) og tilsynelatende effekt (kVA) gir effektfaktor, reaktiv effekt i kvar, fasevinkel — og kondensator-kvar som trengs for å korrigere til en mål-PF.",
-  "id": "/loona-construction-calculators/nb/power-factor-calculator/",
+  "id": "/nb/power-factor-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

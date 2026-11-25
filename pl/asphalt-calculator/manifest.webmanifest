@@ -2,7 +2,7 @@
   "name": "Loona Asphalt Calculator",
   "short_name": "Asphalt Calculator",
   "description": "Darmowy kalkulator asfaltu: wpisz długość, szerokość i grubość w systemie metrycznym lub imperialnym, a otrzymasz masę asfaltu do zamówienia w tonach i tonach amerykańskich, z edytowalną gęstością (2,450 kg/m³ / 145 lb/ft³), zapasem na odpady i opcjonalnym kosztem.",
-  "id": "/loona-construction-calculators/pl/asphalt-calculator/",
+  "id": "/pl/asphalt-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

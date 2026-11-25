@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Gratis staketkalkylator: staketlängd och stolpavstånd i metriskt eller imperial ger dig stolpar, reglar, ribbor (från ribbredd och mellanrum) och betongsäckar — med ett spilltillägg för ribbor.",
-  "id": "/loona-construction-calculators/sv/fence-calculator/",
+  "id": "/sv/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Brick Size in United States (Standard)",
   "short_name": "Brick Size in United States",
   "description": "Szabványos téglaméret az Egyesült Államokban (szabványos): 203 × 92 × 57 mm. 70.8 tégla m²-enként (6.57 négyzetlábonként) egyrétegű falban, 9.5 mm-es habarcsfugákkal, fedés 1,000 téglára és egy kidolgozott falpélda.",
-  "id": "/loona-construction-calculators/hu/brick-size-us-standard/",
+  "id": "/hu/brick-size-us-standard/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

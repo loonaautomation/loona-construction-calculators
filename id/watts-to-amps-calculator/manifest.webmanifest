@@ -2,7 +2,7 @@
   "name": "Loona Watts to Amps Calculator",
   "short_name": "Watts to Amps Calculator",
   "description": "Kalkulator watt ke ampere gratis untuk DC, AC satu fase, dan AC tiga fase: daya, tegangan, dan faktor daya memberikan arus dalam ampere — langkah pertama untuk menentukan ukuran pemutus atau kabel.",
-  "id": "/loona-construction-calculators/id/watts-to-amps-calculator/",
+  "id": "/id/watts-to-amps-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

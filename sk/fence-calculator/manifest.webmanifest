@@ -2,7 +2,7 @@
   "name": "Loona Fence Calculator",
   "short_name": "Fence Calculator",
   "description": "Bezplatná kalkulačka plotu: dĺžka plota a rozstup stĺpikov v metrických alebo imperiálnych jednotkách vám dajú stĺpiky, vodidlá, latky (zo šírky latky a medzery) a vrecia betónu — s rezervou na odpad pre latky.",
-  "id": "/loona-construction-calculators/sk/fence-calculator/",
+  "id": "/sk/fence-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Amps to Watts Calculator",
   "short_name": "Amps to Watts Calculator",
   "description": "Besplatni kalkulator ampera u vate za istosmjernu, izmjeničnu jednofaznu i izmjeničnu trofaznu struju: struja, napon i faktor snage daju vate, kilovate i kVA — s formulama i obrađenim primjerom.",
-  "id": "/loona-construction-calculators/hr/amps-to-watts-calculator/",
+  "id": "/hr/amps-to-watts-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

@@ -2,7 +2,7 @@
   "name": "Loona Solar Panel Calculator",
   "short_name": "Solar Panel Calculator",
   "description": "Kalkulator panel solar percuma: penggunaan elektrik bulanan, jam matahari puncak dan wattan panel memberikan panel yang diperlukan, saiz sistem dalam kW, jangkaan pengeluaran bulanan dan keluasan bumbung — tanpa pendaftaran.",
-  "id": "/loona-construction-calculators/ms/solar-panel-calculator/",
+  "id": "/ms/solar-panel-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

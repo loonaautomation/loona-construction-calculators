@@ -2,7 +2,7 @@
   "name": "Loona Wire Size Calculator",
   "short_name": "Wire Size Calculator",
   "description": "Besplatni kalkulator veličine žice: struja, jednosmjerna duljina, dopušteni % pada napona, napon, bakar ili aluminij, jednofazno ili trofazno — minimalna veličina kabela u mm², najbliža standardna veličina i ekvivalent AWG-a.",
-  "id": "/loona-construction-calculators/hr/wire-size-calculator/",
+  "id": "/hr/wire-size-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

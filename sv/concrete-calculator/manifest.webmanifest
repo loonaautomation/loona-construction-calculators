@@ -2,7 +2,7 @@
   "name": "Loona Concrete Calculator",
   "short_name": "Concrete Calculator",
   "description": "Gratis betongkalkylator: plattlängd, bredd och tjocklek i metriskt eller imperial — få betongvolym i kubikmeter och kubikyard, plus hur många färdigblandade säckar på 20/25 kg eller 60/80 lb du behöver.",
-  "id": "/loona-construction-calculators/sv/concrete-calculator/",
+  "id": "/sv/concrete-calculator/",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",
